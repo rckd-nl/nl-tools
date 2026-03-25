@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-25T15:24:53Z",
+  "generatedAt": "2026-03-25T16:51:10Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3677,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=4fca0739-660e-41d6-96a8-0ed0218dbd02",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=b5cd38ad-f0b7-4c25-ae14-03abf2d5de58",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,60 @@
   ],
   "items": [
     {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "WEALDSTONE ARRANGEMENTS",
+      "url": "https://marinefc.com/wealdstone-arrangements/",
+      "published": "2026-03-25T16:38:24Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Commercial Opportunity: North Stand",
+      "url": "https://worthingfc.com/2026/03/commercial-opportunity-north-stand/",
+      "published": "2026-03-25T15:55:05Z"
+    },
+    {
+      "club": "Salisbury",
+      "code": "SAL",
+      "short": "Salisbury",
+      "domain": "salisburyfc.co.uk",
+      "title": "Wall of White: Non-League Day promotion",
+      "url": "https://salisburyfc.co.uk/2026/03/25/wall-of-white-non-league-day-promotion/",
+      "published": "2026-03-25T15:52:08Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City vs Solihull Moors – Match Preview",
+      "url": "https://trurocity.co.uk/2026/03/truro-city-vs-solihull-moors-match-preview/",
+      "published": "2026-03-25T15:42:42Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Highlights: Hereford 1 Moors 2",
+      "url": "https://spennymoortownfc.co.uk/2026/03/25/highlights-hereford-1-moors-2/",
+      "published": "2026-03-25T15:33:20Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Join us for Harriers Foundation Day!",
+      "url": "https://harriers.co.uk/news/2026/03/25/join-us-for-harriers-foundation-day/",
+      "published": "2026-03-25T15:30:15Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -589,6 +643,15 @@
       "title": "Report: Seagulls lose out in five-goal thriller",
       "url": "https://wsmafc.co.uk/report-seagulls-lose-out-in-five-goal-thriller/",
       "published": "2026-03-25T14:55:56Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "CLUB STATEMENT: WINDING UP PETITION",
+      "url": "https://www.morecambefc.com/news/2026/march/25/club-statement/",
+      "published": "2026-03-25T14:55:00Z"
     },
     {
       "club": "Macclesfield",
@@ -831,6 +894,15 @@
       "domain": "carlisleunited.co.uk",
       "title": "EVERYTHING WE LEARNT FROM REGAN LINNEY: POST FC HALIFAX TOWN (A)",
       "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-regan-linney-post-fc-halifax-town",
+      "published": "2026-03-25T10:00:00Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "KSI TO STREAM DAGENHAM & REDBRIDGE MATCH LIVE FOR FREE ON YOUTUBE IN LANDMARK FIRST",
+      "url": "https://daggers.co.uk/ksi-to-stream-dagenham-redbridge-match-live-for-free-on-youtube-in-landmark-first/",
       "published": "2026-03-25T10:00:00Z"
     },
     {
@@ -1408,78 +1480,6 @@
       "title": "Academy Talent ID Trial Day announced",
       "url": "https://www.hartlepoolunited.co.uk/academy-taled-id-trial-day-announced/",
       "published": "2026-03-24T12:48:17Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Match Preview: Weston-super-Mare (A)",
-      "url": "https://worthingfc.com/2026/03/match-preview-weston-super-mare-a-3/",
-      "published": "2026-03-24T12:40:09Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Preview: Eastleigh v Sutton United",
-      "url": "https://eastleighfc.com/2026/03/preview-eastleigh-v-sutton-united-2/",
-      "published": "2026-03-24T12:36:23Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Marine Fixture Postponed and Rearranged",
-      "url": "https://afcfylde.co.uk/news/2026/march/24/marine-fixture-postponed-and-rearranged-/",
-      "published": "2026-03-24T12:29:00Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Club statement: Training ground secured in a new 10-year lease",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/march/club-statement-training-ground-secured-in-a-new-10-year-lease/",
-      "published": "2026-03-24T12:15:46Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "AWAY DAY BLUES: ALFRETON TOWN",
-      "url": "https://macclesfieldfc.com/latest-news/away-day-blues-alfreton-town/",
-      "published": "2026-03-24T12:00:17Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Tate Campbell on Tamworth",
-      "url": "https://www.fgr.co.uk/news/tate-campbell-on-tamworth-a-2526/",
-      "published": "2026-03-24T12:00:00Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Short sponsor for the 26/27 season",
-      "url": "https://chelmsfordcityfc.com/news/short-sponsor-for-the-26-27-season/",
-      "published": "2026-03-24T12:00:00Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Chatham Town Preview",
-      "url": "https://tonbridgeangels.co.uk/chatham-town-preview/",
-      "published": "2026-03-24T12:00:00Z"
     }
   ]
 }
