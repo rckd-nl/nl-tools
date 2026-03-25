@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-25T20:59:53Z",
+  "generatedAt": "2026-03-25T21:57:27Z",
   "maxItems": 100,
   "sources": [
     {
@@ -129,7 +129,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Southend United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=a555fa3b-e285-460f-b0d8-961bd4e8cb9b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=162d5956-a8e4-44e2-97b8-80bbac2a3b6d",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -329,7 +329,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Peterborough Sports",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Dale Pegged Back Late On",
+      "url": "https://rochdaleafc.co.uk/report-scunthorpe-united-away-250326/",
+      "published": "2026-03-25T21:46:13Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "City in Action – Hemel Hempstead Town (H) – Enterprise National League South",
+      "url": "https://www.bathcityfc.com/city-in-action-hemel-hempstead-town-h-enterprise-national-league-south/",
+      "published": "2026-03-25T21:17:25Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -1462,24 +1480,6 @@
       "title": "Club Shop Opening Hours This Week",
       "url": "https://southportfc.net/club-shop-opening-hours-this-week/",
       "published": "2026-03-24T14:31:04Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "PREVIEW | Hereford FC vs Spennymoor Town",
-      "url": "https://herefordfc.co.uk/2026/03/preview-hereford-fc-vs-spennymoor-town/",
-      "published": "2026-03-24T14:25:04Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Way Joins Coaching Staff",
-      "url": "https://torquayunited.com/way-joins-coaching-staff/",
-      "published": "2026-03-24T14:18:02Z"
     }
   ]
 }
