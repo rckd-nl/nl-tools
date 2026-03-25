@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-25T16:51:10Z",
+  "generatedAt": "2026-03-25T18:13:21Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3677,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=b5cd38ad-f0b7-4c25-ae14-03abf2d5de58",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=79c27a53-6e64-4c67-b82a-b3cb5601ba4b",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,60 @@
     }
   ],
   "items": [
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SILKMEN FAN CAM: ALFRETON (A)",
+      "url": "https://macclesfieldfc.com/galleries/silkmen-fan-cam-alfreton-a/",
+      "published": "2026-03-25T18:00:07Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Match Report: Worthing FC U18s 3-3 Eastbourne Borough U18s",
+      "url": "https://worthingfc.com/2026/03/match-report-worthing-fc-u18s-3-3-eastbourne-borough-u18s/",
+      "published": "2026-03-25T17:52:46Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "The Coasters Show: Epsiode Three Now Live!",
+      "url": "https://afcfylde.co.uk/news/2026/march/25/the-coasters-show--epsiode-three-now-live-/",
+      "published": "2026-03-25T17:13:53Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "MATCH REPORT: ALFRETON TOWN 0-2 MACCLESFIELD FC",
+      "url": "https://macclesfieldfc.com/latest-news/match-report-alfreton-town-0-2-macclesfield-fc/",
+      "published": "2026-03-25T17:00:33Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Boys’ Elite Scholarship 2026/2027 Trials available to sign up for",
+      "url": "https://wsmafc.co.uk/boys-elite-scholarship-2026-2027-trials-available-to-sign-up-for/",
+      "published": "2026-03-25T17:00:14Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "THE GAFFER'S PROGRAMME NOTES: HARTLEPOOL UNITED (H)",
+      "url": "https://www.morecambefc.com/news/2026/march/25/the-gaffer-s-programme-notes--hartlepool-united--h-/",
+      "published": "2026-03-25T17:00:00Z"
+    },
     {
       "club": "Marine",
       "code": "MAR",
@@ -1426,60 +1480,6 @@
       "title": "MATCH PREVIEW: ALFRETON TOWN VS MACCLESFIELD FC",
       "url": "https://macclesfieldfc.com/latest-news/match-preview-alfreton-town-vs-macclesfield-fc/",
       "published": "2026-03-24T14:00:28Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Sheppey United U23s",
-      "url": "https://maidstoneunited.co.uk/03/24/key-info-sheppey-united-u23s-2/",
-      "published": "2026-03-24T14:00:19Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Sutton United vs Truro City – Match Gallery",
-      "url": "https://trurocity.co.uk/2026/03/sutton-united-vs-truro-city-match-gallery/",
-      "published": "2026-03-24T13:46:14Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Recap: Senior Blues visit Hill Dickinson Stadium",
-      "url": "https://chesterfc.com/03/24/recap-senior-blues-visit-hill-dickinson-stadium/",
-      "published": "2026-03-24T13:45:46Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "PROGRAMME | Hereford FC vs Spennymoor Town",
-      "url": "https://herefordfc.co.uk/2026/03/programme-hereford-fc-vs-spennymoor-town/",
-      "published": "2026-03-24T13:42:20Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Ticket Information: Maidstone United (A)",
-      "url": "https://hornchurchfc.com/ticket-information-maidstone-united-a/",
-      "published": "2026-03-24T12:50:09Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Academy Talent ID Trial Day announced",
-      "url": "https://www.hartlepoolunited.co.uk/academy-taled-id-trial-day-announced/",
-      "published": "2026-03-24T12:48:17Z"
     }
   ]
 }
