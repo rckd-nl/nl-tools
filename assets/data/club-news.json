@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-25T08:33:47Z",
+  "generatedAt": "2026-03-25T09:49:50Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3677,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=22212d4e-1290-4467-bbe9-29fcf7c5adc8",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=d8692d2b-5ad1-4a95-9bad-416dd5db2ae6",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -545,7 +545,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ReadTimeout: HTTPSConnectionPool(host='sloughtownfc.net', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Tonbridge Angels",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "John Rooney after Alfreton victory",
+      "url": "https://macclesfieldfc.com/latest-news/john-rooney-after-alfreton-victory/",
+      "published": "2026-03-25T09:33:43Z"
+    },
     {
       "club": "Dover Athletic",
       "code": "DOV",
@@ -730,7 +739,7 @@
       "code": "BAT",
       "short": "Bath",
       "domain": "bathcityfc.com",
-      "title": "New Moon fails to rise as City suffer Hemel defeat",
+      "title": "New Moon fails to shine as City beaten by high-flying Hemel",
       "url": "https://www.bathcityfc.com/new-moon-fails-to-rise-as-city-suffer-hemel-defeat/",
       "published": "2026-03-24T23:10:15Z"
     },
@@ -847,7 +856,7 @@
       "code": "HRS",
       "short": "Horsham",
       "domain": "horshamfc.co.uk",
-      "title": "Horsham groundshare with Boars in 2026-27",
+      "title": "Boars to groundshare with Horsham in 2026-27",
       "url": "https://www.horshamfc.co.uk/2026/03/24/horsham-groundshare-with-boars-in-2026-27/",
       "published": "2026-03-24T19:00:03Z"
     },
@@ -1176,15 +1185,6 @@
       "published": "2026-03-24T12:00:17Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Tate Campbell on Tamworth",
-      "url": "https://www.fgr.co.uk/news/tate-campbell-on-tamworth-a-2526/",
-      "published": "2026-03-24T12:00:00Z"
-    },
-    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -1302,15 +1302,6 @@
       "published": "2026-03-24T10:20:14Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Savage pre Tamworth (A)",
-      "url": "https://www.fgr.co.uk/news/savage-pre-tamworth-a-2526/",
-      "published": "2026-03-24T10:00:00Z"
-    },
-    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -1401,15 +1392,6 @@
       "published": "2026-03-24T00:39:00Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Preview | Tamworth (A)",
-      "url": "https://www.fgr.co.uk/news/preview-tamworth-a-2526/",
-      "published": "2026-03-24T00:00:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1473,13 +1455,31 @@
       "published": "2026-03-23T18:42:43Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Youth Tournament 2026",
-      "url": "https://www.fgr.co.uk/news/youth-tournament-2026/",
-      "published": "2026-03-23T18:30:00Z"
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Tom Dryer Signs Professional Contract",
+      "url": "https://wokingfc.co.uk/03/23/tom-dryer-signs-professional-contract/",
+      "published": "2026-03-23T18:29:42Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Official: Moore joins the Spitfires",
+      "url": "https://eastleighfc.com/2026/03/official-moore-joins-the-spitfires/",
+      "published": "2026-03-23T18:29:41Z"
+    },
+    {
+      "club": "Alfreton Town",
+      "code": "ALF",
+      "short": "Alfreton",
+      "domain": "alfretontownfootballclub.com",
+      "title": "Match Preview: Alfreton Town v Macclesfield FC",
+      "url": "https://alfretontownfootballclub.com/2026/03/23/match-preview-alfreton-town-v-macclesfield-fc/",
+      "published": "2026-03-23T18:05:03Z"
     }
   ]
 }
