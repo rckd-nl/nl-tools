@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-25T19:16:10Z",
+  "generatedAt": "2026-03-25T19:57:59Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3677,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=d6a04e3f-7d04-4ddf-859f-c2019b58c58b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=770e5788-86a1-4aab-8c4b-d8fe2ab8f8ed",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Match Highlights: WsM AFC 2 – 3 Worthing",
+      "url": "https://wsmafc.co.uk/match-highlights-wsm-afc-2-3-worthing/",
+      "published": "2026-03-25T19:45:11Z"
+    },
     {
       "club": "Woking",
       "code": "WOK",
@@ -1471,15 +1480,6 @@
       "title": "Way Joins Coaching Staff",
       "url": "https://torquayunited.com/way-joins-coaching-staff/",
       "published": "2026-03-24T14:18:02Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Welcome Festus Arthur",
-      "url": "https://harriers.co.uk/news/2026/03/24/welcome-festus-arthur/",
-      "published": "2026-03-24T14:15:37Z"
     }
   ]
 }
