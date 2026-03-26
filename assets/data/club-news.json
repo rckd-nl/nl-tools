@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-26T05:30:08Z",
+  "generatedAt": "2026-03-26T06:52:54Z",
   "maxItems": 100,
   "sources": [
     {
@@ -14,10 +14,10 @@
     {
       "club": "Altrincham",
       "domain": "altrinchamfc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://altrinchamfc.com/blogs/news.atom",
+      "ok": true,
+      "count": 30,
+      "error": ""
     },
     {
       "club": "Boreham Wood",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=d233c903-3a94-4655-bf47-77b42446088a",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=c62e338d-aa9d-4c06-ae3c-f4cd82193d80",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
+      "feed": "https://daggers.co.uk/news/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -1041,6 +1041,15 @@
       "published": "2026-03-25T12:35:00Z"
     },
     {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "On the road in March",
+      "url": "https://altrinchamfc.com/blogs/news/on-the-road-in-march",
+      "published": "2026-03-25T12:29:02Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1095,6 +1104,15 @@
       "published": "2026-03-25T10:45:00Z"
     },
     {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Alty TV Away Shorts | Boston United 2 Alty 2",
+      "url": "https://altrinchamfc.com/blogs/news/alty-tv-away-shorts-boston-united-2-alty-2",
+      "published": "2026-03-25T10:24:12Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1119,15 +1137,6 @@
       "domain": "carlisleunited.co.uk",
       "title": "EVERYTHING WE LEARNT FROM REGAN LINNEY: POST FC HALIFAX TOWN (A)",
       "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-regan-linney-post-fc-halifax-town",
-      "published": "2026-03-25T10:00:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "KSI TO STREAM DAGENHAM & REDBRIDGE MATCH LIVE FOR FREE ON YOUTUBE IN LANDMARK FIRST",
-      "url": "https://daggers.co.uk/ksi-to-stream-dagenham-redbridge-match-live-for-free-on-youtube-in-landmark-first/",
       "published": "2026-03-25T10:00:00Z"
     },
     {
@@ -1275,6 +1284,15 @@
       "published": "2026-03-24T23:27:25Z"
     },
     {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Alty TV Post-Match | Boston United",
+      "url": "https://altrinchamfc.com/blogs/news/alty-tv-post-match-boston-united",
+      "published": "2026-03-24T23:21:45Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1327,6 +1345,15 @@
       "title": "Watch: Richard Hill Post-Sutton Defeat",
       "url": "https://eastleighfc.com/2026/03/watch-richard-hill-post-sutton-defeat/",
       "published": "2026-03-24T22:30:07Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Anguish for Alty as victory is snatched away by last-gasp leveller",
+      "url": "https://altrinchamfc.com/blogs/news/matchday-39-boston-united",
+      "published": "2026-03-24T22:25:12Z"
     },
     {
       "club": "Torquay United",
@@ -1453,33 +1480,6 @@
       "title": "Spurs fans can watch CCFC for just £1",
       "url": "https://chelmsfordcityfc.com/news/spurs-fans-can-watch-ccfc-for-just-1/",
       "published": "2026-03-24T18:00:00Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Match preview: Aldershot Town (A)",
-      "url": "https://www.borehamwoodfootballclub.co.uk/match-preview-aldershot-town-a-6/",
-      "published": "2026-03-24T17:04:08Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Preview: Woking (H)",
-      "url": "https://southendunited.co.uk/news/2026/march/24/preview--woking--h-/",
-      "published": "2026-03-24T16:49:16Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Clubhouse closed for part of this week",
-      "url": "https://wsmafc.co.uk/clubhouse-closed-for-part-of-this-week/",
-      "published": "2026-03-24T16:00:54Z"
     }
   ]
 }
