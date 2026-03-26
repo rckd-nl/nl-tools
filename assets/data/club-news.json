@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-26T17:51:15Z",
+  "generatedAt": "2026-03-26T18:46:32Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3680,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=730fa795-6215-4aac-b326-0e05692dd7d7",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=da72dc6a-1968-46cf-b755-9ac4e8a1fde1",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
+      "feed": "https://daggers.co.uk/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Rhys Murphy Joins Farnham Town on Loan",
+      "url": "https://www.horshamfc.co.uk/2026/03/26/rhys-murphy-joins-farnham-town-on-loan/",
+      "published": "2026-03-26T18:00:14Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Declan Howe recalled by Scunthorpe",
+      "url": "https://altrinchamfc.com/blogs/news/declan-howe-recalled-by-scunthorpe",
+      "published": "2026-03-26T17:59:01Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -622,8 +640,8 @@
       "code": "FAB",
       "short": "Farnborough",
       "domain": "farnboroughfc.co.uk",
-      "title": "Closest to the Centre Circle Challenge",
-      "url": "https://farnboroughfc.co.uk/2026/03/closest-to-the-centre-circle-challenge/",
+      "title": "Closest to the Centre Spot Challenge",
+      "url": "https://farnboroughfc.co.uk/2026/03/closest-to-the-centre-spot-challenge/",
       "published": "2026-03-26T17:00:31Z"
     },
     {
@@ -1077,6 +1095,15 @@
       "published": "2026-03-26T09:30:00Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Club Shop Open this Afternoon",
+      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-41/",
+      "published": "2026-03-26T09:00:00Z"
+    },
+    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -1158,6 +1185,15 @@
       "published": "2026-03-26T00:31:10Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report | Tamworth 1-0 Forest Green Rovers",
+      "url": "https://www.fgr.co.uk/news/match-report-tamworth-1-0-forest-green-rovers-2526/",
+      "published": "2026-03-26T00:00:00Z"
+    },
+    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -1167,6 +1203,15 @@
       "published": "2026-03-25T23:35:19Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Laurent Mendy post Tamworth",
+      "url": "https://www.fgr.co.uk/news/laurent-mendy-post-tamworth-2526/",
+      "published": "2026-03-25T23:10:00Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1174,6 +1219,15 @@
       "title": "Press: Kevin Maher Looks Back On Woking Point",
       "url": "https://southendunited.co.uk/news/2026/march/25/press--kevin-maher-looks-back-on-woking-point/",
       "published": "2026-03-25T23:07:23Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Robbie Savage on Tamworth Defeat",
+      "url": "https://www.fgr.co.uk/news/robbie-savage-on-tamworth-defeat-2526/",
+      "published": "2026-03-25T23:00:00Z"
     },
     {
       "club": "Woking",
@@ -1426,60 +1480,6 @@
       "title": "Join us for Harriers Foundation Day!",
       "url": "https://harriers.co.uk/news/2026/03/25/join-us-for-harriers-foundation-day/",
       "published": "2026-03-25T15:30:15Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Report: Seagulls lose out in five-goal thriller",
-      "url": "https://wsmafc.co.uk/report-seagulls-lose-out-in-five-goal-thriller/",
-      "published": "2026-03-25T14:55:56Z"
-    },
-    {
-      "club": "Morecambe",
-      "code": "MOR",
-      "short": "Morecambe",
-      "domain": "morecambefc.com",
-      "title": "CLUB STATEMENT: WINDING UP PETITION",
-      "url": "https://www.morecambefc.com/news/2026/march/25/club-statement/",
-      "published": "2026-03-25T14:55:00Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "Isaac Buckley-Ricketts after Alfreton victory",
-      "url": "https://macclesfieldfc.com/latest-news/isaac-buckley-ricketts-after-alfreton-victory/",
-      "published": "2026-03-25T14:45:05Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Report: Chesham United (A)",
-      "url": "https://hornchurchfc.com/3340-2/",
-      "published": "2026-03-25T14:33:55Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "VACANCY: CLEANERS",
-      "url": "https://www.carlisleunited.co.uk/news/vacancy-cleaners",
-      "published": "2026-03-25T14:12:04Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Love-Holmes Returns to Truro City",
-      "url": "https://trurocity.co.uk/2026/03/love-holmes-returns-to-truro-city/",
-      "published": "2026-03-25T13:57:18Z"
     }
   ]
 }
