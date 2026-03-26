@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-26T18:46:32Z",
+  "generatedAt": "2026-03-26T19:46:13Z",
   "maxItems": 100,
   "sources": [
     {
@@ -110,10 +110,10 @@
     {
       "club": "Rochdale",
       "domain": "rochdaleafc.co.uk",
-      "feed": "https://rochdaleafc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Scunthorpe United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=da72dc6a-1968-46cf-b755-9ac4e8a1fde1",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=302f4db6-9354-4237-9b5a-a29e550a214f",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -310,10 +310,10 @@
     {
       "club": "Marine",
       "domain": "marinefc.com",
-      "feed": "https://marinefc.com/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Merthyr Town",
@@ -582,6 +582,42 @@
   ],
   "items": [
     {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Stewart Yetton Post Solihull Moors (h)",
+      "url": "https://trurocity.co.uk/2026/03/stewart-yetton-post-solihull-moors-h/",
+      "published": "2026-03-26T19:43:05Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Alex Wilkie signs on loan",
+      "url": "https://chippenhamtown.com/alex-wilkie-signs-on-loan/",
+      "published": "2026-03-26T19:00:00Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Official: Waite departs",
+      "url": "https://eastleighfc.com/2026/03/official-waite-departs/",
+      "published": "2026-03-26T18:59:29Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: AFC Totton",
+      "url": "https://maidstoneunited.co.uk/03/26/key-info-afc-totton-2/",
+      "published": "2026-03-26T18:00:59Z"
+    },
+    {
       "club": "Horsham",
       "code": "HRS",
       "short": "Horsham",
@@ -834,15 +870,6 @@
       "published": "2026-03-26T14:03:29Z"
     },
     {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "Charlie Booth joins Marine on emergency loan",
-      "url": "https://marinefc.com/charlie-booth-joins-marine-on-emergency-loan/",
-      "published": "2026-03-26T14:00:00Z"
-    },
-    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1077,15 +1104,6 @@
       "published": "2026-03-26T09:51:07Z"
     },
     {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Get Your Tickets For Sutton Trip",
-      "url": "https://rochdaleafc.co.uk/ticket-news-sutton-united-away-280326/",
-      "published": "2026-03-26T09:36:00Z"
-    },
-    {
       "club": "Morecambe",
       "code": "MOR",
       "short": "Morecambe",
@@ -1102,24 +1120,6 @@
       "title": "Club Shop Open this Afternoon",
       "url": "https://daggers.co.uk/club-shop-open-this-afternoon-41/",
       "published": "2026-03-26T09:00:00Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Watch Sutton Away At The COA",
-      "url": "https://rochdaleafc.co.uk/watch-our-next-two-away-games-at-the-coa/",
-      "published": "2026-03-26T08:39:00Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Highlights | Scunthorpe United 2-2 Dale",
-      "url": "https://rochdaleafc.co.uk/highlights-scunthorpe-united-2-2-dale/",
-      "published": "2026-03-26T08:34:15Z"
     },
     {
       "club": "Spennymoor Town",
@@ -1257,33 +1257,6 @@
       "published": "2026-03-25T22:55:18Z"
     },
     {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Forever Dale Results – 25th Mar 2026",
-      "url": "https://nycdaweeklydraw.co.uk/foreverdale/winners.php?date=20260325",
-      "published": "2026-03-25T22:48:00Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "At Home On Good Friday",
-      "url": "https://rochdaleafc.co.uk/ticket-news-morecambe-home-030426/",
-      "published": "2026-03-25T22:47:28Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Jimmy McNulty After Scunthorpe Draw",
-      "url": "https://rochdaleafc.co.uk/jimmy-mcnulty-after-scunthorpe-draw/",
-      "published": "2026-03-25T22:46:31Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1309,15 +1282,6 @@
       "title": "MATCH REPORT: MORECAMBE 2 - 3 HARTLEPOOL UNITED",
       "url": "https://www.morecambefc.com/news/2026/march/25/match-report--morecambe-2-3-hartlepool-united/",
       "published": "2026-03-25T22:00:00Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Dale Pegged Back Late On",
-      "url": "https://rochdaleafc.co.uk/report-scunthorpe-united-away-250326/",
-      "published": "2026-03-25T21:46:13Z"
     },
     {
       "club": "Bath City",
@@ -1354,15 +1318,6 @@
       "title": "Gallery: Weston-super-Mare 2-3 Worthing FC",
       "url": "https://worthingfc.com/2026/03/gallery-weston-super-mare-2-3-worthing-fc/",
       "published": "2026-03-25T18:44:41Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Dale Loan In Winterbottom",
-      "url": "https://rochdaleafc.co.uk/dale-loan-in-winterbottom/",
-      "published": "2026-03-25T18:28:06Z"
     },
     {
       "club": "Macclesfield",
@@ -1428,15 +1383,6 @@
       "published": "2026-03-25T17:00:00Z"
     },
     {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "WEALDSTONE ARRANGEMENTS",
-      "url": "https://marinefc.com/wealdstone-arrangements/",
-      "published": "2026-03-25T16:38:24Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1480,6 +1426,60 @@
       "title": "Join us for Harriers Foundation Day!",
       "url": "https://harriers.co.uk/news/2026/03/25/join-us-for-harriers-foundation-day/",
       "published": "2026-03-25T15:30:15Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Report: Seagulls lose out in five-goal thriller",
+      "url": "https://wsmafc.co.uk/report-seagulls-lose-out-in-five-goal-thriller/",
+      "published": "2026-03-25T14:55:56Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "CLUB STATEMENT: WINDING UP PETITION",
+      "url": "https://www.morecambefc.com/news/2026/march/25/club-statement/",
+      "published": "2026-03-25T14:55:00Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "Isaac Buckley-Ricketts after Alfreton victory",
+      "url": "https://macclesfieldfc.com/latest-news/isaac-buckley-ricketts-after-alfreton-victory/",
+      "published": "2026-03-25T14:45:05Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Report: Chesham United (A)",
+      "url": "https://hornchurchfc.com/3340-2/",
+      "published": "2026-03-25T14:33:55Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "VACANCY: CLEANERS",
+      "url": "https://www.carlisleunited.co.uk/news/vacancy-cleaners",
+      "published": "2026-03-25T14:12:04Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Love-Holmes Returns to Truro City",
+      "url": "https://trurocity.co.uk/2026/03/love-holmes-returns-to-truro-city/",
+      "published": "2026-03-25T13:57:18Z"
     }
   ]
 }
