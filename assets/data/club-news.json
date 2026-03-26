@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-26T06:52:54Z",
+  "generatedAt": "2026-03-26T08:14:32Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3680,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=c62e338d-aa9d-4c06-ae3c-f4cd82193d80",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=ecc0c927-b504-48ec-b5ca-f5b35d9c2cef",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,60 @@
   ],
   "items": [
     {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Book Now For Easter Arts & Crafts Day",
+      "url": "https://spennymoortownfc.co.uk/2026/03/26/book-now-for-easter-arts-crafts-day/",
+      "published": "2026-03-26T07:59:00Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Ticket Information: King’s Lynn Town (A)",
+      "url": "https://spennymoortownfc.co.uk/2026/03/26/ticket-information-kings-lynn-town-a-4/",
+      "published": "2026-03-26T07:48:00Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Tickets On Sale For Race Night At Brewery Field",
+      "url": "https://spennymoortownfc.co.uk/2026/03/26/tickets-on-sale-for-race-night-at-brewery-field/",
+      "published": "2026-03-26T07:09:00Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Spencer Day Post Chelmsford City (H)",
+      "url": "https://farnboroughfc.co.uk/2026/03/spencer-day-post-chelmsford-city-h-4/",
+      "published": "2026-03-26T07:00:50Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Radcliffe FC Soccer School | April 2026",
+      "url": "https://radcliffefc.com/radcliffe-fc-soccer-school-april-2026/",
+      "published": "2026-03-26T07:00:04Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Match Preview: Darlington (H)",
+      "url": "https://afcfylde.co.uk/news/2026/march/26/match-preview--darlington--h-/",
+      "published": "2026-03-26T06:37:00Z"
+    },
+    {
       "club": "Scunthorpe United",
       "code": "SCU",
       "short": "Scunthorpe",
@@ -598,15 +652,6 @@
       "title": "Match Report: Wealdstone 0-2 Yeovil Town",
       "url": "https://ytfc.net/2026/03/match-report-wealdstone-0-2-yeovil-town/",
       "published": "2026-03-26T00:31:10Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | Tamworth 1-0 Forest Green Rovers",
-      "url": "https://www.fgr.co.uk/news/match-report-tamworth-1-0-forest-green-rovers-2526/",
-      "published": "2026-03-26T00:00:00Z"
     },
     {
       "club": "Scunthorpe United",
@@ -627,15 +672,6 @@
       "published": "2026-03-25T23:35:19Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Laurent Mendy post Tamworth",
-      "url": "https://www.fgr.co.uk/news/laurent-mendy-post-tamworth-2526/",
-      "published": "2026-03-25T23:10:00Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -643,15 +679,6 @@
       "title": "Press: Kevin Maher Looks Back On Woking Point",
       "url": "https://southendunited.co.uk/news/2026/march/25/press--kevin-maher-looks-back-on-woking-point/",
       "published": "2026-03-25T23:07:23Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage on Tamworth Defeat",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-on-tamworth-defeat-2526/",
-      "published": "2026-03-25T23:00:00Z"
     },
     {
       "club": "Woking",
@@ -1453,33 +1480,6 @@
       "title": "TICKET INFORMATION: ROCHDALE (A)",
       "url": "https://www.morecambefc.com/news/2026/march/24/ticket-information--rochdale--a-/",
       "published": "2026-03-24T18:35:00Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Billy Clifford departs",
-      "url": "https://farnboroughfc.co.uk/2026/03/billy-clifford-departs/",
-      "published": "2026-03-24T18:30:06Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Calum Hewlett signs permanently from Bristol City",
-      "url": "https://wsmafc.co.uk/calum-hewlett-signs-permanently-from-bristol-city/",
-      "published": "2026-03-24T18:00:59Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Spurs fans can watch CCFC for just £1",
-      "url": "https://chelmsfordcityfc.com/news/spurs-fans-can-watch-ccfc-for-just-1/",
-      "published": "2026-03-24T18:00:00Z"
     }
   ]
 }
