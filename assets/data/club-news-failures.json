@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-26T03:30:08Z",
+  "generatedAt": "2026-03-26T05:30:08Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -9,6 +9,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 403"
+    },
+    {
+      "club": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Boston United",
@@ -93,7 +101,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=0dec7342-3d34-466b-8908-0b68c9be5cd2",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=d233c903-3a94-4655-bf47-77b42446088a",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -177,14 +185,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
     },
     {
       "club": "Eastbourne Borough",
