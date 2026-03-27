@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-27T19:32:17Z",
+  "generatedAt": "2026-03-27T20:11:04Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3683,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=3515faab-9156-4d19-8f55-7fdfa9102cc9",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=618bdeef-0822-4be3-b74c-b2767262158a",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "MATCH PREVIEW: ALDERSHOT TOWN (H)",
+      "url": "https://www.morecambefc.com/news/2026/march/27/match-preview--aldershot--h-/",
+      "published": "2026-03-27T19:00:00Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -598,6 +607,15 @@
       "title": "Match Preview | Chester (H)",
       "url": "https://curzon-ashton.co.uk/match-preview-chester-h-2/",
       "published": "2026-03-27T18:59:29Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "MATCHDAY GUIDE: ALDERSHOT TOWN (H)",
+      "url": "https://www.morecambefc.com/news/2026/march/27/matchday-guide--/",
+      "published": "2026-03-27T18:25:00Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -636,6 +654,15 @@
       "published": "2026-03-27T18:00:32Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Watch Hornchurch v Daggers live in the Daggers Clubhouse",
+      "url": "https://daggers.co.uk/watch-hornchurch-v-daggers-live-in-the-daggers-clubhouse/",
+      "published": "2026-03-27T18:00:00Z"
+    },
+    {
       "club": "Horsham",
       "code": "HRS",
       "short": "Horsham",
@@ -661,6 +688,15 @@
       "title": "Salisbury set to face Dover Athletic on ‘Non-League Day’",
       "url": "https://salisburyfc.co.uk/2026/03/27/salisbury-set-to-face-dover-athletic-on-non-league-day/",
       "published": "2026-03-27T17:49:21Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "AC’s H&R Borough Preview",
+      "url": "https://daggers.co.uk/acs-hr-borough-preview/",
+      "published": "2026-03-27T17:33:50Z"
     },
     {
       "club": "Altrincham",
@@ -726,6 +762,15 @@
       "published": "2026-03-27T17:00:00Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Rashawn Returns from Chippenham Town Loan",
+      "url": "https://daggers.co.uk/rashawn-returns-from-chippenham-town-loan/",
+      "published": "2026-03-27T17:00:00Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -762,6 +807,15 @@
       "published": "2026-03-27T16:34:08Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "✍️ Daggers Sign Joseph Ajose",
+      "url": "https://daggers.co.uk/daggers-sign-joseph-ajose/",
+      "published": "2026-03-27T16:30:00Z"
+    },
+    {
       "club": "Chesham United",
       "code": "CHU",
       "short": "Chesham",
@@ -787,6 +841,15 @@
       "title": "COACH TRAVEL: HEREFORD",
       "url": "https://macclesfieldfc.com/latest-news/coach-travel-hereford/",
       "published": "2026-03-27T16:00:31Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "✍️ Daggers Loan back Kien Connolly",
+      "url": "https://daggers.co.uk/daggers-loan-back-kien-connolly/",
+      "published": "2026-03-27T16:00:00Z"
     },
     {
       "club": "Kidderminster Harriers",
@@ -879,15 +942,6 @@
       "published": "2026-03-27T15:01:30Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Preview | Eastleigh (A)",
-      "url": "https://www.fgr.co.uk/news/preview-eastleigh-a-2526/",
-      "published": "2026-03-27T15:00:00Z"
-    },
-    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -978,12 +1032,12 @@
       "published": "2026-03-27T14:11:22Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "JMT Ahead of Eastleigh",
-      "url": "https://www.fgr.co.uk/news/jmt-ahead-of-eastleigh-2526/",
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Preview: Hampton & Richmond Borough (H)",
+      "url": "https://daggers.co.uk/match-preview-hampton-richmond-borough-h/",
       "published": "2026-03-27T14:00:00Z"
     },
     {
@@ -1185,6 +1239,15 @@
       "published": "2026-03-27T11:36:20Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Matthew Hayden returns to Brighton & Hove Albion",
+      "url": "https://daggers.co.uk/matthew-hayden-returns-to-brighton-hove-albion/",
+      "published": "2026-03-27T11:25:18Z"
+    },
+    {
       "club": "Radcliffe",
       "code": "RAD",
       "short": "Radcliffe",
@@ -1311,15 +1374,6 @@
       "published": "2026-03-27T10:00:01Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Savage Previews Eastleigh",
-      "url": "https://www.fgr.co.uk/news/savage-previews-eastleigh-2526/",
-      "published": "2026-03-27T10:00:00Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1426,60 +1480,6 @@
       "title": "Preview: King’s Lynn Town v Moors",
       "url": "https://spennymoortownfc.co.uk/2026/03/27/preview-kings-lynn-town-v-moors-4/",
       "published": "2026-03-27T07:25:00Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Courtney Senior Post Chelmsford City (H)",
-      "url": "https://farnboroughfc.co.uk/2026/03/courtney-senior-post-chelmsford-city-h/",
-      "published": "2026-03-27T07:00:18Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Final Day Tickets Sold Out",
-      "url": "https://rochdaleafc.co.uk/ticket-news-york-city-home-250426/",
-      "published": "2026-03-27T01:56:37Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "PITCH SIDE PASS: DORKING WANDERERS (H)",
-      "url": "https://torquayunited.com/pitch-side-pass-dorking-wanderers-h/",
-      "published": "2026-03-26T21:07:40Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City vs Solihull Moors – Match Gallery",
-      "url": "https://trurocity.co.uk/2026/03/truro-city-vs-solihull-moors-match-gallery/",
-      "published": "2026-03-26T20:28:01Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City vs Solihull Moors – Mascots Gallery",
-      "url": "https://trurocity.co.uk/2026/03/truro-city-vs-solihull-moors-mascots-gallery/",
-      "published": "2026-03-26T20:23:58Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "The Seagulls visit The Magpies in National League South clash",
-      "url": "https://wsmafc.co.uk/the-seagulls-visit-the-magpies-in-national-league-south-clash/",
-      "published": "2026-03-26T20:16:54Z"
     }
   ]
 }
