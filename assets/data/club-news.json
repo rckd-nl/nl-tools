@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-27T15:35:49Z",
+  "generatedAt": "2026-03-27T16:39:37Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=15e0086f-9eec-4e9c-bec7-da2d7cbaebcf",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=053aaec2-1544-4942-bee5-c01e92d70ac3",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/news/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,69 @@
   ],
   "items": [
     {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Match Preview: Enfield Town (A)",
+      "url": "https://worthingfc.com/2026/03/match-preview-enfield-town-a/",
+      "published": "2026-03-27T16:34:08Z"
+    },
+    {
+      "club": "Chesham United",
+      "code": "CHU",
+      "short": "Chesham",
+      "domain": "cheshamunited.co.uk",
+      "title": "Notes from the Chair – 27th March 2026",
+      "url": "https://cheshamunited.co.uk/2026/03/notes-from-the-chair-27th-march-2026/",
+      "published": "2026-03-27T16:23:08Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "The Duke and Duchess of Westminster visit Chester FC Community Trust",
+      "url": "https://chesterfc.com/03/27/the-duke-and-duchess-of-westminsters-visit-to-king-george-v-sports-hub/",
+      "published": "2026-03-27T16:00:54Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Saturday: Oxford City v Harriers",
+      "url": "https://harriers.co.uk/news/2026/03/27/saturday-oxford-city-v-harriers-2/",
+      "published": "2026-03-27T15:48:17Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Join us on our 2026-27 journey - early bird season tickets available for next season",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/march/join-us-on-our-2026-27-journey-early-bird-season-tickets-available-for-next-season-2/",
+      "published": "2026-03-27T15:45:21Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Shea Connor & Rio Patterson-Powell join Gateshead",
+      "url": "https://gateshead-fc.com/shea-connor-rio-patterson-powell-join-gateshead/",
+      "published": "2026-03-27T15:45:05Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Match preview: Truro City (A)",
+      "url": "https://www.borehamwoodfootballclub.co.uk/match-preview-truro-city-a-2/",
+      "published": "2026-03-27T15:44:27Z"
+    },
+    {
       "club": "Alfreton Town",
       "code": "ALF",
       "short": "Alfreton",
@@ -681,6 +744,15 @@
       "published": "2026-03-27T14:42:34Z"
     },
     {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "BBC Lancashire Interviews: Craig Mahon and Orlaith O'Mahony",
+      "url": "https://afcfylde.co.uk/news/2026/march/27/bbc-lancashire-interviews--craig-mahon-and-oralith-o-mahony/",
+      "published": "2026-03-27T14:42:00Z"
+    },
+    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -706,6 +778,15 @@
       "title": "Inside Training: George Fowler Take Over",
       "url": "https://maidstoneunited.co.uk/03/27/inside-training-george-fowler-take-over/",
       "published": "2026-03-27T14:19:12Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "SHRIMPS TASTE DOUBLE SUCCESS AT THE BRITISH PIE AWARDS",
+      "url": "https://www.morecambefc.com/news/2026/march/27/shrimps-taste-double-success-at-the-british-pie-awards/",
+      "published": "2026-03-27T14:15:00Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1012,15 +1093,6 @@
       "title": "EVERYTHING WE LEARNT FROM MARK HUGHES: PRE BRAINTREE TOWN (A)",
       "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-mark-hughes-pre-braintree-town",
       "published": "2026-03-27T10:21:53Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Support your surface in 2026-27 with our Pitch Squares initiative package",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/march/support-your-surface-in-2026-27-with-our-pitch-squares-initiative-package/",
-      "published": "2026-03-27T10:16:00Z"
     },
     {
       "club": "Radcliffe",
@@ -1408,78 +1480,6 @@
       "title": "NEWS | Oppong Pens Deal with Bulls",
       "url": "https://herefordfc.co.uk/2026/03/news-oppong-pens-deal-with-bulls/",
       "published": "2026-03-26T15:55:15Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "U19s Match Report: York City U19s 1-0 Altrincham U19s",
-      "url": "https://yorkcityfootballclub.co.uk/u19s-match-report-york-city-u19s-1-0-altrincham-u19s/",
-      "published": "2026-03-26T15:45:34Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Welcome, Josh Landers!",
-      "url": "https://www.borehamwoodfootballclub.co.uk/welcome-josh-landers/",
-      "published": "2026-03-26T15:30:42Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Highlights | Farnborough 4-2 Chelmsford City",
-      "url": "https://chelmsfordcityfc.com/news/highlights-farnborough-4-2-chelmsford-city/",
-      "published": "2026-03-26T15:16:38Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "EVERYTHING WE LEARNT FROM EPHRAIM YEBOAH AFTER SIGNING FOR UNITED",
-      "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-ephraim-yeboah-after-signing-united",
-      "published": "2026-03-26T15:15:00Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Match Preview: AFC Totton",
-      "url": "https://maidstoneunited.co.uk/03/26/match-preview-afc-totton-2/",
-      "published": "2026-03-26T15:12:39Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Ground Guide: Gateshead",
-      "url": "https://ytfc.net/2026/03/ground-guide-gateshead-2/",
-      "published": "2026-03-26T15:05:32Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Sold Out: Dagenham & Redbridge (H)",
-      "url": "https://hornchurchfc.com/sold-out-dagenham-redbridge-h/",
-      "published": "2026-03-26T15:00:11Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Canice Carroll departs by mutual consent.",
-      "url": "https://chippenhamtown.com/canice-carroll-departs-by-mutual-consent/",
-      "published": "2026-03-26T15:00:00Z"
     }
   ]
 }
