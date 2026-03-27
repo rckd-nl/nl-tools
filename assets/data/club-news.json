@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-27T16:39:37Z",
+  "generatedAt": "2026-03-27T17:38:48Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3683,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=053aaec2-1544-4942-bee5-c01e92d70ac3",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=f96b9322-53db-4768-9bb4-99ef2e870d1d",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,78 @@
   ],
   "items": [
     {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Alty pressure goes unrewarded as York hang on",
+      "url": "https://altrinchamfc.com/blogs/news/alty-pressure-goes-unrewarded-as-york-hang-on",
+      "published": "2026-03-27T17:31:49Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City vs Boreham Wood – Match Information",
+      "url": "https://trurocity.co.uk/2026/03/truro-city-vs-boreham-wood-match-information/",
+      "published": "2026-03-27T17:31:15Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Bluebirds Friday Night Dream Draw Results – Week 31 – Friday 27th March",
+      "url": "https://chippenhamtown.com/bluebirds-friday-night-dream-draw-results-week-31-friday-27th-march/",
+      "published": "2026-03-27T17:16:59Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "First Interview | Harley O’Grady-Macken",
+      "url": "https://radcliffefc.com/first-interview-harley-ogrady-macken/",
+      "published": "2026-03-27T17:16:38Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Brandon Bak heads to Paulton Rovers on loan",
+      "url": "https://wsmafc.co.uk/brandon-bak-heads-to-paulton-rovers-on-loan/",
+      "published": "2026-03-27T17:15:14Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City Lottery – Weekly Winners 27/03/26",
+      "url": "https://trurocity.co.uk/2026/03/truro-city-lottery-weekly-winners-27-03-26/",
+      "published": "2026-03-27T17:08:09Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Rashawn Scott recalled by Dagenham & Redbridge",
+      "url": "https://chippenhamtown.com/rashawn-scott-recalled-by-dagenham-redbridge/",
+      "published": "2026-03-27T17:00:00Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "O’Grady-Macken pens temporary stay at the Neuven Stadium",
+      "url": "https://radcliffefc.com/harley-ogrady-macken-pens-temporary-stay-at-the-neuven-stadium/",
+      "published": "2026-03-27T16:57:31Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -699,15 +771,6 @@
       "published": "2026-03-27T15:01:30Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Preview | Eastleigh (A)",
-      "url": "https://www.fgr.co.uk/news/preview-eastleigh-a-2526/",
-      "published": "2026-03-27T15:00:00Z"
-    },
-    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -796,15 +859,6 @@
       "title": "“𝗧𝗵𝗲𝗿𝗲’𝘀 𝗮 𝗯𝗿𝗶𝗴𝗵𝘁 𝗳𝘂𝘁𝘂𝗿𝗲 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗰𝗹𝘂𝗯” | A new contract for Emlyn Lewis",
       "url": "https://wsmafc.co.uk/%f0%9d%97%a7%f0%9d%97%b5%f0%9d%97%b2%f0%9d%97%bf%f0%9d%97%b2%f0%9d%98%80-%f0%9d%97%ae-%f0%9d%97%af%f0%9d%97%bf%f0%9d%97%b6%f0%9d%97%b4%f0%9d%97%b5%f0%9d%98%81-%f0%9d%97%b3%f0%9d%98%82%f0%9d%98%81/",
       "published": "2026-03-27T14:11:22Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "JMT Ahead of Eastleigh",
-      "url": "https://www.fgr.co.uk/news/jmt-ahead-of-eastleigh-2526/",
-      "published": "2026-03-27T14:00:00Z"
     },
     {
       "club": "Torquay United",
@@ -1122,15 +1176,6 @@
       "published": "2026-03-27T10:00:01Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Savage Previews Eastleigh",
-      "url": "https://www.fgr.co.uk/news/savage-previews-eastleigh-2526/",
-      "published": "2026-03-27T10:00:00Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1435,51 +1480,6 @@
       "title": "Seagulls thank NK Teamwear for 17 years of partnership",
       "url": "https://wsmafc.co.uk/seagulls-thank-nk-teamwear/",
       "published": "2026-03-26T16:30:18Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Birch is a Bluebird",
-      "url": "https://chippenhamtown.com/birch-is-a-bluebird/",
-      "published": "2026-03-26T16:30:00Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Non-League Day at Farnborough Football Club!",
-      "url": "https://farnboroughfc.co.uk/2026/03/non-league-day-at-farnborough-football-club/",
-      "published": "2026-03-26T16:00:09Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Tonbridge Angels Women",
-      "url": "https://maidstoneunited.co.uk/03/26/key-info-tonbridge-angels-women/",
-      "published": "2026-03-26T16:00:07Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Conor McAleny Joins the Coasters",
-      "url": "https://afcfylde.co.uk/news/2026/march/26/conor-mcaleny-joins-the-coasters/",
-      "published": "2026-03-26T15:59:00Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "NEWS | Oppong Pens Deal with Bulls",
-      "url": "https://herefordfc.co.uk/2026/03/news-oppong-pens-deal-with-bulls/",
-      "published": "2026-03-26T15:55:15Z"
     }
   ]
 }
