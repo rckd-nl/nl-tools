@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-27T13:47:27Z",
+  "generatedAt": "2026-03-27T14:41:22Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3682,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=e07a0ac5-513d-407b-82c0-4501a4ff6dc1",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=e1eb2fc0-e2fe-40db-a893-f5bcfcd9f1af",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,78 @@
   ],
   "items": [
     {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Easter fixture schedule",
+      "url": "https://chelmsfordcityfc.com/news/ccfcs-easter-fixture-schedule/",
+      "published": "2026-03-27T14:30:00Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Albert Valdes steps down",
+      "url": "https://altrinchamfc.com/blogs/news/albert-valdes-steps-down",
+      "published": "2026-03-27T14:29:37Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Inside Training: George Fowler Take Over",
+      "url": "https://maidstoneunited.co.uk/03/27/inside-training-george-fowler-take-over/",
+      "published": "2026-03-27T14:19:12Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "“𝗧𝗵𝗲𝗿𝗲’𝘀 𝗮 𝗯𝗿𝗶𝗴𝗵𝘁 𝗳𝘂𝘁𝘂𝗿𝗲 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗰𝗹𝘂𝗯” | A new contract for Emlyn Lewis",
+      "url": "https://wsmafc.co.uk/%f0%9d%97%a7%f0%9d%97%b5%f0%9d%97%b2%f0%9d%97%bf%f0%9d%97%b2%f0%9d%98%80-%f0%9d%97%ae-%f0%9d%97%af%f0%9d%97%bf%f0%9d%97%b6%f0%9d%97%b4%f0%9d%97%b5%f0%9d%98%81-%f0%9d%97%b3%f0%9d%98%82%f0%9d%98%81/",
+      "published": "2026-03-27T14:11:22Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "JMT Ahead of Eastleigh",
+      "url": "https://www.fgr.co.uk/news/jmt-ahead-of-eastleigh-2526/",
+      "published": "2026-03-27T14:00:00Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Preview: Hampton & Richmond Borough (H)",
+      "url": "https://daggers.co.uk/match-preview-hampton-richmond-borough-h/",
+      "published": "2026-03-27T14:00:00Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Reece Evans Arrives On Loan",
+      "url": "https://torquayunited.com/reece-evans-arrives-on-loan/",
+      "published": "2026-03-27T14:00:00Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "MATCH PREVIEW: BRAINTREE TOWN (A)",
+      "url": "https://www.carlisleunited.co.uk/news/match-preview-braintree-town",
+      "published": "2026-03-27T13:38:55Z"
+    },
+    {
       "club": "Carlisle United",
       "code": "CAR",
       "short": "Carlisle",
@@ -913,6 +985,15 @@
       "title": "Alty TV Pre-Match | Solihull Moors",
       "url": "https://altrinchamfc.com/blogs/news/alty-tv-pre-match-solihull-moors",
       "published": "2026-03-27T10:00:01Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Savage Previews Eastleigh",
+      "url": "https://www.fgr.co.uk/news/savage-previews-eastleigh-2526/",
+      "published": "2026-03-27T10:00:00Z"
     },
     {
       "club": "Southend United",
@@ -1399,87 +1480,6 @@
       "title": "MP and Council Leader Support Tournament",
       "url": "https://tonbridgeangels.co.uk/mp-and-council-leader-support-tournament/",
       "published": "2026-03-26T13:22:34Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Your Matchday Guide: Dagenham & Redbridge (H)",
-      "url": "https://hornchurchfc.com/your-matchday-guide-dag-red-h/",
-      "published": "2026-03-26T13:03:16Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "NEW DATE FOR SOUTHPORT HOME GAME",
-      "url": "https://macclesfieldfc.com/latest-news/new-date-for-southport-home-game/",
-      "published": "2026-03-26T13:00:33Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "YEBOAH JOINS THE BLUES ON LOAN",
-      "url": "https://www.carlisleunited.co.uk/news/yeboah-joins-blues-loan",
-      "published": "2026-03-26T13:00:00Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Official: Aguiar joins the Spitfires",
-      "url": "https://eastleighfc.com/2026/03/official-aguiar-joins-the-spitfires/",
-      "published": "2026-03-26T12:59:22Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Ricky Aguiar joins Eastleigh on loan for season remainder",
-      "url": "https://yorkcityfootballclub.co.uk/ricky-aguiar-joins-eastleigh-on-loan-for-season-remainder/",
-      "published": "2026-03-26T12:59:20Z"
-    },
-    {
-      "club": "Salisbury",
-      "code": "SAL",
-      "short": "Salisbury",
-      "domain": "salisburyfc.co.uk",
-      "title": "Grubb joins Taunton Town for the remainder of the season",
-      "url": "https://salisburyfc.co.uk/2026/03/26/grubb-joins-taunton-town-for-the-remainder-of-the-season/",
-      "published": "2026-03-26T12:51:21Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Loan Watch: Jenkins impresses for Yate, Woods makes it two in two",
-      "url": "https://wsmafc.co.uk/loan-watch-tues-24th-mar-weds-25th-mar/",
-      "published": "2026-03-26T12:50:48Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "AHEAD OF THE GAME: York City (A)",
-      "url": "https://wokingfc.co.uk/03/26/ahead-of-the-game-york-city-a/",
-      "published": "2026-03-26T12:36:22Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Harriers Academy to launch new Under-21s programme",
-      "url": "https://harriers.co.uk/news/2026/03/26/harriers-academy-to-launch-new-under-21s-programme/",
-      "published": "2026-03-26T12:24:18Z"
     }
   ]
 }
