@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-28T20:53:12Z",
+  "generatedAt": "2026-03-28T21:48:29Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3685,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=b9444ac7-ad82-4cf6-b85c-eb33e7ec9f1d",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=d61df04d-7685-4c82-aba3-1075c3c1f288",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Report: Super Seagulls beat The Magpies on the road",
+      "url": "https://wsmafc.co.uk/report-super-seagulls-beat-the-magpies-on-the-road/",
+      "published": "2026-03-28T21:00:00Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -654,15 +663,6 @@
       "published": "2026-03-28T19:47:00Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Isted post-match Eastleigh",
-      "url": "https://www.fgr.co.uk/news/isted-post-match-eastleigh-2526/",
-      "published": "2026-03-28T19:45:00Z"
-    },
-    {
       "club": "Southport",
       "code": "SPT",
       "short": "Southport",
@@ -672,13 +672,13 @@
       "published": "2026-03-28T19:43:48Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Savage post-match Eastleigh",
-      "url": "https://www.fgr.co.uk/news/savage-post-match-eastleigh-2526/",
-      "published": "2026-03-28T19:30:00Z"
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Report: FC Halifax Town 1-2 Iron",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/march/report-fc-halifax-town-1-2-iron/",
+      "published": "2026-03-28T19:36:00Z"
     },
     {
       "club": "Radcliffe",
