@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-28T15:10:53Z",
+  "generatedAt": "2026-03-28T15:51:25Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='fgr.co.uk', port=443): Read timed out. (read timeout=25)"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3683,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=637c9a61-b19a-41db-916c-4bd1a1c57b4d",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=dbcc0525-3369-4c53-9033-1ce5eb4c746c",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -1140,6 +1140,15 @@
       "published": "2026-03-27T15:00:30Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Preview | Eastleigh (A)",
+      "url": "https://www.fgr.co.uk/news/preview-eastleigh-a-2526/",
+      "published": "2026-03-27T15:00:00Z"
+    },
+    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -1228,6 +1237,15 @@
       "title": "“𝗧𝗵𝗲𝗿𝗲’𝘀 𝗮 𝗯𝗿𝗶𝗴𝗵𝘁 𝗳𝘂𝘁𝘂𝗿𝗲 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗰𝗹𝘂𝗯” | A new contract for Emlyn Lewis",
       "url": "https://wsmafc.co.uk/%f0%9d%97%a7%f0%9d%97%b5%f0%9d%97%b2%f0%9d%97%bf%f0%9d%97%b2%f0%9d%98%80-%f0%9d%97%ae-%f0%9d%97%af%f0%9d%97%bf%f0%9d%97%b6%f0%9d%97%b4%f0%9d%97%b5%f0%9d%98%81-%f0%9d%97%b3%f0%9d%98%82%f0%9d%98%81/",
       "published": "2026-03-27T14:11:22Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "JMT Ahead of Eastleigh",
+      "url": "https://www.fgr.co.uk/news/jmt-ahead-of-eastleigh-2526/",
+      "published": "2026-03-27T14:00:00Z"
     },
     {
       "club": "Dagenham & Redbridge",
@@ -1462,24 +1480,6 @@
       "title": "CLUB STATEMENT: TRANSFER EMBARGO",
       "url": "https://macclesfieldfc.com/latest-news/club-statement-transfer-embargo/",
       "published": "2026-03-27T11:00:28Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Match Day Information: Hornchurch (H)",
-      "url": "https://farnboroughfc.co.uk/2026/03/match-day-information-hornchurch-h/",
-      "published": "2026-03-27T11:00:11Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "U18s REPORT | Hereford FC 4-1 Malvern Town",
-      "url": "https://herefordfc.co.uk/2026/03/u18s-report-hereford-fc-4-1-malvern-town/",
-      "published": "2026-03-27T10:58:24Z"
     }
   ]
 }
