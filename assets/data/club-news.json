@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-28T22:52:21Z",
+  "generatedAt": "2026-03-28T23:52:44Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3686,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=59f3252d-cd86-43f8-a164-1bb0ccc9acbf",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=327ae385-c444-4e53-87b4-1868eb67ee04",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Match Gallery: York City 1-0 Woking",
+      "url": "https://wokingfc.co.uk/03/28/match-gallery-york-city-1-0-woking/",
+      "published": "2026-03-28T23:24:56Z"
+    },
+    {
       "club": "Scunthorpe United",
       "code": "SCU",
       "short": "Scunthorpe",
@@ -595,7 +604,7 @@
       "code": "BAT",
       "short": "Bath",
       "domain": "bathcityfc.com",
-      "title": "Stoppage time equaliser denies new boss Bartlett perfect start",
+      "title": "Stoppage time equaliser denies new boss Bartlett winning start",
       "url": "https://www.bathcityfc.com/stoppage-time-equaliser-denies-new-boss-bartlett-perfect-start/",
       "published": "2026-03-28T22:29:56Z"
     },
@@ -616,15 +625,6 @@
       "title": "Highlights: Eastleigh 2-4 Forest Green Rovers",
       "url": "https://eastleighfc.com/2026/03/highlights-eastleigh-2-4-forest-green-rovers/",
       "published": "2026-03-28T22:00:27Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | Eastleigh 2-4 Forest Green Rovers",
-      "url": "https://www.fgr.co.uk/news/match-report-eastleigh-2-4-forest-green-rovers/",
-      "published": "2026-03-28T21:00:00Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -708,15 +708,6 @@
       "published": "2026-03-28T19:47:00Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Isted post-match Eastleigh",
-      "url": "https://www.fgr.co.uk/news/isted-post-match-eastleigh-2526/",
-      "published": "2026-03-28T19:45:00Z"
-    },
-    {
       "club": "Southport",
       "code": "SPT",
       "short": "Southport",
@@ -733,15 +724,6 @@
       "title": "Report: FC Halifax Town 1-2 Iron",
       "url": "https://www.scunthorpe-united.co.uk/news/2026/march/report-fc-halifax-town-1-2-iron/",
       "published": "2026-03-28T19:36:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Savage post-match Eastleigh",
-      "url": "https://www.fgr.co.uk/news/savage-post-match-eastleigh-2526/",
-      "published": "2026-03-28T19:30:00Z"
     },
     {
       "club": "Radcliffe",
@@ -1480,6 +1462,24 @@
       "title": "Key info: Tonbridge Angels Women",
       "url": "https://maidstoneunited.co.uk/03/27/key-info-tonbridge-angels-women/",
       "published": "2026-03-27T16:45:07Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Match Preview: Enfield Town (A)",
+      "url": "https://worthingfc.com/2026/03/match-preview-enfield-town-a/",
+      "published": "2026-03-27T16:34:08Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "✍️ Daggers Sign Joseph Ajose",
+      "url": "https://daggers.co.uk/daggers-sign-joseph-ajose/",
+      "published": "2026-03-27T16:30:00Z"
     }
   ]
 }

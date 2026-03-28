@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-28T22:52:21Z",
+  "generatedAt": "2026-03-28T23:52:44Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -33,6 +33,14 @@
       "ok": false,
       "count": 0,
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "domain": "fgr.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Solihull Moors",
@@ -93,7 +101,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=59f3252d-cd86-43f8-a164-1bb0ccc9acbf",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=327ae385-c444-4e53-87b4-1868eb67ee04",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
