@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-29T19:06:27Z",
+  "generatedAt": "2026-03-29T19:50:24Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3687,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=3d828df4-55db-4eb7-bf65-bae4e79235ad",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=efa65f80-a60d-4b00-9a1a-24f4d80ea4a5",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Behind the Seals: Curzon Ashton (A)",
+      "url": "https://chesterfc.com/03/29/behind-the-seals-curzon-ashton-a/",
+      "published": "2026-03-29T19:39:40Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Preview: Guiseley U19 vs Chester U19",
+      "url": "https://chesterfc.com/03/29/preview-guiseley-u19-vs-chester-u19/",
+      "published": "2026-03-29T19:36:49Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Inside Weston #008: Vs Maidenhead United (A)",
+      "url": "https://wsmafc.co.uk/inside-weston-008-vs-maidenhead-united-a/",
+      "published": "2026-03-29T19:32:50Z"
+    },
+    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -915,15 +942,6 @@
       "published": "2026-03-29T09:00:30Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Highlights | Eastleigh (A)",
-      "url": "https://www.fgr.co.uk/news/match-highlights-eastleigh-a/",
-      "published": "2026-03-29T09:00:00Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1032,15 +1050,6 @@
       "published": "2026-03-28T21:30:00Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | Eastleigh 2-4 Forest Green Rovers",
-      "url": "https://www.fgr.co.uk/news/match-report-eastleigh-2-4-forest-green-rovers/",
-      "published": "2026-03-28T21:00:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1113,15 +1122,6 @@
       "published": "2026-03-28T19:47:00Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Isted post-match Eastleigh",
-      "url": "https://www.fgr.co.uk/news/isted-post-match-eastleigh-2526/",
-      "published": "2026-03-28T19:45:00Z"
-    },
-    {
       "club": "Southport",
       "code": "SPT",
       "short": "Southport",
@@ -1129,15 +1129,6 @@
       "title": "Southport 1 Southend United 3",
       "url": "https://southportfc.net/southport-1-southend-united-3/",
       "published": "2026-03-28T19:43:48Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Savage post-match Eastleigh",
-      "url": "https://www.fgr.co.uk/news/savage-post-match-eastleigh-2526/",
-      "published": "2026-03-28T19:30:00Z"
     },
     {
       "club": "Radcliffe",
@@ -1480,6 +1471,15 @@
       "title": "REPORT: UNITED 2 – 0 HORSHAM",
       "url": "https://torquayunited.com/report-united-2-0-horsham-2/",
       "published": "2026-03-28T17:03:13Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "Harry McHugh Interview",
+      "url": "https://macclesfieldfc.com/latest-news/harry-mchugh-interview/",
+      "published": "2026-03-28T16:00:10Z"
     }
   ]
 }
