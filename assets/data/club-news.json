@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-29T09:02:15Z",
+  "generatedAt": "2026-03-29T09:56:33Z",
   "maxItems": 100,
   "sources": [
     {
@@ -80,7 +80,7 @@
       "domain": "fgr.co.uk",
       "feed": "https://www.fgr.co.uk/news-rss.xml",
       "ok": true,
-      "count": 3686,
+      "count": 3687,
       "error": ""
     },
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=209c76ee-19da-41ad-ab4a-d2e8fd7d037a",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=bd59a951-2d54-4910-9618-e9d4140aa02f",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Highlights | Eastleigh (A)",
+      "url": "https://www.fgr.co.uk/news/match-highlights-eastleigh-a/",
+      "published": "2026-03-29T09:00:00Z"
+    },
     {
       "club": "Yeovil Town",
       "code": "YEO",
@@ -706,6 +715,15 @@
       "title": "Highlights: Eastleigh 2-4 Forest Green Rovers",
       "url": "https://eastleighfc.com/2026/03/highlights-eastleigh-2-4-forest-green-rovers/",
       "published": "2026-03-28T22:00:27Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Report: Daggers 3-1 H&R Borough",
+      "url": "https://daggers.co.uk/match-report-daggers-3-1-hr-borough/",
+      "published": "2026-03-28T21:30:00Z"
     },
     {
       "club": "Forest Green Rovers",
@@ -1462,24 +1480,6 @@
       "title": "Watch Hornchurch v Daggers live in the Daggers Clubhouse",
       "url": "https://daggers.co.uk/watch-hornchurch-v-daggers-live-in-the-daggers-clubhouse/",
       "published": "2026-03-27T18:00:00Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Three new Hornets fly in",
-      "url": "https://www.horshamfc.co.uk/2026/03/27/three-new-hornets-fly-in/",
-      "published": "2026-03-27T17:59:52Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "INTERVIEW | Downes Previews Buxton Test",
-      "url": "https://herefordfc.co.uk/2026/03/interview-downes-previews-buxton-test/",
-      "published": "2026-03-27T17:55:09Z"
     }
   ]
 }
