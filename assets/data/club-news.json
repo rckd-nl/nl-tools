@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-29T09:56:33Z",
+  "generatedAt": "2026-03-29T10:56:39Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=bd59a951-2d54-4910-9618-e9d4140aa02f",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=62e6c6d0-d38e-408f-9543-561bf2f64d4a",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,42 @@
     }
   ],
   "items": [
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Match Report | Chester (H)",
+      "url": "https://curzon-ashton.co.uk/match-report-chester-h-2/",
+      "published": "2026-03-29T10:54:46Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "City in Action – Eastbourne Borough (A) – Enterprise National League South",
+      "url": "https://www.bathcityfc.com/city-in-action-eastbourne-borough-a-enterprise-national-league-south/",
+      "published": "2026-03-29T10:23:13Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Torquay United",
+      "url": "https://www.horshamfc.co.uk/2026/03/29/match-report-torquay-united-2/",
+      "published": "2026-03-29T10:01:06Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "MATCH HIGHLIGHTS: MORECAMBE 0 - 2 ALDERSHOT TOWN",
+      "url": "https://www.morecambefc.com/news/2026/march/29/match-highlights--morecambe-0---2-aldershot-town/",
+      "published": "2026-03-29T09:30:00Z"
+    },
     {
       "club": "Forest Green Rovers",
       "code": "FGR",
@@ -715,15 +751,6 @@
       "title": "Highlights: Eastleigh 2-4 Forest Green Rovers",
       "url": "https://eastleighfc.com/2026/03/highlights-eastleigh-2-4-forest-green-rovers/",
       "published": "2026-03-28T22:00:27Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Match Report: Daggers 3-1 H&R Borough",
-      "url": "https://daggers.co.uk/match-report-daggers-3-1-hr-borough/",
-      "published": "2026-03-28T21:30:00Z"
     },
     {
       "club": "Forest Green Rovers",
@@ -1453,33 +1480,6 @@
       "title": "Supporters’ Minibus to Maidenhead United sold out",
       "url": "https://wsmafc.co.uk/supporters-minibus-to-maidenhead-united-sold-out/",
       "published": "2026-03-27T18:17:37Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "END OF SEASON KIT SALE",
-      "url": "https://macclesfieldfc.com/latest-news/end-of-season-kit-sale/",
-      "published": "2026-03-27T18:00:37Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Preview: Curzon Ashton (A)",
-      "url": "https://chesterfc.com/03/27/preview-curzon-ashton-a/",
-      "published": "2026-03-27T18:00:32Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Watch Hornchurch v Daggers live in the Daggers Clubhouse",
-      "url": "https://daggers.co.uk/watch-hornchurch-v-daggers-live-in-the-daggers-clubhouse/",
-      "published": "2026-03-27T18:00:00Z"
     }
   ]
 }
