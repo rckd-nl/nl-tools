@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-29T05:32:46Z",
+  "generatedAt": "2026-03-29T06:50:17Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3686,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=6a9cbf82-9d30-4b8a-b661-3ac77e057ebd",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=66a57492-36e7-4dbb-ada2-557b314d958a",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -663,6 +663,15 @@
       "published": "2026-03-28T22:00:27Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report | Eastleigh 2-4 Forest Green Rovers",
+      "url": "https://www.fgr.co.uk/news/match-report-eastleigh-2-4-forest-green-rovers/",
+      "published": "2026-03-28T21:00:00Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -753,6 +762,15 @@
       "published": "2026-03-28T19:47:00Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Isted post-match Eastleigh",
+      "url": "https://www.fgr.co.uk/news/isted-post-match-eastleigh-2526/",
+      "published": "2026-03-28T19:45:00Z"
+    },
+    {
       "club": "Southport",
       "code": "SPT",
       "short": "Southport",
@@ -769,6 +787,15 @@
       "title": "Report: FC Halifax Town 1-2 Iron",
       "url": "https://www.scunthorpe-united.co.uk/news/2026/march/report-fc-halifax-town-1-2-iron/",
       "published": "2026-03-28T19:36:00Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Savage post-match Eastleigh",
+      "url": "https://www.fgr.co.uk/news/savage-post-match-eastleigh-2526/",
+      "published": "2026-03-28T19:30:00Z"
     },
     {
       "club": "Radcliffe",
@@ -1453,33 +1480,6 @@
       "title": "Truro City Lottery – Weekly Winners 27/03/26",
       "url": "https://trurocity.co.uk/2026/03/truro-city-lottery-weekly-winners-27-03-26/",
       "published": "2026-03-27T17:08:09Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Rashawn Scott recalled by Dagenham & Redbridge",
-      "url": "https://chippenhamtown.com/rashawn-scott-recalled-by-dagenham-redbridge/",
-      "published": "2026-03-27T17:00:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Rashawn Returns from Chippenham Town Loan",
-      "url": "https://daggers.co.uk/rashawn-returns-from-chippenham-town-loan/",
-      "published": "2026-03-27T17:00:00Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Welcome Back Francis Mampolo",
-      "url": "https://tonbridgeangels.co.uk/welcome-back-francis-mampolo/",
-      "published": "2026-03-27T17:00:00Z"
     }
   ]
 }
