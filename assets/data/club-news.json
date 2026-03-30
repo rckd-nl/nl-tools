@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-30T03:45:07Z",
+  "generatedAt": "2026-03-30T05:56:08Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3687,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=fc57303a-f4db-45ee-827c-628840e4f1f8",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=e9894136-e57e-4b66-a8f5-18b9479739a9",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -978,15 +978,6 @@
       "published": "2026-03-29T09:30:00Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Highlights | Eastleigh (A)",
-      "url": "https://www.fgr.co.uk/news/match-highlights-eastleigh-a/",
-      "published": "2026-03-29T09:00:00Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1095,15 +1086,6 @@
       "published": "2026-03-28T21:30:00Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | Eastleigh 2-4 Forest Green Rovers",
-      "url": "https://www.fgr.co.uk/news/match-report-eastleigh-2-4-forest-green-rovers/",
-      "published": "2026-03-28T21:00:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1176,15 +1158,6 @@
       "published": "2026-03-28T19:47:00Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Isted post-match Eastleigh",
-      "url": "https://www.fgr.co.uk/news/isted-post-match-eastleigh-2526/",
-      "published": "2026-03-28T19:45:00Z"
-    },
-    {
       "club": "Southport",
       "code": "SPT",
       "short": "Southport",
@@ -1192,15 +1165,6 @@
       "title": "Southport 1 Southend United 3",
       "url": "https://southportfc.net/southport-1-southend-united-3/",
       "published": "2026-03-28T19:43:48Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Savage post-match Eastleigh",
-      "url": "https://www.fgr.co.uk/news/savage-post-match-eastleigh-2526/",
-      "published": "2026-03-28T19:30:00Z"
     },
     {
       "club": "Radcliffe",
@@ -1480,6 +1444,42 @@
       "title": "MATCH REPORT: BRAINTREE TOWN 1-2 CARLISLE UNITED",
       "url": "https://www.carlisleunited.co.uk/news/match-report-braintree-town-1-2-carlisle-united",
       "published": "2026-03-28T17:30:00Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "MATCH REPORT: MORECAMBE 0 - 2 ALDERSHOT TOWN",
+      "url": "https://www.morecambefc.com/news/2026/march/28/match-report--morecambe-0-2-aldershot-town/",
+      "published": "2026-03-28T17:30:00Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Dramatic Late Turnaround Wins It For Dale",
+      "url": "https://rochdaleafc.co.uk/report-sutton-united-away-280326/",
+      "published": "2026-03-28T17:22:52Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Recap: Oxford City 3-2 Harriers",
+      "url": "https://harriers.co.uk/news/2026/03/28/recap-oxford-city-3-2-harriers/",
+      "published": "2026-03-28T17:20:34Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Prior Penalty Secures Vital Victory Over the Tudors",
+      "url": "https://dwfc.co.uk/2026/03/prior-penalty-secures-vital-victory-over-the-tudors/",
+      "published": "2026-03-28T17:14:31Z"
     }
   ]
 }
