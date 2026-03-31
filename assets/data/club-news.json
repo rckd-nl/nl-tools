@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-31T19:45:09Z",
+  "generatedAt": "2026-03-31T20:31:34Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.fgr.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=da99a9fb-59dc-43d4-9407-f39b71a01ab1",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=d40ec477-197c-49f5-b27a-308725815381",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/news/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Junior Academy East Mallorca Cup Day One",
+      "url": "https://chippenhamtown.com/junior-academy-east-mallorca-cup-day-one/",
+      "published": "2026-03-31T20:00:00Z"
+    },
     {
       "club": "Southport",
       "code": "SPT",
@@ -1471,15 +1480,6 @@
       "title": "PITCH SIDE PASS: HORSHAM (H)",
       "url": "https://torquayunited.com/pitch-side-pass-horsham-h/",
       "published": "2026-03-29T22:02:11Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City vs Boreham Wood – Match Highlights",
-      "url": "https://trurocity.co.uk/2026/03/truro-city-vs-boreham-wood-match-highlights/",
-      "published": "2026-03-29T21:56:01Z"
     }
   ]
 }
