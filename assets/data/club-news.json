@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-03-31T23:08:36Z",
+  "generatedAt": "2026-03-31T23:53:43Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3691,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=6b1ccad2-f336-4b17-8e7e-716e7510dc0d",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=38d56788-aaf3-4db8-9609-079798052b43",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Post Kidderminster (H): Tommy Miller",
+      "url": "https://spennymoortownfc.co.uk/2026/03/31/post-kidderminster-h-tommy-miller/",
+      "published": "2026-03-31T23:23:09Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -760,15 +769,6 @@
       "title": "1886 Events: Comedy Night – April",
       "url": "https://worthingfc.com/2026/03/1886-events-comedy-night-april-2026/",
       "published": "2026-03-31T15:07:40Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Vote Now | Supporters' Player of the Season",
-      "url": "https://www.fgr.co.uk/news/vote-for-supporters-player-of-the-season/",
-      "published": "2026-03-31T15:00:00Z"
     },
     {
       "club": "Rochdale",
@@ -1005,15 +1005,6 @@
       "published": "2026-03-31T09:19:26Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Vegan Fair Info",
-      "url": "https://www.fgr.co.uk/news/vegan-fair-info-2526/",
-      "published": "2026-03-31T09:00:00Z"
-    },
-    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -1147,15 +1138,6 @@
       "title": "Vote for your Chester FC Goal of the Season!",
       "url": "https://chesterfc.com/03/30/vote-for-your-chester-fc-goal-of-the-season/",
       "published": "2026-03-30T17:00:34Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Vote for Goal of the 2025/26 Season",
-      "url": "https://www.fgr.co.uk/news/vote-for-goal-of-the-season-2526/",
-      "published": "2026-03-30T17:00:00Z"
     },
     {
       "club": "Curzon Ashton",
@@ -1480,6 +1462,24 @@
       "title": "On the Road: AFC Telford",
       "url": "https://harriers.co.uk/news/2026/03/30/on-the-road-afc-telford/",
       "published": "2026-03-30T09:11:37Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Marcus Williams the guest speaker with hospitality on sale for Hartlepool United game",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/march/marcus-williams-the-guest-speaker-with-hospitality-on-sale-for-hartlepool-united-game/",
+      "published": "2026-03-30T09:08:14Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Gallery: AFC Totton",
+      "url": "https://maidstoneunited.co.uk/03/30/gallery-afc-totton/",
+      "published": "2026-03-30T08:45:59Z"
     }
   ]
 }
