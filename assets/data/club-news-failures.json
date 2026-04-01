@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-01T07:57:09Z",
+  "generatedAt": "2026-04-01T09:27:36Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -93,7 +93,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=6eecc29b-2e8c-4281-87fb-211cb130ee75",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=bf565037-d682-47fe-9496-d9d5961e5d77",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -168,7 +168,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "ConnectionError: HTTPSConnectionPool(host='worksoptownfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='worksoptownfc.co.uk', port=443): Failed to resolve 'worksoptownfc.co.uk' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     {
       "club": "AFC Totton",
@@ -177,14 +177,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
     },
     {
       "club": "Eastbourne Borough",
