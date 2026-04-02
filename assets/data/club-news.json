@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-02T21:56:18Z",
+  "generatedAt": "2026-04-02T22:55:49Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=aa651060-af0c-4e7c-93c5-9dc5a4cd3bb6",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=c085f38c-6002-4cf3-8bf6-4e090760dced",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/news/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "Win a match-worn Marine shirt and support MITC",
+      "url": "https://marinefc.com/win-a-match-worn-marine-shirt-and-support-mitc/",
+      "published": "2026-04-02T22:42:16Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Matchday programme: Iron v Hartlepool United - order online now!",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/matchday-programme-iron-v-hartlepool-united-order-online-now/",
+      "published": "2026-04-02T22:04:50Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -1230,15 +1248,6 @@
       "published": "2026-04-02T08:59:16Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Matchday eve: Hartlepool United (H)",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/next-up-hartlepool-united-h-2/",
-      "published": "2026-04-02T08:57:00Z"
-    },
-    {
       "club": "York City",
       "code": "YOR",
       "short": "York",
@@ -1471,15 +1480,6 @@
       "title": "SILKMEN FAN CAM: HEREFORD (A)",
       "url": "https://macclesfieldfc.com/galleries/silkmen-fan-cam-hereford-a/",
       "published": "2026-04-01T17:00:24Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "EVERYTHING WE LEARNT FROM MARK HUGHES: PRE GATESHEAD (H)",
-      "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-mark-hughes-pre-gateshead-h",
-      "published": "2026-04-01T16:54:32Z"
     }
   ]
 }
