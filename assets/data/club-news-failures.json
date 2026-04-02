@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-02T09:22:15Z",
+  "generatedAt": "2026-04-02T10:39:17Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -33,22 +33,6 @@
       "ok": false,
       "count": 0,
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-    },
-    {
-      "club": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
     },
     {
       "club": "Solihull Moors",
@@ -109,7 +93,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=87a4bd75-2400-4e14-898e-9bf01332a7e8",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=9c519794-4ca9-4582-a1af-3e41fda33fec",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -137,14 +121,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Marine",
-      "domain": "marinefc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
     },
     {
       "club": "Merthyr Town",
