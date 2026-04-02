@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-02T15:27:21Z",
+  "generatedAt": "2026-04-02T16:19:15Z",
   "maxItems": 100,
   "sources": [
     {
@@ -80,7 +80,7 @@
       "domain": "fgr.co.uk",
       "feed": "https://www.fgr.co.uk/news-rss.xml",
       "ok": true,
-      "count": 3694,
+      "count": 3695,
       "error": ""
     },
     {
@@ -102,10 +102,10 @@
     {
       "club": "Morecambe",
       "domain": "morecambefc.com",
-      "feed": "https://www.morecambefc.com/news/rss.xml",
-      "ok": false,
-      "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.morecambefc.com', port=443): Read timed out. (read timeout=25)"
+      "feed": "https://www.morecambefc.com/rss.xml",
+      "ok": true,
+      "count": 20,
+      "error": ""
     },
     {
       "club": "Rochdale",
@@ -246,10 +246,10 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=b469c822-bd0d-4d00-99dc-d411f2ac0937",
       "ok": false,
       "count": 0,
-      "error": "HTTP 503"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,78 @@
   ],
   "items": [
     {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "On the Day | Everything You Need to Know for City vs Chippenham Town",
+      "url": "https://www.bathcityfc.com/on-the-day-everything-you-need-to-know-for-city-vs-chippenham-town/",
+      "published": "2026-04-02T16:10:26Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "Kenny Waste Management Goal of the Month for March",
+      "url": "https://macclesfieldfc.com/latest-news/kenny-waste-management-goal-of-the-month-for-march/",
+      "published": "2026-04-02T16:00:43Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Preview | Brackley Town (H)",
+      "url": "https://www.fgr.co.uk/news/match-preview-brackley-town-h-2526/",
+      "published": "2026-04-02T16:00:00Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Away Days – Yeovil Town",
+      "url": "https://trurocity.co.uk/2026/04/away-days-yeovil-town/",
+      "published": "2026-04-02T15:45:23Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "Junior Academy Review – W/C 30th March",
+      "url": "https://macclesfieldfc.com/latest-news/junior-academy-review-w-c-30th-march/",
+      "published": "2026-04-02T15:38:49Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Match preview: Wealdstone (H)",
+      "url": "https://www.borehamwoodfootballclub.co.uk/match-preview-wealdstone-h-5/",
+      "published": "2026-04-02T15:33:02Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Friday: Harriers v Hereford",
+      "url": "https://harriers.co.uk/news/2026/04/02/friday-harriers-v-hereford/",
+      "published": "2026-04-02T15:30:11Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "JIMMY BALL | WESTON-SUPER-MARE (A) | PRESS CALL",
+      "url": "https://torquayunited.com/jimmy-ball-weston-super-mare-a-press-call/",
+      "published": "2026-04-02T15:27:50Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -589,6 +661,15 @@
       "title": "Match Preview: Worthing FC vs Eastbourne Borough",
       "url": "https://worthingfc.com/2026/04/match-preview-worthing-vs-eastbourne-borough-2526/",
       "published": "2026-04-02T15:26:53Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Bank Holiday football on Moss Lane",
+      "url": "https://altrinchamfc.com/blogs/news/bank-holiday-football-on-moss-lane",
+      "published": "2026-04-02T15:26:52Z"
     },
     {
       "club": "Dorking Wanderers",
@@ -607,6 +688,15 @@
       "title": "Chairman’s Update",
       "url": "https://chelmsfordcityfc.com/news/chairmans-update-3/",
       "published": "2026-04-02T15:00:05Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "MATCHDAY GUIDE: GATESHEAD (H)",
+      "url": "https://www.carlisleunited.co.uk/news/matchday-guide-gateshead-h",
+      "published": "2026-04-02T15:00:00Z"
     },
     {
       "club": "Southend United",
@@ -636,6 +726,15 @@
       "published": "2026-04-02T14:16:19Z"
     },
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Kent Women’s Plate final tickets on sale",
+      "url": "https://maidstoneunited.co.uk/04/02/kent-womens-plate-final-tickets-on-sale/",
+      "published": "2026-04-02T14:15:41Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -661,6 +760,15 @@
       "title": "MATCH PREVIEW: Bath City vs Chippenham Town | National League South | Friday 3rd April 2026",
       "url": "https://chippenhamtown.com/match-preview-bath-city-vs-chippenham-town-national-league-south-friday-3rd-april-2026/",
       "published": "2026-04-02T14:00:00Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Preview: Hornchurch (A)",
+      "url": "https://daggers.co.uk/match-preview-hornchurch-a-2/",
+      "published": "2026-04-02T13:56:33Z"
     },
     {
       "club": "Southend United",
@@ -762,6 +870,15 @@
       "published": "2026-04-02T12:21:48Z"
     },
     {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "HARLEE DEAN: PRE-ROCHDALE AFC (A)",
+      "url": "https://www.morecambefc.com/news/2026/april/02/harlee-dean--pre-rochdale-afc--a-/",
+      "published": "2026-04-02T12:05:00Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -778,6 +895,15 @@
       "title": "Community | April Kicks Courses",
       "url": "https://www.hartlepoolunited.co.uk/community-april-kicks-courses/",
       "published": "2026-04-02T11:29:15Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "JIM BENTLEY: PRE-ROCHDALE AFC (A)",
+      "url": "https://www.morecambefc.com/news/2026/april/02/jim-bentley--pre-rochdale-afc--a-/",
+      "published": "2026-04-02T11:25:00Z"
     },
     {
       "club": "Southend United",
@@ -832,6 +958,15 @@
       "title": "Ebbsfleet United Preview",
       "url": "https://tonbridgeangels.co.uk/ebbsfleet-united-preview-3/",
       "published": "2026-04-02T11:00:00Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "EMILY MCKENZIE-HAIGH PROMOTED TO FINANCE MANAGER",
+      "url": "https://www.morecambefc.com/news/2026/april/02/emily-mckenzie-haigh-promoted-to-/",
+      "published": "2026-04-02T10:40:00Z"
     },
     {
       "club": "Yeovil Town",
@@ -915,15 +1050,6 @@
       "published": "2026-04-02T09:31:15Z"
     },
     {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Bank Holiday football on Moss Lane",
-      "url": "https://altrinchamfc.com/blogs/news/bank-holiday-football-on-moss-lane",
-      "published": "2026-04-02T09:27:26Z"
-    },
-    {
       "club": "Radcliffe",
       "code": "RAD",
       "short": "Radcliffe",
@@ -976,6 +1102,15 @@
       "title": "U19s: Dagenham & Redbridge 4-2 Southend United",
       "url": "https://southendunited.co.uk/news/2026/april/02/u19s--dagenham---redbridge-4-2-southend-united/",
       "published": "2026-04-02T08:59:16Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Club Shop Open this Afternoon",
+      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-42/",
+      "published": "2026-04-02T08:58:07Z"
     },
     {
       "club": "Scunthorpe United",
@@ -1158,6 +1293,15 @@
       "published": "2026-04-01T18:56:48Z"
     },
     {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "YASMINE CARSWELL CELEBRATES 100 GOALS FOR MORECAMBE",
+      "url": "https://www.morecambefc.com/news/2026/april/01/yasmine-carswell-celebrates-100-goals-for-morecambe/",
+      "published": "2026-04-01T18:15:00Z"
+    },
+    {
       "club": "Alfreton Town",
       "code": "ALF",
       "short": "Alfreton",
@@ -1336,150 +1480,6 @@
       "title": "Paul Dawson after Hereford victory",
       "url": "https://macclesfieldfc.com/latest-news/paul-dawson-after-hereford-victory/",
       "published": "2026-04-01T13:45:52Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Farnborough – Hospitality Package",
-      "url": "https://doverathletic.com/news/farnborough-hospitality-package/",
-      "published": "2026-04-01T13:26:53Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Highlights: Spennymoor 3-1 Harriers",
-      "url": "https://harriers.co.uk/news/2026/04/01/highlights-spennymoor-3-1-harriers/",
-      "published": "2026-04-01T13:08:29Z"
-    },
-    {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "Town’s Step 2 Status On The Brink",
-      "url": "https://etfc.london/towns-step-2-status-on-the-brink/",
-      "published": "2026-04-01T12:59:53Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "“𝗪𝗲 𝘄𝗲𝗿𝗲 𝗱𝗲𝗳𝗲𝗻𝘀𝗶𝘃𝗲𝗹𝘆 𝗿𝗲𝗮𝗹𝗹𝘆, 𝗿𝗲𝗮𝗹𝗹𝘆 𝘀𝗼𝘂𝗻𝗱” | Gary Warren post – Hemel Hempstead Town (H)",
-      "url": "https://wsmafc.co.uk/%f0%9d%97%aa%f0%9d%97%b2-%f0%9d%98%84%f0%9d%97%b2%f0%9d%97%bf%f0%9d%97%b2-%f0%9d%97%b1%f0%9d%97%b2%f0%9d%97%b3%f0%9d%97%b2%f0%9d%97%bb%f0%9d%98%80%f0%9d%97%b6%f0%9d%98%83%f0%9d%97%b2%f0%9d%97%b9/",
-      "published": "2026-04-01T12:55:32Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "2be Consultancy Goal of the Month: March 2026",
-      "url": "https://southendunited.co.uk/news/2026/april/01/2be-consultancy-goal-of-the-month--march-2026/",
-      "published": "2026-04-01T12:36:37Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Southend United Updates on Organisational Structure",
-      "url": "https://southendunited.co.uk/news/2026/april/01/southend-united-updates-on-organisational-structure/",
-      "published": "2026-04-01T12:30:00Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "City in Action – Maidenhead United (A) – Enterprise National League South",
-      "url": "https://www.bathcityfc.com/city-in-action-maidenhead-united-a-enterprise-national-league-south/",
-      "published": "2026-04-01T12:27:13Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Ticket Information: Scarborough Athletic (A)",
-      "url": "https://spennymoortownfc.co.uk/2026/04/01/ticket-information-scarborough-athletic-a-3/",
-      "published": "2026-04-01T12:18:03Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Keith Mitchell to step down",
-      "url": "https://worthingfc.com/2026/04/keith-mitchell-to-step-down/",
-      "published": "2026-04-01T12:15:38Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Southend United Organisational Update",
-      "url": "https://southendunited.co.uk/news/2026/april/01/southend-united-organisational-update/",
-      "published": "2026-04-01T12:15:00Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Meet the team on 9 April",
-      "url": "https://maidstoneunited.co.uk/04/01/meet-the-team-on-9-april/",
-      "published": "2026-04-01T12:03:55Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Chelmsford City FC Appoint Football Operations Director to Lead Next Phase of Sporting Growth",
-      "url": "https://chelmsfordcityfc.com/news/ccfc-appoint-football-operations-director/",
-      "published": "2026-04-01T11:47:41Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Gallery: WsM AFC 0 – 0 Hemel Hempsted Town FC",
-      "url": "https://wsmafc.co.uk/gallery-wsm-afc-0-0-hemel-hempsted-town-fc/",
-      "published": "2026-04-01T11:35:41Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Dagenham away tickets to be sold at CCFC clubhouse",
-      "url": "https://chelmsfordcityfc.com/news/dagenham-away-tickets-to-be-sold-at-ccfc-clubhouse/",
-      "published": "2026-04-01T11:30:00Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "DSSL Group Player of the Month: March 2026",
-      "url": "https://southendunited.co.uk/news/2026/april/01/dssl-group-player-of-the-month--march-2026/",
-      "published": "2026-04-01T11:13:19Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Nest Associates Continue Partnership with Yeovil Town",
-      "url": "https://ytfc.net/2026/04/nest-associates-continue-partnership-with-yeovil-town/",
-      "published": "2026-04-01T11:07:05Z"
     }
   ]
 }
