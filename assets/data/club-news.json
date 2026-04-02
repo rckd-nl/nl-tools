@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-02T20:03:20Z",
+  "generatedAt": "2026-04-02T21:00:48Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=6181e354-5a91-47b8-a87c-bcac31a960e5",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=d9386973-74df-4c63-99c6-07a2bba3e8b6",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
