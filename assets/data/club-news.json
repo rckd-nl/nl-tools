@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-03T03:30:40Z",
+  "generatedAt": "2026-04-03T05:29:25Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3695,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=f606b5dc-cf50-47b6-9895-9a20f52b12f6",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=125303f9-c951-4424-81da-191a60615cc0",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -762,15 +762,6 @@
       "published": "2026-04-02T16:00:43Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Preview | Brackley Town (H)",
-      "url": "https://www.fgr.co.uk/news/match-preview-brackley-town-h-2526/",
-      "published": "2026-04-02T16:00:00Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -924,6 +915,15 @@
       "published": "2026-04-02T14:00:00Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Preview: Hornchurch (A)",
+      "url": "https://daggers.co.uk/match-preview-hornchurch-a-2/",
+      "published": "2026-04-02T13:56:33Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -985,15 +985,6 @@
       "title": "MATCH PREVIEW: BUXTON FC VS MACCLESFIELD FC",
       "url": "https://macclesfieldfc.com/latest-news/match-preview-buxton-fc-vs-macclesfield-fc/",
       "published": "2026-04-02T13:00:02Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Info | Brackley Town (H)",
-      "url": "https://www.fgr.co.uk/news/match-info-brackley-town-h-2526/",
-      "published": "2026-04-02T13:00:00Z"
     },
     {
       "club": "York City",
@@ -1176,15 +1167,6 @@
       "published": "2026-04-02T10:12:40Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Jayden Clarke ahead of Brackley Town",
-      "url": "https://www.fgr.co.uk/news/jayden-clarke-ahead-of-brackley-town-2526/",
-      "published": "2026-04-02T09:45:00Z"
-    },
-    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1230,15 +1212,6 @@
       "published": "2026-04-02T09:00:10Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage on Brackley Challenge",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-on-brackley-challenge-2526/",
-      "published": "2026-04-02T09:00:00Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1246,6 +1219,15 @@
       "title": "U19s: Dagenham & Redbridge 4-2 Southend United",
       "url": "https://southendunited.co.uk/news/2026/april/02/u19s--dagenham---redbridge-4-2-southend-united/",
       "published": "2026-04-02T08:59:16Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Club Shop Open this Afternoon",
+      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-42/",
+      "published": "2026-04-02T08:58:07Z"
     },
     {
       "club": "York City",
@@ -1480,6 +1462,24 @@
       "title": "SILKMEN FAN CAM: HEREFORD (A)",
       "url": "https://macclesfieldfc.com/galleries/silkmen-fan-cam-hereford-a/",
       "published": "2026-04-01T17:00:24Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "EVERYTHING WE LEARNT FROM MARK HUGHES: PRE GATESHEAD (H)",
+      "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-mark-hughes-pre-gateshead-h",
+      "published": "2026-04-01T16:54:32Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "REPORT | Hereford FC 0-2 Macclesfield FC",
+      "url": "https://herefordfc.co.uk/2026/04/report-hereford-fc-0-2-macclesfield-fc/",
+      "published": "2026-04-01T16:48:07Z"
     }
   ]
 }
