@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-03T10:08:26Z",
+  "generatedAt": "2026-04-03T11:07:16Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3695,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=7c9c3e18-40e3-4454-847b-205e413e749b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=6cdf0b21-8af0-420c-85bf-45ddd34dd250",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Friday’s Match Sponsor: Adam Hewitt Limited",
+      "url": "https://harriers.co.uk/news/2026/04/03/fridays-match-sponsor-adam-hewitt-limited/",
+      "published": "2026-04-03T11:03:47Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Zak Gilsenan recalled by Grimsby Town",
+      "url": "https://gateshead-fc.com/zak-gilsenan-recalled-by-grimsby-town/",
+      "published": "2026-04-03T11:00:58Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Choose Your 2025/26 Player of the Season – Vote Now Open!",
+      "url": "https://www.horshamfc.co.uk/2026/04/03/choose-your-2025-26-player-of-the-season-vote-now-open/",
+      "published": "2026-04-03T11:00:57Z"
+    },
+    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -654,6 +681,15 @@
       "published": "2026-04-03T06:57:00Z"
     },
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Dover Athletic",
+      "url": "https://maidstoneunited.co.uk/04/03/key-info-dover-athletic-2/",
+      "published": "2026-04-03T06:30:11Z"
+    },
+    {
       "club": "Scunthorpe United",
       "code": "SCU",
       "short": "Scunthorpe",
@@ -679,6 +715,15 @@
       "title": "Matchday programme: Iron v Hartlepool United - order online now!",
       "url": "https://www.scunthorpe-united.co.uk/news/2026/april/matchday-programme-iron-v-hartlepool-united-order-online-now/",
       "published": "2026-04-02T22:04:50Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Summary: Deal Town U23s",
+      "url": "https://maidstoneunited.co.uk/04/02/summary-deal-town-u23s/",
+      "published": "2026-04-02T21:45:53Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -798,15 +843,6 @@
       "published": "2026-04-02T17:00:43Z"
     },
     {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Dover Athletic",
-      "url": "https://maidstoneunited.co.uk/04/02/key-info-dover-athletic-2/",
-      "published": "2026-04-02T16:20:11Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -832,6 +868,15 @@
       "title": "Kenny Waste Management Goal of the Month for March",
       "url": "https://macclesfieldfc.com/latest-news/kenny-waste-management-goal-of-the-month-for-march/",
       "published": "2026-04-02T16:00:43Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Preview | Brackley Town (H)",
+      "url": "https://www.fgr.co.uk/news/match-preview-brackley-town-h-2526/",
+      "published": "2026-04-02T16:00:00Z"
     },
     {
       "club": "Truro City",
@@ -987,15 +1032,6 @@
       "published": "2026-04-02T14:00:00Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Match Preview: Hornchurch (A)",
-      "url": "https://daggers.co.uk/match-preview-hornchurch-a-2/",
-      "published": "2026-04-02T13:56:33Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1057,6 +1093,15 @@
       "title": "MATCH PREVIEW: BUXTON FC VS MACCLESFIELD FC",
       "url": "https://macclesfieldfc.com/latest-news/match-preview-buxton-fc-vs-macclesfield-fc/",
       "published": "2026-04-02T13:00:02Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Info | Brackley Town (H)",
+      "url": "https://www.fgr.co.uk/news/match-info-brackley-town-h-2526/",
+      "published": "2026-04-02T13:00:00Z"
     },
     {
       "club": "York City",
@@ -1230,6 +1275,15 @@
       "published": "2026-04-02T10:12:40Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Jayden Clarke ahead of Brackley Town",
+      "url": "https://www.fgr.co.uk/news/jayden-clarke-ahead-of-brackley-town-2526/",
+      "published": "2026-04-02T09:45:00Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1275,6 +1329,15 @@
       "published": "2026-04-02T09:00:10Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Robbie Savage on Brackley Challenge",
+      "url": "https://www.fgr.co.uk/news/robbie-savage-on-brackley-challenge-2526/",
+      "published": "2026-04-02T09:00:00Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1282,15 +1345,6 @@
       "title": "U19s: Dagenham & Redbridge 4-2 Southend United",
       "url": "https://southendunited.co.uk/news/2026/april/02/u19s--dagenham---redbridge-4-2-southend-united/",
       "published": "2026-04-02T08:59:16Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Club Shop Open this Afternoon",
-      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-42/",
-      "published": "2026-04-02T08:58:07Z"
     },
     {
       "club": "York City",
@@ -1426,60 +1480,6 @@
       "title": "Match Gallery: Woking 1-1 Altrincham",
       "url": "https://wokingfc.co.uk/04/01/match-gallery-woking-1-1-altrincham/",
       "published": "2026-04-01T19:42:53Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Return Interview | Jude Oyibo",
-      "url": "https://radcliffefc.com/return-interview-jude-oyibo/",
-      "published": "2026-04-01T19:22:32Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Crowdfunder Extended: One Last Push to Improve the Pitch",
-      "url": "https://www.bathcityfc.com/crowdfunder-extended-one-last-push-to-improve-the-pitch/",
-      "published": "2026-04-01T19:04:54Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Jude Oyibo returns to M26",
-      "url": "https://radcliffefc.com/jude-oyibo-returns-to-m26/",
-      "published": "2026-04-01T19:01:08Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Tickets on sale for York and Sutton",
-      "url": "https://altrinchamfc.com/blogs/news/tickets-on-sale-for-york-and-sutton",
-      "published": "2026-04-01T18:56:48Z"
-    },
-    {
-      "club": "Morecambe",
-      "code": "MOR",
-      "short": "Morecambe",
-      "domain": "morecambefc.com",
-      "title": "YASMINE CARSWELL CELEBRATES 100 GOALS FOR MORECAMBE",
-      "url": "https://www.morecambefc.com/news/2026/april/01/yasmine-carswell-celebrates-100-goals-for-morecambe/",
-      "published": "2026-04-01T18:15:00Z"
-    },
-    {
-      "club": "Alfreton Town",
-      "code": "ALF",
-      "short": "Alfreton",
-      "domain": "alfretontownfootballclub.com",
-      "title": "Match Preview: Alfreton Town v Worksop Town",
-      "url": "https://alfretontownfootballclub.com/2026/04/01/match-preview-alfreton-town-v-worksop-town/",
-      "published": "2026-04-01T18:13:17Z"
     }
   ]
 }
