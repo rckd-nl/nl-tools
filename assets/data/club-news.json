@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-03T06:54:51Z",
+  "generatedAt": "2026-04-03T08:14:26Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=47fbb3a2-c701-4740-b1cf-1c7378e9d5ee",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=7a2f3264-33bb-41e7-9566-e67761129c23",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/news/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Matchday: Hartlepool United (H)",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/next-up-hartlepool-united-h-2/",
+      "published": "2026-04-03T06:57:00Z"
+    },
     {
       "club": "Scunthorpe United",
       "code": "SCU",
@@ -906,6 +915,15 @@
       "published": "2026-04-02T14:05:23Z"
     },
     {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Vote for the new Chester FC Third Shirt!",
+      "url": "https://chesterfc.com/04/02/third-shirt/",
+      "published": "2026-04-02T14:00:49Z"
+    },
+    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -1120,15 +1138,6 @@
       "title": "SUCF Annual Golf Day",
       "url": "https://southendunited.co.uk/news/2026/april/02/sucf-annual-golf-day/",
       "published": "2026-04-02T10:28:01Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "April Calendar Sponsor: The Iron Foundation",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/april-calendar-sponsor-the-iron-foundation/",
-      "published": "2026-04-02T10:19:26Z"
     },
     {
       "club": "Macclesfield",
@@ -1471,15 +1480,6 @@
       "title": "Match Preview – Dorking Wanderers",
       "url": "https://www.horshamfc.co.uk/2026/04/01/match-preview-dorking-wanderers-2/",
       "published": "2026-04-01T16:45:19Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "The Seagulls host The Gulls in Good Friday showdown",
-      "url": "https://wsmafc.co.uk/the-seagulls-host-the-gulls-in-good-friday-showdown/",
-      "published": "2026-04-01T16:27:26Z"
     }
   ]
 }
