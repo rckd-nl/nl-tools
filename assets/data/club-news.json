@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-03T19:12:28Z",
+  "generatedAt": "2026-04-03T19:56:05Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3697,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=73fe8f54-358a-402c-ac40-0ecfed1c84bf",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=727d75d9-e4ab-42c0-a0e5-5f567b85388a",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Gallery: WsM AFC 0 – 3 Torquay United",
+      "url": "https://wsmafc.co.uk/gallery-wsm-afc-0-3-torquay-united/",
+      "published": "2026-04-03T19:54:05Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Wanderers Suffer Defeat at Horsham",
+      "url": "https://dwfc.co.uk/2026/04/wanderers-suffer-defeat-at-horsham/",
+      "published": "2026-04-03T19:27:59Z"
+    },
+    {
       "club": "Southport",
       "code": "SPT",
       "short": "Southport",
@@ -609,6 +627,15 @@
       "published": "2026-04-03T18:33:34Z"
     },
     {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Worthing FC 2-1 Eastbourne Borough | Highlights",
+      "url": "https://worthingfc.com/2026/04/worthing-fc-2-1-eastbourne-borough-highlights/",
+      "published": "2026-04-03T18:32:01Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -634,6 +661,15 @@
       "title": "Cards Trust Player Of The Month: March",
       "url": "https://wokingfc.co.uk/04/03/cards-trust-player-of-the-month-march/",
       "published": "2026-04-03T18:24:47Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Report: Hornchurch 3-0 Daggers",
+      "url": "https://daggers.co.uk/match-report-hornchurch-3-0-daggers/",
+      "published": "2026-04-03T18:16:23Z"
     },
     {
       "club": "Carlisle United",
@@ -726,6 +762,15 @@
       "published": "2026-04-03T17:56:16Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Tom Knowles Post Brackley",
+      "url": "https://www.fgr.co.uk/news/tom-knowles-post-brackley-2526/",
+      "published": "2026-04-03T17:56:00Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -733,6 +778,15 @@
       "title": "Cook: “Proud of the lads to keep going.” | Eastbourne Borough Reaction",
       "url": "https://worthingfc.com/2026/04/cook-proud-of-the-lads-to-keep-going-eastbourne-borough-reaction/",
       "published": "2026-04-03T17:45:01Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Andy Carroll’s Hornchurch Reaction",
+      "url": "https://daggers.co.uk/andy-carrolls-hornchurch-reaction/",
+      "published": "2026-04-03T17:44:12Z"
     },
     {
       "club": "Rochdale",
@@ -769,6 +823,15 @@
       "title": "Tickets On Sale For Hartlepool Away",
       "url": "https://rochdaleafc.co.uk/ticket-news-hartlepool-united-away-060426/",
       "published": "2026-04-03T17:30:49Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Robbie Savage Post Brackley",
+      "url": "https://www.fgr.co.uk/news/robbie-savage-post-match-brakcley-2526/",
+      "published": "2026-04-03T17:30:00Z"
     },
     {
       "club": "Dover Athletic",
@@ -1329,6 +1392,15 @@
       "published": "2026-04-02T16:00:43Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Preview | Brackley Town (H)",
+      "url": "https://www.fgr.co.uk/news/match-preview-brackley-town-h-2526/",
+      "published": "2026-04-02T16:00:00Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1408,78 +1480,6 @@
       "title": "MATCHDAY GUIDE: GATESHEAD (H)",
       "url": "https://www.carlisleunited.co.uk/news/matchday-guide-gateshead-h",
       "published": "2026-04-02T15:00:00Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Isuzu FA Trophy Final Update",
-      "url": "https://southendunited.co.uk/news/2026/april/02/isuzu-fa-trophy-final-update/",
-      "published": "2026-04-02T15:00:00Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Sam Barnes red card appeal rejected",
-      "url": "https://altrinchamfc.com/blogs/news/sam-barnes-red-card-appeal-rejected",
-      "published": "2026-04-02T14:45:03Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Press: Charley Kendall Previews Braintree Town",
-      "url": "https://southendunited.co.uk/news/2026/april/02/press--charley-kendall-previews-braintree-town/",
-      "published": "2026-04-02T14:16:19Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Kent Women’s Plate final tickets on sale",
-      "url": "https://maidstoneunited.co.uk/04/02/kent-womens-plate-final-tickets-on-sale/",
-      "published": "2026-04-02T14:15:41Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "John Askey Yeovil Town (a)",
-      "url": "https://trurocity.co.uk/2026/04/john-askey-yeovil-town-a/",
-      "published": "2026-04-02T14:12:53Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Vote for the new Chester FC Third Shirt!",
-      "url": "https://chesterfc.com/04/02/third-shirt/",
-      "published": "2026-04-02T14:00:49Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "MATCH PREVIEW: Bath City vs Chippenham Town | National League South | Friday 3rd April 2026",
-      "url": "https://chippenhamtown.com/match-preview-bath-city-vs-chippenham-town-national-league-south-friday-3rd-april-2026/",
-      "published": "2026-04-02T14:00:00Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Press: Kevin Maher Ahead Of Braintree Town",
-      "url": "https://southendunited.co.uk/news/2026/april/02/press--kevin-maher-ahead-of-braintree-town/",
-      "published": "2026-04-02T13:44:48Z"
     }
   ]
 }
