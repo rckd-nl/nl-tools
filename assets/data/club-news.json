@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-03T08:14:26Z",
+  "generatedAt": "2026-04-03T09:13:18Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3695,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=7a2f3264-33bb-41e7-9566-e67761129c23",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=cd8e34df-9146-49cb-ad26-558f855e7ee4",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
+      "feed": "https://daggers.co.uk/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -581,6 +581,42 @@
     }
   ],
   "items": [
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Bardley Moonan Joins",
+      "url": "https://southportfc.net/bardley-moonan-joins/",
+      "published": "2026-04-03T09:00:43Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Player Of The Season 2025/26",
+      "url": "https://torquayunited.com/player-of-the-season-2025-26/",
+      "published": "2026-04-03T09:00:33Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Alty TV Pre-Match | Halifax Town",
+      "url": "https://altrinchamfc.com/blogs/news/alty-tv-pre-match-halifax-town",
+      "published": "2026-04-03T08:52:26Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Bank Holiday football on Moss Lane",
+      "url": "https://altrinchamfc.com/blogs/news/bank-holiday-football-on-moss-lane",
+      "published": "2026-04-03T08:50:45Z"
+    },
     {
       "club": "Scunthorpe United",
       "code": "SCU",
@@ -771,6 +807,15 @@
       "published": "2026-04-02T16:00:43Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Preview | Brackley Town (H)",
+      "url": "https://www.fgr.co.uk/news/match-preview-brackley-town-h-2526/",
+      "published": "2026-04-02T16:00:00Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -823,15 +868,6 @@
       "title": "Match Preview: Worthing FC vs Eastbourne Borough",
       "url": "https://worthingfc.com/2026/04/match-preview-worthing-vs-eastbourne-borough-2526/",
       "published": "2026-04-02T15:26:53Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Bank Holiday football on Moss Lane",
-      "url": "https://altrinchamfc.com/blogs/news/bank-holiday-football-on-moss-lane",
-      "published": "2026-04-02T15:26:52Z"
     },
     {
       "club": "Dorking Wanderers",
@@ -933,6 +969,15 @@
       "published": "2026-04-02T14:00:00Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Preview: Hornchurch (A)",
+      "url": "https://daggers.co.uk/match-preview-hornchurch-a-2/",
+      "published": "2026-04-02T13:56:33Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -994,6 +1039,15 @@
       "title": "MATCH PREVIEW: BUXTON FC VS MACCLESFIELD FC",
       "url": "https://macclesfieldfc.com/latest-news/match-preview-buxton-fc-vs-macclesfield-fc/",
       "published": "2026-04-02T13:00:02Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Info | Brackley Town (H)",
+      "url": "https://www.fgr.co.uk/news/match-info-brackley-town-h-2526/",
+      "published": "2026-04-02T13:00:00Z"
     },
     {
       "club": "York City",
@@ -1167,6 +1221,15 @@
       "published": "2026-04-02T10:12:40Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Jayden Clarke ahead of Brackley Town",
+      "url": "https://www.fgr.co.uk/news/jayden-clarke-ahead-of-brackley-town-2526/",
+      "published": "2026-04-02T09:45:00Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1212,6 +1275,15 @@
       "published": "2026-04-02T09:00:10Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Robbie Savage on Brackley Challenge",
+      "url": "https://www.fgr.co.uk/news/robbie-savage-on-brackley-challenge-2526/",
+      "published": "2026-04-02T09:00:00Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1219,6 +1291,15 @@
       "title": "U19s: Dagenham & Redbridge 4-2 Southend United",
       "url": "https://southendunited.co.uk/news/2026/april/02/u19s--dagenham---redbridge-4-2-southend-united/",
       "published": "2026-04-02T08:59:16Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Club Shop Open this Afternoon",
+      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-42/",
+      "published": "2026-04-02T08:58:07Z"
     },
     {
       "club": "York City",
@@ -1399,87 +1480,6 @@
       "title": "YASMINE CARSWELL CELEBRATES 100 GOALS FOR MORECAMBE",
       "url": "https://www.morecambefc.com/news/2026/april/01/yasmine-carswell-celebrates-100-goals-for-morecambe/",
       "published": "2026-04-01T18:15:00Z"
-    },
-    {
-      "club": "Alfreton Town",
-      "code": "ALF",
-      "short": "Alfreton",
-      "domain": "alfretontownfootballclub.com",
-      "title": "Match Preview: Alfreton Town v Worksop Town",
-      "url": "https://alfretontownfootballclub.com/2026/04/01/match-preview-alfreton-town-v-worksop-town/",
-      "published": "2026-04-01T18:13:17Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "We’ve Got Previous – Eastbourne Borough",
-      "url": "https://worthingfc.com/2026/04/weve-got-previous-eastbourne-borough-2/",
-      "published": "2026-04-01T18:01:07Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Dan Ellison returns to Yeovil Town",
-      "url": "https://wsmafc.co.uk/dan-ellison-returns-to-yeovil-town/",
-      "published": "2026-04-01T18:00:24Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Dan Ellison Returns from Weston-super-Mare",
-      "url": "https://ytfc.net/2026/04/dan-ellison-returns-from-weston-super-mare/",
-      "published": "2026-04-01T18:00:22Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "HIGHLIGHTS | Hereford FC 0-2 Macclesfield FC",
-      "url": "https://herefordfc.co.uk/2026/04/highlights-hereford-fc-0-2-macclesfield-fc/",
-      "published": "2026-04-01T17:39:23Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SILKMEN FAN CAM: HEREFORD (A)",
-      "url": "https://macclesfieldfc.com/galleries/silkmen-fan-cam-hereford-a/",
-      "published": "2026-04-01T17:00:24Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "EVERYTHING WE LEARNT FROM MARK HUGHES: PRE GATESHEAD (H)",
-      "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-mark-hughes-pre-gateshead-h",
-      "published": "2026-04-01T16:54:32Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "REPORT | Hereford FC 0-2 Macclesfield FC",
-      "url": "https://herefordfc.co.uk/2026/04/report-hereford-fc-0-2-macclesfield-fc/",
-      "published": "2026-04-01T16:48:07Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Preview – Dorking Wanderers",
-      "url": "https://www.horshamfc.co.uk/2026/04/01/match-preview-dorking-wanderers-2/",
-      "published": "2026-04-01T16:45:19Z"
     }
   ]
 }
