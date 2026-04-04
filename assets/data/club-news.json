@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-03T23:56:03Z",
+  "generatedAt": "2026-04-04T03:21:51Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.fgr.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=46663173-fe3c-4b59-88f4-e9d3d6d8adad",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=aa819b61-c72e-40e3-a0b6-29b107afb3c9",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
+      "feed": "https://daggers.co.uk/news/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "HIGHLIGHTS: WESTON-SUPER-MARE (A)",
+      "url": "https://torquayunited.com/highlights-weston-super-mare-a-2/",
+      "published": "2026-04-04T01:40:18Z"
+    },
     {
       "club": "Chelmsford City",
       "code": "CHC",
@@ -726,15 +735,6 @@
       "published": "2026-04-03T18:24:47Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Match Report: Hornchurch 3-0 Daggers",
-      "url": "https://daggers.co.uk/match-report-hornchurch-3-0-daggers/",
-      "published": "2026-04-03T18:16:23Z"
-    },
-    {
       "club": "Carlisle United",
       "code": "CAR",
       "short": "Carlisle",
@@ -832,15 +832,6 @@
       "title": "Cook: “Proud of the lads to keep going.” | Eastbourne Borough Reaction",
       "url": "https://worthingfc.com/2026/04/cook-proud-of-the-lads-to-keep-going-eastbourne-borough-reaction/",
       "published": "2026-04-03T17:45:01Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Andy Carroll’s Hornchurch Reaction",
-      "url": "https://daggers.co.uk/andy-carrolls-hornchurch-reaction/",
-      "published": "2026-04-03T17:44:12Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1167,15 +1158,6 @@
       "published": "2026-04-03T11:00:58Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Choose Your 2025/26 Player of the Season – Vote Now Open!",
-      "url": "https://www.horshamfc.co.uk/2026/04/03/choose-your-2025-26-player-of-the-season-vote-now-open/",
-      "published": "2026-04-03T11:00:57Z"
-    },
-    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -1480,6 +1462,24 @@
       "title": "Match Preview: Worthing FC vs Eastbourne Borough",
       "url": "https://worthingfc.com/2026/04/match-preview-worthing-vs-eastbourne-borough-2526/",
       "published": "2026-04-02T15:26:53Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Crep Protect Join The Wanderers",
+      "url": "https://dwfc.co.uk/2026/04/crep-protect-join-the-wanderers/",
+      "published": "2026-04-02T15:00:43Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Chairman’s Update",
+      "url": "https://chelmsfordcityfc.com/news/chairmans-update-3/",
+      "published": "2026-04-02T15:00:05Z"
     }
   ]
 }
