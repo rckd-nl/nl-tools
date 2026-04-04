@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-04T20:05:11Z",
+  "generatedAt": "2026-04-04T20:53:46Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3699,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=d3fa6977-df78-4158-a866-c027b0bf9994",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=0b7548d1-1337-4fb3-9556-70306405b764",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -1122,15 +1122,6 @@
       "published": "2026-04-03T21:38:59Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Highlights | Brackley Town (H)",
-      "url": "https://www.fgr.co.uk/news/match-highlights-brackley-town-2526/",
-      "published": "2026-04-03T21:30:00Z"
-    },
-    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -1174,15 +1165,6 @@
       "title": "Match Report | Radcliffe (A)",
       "url": "https://curzon-ashton.co.uk/match-report-radcliffe-a-2/",
       "published": "2026-04-03T20:00:19Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | Forest Green Rovers 4-0 Brackley Town",
-      "url": "https://www.fgr.co.uk/news/match-report-forest-green-rovers-4-0-brackley-town/",
-      "published": "2026-04-03T20:00:00Z"
     },
     {
       "club": "Dorking Wanderers",
@@ -1329,15 +1311,6 @@
       "published": "2026-04-03T17:56:16Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Tom Knowles Post Brackley",
-      "url": "https://www.fgr.co.uk/news/tom-knowles-post-brackley-2526/",
-      "published": "2026-04-03T17:56:00Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1372,15 +1345,6 @@
       "title": "Tickets On Sale For Hartlepool Away",
       "url": "https://rochdaleafc.co.uk/ticket-news-hartlepool-united-away-060426/",
       "published": "2026-04-03T17:30:49Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage Post Brackley",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-post-match-brakcley-2526/",
-      "published": "2026-04-03T17:30:00Z"
     },
     {
       "club": "Rochdale",
@@ -1480,6 +1444,42 @@
       "title": "REACTION | Downes on Harriers Heartache",
       "url": "https://herefordfc.co.uk/2026/04/reaction-downes-on-harriers-heartache/",
       "published": "2026-04-03T17:06:29Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Spencer Day Post Hampton & Richmond Borough (A)",
+      "url": "https://farnboroughfc.co.uk/2026/04/spencer-day-post-hampton-richmond-borough-a-5/",
+      "published": "2026-04-03T17:00:54Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "John Rooney after Buxton victory",
+      "url": "https://macclesfieldfc.com/latest-news/john-rooney-after-buxton-victory/",
+      "published": "2026-04-03T17:00:36Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "EVERYTHING WE LEARNT FROM MORGAN FEENEY: POST GATESHEAD (H)",
+      "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-morgan-feeney-post-gateshead-h",
+      "published": "2026-04-03T17:00:00Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "BOOK YOUR TICKETS FOR MONDAY’S BIG MATCH!",
+      "url": "https://torquayunited.com/book-your-tickets-for-mondays-big-match/",
+      "published": "2026-04-03T17:00:00Z"
     }
   ]
 }
