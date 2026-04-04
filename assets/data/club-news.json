@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-04T09:27:07Z",
+  "generatedAt": "2026-04-04T10:09:45Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3699,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=3c6176bc-74fb-44ad-9d9e-ecfe51ba0cd1",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=216855a6-9e2d-4fb1-935f-a0b75c41d916",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Boss proud of duo’s progress",
+      "url": "https://harriers.co.uk/news/2026/04/04/boss-proud-of-duos-progress/",
+      "published": "2026-04-04T09:53:35Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Alty TV Highlights | Alty 0 Halifax 1",
+      "url": "https://altrinchamfc.com/blogs/news/alty-tv-highlights-alty-0-fc-halifax-town-1",
+      "published": "2026-04-04T09:30:21Z"
+    },
     {
       "club": "Bath City",
       "code": "BAT",
@@ -735,15 +753,6 @@
       "published": "2026-04-03T21:38:59Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Highlights | Brackley Town (H)",
-      "url": "https://www.fgr.co.uk/news/match-highlights-brackley-town-2526/",
-      "published": "2026-04-03T21:30:00Z"
-    },
-    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -778,15 +787,6 @@
       "title": "JIMMY BALL | WESTON-SUPER-MARE (A) | POST-MATCH",
       "url": "https://torquayunited.com/jimmy-ball-weston-super-mare-a-post-match/",
       "published": "2026-04-03T20:05:03Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | Forest Green Rovers 4-0 Brackley Town",
-      "url": "https://www.fgr.co.uk/news/match-report-forest-green-rovers-4-0-brackley-town/",
-      "published": "2026-04-03T20:00:00Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -960,15 +960,6 @@
       "published": "2026-04-03T17:56:16Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Tom Knowles Post Brackley",
-      "url": "https://www.fgr.co.uk/news/tom-knowles-post-brackley-2526/",
-      "published": "2026-04-03T17:56:00Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1003,15 +994,6 @@
       "title": "Tickets On Sale For Hartlepool Away",
       "url": "https://rochdaleafc.co.uk/ticket-news-hartlepool-united-away-060426/",
       "published": "2026-04-03T17:30:49Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage Post Brackley",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-post-match-brakcley-2526/",
-      "published": "2026-04-03T17:30:00Z"
     },
     {
       "club": "Rochdale",
@@ -1480,6 +1462,24 @@
       "title": "Crossbar Challenge",
       "url": "https://farnboroughfc.co.uk/2026/04/crossbar-challenge/",
       "published": "2026-04-02T18:00:55Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "MATCH PREVIEW: ROCHDALE AFC (A)",
+      "url": "https://www.morecambefc.com/news/2026/april/02/match-preview--rochdale--a-/",
+      "published": "2026-04-02T18:00:00Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Match Preview | Radcliffe (A)",
+      "url": "https://curzon-ashton.co.uk/match-preview-radcliffe-a-2/",
+      "published": "2026-04-02T17:59:26Z"
     }
   ]
 }
