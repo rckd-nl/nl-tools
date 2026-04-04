@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-04T07:21:21Z",
+  "generatedAt": "2026-04-04T08:27:17Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3699,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=af810aa1-3a4d-4975-98e3-0170b198df40",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=11fa1829-b5fb-4c82-86af-c3b98f9f61cb",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Away Travel: Horsham",
+      "url": "https://maidstoneunited.co.uk/04/04/away-travel-chesham/",
+      "published": "2026-04-04T08:00:58Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "VIDEO: Andy Butler reacts after Hartlepool draw",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/video-andy-butler-reacts-after-hartlepool-draw/",
+      "published": "2026-04-04T07:57:32Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Match Report: Yeovil Town 1-0 Truro City",
+      "url": "https://ytfc.net/2026/04/match-report-yeovil-town-1-0-truro-city/",
+      "published": "2026-04-04T07:41:44Z"
+    },
+    {
       "club": "Horsham",
       "code": "HRS",
       "short": "Horsham",
@@ -607,6 +634,15 @@
       "title": "Away On Easter Monday at Curzon Ashton",
       "url": "https://southportfc.net/away-on-easter-monday-at-curzon-ashton/",
       "published": "2026-04-04T06:48:57Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Match Preview: Radcliffe (H)",
+      "url": "https://afcfylde.co.uk/news/2026/april/04/match-preview--radcliffe--h-/",
+      "published": "2026-04-04T06:25:00Z"
     },
     {
       "club": "Torquay United",
@@ -645,15 +681,6 @@
       "published": "2026-04-03T21:38:59Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Highlights | Brackley Town (H)",
-      "url": "https://www.fgr.co.uk/news/match-highlights-brackley-town-2526/",
-      "published": "2026-04-03T21:30:00Z"
-    },
-    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -688,15 +715,6 @@
       "title": "JIMMY BALL | WESTON-SUPER-MARE (A) | POST-MATCH",
       "url": "https://torquayunited.com/jimmy-ball-weston-super-mare-a-post-match/",
       "published": "2026-04-03T20:05:03Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | Forest Green Rovers 4-0 Brackley Town",
-      "url": "https://www.fgr.co.uk/news/match-report-forest-green-rovers-4-0-brackley-town/",
-      "published": "2026-04-03T20:00:00Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -870,15 +888,6 @@
       "published": "2026-04-03T17:56:16Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Tom Knowles Post Brackley",
-      "url": "https://www.fgr.co.uk/news/tom-knowles-post-brackley-2526/",
-      "published": "2026-04-03T17:56:00Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -913,15 +922,6 @@
       "title": "Tickets On Sale For Hartlepool Away",
       "url": "https://rochdaleafc.co.uk/ticket-news-hartlepool-united-away-060426/",
       "published": "2026-04-03T17:30:49Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage Post Brackley",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-post-match-brakcley-2526/",
-      "published": "2026-04-03T17:30:00Z"
     },
     {
       "club": "Rochdale",
@@ -1311,15 +1311,6 @@
       "published": "2026-04-03T06:30:11Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Coming up on the road: Wealdstone (A)",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/coming-up-on-the-road-wealdstone-a/",
-      "published": "2026-04-02T23:16:43Z"
-    },
-    {
       "club": "Marine",
       "code": "MAR",
       "short": "Marine",
@@ -1480,6 +1471,15 @@
       "title": "Kenny Waste Management Goal of the Month for March",
       "url": "https://macclesfieldfc.com/latest-news/kenny-waste-management-goal-of-the-month-for-march/",
       "published": "2026-04-02T16:00:43Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Away Days – Yeovil Town",
+      "url": "https://trurocity.co.uk/2026/04/away-days-yeovil-town/",
+      "published": "2026-04-02T15:45:23Z"
     }
   ]
 }
