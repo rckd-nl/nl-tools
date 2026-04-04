@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-04T13:29:01Z",
+  "generatedAt": "2026-04-04T14:23:41Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.fgr.co.uk', port=443): Read timed out. (read timeout=25)"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3699,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=65688ff9-898a-4b92-acac-a30a5856d89b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=8c7d4a41-4d61-4884-b4f7-8377c225224c",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Report: Seagulls suffer defeat at home to Torquay",
+      "url": "https://wsmafc.co.uk/report-wsm-afc-0-1-torquay-united/",
+      "published": "2026-04-04T14:15:05Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "Sam Heathcote after Buxton victory",
+      "url": "https://macclesfieldfc.com/latest-news/sam-heathcote-after-buxton-victory/",
+      "published": "2026-04-04T13:45:14Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Gallery: WsM AFC 0 – 3 Torquay United",
+      "url": "https://wsmafc.co.uk/gallery-wsm-afc-0-3-torquay-united/",
+      "published": "2026-04-04T13:30:05Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -598,6 +625,15 @@
       "title": "Curzon Ashton Post-Match Reaction | Bernard Morley",
       "url": "https://radcliffefc.com/curzon-ashton-post-match-reaction-bernard-morley-3/",
       "published": "2026-04-04T13:23:06Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "TICKET INFORMATION: WOKING (A)",
+      "url": "https://www.morecambefc.com/news/2026/april/04/ticket-information--woking--a-/",
+      "published": "2026-04-04T12:50:00Z"
     },
     {
       "club": "Spennymoor Town",
@@ -888,6 +924,15 @@
       "published": "2026-04-03T21:38:59Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Highlights | Brackley Town (H)",
+      "url": "https://www.fgr.co.uk/news/match-highlights-brackley-town-2526/",
+      "published": "2026-04-03T21:30:00Z"
+    },
+    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -924,13 +969,13 @@
       "published": "2026-04-03T20:05:03Z"
     },
     {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Gallery: WsM AFC 0 – 3 Torquay United",
-      "url": "https://wsmafc.co.uk/gallery-wsm-afc-0-3-torquay-united/",
-      "published": "2026-04-03T19:54:05Z"
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report | Forest Green Rovers 4-0 Brackley Town",
+      "url": "https://www.fgr.co.uk/news/match-report-forest-green-rovers-4-0-brackley-town/",
+      "published": "2026-04-03T20:00:00Z"
     },
     {
       "club": "Dorking Wanderers",
@@ -1086,6 +1131,15 @@
       "published": "2026-04-03T17:56:16Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Tom Knowles Post Brackley",
+      "url": "https://www.fgr.co.uk/news/tom-knowles-post-brackley-2526/",
+      "published": "2026-04-03T17:56:00Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1120,6 +1174,15 @@
       "title": "Tickets On Sale For Hartlepool Away",
       "url": "https://rochdaleafc.co.uk/ticket-news-hartlepool-united-away-060426/",
       "published": "2026-04-03T17:30:49Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Robbie Savage Post Brackley",
+      "url": "https://www.fgr.co.uk/news/robbie-savage-post-match-brakcley-2526/",
+      "published": "2026-04-03T17:30:00Z"
     },
     {
       "club": "Rochdale",
@@ -1417,69 +1480,6 @@
       "title": "Zak Gilsenan recalled by Grimsby Town",
       "url": "https://gateshead-fc.com/zak-gilsenan-recalled-by-grimsby-town/",
       "published": "2026-04-03T11:00:58Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Choose Your 2025/26 Player of the Season – Vote Now Open!",
-      "url": "https://www.horshamfc.co.uk/2026/04/03/choose-your-2025-26-player-of-the-season-vote-now-open/",
-      "published": "2026-04-03T11:00:57Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Preview: Woking v Eastleigh",
-      "url": "https://eastleighfc.com/2026/04/preview-woking-v-eastleigh/",
-      "published": "2026-04-03T10:02:40Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "AWAY DAY BLUES: BUXTON",
-      "url": "https://macclesfieldfc.com/latest-news/away-day-blues-buxton/",
-      "published": "2026-04-03T10:00:16Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Commentary available for Torquay match",
-      "url": "https://wsmafc.co.uk/commentary-available-for-torquay-match/",
-      "published": "2026-04-03T09:45:11Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Bradley Moonan Joins",
-      "url": "https://southportfc.net/bardley-moonan-joins/",
-      "published": "2026-04-03T09:00:43Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Player Of The Season 2025/26",
-      "url": "https://torquayunited.com/player-of-the-season-2025-26/",
-      "published": "2026-04-03T09:00:33Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Alty TV Pre-Match | Halifax Town",
-      "url": "https://altrinchamfc.com/blogs/news/alty-tv-pre-match-halifax-town",
-      "published": "2026-04-03T08:52:26Z"
     }
   ]
 }
