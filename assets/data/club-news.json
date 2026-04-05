@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-05T19:07:06Z",
+  "generatedAt": "2026-04-05T19:53:26Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3702,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=6b96dc9d-48b0-4d1f-ad97-25595f69606e",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=d747480e-898d-4e91-8954-71130e1870fc",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/news/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Preview: Macclesfield (A)",
+      "url": "https://chesterfc.com/04/05/preview-macclesfield-a/",
+      "published": "2026-04-05T19:19:13Z"
+    },
     {
       "club": "Worthing",
       "code": "WOR",
@@ -861,15 +870,6 @@
       "published": "2026-04-05T12:30:14Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Mascot Packages | Morecambe",
-      "url": "https://www.fgr.co.uk/news/mascot-packages-morecambe-h-2526/",
-      "published": "2026-04-05T12:15:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -940,15 +940,6 @@
       "title": "Junior Academy East Mallorca Cup Day Five",
       "url": "https://chippenhamtown.com/junior-academy-east-mallorca-cup-day-five/",
       "published": "2026-04-05T10:48:40Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Preview | Truro City (A)",
-      "url": "https://www.fgr.co.uk/news/match-preview-truro-city-a-2526/",
-      "published": "2026-04-05T10:30:00Z"
     },
     {
       "club": "Chester",
@@ -1048,15 +1039,6 @@
       "title": "Preview | Hartlepool United (A)",
       "url": "https://rochdaleafc.co.uk/preview-hartlepool-united-a-2/",
       "published": "2026-04-05T08:58:12Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage pre Truro City (A)",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-pre-truro-city-a/",
-      "published": "2026-04-05T08:45:00Z"
     },
     {
       "club": "Hornchurch",
@@ -1480,6 +1462,24 @@
       "title": "Celebrating school’s sporting success",
       "url": "https://maidstoneunited.co.uk/04/04/celebrating-schools-sporting-success/",
       "published": "2026-04-04T11:23:38Z"
+    },
+    {
+      "club": "Salisbury",
+      "code": "SAL",
+      "short": "Salisbury",
+      "domain": "salisburyfc.co.uk",
+      "title": "Totton get their revenge in tight clash against Salisbury",
+      "url": "https://salisburyfc.co.uk/2026/04/04/totton-get-their-revenge-in-tight-clash-against-salisbury/",
+      "published": "2026-04-04T11:05:13Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Bluebirds Friday Night Dream Draw Results – Week 32 – Friday 3rd April",
+      "url": "https://chippenhamtown.com/bluebirds-friday-night-dream-draw-results-week-32-friday-3rd-april/",
+      "published": "2026-04-04T11:00:00Z"
     }
   ]
 }
