@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-05T21:50:08Z",
+  "generatedAt": "2026-04-05T22:54:08Z",
   "maxItems": 100,
   "sources": [
     {
@@ -110,10 +110,10 @@
     {
       "club": "Rochdale",
       "domain": "rochdaleafc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
+      "feed": "https://rochdaleafc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Scunthorpe United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=9083e5b8-b321-4f2a-ae1c-79727180396a",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=c603c21a-fc2a-4541-9230-4afaeccac7c6",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -310,10 +310,10 @@
     {
       "club": "Marine",
       "domain": "marinefc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
+      "feed": "https://marinefc.com/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Merthyr Town",
@@ -1068,6 +1068,15 @@
       "published": "2026-04-05T09:00:26Z"
     },
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Preview | Hartlepool United (A)",
+      "url": "https://rochdaleafc.co.uk/preview-hartlepool-united-a-2/",
+      "published": "2026-04-05T08:58:12Z"
+    },
+    {
       "club": "Forest Green Rovers",
       "code": "FGR",
       "short": "Forest Green",
@@ -1104,6 +1113,15 @@
       "published": "2026-04-05T07:57:39Z"
     },
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Vote For Your Goal Of The Season",
+      "url": "https://rochdaleafc.co.uk/goal-of-the-season-25-26/",
+      "published": "2026-04-05T07:33:52Z"
+    },
+    {
       "club": "Farnborough",
       "code": "FAB",
       "short": "Farnborough",
@@ -1111,6 +1129,15 @@
       "title": "Supporters’ Player of the Season",
       "url": "https://farnboroughfc.co.uk/2026/04/supporters-player-of-the-season/",
       "published": "2026-04-05T07:00:31Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Hartlepool Tickets Sold Out",
+      "url": "https://rochdaleafc.co.uk/ticket-news-hartlepool-united-away-060426/",
+      "published": "2026-04-05T06:30:49Z"
     },
     {
       "club": "Southend United",
@@ -1383,6 +1410,15 @@
       "published": "2026-04-04T13:23:06Z"
     },
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Watch Hartlepool Away At The COA",
+      "url": "https://rochdaleafc.co.uk/watch-hartlepool-away-at-the-coa/",
+      "published": "2026-04-04T13:15:54Z"
+    },
+    {
       "club": "Morecambe",
       "code": "MOR",
       "short": "Morecambe",
@@ -1437,49 +1473,13 @@
       "published": "2026-04-04T12:04:39Z"
     },
     {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Watch: Chester 2-1 AFC Telford United",
-      "url": "https://chesterfc.com/04/04/watch-chester-2-1-afc-telford-united/",
-      "published": "2026-04-04T11:41:47Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Highlights: Harriers 2-1 Hereford",
-      "url": "https://harriers.co.uk/news/2026/04/04/highlights-harriers-2-1-hereford/",
-      "published": "2026-04-04T11:32:07Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Celebrating school’s sporting success",
-      "url": "https://maidstoneunited.co.uk/04/04/celebrating-schools-sporting-success/",
-      "published": "2026-04-04T11:23:38Z"
-    },
-    {
-      "club": "Salisbury",
-      "code": "SAL",
-      "short": "Salisbury",
-      "domain": "salisburyfc.co.uk",
-      "title": "Totton get their revenge in tight clash against Salisbury",
-      "url": "https://salisburyfc.co.uk/2026/04/04/totton-get-their-revenge-in-tight-clash-against-salisbury/",
-      "published": "2026-04-04T11:05:13Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Bluebirds Friday Night Dream Draw Results – Week 32 – Friday 3rd April",
-      "url": "https://chippenhamtown.com/bluebirds-friday-night-dream-draw-results-week-32-friday-3rd-april/",
-      "published": "2026-04-04T11:00:00Z"
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "SOUTHPORT 2-1 MARINE",
+      "url": "https://marinefc.com/southport-2-1-marine/",
+      "published": "2026-04-04T11:53:05Z"
     }
   ]
 }
