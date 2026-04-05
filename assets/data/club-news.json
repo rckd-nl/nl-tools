@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-05T14:24:19Z",
+  "generatedAt": "2026-04-05T15:10:07Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3702,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=9521d5b9-f55a-4141-82cd-d7e5ab746747",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=1b46d083-fb31-4023-8115-3d58a5e84f3a",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "ACTION REPLAY: BUXTON (A)",
+      "url": "https://macclesfieldfc.com/galleries/action-replay-buxton-a/",
+      "published": "2026-04-05T15:00:49Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Hornchurch",
+      "url": "https://maidstoneunited.co.uk/04/05/key-info-hornchurch-2/",
+      "published": "2026-04-05T14:40:57Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -616,15 +634,6 @@
       "title": "Get Behind The Boys In Adversity",
       "url": "https://etfc.london/get-behind-the-boys-in-adversity/",
       "published": "2026-04-05T13:24:22Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Hornchurch",
-      "url": "https://maidstoneunited.co.uk/04/05/key-info-hornchurch-2/",
-      "published": "2026-04-05T13:05:57Z"
     },
     {
       "club": "Macclesfield",
@@ -699,15 +708,6 @@
       "published": "2026-04-05T12:30:14Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Mascot Packages | Morecambe",
-      "url": "https://www.fgr.co.uk/news/mascot-packages-morecambe-h-2526/",
-      "published": "2026-04-05T12:15:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -778,15 +778,6 @@
       "title": "Junior Academy East Mallorca Cup Day Five",
       "url": "https://chippenhamtown.com/junior-academy-east-mallorca-cup-day-five/",
       "published": "2026-04-05T10:48:40Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Preview | Truro City (A)",
-      "url": "https://www.fgr.co.uk/news/match-preview-truro-city-a-2526/",
-      "published": "2026-04-05T10:30:00Z"
     },
     {
       "club": "Chester",
@@ -886,15 +877,6 @@
       "title": "Preview | Hartlepool United (A)",
       "url": "https://rochdaleafc.co.uk/preview-hartlepool-united-a-2/",
       "published": "2026-04-05T08:58:12Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage pre Truro City (A)",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-pre-truro-city-a/",
-      "published": "2026-04-05T08:45:00Z"
     },
     {
       "club": "Hornchurch",
@@ -1324,6 +1306,15 @@
       "code": "CHI",
       "short": "Chippenham",
       "domain": "chippenhamtown.com",
+      "title": "Bluebirds Friday Night Dream Draw Results – Week 32 – Friday 3rd April",
+      "url": "https://chippenhamtown.com/bluebirds-friday-night-dream-draw-results-week-32-friday-3rd-april/",
+      "published": "2026-04-04T11:00:00Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
       "title": "Junior Academy East Mallorca Cup Day Three & Four",
       "url": "https://chippenhamtown.com/junior-academy-east-mallorca-cup-day-three-four/",
       "published": "2026-04-04T10:30:00Z"
@@ -1428,15 +1419,6 @@
       "published": "2026-04-04T07:41:44Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Report – Dorking Wanderers",
-      "url": "https://www.horshamfc.co.uk/2026/04/04/match-report-dorking-wanderers-2/",
-      "published": "2026-04-04T07:15:53Z"
-    },
-    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1480,6 +1462,24 @@
       "title": "HIGHLIGHTS: WESTON-SUPER-MARE (A)",
       "url": "https://torquayunited.com/highlights-weston-super-mare-a-2/",
       "published": "2026-04-04T01:40:18Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Highlights | Chelmsford City 3-0 Enfield Town",
+      "url": "https://chelmsfordcityfc.com/news/highlights-chelmsford-city-3-0-enfield-town/",
+      "published": "2026-04-03T21:50:55Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "City in Action – Chippenham Town – Enterprise National League South",
+      "url": "https://www.bathcityfc.com/city-in-action-chippenham-town-enterprise-national-league-south/",
+      "published": "2026-04-03T21:48:54Z"
     }
   ]
 }
