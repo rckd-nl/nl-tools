@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-05T03:41:32Z",
+  "generatedAt": "2026-04-05T05:33:34Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -40,7 +40,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Sutton United",
@@ -93,7 +93,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=a2651387-2faf-4846-8057-678f6b56d35b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=6ede787b-b7f4-4b2c-a0d3-33eb19f6158c",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -136,7 +136,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Peterborough Sports",

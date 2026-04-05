@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-05T03:41:32Z",
+  "generatedAt": "2026-04-05T05:33:34Z",
   "maxItems": 100,
   "sources": [
     {
@@ -129,7 +129,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Southend United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=a2651387-2faf-4846-8057-678f6b56d35b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=6ede787b-b7f4-4b2c-a0d3-33eb19f6158c",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -329,7 +329,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Peterborough Sports",
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
+      "feed": "https://daggers.co.uk/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -1122,6 +1122,15 @@
       "published": "2026-04-04T01:40:18Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Join us for our Daggers Community Trust Charity Golf Day",
+      "url": "https://daggers.co.uk/join-us-for-our-daggers-community-trust-charity-golf-day/",
+      "published": "2026-04-04T00:27:07Z"
+    },
+    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -1275,6 +1284,15 @@
       "published": "2026-04-03T18:24:47Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Report: Hornchurch 3-0 Daggers",
+      "url": "https://daggers.co.uk/match-report-hornchurch-3-0-daggers/",
+      "published": "2026-04-03T18:16:23Z"
+    },
+    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -1374,6 +1392,15 @@
       "published": "2026-04-03T17:45:01Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Andy Carroll’s Hornchurch Reaction",
+      "url": "https://daggers.co.uk/andy-carrolls-hornchurch-reaction/",
+      "published": "2026-04-03T17:44:12Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1453,33 +1480,6 @@
       "title": "Report: Moors 1 South Shields 1",
       "url": "https://spennymoortownfc.co.uk/2026/04/03/report-moors-1-south-shields-1-2/",
       "published": "2026-04-03T17:25:12Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "John Askey Post Yeovil Town (a)",
-      "url": "https://trurocity.co.uk/2026/04/john-askey-post-yeovil-town-a/",
-      "published": "2026-04-03T17:22:06Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Purple Post Match: Hereford (H)",
-      "url": "https://harriers.co.uk/news/2026/04/03/purple-post-match-hereford-h/",
-      "published": "2026-04-03T17:13:20Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Match Report: Chorley 2-0 AFC Fylde",
-      "url": "https://afcfylde.co.uk/news/2026/april/03/match-report--chorley-2-0-afc-fylde/",
-      "published": "2026-04-03T17:13:00Z"
     }
   ]
 }
