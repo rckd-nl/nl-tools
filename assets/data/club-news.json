@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-05T09:59:03Z",
+  "generatedAt": "2026-04-05T10:58:44Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3700,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=8bc24da2-59d1-45b7-872c-ed7e761bdd8b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=1b7799fe-9368-4120-bb9a-addbbba2cd80",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -582,6 +582,42 @@
   ],
   "items": [
     {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Junior Academy East Mallorca Cup Day Five",
+      "url": "https://chippenhamtown.com/junior-academy-east-mallorca-cup-day-five/",
+      "published": "2026-04-05T10:48:40Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Behind the Seals: AFC Telford United (H)",
+      "url": "https://chesterfc.com/04/05/behind-the-seals-afc-telford-united-h/",
+      "published": "2026-04-05T10:22:38Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City vs Forest Green Rovers – Match Information",
+      "url": "https://trurocity.co.uk/2026/04/truro-city-vs-forest-green-rovers-match-information/",
+      "published": "2026-04-05T10:15:10Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Next up at home: Brackley Town (H)",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/next-up-at-home-brackley-town-h/",
+      "published": "2026-04-05T10:07:05Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -618,15 +654,6 @@
       "published": "2026-04-05T09:27:13Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Gallery: Hartlepool United (H) - Dan Haswell",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/gallery-hartlepool-united-h-dan-haswell/",
-      "published": "2026-04-05T09:22:22Z"
-    },
-    {
       "club": "Farnborough",
       "code": "FAB",
       "short": "Farnborough",
@@ -652,15 +679,6 @@
       "title": "Preview | Hartlepool United (A)",
       "url": "https://rochdaleafc.co.uk/preview-hartlepool-united-a-2/",
       "published": "2026-04-05T08:58:12Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage pre Truro City (A)",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-pre-truro-city-a/",
-      "published": "2026-04-05T08:45:00Z"
     },
     {
       "club": "Hornchurch",
@@ -1203,6 +1221,15 @@
       "published": "2026-04-04T07:41:44Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Dorking Wanderers",
+      "url": "https://www.horshamfc.co.uk/2026/04/04/match-report-dorking-wanderers-2/",
+      "published": "2026-04-04T07:15:53Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1248,6 +1275,15 @@
       "published": "2026-04-04T01:40:18Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Join us for our Daggers Community Trust Charity Golf Day",
+      "url": "https://daggers.co.uk/join-us-for-our-daggers-community-trust-charity-golf-day/",
+      "published": "2026-04-04T00:27:07Z"
+    },
+    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -1264,15 +1300,6 @@
       "title": "City in Action – Chippenham Town – Enterprise National League South",
       "url": "https://www.bathcityfc.com/city-in-action-chippenham-town-enterprise-national-league-south/",
       "published": "2026-04-03T21:48:54Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Highlights | Brackley Town (H)",
-      "url": "https://www.fgr.co.uk/news/match-highlights-brackley-town-2526/",
-      "published": "2026-04-03T21:30:00Z"
     },
     {
       "club": "Eastleigh",
@@ -1318,15 +1345,6 @@
       "title": "Match Report | Radcliffe (A)",
       "url": "https://curzon-ashton.co.uk/match-report-radcliffe-a-2/",
       "published": "2026-04-03T20:00:19Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | Forest Green Rovers 4-0 Brackley Town",
-      "url": "https://www.fgr.co.uk/news/match-report-forest-green-rovers-4-0-brackley-town/",
-      "published": "2026-04-03T20:00:00Z"
     },
     {
       "club": "Dorking Wanderers",
@@ -1392,6 +1410,15 @@
       "published": "2026-04-03T18:24:47Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Report: Hornchurch 3-0 Daggers",
+      "url": "https://daggers.co.uk/match-report-hornchurch-3-0-daggers/",
+      "published": "2026-04-03T18:16:23Z"
+    },
+    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -1453,33 +1480,6 @@
       "title": "MATCH REPORT: Bath City 1-0 Chippenham Town | National League South | Friday 3rd April 2026",
       "url": "https://chippenhamtown.com/match-report-bath-city-1-0-chippenham-town-national-league-south-friday-3rd-april-2026/",
       "published": "2026-04-03T18:00:00Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Southport 2 Marine 1",
-      "url": "https://southportfc.net/southport-2-marine-1/",
-      "published": "2026-04-03T17:56:33Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Up Next – Ebbsfleet United vs Dover Athletic",
-      "url": "https://doverathletic.com/news/up-next-ebbsfleet-united-vs-dover-athletic/",
-      "published": "2026-04-03T17:56:16Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Tom Knowles Post Brackley",
-      "url": "https://www.fgr.co.uk/news/tom-knowles-post-brackley-2526/",
-      "published": "2026-04-03T17:56:00Z"
     }
   ]
 }
