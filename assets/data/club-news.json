@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-05T09:04:46Z",
+  "generatedAt": "2026-04-05T09:59:03Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3700,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=e57cd47f-a9e9-4412-bd8d-e81272349c2f",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=8bc24da2-59d1-45b7-872c-ed7e761bdd8b",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,51 @@
   ],
   "items": [
     {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City Lottery – Weekly Winners 03/04/26",
+      "url": "https://trurocity.co.uk/2026/04/truro-city-lottery-weekly-winners-03-04-26/",
+      "published": "2026-04-05T09:55:46Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "CLOSED EASTER MONDAY - Ticket office and club shop opening hours w/c April 6th",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/closed-easter-monday-ticket-office-and-club-shop-opening-hours-w-c-april-6th/",
+      "published": "2026-04-05T09:37:25Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Matchday eve: Gateshead (A)",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/matchday-eve-gateshead-a/",
+      "published": "2026-04-05T09:31:19Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Iron hosting Lincolnshire FA County Sunday Cup Final",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/iron-hosting-lincolnshire-fa-county-sunday-cup-final/",
+      "published": "2026-04-05T09:27:13Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Gallery: Hartlepool United (H) - Dan Haswell",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/gallery-hartlepool-united-h-dan-haswell/",
+      "published": "2026-04-05T09:22:22Z"
+    },
+    {
       "club": "Farnborough",
       "code": "FAB",
       "short": "Farnborough",
@@ -607,6 +652,15 @@
       "title": "Preview | Hartlepool United (A)",
       "url": "https://rochdaleafc.co.uk/preview-hartlepool-united-a-2/",
       "published": "2026-04-05T08:58:12Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Robbie Savage pre Truro City (A)",
+      "url": "https://www.fgr.co.uk/news/robbie-savage-pre-truro-city-a/",
+      "published": "2026-04-05T08:45:00Z"
     },
     {
       "club": "Hornchurch",
@@ -1131,15 +1185,6 @@
       "published": "2026-04-04T08:27:49Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Gallery: Hartlepool United (H) - Steve Hope",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/gallery-hartlepool-united-h-steve-hope/",
-      "published": "2026-04-04T08:24:06Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1149,15 +1194,6 @@
       "published": "2026-04-04T08:00:58Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "VIDEO: Andy Butler reacts after Hartlepool draw",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/video-andy-butler-reacts-after-hartlepool-draw/",
-      "published": "2026-04-04T07:57:32Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1165,15 +1201,6 @@
       "title": "Match Report: Yeovil Town 1-0 Truro City",
       "url": "https://ytfc.net/2026/04/match-report-yeovil-town-1-0-truro-city/",
       "published": "2026-04-04T07:41:44Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Report – Dorking Wanderers",
-      "url": "https://www.horshamfc.co.uk/2026/04/04/match-report-dorking-wanderers-2/",
-      "published": "2026-04-04T07:15:53Z"
     },
     {
       "club": "Altrincham",
@@ -1221,15 +1248,6 @@
       "published": "2026-04-04T01:40:18Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Join us for our Daggers Community Trust Charity Golf Day",
-      "url": "https://daggers.co.uk/join-us-for-our-daggers-community-trust-charity-golf-day/",
-      "published": "2026-04-04T00:27:07Z"
-    },
-    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -1248,13 +1266,13 @@
       "published": "2026-04-03T21:48:54Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Report: Iron 0-0 Hartlepool United",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/report-iron-0-0-hartlepool-united/",
-      "published": "2026-04-03T21:38:59Z"
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Highlights | Brackley Town (H)",
+      "url": "https://www.fgr.co.uk/news/match-highlights-brackley-town-2526/",
+      "published": "2026-04-03T21:30:00Z"
     },
     {
       "club": "Eastleigh",
@@ -1300,6 +1318,15 @@
       "title": "Match Report | Radcliffe (A)",
       "url": "https://curzon-ashton.co.uk/match-report-radcliffe-a-2/",
       "published": "2026-04-03T20:00:19Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report | Forest Green Rovers 4-0 Brackley Town",
+      "url": "https://www.fgr.co.uk/news/match-report-forest-green-rovers-4-0-brackley-town/",
+      "published": "2026-04-03T20:00:00Z"
     },
     {
       "club": "Dorking Wanderers",
@@ -1363,15 +1390,6 @@
       "title": "Cards Trust Player Of The Month: March",
       "url": "https://wokingfc.co.uk/04/03/cards-trust-player-of-the-month-march/",
       "published": "2026-04-03T18:24:47Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Match Report: Hornchurch 3-0 Daggers",
-      "url": "https://daggers.co.uk/match-report-hornchurch-3-0-daggers/",
-      "published": "2026-04-03T18:16:23Z"
     },
     {
       "club": "Woking",
@@ -1455,31 +1473,13 @@
       "published": "2026-04-03T17:56:16Z"
     },
     {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Cook: “Proud of the lads to keep going.” | Eastbourne Borough Reaction",
-      "url": "https://worthingfc.com/2026/04/cook-proud-of-the-lads-to-keep-going-eastbourne-borough-reaction/",
-      "published": "2026-04-03T17:45:01Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Andy Carroll’s Hornchurch Reaction",
-      "url": "https://daggers.co.uk/andy-carrolls-hornchurch-reaction/",
-      "published": "2026-04-03T17:44:12Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "“𝗜 𝘁𝗵𝗼𝘂𝗴𝗵𝘁 𝘄𝗲 𝗽𝘂𝘁 𝘁𝗵𝗲𝗺 𝘂𝗻𝗱𝗲𝗿 𝗽𝗿𝗲𝘀𝘀𝘂𝗿𝗲” | Manager Scott Rogers post Torquay United (H)",
-      "url": "https://wsmafc.co.uk/%f0%9d%97%9c-%f0%9d%98%81%f0%9d%97%b5%f0%9d%97%bc%f0%9d%98%82%f0%9d%97%b4%f0%9d%97%b5%f0%9d%98%81-%f0%9d%98%84%f0%9d%97%b2-%f0%9d%97%bd%f0%9d%98%82%f0%9d%98%81-%f0%9d%98%81%f0%9d%97%b5%f0%9d%97%b2/",
-      "published": "2026-04-03T17:39:43Z"
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Tom Knowles Post Brackley",
+      "url": "https://www.fgr.co.uk/news/tom-knowles-post-brackley-2526/",
+      "published": "2026-04-03T17:56:00Z"
     }
   ]
 }
