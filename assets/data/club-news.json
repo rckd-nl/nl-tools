@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-06T14:03:03Z",
+  "generatedAt": "2026-04-06T15:10:09Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3702,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=919a3f9d-b312-4043-a912-bccd05050839",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=14888dd9-4aa5-4081-865e-07dad24b2e32",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -1059,15 +1059,6 @@
       "published": "2026-04-05T12:30:14Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Mascot Packages | Morecambe",
-      "url": "https://www.fgr.co.uk/news/mascot-packages-morecambe-h-2526/",
-      "published": "2026-04-05T12:15:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1129,15 +1120,6 @@
       "title": "Junior Academy East Mallorca Cup Day Five",
       "url": "https://chippenhamtown.com/junior-academy-east-mallorca-cup-day-five/",
       "published": "2026-04-05T10:48:40Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Preview | Truro City (A)",
-      "url": "https://www.fgr.co.uk/news/match-preview-truro-city-a-2526/",
-      "published": "2026-04-05T10:30:00Z"
     },
     {
       "club": "Chester",
@@ -1219,15 +1201,6 @@
       "title": "Preview | Hartlepool United (A)",
       "url": "https://rochdaleafc.co.uk/preview-hartlepool-united-a-2/",
       "published": "2026-04-05T08:58:12Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage pre Truro City (A)",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-pre-truro-city-a/",
-      "published": "2026-04-05T08:45:00Z"
     },
     {
       "club": "Hornchurch",
@@ -1480,6 +1453,33 @@
       "title": "Yeovil Town vs Truro City – Match Gallery",
       "url": "https://trurocity.co.uk/2026/04/yeovil-town-vs-truro-city-match-gallery/",
       "published": "2026-04-04T15:01:54Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "EVERYTHING WE LEARNT FROM HARVEY MACADAM: PRE MORECAMBE (A)",
+      "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-harvey-macadam-pre-morecambe",
+      "published": "2026-04-04T15:00:00Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "YOUTH MATCH REPORT: CARLISLE UNITED 1-5 SHREWSBURY TOWN",
+      "url": "https://www.carlisleunited.co.uk/news/youth-match-report-carlisle-united-1-5-shrewsbury-town",
+      "published": "2026-04-04T15:00:00Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Winning Numbers Drawn In Easter Raffle",
+      "url": "https://spennymoortownfc.co.uk/2026/04/04/winning-numbers-in-easter-raffle/",
+      "published": "2026-04-04T14:31:13Z"
     }
   ]
 }
