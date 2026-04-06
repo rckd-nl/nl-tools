@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-06T19:22:39Z",
+  "generatedAt": "2026-04-06T20:28:22Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3703,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=5e719267-bcc7-4bcb-b654-a1cb4246f4fd",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=2e36d386-946b-42f0-8a5c-0256f59892f8",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,69 @@
   ],
   "items": [
     {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Match Gallery: Braintree 0-0 Woking",
+      "url": "https://wokingfc.co.uk/04/06/match-gallery-braintree-0-0-woking/",
+      "published": "2026-04-06T20:12:38Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Highlights: Eastleigh 2-1 Yeovil Town",
+      "url": "https://eastleighfc.com/2026/04/highlights-eastleigh-2-1-yeovil-town/",
+      "published": "2026-04-06T20:00:11Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "EVERYTHING WE LEARNT FROM DAVID AJIBOYE: POST MORECAMBE (A)",
+      "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-david-ajiboye-post-morecambe",
+      "published": "2026-04-06T19:36:50Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Gallery | Southport (H)",
+      "url": "https://curzon-ashton.co.uk/gallery-southport-h/",
+      "published": "2026-04-06T19:32:38Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Report: Weston win against The Whites",
+      "url": "https://wsmafc.co.uk/report-weston-win-against-the-whites/",
+      "published": "2026-04-06T19:30:10Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "EVERYTHING WE LEARNT FROM MARK HUGHES: POST MORECAMBE (A)",
+      "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-mark-hughes-post-morecambe",
+      "published": "2026-04-06T19:23:55Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Match Report | Southport (H)",
+      "url": "https://curzon-ashton.co.uk/match-report-southport-h-2/",
+      "published": "2026-04-06T19:22:45Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -787,15 +850,6 @@
       "title": "REACTION | Delighted Downes on Massive Merthyr Win",
       "url": "https://herefordfc.co.uk/2026/04/reaction-delighted-downes-on-massive-merthyr-win/",
       "published": "2026-04-06T17:31:46Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Savage post Truro (A)",
-      "url": "https://www.fgr.co.uk/news/savage-post-truro-a-2526/",
-      "published": "2026-04-06T17:30:00Z"
     },
     {
       "club": "Morecambe",
@@ -1426,60 +1480,6 @@
       "title": "MATCH PREVIEW: Chippenham Town vs AFC Totton | National League South | Monday 6th April 2026",
       "url": "https://chippenhamtown.com/match-preview-chippenham-town-vs-afc-totton-national-league-south-monday-6th-april-2026/",
       "published": "2026-04-05T14:00:00Z"
-    },
-    {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "Get Behind The Boys In Adversity",
-      "url": "https://etfc.london/get-behind-the-boys-in-adversity/",
-      "published": "2026-04-05T13:24:22Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MATCH PREVIEW: MACCLESFIELD FC VS CHESTER FC",
-      "url": "https://macclesfieldfc.com/latest-news/match-preview-macclesfield-fc-vs-chester-fc/",
-      "published": "2026-04-05T13:00:32Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Match Day Information: Horsham (H)",
-      "url": "https://farnboroughfc.co.uk/2026/04/match-day-information-horsham-h/",
-      "published": "2026-04-05T13:00:26Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Match Preview: Chelmsford City (H)",
-      "url": "https://daggers.co.uk/match-preview-chelmsford-city-h/",
-      "published": "2026-04-05T13:00:00Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Club Statement: Stadium Capacity Update",
-      "url": "https://wokingfc.co.uk/04/05/club-statement-stadium-capacity-update/",
-      "published": "2026-04-05T12:59:10Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "JIMMY BALL | BATH CITY (H) | MATCH PREVIEW",
-      "url": "https://torquayunited.com/jimmy-ball-bath-city-h-match-preview/",
-      "published": "2026-04-05T12:54:52Z"
     }
   ]
 }
