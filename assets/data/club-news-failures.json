@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-06T09:58:04Z",
+  "generatedAt": "2026-04-06T10:45:24Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -33,22 +33,6 @@
       "ok": false,
       "count": 0,
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
-    },
-    {
-      "club": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
-    },
-    {
-      "club": "Scunthorpe United",
-      "domain": "scunthorpe-united.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
     },
     {
       "club": "Solihull Moors",
@@ -109,7 +93,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=ff001f1e-4365-4970-901b-ddfdf033d3ee",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=f14a6e22-7104-47b2-980b-8525fbd13348",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -121,14 +105,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "domain": "harriers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -168,7 +144,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='psfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='psfc.co.uk', port=443) at 0x7f8548f51910>, 'Connection to psfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Scarborough Athletic",
@@ -187,14 +163,6 @@
       "error": "HTTP 404"
     },
     {
-      "club": "Southport",
-      "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
-    },
-    {
       "club": "Worksop Town",
       "domain": "worksoptownfc.co.uk",
       "feed": "",
@@ -209,30 +177,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Chippenham Town",
-      "domain": "chippenhamtown.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "domain": "dorkingwanderers.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
-    },
-    {
-      "club": "Dover Athletic",
-      "domain": "doverathletic.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
     },
     {
       "club": "Eastbourne Borough",
@@ -265,14 +209,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
