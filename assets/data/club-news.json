@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-06T05:55:05Z",
+  "generatedAt": "2026-04-06T08:06:47Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=c270e29a-3f8c-40d7-a0ce-d2acf09dbf72",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=974385e5-bc04-40af-89cb-0a75a88ec4cf",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Easter Monday means a trip to York City",
+      "url": "https://altrinchamfc.com/blogs/news/easter-monday-means-a-trip-to-york-city",
+      "published": "2026-04-06T07:52:14Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "LAST FEW SEATS REMAINING FOR BATH CLASH!",
+      "url": "https://torquayunited.com/tickets-selling-fast-for-tomorrows-big-clash/",
+      "published": "2026-04-06T07:25:00Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Player Of The Season 2025/26",
+      "url": "https://torquayunited.com/player-of-the-season-2025-26/",
+      "published": "2026-04-06T07:20:00Z"
+    },
+    {
       "club": "Salisbury",
       "code": "SAL",
       "short": "Salisbury",
@@ -589,6 +616,15 @@
       "title": "Salisbury look to dampen Weston’s playoff hopes",
       "url": "https://salisburyfc.co.uk/2026/04/05/salisbury-look-to-dampen-westons-playoff-hopes/",
       "published": "2026-04-05T21:45:28Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "One seat left available on Supporters’ Minibus for Salisbury",
+      "url": "https://wsmafc.co.uk/one-seat-left-available-on-supporters-minibus-for-salisbury/",
+      "published": "2026-04-05T21:18:36Z"
     },
     {
       "club": "Eastleigh",
@@ -789,15 +825,6 @@
       "published": "2026-04-05T14:11:38Z"
     },
     {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Easter Monday means a trip to York City",
-      "url": "https://altrinchamfc.com/blogs/news/easter-monday-means-a-trip-to-york-city",
-      "published": "2026-04-05T14:00:03Z"
-    },
-    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -832,15 +859,6 @@
       "title": "Match Day Information: Horsham (H)",
       "url": "https://farnboroughfc.co.uk/2026/04/match-day-information-horsham-h/",
       "published": "2026-04-05T13:00:26Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Match Preview: Chelmsford City (H)",
-      "url": "https://daggers.co.uk/match-preview-chelmsford-city-h/",
-      "published": "2026-04-05T13:00:00Z"
     },
     {
       "club": "Woking",
@@ -922,15 +940,6 @@
       "title": "Match Preview – Torquay United (A) – Enterprise National League South",
       "url": "https://www.bathcityfc.com/match-preview-torquay-united-a-enterprise-national-league-south/",
       "published": "2026-04-05T11:57:25Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "TICKETS SELLING FAST FOR TOMORROW’S BIG CLASH!",
-      "url": "https://torquayunited.com/tickets-selling-fast-for-tomorrows-big-clash/",
-      "published": "2026-04-05T11:20:13Z"
     },
     {
       "club": "York City",
@@ -1471,15 +1480,6 @@
       "title": "Watch: Chester 2-1 AFC Telford United",
       "url": "https://chesterfc.com/04/04/watch-chester-2-1-afc-telford-united/",
       "published": "2026-04-04T11:41:47Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Highlights: Harriers 2-1 Hereford",
-      "url": "https://harriers.co.uk/news/2026/04/04/highlights-harriers-2-1-hereford/",
-      "published": "2026-04-04T11:32:07Z"
     }
   ]
 }
