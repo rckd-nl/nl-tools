@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-06T20:28:22Z",
+  "generatedAt": "2026-04-06T21:33:28Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -41,6 +41,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Solihull Moors",
@@ -101,7 +109,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=2e36d386-946b-42f0-8a5c-0256f59892f8",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=cc33ef9c-6355-4853-8afb-a30121609463",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -129,6 +137,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Marine",
+      "domain": "marinefc.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Merthyr Town",
@@ -185,6 +201,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Chippenham Town",
+      "domain": "chippenhamtown.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chippenhamtown.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chippenhamtown.com', port=443) at 0x7f80f3ca9c90>, 'Connection to chippenhamtown.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Eastbourne Borough",
