@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-06T08:06:47Z",
+  "generatedAt": "2026-04-06T09:58:04Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,18 +78,18 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3702,
+      "error": ""
     },
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -118,10 +118,10 @@
     {
       "club": "Scunthorpe United",
       "domain": "scunthorpe-united.co.uk",
-      "feed": "https://www.scunthorpe-united.co.uk/feed/",
-      "ok": true,
-      "count": 4,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Solihull Moors",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=974385e5-bc04-40af-89cb-0a75a88ec4cf",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=ff001f1e-4365-4970-901b-ddfdf033d3ee",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -337,7 +337,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='psfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='psfc.co.uk', port=443) at 0x7f8548f51910>, 'Connection to psfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Radcliffe",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -422,34 +422,34 @@
     {
       "club": "Chippenham Town",
       "domain": "chippenhamtown.com",
-      "feed": "https://chippenhamtown.com/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "https://dwfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Dover Athletic",
       "domain": "doverathletic.com",
-      "feed": "https://doverathletic.com/news/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Eastbourne Borough",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,51 @@
     }
   ],
   "items": [
+    {
+      "club": "Alfreton Town",
+      "code": "ALF",
+      "short": "Alfreton",
+      "domain": "alfretontownfootballclub.com",
+      "title": "Match Preview: Leamington (A)",
+      "url": "https://alfretontownfootballclub.com/2026/04/06/match-preview-leamington-a/",
+      "published": "2026-04-06T09:24:39Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Preview: Eastleigh v Yeovil Town",
+      "url": "https://eastleighfc.com/2026/04/preview-eastleigh-v-yeovil-town-3/",
+      "published": "2026-04-06T09:09:11Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Match Preview | AFC Fylde (A)",
+      "url": "https://radcliffefc.com/match-preview-afc-fylde-a/",
+      "published": "2026-04-06T09:08:09Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "PROGRAMME | Hereford FC vs Merthyr Town",
+      "url": "https://herefordfc.co.uk/2026/04/programme-hereford-fc-vs-merthyr-town/",
+      "published": "2026-04-06T09:00:54Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Matchday Information: Yeovil Town (H)",
+      "url": "https://eastleighfc.com/2026/04/matchday-information-yeovil-town-h-3/",
+      "published": "2026-04-06T08:09:32Z"
+    },
     {
       "club": "Altrincham",
       "code": "ALT",
@@ -688,15 +733,6 @@
       "title": "Truro City vs Forest Green Rovers – Match Preview",
       "url": "https://trurocity.co.uk/2026/04/truro-city-vs-forest-green-rovers-match-preview/",
       "published": "2026-04-05T17:08:33Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Preview – Farnborough",
-      "url": "https://www.horshamfc.co.uk/2026/04/05/match-preview-farnborough-2/",
-      "published": "2026-04-05T17:05:10Z"
     },
     {
       "club": "Morecambe",
@@ -825,15 +861,6 @@
       "published": "2026-04-05T14:11:38Z"
     },
     {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "MATCH PREVIEW: Chippenham Town vs AFC Totton | National League South | Monday 6th April 2026",
-      "url": "https://chippenhamtown.com/match-preview-chippenham-town-vs-afc-totton-national-league-south-monday-6th-april-2026/",
-      "published": "2026-04-05T14:00:00Z"
-    },
-    {
       "club": "Enfield Town",
       "code": "ENF",
       "short": "Enfield",
@@ -859,6 +886,15 @@
       "title": "Match Day Information: Horsham (H)",
       "url": "https://farnboroughfc.co.uk/2026/04/match-day-information-horsham-h/",
       "published": "2026-04-05T13:00:26Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Preview: Chelmsford City (H)",
+      "url": "https://daggers.co.uk/match-preview-chelmsford-city-h/",
+      "published": "2026-04-05T13:00:00Z"
     },
     {
       "club": "Woking",
@@ -915,6 +951,15 @@
       "published": "2026-04-05T12:30:14Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Mascot Packages | Morecambe",
+      "url": "https://www.fgr.co.uk/news/mascot-packages-morecambe-h-2526/",
+      "published": "2026-04-05T12:15:00Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -969,13 +1014,13 @@
       "published": "2026-04-05T11:00:29Z"
     },
     {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Junior Academy East Mallorca Cup Day Five",
-      "url": "https://chippenhamtown.com/junior-academy-east-mallorca-cup-day-five/",
-      "published": "2026-04-05T10:48:40Z"
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Preview | Truro City (A)",
+      "url": "https://www.fgr.co.uk/news/match-preview-truro-city-a-2526/",
+      "published": "2026-04-05T10:30:00Z"
     },
     {
       "club": "Chester",
@@ -996,15 +1041,6 @@
       "published": "2026-04-05T10:15:10Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Next up at home: Brackley Town (H)",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/next-up-at-home-brackley-town-h/",
-      "published": "2026-04-05T10:07:05Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1021,33 +1057,6 @@
       "title": "Truro City Lottery – Weekly Winners 03/04/26",
       "url": "https://trurocity.co.uk/2026/04/truro-city-lottery-weekly-winners-03-04-26/",
       "published": "2026-04-05T09:55:46Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "CLOSED EASTER MONDAY - Ticket office and club shop opening hours w/c April 6th",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/closed-easter-monday-ticket-office-and-club-shop-opening-hours-w-c-april-6th/",
-      "published": "2026-04-05T09:37:25Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Matchday eve: Gateshead (A)",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/matchday-eve-gateshead-a/",
-      "published": "2026-04-05T09:31:19Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Iron hosting Lincolnshire FA County Sunday Cup Final",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/iron-hosting-lincolnshire-fa-county-sunday-cup-final/",
-      "published": "2026-04-05T09:27:13Z"
     },
     {
       "club": "Farnborough",
@@ -1075,6 +1084,15 @@
       "title": "Preview | Hartlepool United (A)",
       "url": "https://rochdaleafc.co.uk/preview-hartlepool-united-a-2/",
       "published": "2026-04-05T08:58:12Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Robbie Savage pre Truro City (A)",
+      "url": "https://www.fgr.co.uk/news/robbie-savage-pre-truro-city-a/",
+      "published": "2026-04-05T08:45:00Z"
     },
     {
       "club": "Hornchurch",
@@ -1230,15 +1248,6 @@
       "published": "2026-04-04T17:39:09Z"
     },
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Top Attendances",
-      "url": "https://southportfc.net/top-attendances/",
-      "published": "2026-04-04T17:33:12Z"
-    },
-    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -1255,15 +1264,6 @@
       "title": "SILKMEN FAN CAM: BUXTON (A)",
       "url": "https://macclesfieldfc.com/galleries/silkmen-fan-cam-buxton-a/",
       "published": "2026-04-04T17:00:32Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Highlights | Southport v Marine",
-      "url": "https://southportfc.net/highlights-southport-v-marine/",
-      "published": "2026-04-04T16:48:21Z"
     },
     {
       "club": "Carlisle United",
@@ -1306,7 +1306,7 @@
       "code": "HER",
       "short": "Hereford",
       "domain": "herefordfc.co.uk",
-      "title": "INTERVIEW | Preston on Merthyr Meeting",
+      "title": "INTERVIEW | Preston Previews Merthyr Meeting",
       "url": "https://herefordfc.co.uk/2026/04/interview-preston-post-kidderminster-loss/",
       "published": "2026-04-04T16:22:23Z"
     },
