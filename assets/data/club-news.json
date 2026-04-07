@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-07T16:44:39Z",
+  "generatedAt": "2026-04-07T17:44:21Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3706,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=82c99fe0-d784-405b-8ead-aeeb8e6a66b9",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=d73cc9e7-5030-45e4-b2bd-1d4d7f378564",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "New Marquee Unveiled",
+      "url": "https://tonbridgeangels.co.uk/new-marquee-unveiled/",
+      "published": "2026-04-07T17:08:37Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SILKMEN FAN CAM: CHESTER (H)",
+      "url": "https://macclesfieldfc.com/galleries/silkmen-fan-cam-chester-h/",
+      "published": "2026-04-07T17:00:18Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Stadium Hire available",
+      "url": "https://farnboroughfc.co.uk/2026/04/stadium-hire-available/",
+      "published": "2026-04-07T17:00:07Z"
+    },
+    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -697,6 +724,15 @@
       "title": "Town Relegated After Two NLS Seasons",
       "url": "https://etfc.london/town-relegated-after-two-nls-seasons/",
       "published": "2026-04-07T14:18:27Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Preview: Chester FC U19 vs Solihull Moors U19",
+      "url": "https://chesterfc.com/04/07/preview-chester-fc-u19-vs-solihull-moors-u19-2/",
+      "published": "2026-04-07T14:15:46Z"
     },
     {
       "club": "Chester",
@@ -1014,6 +1050,24 @@
       "published": "2026-04-06T23:50:00Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Highlights | Truro (A)",
+      "url": "https://www.fgr.co.uk/news/match-highlights-truro-a-252/",
+      "published": "2026-04-06T22:30:00Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report | Truro City 1-1 Forest Green Rovers",
+      "url": "https://www.fgr.co.uk/news/match-report-truro-1-1-forest green-rovers/",
+      "published": "2026-04-06T22:00:00Z"
+    },
+    {
       "club": "Bath City",
       "code": "BAT",
       "short": "Bath",
@@ -1185,6 +1239,15 @@
       "published": "2026-04-06T18:52:39Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Kyle McAllister post Truro (A)",
+      "url": "https://www.fgr.co.uk/news/kyle-mcallister-post-truro-a-2526/",
+      "published": "2026-04-06T18:45:00Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1347,6 +1410,15 @@
       "published": "2026-04-06T17:31:46Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Savage post Truro (A)",
+      "url": "https://www.fgr.co.uk/news/savage-post-truro-a-2526/",
+      "published": "2026-04-06T17:30:00Z"
+    },
+    {
       "club": "Morecambe",
       "code": "MOR",
       "short": "Morecambe",
@@ -1408,78 +1480,6 @@
       "title": "Report: Macclesfield 0-2 Chester",
       "url": "https://chesterfc.com/04/06/report-macclesfield-0-2-chester/",
       "published": "2026-04-06T17:08:11Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Another late blow leaves Alty stunned",
-      "url": "https://altrinchamfc.com/blogs/news/matchday-43-york-city",
-      "published": "2026-04-06T17:07:58Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Post Scarborough Athletic (A): Matty Dolan",
-      "url": "https://spennymoortownfc.co.uk/2026/04/06/post-scarborough-athletic-a-matty-dolan/",
-      "published": "2026-04-06T17:06:48Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Report: Sutton United 0-3 Southend United",
-      "url": "https://southendunited.co.uk/news/2026/april/06/report--sutton-united-0-3-southend-united/",
-      "published": "2026-04-06T17:01:22Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Match Report: AFC Fylde 4-3 Radcliffe",
-      "url": "https://afcfylde.co.uk/news/2026/april/06/match-report--afc-fylde-4-3-radcliffe/",
-      "published": "2026-04-06T16:57:00Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City 1 Forest Green Rovers 1 – Match Report",
-      "url": "https://trurocity.co.uk/2026/04/truro-city-1-forest-green-rovers-1-match-report/",
-      "published": "2026-04-06T16:53:56Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Report – Ebbsfleet United 4-0 Dover Athletic",
-      "url": "https://doverathletic.com/news/report-ebbsfleet-united-4-0-dover-athletic/",
-      "published": "2026-04-06T16:44:24Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Match Report: Dorking Wanderers 1-2 Worthing FC",
-      "url": "https://worthingfc.com/2026/04/match-report-dorking-wanderers-1-2-worthing-fc/",
-      "published": "2026-04-06T16:41:42Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "MATCH REPORT: MORECAMBE 2-2 CARLISLE UNITED",
-      "url": "https://www.carlisleunited.co.uk/news/match-report-morecambe-2-2-carlisle-united",
-      "published": "2026-04-06T16:30:00Z"
     }
   ]
 }
