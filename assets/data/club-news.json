@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-08T22:09:21Z",
+  "generatedAt": "2026-04-08T23:04:02Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: HTTPSConnectionPool(host='www.fgr.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.fgr.co.uk', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3709,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=9c64d7a4-ab31-4dc0-a960-eb525c63922f",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=632ddbd5-8a6a-4735-99f6-db4a9eb401be",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "REACTION | Downes on Huge Win at Marine",
+      "url": "https://herefordfc.co.uk/2026/04/reaction-downes-on-huge-win-at-marine/",
+      "published": "2026-04-08T22:27:39Z"
+    },
+    {
       "club": "Horsham",
       "code": "HRS",
       "short": "Horsham",
@@ -625,6 +634,15 @@
       "title": "Truro City vs Forest Green Rovers – Match Highlights",
       "url": "https://trurocity.co.uk/2026/04/truro-city-vs-forest-green-rovers-match-highlights/",
       "published": "2026-04-08T16:51:25Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Asger's Story",
+      "url": "https://www.fgr.co.uk/news/asgers-story/",
+      "published": "2026-04-08T16:50:00Z"
     },
     {
       "club": "Truro City",
@@ -951,6 +969,15 @@
       "published": "2026-04-08T10:00:34Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "FGR Women Vs Torquay United Women | Sunday 12th April",
+      "url": "https://www.fgr.co.uk/news/fgr-women-vs-torquay-united-women-sunday-12th-april/",
+      "published": "2026-04-08T10:00:00Z"
+    },
+    {
       "club": "Carlisle United",
       "code": "CAR",
       "short": "Carlisle",
@@ -1003,6 +1030,15 @@
       "title": "Kent Senior Cup final tickets on sale",
       "url": "https://maidstoneunited.co.uk/04/08/kent-senior-cup-final-tickets-on-sale/",
       "published": "2026-04-08T08:00:29Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Ticket Info | Hartlepool (A)",
+      "url": "https://www.fgr.co.uk/news/ticket-info-hartlepool-a-2526/",
+      "published": "2026-04-08T08:00:00Z"
     },
     {
       "club": "Southport",
@@ -1444,42 +1480,6 @@
       "title": "AFC Fylde Post-Match Reaction | Bernard Morley",
       "url": "https://radcliffefc.com/afc-fylde-post-match-reaction-bernard-morley/",
       "published": "2026-04-07T10:52:09Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "GALLERY | Hereford FC 3-0 Merthyr Town",
-      "url": "https://herefordfc.co.uk/2026/04/gallery-hereford-fc-3-0-merthyr-town/",
-      "published": "2026-04-07T10:26:02Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Match Report: Eastleigh 2-1 Yeovil Town",
-      "url": "https://ytfc.net/2026/04/match-report-eastleigh-2-1-yeovil-town/",
-      "published": "2026-04-07T09:55:17Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Introducing Tommy McAvoy",
-      "url": "https://tonbridgeangels.co.uk/introducing-tommy-mcavoy/",
-      "published": "2026-04-07T09:45:00Z"
-    },
-    {
-      "club": "Alfreton Town",
-      "code": "ALF",
-      "short": "Alfreton",
-      "domain": "alfretontownfootballclub.com",
-      "title": "Post Match: Leamington (A)",
-      "url": "https://alfretontownfootballclub.com/2026/04/07/post-match-leamington-a-2/",
-      "published": "2026-04-07T09:40:48Z"
     }
   ]
 }
