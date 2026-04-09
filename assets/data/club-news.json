@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-09T07:08:00Z",
+  "generatedAt": "2026-04-09T08:50:57Z",
   "maxItems": 100,
   "sources": [
     {
@@ -110,10 +110,10 @@
     {
       "club": "Rochdale",
       "domain": "rochdaleafc.co.uk",
-      "feed": "https://rochdaleafc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Scunthorpe United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=64c97159-17a9-4f35-b384-eeaf408a573f",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=906a3a29-14aa-48c7-8fae-764d2700e39b",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -310,10 +310,10 @@
     {
       "club": "Marine",
       "domain": "marinefc.com",
-      "feed": "https://marinefc.com/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Merthyr Town",
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
+      "feed": "https://daggers.co.uk/news/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -446,10 +446,10 @@
     {
       "club": "Dover Athletic",
       "domain": "doverathletic.com",
-      "feed": "https://doverathletic.com/news/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Eastbourne Borough",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "Update On Close Season Pitch Drainage Renovations",
+      "url": "https://herefordfc.co.uk/2026/04/update-on-close-season-pitch-drainage-renovations/",
+      "published": "2026-04-09T08:40:57Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Grab Your Place At Awards Evening",
+      "url": "https://tonbridgeangels.co.uk/grab-your-place-at-awards-evening/",
+      "published": "2026-04-09T08:00:00Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Matchday Guide: Worksop Town",
+      "url": "https://spennymoortownfc.co.uk/2026/04/09/matchday-guide-worksop-town/",
+      "published": "2026-04-09T07:40:00Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -598,15 +625,6 @@
       "title": "REACTION | Downes on Huge Win at Marine",
       "url": "https://herefordfc.co.uk/2026/04/reaction-downes-on-huge-win-at-marine/",
       "published": "2026-04-08T22:27:39Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "MATCH PREVIEW – EASTBOURNE TOWN WOMEN",
-      "url": "https://www.horshamfc.co.uk/2026/04/08/match-preview-eastbourne-town/",
-      "published": "2026-04-08T21:08:44Z"
     },
     {
       "club": "Truro City",
@@ -879,15 +897,6 @@
       "published": "2026-04-08T10:18:41Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "50/50 Prize Unclaimed: Chelmsford",
-      "url": "https://daggers.co.uk/50-50-prize-unclaimed-chelmsford/",
-      "published": "2026-04-08T10:10:13Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -987,15 +996,6 @@
       "published": "2026-04-08T08:00:00Z"
     },
     {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Last Chance To Join Community Colour Dash!",
-      "url": "https://rochdaleafc.co.uk/tic-health-sponsors-community-colour-dash/",
-      "published": "2026-04-08T06:30:00Z"
-    },
-    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -1003,15 +1003,6 @@
       "title": "200 Up for Wraight",
       "url": "https://hornchurchfc.com/200-up-for-wraight/",
       "published": "2026-04-08T06:11:11Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "End Of Season Awards This Saturday",
-      "url": "https://rochdaleafc.co.uk/end-of-season-awards-date-confirmed/",
-      "published": "2026-04-08T01:48:00Z"
     },
     {
       "club": "Bath City",
@@ -1066,15 +1057,6 @@
       "title": "Highlights: Maidstone Utd (A)",
       "url": "https://hornchurchfc.com/highlights-maidstone-utd-a/",
       "published": "2026-04-07T18:54:47Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Inside Dale | Hartlepool United (A)",
-      "url": "https://rochdaleafc.co.uk/inside-dale-hartlepool-united-a/",
-      "published": "2026-04-07T18:35:08Z"
     },
     {
       "club": "Farnborough",
@@ -1266,15 +1248,6 @@
       "published": "2026-04-07T13:55:58Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Youth Roundup – April 1st",
-      "url": "https://www.horshamfc.co.uk/2026/04/07/youth-roundup-april-1st/",
-      "published": "2026-04-07T13:55:23Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1282,15 +1255,6 @@
       "title": "GALLERY 2 | Hereford FC 3-0 Merthyr Town",
       "url": "https://herefordfc.co.uk/2026/04/gallery-2-hereford-fc-3-0-merthyr-town/",
       "published": "2026-04-07T13:20:04Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "MARINE 2-1 CHORLEY",
-      "url": "https://marinefc.com/marine-2-1-chorley/",
-      "published": "2026-04-07T13:19:19Z"
     },
     {
       "club": "Southend United",
@@ -1320,24 +1284,6 @@
       "published": "2026-04-07T12:07:24Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Report – Farnborough FC",
-      "url": "https://www.horshamfc.co.uk/2026/04/07/match-report-farnborough-fc-2/",
-      "published": "2026-04-07T11:34:13Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Join us for our Daggers Community Trust Charity Golf Day",
-      "url": "https://daggers.co.uk/join-us-for-our-daggers-community-trust-charity-golf-day/",
-      "published": "2026-04-07T11:27:07Z"
-    },
-    {
       "club": "Farnborough",
       "code": "FAB",
       "short": "Farnborough",
@@ -1345,24 +1291,6 @@
       "title": "Aldershot & Camberley Sunday Football League Cup Finals",
       "url": "https://farnboroughfc.co.uk/2026/04/aldershot-camberley-sunday-football-league-cup-finals/",
       "published": "2026-04-07T11:00:52Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Supporters Coach Information: Worthing",
-      "url": "https://daggers.co.uk/supporters-coach-information-worthing/",
-      "published": "2026-04-07T11:00:00Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Will Narramore to Step Down as First Team Physio",
-      "url": "https://doverathletic.com/news/will-narramore-to-step-down-as-first-team-physio/",
-      "published": "2026-04-07T10:56:27Z"
     },
     {
       "club": "Radcliffe",
@@ -1480,6 +1408,78 @@
       "title": "Ticket Information: Worksop Town (H)",
       "url": "https://spennymoortownfc.co.uk/2026/04/07/ticket-information-worksop-town-h/",
       "published": "2026-04-07T07:05:02Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Highlights: Hornchurch (H)",
+      "url": "https://maidstoneunited.co.uk/04/07/highlights-hornchurch-h/",
+      "published": "2026-04-07T01:23:45Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "HIGHLIGHTS: BATH CITY (H)",
+      "url": "https://torquayunited.com/highlights-bath-city-h-2/",
+      "published": "2026-04-07T00:13:40Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Highlights | Truro (A)",
+      "url": "https://www.fgr.co.uk/news/match-highlights-truro-a-252/",
+      "published": "2026-04-06T22:30:00Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report | Truro City 1-1 Forest Green Rovers",
+      "url": "https://www.fgr.co.uk/news/match-report-truro-1-1-forest green-rovers/",
+      "published": "2026-04-06T22:00:00Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Torquay defeat leaves Romans on relegation brink",
+      "url": "https://www.bathcityfc.com/torquay-defeat-leaves-romans-on-relegation-brink/",
+      "published": "2026-04-06T21:49:02Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Highlights | Dagenham & Redbridge 3-3 Chelmsford City",
+      "url": "https://chelmsfordcityfc.com/news/highlights-dagenham-redbridge-3-3-chelmsford-city/",
+      "published": "2026-04-06T20:35:43Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Reaction | Holmes & Taylor discuss Dagenham draw",
+      "url": "https://chelmsfordcityfc.com/news/reaction-holmes-taylor-discuss-dagenham-draw/",
+      "published": "2026-04-06T20:34:48Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Braintree Town 0-0 Woking | Jermain Defoe Interview",
+      "url": "https://wokingfc.co.uk/04/06/braintree-town-0-0-woking-jermain-defoe-interview/",
+      "published": "2026-04-06T20:25:50Z"
     }
   ]
 }
