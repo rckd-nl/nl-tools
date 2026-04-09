@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-09T03:32:01Z",
+  "generatedAt": "2026-04-09T05:36:46Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3709,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.fgr.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=d1d041dc-956d-4e6d-9f67-7d8dba4a9aea",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=9bbc2aab-beb2-4d26-aee1-4c5bc3fb9d56",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -636,15 +636,6 @@
       "published": "2026-04-08T16:51:25Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Asger's Story",
-      "url": "https://www.fgr.co.uk/news/asgers-story/",
-      "published": "2026-04-08T16:50:00Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -969,15 +960,6 @@
       "published": "2026-04-08T10:00:34Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "FGR Women Vs Torquay United Women | Sunday 12th April",
-      "url": "https://www.fgr.co.uk/news/fgr-women-vs-torquay-united-women-sunday-12th-april/",
-      "published": "2026-04-08T10:00:00Z"
-    },
-    {
       "club": "Carlisle United",
       "code": "CAR",
       "short": "Carlisle",
@@ -1030,15 +1012,6 @@
       "title": "Kent Senior Cup final tickets on sale",
       "url": "https://maidstoneunited.co.uk/04/08/kent-senior-cup-final-tickets-on-sale/",
       "published": "2026-04-08T08:00:29Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Ticket Info | Hartlepool (A)",
-      "url": "https://www.fgr.co.uk/news/ticket-info-hartlepool-a-2526/",
-      "published": "2026-04-08T08:00:00Z"
     },
     {
       "club": "Southport",
@@ -1480,6 +1453,33 @@
       "title": "AFC Fylde Post-Match Reaction | Bernard Morley",
       "url": "https://radcliffefc.com/afc-fylde-post-match-reaction-bernard-morley/",
       "published": "2026-04-07T10:52:09Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "GALLERY | Hereford FC 3-0 Merthyr Town",
+      "url": "https://herefordfc.co.uk/2026/04/gallery-hereford-fc-3-0-merthyr-town/",
+      "published": "2026-04-07T10:26:02Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Match Report: Eastleigh 2-1 Yeovil Town",
+      "url": "https://ytfc.net/2026/04/match-report-eastleigh-2-1-yeovil-town/",
+      "published": "2026-04-07T09:55:17Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Introducing Tommy McAvoy",
+      "url": "https://tonbridgeangels.co.uk/introducing-tommy-mcavoy/",
+      "published": "2026-04-07T09:45:00Z"
     }
   ]
 }
