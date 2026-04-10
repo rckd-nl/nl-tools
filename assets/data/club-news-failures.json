@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-10T14:09:28Z",
+  "generatedAt": "2026-04-10T15:10:53Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -40,15 +40,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-    },
-    {
-      "club": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
+      "error": "HTTP 404"
     },
     {
       "club": "Solihull Moors",
@@ -109,7 +101,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=e8d92ed2-f716-4f42-89ca-f9d5d9344a2b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=e81dfe71-f531-4f43-8698-ade16735bb4b",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -137,14 +129,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Marine",
-      "domain": "marinefc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
     },
     {
       "club": "Merthyr Town",
