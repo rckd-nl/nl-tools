@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-10T17:11:04Z",
+  "generatedAt": "2026-04-10T18:04:48Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3713,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=43635299-0a3f-4bdc-86ee-569f6a1f5094",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=b69f8b79-6351-47c1-bb15-af492f43dcb7",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,42 @@
     }
   ],
   "items": [
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Match Preview | Chorley (A)",
+      "url": "https://curzon-ashton.co.uk/match-preview-chorley-a-2/",
+      "published": "2026-04-10T17:55:47Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "FANS GUIDE: WOKING (A)",
+      "url": "https://www.morecambefc.com/news/2026/april/10/fans-guide--woking--a-/",
+      "published": "2026-04-10T17:45:00Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "HIGHLIGHTS | Hereford FC 3-0 Merthyr Town",
+      "url": "https://herefordfc.co.uk/2026/04/highlights-hereford-fc-3-0-merthyr-town/",
+      "published": "2026-04-10T17:28:53Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "SEB STACEY ON TUFC | TRAINING SLOUGH TOWN (A)",
+      "url": "https://torquayunited.com/seb-stacey-on-tufc-training-slough-town-a/",
+      "published": "2026-04-10T17:17:47Z"
+    },
     {
       "club": "Truro City",
       "code": "TRU",
@@ -816,15 +852,6 @@
       "published": "2026-04-10T13:00:12Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Info | Braintree Town (H)",
-      "url": "https://www.fgr.co.uk/news/match-info-briantree-town-h-2526/",
-      "published": "2026-04-10T13:00:00Z"
-    },
-    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -906,6 +933,15 @@
       "published": "2026-04-10T11:14:04Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Preview: Worthing (A)",
+      "url": "https://daggers.co.uk/match-preview-worthing-a/",
+      "published": "2026-04-10T11:13:35Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -922,15 +958,6 @@
       "title": "Preview | Wealdstone (H)",
       "url": "https://rochdaleafc.co.uk/preview-wealdstone-h-2/",
       "published": "2026-04-10T11:04:34Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Preview | Braintree Town (H)",
-      "url": "https://www.fgr.co.uk/news/match-preview-braintree-town-h-2526/",
-      "published": "2026-04-10T11:00:00Z"
     },
     {
       "club": "AFC Fylde",
@@ -1275,15 +1302,6 @@
       "published": "2026-04-09T15:18:15Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Ricardo Rees pre Braintree Town (H)",
-      "url": "https://www.fgr.co.uk/news/ricardo-rees-pre-briantree-town/",
-      "published": "2026-04-09T15:00:00Z"
-    },
-    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -1455,31 +1473,13 @@
       "published": "2026-04-09T12:53:00Z"
     },
     {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Your Matchday Guide: Ebbsfleet United (H)",
-      "url": "https://hornchurchfc.com/your-matchday-guide-ebbsfleet-united-h/",
-      "published": "2026-04-09T12:11:32Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Press Call – Luke Jephcott Pre-Boston United (a)",
-      "url": "https://trurocity.co.uk/2026/04/press-call-luke-jephcott-pre-boston-united-a/",
-      "published": "2026-04-09T12:01:32Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Joshua Hebert Signs Professional Deal With Charlton Athletic",
-      "url": "https://dwfc.co.uk/2026/04/joshua-hebert-signs-professional-deal-with-charlton-athletic/",
-      "published": "2026-04-09T12:00:52Z"
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Ticket Information: Worthing (A)",
+      "url": "https://daggers.co.uk/ticket-information-worthing-a/",
+      "published": "2026-04-09T12:13:03Z"
     }
   ]
 }
