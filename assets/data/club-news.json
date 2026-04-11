@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-11T10:22:43Z",
+  "generatedAt": "2026-04-11T11:10:28Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=0e7716c2-4316-4edf-8919-75e7a8d8877e",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=5b67c333-c280-4c5f-b0f5-ab8ec5c234f3",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Match Preview: Brackley Town (H)",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/match-preview-brackley-town-h/",
+      "published": "2026-04-11T11:01:55Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Saturday’s Match Sponsor: Dreamland Bedding",
+      "url": "https://harriers.co.uk/news/2026/04/11/saturdays-match-sponsor-dreamland-bedding-3/",
+      "published": "2026-04-11T11:00:31Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Preview: Altrincham v Eastleigh",
+      "url": "https://eastleighfc.com/2026/04/preview-altrincham-v-eastleigh-2/",
+      "published": "2026-04-11T10:23:15Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -1032,15 +1059,6 @@
       "published": "2026-04-10T11:14:04Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Match Preview: Worthing (A)",
-      "url": "https://daggers.co.uk/match-preview-worthing-a/",
-      "published": "2026-04-10T11:13:35Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1201,15 +1219,6 @@
       "title": "Moors Ladies Aim For Strong Home Finish",
       "url": "https://spennymoortownfc.co.uk/2026/04/10/moors-ladies-aim-for-strong-home-finish/",
       "published": "2026-04-10T08:37:13Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Statistical Preview: Brackley Town (H)",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/statistical-preview-brackley-town-h/",
-      "published": "2026-04-10T08:35:50Z"
     },
     {
       "club": "Woking",
@@ -1471,15 +1480,6 @@
       "title": "Kevin Roberts to be inducted into the Chester Hall of Fame!",
       "url": "https://chesterfc.com/04/09/kevin-roberts-to-be-inducted-into-the-chester-hall-of-fame/",
       "published": "2026-04-09T13:10:58Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "TVOS Preview | Wealdstone (H)",
-      "url": "https://rochdaleafc.co.uk/tvos-preview-wealdstone-h/",
-      "published": "2026-04-09T13:06:59Z"
     }
   ]
 }
