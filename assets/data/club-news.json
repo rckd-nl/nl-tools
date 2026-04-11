@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-11T15:21:39Z",
+  "generatedAt": "2026-04-11T16:07:26Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3713,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=799edbd6-ec91-4d25-b153-d98f242c14a3",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=cdcae85d-9aec-4aa2-9349-2998952855a4",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "WINNERS HOUR NOW LIVE!",
+      "url": "https://www.carlisleunited.co.uk/news/winners-hour-now-live-5",
+      "published": "2026-04-11T15:50:00Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -1023,15 +1032,6 @@
       "published": "2026-04-10T13:00:12Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Info | Braintree Town (H)",
-      "url": "https://www.fgr.co.uk/news/match-info-briantree-town-h-2526/",
-      "published": "2026-04-10T13:00:00Z"
-    },
-    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -1129,15 +1129,6 @@
       "title": "Preview | Wealdstone (H)",
       "url": "https://rochdaleafc.co.uk/preview-wealdstone-h-2/",
       "published": "2026-04-10T11:04:34Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Preview | Braintree Town (H)",
-      "url": "https://www.fgr.co.uk/news/match-preview-braintree-town-h-2526/",
-      "published": "2026-04-10T11:00:00Z"
     },
     {
       "club": "AFC Fylde",
@@ -1446,15 +1437,6 @@
       "published": "2026-04-09T15:18:15Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Ricardo Rees pre Braintree Town (H)",
-      "url": "https://www.fgr.co.uk/news/ricardo-rees-pre-briantree-town/",
-      "published": "2026-04-09T15:00:00Z"
-    },
-    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -1480,6 +1462,24 @@
       "title": "EVERYTHING WE LEARNT FROM EPHRAIM YEBOAH: PRE SUTTON UNITED (H)",
       "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-ephraim-yeboah-pre-sutton-united-h",
       "published": "2026-04-09T14:15:48Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "MATCH PREVIEW: SUTTON UNITED (H)",
+      "url": "https://www.carlisleunited.co.uk/news/match-preview-sutton-united-h",
+      "published": "2026-04-09T13:50:00Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "JUNIOR BULLS | Join Us for Coffee & Cakes",
+      "url": "https://herefordfc.co.uk/2026/04/junior-bulls-join-us-for-coffee-cakes/",
+      "published": "2026-04-09T13:33:12Z"
     }
   ]
 }
