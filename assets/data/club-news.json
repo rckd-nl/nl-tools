@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-12T13:37:30Z",
+  "generatedAt": "2026-04-12T14:27:49Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=37e78cac-291c-4361-b5c2-a3e636ac0518",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=be695259-52ca-4328-8846-4277d384e5f6",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
+      "feed": "https://daggers.co.uk/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Highlights Southport v Leamington",
+      "url": "https://southportfc.net/highlights-southport-v-leamington/",
+      "published": "2026-04-12T13:53:54Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "Josh Kay after Merthyr Town victory",
+      "url": "https://macclesfieldfc.com/latest-news/josh-kay-after-merthyr-town-victory/",
+      "published": "2026-04-12T13:45:58Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Watch: Chester 1-0 AFC Fylde",
+      "url": "https://chesterfc.com/04/12/watch-chester-1-0-afc-fylde/",
+      "published": "2026-04-12T13:45:09Z"
+    },
     {
       "club": "Hereford",
       "code": "HER",
@@ -697,15 +724,6 @@
       "title": "Highlights: Worthing 7-2 Dagenham & Redbridge",
       "url": "https://worthingfc.com/2026/04/highlights-worthing-7-2-dagenham-redbridge/",
       "published": "2026-04-12T07:07:38Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Report – Maidstone United",
-      "url": "https://www.horshamfc.co.uk/2026/04/12/match-report-maidstone-united/",
-      "published": "2026-04-12T06:00:56Z"
     },
     {
       "club": "Torquay United",
@@ -1185,6 +1203,15 @@
       "published": "2026-04-11T17:27:56Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Report: Worthing 7-2 Daggers",
+      "url": "https://daggers.co.uk/match-report-worthing-a/",
+      "published": "2026-04-11T17:22:48Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1210,6 +1237,15 @@
       "title": "Purple Post Match: King’s Lynn (H)",
       "url": "https://harriers.co.uk/news/2026/04/11/purple-post-match-kings-lynn-h/",
       "published": "2026-04-11T17:17:02Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Andy Carroll’s Worthing summary.",
+      "url": "https://daggers.co.uk/andy-carrolls-worthing-summary/",
+      "published": "2026-04-11T17:17:00Z"
     },
     {
       "club": "Southend United",
@@ -1365,6 +1401,15 @@
       "published": "2026-04-11T11:00:31Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Live Commentary Worthing (A)",
+      "url": "https://daggers.co.uk/live-commentary-worthing-a/",
+      "published": "2026-04-11T11:00:03Z"
+    },
+    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -1435,51 +1480,6 @@
       "title": "Match Preview: Worthing FC vs Dagenham & Redbridge",
       "url": "https://worthingfc.com/2026/04/match-preview-worthing-fc-vs-dagenham-redbridge/",
       "published": "2026-04-10T18:34:39Z"
-    },
-    {
-      "club": "Morecambe",
-      "code": "MOR",
-      "short": "Morecambe",
-      "domain": "morecambefc.com",
-      "title": "MATCH PREVIEW: WOKING (A)",
-      "url": "https://www.morecambefc.com/news/2026/april/10/match-preview--woking--a-/",
-      "published": "2026-04-10T18:30:00Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Match Preview | Chorley (A)",
-      "url": "https://curzon-ashton.co.uk/match-preview-chorley-a-2/",
-      "published": "2026-04-10T17:55:47Z"
-    },
-    {
-      "club": "Morecambe",
-      "code": "MOR",
-      "short": "Morecambe",
-      "domain": "morecambefc.com",
-      "title": "FANS GUIDE: WOKING (A)",
-      "url": "https://www.morecambefc.com/news/2026/april/10/fans-guide--woking--a-/",
-      "published": "2026-04-10T17:45:00Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "SEB STACEY ON TUFC | TRAINING SLOUGH TOWN (A)",
-      "url": "https://torquayunited.com/seb-stacey-on-tufc-training-slough-town-a/",
-      "published": "2026-04-10T17:17:47Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Boston United vs Truro City – Match Preview",
-      "url": "https://trurocity.co.uk/2026/04/boston-united-vs-truro-city-match-preview/",
-      "published": "2026-04-10T17:05:20Z"
     }
   ]
 }
