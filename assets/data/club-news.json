@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-12T09:34:00Z",
+  "generatedAt": "2026-04-12T10:27:37Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=978ba2a2-fd5e-4e09-b2e8-5754da1340c7",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=0f0c4bf8-21fd-4e9d-b775-abf40f2439fe",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Alty TV Highlights | Alty 1 Eastleigh 0",
+      "url": "https://altrinchamfc.com/blogs/news/alty-tv-highlights-alty-1-eastleigh-0",
+      "published": "2026-04-12T09:53:27Z"
+    },
     {
       "club": "Bath City",
       "code": "BAT",
@@ -1104,15 +1113,6 @@
       "published": "2026-04-11T17:27:56Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Match Report: Worthing 7-2 Daggers",
-      "url": "https://daggers.co.uk/match-report-worthing-a/",
-      "published": "2026-04-11T17:22:48Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1138,15 +1138,6 @@
       "title": "Purple Post Match: King’s Lynn (H)",
       "url": "https://harriers.co.uk/news/2026/04/11/purple-post-match-kings-lynn-h/",
       "published": "2026-04-11T17:17:02Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Andy Carroll’s Worthing summary.",
-      "url": "https://daggers.co.uk/andy-carrolls-worthing-summary/",
-      "published": "2026-04-11T17:17:00Z"
     },
     {
       "club": "Southend United",
@@ -1311,15 +1302,6 @@
       "published": "2026-04-11T11:00:31Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Live Commentary Worthing (A)",
-      "url": "https://daggers.co.uk/live-commentary-worthing-a/",
-      "published": "2026-04-11T11:00:03Z"
-    },
-    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -1480,6 +1462,24 @@
       "title": "Match preview: Hartlepool United (H)",
       "url": "https://www.borehamwoodfootballclub.co.uk/match-preview-hartlepool-united-h-3/",
       "published": "2026-04-10T16:29:21Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Away Days – Boston United",
+      "url": "https://trurocity.co.uk/2026/04/away-days-boston-united/",
+      "published": "2026-04-10T16:20:15Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Bluebirds Friday Night Dream Draw Results – Week 33 – Friday 10th April",
+      "url": "https://chippenhamtown.com/bluebirds-friday-night-dream-draw-results-week-33-friday-10th-april/",
+      "published": "2026-04-10T16:00:00Z"
     }
   ]
 }
