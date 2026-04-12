@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-12T15:26:59Z",
+  "generatedAt": "2026-04-12T16:10:35Z",
   "maxItems": 100,
   "sources": [
     {
@@ -110,10 +110,10 @@
     {
       "club": "Rochdale",
       "domain": "rochdaleafc.co.uk",
-      "feed": "https://rochdaleafc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Scunthorpe United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=2d38cbc3-fe79-4653-8f68-d56885eeba84",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=c91343e6-c1a8-4cd3-8c48-d279e0be13d5",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -310,10 +310,10 @@
     {
       "club": "Marine",
       "domain": "marinefc.com",
-      "feed": "https://marinefc.com/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Merthyr Town",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Subsidised Supporters Coach Announced for Dagenham & Redbridge Trip",
+      "url": "https://wsmafc.co.uk/subsidised-supporters-coach-announced-for-dagenham-redbridge-trip/",
+      "published": "2026-04-12T16:05:10Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "City push league leaders all the way in five-goal Twerton Park thriller",
+      "url": "https://www.bathcityfc.com/city-push-league-leaders-all-the-way-in-five-goal-thriller/",
+      "published": "2026-04-12T15:49:39Z"
+    },
+    {
       "club": "Dover Athletic",
       "code": "DOV",
       "short": "Dover",
@@ -607,15 +625,6 @@
       "title": "REPORT: FOREST GREEN 1 – 4 UNITED WOMEN",
       "url": "https://torquayunited.com/report-forest-green-1-4-united-women/",
       "published": "2026-04-12T15:16:34Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "DARLINGTON 2-3 MARINE",
-      "url": "https://marinefc.com/darlington-2-3-marine/",
-      "published": "2026-04-12T15:13:04Z"
     },
     {
       "club": "Scunthorpe United",
@@ -798,24 +807,6 @@
       "published": "2026-04-12T00:22:22Z"
     },
     {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Highlights | Dale 2-1 Wealdstone",
-      "url": "https://rochdaleafc.co.uk/highlights-dale-2-1-wealdstone/",
-      "published": "2026-04-11T23:25:07Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Hear From Our Match Winner Luke Hannant",
-      "url": "https://rochdaleafc.co.uk/hear-from-our-match-winner-luke-hannant/",
-      "published": "2026-04-11T23:24:31Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -823,15 +814,6 @@
       "title": "This week at Gallagher Stadium (w/c 12/4/26)",
       "url": "https://maidstoneunited.co.uk/04/12/this-week-at-gallagher-stadium-w-c-12-4-26/",
       "published": "2026-04-11T23:01:42Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "End Of Season Award Winners",
-      "url": "https://rochdaleafc.co.uk/end-of-season-award-winners-110426/",
-      "published": "2026-04-11T22:19:56Z"
     },
     {
       "club": "Kidderminster Harriers",
@@ -978,15 +960,6 @@
       "published": "2026-04-11T19:55:06Z"
     },
     {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Jimmy McNulty After Wealdstone Win",
-      "url": "https://rochdaleafc.co.uk/jimmy-mcnulty-after-wealdstone-win/",
-      "published": "2026-04-11T19:48:24Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1057,15 +1030,6 @@
       "title": "JIMMY BALL | SLOUGH TOWN (A) | POST-MATCH",
       "url": "https://torquayunited.com/jimmy-ball-slough-town-a-post-match/",
       "published": "2026-04-11T18:37:46Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Centurions Keep Title Dream Alive",
-      "url": "https://rochdaleafc.co.uk/report-wealdstone-home-110426/",
-      "published": "2026-04-11T18:34:53Z"
     },
     {
       "club": "Morecambe",
@@ -1480,6 +1444,42 @@
       "title": "New in the Club Shop!",
       "url": "https://harriers.co.uk/news/2026/04/11/new-in-the-club-shop/",
       "published": "2026-04-11T09:00:07Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "PREVIEW | Bedford Town vs Hereford FC",
+      "url": "https://herefordfc.co.uk/2026/04/preview-bedford-town-vs-hereford-fc/",
+      "published": "2026-04-10T20:32:26Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Change Shirts Prices Reduced",
+      "url": "https://southportfc.net/change-shirts-prices-reduced/",
+      "published": "2026-04-10T19:58:09Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "“𝗧𝗵𝗲𝘆’𝗿𝗲 𝘃𝗲𝗿𝘆 𝗵𝗼𝗻𝗲𝘀𝘁, 𝗵𝗮𝗿𝗱 𝘄𝗼𝗿𝗸𝗶𝗻𝗴” | Scott Rogers pre – Enfield Town",
+      "url": "https://wsmafc.co.uk/%f0%9d%97%a7%f0%9d%97%b5%f0%9d%97%b2%f0%9d%98%86%f0%9d%97%bf%f0%9d%97%b2-%f0%9d%98%83%f0%9d%97%b2%f0%9d%97%bf%f0%9d%98%86-%f0%9d%97%b5%f0%9d%97%bc%f0%9d%97%bb%f0%9d%97%b2%f0%9d%98%80%f0%9d%98%81/",
+      "published": "2026-04-10T19:00:10Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "THE RACE FOR PROMOTION | THIS WEEKEND IN THE NATIONAL LEAGUE SOUTH",
+      "url": "https://torquayunited.com/the-race-for-promotion-this-weekend-in-the-national-league-south/",
+      "published": "2026-04-10T18:57:37Z"
     }
   ]
 }
