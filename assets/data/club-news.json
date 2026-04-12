@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-12T19:56:16Z",
+  "generatedAt": "2026-04-12T20:57:02Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=61feb7f9-b224-4607-b983-eb27d095815d",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=de0fc13d-adee-4558-9ffe-c4b210662452",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -940,6 +940,15 @@
       "title": "Highlights: Worthing 7-2 Dagenham & Redbridge",
       "url": "https://worthingfc.com/2026/04/highlights-worthing-7-2-dagenham-redbridge/",
       "published": "2026-04-12T07:07:38Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Maidstone United",
+      "url": "https://www.horshamfc.co.uk/2026/04/12/match-report-maidstone-united/",
+      "published": "2026-04-12T06:00:56Z"
     },
     {
       "club": "Torquay United",
@@ -1471,15 +1480,6 @@
       "title": "Report: Moors 0 Worksop Town 1",
       "url": "https://spennymoortownfc.co.uk/2026/04/11/report-moors-0-worksop-town-1/",
       "published": "2026-04-11T16:54:22Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Report: Chester 1-0 AFC Fylde",
-      "url": "https://chesterfc.com/04/11/report-chester-1-0-afc-fylde/",
-      "published": "2026-04-11T16:52:24Z"
     }
   ]
 }
