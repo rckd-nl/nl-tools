@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-12T07:47:41Z",
+  "generatedAt": "2026-04-12T08:35:04Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3714,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=cf9e3ba0-e256-4c3c-bc9d-a87a296a8b5f",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=be392d22-a962-4c73-88c0-31f5388a9cac",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/news/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -589,6 +589,15 @@
       "title": "Your Matchday Guide: Chelmsford City (H)",
       "url": "https://hornchurchfc.com/your-matchday-guide-chelmsford-city-h-2/",
       "published": "2026-04-12T07:34:09Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Maidstone United",
+      "url": "https://www.horshamfc.co.uk/2026/04/12/match-report-maidstone-united/",
+      "published": "2026-04-12T06:00:56Z"
     },
     {
       "club": "Torquay United",
@@ -913,6 +922,15 @@
       "title": "Goal of the Season 2025/26",
       "url": "https://farnboroughfc.co.uk/2026/04/goal-of-the-season-2025-26/",
       "published": "2026-04-11T18:00:34Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report | Forest Green Rovers 3-1 Braintree Town",
+      "url": "https://www.fgr.co.uk/news/match-report-forest-green-rovers-3-1-braintree-town/",
+      "published": "2026-04-11T18:00:00Z"
     },
     {
       "club": "Carlisle United",
@@ -1462,24 +1480,6 @@
       "title": "Tickets: Isuzu FA Trophy Final",
       "url": "https://southendunited.co.uk/news/2026/april/10/isuzu-fa-trophy-final-ticket-information-/",
       "published": "2026-04-10T15:00:39Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "AWAY DAY BLUES: MERTHYR TOWN",
-      "url": "https://macclesfieldfc.com/latest-news/away-day-blues-merthyr-town/",
-      "published": "2026-04-10T15:00:34Z"
-    },
-    {
-      "club": "Salisbury",
-      "code": "SAL",
-      "short": "Salisbury",
-      "domain": "salisburyfc.co.uk",
-      "title": "Salisbury look to pick up first win away in Kent this season",
-      "url": "https://salisburyfc.co.uk/2026/04/10/salisbury-look-to-pick-up-first-win-away-in-kent-this-season/",
-      "published": "2026-04-10T15:00:19Z"
     }
   ]
 }
