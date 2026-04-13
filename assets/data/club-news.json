@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-13T12:01:21Z",
+  "generatedAt": "2026-04-13T14:11:00Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -129,7 +129,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Southend United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=5db747db-bd88-429c-9e10-db8976ae35e3",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=ae4c4547-e338-4e80-b631-53a71a1dfe04",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -329,7 +329,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Peterborough Sports",
@@ -582,6 +582,60 @@
   ],
   "items": [
     {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "APRIL DRAW COMING SOON! | 1899 CLUB",
+      "url": "https://torquayunited.com/march-draw-coming-soon-1899-club/",
+      "published": "2026-04-13T13:53:47Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Academy Trial Details Confirmed",
+      "url": "https://afcfylde.co.uk/news/2026/april/13/academy-trial-details-confirmed/",
+      "published": "2026-04-13T13:23:00Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Networking Breakfast Reminder",
+      "url": "https://chelmsfordcityfc.com/news/networking-breakfast-reminder/",
+      "published": "2026-04-13T13:00:00Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Inside Dale | Wealdstone (H)",
+      "url": "https://rochdaleafc.co.uk/inside-dale-wealdstone-h/",
+      "published": "2026-04-13T12:37:54Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "2025/26 End of Season Awards",
+      "url": "https://eastleighfc.com/2026/04/2025-26-end-of-season-awards/",
+      "published": "2026-04-13T12:15:12Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Dale Women Close Out Season With Away Win",
+      "url": "https://rochdaleafc.co.uk/dale-women-close-out-season-with-away-win/",
+      "published": "2026-04-13T12:08:04Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -832,6 +886,15 @@
       "title": "Golden Letter Draw Results",
       "url": "https://marinefc.com/golden-letter-draw-results/",
       "published": "2026-04-12T20:48:00Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Academy Sides Reach Double Cup Final",
+      "url": "https://afcfylde.co.uk/news/2026/april/12/academy-sides-reach-double-cup-final/",
+      "published": "2026-04-12T19:39:00Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1417,69 +1480,6 @@
       "title": "Angels edge out Salisbury",
       "url": "https://tonbridgeangels.co.uk/angels-edge-out-salisbury/",
       "published": "2026-04-11T19:15:55Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Gallery | Chorley (A)",
-      "url": "https://curzon-ashton.co.uk/gallery-chorley-a/",
-      "published": "2026-04-11T19:09:30Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Gallery: WsM AFC 1 – 0 Enfield Town",
-      "url": "https://wsmafc.co.uk/gallery-wsm-afc-1-0-enfield-town/",
-      "published": "2026-04-11T19:07:28Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "JIMMY BALL | SLOUGH TOWN (A) | POST-MATCH",
-      "url": "https://torquayunited.com/jimmy-ball-slough-town-a-post-match/",
-      "published": "2026-04-11T18:37:46Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Centurions Keep Title Dream Alive",
-      "url": "https://rochdaleafc.co.uk/report-wealdstone-home-110426/",
-      "published": "2026-04-11T18:34:53Z"
-    },
-    {
-      "club": "Morecambe",
-      "code": "MOR",
-      "short": "Morecambe",
-      "domain": "morecambefc.com",
-      "title": "JACK NOLAN: POST-WOKING (A)",
-      "url": "https://www.morecambefc.com/news/2026/april/11/jack-nolan--post-woking--a-/",
-      "published": "2026-04-11T18:30:00Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Alty TV Post-Match | Eastleigh",
-      "url": "https://altrinchamfc.com/blogs/news/alty-tv-post-match-eastleigh-1",
-      "published": "2026-04-11T18:28:47Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Post Worksop Town (H): Tommy Miller",
-      "url": "https://spennymoortownfc.co.uk/2026/04/11/post-worksop-town-h-tommy-miller/",
-      "published": "2026-04-11T18:15:15Z"
     }
   ]
 }
