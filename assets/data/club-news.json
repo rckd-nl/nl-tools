@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-12T23:54:46Z",
+  "generatedAt": "2026-04-13T03:56:06Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=5db51a2c-3d75-4369-abcf-130b18be2419",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=2ce61512-5376-48d5-836d-ae0896540ece",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -1446,15 +1446,6 @@
       "published": "2026-04-11T17:27:56Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Match Report: Worthing 7-2 Daggers",
-      "url": "https://daggers.co.uk/match-report-worthing-a/",
-      "published": "2026-04-11T17:22:48Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1480,6 +1471,15 @@
       "title": "Purple Post Match: King’s Lynn (H)",
       "url": "https://harriers.co.uk/news/2026/04/11/purple-post-match-kings-lynn-h/",
       "published": "2026-04-11T17:17:02Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Press: Kevin Maher Reflects On Solihull Moors Draw",
+      "url": "https://southendunited.co.uk/news/2026/april/11/press--kevin-maher-reflects-on-solihull-moors-draw/",
+      "published": "2026-04-11T17:09:50Z"
     }
   ]
 }
