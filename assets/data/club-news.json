@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-13T03:56:06Z",
+  "generatedAt": "2026-04-13T06:30:50Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3714,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=2ce61512-5376-48d5-836d-ae0896540ece",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=22d16e4f-0186-4302-97fb-6d52407fc68b",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Ticket office and club shop opening hours w/c April 13th",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/ticket-office-and-club-shop-opening-hours-w-c-april-13th/",
+      "published": "2026-04-13T06:04:00Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -1212,15 +1221,6 @@
       "published": "2026-04-11T19:07:28Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Gallery: Brackley Town (H) - Alan Milner",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/gallery-brackley-town-h-alan-milner/",
-      "published": "2026-04-11T18:39:17Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1291,15 +1291,6 @@
       "title": "Goal of the Season 2025/26",
       "url": "https://farnboroughfc.co.uk/2026/04/goal-of-the-season-2025-26/",
       "published": "2026-04-11T18:00:34Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | Forest Green Rovers 3-1 Braintree Town",
-      "url": "https://www.fgr.co.uk/news/match-report-forest-green-rovers-3-1-braintree-town/",
-      "published": "2026-04-11T18:00:00Z"
     },
     {
       "club": "Carlisle United",
@@ -1446,6 +1437,15 @@
       "published": "2026-04-11T17:27:56Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Report: Worthing 7-2 Daggers",
+      "url": "https://daggers.co.uk/match-report-worthing-a/",
+      "published": "2026-04-11T17:22:48Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1473,13 +1473,13 @@
       "published": "2026-04-11T17:17:02Z"
     },
     {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Press: Kevin Maher Reflects On Solihull Moors Draw",
-      "url": "https://southendunited.co.uk/news/2026/april/11/press--kevin-maher-reflects-on-solihull-moors-draw/",
-      "published": "2026-04-11T17:09:50Z"
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Andy Carroll’s Worthing summary.",
+      "url": "https://daggers.co.uk/andy-carrolls-worthing-summary/",
+      "published": "2026-04-11T17:17:00Z"
     }
   ]
 }
