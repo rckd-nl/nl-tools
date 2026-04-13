@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-13T06:30:50Z",
+  "generatedAt": "2026-04-13T08:39:40Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3715,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -214,7 +214,7 @@
     {
       "club": "Alfreton Town",
       "domain": "alfretontownfootballclub.com",
-      "feed": "https://alfretontownfootballclub.com/feed/",
+      "feed": "https://alfretontownfootballclub.com/news/feed/",
       "ok": true,
       "count": 10,
       "error": ""
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=22d16e4f-0186-4302-97fb-6d52407fc68b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=f916a0c0-feed-43a8-8319-d188e378e8ca",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -581,6 +581,69 @@
     }
   ],
   "items": [
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "On the Road: Radcliffe",
+      "url": "https://harriers.co.uk/news/2026/04/13/on-the-road-radcliffe-3/",
+      "published": "2026-04-13T08:30:00Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "2026-27 season tickets: In-house finance option",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/2026-27-season-tickets-in-house-finance-option-2/",
+      "published": "2026-04-13T08:05:00Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Highlights | Braintree Town",
+      "url": "https://www.fgr.co.uk/news/match-highlights-braintree-h-2526/",
+      "published": "2026-04-13T08:00:00Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "What’s On",
+      "url": "https://tonbridgeangels.co.uk/whats-on-15/",
+      "published": "2026-04-13T08:00:00Z"
+    },
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Fans’ Forum – Tue 21 Apr",
+      "url": "https://doverathletic.com/news/fans-forum-tue-21-apr/",
+      "published": "2026-04-13T07:59:23Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Nash News | Weekly Round-up | 22",
+      "url": "https://curzon-ashton.co.uk/nash-news-weekly-round-up-22/",
+      "published": "2026-04-13T07:51:09Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "City in Action – Corsham Town Ladies – Shield Services Group SW Regional WFL Div 1N",
+      "url": "https://www.bathcityfc.com/city-in-action-corsham-town-ladies-shield-services-group-sw-regional-wfl-div-1n/",
+      "published": "2026-04-13T06:57:29Z"
+    },
     {
       "club": "Scunthorpe United",
       "code": "SCU",
@@ -1050,15 +1113,6 @@
       "published": "2026-04-11T21:38:55Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Report: Iron 1-0 Brackley Town",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/report-iron-1-0-brackley-town-2/",
-      "published": "2026-04-11T21:38:06Z"
-    },
-    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -1293,6 +1347,15 @@
       "published": "2026-04-11T18:00:34Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report | Forest Green Rovers 3-1 Braintree Town",
+      "url": "https://www.fgr.co.uk/news/match-report-forest-green-rovers-3-1-braintree-town/",
+      "published": "2026-04-11T18:00:00Z"
+    },
+    {
       "club": "Carlisle United",
       "code": "CAR",
       "short": "Carlisle",
@@ -1417,69 +1480,6 @@
       "title": "John Rooney after Merthyr Town victory",
       "url": "https://macclesfieldfc.com/latest-news/john-rooney-after-merthyr-town-victory/",
       "published": "2026-04-11T17:30:21Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Sidwell Stunner Not Enough as Wanderers Fall to Totton",
-      "url": "https://dwfc.co.uk/2026/04/sidwell-stunner-not-enough-as-wanderers-fall-to-totton/",
-      "published": "2026-04-11T17:29:18Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Match Report: Worthing FC 7-2 Dagenham & Redbridge",
-      "url": "https://worthingfc.com/2026/04/match-report-worthing-fc-7-2-dagenham-redbridge/",
-      "published": "2026-04-11T17:27:56Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Match Report: Worthing 7-2 Daggers",
-      "url": "https://daggers.co.uk/match-report-worthing-a/",
-      "published": "2026-04-11T17:22:48Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Match Report: Horsham",
-      "url": "https://maidstoneunited.co.uk/04/11/match-report-horsham-2/",
-      "published": "2026-04-11T17:19:44Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Watch: Richard Hill Post-Altrincham Defeat",
-      "url": "https://eastleighfc.com/2026/04/watch-richard-hill-post-altrincham-defeat/",
-      "published": "2026-04-11T17:19:17Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Purple Post Match: King’s Lynn (H)",
-      "url": "https://harriers.co.uk/news/2026/04/11/purple-post-match-kings-lynn-h/",
-      "published": "2026-04-11T17:17:02Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Andy Carroll’s Worthing summary.",
-      "url": "https://daggers.co.uk/andy-carrolls-worthing-summary/",
-      "published": "2026-04-11T17:17:00Z"
     }
   ]
 }
