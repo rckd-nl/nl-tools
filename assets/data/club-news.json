@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-14T21:12:35Z",
+  "generatedAt": "2026-04-14T22:11:54Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3715,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.fgr.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=4c8a2d20-5755-4a14-83a2-ad7f5fa83b62",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=f413f8ac-c790-4552-922f-cce460f6a675",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -589,6 +589,15 @@
       "title": "Match Report: Worthing FC U18s 6-0 Lewes FC U18s",
       "url": "https://worthingfc.com/2026/04/match-report-worthing-fc-u18s-6-0-lewes-fc-u18s/",
       "published": "2026-04-14T21:05:19Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Report: Aldershot Town 0-2 Southend United",
+      "url": "https://southendunited.co.uk/news/2026/april/14/report--aldershot-town-0-2-southend-united/",
+      "published": "2026-04-14T21:04:30Z"
     },
     {
       "club": "Kidderminster Harriers",
@@ -1372,15 +1381,6 @@
       "title": "On the Road: Radcliffe",
       "url": "https://harriers.co.uk/news/2026/04/13/on-the-road-radcliffe-3/",
       "published": "2026-04-13T08:30:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Highlights | Braintree Town",
-      "url": "https://www.fgr.co.uk/news/match-highlights-braintree-h-2526/",
-      "published": "2026-04-13T08:00:00Z"
     },
     {
       "club": "Tonbridge Angels",
