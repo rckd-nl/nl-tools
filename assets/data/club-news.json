@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-14T12:49:22Z",
+  "generatedAt": "2026-04-14T14:29:53Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=2d2c3a54-6f89-4543-a322-5bb768a209ea",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=8c6e5f31-d8ce-4f5e-a7ab-0e0d614270de",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Supporters’ Player of the Season Vote Now Open",
+      "url": "https://ytfc.net/2026/04/supporters-player-of-the-season-vote-now-open/",
+      "published": "2026-04-14T13:43:34Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "New Third Shirt available to Pre-Order!",
+      "url": "https://chesterfc.com/04/14/thirdshirt/",
+      "published": "2026-04-14T13:00:35Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "MATCH PREVIEW: SOUTH SHIELDS VS MACCLESFIELD FC",
+      "url": "https://macclesfieldfc.com/latest-news/match-preview-south-shields-vs-macclesfield-fc-2/",
+      "published": "2026-04-14T13:00:28Z"
+    },
     {
       "club": "Carlisle United",
       "code": "CAR",
@@ -886,15 +913,6 @@
       "title": "AHEAD OF THE GAME: Solihull Moors (H)",
       "url": "https://wokingfc.co.uk/04/13/ahea-of-the-game-solihull-moors-h/",
       "published": "2026-04-13T17:35:34Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Preview – Weston-super-Mare",
-      "url": "https://www.horshamfc.co.uk/2026/04/13/match-preview-weston-super-mare-2/",
-      "published": "2026-04-13T17:26:07Z"
     },
     {
       "club": "Worthing",
@@ -1462,24 +1480,6 @@
       "title": "Match Report: AFC Fylde Women 4-0 Tranmere Rovers Women",
       "url": "https://afcfylde.co.uk/news/2026/april/12/match-report--afc-fylde-women-4-0-tranmere-rovers-women/",
       "published": "2026-04-12T15:53:00Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "City push league leaders all the way in five-goal Twerton Park thriller",
-      "url": "https://www.bathcityfc.com/city-push-league-leaders-all-the-way-in-five-goal-thriller/",
-      "published": "2026-04-12T15:49:39Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Up Next – Maidenhead United vs Dover Athletic",
-      "url": "https://doverathletic.com/news/up-next-maidenhead-united-vs-dover-athletic/",
-      "published": "2026-04-12T15:23:21Z"
     }
   ]
 }
