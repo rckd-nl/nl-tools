@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-14T22:11:54Z",
+  "generatedAt": "2026-04-14T23:07:45Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.fgr.co.uk', port=443): Read timed out. (read timeout=25)"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3715,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=f413f8ac-c790-4552-922f-cce460f6a675",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=28fe7cd1-924f-4ab7-b716-78e4d3e072be",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "PREVIEW | Midweek Trip For Table-Topping Women",
+      "url": "https://torquayunited.com/preview-midweek-trip-for-table-topping-women/",
+      "published": "2026-04-14T22:30:00Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Press: Kevin Maher On Clinching Play-Offs With Aldershot Win",
+      "url": "https://southendunited.co.uk/news/2026/april/14/press--kevin-maher-on-clinching-play-offs-with-aldershot-win/",
+      "published": "2026-04-14T22:26:19Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Purple post-match: Radcliffe (A)",
+      "url": "https://harriers.co.uk/news/2026/04/14/purple-post-match-radcliffe-a-2/",
+      "published": "2026-04-14T22:15:07Z"
+    },
     {
       "club": "Worthing",
       "code": "WOR",
@@ -1383,6 +1410,15 @@
       "published": "2026-04-13T08:30:00Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Highlights | Braintree Town",
+      "url": "https://www.fgr.co.uk/news/match-highlights-braintree-h-2526/",
+      "published": "2026-04-13T08:00:00Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1444,42 +1480,6 @@
       "title": "The Seagulls play The Hornets under the Optima lights",
       "url": "https://wsmafc.co.uk/the-seagulls-play-the-hornets-under-the-optima-lights/",
       "published": "2026-04-12T21:45:52Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Weekend round up (12/4/2026)",
-      "url": "https://maidstoneunited.co.uk/04/12/weekend-round-up-12-4-2026/",
-      "published": "2026-04-12T21:15:24Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "Golden Letter Draw Results",
-      "url": "https://marinefc.com/golden-letter-draw-results/",
-      "published": "2026-04-12T20:48:00Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Academy Sides Reach Double Cup Final",
-      "url": "https://afcfylde.co.uk/news/2026/april/12/academy-sides-reach-double-cup-final/",
-      "published": "2026-04-12T19:39:00Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Loan Watch: Brandon Bak scores hat-trick, Hicks helps BMF to mathematical survival",
-      "url": "https://wsmafc.co.uk/loan-watch-sat-11th-apr-2026/",
-      "published": "2026-04-12T19:25:20Z"
     }
   ]
 }
