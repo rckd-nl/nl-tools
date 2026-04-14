@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-14T15:58:25Z",
+  "generatedAt": "2026-04-14T17:32:58Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=e4280c83-a61f-4f23-be57-1ff94c07f660",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=ce725681-e24f-490d-9332-e5e04d020450",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -558,10 +558,10 @@
     {
       "club": "Torquay United",
       "domain": "torquayunited.com",
-      "feed": "https://torquayunited.com/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='torquayunited.com', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Weston-super-Mare",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "Bobby Grant signs new two-year deal as Marine manager",
+      "url": "https://marinefc.com/bobby-grant-signs-new-two-year-deal-as-marine-manager/",
+      "published": "2026-04-14T17:00:00Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "PREVIEW | Hereford FC vs Oxford City",
+      "url": "https://herefordfc.co.uk/2026/04/preview-hereford-fc-vs-oxford-city/",
+      "published": "2026-04-14T16:53:08Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Commentary available for Horsham match",
+      "url": "https://wsmafc.co.uk/commentary-available-for-horsham-match/",
+      "published": "2026-04-14T16:30:26Z"
+    },
     {
       "club": "Rochdale",
       "code": "ROC",
@@ -663,15 +690,6 @@
       "published": "2026-04-14T12:05:34Z"
     },
     {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Get Set For The VX3 Community Youth Cup!",
-      "url": "https://torquayunited.com/get-set-for-the-vx3-youth-cup/",
-      "published": "2026-04-14T12:00:53Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -724,15 +742,6 @@
       "title": "Next up at home: Eastleigh (H)",
       "url": "https://www.scunthorpe-united.co.uk/news/2026/april/next-up-at-home-eastleigh-h/",
       "published": "2026-04-14T10:50:49Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "GULLS BEAT THE GUNNERS!",
-      "url": "https://torquayunited.com/gulls-beat-the-gunners/",
-      "published": "2026-04-14T10:38:11Z"
     },
     {
       "club": "Morecambe",
@@ -789,15 +798,6 @@
       "published": "2026-04-14T09:29:05Z"
     },
     {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "BOOK YOUR HEMEL TICKETS BEFORE IT’S TOO LATE!",
-      "url": "https://torquayunited.com/book-your-hemel-tickets-before-its-too-late/",
-      "published": "2026-04-14T09:25:53Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -805,15 +805,6 @@
       "title": "Preview: Aldershot Town (A)",
       "url": "https://southendunited.co.uk/news/2026/april/14/preview--aldershot-town--a-/",
       "published": "2026-04-14T09:24:32Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "1899 CLUB DRAW TAKES PLACE TODAY!",
-      "url": "https://torquayunited.com/1899-club-draw-takes-place-today/",
-      "published": "2026-04-14T09:24:17Z"
     },
     {
       "club": "Hereford",
@@ -942,15 +933,6 @@
       "published": "2026-04-13T17:35:34Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Preview – Weston-super-Mare",
-      "url": "https://www.horshamfc.co.uk/2026/04/13/match-preview-weston-super-mare-2/",
-      "published": "2026-04-13T17:26:07Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1005,15 +987,6 @@
       "published": "2026-04-13T15:58:38Z"
     },
     {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Plainmoor To Host Fans’ Forum",
-      "url": "https://torquayunited.com/plainmoor-to-host-fans-forum/",
-      "published": "2026-04-13T15:40:53Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1057,15 +1030,6 @@
       "title": "Press: Kevin Maher Discusses Aldershot Town Trip",
       "url": "https://southendunited.co.uk/news/2026/april/13/press--kevin-maher-discusses-aldershot-town-trip/",
       "published": "2026-04-13T14:28:56Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "APRIL DRAW COMING SOON! | 1899 CLUB",
-      "url": "https://torquayunited.com/march-draw-coming-soon-1899-club/",
-      "published": "2026-04-13T13:53:47Z"
     },
     {
       "club": "AFC Fylde",
@@ -1480,6 +1444,42 @@
       "title": "FAN CAM: MERTHYR TOWN (A)",
       "url": "https://macclesfieldfc.com/galleries/fan-cam-merthyr-town-a/",
       "published": "2026-04-12T17:00:11Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "South Shields Post-Match Reaction | Callum McFadzean",
+      "url": "https://radcliffefc.com/south-shields-post-match-reaction-callum-mcfadzean/",
+      "published": "2026-04-12T16:32:17Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "South Shields Post-Match Reaction | Bernard Morley",
+      "url": "https://radcliffefc.com/south-shields-post-match-reaction-bernard-morley-2/",
+      "published": "2026-04-12T16:29:51Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Subsidised Supporters Coach Announced for Dagenham & Redbridge Trip",
+      "url": "https://wsmafc.co.uk/subsidised-supporters-coach-announced-for-dagenham-redbridge-trip/",
+      "published": "2026-04-12T16:05:10Z"
+    },
+    {
+      "club": "Chesham United",
+      "code": "CHU",
+      "short": "Chesham",
+      "domain": "cheshamunited.co.uk",
+      "title": "In The Sh*t | S1 E7",
+      "url": "https://cheshamunited.co.uk/2026/04/in-the-sht-s1-e7/",
+      "published": "2026-04-12T16:00:18Z"
     }
   ]
 }
