@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-14T18:52:13Z",
+  "generatedAt": "2026-04-14T20:18:45Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3715,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=0f7aba16-6c0e-4b4f-b702-35f65f7175ff",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=43bdab6c-14bd-4ea3-93f5-f793ddcb315c",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
+      "feed": "https://daggers.co.uk/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Club Statement: Gavin Macpherson",
+      "url": "https://etfc.london/club-statement-gavin-macpherson/",
+      "published": "2026-04-14T19:00:28Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "More Support for Orange Button Scheme",
+      "url": "https://trurocity.co.uk/2026/04/more-support-for-orange-button-scheme/",
+      "published": "2026-04-14T18:56:38Z"
+    },
     {
       "club": "Carlisle United",
       "code": "CAR",
@@ -1131,6 +1149,24 @@
       "published": "2026-04-13T13:23:00Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Early Bird Season Ticket Window Now LIVE!",
+      "url": "https://daggers.co.uk/early-bird-season-ticket-window-now-live/",
+      "published": "2026-04-13T13:16:59Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Join us this Saturday v Weston-super-Mare",
+      "url": "https://daggers.co.uk/join-us-this-saturday-v-weston-super-mare/",
+      "published": "2026-04-13T13:04:59Z"
+    },
+    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -1311,6 +1347,15 @@
       "published": "2026-04-13T08:30:00Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Highlights | Braintree Town",
+      "url": "https://www.fgr.co.uk/news/match-highlights-braintree-h-2526/",
+      "published": "2026-04-13T08:00:00Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1435,51 +1480,6 @@
       "title": "Boston United vs Truro City – Match Highlights",
       "url": "https://trurocity.co.uk/2026/04/boston-united-vs-truro-city-match-highlights/",
       "published": "2026-04-12T18:40:24Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Next Up | Away At AFC Fylde Saturday April 18th Kick Off 3pm",
-      "url": "https://southportfc.net/next-up-away-at-afc-fylde-saturday-april-18th-kick-off-3pm/",
-      "published": "2026-04-12T18:20:49Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Report: Ebbsfleet United (H)",
-      "url": "https://hornchurchfc.com/report-ebbsfleet-united-h/",
-      "published": "2026-04-12T18:05:49Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Highlights: Ebbsfleet United (H)",
-      "url": "https://hornchurchfc.com/highlights-ebbsfleet-united-h/",
-      "published": "2026-04-12T18:04:40Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Gallery: Ebbsfleet United (H)",
-      "url": "https://hornchurchfc.com/gallery-ebbsfleet-united-h/",
-      "published": "2026-04-12T18:03:44Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MATCH REPORT: MERTHYR TOWN 1-2 MACCLESFIELD FC",
-      "url": "https://macclesfieldfc.com/latest-news/match-report-merthyr-town-1-2-macclesfield-fc/",
-      "published": "2026-04-12T18:00:38Z"
     }
   ]
 }
