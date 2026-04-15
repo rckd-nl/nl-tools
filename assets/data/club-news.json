@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-15T05:55:54Z",
+  "generatedAt": "2026-04-15T08:08:08Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3715,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=11353987-b5c2-4b7a-ac5e-5005a34b021e",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=a8868d36-ba8b-43d3-8935-5863aecc825f",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "John Rooney after South Shields defeat",
+      "url": "https://macclesfieldfc.com/latest-news/john-rooney-after-south-shields-defeat/",
+      "published": "2026-04-15T08:00:45Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Fans’ Player of the Season & Goal of the Season Voting Now Open",
+      "url": "https://wokingfc.co.uk/04/15/fans-player-of-the-season-goal-of-the-season-voting-now-open/",
+      "published": "2026-04-15T07:55:14Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "On the Road: Leamington",
+      "url": "https://harriers.co.uk/news/2026/04/15/on-the-road-leamington/",
+      "published": "2026-04-15T07:50:40Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -1437,6 +1464,15 @@
       "published": "2026-04-13T08:30:00Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Highlights | Braintree Town",
+      "url": "https://www.fgr.co.uk/news/match-highlights-braintree-h-2526/",
+      "published": "2026-04-13T08:00:00Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1444,42 +1480,6 @@
       "title": "What’s On",
       "url": "https://tonbridgeangels.co.uk/whats-on-15/",
       "published": "2026-04-13T08:00:00Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Fans’ Forum – Tue 21 Apr",
-      "url": "https://doverathletic.com/news/fans-forum-tue-21-apr/",
-      "published": "2026-04-13T07:59:23Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Nash News | Weekly Round-up | 22",
-      "url": "https://curzon-ashton.co.uk/nash-news-weekly-round-up-22/",
-      "published": "2026-04-13T07:51:09Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "End Of Season Award Winners",
-      "url": "https://rochdaleafc.co.uk/end-of-season-award-winners-110426/",
-      "published": "2026-04-13T07:19:56Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "City in Action – Corsham Town Ladies – Shield Services Group SW Regional WFL Div 1N",
-      "url": "https://www.bathcityfc.com/city-in-action-corsham-town-ladies-shield-services-group-sw-regional-wfl-div-1n/",
-      "published": "2026-04-13T06:57:29Z"
     }
   ]
 }
