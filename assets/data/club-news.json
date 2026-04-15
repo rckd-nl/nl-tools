@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-15T18:50:51Z",
+  "generatedAt": "2026-04-15T20:14:54Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3715,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=ca8db382-85dd-4d6b-999c-34409d4691b8",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=69382202-01ab-49bb-a4e5-8bf2c5afd575",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -422,10 +422,10 @@
     {
       "club": "Chippenham Town",
       "domain": "chippenhamtown.com",
-      "feed": "https://chippenhamtown.com/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "SSLError: HTTPSConnectionPool(host='chippenhamtown.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1016)')))"
     },
     {
       "club": "Dagenham & Redbridge",
