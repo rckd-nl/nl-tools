@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-16T06:17:53Z",
+  "generatedAt": "2026-04-16T08:07:39Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3715,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -158,7 +158,7 @@
     {
       "club": "Truro City",
       "domain": "trurocity.co.uk",
-      "feed": "https://trurocity.co.uk/feed/",
+      "feed": "https://trurocity.co.uk/news/feed/",
       "ok": true,
       "count": 10,
       "error": ""
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=31c1069a-20e6-44d1-8541-a33bd7d0f286",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=b9f49a93-62ed-49e9-9baf-293348b9ca2c",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -422,10 +422,10 @@
     {
       "club": "Chippenham Town",
       "domain": "chippenhamtown.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "SSLError: HTTPSConnectionPool(host='chippenhamtown.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1016)')))"
+      "feed": "https://chippenhamtown.com/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Dagenham & Redbridge",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Free Coach Travel: Chippenham Town (A)",
+      "url": "https://hornchurchfc.com/free-coach-travel-chippenham-town-a/",
+      "published": "2026-04-16T06:25:47Z"
+    },
     {
       "club": "Bath City",
       "code": "BAT",
@@ -1471,15 +1480,6 @@
       "title": "2025/26 GOLDEN GAMBLE WINNERS",
       "url": "https://www.carlisleunited.co.uk/news/202526-golden-gamble-winners",
       "published": "2026-04-14T08:00:00Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Report: Keynsham Town Ladies 2-1 Worthing FC Women",
-      "url": "https://worthingfc.com/2026/04/report-keynsham-town-ladies-2-1-worthing-fc-women/",
-      "published": "2026-04-13T19:05:58Z"
     }
   ]
 }
