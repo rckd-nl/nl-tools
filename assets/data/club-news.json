@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-17T20:28:34Z",
+  "generatedAt": "2026-04-17T21:32:20Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3718,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.fgr.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=63e75cf7-dea5-4957-9291-772f87e580c6",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=9fe493d4-82a0-4261-b17c-ce8ec0186318",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Broadbridge Heath Women – Match Preview",
+      "url": "https://www.horshamfc.co.uk/2026/04/17/broadbridge-heath-women-match-preview/",
+      "published": "2026-04-17T21:11:43Z"
+    },
     {
       "club": "Hereford",
       "code": "HER",
@@ -879,15 +888,6 @@
       "published": "2026-04-17T12:57:29Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "FGR takes ‘tough’ decision to reduce the scope of its Academy",
-      "url": "https://www.fgr.co.uk/news/fgr-academy-update-2526/",
-      "published": "2026-04-17T12:30:00Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -922,15 +922,6 @@
       "title": "JACK NOLAN: PRE-BOREHAM WOOD (H)",
       "url": "https://www.morecambefc.com/news/2026/april/17/jack-nolan--pre-boreham-wood--a-/",
       "published": "2026-04-17T11:50:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Savage Previews Hartlepool",
-      "url": "https://www.fgr.co.uk/news/savage-previews-harltlepool-2526/",
-      "published": "2026-04-17T11:30:00Z"
     },
     {
       "club": "Rochdale",
@@ -1149,15 +1140,6 @@
       "published": "2026-04-17T08:31:59Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Preview | Hartlepool (A)",
-      "url": "https://www.fgr.co.uk/news/preview-hartlepool-a-2526/",
-      "published": "2026-04-17T08:30:00Z"
-    },
-    {
       "club": "Scunthorpe United",
       "code": "SCU",
       "short": "Scunthorpe",
@@ -1210,6 +1192,15 @@
       "title": "Free drink courtesy of Club Sponsors",
       "url": "https://farnboroughfc.co.uk/2026/04/free-drink-courtesy-of-club-sponsors/",
       "published": "2026-04-17T07:00:39Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Preview – Salisbury FC",
+      "url": "https://www.horshamfc.co.uk/2026/04/17/match-preview-salisbury-fc-2/",
+      "published": "2026-04-17T05:25:08Z"
     },
     {
       "club": "Chelmsford City",
@@ -1480,6 +1471,15 @@
       "title": "Matchday Information: Tamworth (H)",
       "url": "https://eastleighfc.com/2026/04/matchday-information-tamworth-h-2/",
       "published": "2026-04-16T13:50:59Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "U19s Match Report: Altrincham U19s 3-3 York City U19s",
+      "url": "https://yorkcityfootballclub.co.uk/u19s-match-report-altrincham-u19s-3-3-york-city-u19s/",
+      "published": "2026-04-16T13:45:09Z"
     }
   ]
 }
