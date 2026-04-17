@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-17T15:19:25Z",
+  "generatedAt": "2026-04-17T16:19:49Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3718,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=75f0062e-158d-47d6-961b-c61fc4c3234b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=cad14e36-c417-4f20-98e7-621c2bda600f",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
+      "feed": "https://daggers.co.uk/news/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -582,6 +582,51 @@
   ],
   "items": [
     {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "MATCH PREVIEW: Chippenham Town vs Hornchurch",
+      "url": "https://chippenhamtown.com/04/17/match-preview-chippenham-town-vs-hornchurch/",
+      "published": "2026-04-17T16:00:49Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Farnborough Preview",
+      "url": "https://tonbridgeangels.co.uk/farnborough-preview-2/",
+      "published": "2026-04-17T16:00:00Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "2026/27 PARTNER PROGRAMME LAUNCH",
+      "url": "https://www.morecambefc.com/news/2026/april/17/2026-27-partner-programme-launch/",
+      "published": "2026-04-17T15:40:00Z"
+    },
+    {
+      "club": "Chesham United",
+      "code": "CHU",
+      "short": "Chesham",
+      "domain": "cheshamunited.co.uk",
+      "title": "Notes from the Chair – 17th April 2026",
+      "url": "https://cheshamunited.co.uk/2026/04/notes-from-the-chair-17th-april-2026/",
+      "published": "2026-04-17T15:34:51Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Statistical Preview: Wealdstone (A)",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/statistical-preview-wealdstone-a/",
+      "published": "2026-04-17T15:29:24Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -663,6 +708,15 @@
       "published": "2026-04-17T13:46:24Z"
     },
     {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Hinshelwood : “It has all the makings of a top National League South game.”| Maidstone Preview",
+      "url": "https://worthingfc.com/2026/04/hinshelwood-it-has-all-the-makings-for-a-top-national-league-south-game-maidstone-preview/",
+      "published": "2026-04-17T13:30:17Z"
+    },
+    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -726,15 +780,6 @@
       "published": "2026-04-17T13:00:08Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Match Preview: Weston-super-Mare (H)",
-      "url": "https://daggers.co.uk/match-preview-weston-super-mare-h/",
-      "published": "2026-04-17T13:00:00Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -742,15 +787,6 @@
       "title": "BULLSCAST | Crunch Time for Bulls’ Campaign EP.22",
       "url": "https://herefordfc.co.uk/2026/04/bullscast-crunch-time-for-bulls-campaign-ep-22/",
       "published": "2026-04-17T12:57:29Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "FGR takes ‘tough’ decision to reduce the scope of its Academy",
-      "url": "https://www.fgr.co.uk/news/fgr-academy-update-2526/",
-      "published": "2026-04-17T12:30:00Z"
     },
     {
       "club": "Worthing",
@@ -787,15 +823,6 @@
       "title": "JACK NOLAN: PRE-BOREHAM WOOD (H)",
       "url": "https://www.morecambefc.com/news/2026/april/17/jack-nolan--pre-boreham-wood--a-/",
       "published": "2026-04-17T11:50:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Savage Previews Hartlepool",
-      "url": "https://www.fgr.co.uk/news/savage-previews-harltlepool-2526/",
-      "published": "2026-04-17T11:30:00Z"
     },
     {
       "club": "Rochdale",
@@ -987,15 +1014,6 @@
       "published": "2026-04-17T08:45:03Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Preview | Hartlepool (A)",
-      "url": "https://www.fgr.co.uk/news/preview-hartlepool-a-2526/",
-      "published": "2026-04-17T08:30:00Z"
-    },
-    {
       "club": "Scunthorpe United",
       "code": "SCU",
       "short": "Scunthorpe",
@@ -1153,7 +1171,7 @@
       "code": "WSM",
       "short": "Weston-s-Mare",
       "domain": "wsmafc.co.uk",
-      "title": "Fixture Update: Dorking Wanderers Match to be Segregated",
+      "title": "Fixture Update: Dorking Wanderers match to be segregated",
       "url": "https://wsmafc.co.uk/fixture-update-dorking-wanderers-match-to-be-segregated/",
       "published": "2026-04-16T17:00:37Z"
     },
@@ -1462,24 +1480,6 @@
       "title": "Make Wollens The 12th Man On Saturday!",
       "url": "https://torquayunited.com/make-wollens-the-12th-man-on-saturday/",
       "published": "2026-04-16T11:22:01Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "ACTION REPLAY: SOUTH SHIELDS (A)",
-      "url": "https://macclesfieldfc.com/galleries/action-replay-south-shields-a/",
-      "published": "2026-04-16T11:00:08Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "LOCAL BUSINESS SUPPORT DRIVES FORWARD BRUNTON PARK IMPROVEMENTS",
-      "url": "https://www.carlisleunited.co.uk/news/local-business-support-drives-forward-brunton-park-improvements",
-      "published": "2026-04-16T11:00:00Z"
     }
   ]
 }
