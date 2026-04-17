@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-17T16:19:49Z",
+  "generatedAt": "2026-04-17T17:13:18Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3718,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=cad14e36-c417-4f20-98e7-621c2bda600f",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=4d691ac9-b51d-4856-aa3e-a604da0a0938",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Preview: Oxford City (A)",
+      "url": "https://chesterfc.com/04/17/preview-oxford-city-a/",
+      "published": "2026-04-17T17:02:28Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Match Preview: Maidstone United vs Worthing FC",
+      "url": "https://worthingfc.com/2026/04/match-preview-maidstone-united-vs-worthing-fc/",
+      "published": "2026-04-17T16:35:51Z"
+    },
     {
       "club": "Chippenham Town",
       "code": "CHI",
@@ -789,6 +807,15 @@
       "published": "2026-04-17T12:57:29Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "FGR takes ‘tough’ decision to reduce the scope of its Academy",
+      "url": "https://www.fgr.co.uk/news/fgr-academy-update-2526/",
+      "published": "2026-04-17T12:30:00Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -823,6 +850,15 @@
       "title": "JACK NOLAN: PRE-BOREHAM WOOD (H)",
       "url": "https://www.morecambefc.com/news/2026/april/17/jack-nolan--pre-boreham-wood--a-/",
       "published": "2026-04-17T11:50:00Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Savage Previews Hartlepool",
+      "url": "https://www.fgr.co.uk/news/savage-previews-harltlepool-2526/",
+      "published": "2026-04-17T11:30:00Z"
     },
     {
       "club": "Rochdale",
@@ -1012,6 +1048,15 @@
       "title": "Preview: FC Halifax Town (A)",
       "url": "https://southendunited.co.uk/news/2026/april/17/preview--fc-halifax-town--a-/",
       "published": "2026-04-17T08:45:03Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Preview | Hartlepool (A)",
+      "url": "https://www.fgr.co.uk/news/preview-hartlepool-a-2526/",
+      "published": "2026-04-17T08:30:00Z"
     },
     {
       "club": "Scunthorpe United",
@@ -1435,51 +1480,6 @@
       "title": "Match Preview: Buxton (H)",
       "url": "https://alfretontownfootballclub.com/2026/04/16/match-preview-buxton-h/",
       "published": "2026-04-16T11:41:25Z"
-    },
-    {
-      "club": "Alfreton Town",
-      "code": "ALF",
-      "short": "Alfreton",
-      "domain": "alfretontownfootballclub.com",
-      "title": "Match Information: Buxton (H)",
-      "url": "https://alfretontownfootballclub.com/2026/04/16/match-information-buxton-h-2/",
-      "published": "2026-04-16T11:38:25Z"
-    },
-    {
-      "club": "Alfreton Town",
-      "code": "ALF",
-      "short": "Alfreton",
-      "domain": "alfretontownfootballclub.com",
-      "title": "Post Match: Oxford City (H)",
-      "url": "https://alfretontownfootballclub.com/2026/04/16/post-match-oxford-city-h/",
-      "published": "2026-04-16T11:36:27Z"
-    },
-    {
-      "club": "Alfreton Town",
-      "code": "ALF",
-      "short": "Alfreton",
-      "domain": "alfretontownfootballclub.com",
-      "title": "Match Preview: Oxford City (H)",
-      "url": "https://alfretontownfootballclub.com/2026/04/16/match-preview-oxford-city-h/",
-      "published": "2026-04-16T11:34:39Z"
-    },
-    {
-      "club": "Alfreton Town",
-      "code": "ALF",
-      "short": "Alfreton",
-      "domain": "alfretontownfootballclub.com",
-      "title": "Match Information: Oxford City (H)",
-      "url": "https://alfretontownfootballclub.com/2026/04/16/match-information-oxford-city-h/",
-      "published": "2026-04-16T11:32:09Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Make Wollens The 12th Man On Saturday!",
-      "url": "https://torquayunited.com/make-wollens-the-12th-man-on-saturday/",
-      "published": "2026-04-16T11:22:01Z"
     }
   ]
 }
