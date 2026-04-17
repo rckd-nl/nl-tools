@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-17T19:24:46Z",
+  "generatedAt": "2026-04-17T20:28:34Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=ad5308cc-5623-460c-91d2-faa874db538d",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=63e75cf7-dea5-4957-9291-772f87e580c6",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "INTERVIEW | Downes Ahead of Crucial Radcliffe Clash",
+      "url": "https://herefordfc.co.uk/2026/04/interview-downes-ahead-of-crucial-radcliffe-clash/",
+      "published": "2026-04-17T19:58:23Z"
+    },
+    {
+      "club": "Alfreton Town",
+      "code": "ALF",
+      "short": "Alfreton",
+      "domain": "alfretontownfootballclub.com",
+      "title": "Match Preview: Marine v Alfreton Town",
+      "url": "https://alfretontownfootballclub.com/2026/04/17/match-preview-marine-v-alfreton-town/",
+      "published": "2026-04-17T19:29:28Z"
+    },
     {
       "club": "Tonbridge Angels",
       "code": "TON",
@@ -841,6 +859,15 @@
       "title": "Post-Match Arrangements v Hemel",
       "url": "https://torquayunited.com/post-match-arrangements-v-hemel/",
       "published": "2026-04-17T13:00:08Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Preview: Weston-super-Mare (H)",
+      "url": "https://daggers.co.uk/match-preview-weston-super-mare-h/",
+      "published": "2026-04-17T13:00:00Z"
     },
     {
       "club": "Hereford",
@@ -1453,33 +1480,6 @@
       "title": "Matchday Information: Tamworth (H)",
       "url": "https://eastleighfc.com/2026/04/matchday-information-tamworth-h-2/",
       "published": "2026-04-16T13:50:59Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "U19s Match Report: Altrincham U19s 3-3 York City U19s",
-      "url": "https://yorkcityfootballclub.co.uk/u19s-match-report-altrincham-u19s-3-3-york-city-u19s/",
-      "published": "2026-04-16T13:45:09Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Away Day Guide: Oxford City (A)",
-      "url": "https://chesterfc.com/04/16/away-day-guide-oxford-city-a/",
-      "published": "2026-04-16T13:43:11Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Coach travel: Morecambe (A)",
-      "url": "https://www.borehamwoodfootballclub.co.uk/coach-travel-morecambe-a/",
-      "published": "2026-04-16T13:39:18Z"
     }
   ]
 }
