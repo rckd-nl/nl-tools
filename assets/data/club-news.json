@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-18T14:36:22Z",
+  "generatedAt": "2026-04-18T15:28:27Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=1929f80a-0a87-4b70-a397-79ed260323e8",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=f8809697-341f-45ee-aa77-817109aa365a",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7efc43560c50>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Report: FC Halifax Town 2-6 Southend United",
+      "url": "https://southendunited.co.uk/news/2026/april/18/report--fc-halifax-town-2-6-southend-united/",
+      "published": "2026-04-18T14:46:26Z"
+    },
+    {
       "club": "Dorking Wanderers",
       "code": "DOR",
       "short": "Dorking",
@@ -643,6 +652,15 @@
       "title": "Commentary available for Dagenham & Redbridge clash",
       "url": "https://wsmafc.co.uk/commentary-available-for-dagenham-redbridge-clash/",
       "published": "2026-04-18T11:20:06Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Matchday information | Weston-super-Mare (H)",
+      "url": "https://daggers.co.uk/matchday-information-weston-super-mare-h/",
+      "published": "2026-04-18T11:17:20Z"
     },
     {
       "club": "Morecambe",
@@ -760,6 +778,15 @@
       "title": "Home ticket sales end at 12:00 today",
       "url": "https://maidstoneunited.co.uk/04/18/home-ticket-sales-end-at-1100-today/",
       "published": "2026-04-18T07:00:35Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Broadbridge Heath Women – Match Preview",
+      "url": "https://www.horshamfc.co.uk/2026/04/17/broadbridge-heath-women-match-preview/",
+      "published": "2026-04-17T21:11:43Z"
     },
     {
       "club": "Hereford",
@@ -1030,6 +1057,15 @@
       "title": "Post-Match Arrangements v Hemel",
       "url": "https://torquayunited.com/post-match-arrangements-v-hemel/",
       "published": "2026-04-17T13:00:08Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Preview: Weston-super-Mare (H)",
+      "url": "https://daggers.co.uk/match-preview-weston-super-mare-h/",
+      "published": "2026-04-17T13:00:00Z"
     },
     {
       "club": "Hereford",
@@ -1329,6 +1365,15 @@
       "published": "2026-04-17T07:00:39Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Preview – Salisbury FC",
+      "url": "https://www.horshamfc.co.uk/2026/04/17/match-preview-salisbury-fc-2/",
+      "published": "2026-04-17T05:25:08Z"
+    },
+    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -1435,51 +1480,6 @@
       "title": "Fixture Update: Dorking Wanderers match to be segregated",
       "url": "https://wsmafc.co.uk/fixture-update-dorking-wanderers-match-to-be-segregated/",
       "published": "2026-04-16T17:00:37Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "2026/27 Season Tickets are coming…",
-      "url": "https://chelmsfordcityfc.com/news/2026-27-season-tickets/",
-      "published": "2026-04-16T17:00:00Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "From Academy Football to America: Jude’s Story",
-      "url": "https://curzon-ashton.co.uk/from-academy-football-to-america-judes-story/",
-      "published": "2026-04-16T16:47:27Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Your Need-To-Know Info for the Kent Senior Cup Final",
-      "url": "https://tonbridgeangels.co.uk/your-need-to-know-info-for-the-kent-senior-cup-final/",
-      "published": "2026-04-16T16:05:02Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "JOHN ROONEY PREVIEWS VISIT OF SPENNYMOOR TOWN",
-      "url": "https://macclesfieldfc.com/latest-news/john-rooney-previews-visit-of-spennymoor-town/",
-      "published": "2026-04-16T16:00:59Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Welcome back, Barnet & Southgate College!",
-      "url": "https://www.borehamwoodfootballclub.co.uk/welcome-back-barnet-southgate-college/",
-      "published": "2026-04-16T15:59:15Z"
     }
   ]
 }
