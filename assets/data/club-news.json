@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-18T22:59:09Z",
+  "generatedAt": "2026-04-18T23:54:33Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,10 +246,10 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=f5661325-4dea-49b1-a2c4-ac7d4bc09dd6",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=a6366a8d-cf2a-4eac-8cd2-9d04f8526c93",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 503"
     },
     {
       "club": "Curzon Ashton",
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
+      "feed": "https://daggers.co.uk/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -489,7 +489,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 503"
     },
     {
       "club": "Hemel Hempstead Town",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "HIGHLIGHTS: HEMEL HEMPSTEAD TOWN (A)",
+      "url": "https://torquayunited.com/highlights-hemel-hempstead-town-a/",
+      "published": "2026-04-18T23:27:31Z"
+    },
     {
       "club": "Bath City",
       "code": "BAT",
@@ -697,6 +706,15 @@
       "title": "Dramatic Winner Sends It To Final Day",
       "url": "https://rochdaleafc.co.uk/report-braintree-away-180426/",
       "published": "2026-04-18T19:44:42Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Report: Daggers 0-0 Weston-super-Mare",
+      "url": "https://daggers.co.uk/match-report-daggers-0-0-weston-super-mare/",
+      "published": "2026-04-18T19:42:43Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -942,6 +960,15 @@
       "published": "2026-04-18T17:23:00Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "AC’s WSM Verdict",
+      "url": "https://daggers.co.uk/acs-wsm-verdict/",
+      "published": "2026-04-18T17:22:55Z"
+    },
+    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1156,6 +1183,15 @@
       "title": "Commentary available for Dagenham & Redbridge clash",
       "url": "https://wsmafc.co.uk/commentary-available-for-dagenham-redbridge-clash/",
       "published": "2026-04-18T11:20:06Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Matchday information | Weston-super-Mare (H)",
+      "url": "https://daggers.co.uk/matchday-information-weston-super-mare-h/",
+      "published": "2026-04-18T11:17:20Z"
     },
     {
       "club": "Morecambe",
@@ -1444,42 +1480,6 @@
       "title": "Match Preview | Yeovil Town (H) | Saturday 18th April",
       "url": "https://yorkcityfootballclub.co.uk/match-preview-yeovil-town-h-saturday-18th-april/",
       "published": "2026-04-17T14:14:26Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City vs Carlisle United – Match Preview",
-      "url": "https://trurocity.co.uk/2026/04/truro-city-vs-carlisle-united-match-preview/",
-      "published": "2026-04-17T13:46:24Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Hinshelwood : “It has all the makings of a top National League South game.”| Maidstone Preview",
-      "url": "https://worthingfc.com/2026/04/hinshelwood-it-has-all-the-makings-for-a-top-national-league-south-game-maidstone-preview/",
-      "published": "2026-04-17T13:30:17Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Saturday: Leamington v Harriers",
-      "url": "https://harriers.co.uk/news/2026/04/17/saturday-leamington-v-harriers-3/",
-      "published": "2026-04-17T13:25:48Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Hereford Pre-Match Interview | Mark Halstead",
-      "url": "https://radcliffefc.com/hereford-pre-match-interview-mark-halstead/",
-      "published": "2026-04-17T13:25:13Z"
     }
   ]
 }
