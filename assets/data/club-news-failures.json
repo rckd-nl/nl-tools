@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-18T12:07:54Z",
+  "generatedAt": "2026-04-18T13:38:50Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -33,6 +33,22 @@
       "ok": false,
       "count": 0,
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "club": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
+    },
+    {
+      "club": "Scunthorpe United",
+      "domain": "scunthorpe-united.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Solihull Moors",
@@ -93,7 +109,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=ff7fda89-3ae3-41ef-b18d-7120b6f46c38",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=ead6668f-b60c-4364-8787-ef274c0848f1",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -105,6 +121,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "domain": "harriers.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -163,6 +187,14 @@
       "error": "HTTP 404"
     },
     {
+      "club": "Southport",
+      "domain": "southportfc.net",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
+    },
+    {
       "club": "Worksop Town",
       "domain": "worksoptownfc.co.uk",
       "feed": "",
@@ -173,6 +205,22 @@
     {
       "club": "AFC Totton",
       "domain": "afctotton.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "domain": "daggers.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "domain": "dorkingwanderers.com",
       "feed": "",
       "ok": false,
       "count": 0,
@@ -216,7 +264,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Slough Town",
