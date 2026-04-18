@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-18T09:38:21Z",
+  "generatedAt": "2026-04-18T10:29:47Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3718,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=0c072bb4-7ce3-4691-aeb9-74563359145b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=89362818-846a-43d5-a81c-894ae905cea6",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Last Chance to Secure Seat at Awards Night",
+      "url": "https://tonbridgeangels.co.uk/last-chance-to-secure-seat-at-awards-night/",
+      "published": "2026-04-18T10:20:32Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Dagenham & Redbridge match available internationally on DAZN",
+      "url": "https://wsmafc.co.uk/dagenham-redbridge-match-available-internationally-on-dazn/",
+      "published": "2026-04-18T10:00:50Z"
+    },
     {
       "club": "Macclesfield",
       "code": "MAC",
@@ -933,15 +951,6 @@
       "published": "2026-04-17T13:00:08Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Match Preview: Weston-super-Mare (H)",
-      "url": "https://daggers.co.uk/match-preview-weston-super-mare-h/",
-      "published": "2026-04-17T13:00:00Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -949,6 +958,15 @@
       "title": "BULLSCAST | Crunch Time for Bulls’ Campaign EP.22",
       "url": "https://herefordfc.co.uk/2026/04/bullscast-crunch-time-for-bulls-campaign-ep-22/",
       "published": "2026-04-17T12:57:29Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "FGR takes ‘tough’ decision to reduce the scope of its Academy",
+      "url": "https://www.fgr.co.uk/news/fgr-academy-update-2526/",
+      "published": "2026-04-17T12:30:00Z"
     },
     {
       "club": "Worthing",
@@ -985,6 +1003,15 @@
       "title": "JACK NOLAN: PRE-BOREHAM WOOD (H)",
       "url": "https://www.morecambefc.com/news/2026/april/17/jack-nolan--pre-boreham-wood--a-/",
       "published": "2026-04-17T11:50:00Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Savage Previews Hartlepool",
+      "url": "https://www.fgr.co.uk/news/savage-previews-harltlepool-2526/",
+      "published": "2026-04-17T11:30:00Z"
     },
     {
       "club": "Rochdale",
@@ -1201,6 +1228,15 @@
       "title": "City in Action – Frome Town (H) – Francis Hillier Premier Cup Semi-Final",
       "url": "https://www.bathcityfc.com/city-in-action-frome-town-h-francis-hillier-premier-cup-semi-final/",
       "published": "2026-04-17T08:31:59Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Preview | Hartlepool (A)",
+      "url": "https://www.fgr.co.uk/news/preview-hartlepool-a-2526/",
+      "published": "2026-04-17T08:30:00Z"
     },
     {
       "club": "Rochdale",
@@ -1444,42 +1480,6 @@
       "title": "EVERYTHING WE LEARNT FROM MARK HUGHES: PRE TRURO CITY (A)",
       "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-mark-hughes-pre-truro-city",
       "published": "2026-04-16T15:08:54Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Press: Tom Hopper Looks Ahead To FC Halifax Town",
-      "url": "https://southendunited.co.uk/news/2026/april/16/press--tom-hopper-looks-ahead-to-fc-halifax-town/",
-      "published": "2026-04-16T15:01:55Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "STARS BACK COUNCIL’S BE THE BIG DIFFERENCE RECYCLING CAMPAIGN",
-      "url": "https://macclesfieldfc.com/latest-news/football-stars-back-councils-be-the-big-difference-recycling-campaign/",
-      "published": "2026-04-16T14:30:12Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Press: Kevin Maher Speaks Pre-FC Halifax Town",
-      "url": "https://southendunited.co.uk/news/2026/april/16/press--kevin-maher-speaks-pre-fc-halifax-town/",
-      "published": "2026-04-16T14:20:37Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Away Information | Hereford",
-      "url": "https://radcliffefc.com/away-information-hereford-2/",
-      "published": "2026-04-16T14:04:09Z"
     }
   ]
 }
