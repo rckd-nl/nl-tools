@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-19T14:28:22Z",
+  "generatedAt": "2026-04-19T15:27:56Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3722,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=8ee48e84-6bd8-4bdd-9955-9b11828ec8ba",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=ad8167bb-7215-4654-a890-baad9b18044f",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "MATCH REPORT: MACCLESFIELD FC 0-2 SPENNYMOOR TOWN",
+      "url": "https://macclesfieldfc.com/latest-news/match-report-macclesfield-0-2-spennymoor-town/",
+      "published": "2026-04-19T15:00:43Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Highlights: Macclesfield 0 Moors 2",
+      "url": "https://spennymoortownfc.co.uk/2026/04/19/highlights-macclesfield-0-moors-2/",
+      "published": "2026-04-19T14:41:22Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -879,15 +897,6 @@
       "published": "2026-04-18T20:41:04Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report Hartlepool",
-      "url": "https://www.fgr.co.uk/news/match-report-hartlepool-2526-a/",
-      "published": "2026-04-18T20:30:00Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -924,15 +933,6 @@
       "published": "2026-04-18T20:00:20Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Hartlepool Highlights",
-      "url": "https://www.fgr.co.uk/news/match-highlights-hartlepool-a-2526/",
-      "published": "2026-04-18T20:00:00Z"
-    },
-    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -967,15 +967,6 @@
       "title": "Hinshelwood: “We conceded two poor and uncharacteristic goals” | Maidstone 2-1 Worthing Reaction",
       "url": "https://worthingfc.com/2026/04/hinshelwood-we-conceded-two-poor-and-uncharacteristic-goals-maidstone-2-1-worthing-reaction/",
       "published": "2026-04-18T19:32:58Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Etaluku Hartlepool Comeback",
-      "url": "https://www.fgr.co.uk/news/etaluku-post-match-interview/",
-      "published": "2026-04-18T19:30:00Z"
     },
     {
       "club": "Chelmsford City",
@@ -1021,15 +1012,6 @@
       "title": "Post-Match | Jordan Richards",
       "url": "https://curzon-ashton.co.uk/post-match-jordan-richards/",
       "published": "2026-04-18T19:00:13Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Gaffer Post Hartlepool",
-      "url": "https://www.fgr.co.uk/news/savage-post-hartlepool-interview/",
-      "published": "2026-04-18T19:00:00Z"
     },
     {
       "club": "Carlisle United",
@@ -1480,6 +1462,24 @@
       "title": "Match Preview | Hereford (A)",
       "url": "https://radcliffefc.com/match-preview-hereford-a-2/",
       "published": "2026-04-18T09:21:52Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Preview: Eastleigh v Tamworth",
+      "url": "https://eastleighfc.com/2026/04/preview-eastleigh-v-tamworth-2/",
+      "published": "2026-04-18T08:38:21Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Home ticket sales end at 12:00 today",
+      "url": "https://maidstoneunited.co.uk/04/18/home-ticket-sales-end-at-1100-today/",
+      "published": "2026-04-18T07:00:35Z"
     }
   ]
 }
