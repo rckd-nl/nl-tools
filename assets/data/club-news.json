@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-19T11:03:16Z",
+  "generatedAt": "2026-04-19T11:53:33Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3722,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=e4a6f044-67d2-4f9a-971b-92419ce0898a",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=c89cc6e9-715b-47a6-9e4e-6fd635dba47c",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Five-Star Send-off For Gav",
+      "url": "https://etfc.london/five-star-send-off-for-gav/",
+      "published": "2026-04-19T11:22:41Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Plainmoor To Host Fans’ Forum",
+      "url": "https://torquayunited.com/plainmoor-to-host-fans-forum/",
+      "published": "2026-04-19T11:00:53Z"
+    },
+    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -654,6 +672,15 @@
       "published": "2026-04-19T07:45:50Z"
     },
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Tonbridge Angels Women",
+      "url": "https://maidstoneunited.co.uk/04/19/key-info-tonbridge-angels-women-2/",
+      "published": "2026-04-19T07:30:18Z"
+    },
+    {
       "club": "Farnborough",
       "code": "FAB",
       "short": "Farnborough",
@@ -679,6 +706,15 @@
       "title": "HIGHLIGHTS: HEMEL HEMPSTEAD TOWN (A)",
       "url": "https://torquayunited.com/highlights-hemel-hempstead-town-a/",
       "published": "2026-04-18T23:27:31Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "This week at Gallagher Stadium (w/c 19/4/26)",
+      "url": "https://maidstoneunited.co.uk/04/19/this-week-at-gallagher-stadium-w-c-19-4-26/",
+      "published": "2026-04-18T23:01:57Z"
     },
     {
       "club": "Bath City",
@@ -735,15 +771,6 @@
       "published": "2026-04-18T20:41:04Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report Hartlepool",
-      "url": "https://www.fgr.co.uk/news/match-report-hartlepool-2526-a/",
-      "published": "2026-04-18T20:30:00Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -780,15 +807,6 @@
       "published": "2026-04-18T20:00:20Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Hartlepool Highlights",
-      "url": "https://www.fgr.co.uk/news/match-highlights-hartlepool-a-2526/",
-      "published": "2026-04-18T20:00:00Z"
-    },
-    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -823,15 +841,6 @@
       "title": "Hinshelwood: “We conceded two poor and uncharacteristic goals” | Maidstone 2-1 Worthing Reaction",
       "url": "https://worthingfc.com/2026/04/hinshelwood-we-conceded-two-poor-and-uncharacteristic-goals-maidstone-2-1-worthing-reaction/",
       "published": "2026-04-18T19:32:58Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Etaluku Hartlepool Comeback",
-      "url": "https://www.fgr.co.uk/news/etaluku-post-match-interview/",
-      "published": "2026-04-18T19:30:00Z"
     },
     {
       "club": "Chelmsford City",
@@ -886,15 +895,6 @@
       "title": "Post-Match | Jordan Richards",
       "url": "https://curzon-ashton.co.uk/post-match-jordan-richards/",
       "published": "2026-04-18T19:00:13Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Gaffer Post Hartlepool",
-      "url": "https://www.fgr.co.uk/news/savage-post-hartlepool-interview/",
-      "published": "2026-04-18T19:00:00Z"
     },
     {
       "club": "Carlisle United",
@@ -1162,7 +1162,7 @@
       "code": "EAS",
       "short": "Eastleigh",
       "domain": "eastleighfc.com",
-      "title": "Eastleigh 1-1 Tamworth",
+      "title": "Match report: Eastleigh 1-1 Tamworth",
       "url": "https://eastleighfc.com/2026/04/eastleigh-x-x-tamworth/",
       "published": "2026-04-18T16:07:37Z"
     },
