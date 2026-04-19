@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-19T11:53:33Z",
+  "generatedAt": "2026-04-19T13:38:07Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3722,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=c89cc6e9-715b-47a6-9e4e-6fd635dba47c",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=43505a00-51b4-42e0-bd98-5a95bb56dc80",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,60 @@
   ],
   "items": [
     {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Report: Macclesfield 0 Moors 2",
+      "url": "https://spennymoortownfc.co.uk/2026/04/19/report-macclesfield-0-moors-2/",
+      "published": "2026-04-19T13:34:41Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Next up: Eastleigh (H)",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/next-up-eastleigh-h/",
+      "published": "2026-04-19T13:16:05Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "In memoriam: 2025-26",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/in-memoriam-2025-26-2/",
+      "published": "2026-04-19T13:09:57Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "MATCH ACTION: Wealdstone 1-1 Iron",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/match-action-wealdstone-1-1-iron/",
+      "published": "2026-04-19T12:54:03Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Final Day Match Selected for DAZN TV Coverage",
+      "url": "https://worthingfc.com/2026/04/final-day-match-selected-for-dazn-tv-coverage/",
+      "published": "2026-04-19T12:30:47Z"
+    },
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "MARINE 2-3 ALFRETON TOWN",
+      "url": "https://marinefc.com/marine-2-3-alfreton-town/",
+      "published": "2026-04-19T12:15:29Z"
+    },
+    {
       "club": "Enfield Town",
       "code": "ENF",
       "short": "Enfield",
@@ -607,6 +661,15 @@
       "title": "CTFC End of Season Presentation Review",
       "url": "https://chippenhamtown.com/04/19/ctfc-end-of-season-presentation-review/",
       "published": "2026-04-19T11:00:44Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "LIAM HOGAN: POST-BOREHAM WOOD (H)",
+      "url": "https://www.morecambefc.com/news/2026/april/19/liam-hogan--post-boreham-wood--h-/",
+      "published": "2026-04-19T10:25:00Z"
     },
     {
       "club": "Curzon Ashton",
@@ -771,6 +834,15 @@
       "published": "2026-04-18T20:41:04Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report Hartlepool",
+      "url": "https://www.fgr.co.uk/news/match-report-hartlepool-2526-a/",
+      "published": "2026-04-18T20:30:00Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -805,6 +877,15 @@
       "title": "Highlights: Eastleigh 1-1 Tamworth",
       "url": "https://eastleighfc.com/2026/04/highlights-eastleigh-1-1-tamworth/",
       "published": "2026-04-18T20:00:20Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Hartlepool Highlights",
+      "url": "https://www.fgr.co.uk/news/match-highlights-hartlepool-a-2526/",
+      "published": "2026-04-18T20:00:00Z"
     },
     {
       "club": "Rochdale",
@@ -843,6 +924,15 @@
       "published": "2026-04-18T19:32:58Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Etaluku Hartlepool Comeback",
+      "url": "https://www.fgr.co.uk/news/etaluku-post-match-interview/",
+      "published": "2026-04-18T19:30:00Z"
+    },
+    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -870,15 +960,6 @@
       "published": "2026-04-18T19:13:37Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "VIDEO: Dec Howe's analysis on the 1-1 draw at Wealdstone",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/video-dec-howes-analysis-on-the-1-1-draw-at-wealdstone/",
-      "published": "2026-04-18T19:02:32Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -895,6 +976,15 @@
       "title": "Post-Match | Jordan Richards",
       "url": "https://curzon-ashton.co.uk/post-match-jordan-richards/",
       "published": "2026-04-18T19:00:13Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Gaffer Post Hartlepool",
+      "url": "https://www.fgr.co.uk/news/savage-post-hartlepool-interview/",
+      "published": "2026-04-18T19:00:00Z"
     },
     {
       "club": "Carlisle United",
@@ -922,15 +1012,6 @@
       "title": "Watch: Ryley Reynolds after Leamington",
       "url": "https://harriers.co.uk/news/2026/04/18/watch-ryley-reynolds-after-leamington/",
       "published": "2026-04-18T18:22:16Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "VIDEO: Andy Butler reflects on Wealdstone away point",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/video-andy-butler-reflects-on-wealdstone-away-point/",
-      "published": "2026-04-18T18:21:10Z"
     },
     {
       "club": "Southport",
@@ -1239,15 +1320,6 @@
       "published": "2026-04-18T13:00:00Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Team News: Wealdstone (A)",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/team-news-wealdstone-a-2/",
-      "published": "2026-04-18T13:00:00Z"
-    },
-    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -1408,78 +1480,6 @@
       "title": "Match Preview: Marine v Alfreton Town",
       "url": "https://alfretontownfootballclub.com/2026/04/17/match-preview-marine-v-alfreton-town/",
       "published": "2026-04-17T19:29:28Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Farnborough Preview",
-      "url": "https://tonbridgeangels.co.uk/farnborough-preview-2/",
-      "published": "2026-04-17T18:32:55Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Women’s Title Decider Preview",
-      "url": "https://tonbridgeangels.co.uk/womens-title-decider-preview/",
-      "published": "2026-04-17T18:30:00Z"
-    },
-    {
-      "club": "Morecambe",
-      "code": "MOR",
-      "short": "Morecambe",
-      "domain": "morecambefc.com",
-      "title": "MATCH PREVIEW: BOREHAM WOOD (H)",
-      "url": "https://www.morecambefc.com/news/2026/april/17/match-preview--boreham-wood--h-/",
-      "published": "2026-04-17T18:00:00Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Match Preview | Buxton (H)",
-      "url": "https://curzon-ashton.co.uk/match-preview-buxton-h-2/",
-      "published": "2026-04-17T17:46:11Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Family Fun Day and Fan Zone Festival",
-      "url": "https://altrinchamfc.com/blogs/news/family-fun-day-and-fan-zone-festival",
-      "published": "2026-04-17T17:10:43Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Preview: Oxford City (A)",
-      "url": "https://chesterfc.com/04/17/preview-oxford-city-a/",
-      "published": "2026-04-17T17:02:28Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Match Preview: Maidstone United vs Worthing FC",
-      "url": "https://worthingfc.com/2026/04/match-preview-maidstone-united-vs-worthing-fc/",
-      "published": "2026-04-17T16:35:51Z"
-    },
-    {
-      "club": "Morecambe",
-      "code": "MOR",
-      "short": "Morecambe",
-      "domain": "morecambefc.com",
-      "title": "MATCHDAY GUIDE: BOREHAM WOOD (H)",
-      "url": "https://www.morecambefc.com/news/2026/april/17/matchday-guide--boreham-wood--h-/",
-      "published": "2026-04-17T16:25:00Z"
     }
   ]
 }
