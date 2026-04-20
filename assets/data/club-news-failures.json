@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-20T22:37:53Z",
+  "generatedAt": "2026-04-20T23:30:36Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -93,7 +93,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=6b25aa95-28c2-451b-be30-69a51df0aa5c",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=cf068394-d826-4cd8-8143-d786743f1841",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -120,7 +120,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='leamingtonfc.co.uk', port=443): Read timed out. (read timeout=25)"
+      "error": "HTTP 503"
     },
     {
       "club": "Merthyr Town",
@@ -209,14 +209,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
