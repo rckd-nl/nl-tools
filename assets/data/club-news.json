@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-20T17:22:28Z",
+  "generatedAt": "2026-04-20T18:45:57Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3723,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=b38703f7-0d82-48fc-8239-a01eb4b73471",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=e1ac79d1-66e1-420b-a519-734648f3d4d7",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
+      "feed": "https://daggers.co.uk/news/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Third time lucky for Haslam’s Blues",
+      "url": "https://tonbridgeangels.co.uk/third-time-lucky-for-haslams-blues/",
+      "published": "2026-04-20T18:30:00Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "VOTE FOR YOUR 25/26 GOAL OF THE SEASON",
+      "url": "https://www.morecambefc.com/news/2026/april/20/vote-for-your-25-26-goal-of-the-season/",
+      "published": "2026-04-20T17:40:00Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Less than one week to go for 2026-27 Early Access Season Tickets",
+      "url": "https://www.horshamfc.co.uk/2026/04/20/2026-27-super-early-bird-season-tickets-on-sale/",
+      "published": "2026-04-20T17:22:31Z"
+    },
     {
       "club": "Scunthorpe United",
       "code": "SCU",
@@ -942,15 +969,6 @@
       "published": "2026-04-20T09:56:31Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Supporters Coach Information: Slough Town",
-      "url": "https://daggers.co.uk/supporters-coach-information-slough-town/",
-      "published": "2026-04-20T09:35:47Z"
-    },
-    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -958,15 +976,6 @@
       "title": "Ticket Update: Maidenhead United (H)",
       "url": "https://hornchurchfc.com/ticket-update-2-maidenhead-united-h/",
       "published": "2026-04-20T09:28:05Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Info | Bishops Cleeve (H)",
-      "url": "https://www.fgr.co.uk/news/match-info-bishops-cleeve-h-2526/",
-      "published": "2026-04-20T09:00:00Z"
     },
     {
       "club": "Scunthorpe United",
@@ -1248,6 +1257,15 @@
       "published": "2026-04-19T15:00:43Z"
     },
     {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Open Training Session",
+      "url": "https://farnboroughfc.co.uk/2026/04/open-training-session-2/",
+      "published": "2026-04-19T15:00:24Z"
+    },
+    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -1462,24 +1480,6 @@
       "title": "HIGHLIGHTS: HEMEL HEMPSTEAD TOWN (A)",
       "url": "https://torquayunited.com/highlights-hemel-hempstead-town-a/",
       "published": "2026-04-18T23:27:31Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "City stun title chasing Dorking to end away campaign on a high note",
-      "url": "https://www.bathcityfc.com/city-stun-title-chasing-dorking-to-end-away-campaign-on-a-high/",
-      "published": "2026-04-18T21:33:08Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "“𝗜’𝗺 𝗮 𝗯𝗶𝘁 𝗱𝗲𝗳𝗹𝗮𝘁𝗲𝗱” | Scott Rogers post – Dagenham & Redbridge (A)",
-      "url": "https://wsmafc.co.uk/%f0%9d%97%9c%f0%9d%97%ba-%f0%9d%97%ae-%f0%9d%97%af%f0%9d%97%b6%f0%9d%98%81-%f0%9d%97%b1%f0%9d%97%b2%f0%9d%97%b3%f0%9d%97%b9%f0%9d%97%ae%f0%9d%98%81%f0%9d%97%b2%f0%9d%97%b1-scott-rogers-post/",
-      "published": "2026-04-18T21:15:15Z"
     }
   ]
 }
