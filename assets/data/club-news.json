@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-20T19:51:40Z",
+  "generatedAt": "2026-04-20T20:34:29Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3723,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=904d295d-bd06-44a2-9c01-fe2234c83b5a",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=0efa7624-66c2-4144-b8c3-cb988aa0f670",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -297,7 +297,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='leamingtonfc.co.uk', port=443): Read timed out. (read timeout=25)"
+      "error": "HTTP 404"
     },
     {
       "club": "Macclesfield",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -969,6 +969,15 @@
       "published": "2026-04-20T09:56:31Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Supporters Coach Information: Slough Town",
+      "url": "https://daggers.co.uk/supporters-coach-information-slough-town/",
+      "published": "2026-04-20T09:35:47Z"
+    },
+    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -976,6 +985,15 @@
       "title": "Ticket Update: Maidenhead United (H)",
       "url": "https://hornchurchfc.com/ticket-update-2-maidenhead-united-h/",
       "published": "2026-04-20T09:28:05Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Info | Bishops Cleeve (H)",
+      "url": "https://www.fgr.co.uk/news/match-info-bishops-cleeve-h-2526/",
+      "published": "2026-04-20T09:00:00Z"
     },
     {
       "club": "Scunthorpe United",
@@ -1462,24 +1480,6 @@
       "title": "Spencer Day Post Tonbridge Angels (H)",
       "url": "https://farnboroughfc.co.uk/2026/04/spencer-day-post-tonbridge-angels-h-4/",
       "published": "2026-04-19T06:00:43Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Highlights | Chesham United 0-2 Chelmsford City",
-      "url": "https://chelmsfordcityfc.com/news/highlights-chesham-united-0-2-chelmsford-city/",
-      "published": "2026-04-19T02:34:17Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "HIGHLIGHTS: HEMEL HEMPSTEAD TOWN (A)",
-      "url": "https://torquayunited.com/highlights-hemel-hempstead-town-a/",
-      "published": "2026-04-18T23:27:31Z"
     }
   ]
 }
