@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-20T14:18:48Z",
+  "generatedAt": "2026-04-20T15:50:53Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=2328da67-30ba-45c9-a818-1608b92c26ed",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=602ac1ca-147d-4a4a-9db4-6d267657efd8",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,51 @@
   ],
   "items": [
     {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Watch: 2025/26 End of Season Awards",
+      "url": "https://eastleighfc.com/2026/04/watch-2025-26-end-of-season-awards/",
+      "published": "2026-04-20T15:42:21Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Match Report: Tonbridge Women",
+      "url": "https://maidstoneunited.co.uk/04/20/match-report-tonbridge-women/",
+      "published": "2026-04-20T15:40:02Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Away Travel: Bath City",
+      "url": "https://maidstoneunited.co.uk/04/20/away-travel-bath-city/",
+      "published": "2026-04-20T15:37:58Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "LOAN AND DUAL REGISTRATION ROUNDUP – 18TH APRIL",
+      "url": "https://macclesfieldfc.com/latest-news/loan-and-dual-registration-roundup-18th-april/",
+      "published": "2026-04-20T15:00:46Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Chairman’s Update | John Still appointed Head of Football",
+      "url": "https://chelmsfordcityfc.com/news/chairmans-update-john-still-appointed-head-of-football/",
+      "published": "2026-04-20T15:00:00Z"
+    },
+    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -607,15 +652,6 @@
       "title": "Final Day Tickets Sold Out",
       "url": "https://rochdaleafc.co.uk/ticket-news-york-city-home-250426/",
       "published": "2026-04-20T13:56:00Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Match Report: Tonbridge Women",
-      "url": "https://maidstoneunited.co.uk/04/20/match-report-tonbridge-women/",
-      "published": "2026-04-20T13:45:02Z"
     },
     {
       "club": "Macclesfield",
@@ -1284,15 +1320,6 @@
       "published": "2026-04-19T07:45:50Z"
     },
     {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Tonbridge Angels Women",
-      "url": "https://maidstoneunited.co.uk/04/19/key-info-tonbridge-angels-women-2/",
-      "published": "2026-04-19T07:30:18Z"
-    },
-    {
       "club": "Farnborough",
       "code": "FAB",
       "short": "Farnborough",
@@ -1453,33 +1480,6 @@
       "title": "TICKETS ON SALE FOR PLAY-OFF SEMI-FINAL",
       "url": "https://www.carlisleunited.co.uk/news/tickets-sale-play-semi-final",
       "published": "2026-04-18T18:30:00Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "EVERYTHING WE LEARNT FROM MARK HUGHES: POST TRURO CITY (A)",
-      "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-mark-hughes-post-truro-city",
-      "published": "2026-04-18T18:24:20Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Watch: Ryley Reynolds after Leamington",
-      "url": "https://harriers.co.uk/news/2026/04/18/watch-ryley-reynolds-after-leamington/",
-      "published": "2026-04-18T18:22:16Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Post Match With Neil After AFC Fylde Defeat",
-      "url": "https://southportfc.net/post-match-with-neil-after-afc-fylde-defeat/",
-      "published": "2026-04-18T18:16:57Z"
     }
   ]
 }

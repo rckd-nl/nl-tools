@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-20T14:18:48Z",
+  "generatedAt": "2026-04-20T15:50:53Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -40,7 +40,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Solihull Moors",
@@ -101,7 +101,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=2328da67-30ba-45c9-a818-1608b92c26ed",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=602ac1ca-147d-4a4a-9db4-6d267657efd8",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
