@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-21T12:51:00Z",
+  "generatedAt": "2026-04-21T14:57:33Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3723,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=8e1ec661-2dc9-4099-9663-e3c36c195d42",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=cc817860-e1d1-47c2-84dc-7314d943203d",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,60 @@
     }
   ],
   "items": [
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Injury Update – Matt Burgess",
+      "url": "https://worthingfc.com/2026/04/injury-update-matt-burgess/",
+      "published": "2026-04-21T14:33:27Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "PLAY-OFF ELIMINATOR B TICKET INFORMATION",
+      "url": "https://macclesfieldfc.com/latest-news/play-off-eliminator-b-ticket-information/",
+      "published": "2026-04-21T14:00:38Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Kent Senior Cup sales end at 17:00 today",
+      "url": "https://maidstoneunited.co.uk/04/21/kent-senior-cup-sales-end-at-1700-today/",
+      "published": "2026-04-21T14:00:15Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Family Fun Day and Fan Zone Festival",
+      "url": "https://altrinchamfc.com/blogs/news/family-fun-day-and-fan-zone-festival",
+      "published": "2026-04-21T13:44:59Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "All-Star charity match heading for The J.Davidson Stadium",
+      "url": "https://altrinchamfc.com/blogs/news/all-star-charity-match-heading-for-the-j-davidson-stadium",
+      "published": "2026-04-21T13:20:48Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "MATCH PREVIEW: MACCLESFIELD FC VS SOUTHPORT FC",
+      "url": "https://macclesfieldfc.com/latest-news/match-preview-macclesfield-fc-vs-southport-fc/",
+      "published": "2026-04-21T13:00:09Z"
+    },
     {
       "club": "Horsham",
       "code": "HRS",
@@ -681,6 +735,15 @@
       "published": "2026-04-21T09:20:33Z"
     },
     {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Ticket Details for Academy County Cup Finals",
+      "url": "https://afcfylde.co.uk/news/2026/april/21/ticket-details-for-academy-county-cup-finals-/",
+      "published": "2026-04-21T09:11:00Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -733,6 +796,15 @@
       "title": "Key info: Kent Senior Cup final",
       "url": "https://maidstoneunited.co.uk/04/21/key-info-kent-senior-cup-final/",
       "published": "2026-04-21T08:30:48Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Match Report: Kent Women’s Plate Final",
+      "url": "https://maidstoneunited.co.uk/04/21/match-report-kent-womens-plate-final/",
+      "published": "2026-04-21T08:05:35Z"
     },
     {
       "club": "Macclesfield",
@@ -1167,6 +1239,15 @@
       "published": "2026-04-20T09:28:05Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Info | Bishops Cleeve (H)",
+      "url": "https://www.fgr.co.uk/news/match-info-bishops-cleeve-h-2526/",
+      "published": "2026-04-20T09:00:00Z"
+    },
+    {
       "club": "Scunthorpe United",
       "code": "SCU",
       "short": "Scunthorpe",
@@ -1329,15 +1410,6 @@
       "published": "2026-04-19T18:51:20Z"
     },
     {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "MUFC Women Post Match: Tonbridge Angels",
-      "url": "https://maidstoneunited.co.uk/04/19/mufc-women-post-match-tonbridge-angels-2/",
-      "published": "2026-04-19T17:45:16Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1354,15 +1426,6 @@
       "title": "Hereford Post-Match Reaction | Alie Sesay",
       "url": "https://radcliffefc.com/hereford-post-match-reaction-alie-sesay/",
       "published": "2026-04-19T17:28:13Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Gallery: Tonbridge Angels Women",
-      "url": "https://maidstoneunited.co.uk/04/19/gallery-tonbridge-angels-women-2/",
-      "published": "2026-04-19T17:15:32Z"
     },
     {
       "club": "Macclesfield",
@@ -1417,69 +1480,6 @@
       "title": "MATCH REPORT: MACCLESFIELD FC 0-2 SPENNYMOOR TOWN",
       "url": "https://macclesfieldfc.com/latest-news/match-report-macclesfield-0-2-spennymoor-town/",
       "published": "2026-04-19T15:00:43Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Open Training Session",
-      "url": "https://farnboroughfc.co.uk/2026/04/open-training-session-2/",
-      "published": "2026-04-19T15:00:24Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Highlights: Macclesfield 0 Moors 2",
-      "url": "https://spennymoortownfc.co.uk/2026/04/19/highlights-macclesfield-0-moors-2/",
-      "published": "2026-04-19T14:41:22Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Match Highlights: Dagenham & Redbridge 0 – 0 WsM AFC",
-      "url": "https://wsmafc.co.uk/match-highlights-dagenham-redbridge-0-0-wsm-afc/",
-      "published": "2026-04-19T14:10:44Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "Cameron Borthwick-Jackson after Spennymoor defeat",
-      "url": "https://macclesfieldfc.com/latest-news/cameron-borthwick-jackson-after-spennymoor-defeat/",
-      "published": "2026-04-19T13:45:47Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "End Of Season Awards Rescheduled",
-      "url": "https://southendunited.co.uk/news/2026/april/19/end-of-season-awards-rescheduled/",
-      "published": "2026-04-19T13:42:41Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Report: Macclesfield 0 Moors 2",
-      "url": "https://spennymoortownfc.co.uk/2026/04/19/report-macclesfield-0-moors-2/",
-      "published": "2026-04-19T13:34:41Z"
-    },
-    {
-      "club": "Morecambe",
-      "code": "MOR",
-      "short": "Morecambe",
-      "domain": "morecambefc.com",
-      "title": "GALLERY: COMMUNITY DAY 2026",
-      "url": "https://www.morecambefc.com/news/2026/april/19/gallery--community-day-2026/",
-      "published": "2026-04-19T13:00:00Z"
     }
   ]
 }
