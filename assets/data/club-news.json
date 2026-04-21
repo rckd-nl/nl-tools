@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-21T22:02:08Z",
+  "generatedAt": "2026-04-21T23:03:10Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3723,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=7c070415-7ebb-4d14-8138-5678383aa325",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=cc04b488-0c57-4d37-9937-5a83a40df480",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
+      "feed": "https://daggers.co.uk/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Press: Kevin Maher Reflects On Hartlepool Defeat",
+      "url": "https://southendunited.co.uk/news/2026/april/21/press--kevin-maher-reflects-on-hartlepool-defeat/",
+      "published": "2026-04-21T22:11:30Z"
+    },
     {
       "club": "Macclesfield",
       "code": "MAC",
@@ -933,6 +942,15 @@
       "published": "2026-04-21T10:27:33Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Ticket Information: Slough Town (A)",
+      "url": "https://daggers.co.uk/ticket-information-slough-town-a/",
+      "published": "2026-04-21T09:24:18Z"
+    },
+    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -940,6 +958,15 @@
       "title": "Ticket Information: Marine (H)",
       "url": "https://spennymoortownfc.co.uk/2026/04/21/ticket-information-marine-h-3/",
       "published": "2026-04-21T09:20:33Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Early Bird Season Ticket Window Now LIVE!",
+      "url": "https://daggers.co.uk/early-bird-season-ticket-window-now-live/",
+      "published": "2026-04-21T09:16:59Z"
     },
     {
       "club": "AFC Fylde",
@@ -1419,6 +1446,15 @@
       "published": "2026-04-20T09:56:31Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Supporters Coach Information: Slough Town",
+      "url": "https://daggers.co.uk/supporters-coach-information-slough-town/",
+      "published": "2026-04-20T09:35:47Z"
+    },
+    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -1426,15 +1462,6 @@
       "title": "Ticket Update: Maidenhead United (H)",
       "url": "https://hornchurchfc.com/ticket-update-2-maidenhead-united-h/",
       "published": "2026-04-20T09:28:05Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Info | Bishops Cleeve (H)",
-      "url": "https://www.fgr.co.uk/news/match-info-bishops-cleeve-h-2526/",
-      "published": "2026-04-20T09:00:00Z"
     },
     {
       "club": "Bath City",
@@ -1453,33 +1480,6 @@
       "title": "Ball Demands Reaction After Disappointing Home Defeat",
       "url": "https://torquayunited.com/ball-demands-reaction-after-disappointing-home-defeat/",
       "published": "2026-04-20T08:30:20Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Walking Football Update",
-      "url": "https://tonbridgeangels.co.uk/walking-football-update-13/",
-      "published": "2026-04-20T08:28:11Z"
-    },
-    {
-      "club": "Salisbury",
-      "code": "SAL",
-      "short": "Salisbury",
-      "domain": "salisburyfc.co.uk",
-      "title": "Salisbury take all three points in last home game of the season",
-      "url": "https://salisburyfc.co.uk/2026/04/20/salisbury-take-all-three-points-on-last-home-game-of-the-season/",
-      "published": "2026-04-20T08:26:58Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "ACADEMY BULLETIN: Week Thirty Three",
-      "url": "https://wokingfc.co.uk/04/20/academy-bulletin-week-thirty-three/",
-      "published": "2026-04-20T08:26:45Z"
     }
   ]
 }
