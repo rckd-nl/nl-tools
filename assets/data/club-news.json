@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-21T17:47:44Z",
+  "generatedAt": "2026-04-21T18:48:13Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3723,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=51e5d135-79a8-4b6d-8847-21aa4a22ab79",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=f6f0c70b-48a7-4a98-928d-e7769c869bce",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "FANS FORUM | APRIL 2026 | LIVE FEED",
+      "url": "https://torquayunited.com/fans-forum-april-2026/",
+      "published": "2026-04-21T18:30:52Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "’66 man Cohen brings silverware to Angels",
+      "url": "https://tonbridgeangels.co.uk/66-man-cohen-brings-silverware-to-angels/",
+      "published": "2026-04-21T18:30:00Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Chairman’s notes: Sutton United (H)",
+      "url": "https://www.borehamwoodfootballclub.co.uk/chairmans-notes-sutton-united-h/",
+      "published": "2026-04-21T18:08:29Z"
+    },
+    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -607,6 +634,15 @@
       "title": "Shareholder's meeting scheduled for Thursday, April 23rd",
       "url": "https://www.scunthorpe-united.co.uk/news/2026/april/shareholders-meeting-scheduled-for-thursday-april-23rd-2/",
       "published": "2026-04-21T16:27:13Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "ACADEMY TO TAKE CENTRE STAGE AT THE MAZUMA",
+      "url": "https://www.morecambefc.com/news/2026/april/21/academy-to-take-centre-stage-at-the-mazuma/",
+      "published": "2026-04-21T16:25:00Z"
     },
     {
       "club": "Maidstone United",
@@ -1320,6 +1356,15 @@
       "published": "2026-04-20T09:28:05Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Info | Bishops Cleeve (H)",
+      "url": "https://www.fgr.co.uk/news/match-info-bishops-cleeve-h-2526/",
+      "published": "2026-04-20T09:00:00Z"
+    },
+    {
       "club": "Bath City",
       "code": "BAT",
       "short": "Bath",
@@ -1435,51 +1480,6 @@
       "title": "Gallery: Worthing",
       "url": "https://maidstoneunited.co.uk/04/19/gallery-worthing/",
       "published": "2026-04-19T20:45:13Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "2026/27 SEASON TICKET PRICE FREEZE ANNOUNCED",
-      "url": "https://www.carlisleunited.co.uk/news/202627-season-ticket-price-freeze-announced",
-      "published": "2026-04-19T20:05:00Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Loan Watch: Glover keeps eighth clean sheet in nine games, Hicks assists for BMF",
-      "url": "https://wsmafc.co.uk/loan-watch-saturday-18th-april-2026/",
-      "published": "2026-04-19T19:26:04Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Weekend round up (19/4/2026)",
-      "url": "https://maidstoneunited.co.uk/04/19/weekend-round-up-19-4-2026/",
-      "published": "2026-04-19T19:00:26Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "City in Action – Dorking Wanderers (A) – Enterprise National League South",
-      "url": "https://www.bathcityfc.com/city-in-action-dorking-wanderers-a-enterprise-national-league-south/",
-      "published": "2026-04-19T18:51:20Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "2025-26 PLAYER AWARDS",
-      "url": "https://torquayunited.com/2025-26-player-awards/",
-      "published": "2026-04-19T17:31:15Z"
     }
   ]
 }
