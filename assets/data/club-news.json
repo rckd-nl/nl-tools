@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-21T11:36:34Z",
+  "generatedAt": "2026-04-21T12:51:00Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3723,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=c2b6f72f-b4db-4da9-9b2f-6f73738f0c2b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=8e1ec661-2dc9-4099-9663-e3c36c195d42",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
+      "feed": "https://daggers.co.uk/news/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Youth Roundup",
+      "url": "https://www.horshamfc.co.uk/2026/04/21/youth-roundup-3/",
+      "published": "2026-04-21T12:45:09Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Preview: Hartlepool United (A)",
+      "url": "https://southendunited.co.uk/news/2026/april/21/preview--hartlepool-united--a-/",
+      "published": "2026-04-21T11:30:21Z"
+    },
+    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -654,15 +672,6 @@
       "published": "2026-04-21T10:27:33Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Ticket Information: Slough Town (A)",
-      "url": "https://daggers.co.uk/ticket-information-slough-town-a/",
-      "published": "2026-04-21T09:24:18Z"
-    },
-    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -670,15 +679,6 @@
       "title": "Ticket Information: Marine (H)",
       "url": "https://spennymoortownfc.co.uk/2026/04/21/ticket-information-marine-h-3/",
       "published": "2026-04-21T09:20:33Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Early Bird Season Ticket Window Now LIVE!",
-      "url": "https://daggers.co.uk/early-bird-season-ticket-window-now-live/",
-      "published": "2026-04-21T09:16:59Z"
     },
     {
       "club": "Macclesfield",
@@ -1158,15 +1158,6 @@
       "published": "2026-04-20T09:56:31Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Supporters Coach Information: Slough Town",
-      "url": "https://daggers.co.uk/supporters-coach-information-slough-town/",
-      "published": "2026-04-20T09:35:47Z"
-    },
-    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -1174,15 +1165,6 @@
       "title": "Ticket Update: Maidenhead United (H)",
       "url": "https://hornchurchfc.com/ticket-update-2-maidenhead-united-h/",
       "published": "2026-04-20T09:28:05Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Info | Bishops Cleeve (H)",
-      "url": "https://www.fgr.co.uk/news/match-info-bishops-cleeve-h-2526/",
-      "published": "2026-04-20T09:00:00Z"
     },
     {
       "club": "Scunthorpe United",
@@ -1480,6 +1462,24 @@
       "title": "End Of Season Awards Rescheduled",
       "url": "https://southendunited.co.uk/news/2026/april/19/end-of-season-awards-rescheduled/",
       "published": "2026-04-19T13:42:41Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Report: Macclesfield 0 Moors 2",
+      "url": "https://spennymoortownfc.co.uk/2026/04/19/report-macclesfield-0-moors-2/",
+      "published": "2026-04-19T13:34:41Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "GALLERY: COMMUNITY DAY 2026",
+      "url": "https://www.morecambefc.com/news/2026/april/19/gallery--community-day-2026/",
+      "published": "2026-04-19T13:00:00Z"
     }
   ]
 }
