@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-21T14:57:33Z",
+  "generatedAt": "2026-04-21T16:27:28Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3723,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=cc817860-e1d1-47c2-84dc-7314d943203d",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=ce2e6a85-3924-474b-a378-563a6d6151f2",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,78 @@
     }
   ],
   "items": [
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Fagan first choice for First‑Team Manager",
+      "url": "https://maidstoneunited.co.uk/04/21/fagan-first-choice-for-first-team-manager/",
+      "published": "2026-04-21T16:00:50Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Kent Senior Cup final",
+      "url": "https://maidstoneunited.co.uk/04/21/key-info-kent-senior-cup-final/",
+      "published": "2026-04-21T15:55:48Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "PREVIEW | Hereford FC vs Marine AFC",
+      "url": "https://herefordfc.co.uk/2026/04/preview-hereford-fc-vs-marine-afc/",
+      "published": "2026-04-21T15:43:48Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Four Coaches Fully Booked Up, Fifth Coach Available Now!",
+      "url": "https://afcfylde.co.uk/news/2026/april/21/four-coaches-fully-booked-up--fifth-coach-available-now-/",
+      "published": "2026-04-21T15:30:30Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Season Ticket Information for 2026/27",
+      "url": "https://chippenhamtown.com/04/21/season-ticket-information-for-2026-27/",
+      "published": "2026-04-21T15:00:44Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SUPPORTER NOTICE: TRANSPORT DISRUPTION",
+      "url": "https://macclesfieldfc.com/latest-news/supporter-notice-transport-disruption/",
+      "published": "2026-04-21T15:00:37Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "SEASON TICKETS | Join Gateshead FC for the 2026/27 National League season",
+      "url": "https://gateshead-fc.com/season-tickets-join-gateshead-fc-for-the-2026-27-national-league-season/",
+      "published": "2026-04-21T15:00:17Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Live Music Bingo at the Aggborough Suite!",
+      "url": "https://harriers.co.uk/news/2026/04/21/live-music-bingo-at-the-aggborough-suite/",
+      "published": "2026-04-21T14:59:22Z"
+    },
     {
       "club": "Worthing",
       "code": "WOR",
@@ -753,15 +825,6 @@
       "published": "2026-04-21T09:00:37Z"
     },
     {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Fagan first choice for First‑Team Manager",
-      "url": "https://maidstoneunited.co.uk/04/21/fagan-first-choice-for-first-team-manager/",
-      "published": "2026-04-21T08:58:50Z"
-    },
-    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -787,15 +850,6 @@
       "title": "Press: Kevin Maher Discusses Hartlepool United Visit",
       "url": "https://southendunited.co.uk/news/2026/april/21/press--kevin-maher-discusses-hartlepool-united-visit/",
       "published": "2026-04-21T08:38:17Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Kent Senior Cup final",
-      "url": "https://maidstoneunited.co.uk/04/21/key-info-kent-senior-cup-final/",
-      "published": "2026-04-21T08:30:48Z"
     },
     {
       "club": "Maidstone United",
@@ -1239,15 +1293,6 @@
       "published": "2026-04-20T09:28:05Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Info | Bishops Cleeve (H)",
-      "url": "https://www.fgr.co.uk/news/match-info-bishops-cleeve-h-2526/",
-      "published": "2026-04-20T09:00:00Z"
-    },
-    {
       "club": "Scunthorpe United",
       "code": "SCU",
       "short": "Scunthorpe",
@@ -1435,51 +1480,6 @@
       "title": "SILKMEN FAN CAM: SPENNYMOOR TOWN (H)",
       "url": "https://macclesfieldfc.com/galleries/silkmen-fan-cam-spennymoor-town-h/",
       "published": "2026-04-19T17:00:07Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Match Gallery: Gateshead 0-3 Woking",
-      "url": "https://wokingfc.co.uk/04/19/match-gallery-gateshead-0-3-woking/",
-      "published": "2026-04-19T16:51:55Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Behind the Seals: Oxford City (A)",
-      "url": "https://chesterfc.com/04/19/behind-the-seals-oxford-city-a/",
-      "published": "2026-04-19T16:43:43Z"
-    },
-    {
-      "club": "Chesham United",
-      "code": "CHU",
-      "short": "Chesham",
-      "domain": "cheshamunited.co.uk",
-      "title": "A Tough Task Ahead | S1 E8",
-      "url": "https://cheshamunited.co.uk/2026/04/a-tough-task-ahead-s1-e8/",
-      "published": "2026-04-19T16:00:40Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Preview: FC Halifax Town U19 vs Chester U19",
-      "url": "https://chesterfc.com/04/19/preview-fc-halifax-town-u19-vs-chester-u19/",
-      "published": "2026-04-19T15:45:26Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MATCH REPORT: MACCLESFIELD FC 0-2 SPENNYMOOR TOWN",
-      "url": "https://macclesfieldfc.com/latest-news/match-report-macclesfield-0-2-spennymoor-town/",
-      "published": "2026-04-19T15:00:43Z"
     }
   ]
 }
