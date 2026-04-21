@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-21T23:03:10Z",
+  "generatedAt": "2026-04-21T23:54:48Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3724,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=cc04b488-0c57-4d37-9937-5a83a40df480",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=6ed00901-8be1-4e95-a32e-193eed479356",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
+      "feed": "https://daggers.co.uk/news/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Macclesfield 2 Southport 1",
+      "url": "https://southportfc.net/macclesfield-2-southport-1/",
+      "published": "2026-04-21T23:16:21Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Post Match With Mark Duffy After Defeat To Macclesfield",
+      "url": "https://southportfc.net/post-match-with-mark-duffy-after-defeat-to-macclesfield/",
+      "published": "2026-04-21T23:12:10Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -589,6 +607,15 @@
       "title": "Press: Kevin Maher Reflects On Hartlepool Defeat",
       "url": "https://southendunited.co.uk/news/2026/april/21/press--kevin-maher-reflects-on-hartlepool-defeat/",
       "published": "2026-04-21T22:11:30Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "FGR Win GFA Challenge Cup",
+      "url": "https://www.fgr.co.uk/news/match-report-Bishops-Cleeve-h-2526/",
+      "published": "2026-04-21T22:00:00Z"
     },
     {
       "club": "Macclesfield",
@@ -942,15 +969,6 @@
       "published": "2026-04-21T10:27:33Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Ticket Information: Slough Town (A)",
-      "url": "https://daggers.co.uk/ticket-information-slough-town-a/",
-      "published": "2026-04-21T09:24:18Z"
-    },
-    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -958,15 +976,6 @@
       "title": "Ticket Information: Marine (H)",
       "url": "https://spennymoortownfc.co.uk/2026/04/21/ticket-information-marine-h-3/",
       "published": "2026-04-21T09:20:33Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Early Bird Season Ticket Window Now LIVE!",
-      "url": "https://daggers.co.uk/early-bird-season-ticket-window-now-live/",
-      "published": "2026-04-21T09:16:59Z"
     },
     {
       "club": "AFC Fylde",
@@ -1446,15 +1455,6 @@
       "published": "2026-04-20T09:56:31Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Supporters Coach Information: Slough Town",
-      "url": "https://daggers.co.uk/supporters-coach-information-slough-town/",
-      "published": "2026-04-20T09:35:47Z"
-    },
-    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -1464,6 +1464,15 @@
       "published": "2026-04-20T09:28:05Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Info | Bishops Cleeve (H)",
+      "url": "https://www.fgr.co.uk/news/match-info-bishops-cleeve-h-2526/",
+      "published": "2026-04-20T09:00:00Z"
+    },
+    {
       "club": "Bath City",
       "code": "BAT",
       "short": "Bath",
@@ -1471,15 +1480,6 @@
       "title": "Watch Scott Bartlett’s Dorking Wanderers post-match interview",
       "url": "https://www.bathcityfc.com/watch-scott-bartletts-dorking-wanderers-post-match-interview/",
       "published": "2026-04-20T08:33:16Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Ball Demands Reaction After Disappointing Home Defeat",
-      "url": "https://torquayunited.com/ball-demands-reaction-after-disappointing-home-defeat/",
-      "published": "2026-04-20T08:30:20Z"
     }
   ]
 }
