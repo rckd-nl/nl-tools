@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-22T22:35:04Z",
+  "generatedAt": "2026-04-22T23:36:21Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3724,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=614d896a-57a2-4edc-80ef-740eddd283b8",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=5b26621f-c85a-4a7a-8230-6bcf4472d3dc",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Post Match: Kent Senior Cup Final",
+      "url": "https://maidstoneunited.co.uk/04/23/post-match-kent-senior-cup-final/",
+      "published": "2026-04-22T23:02:11Z"
+    },
+    {
       "club": "Marine",
       "code": "MAR",
       "short": "Marine",
@@ -604,7 +613,7 @@
       "code": "TON",
       "short": "Tonbridge",
       "domain": "tonbridgeangels.co.uk",
-      "title": "It ends in defeat…",
+      "title": "St",
       "url": "https://tonbridgeangels.co.uk/it-ends-in-defeat/",
       "published": "2026-04-22T20:55:38Z"
     },
@@ -688,15 +697,6 @@
       "title": "Tickets: Wealdstone (H)",
       "url": "https://southendunited.co.uk/news/2026/april/22/tickets--wealdstone--h-/",
       "published": "2026-04-22T15:43:28Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Inside Horsham FC – Chapter 8: Go Figure",
-      "url": "https://www.horshamfc.co.uk/2026/04/22/inside-horsham-fc-chapter-8-go-figure/",
-      "published": "2026-04-22T15:03:49Z"
     },
     {
       "club": "Macclesfield",
@@ -996,15 +996,6 @@
       "published": "2026-04-21T22:11:30Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "FGR Win GFA Challenge Cup",
-      "url": "https://www.fgr.co.uk/news/match-report-Bishops-Cleeve-h-2526/",
-      "published": "2026-04-21T22:00:00Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1257,15 +1248,6 @@
       "published": "2026-04-21T13:00:09Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Youth Roundup",
-      "url": "https://www.horshamfc.co.uk/2026/04/21/youth-roundup-3/",
-      "published": "2026-04-21T12:45:09Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1480,6 +1462,24 @@
       "title": "VOTE FOR YOUR 25/26 GOAL OF THE SEASON",
       "url": "https://www.morecambefc.com/news/2026/april/20/vote-for-your-25-26-goal-of-the-season/",
       "published": "2026-04-20T17:40:00Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Club Thanks Avalis Glacier Water as Partnership Concludes",
+      "url": "https://wsmafc.co.uk/club-thanks-avalis-glacier-water-as-partnership-concludes/",
+      "published": "2026-04-20T17:10:07Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "The key details about Mark Cooper",
+      "url": "https://chelmsfordcityfc.com/news/a-look-into-the-appointment-of-mark-cooper/",
+      "published": "2026-04-20T17:08:13Z"
     }
   ]
 }
