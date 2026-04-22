@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-22T05:55:32Z",
+  "generatedAt": "2026-04-22T08:09:21Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -118,10 +118,10 @@
     {
       "club": "Scunthorpe United",
       "domain": "scunthorpe-united.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://www.scunthorpe-united.co.uk/feed/",
+      "ok": true,
+      "count": 4,
+      "error": ""
     },
     {
       "club": "Solihull Moors",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=2932a1c5-6967-449f-b98d-f25a2f7f039a",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=a47d3663-3b0c-4771-8620-02f33fa586c4",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://harriers.co.uk/feed/",
+      "ok": true,
+      "count": 20,
+      "error": ""
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -438,10 +438,10 @@
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://dwfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Dover Athletic",
@@ -581,6 +581,60 @@
     }
   ],
   "items": [
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Listen Back | Ebanks-Landell On BBC Radio 5 Live",
+      "url": "https://rochdaleafc.co.uk/listen-back-ebanks-landell-on-bbc-radio-5-live/",
+      "published": "2026-04-22T07:27:50Z"
+    },
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Fans’ Forum – Summary",
+      "url": "https://doverathletic.com/news/fans-forum-summary/",
+      "published": "2026-04-22T07:12:44Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "REACTION | Downes on Epic Marine Win",
+      "url": "https://herefordfc.co.uk/2026/04/reaction-downes-on-epic-marine-win/",
+      "published": "2026-04-22T06:45:22Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Women's Title Celebrations at West Didsbury",
+      "url": "https://afcfylde.co.uk/news/2026/april/22/Womens-title-celebrations-at-west-didsbury/",
+      "published": "2026-04-22T06:33:00Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Macclesfield 2 Southport 1",
+      "url": "https://southportfc.net/macclesfield-2-southport-1/",
+      "published": "2026-04-21T23:16:21Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Post Match With Mark Duffy After Defeat To Macclesfield",
+      "url": "https://southportfc.net/post-match-with-mark-duffy-after-defeat-to-macclesfield/",
+      "published": "2026-04-21T23:12:10Z"
+    },
     {
       "club": "Southend United",
       "code": "SOU",
@@ -726,6 +780,15 @@
       "published": "2026-04-21T16:32:51Z"
     },
     {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Shareholder's meeting scheduled for Thursday, April 23rd",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/shareholders-meeting-scheduled-for-thursday-april-23rd-2/",
+      "published": "2026-04-21T16:27:13Z"
+    },
+    {
       "club": "Morecambe",
       "code": "MOR",
       "short": "Morecambe",
@@ -787,6 +850,24 @@
       "title": "SUPPORTER NOTICE: TRANSPORT DISRUPTION",
       "url": "https://macclesfieldfc.com/latest-news/supporter-notice-transport-disruption/",
       "published": "2026-04-21T15:00:37Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "SEASON TICKETS | Join Gateshead FC for the 2026/27 National League season",
+      "url": "https://gateshead-fc.com/season-tickets-join-gateshead-fc-for-the-2026-27-national-league-season/",
+      "published": "2026-04-21T15:00:17Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Live Music Bingo at the Aggborough Suite!",
+      "url": "https://harriers.co.uk/news/2026/04/21/live-music-bingo-at-the-aggborough-suite/",
+      "published": "2026-04-21T14:59:22Z"
     },
     {
       "club": "Worthing",
@@ -861,6 +942,15 @@
       "published": "2026-04-21T11:24:06Z"
     },
     {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Stephen Paylor becomes Gateshead FC’s new joint-owner",
+      "url": "https://gateshead-fc.com/stephen-paylor-becomes-gateshead-fcs-new-joint-owner/",
+      "published": "2026-04-21T11:15:20Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -886,6 +976,15 @@
       "title": "STARS BACK COUNCIL’S BE THE BIG DIFFERENCE RECYCLING CAMPAIGN",
       "url": "https://macclesfieldfc.com/latest-news/football-stars-back-councils-be-the-big-difference-recycling-campaign/",
       "published": "2026-04-21T11:00:12Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Under 5s Week at West Midlands Safari Park!",
+      "url": "https://harriers.co.uk/news/2026/04/21/under-5s-week-at-west-midlands-safari-park/",
+      "published": "2026-04-21T10:37:09Z"
     },
     {
       "club": "Torquay United",
@@ -960,6 +1059,15 @@
       "published": "2026-04-21T08:53:16Z"
     },
     {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Bumper half-time draw for final league game of the season - £500 guaranteed cash first prize",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/bumper-half-time-draw-for-final-league-game-of-the-season-500-guaranteed-cash-first-prize/",
+      "published": "2026-04-21T08:46:58Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -976,6 +1084,15 @@
       "title": "Match Report: Kent Women’s Plate Final",
       "url": "https://maidstoneunited.co.uk/04/21/match-report-kent-womens-plate-final/",
       "published": "2026-04-21T08:05:35Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "2026-27 season tickets: In-house finance option",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/2026-27-season-tickets-in-house-finance-option-2/",
+      "published": "2026-04-21T08:05:00Z"
     },
     {
       "club": "Macclesfield",
@@ -996,6 +1113,15 @@
       "published": "2026-04-21T07:37:58Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Macclesfield Away Tonight",
+      "url": "https://southportfc.net/macclesfield-away-tonight/",
+      "published": "2026-04-21T06:45:33Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1003,6 +1129,15 @@
       "title": "Third time lucky for Haslam’s Blues",
       "url": "https://tonbridgeangels.co.uk/third-time-lucky-for-haslams-blues/",
       "published": "2026-04-20T18:30:00Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Wanderers Kit Auction Now Live",
+      "url": "https://dwfc.co.uk/2026/04/wanderers-kit-auction-now-live/",
+      "published": "2026-04-20T17:47:50Z"
     },
     {
       "club": "Morecambe",
@@ -1021,6 +1156,15 @@
       "title": "Less than one week to go for 2026-27 Early Access Season Tickets",
       "url": "https://www.horshamfc.co.uk/2026/04/20/2026-27-super-early-bird-season-tickets-on-sale/",
       "published": "2026-04-20T17:22:31Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Book now for our annual Golf Day, returning in pre-season ahead of the 2026-27 season",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/book-now-for-our-annual-golf-day-returning-in-pre-season-ahead-of-the-2026-27-season/",
+      "published": "2026-04-20T17:12:57Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1167,6 +1311,15 @@
       "published": "2026-04-20T15:00:00Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Highlights: Leamington 2-3 Harriers",
+      "url": "https://harriers.co.uk/news/2026/04/20/highlights-leamington-2-3-harriers/",
+      "published": "2026-04-20T14:14:02Z"
+    },
+    {
       "club": "York City",
       "code": "YOR",
       "short": "York",
@@ -1248,6 +1401,24 @@
       "published": "2026-04-20T11:59:35Z"
     },
     {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "TICKET INFO | Altrincham (A)",
+      "url": "https://gateshead-fc.com/ticket-info-altrincham-a/",
+      "published": "2026-04-20T11:49:03Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "2025-26 Phil Carder Goal Of The Season",
+      "url": "https://southportfc.net/2025-26-phil-carder-goal-of-the-season/",
+      "published": "2026-04-20T11:20:31Z"
+    },
+    {
       "club": "Alfreton Town",
       "code": "ALF",
       "short": "Alfreton",
@@ -1309,177 +1480,6 @@
       "title": "All The Fan Images From Braintree",
       "url": "https://rochdaleafc.co.uk/all-the-fan-images-from-braintree/",
       "published": "2026-04-20T10:04:35Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Vote For Your 2025/26 Goal Of The Season",
-      "url": "https://spennymoortownfc.co.uk/2026/04/20/vote-for-your-2025-26-goal-of-the-season/",
-      "published": "2026-04-20T10:04:28Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City vs Carlisle United – Match Highlights",
-      "url": "https://trurocity.co.uk/2026/04/truro-city-vs-carlisle-united-match-highlights/",
-      "published": "2026-04-20T09:58:28Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "John Askey Post Carlisle United (h)",
-      "url": "https://trurocity.co.uk/2026/04/john-askey-post-carlisle-united-h/",
-      "published": "2026-04-20T09:56:31Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Supporters Coach Information: Slough Town",
-      "url": "https://daggers.co.uk/supporters-coach-information-slough-town/",
-      "published": "2026-04-20T09:35:47Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Ticket Update: Maidenhead United (H)",
-      "url": "https://hornchurchfc.com/ticket-update-2-maidenhead-united-h/",
-      "published": "2026-04-20T09:28:05Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Info | Bishops Cleeve (H)",
-      "url": "https://www.fgr.co.uk/news/match-info-bishops-cleeve-h-2526/",
-      "published": "2026-04-20T09:00:00Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Watch Scott Bartlett’s Dorking Wanderers post-match interview",
-      "url": "https://www.bathcityfc.com/watch-scott-bartletts-dorking-wanderers-post-match-interview/",
-      "published": "2026-04-20T08:33:16Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Ball Demands Reaction After Disappointing Home Defeat",
-      "url": "https://torquayunited.com/ball-demands-reaction-after-disappointing-home-defeat/",
-      "published": "2026-04-20T08:30:20Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Walking Football Update",
-      "url": "https://tonbridgeangels.co.uk/walking-football-update-13/",
-      "published": "2026-04-20T08:28:11Z"
-    },
-    {
-      "club": "Salisbury",
-      "code": "SAL",
-      "short": "Salisbury",
-      "domain": "salisburyfc.co.uk",
-      "title": "Salisbury take all three points in last home game of the season",
-      "url": "https://salisburyfc.co.uk/2026/04/20/salisbury-take-all-three-points-on-last-home-game-of-the-season/",
-      "published": "2026-04-20T08:26:58Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "ACADEMY BULLETIN: Week Thirty Three",
-      "url": "https://wokingfc.co.uk/04/20/academy-bulletin-week-thirty-three/",
-      "published": "2026-04-20T08:26:45Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "INTERVIEW | Munday Reflects on Radcliffe Win",
-      "url": "https://herefordfc.co.uk/2026/04/interview-munday-reflects-on-radcliffe-win/",
-      "published": "2026-04-20T08:21:04Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Highlights | Braintree Town 1-2 Dale",
-      "url": "https://rochdaleafc.co.uk/highlights-braintree-town-1-2-dale/",
-      "published": "2026-04-20T07:26:18Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Inside Dale | Braintree Town (A)",
-      "url": "https://rochdaleafc.co.uk/inside-dale-braintree-town-a/",
-      "published": "2026-04-20T07:18:35Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Highlights: Worthing (H)",
-      "url": "https://maidstoneunited.co.uk/04/20/highlights-worthing-h/",
-      "published": "2026-04-20T06:50:53Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Report: Chippenham Town (A)",
-      "url": "https://hornchurchfc.com/report-chippenham-town-a/",
-      "published": "2026-04-20T06:31:52Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Highlights: Chippenham Town (A)",
-      "url": "https://hornchurchfc.com/highlights-chippenham-town-a/",
-      "published": "2026-04-20T06:30:07Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "Golden Letter Draw Results",
-      "url": "https://marinefc.com/golden-letter-draw-results/",
-      "published": "2026-04-19T20:48:00Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Gallery: Worthing",
-      "url": "https://maidstoneunited.co.uk/04/19/gallery-worthing/",
-      "published": "2026-04-19T20:45:13Z"
     }
   ]
 }
