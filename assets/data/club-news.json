@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-22T03:52:27Z",
+  "generatedAt": "2026-04-22T05:55:32Z",
   "maxItems": 100,
   "sources": [
     {
@@ -70,10 +70,10 @@
     {
       "club": "FC Halifax Town",
       "domain": "fchalifaxtown.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='fchalifaxtown.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='fchalifaxtown.com', port=443) at 0x7f179298a490>, 'Connection to fchalifaxtown.com timed out. (connect timeout=25)'))"
+      "feed": "https://fchalifaxtown.com/feed/",
+      "ok": true,
+      "count": 1,
+      "error": ""
     },
     {
       "club": "Forest Green Rovers",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=2932a1c5-6967-449f-b98d-f25a2f7f039a",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -834,6 +834,15 @@
       "published": "2026-04-21T13:00:09Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Youth Roundup",
+      "url": "https://www.horshamfc.co.uk/2026/04/21/youth-roundup-3/",
+      "published": "2026-04-21T12:45:09Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1003,6 +1012,15 @@
       "title": "VOTE FOR YOUR 25/26 GOAL OF THE SEASON",
       "url": "https://www.morecambefc.com/news/2026/april/20/vote-for-your-25-26-goal-of-the-season/",
       "published": "2026-04-20T17:40:00Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Less than one week to go for 2026-27 Early Access Season Tickets",
+      "url": "https://www.horshamfc.co.uk/2026/04/20/2026-27-super-early-bird-season-tickets-on-sale/",
+      "published": "2026-04-20T17:22:31Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1462,24 +1480,6 @@
       "title": "Gallery: Worthing",
       "url": "https://maidstoneunited.co.uk/04/19/gallery-worthing/",
       "published": "2026-04-19T20:45:13Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "2026/27 SEASON TICKET PRICE FREEZE ANNOUNCED",
-      "url": "https://www.carlisleunited.co.uk/news/202627-season-ticket-price-freeze-announced",
-      "published": "2026-04-19T20:05:00Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Loan Watch: Glover keeps eighth clean sheet in nine games, Hicks assists for BMF",
-      "url": "https://wsmafc.co.uk/loan-watch-saturday-18th-april-2026/",
-      "published": "2026-04-19T19:26:04Z"
     }
   ]
 }
