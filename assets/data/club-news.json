@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-22T23:36:21Z",
+  "generatedAt": "2026-04-23T01:16:48Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3724,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=5b26621f-c85a-4a7a-8230-6bcf4472d3dc",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=3b2f2a05-c6d1-46e2-a90e-45697ca3ae6d",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -586,9 +586,45 @@
       "code": "MSU",
       "short": "Maidstone",
       "domain": "maidstoneunited.co.uk",
+      "title": "Match report: Kent Senior Cup Final",
+      "url": "https://maidstoneunited.co.uk/04/23/match-report-kent-senior-cup-final/",
+      "published": "2026-04-23T00:37:18Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Hot Take: Kent Senior Cup Final",
+      "url": "https://maidstoneunited.co.uk/04/23/hot-take-kent-senior-cup-final/",
+      "published": "2026-04-23T00:28:56Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Angels Suffer Cup Final Defeat",
+      "url": "https://tonbridgeangels.co.uk/angels-suffer-cup-final-defeat/",
+      "published": "2026-04-23T00:00:52Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
       "title": "Post Match: Kent Senior Cup Final",
       "url": "https://maidstoneunited.co.uk/04/23/post-match-kent-senior-cup-final/",
       "published": "2026-04-22T23:02:11Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "AFC Fylde Women Become Invincible",
+      "url": "https://afcfylde.co.uk/news/2026/april/22/afc-fylde-women-become-invincible/",
+      "published": "2026-04-22T22:25:45Z"
     },
     {
       "club": "Marine",
@@ -607,15 +643,6 @@
       "title": "Bath City Women suffer big Whitchurch home defeat",
       "url": "https://www.bathcityfc.com/bath-city-women-suffer-big-whitchurch-home-defeat/",
       "published": "2026-04-22T21:23:49Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "St",
-      "url": "https://tonbridgeangels.co.uk/it-ends-in-defeat/",
-      "published": "2026-04-22T20:55:38Z"
     },
     {
       "club": "York City",
@@ -697,6 +724,15 @@
       "title": "Tickets: Wealdstone (H)",
       "url": "https://southendunited.co.uk/news/2026/april/22/tickets--wealdstone--h-/",
       "published": "2026-04-22T15:43:28Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Inside Horsham FC – Chapter 8: Go Figure",
+      "url": "https://www.horshamfc.co.uk/2026/04/22/inside-horsham-fc-chapter-8-go-figure/",
+      "published": "2026-04-22T15:03:49Z"
     },
     {
       "club": "Macclesfield",
@@ -960,15 +996,6 @@
       "published": "2026-04-22T06:45:22Z"
     },
     {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Women's Title Celebrations at West Didsbury",
-      "url": "https://afcfylde.co.uk/news/2026/april/22/Womens-title-celebrations-at-west-didsbury/",
-      "published": "2026-04-22T06:33:00Z"
-    },
-    {
       "club": "Southport",
       "code": "SPT",
       "short": "Southport",
@@ -994,6 +1021,15 @@
       "title": "Press: Kevin Maher Reflects On Hartlepool Defeat",
       "url": "https://southendunited.co.uk/news/2026/april/21/press--kevin-maher-reflects-on-hartlepool-defeat/",
       "published": "2026-04-21T22:11:30Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "FGR Win GFA Challenge Cup",
+      "url": "https://www.fgr.co.uk/news/match-report-Bishops-Cleeve-h-2526/",
+      "published": "2026-04-21T22:00:00Z"
     },
     {
       "club": "Macclesfield",
@@ -1248,6 +1284,15 @@
       "published": "2026-04-21T13:00:09Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Youth Roundup",
+      "url": "https://www.horshamfc.co.uk/2026/04/21/youth-roundup-3/",
+      "published": "2026-04-21T12:45:09Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1435,51 +1480,6 @@
       "title": "Macclesfield Away Tonight",
       "url": "https://southportfc.net/macclesfield-away-tonight/",
       "published": "2026-04-21T06:45:33Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Third time lucky for Haslam’s Blues",
-      "url": "https://tonbridgeangels.co.uk/third-time-lucky-for-haslams-blues/",
-      "published": "2026-04-20T18:30:00Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Wanderers Kit Auction Now Live",
-      "url": "https://dwfc.co.uk/2026/04/wanderers-kit-auction-now-live/",
-      "published": "2026-04-20T17:47:50Z"
-    },
-    {
-      "club": "Morecambe",
-      "code": "MOR",
-      "short": "Morecambe",
-      "domain": "morecambefc.com",
-      "title": "VOTE FOR YOUR 25/26 GOAL OF THE SEASON",
-      "url": "https://www.morecambefc.com/news/2026/april/20/vote-for-your-25-26-goal-of-the-season/",
-      "published": "2026-04-20T17:40:00Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Club Thanks Avalis Glacier Water as Partnership Concludes",
-      "url": "https://wsmafc.co.uk/club-thanks-avalis-glacier-water-as-partnership-concludes/",
-      "published": "2026-04-20T17:10:07Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "The key details about Mark Cooper",
-      "url": "https://chelmsfordcityfc.com/news/a-look-into-the-appointment-of-mark-cooper/",
-      "published": "2026-04-20T17:08:13Z"
     }
   ]
 }
