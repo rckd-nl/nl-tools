@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-23T01:16:48Z",
+  "generatedAt": "2026-04-23T06:30:31Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=3b2f2a05-c6d1-46e2-a90e-45697ca3ae6d",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=dd93f250-468b-48bf-8a0f-9be88ca80508",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Bath City",
+      "url": "https://maidstoneunited.co.uk/04/23/key-info-bath-city-2/",
+      "published": "2026-04-23T06:00:46Z"
+    },
     {
       "club": "Maidstone United",
       "code": "MSU",
@@ -1471,15 +1480,6 @@
       "title": "Away Travel: Bath City",
       "url": "https://maidstoneunited.co.uk/04/21/away-travel-bath-city/",
       "published": "2026-04-21T07:37:58Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Macclesfield Away Tonight",
-      "url": "https://southportfc.net/macclesfield-away-tonight/",
-      "published": "2026-04-21T06:45:33Z"
     }
   ]
 }
