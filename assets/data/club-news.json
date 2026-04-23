@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-23T22:04:11Z",
+  "generatedAt": "2026-04-23T23:11:10Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3727,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=b7918fd0-82e7-4874-a842-b2d234cc6b55",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=2cd765a8-d7c4-4198-b01e-11e02fcf0f7b",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -589,15 +589,6 @@
       "title": "Farnborough to host PDL Play-Off clash",
       "url": "https://farnboroughfc.co.uk/2026/04/farnborough-to-host-pdl-play-off-clash/",
       "published": "2026-04-23T18:00:10Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Travel Info | The Play-offs",
-      "url": "https://www.fgr.co.uk/news/travel-info-the-play-offs-2526/",
-      "published": "2026-04-23T18:00:00Z"
     },
     {
       "club": "Maidstone United",
@@ -870,6 +861,15 @@
       "published": "2026-04-23T11:51:58Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "The heart of the game: Utility Warehouse and the National League kick-off landmark partnership to champion 72 Clubs and their communities",
+      "url": "https://daggers.co.uk/the-heart-of-the-game-utility-warehouse-and-the-national-league-kick-off-landmark-partnership-to-champion-72-clubs-and-their-communities/",
+      "published": "2026-04-23T11:51:24Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -877,15 +877,6 @@
       "title": "It's time to choose your Goal of the Season",
       "url": "https://altrinchamfc.com/blogs/news/altrincham-fc-goal-of-the-season-candidates-2025-26",
       "published": "2026-04-23T11:50:21Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Doidge Interview",
-      "url": "https://www.fgr.co.uk/news/christian-doidge-pre-morecambe-interview/",
-      "published": "2026-04-23T11:30:00Z"
     },
     {
       "club": "Yeovil Town",
@@ -976,15 +967,6 @@
       "title": "Sponsorship packages available for Play-off eliminator",
       "url": "https://www.scunthorpe-united.co.uk/news/2026/april/sponsorship-packages-available-for-play-off-eliminator/",
       "published": "2026-04-23T10:30:27Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Savage Pre Morecambe",
-      "url": "https://www.fgr.co.uk/news/savage-pre-morecambe-h-2526/",
-      "published": "2026-04-23T10:30:00Z"
     },
     {
       "club": "Hartlepool United",
@@ -1084,6 +1066,24 @@
       "title": "Matchday Guide: Marine",
       "url": "https://spennymoortownfc.co.uk/2026/04/23/matchday-guide-marine-3/",
       "published": "2026-04-23T08:49:36Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Watch Slough Town game live in the Big Hall or on DAZN",
+      "url": "https://daggers.co.uk/watch-slough-town-game-live-in-the-daggers-bar-or-on-dazn/",
+      "published": "2026-04-23T08:39:30Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Club Shop Open this Afternoon",
+      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-45/",
+      "published": "2026-04-23T08:24:53Z"
     },
     {
       "club": "Hartlepool United",
