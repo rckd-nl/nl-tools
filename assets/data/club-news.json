@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-24T19:16:00Z",
+  "generatedAt": "2026-04-24T20:04:45Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=009174e5-3a5f-46fc-8652-7ef288e3e342",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=d14931fe-5102-4d82-8d42-e22f713f3506",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
+      "feed": "https://daggers.co.uk/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -598,6 +598,15 @@
       "title": "Notes from the Chair – 24th April 2026",
       "url": "https://cheshamunited.co.uk/2026/04/notes-from-the-chair-24th-april-2026/",
       "published": "2026-04-24T18:53:31Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "MATCH PREVIEW: FOREST GREEN ROVERS",
+      "url": "https://www.morecambefc.com/news/2026/april/24/match-preview--forest-green-rovers/",
+      "published": "2026-04-24T18:30:00Z"
     },
     {
       "club": "Truro City",
@@ -1068,6 +1077,15 @@
       "published": "2026-04-24T10:33:48Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Preview: Slough Town (A)",
+      "url": "https://daggers.co.uk/match-preview-slough-town-a/",
+      "published": "2026-04-24T10:21:26Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1462,24 +1480,6 @@
       "title": "Andrews Recalled by Magpies",
       "url": "https://etfc.london/andrews-recalled-by-magpies/",
       "published": "2026-04-23T14:47:55Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Watch: Richard Hill Previews Scunthorpe United (A)",
-      "url": "https://eastleighfc.com/2026/04/watch-richard-hill-previews-scunthorpe-united-a/",
-      "published": "2026-04-23T14:24:55Z"
-    },
-    {
-      "club": "Alfreton Town",
-      "code": "ALF",
-      "short": "Alfreton",
-      "domain": "alfretontownfootballclub.com",
-      "title": "ATFC Reds Ramble 2026",
-      "url": "https://alfretontownfootballclub.com/2026/04/23/atfc-reds-ramble-2026/",
-      "published": "2026-04-23T14:17:33Z"
     }
   ]
 }
