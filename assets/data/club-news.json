@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-24T11:37:04Z",
+  "generatedAt": "2026-04-24T12:47:18Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3728,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=2ed888d8-d184-4f62-81a7-2520292b8ea8",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=1b2901d9-8485-4e05-b4f6-c04eb803ce51",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/news/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,42 @@
   ],
   "items": [
     {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Gallery: Pre Eastleigh Training - Steve Hope",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/gallery-pre-eastleigh-training-steve-hope/",
+      "published": "2026-04-24T12:17:33Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "An injury update from Danny Elliott",
+      "url": "https://macclesfieldfc.com/latest-news/an-injury-update-from-danny-elliott/",
+      "published": "2026-04-24T12:00:23Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Harriers set for survival finale",
+      "url": "https://harriers.co.uk/news/2026/04/24/harriers-set-for-survival-finale/",
+      "published": "2026-04-24T11:55:01Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Hinshelwood: “The fans have been phenomenal all season.” | Ebbsfleet United Preview",
+      "url": "https://worthingfc.com/2026/04/hinshelwood-the-fans-have-been-phenomenal-all-season-ebbsfleet-united-preview/",
+      "published": "2026-04-24T11:45:03Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -589,6 +625,15 @@
       "title": "Brooke and Charlie Receive Devonte Aransibia Award",
       "url": "https://tonbridgeangels.co.uk/brooke-and-charlie-receive-devonte-aransibia-award/",
       "published": "2026-04-24T11:35:57Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "EVERYTHING WE LEARNT FROM LUKE ARMSTRONG: PRE BRACKLEY TOWN (H)",
+      "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-luke-armstrong-pre-brackley-town-h",
+      "published": "2026-04-24T11:30:00Z"
     },
     {
       "club": "Scunthorpe United",
@@ -616,6 +661,15 @@
       "title": "Join the Matchday Experience Waiting List for 2026/2027",
       "url": "https://wsmafc.co.uk/join-the-matchday-experience-waiting-list-for-2026-2027/",
       "published": "2026-04-24T10:52:27Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "JIM BENTLEY: PRE-FOREST GREEN ROVERS (A)",
+      "url": "https://www.morecambefc.com/news/2026/april/24/jim-bentley--pre-forest-green-rovers/",
+      "published": "2026-04-24T10:45:00Z"
     },
     {
       "club": "Enfield Town",
@@ -663,6 +717,15 @@
       "published": "2026-04-24T10:08:11Z"
     },
     {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "COMEDY NIGHT IN BAR TWENTY SEVEN",
+      "url": "https://macclesfieldfc.com/latest-news/comedy-night-in-bar-twenty-seven-2/",
+      "published": "2026-04-24T10:00:16Z"
+    },
+    {
       "club": "Carlisle United",
       "code": "CAR",
       "short": "Carlisle",
@@ -697,15 +760,6 @@
       "title": "Match Preview – Maidstone United (H) – Enterprise National League South",
       "url": "https://www.bathcityfc.com/match-preview-maidstone-united-h-enterprise-national-league-south/",
       "published": "2026-04-24T09:00:18Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Preview | Morecambe (H)",
-      "url": "https://www.fgr.co.uk/news/match-preview-morecambe-h-2526/",
-      "published": "2026-04-24T09:00:00Z"
     },
     {
       "club": "Woking",
@@ -850,15 +904,6 @@
       "title": "Farnborough to host PDL Play-Off clash",
       "url": "https://farnboroughfc.co.uk/2026/04/farnborough-to-host-pdl-play-off-clash/",
       "published": "2026-04-23T18:00:10Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Travel Info | The Play-offs",
-      "url": "https://www.fgr.co.uk/news/travel-info-the-play-offs-2526/",
-      "published": "2026-04-23T18:00:00Z"
     },
     {
       "club": "Maidstone United",
@@ -1149,15 +1194,6 @@
       "published": "2026-04-23T11:50:21Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Doidge Interview",
-      "url": "https://www.fgr.co.uk/news/christian-doidge-pre-morecambe-interview/",
-      "published": "2026-04-23T11:30:00Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1237,24 +1273,6 @@
       "title": "Supporter conduct reminder",
       "url": "https://harriers.co.uk/news/2026/04/23/supporter-conduct-reminder-5/",
       "published": "2026-04-23T10:32:09Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Sponsorship packages available for Play-off eliminator",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/sponsorship-packages-available-for-play-off-eliminator/",
-      "published": "2026-04-23T10:30:27Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Savage Pre Morecambe",
-      "url": "https://www.fgr.co.uk/news/savage-pre-morecambe-h-2526/",
-      "published": "2026-04-23T10:30:00Z"
     },
     {
       "club": "Hartlepool United",
@@ -1462,24 +1480,6 @@
       "title": "The Final Game | Home v AFC Telford United Saturday 12.30pm",
       "url": "https://southportfc.net/the-final-game-home-v-afc-telford-united-saturday-12-30pm/",
       "published": "2026-04-22T18:05:37Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "From grassroots beginnings to continued progression | Mason’s Story",
-      "url": "https://curzon-ashton.co.uk/from-grassroots-beginnings-to-continued-progression-masons-story/",
-      "published": "2026-04-22T17:47:15Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "A Message from Prabhu Srinivasan",
-      "url": "https://ytfc.net/2026/04/a-message-from-prabhu-srinivasan/",
-      "published": "2026-04-22T17:16:07Z"
     }
   ]
 }
