@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-24T08:38:54Z",
+  "generatedAt": "2026-04-24T10:18:13Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3727,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=b88aa2b8-0758-46f9-9ef8-6485c08fb63b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=1cc3f507-e773-42c4-a7da-4f2e41eb24eb",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,13 +582,85 @@
   ],
   "items": [
     {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Preview: Wealdstone (H)",
+      "url": "https://southendunited.co.uk/news/2026/april/24/preview--wealdstone--h-/",
+      "published": "2026-04-24T10:15:22Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Alty TV Interview | Lucas Weaver",
+      "url": "https://altrinchamfc.com/blogs/news/alty-tv-interview-lucas-weaver-1",
+      "published": "2026-04-24T10:10:56Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
       "domain": "altrinchamfc.com",
       "title": "Plenty of promise from Alty youngsters, but clinical visitors take the points",
       "url": "https://altrinchamfc.com/blogs/news/plenty-of-promise-from-alty-youngsters-but-clinical-visitors-take-the-points",
-      "published": "2026-04-24T08:30:35Z"
+      "published": "2026-04-24T10:10:21Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Ticketing Update: King’s Lynn Town (H)",
+      "url": "https://chesterfc.com/04/24/ticketing-update-kings-lynn-town-h/",
+      "published": "2026-04-24T10:08:11Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "MATCH PREVIEW: BRACKLEY TOWN (H)",
+      "url": "https://www.carlisleunited.co.uk/news/match-preview-brackley-town-h",
+      "published": "2026-04-24T09:50:00Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "DSSL Group Player of the Month: April 2026",
+      "url": "https://southendunited.co.uk/news/2026/april/24/dssl-group-player-of-the-month--april-2026/",
+      "published": "2026-04-24T09:44:04Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "SITTING DOWN WITH OSCAR WRIGHT",
+      "url": "https://www.morecambefc.com/news/2026/april/24/sitting-down-with-oscar-wright/",
+      "published": "2026-04-24T09:10:00Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Match Preview – Maidstone United (H) – Enterprise National League South",
+      "url": "https://www.bathcityfc.com/match-preview-maidstone-united-h-enterprise-national-league-south/",
+      "published": "2026-04-24T09:00:18Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "AHEAD OF THE GAME: FC Halifax Town (H)",
+      "url": "https://wokingfc.co.uk/04/24/ahead-of-the-game-fc-halifax-town-h/",
+      "published": "2026-04-24T08:41:24Z"
     },
     {
       "club": "Scunthorpe United",
@@ -625,15 +697,6 @@
       "title": "VOTE | Player and Goal of the Season Awards",
       "url": "https://herefordfc.co.uk/2026/04/vote-player-and-goal-of-the-season-awards/",
       "published": "2026-04-24T08:02:54Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Alty TV Interview | Lucas Weaver",
-      "url": "https://altrinchamfc.com/blogs/news/alty-tv-interview-lucas-weaver-1",
-      "published": "2026-04-24T08:01:41Z"
     },
     {
       "club": "Farnborough",
@@ -726,15 +789,6 @@
       "published": "2026-04-23T18:00:10Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Travel Info | The Play-offs",
-      "url": "https://www.fgr.co.uk/news/travel-info-the-play-offs-2526/",
-      "published": "2026-04-23T18:00:00Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -760,6 +814,15 @@
       "title": "UNITED TO HOST FANS' FORUM",
       "url": "https://www.carlisleunited.co.uk/news/united-host-fans-forum",
       "published": "2026-04-23T17:25:00Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "John Rooney previews Radcliffe visit",
+      "url": "https://macclesfieldfc.com/latest-news/john-rooney-previews-radcliffe-visit/",
+      "published": "2026-04-23T17:00:57Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1023,15 +1086,6 @@
       "published": "2026-04-23T11:50:21Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Doidge Interview",
-      "url": "https://www.fgr.co.uk/news/christian-doidge-pre-morecambe-interview/",
-      "published": "2026-04-23T11:30:00Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1120,15 +1174,6 @@
       "title": "Sponsorship packages available for Play-off eliminator",
       "url": "https://www.scunthorpe-united.co.uk/news/2026/april/sponsorship-packages-available-for-play-off-eliminator/",
       "published": "2026-04-23T10:30:27Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Savage Pre Morecambe",
-      "url": "https://www.fgr.co.uk/news/savage-pre-morecambe-h-2526/",
-      "published": "2026-04-23T10:30:00Z"
     },
     {
       "club": "Hartlepool United",
@@ -1347,6 +1392,15 @@
       "published": "2026-04-22T18:58:23Z"
     },
     {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SMETHURST & SILKMEN AWARDED FREEDOM OF TOWN",
+      "url": "https://macclesfieldfc.com/latest-news/smethurst-silkmen-awarded-freedom-of-town/",
+      "published": "2026-04-22T18:30:37Z"
+    },
+    {
       "club": "Southport",
       "code": "SPT",
       "short": "Southport",
@@ -1426,60 +1480,6 @@
       "title": "MATCH REPORT: MACCLESFIELD FC 2-1 SOUTHPORT FC",
       "url": "https://macclesfieldfc.com/latest-news/match-report-macclesfield-fc-2-1-southport-fc/",
       "published": "2026-04-22T15:00:14Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Final shortlisted nominees for Fan of the Year",
-      "url": "https://chelmsfordcityfc.com/news/final-shortlisted-nominees-for-fan-of-the-year/",
-      "published": "2026-04-22T15:00:00Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "2026/27 Early Bird Season Tickets",
-      "url": "https://farnboroughfc.co.uk/2026/04/2026-27-early-bird-season-tickets/",
-      "published": "2026-04-22T14:00:42Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Paint the Town Red",
-      "url": "https://worthingfc.com/2026/04/paint-the-town-red/",
-      "published": "2026-04-22T13:51:26Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "Carlos Dos Santos after Southport victory",
-      "url": "https://macclesfieldfc.com/latest-news/carlos-dos-santos-after-southport-victory/",
-      "published": "2026-04-22T13:45:57Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Join the Match Sponsorship Waiting List for 2026/2027",
-      "url": "https://wsmafc.co.uk/join-the-match-sponsorship-waiting-list-for-2026-2027/",
-      "published": "2026-04-22T13:31:40Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Dorking Wanderers Women U23s – League Champions For 25/26!",
-      "url": "https://dwfc.co.uk/2026/04/dorking-wanderers-women-u23s-league-champions-for-25-26/",
-      "published": "2026-04-22T13:29:53Z"
     }
   ]
 }
