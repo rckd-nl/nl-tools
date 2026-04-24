@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-24T21:10:07Z",
+  "generatedAt": "2026-04-24T22:10:17Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3729,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=f0556e9a-8c5a-489a-865a-cd23f8f0aa42",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=ef9cf0d3-dabd-4520-b849-ee25ef332589",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham Women Cup Final – Banner Competition",
+      "url": "https://www.horshamfc.co.uk/2026/04/24/horsham-women-cup-final-banner-competition/",
+      "published": "2026-04-24T21:39:27Z"
+    },
     {
       "club": "Torquay United",
       "code": "TOR",
@@ -1059,15 +1068,6 @@
       "published": "2026-04-24T11:00:09Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Info | Morecambe (H)",
-      "url": "https://www.fgr.co.uk/news/match-info-morecambe-h-2526/",
-      "published": "2026-04-24T11:00:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1183,15 +1183,6 @@
       "title": "Match Preview – Maidstone United (H) – Enterprise National League South",
       "url": "https://www.bathcityfc.com/match-preview-maidstone-united-h-enterprise-national-league-south/",
       "published": "2026-04-24T09:00:18Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Preview | Morecambe (H)",
-      "url": "https://www.fgr.co.uk/news/match-preview-morecambe-h-2526/",
-      "published": "2026-04-24T09:00:00Z"
     },
     {
       "club": "Woking",
@@ -1327,15 +1318,6 @@
       "title": "Farnborough to host PDL Play-Off clash",
       "url": "https://farnboroughfc.co.uk/2026/04/farnborough-to-host-pdl-play-off-clash/",
       "published": "2026-04-23T18:00:10Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Travel Info | The Play-offs",
-      "url": "https://www.fgr.co.uk/news/travel-info-the-play-offs-2526/",
-      "published": "2026-04-23T18:00:00Z"
     },
     {
       "club": "Maidstone United",
@@ -1480,6 +1462,24 @@
       "title": "National League Joins Forces with Utility Warehouse",
       "url": "https://herefordfc.co.uk/2026/04/national-league-joins-forces-with-utility-warehouse/",
       "published": "2026-04-23T14:49:02Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Andrews Recalled by Magpies",
+      "url": "https://etfc.london/andrews-recalled-by-magpies/",
+      "published": "2026-04-23T14:47:55Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Watch: Richard Hill Previews Scunthorpe United (A)",
+      "url": "https://eastleighfc.com/2026/04/watch-richard-hill-previews-scunthorpe-united-a/",
+      "published": "2026-04-23T14:24:55Z"
     }
   ]
 }
