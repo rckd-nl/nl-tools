@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-24T10:18:13Z",
+  "generatedAt": "2026-04-24T11:37:04Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3728,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=1cc3f507-e773-42c4-a7da-4f2e41eb24eb",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=2ed888d8-d184-4f62-81a7-2520292b8ea8",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,51 @@
   ],
   "items": [
     {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Brooke and Charlie Receive Devonte Aransibia Award",
+      "url": "https://tonbridgeangels.co.uk/brooke-and-charlie-receive-devonte-aransibia-award/",
+      "published": "2026-04-24T11:35:57Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Statistical Preview: Eastleigh (H)",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/statistical-preview-eastleigh-h/",
+      "published": "2026-04-24T11:00:25Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Matchday Guide: King’s Lynn Town (H)",
+      "url": "https://chesterfc.com/04/24/matchday-guide-kings-lynn-town-h/",
+      "published": "2026-04-24T11:00:09Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Join the Matchday Experience Waiting List for 2026/2027",
+      "url": "https://wsmafc.co.uk/join-the-matchday-experience-waiting-list-for-2026-2027/",
+      "published": "2026-04-24T10:52:27Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "The Final Farewell",
+      "url": "https://etfc.london/the-final-farewell/",
+      "published": "2026-04-24T10:33:48Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -654,6 +699,15 @@
       "published": "2026-04-24T09:00:18Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Preview | Morecambe (H)",
+      "url": "https://www.fgr.co.uk/news/match-preview-morecambe-h-2526/",
+      "published": "2026-04-24T09:00:00Z"
+    },
+    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -697,6 +751,15 @@
       "title": "VOTE | Player and Goal of the Season Awards",
       "url": "https://herefordfc.co.uk/2026/04/vote-player-and-goal-of-the-season-awards/",
       "published": "2026-04-24T08:02:54Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "BLUES LOTTO: Daily winners",
+      "url": "https://www.carlisleunited.co.uk/news/2024/june/blues-lotto-daily-winners",
+      "published": "2026-04-24T08:02:00Z"
     },
     {
       "club": "Farnborough",
@@ -787,6 +850,15 @@
       "title": "Farnborough to host PDL Play-Off clash",
       "url": "https://farnboroughfc.co.uk/2026/04/farnborough-to-host-pdl-play-off-clash/",
       "published": "2026-04-23T18:00:10Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Travel Info | The Play-offs",
+      "url": "https://www.fgr.co.uk/news/travel-info-the-play-offs-2526/",
+      "published": "2026-04-23T18:00:00Z"
     },
     {
       "club": "Maidstone United",
@@ -1068,15 +1140,6 @@
       "published": "2026-04-23T11:51:58Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "The heart of the game: Utility Warehouse and the National League kick-off landmark partnership to champion 72 Clubs and their communities",
-      "url": "https://daggers.co.uk/the-heart-of-the-game-utility-warehouse-and-the-national-league-kick-off-landmark-partnership-to-champion-72-clubs-and-their-communities/",
-      "published": "2026-04-23T11:51:24Z"
-    },
-    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1084,6 +1147,15 @@
       "title": "It's time to choose your Goal of the Season",
       "url": "https://altrinchamfc.com/blogs/news/altrincham-fc-goal-of-the-season-candidates-2025-26",
       "published": "2026-04-23T11:50:21Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Doidge Interview",
+      "url": "https://www.fgr.co.uk/news/christian-doidge-pre-morecambe-interview/",
+      "published": "2026-04-23T11:30:00Z"
     },
     {
       "club": "Yeovil Town",
@@ -1176,6 +1248,15 @@
       "published": "2026-04-23T10:30:27Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Savage Pre Morecambe",
+      "url": "https://www.fgr.co.uk/news/savage-pre-morecambe-h-2526/",
+      "published": "2026-04-23T10:30:00Z"
+    },
+    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -1210,15 +1291,6 @@
       "title": "Family Season Tickets Available Again In 26/27",
       "url": "https://spennymoortownfc.co.uk/2026/04/23/family-season-tickets-available-again-in-26-27/",
       "published": "2026-04-23T09:53:14Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "DAZN to Stream Every Final-Day National League Match Live",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/dazn-to-stream-every-final-day-national-league-match-live/",
-      "published": "2026-04-23T09:39:25Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1273,24 +1345,6 @@
       "title": "Matchday Guide: Marine",
       "url": "https://spennymoortownfc.co.uk/2026/04/23/matchday-guide-marine-3/",
       "published": "2026-04-23T08:49:36Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Watch Slough Town game live in the Big Hall or on DAZN",
-      "url": "https://daggers.co.uk/watch-slough-town-game-live-in-the-daggers-bar-or-on-dazn/",
-      "published": "2026-04-23T08:39:30Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Club Shop Open this Afternoon",
-      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-45/",
-      "published": "2026-04-23T08:24:53Z"
     },
     {
       "club": "Hartlepool United",
@@ -1426,60 +1480,6 @@
       "title": "A Message from Prabhu Srinivasan",
       "url": "https://ytfc.net/2026/04/a-message-from-prabhu-srinivasan/",
       "published": "2026-04-22T17:16:07Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "CTFC Academy win League Title",
-      "url": "https://chippenhamtown.com/04/22/ctfc-academy-win-league-title/",
-      "published": "2026-04-22T17:00:49Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SILKMEN FAN CAM: SOUTHPORT (H)",
-      "url": "https://macclesfieldfc.com/galleries/silkmen-fan-cam-southport-h/",
-      "published": "2026-04-22T17:00:08Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Ticket Details: Aldershot Town (a)",
-      "url": "https://trurocity.co.uk/2026/04/ticket-details-aldershot-town-a/",
-      "published": "2026-04-22T16:27:58Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Tickets: Wealdstone (H)",
-      "url": "https://southendunited.co.uk/news/2026/april/22/tickets--wealdstone--h-/",
-      "published": "2026-04-22T15:43:28Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Inside Horsham FC – Chapter 8: Go Figure",
-      "url": "https://www.horshamfc.co.uk/2026/04/22/inside-horsham-fc-chapter-8-go-figure/",
-      "published": "2026-04-22T15:03:49Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MATCH REPORT: MACCLESFIELD FC 2-1 SOUTHPORT FC",
-      "url": "https://macclesfieldfc.com/latest-news/match-report-macclesfield-fc-2-1-southport-fc/",
-      "published": "2026-04-22T15:00:14Z"
     }
   ]
 }
