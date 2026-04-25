@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-25T22:12:24Z",
+  "generatedAt": "2026-04-25T23:02:03Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=92981786-9abb-43dc-9359-d525fa031fda",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=d45039a8-4da4-46ac-97f8-e5668254d19e",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Match Report: Yeovil Town 1-4 Solihull Moors",
+      "url": "https://ytfc.net/2026/04/match-report-solihull-moors/",
+      "published": "2026-04-25T22:56:19Z"
+    },
     {
       "club": "Woking",
       "code": "WOK",
@@ -661,15 +670,6 @@
       "title": "DYLAN MORGAN | TONBRIDGE ANGELS (A) | POST-MATCH",
       "url": "https://torquayunited.com/dylan-morgan-tonbridge-angels-a-post-match/",
       "published": "2026-04-25T18:45:16Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham v Chippenham Town – match report",
-      "url": "https://www.horshamfc.co.uk/2026/04/25/horsham-v-chippenham-town-match-report/",
-      "published": "2026-04-25T18:27:23Z"
     },
     {
       "club": "Altrincham",
@@ -1203,15 +1203,6 @@
       "published": "2026-04-24T23:16:38Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham Women Cup Final – Banner Competition",
-      "url": "https://www.horshamfc.co.uk/2026/04/24/horsham-women-cup-final-banner-competition/",
-      "published": "2026-04-24T21:39:27Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1480,6 +1471,15 @@
       "title": "Key info: Bath City",
       "url": "https://maidstoneunited.co.uk/04/24/key-info-bath-city-2/",
       "published": "2026-04-24T14:00:46Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "A Joint Statement From Dale & York City",
+      "url": "https://rochdaleafc.co.uk/joint-statement-rochdale-york-city-240426/",
+      "published": "2026-04-24T13:58:35Z"
     }
   ]
 }
