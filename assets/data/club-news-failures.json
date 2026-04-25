@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-25T03:35:33Z",
+  "generatedAt": "2026-04-25T05:34:56Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -93,7 +93,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=cf95638a-0627-4cc0-a99d-fd886ece93d2",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=e4fa26cf-de03-4c62-b6b8-ad42a8d80360",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -168,7 +168,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "SSLError: HTTPSConnectionPool(host='worksoptownfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))"
+      "error": "HTTP 403"
     },
     {
       "club": "AFC Totton",
@@ -177,6 +177,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Dover Athletic",
+      "domain": "doverathletic.com",
+      "feed": "https://doverathletic.com/feed/",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Eastbourne Borough",
@@ -209,6 +217,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",

@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-25T03:35:33Z",
+  "generatedAt": "2026-04-25T05:34:56Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=cf95638a-0627-4cc0-a99d-fd886ece93d2",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=e4fa26cf-de03-4c62-b6b8-ad42a8d80360",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "SSLError: HTTPSConnectionPool(host='worksoptownfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))"
+      "error": "HTTP 403"
     },
     {
       "club": "AFC Totton",
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
+      "feed": "https://daggers.co.uk/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -446,10 +446,10 @@
     {
       "club": "Dover Athletic",
       "domain": "doverathletic.com",
-      "feed": "https://doverathletic.com/news/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "https://doverathletic.com/feed/",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Eastbourne Borough",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -598,15 +598,6 @@
       "title": "Preview: Scunthorpe United v Eastleigh",
       "url": "https://eastleighfc.com/2026/04/preview-scunthorpe-united-v-eastleigh/",
       "published": "2026-04-24T23:16:38Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham Women Cup Final – Banner Competition",
-      "url": "https://www.horshamfc.co.uk/2026/04/24/horsham-women-cup-final-banner-competition/",
-      "published": "2026-04-24T21:39:27Z"
     },
     {
       "club": "Torquay United",
@@ -1111,6 +1102,15 @@
       "title": "The Final Farewell",
       "url": "https://etfc.london/the-final-farewell/",
       "published": "2026-04-24T10:33:48Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Preview: Slough Town (A)",
+      "url": "https://daggers.co.uk/match-preview-slough-town-a/",
+      "published": "2026-04-24T10:21:26Z"
     },
     {
       "club": "Southend United",
