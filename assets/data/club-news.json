@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-25T21:24:15Z",
+  "generatedAt": "2026-04-25T22:12:24Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3731,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=65691449-74ec-4258-9de6-2d962b5ecebb",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=92981786-9abb-43dc-9359-d525fa031fda",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Match Gallery: Woking 0-1 Halifax",
+      "url": "https://wokingfc.co.uk/04/25/match-gallery-woking-0-1-halifax/",
+      "published": "2026-04-25T21:55:44Z"
+    },
+    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -715,15 +724,6 @@
       "title": "Gallery: WsM AFC 1 – 1 Dorking Wanderers",
       "url": "https://wsmafc.co.uk/gallery-wsm-afc-1-1-dorking-wanderers/",
       "published": "2026-04-25T17:15:20Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | FGR 5-0 Morecambe",
-      "url": "https://www.fgr.co.uk/news/match-report-morecambe-2526-h/",
-      "published": "2026-04-25T17:00:00Z"
     },
     {
       "club": "Southend United",
@@ -1021,15 +1021,6 @@
       "title": "Report: Chester 0-0 King’s Lynn Town",
       "url": "https://chesterfc.com/04/25/report-chester-0-0-kings-lynn-town/",
       "published": "2026-04-25T14:34:32Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Play-off Eliminator | Ticket & Travel Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/play-off-eliminator-ticket-&-travel-2526-boreham-wood/",
-      "published": "2026-04-25T14:30:00Z"
     },
     {
       "club": "Altrincham",
@@ -1480,6 +1471,15 @@
       "title": "MATCHDAY GUIDE: BRACKLEY TOWN (H)",
       "url": "https://www.carlisleunited.co.uk/news/matchday-guide-brackley-town-h",
       "published": "2026-04-24T14:15:00Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Bath City",
+      "url": "https://maidstoneunited.co.uk/04/24/key-info-bath-city-2/",
+      "published": "2026-04-24T14:00:46Z"
     }
   ]
 }
