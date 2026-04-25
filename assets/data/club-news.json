@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-24T23:58:58Z",
+  "generatedAt": "2026-04-25T03:35:33Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=f34faf8a-6bbf-4360-93d8-8103b338a31f",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=cf95638a-0627-4cc0-a99d-fd886ece93d2",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "SSLError: HTTPSConnectionPool(host='worksoptownfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))"
     },
     {
       "club": "AFC Totton",
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
+      "feed": "https://daggers.co.uk/news/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -1113,15 +1113,6 @@
       "published": "2026-04-24T10:33:48Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Match Preview: Slough Town (A)",
-      "url": "https://daggers.co.uk/match-preview-slough-town-a/",
-      "published": "2026-04-24T10:21:26Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1480,6 +1471,15 @@
       "title": "Salisbury look to secure second double victory of the season against Hemel",
       "url": "https://salisburyfc.co.uk/2026/04/23/salisbury-look-to-secure-second-double-victory-of-the-season-against-hemel/",
       "published": "2026-04-23T15:00:18Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "25-26 award presentations",
+      "url": "https://harriers.co.uk/news/2026/04/23/25-26-award-presentations/",
+      "published": "2026-04-23T14:54:04Z"
     }
   ]
 }
