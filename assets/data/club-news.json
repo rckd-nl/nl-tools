@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-25T05:34:56Z",
+  "generatedAt": "2026-04-25T07:00:22Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=e4fa26cf-de03-4c62-b6b8-ad42a8d80360",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=65fbd419-f3d5-4362-81e2-f8abf2ac1ece",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
+      "feed": "https://daggers.co.uk/news/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "MATCHDAY 12.30 KICK OFF",
+      "url": "https://southportfc.net/matchday-12-30-kick-off/",
+      "published": "2026-04-25T06:15:42Z"
+    },
+    {
       "club": "Scunthorpe United",
       "code": "SCU",
       "short": "Scunthorpe",
@@ -598,6 +607,15 @@
       "title": "Preview: Scunthorpe United v Eastleigh",
       "url": "https://eastleighfc.com/2026/04/preview-scunthorpe-united-v-eastleigh/",
       "published": "2026-04-24T23:16:38Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham Women Cup Final – Banner Competition",
+      "url": "https://www.horshamfc.co.uk/2026/04/24/horsham-women-cup-final-banner-competition/",
+      "published": "2026-04-24T21:39:27Z"
     },
     {
       "club": "Torquay United",
@@ -1104,15 +1122,6 @@
       "published": "2026-04-24T10:33:48Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Match Preview: Slough Town (A)",
-      "url": "https://daggers.co.uk/match-preview-slough-town-a/",
-      "published": "2026-04-24T10:21:26Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1471,15 +1480,6 @@
       "title": "Salisbury look to secure second double victory of the season against Hemel",
       "url": "https://salisburyfc.co.uk/2026/04/23/salisbury-look-to-secure-second-double-victory-of-the-season-against-hemel/",
       "published": "2026-04-23T15:00:18Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "25-26 award presentations",
-      "url": "https://harriers.co.uk/news/2026/04/23/25-26-award-presentations/",
-      "published": "2026-04-23T14:54:04Z"
     }
   ]
 }
