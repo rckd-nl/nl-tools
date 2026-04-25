@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-25T11:57:36Z",
+  "generatedAt": "2026-04-25T13:46:20Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3729,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='fgr.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=e4d5591c-5c1c-4b3c-b440-daac998e12f2",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=4bdae130-d96c-4d1b-9cd8-a4a48741f0a1",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "SSLError: HTTPSConnectionPool(host='worksoptownfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))"
     },
     {
       "club": "AFC Totton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,12 +582,57 @@
   ],
   "items": [
     {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Report: Southend United 2-1 Wealdstone",
+      "url": "https://southendunited.co.uk/news/2026/april/25/report--southend-united-2-1-wealdstone/",
+      "published": "2026-04-25T13:33:17Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Angels 1-2 Torquay United",
+      "url": "https://tonbridgeangels.co.uk/angels-1-2-torquay-united/",
+      "published": "2026-04-25T13:31:19Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Jake Hyde Retires",
+      "url": "https://wokingfc.co.uk/04/25/jake-hyde-retires/",
+      "published": "2026-04-25T13:29:41Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "WINNERS HOUR NOW LIVE!",
+      "url": "https://www.carlisleunited.co.uk/news/winners-hour-now-live-6",
+      "published": "2026-04-25T13:20:00Z"
+    },
+    {
       "club": "Carlisle United",
       "code": "CAR",
       "short": "Carlisle",
       "domain": "carlisleunited.co.uk",
       "title": "TEAM NEWS: BRACKLEY TOWN (H)",
       "url": "https://www.carlisleunited.co.uk/news/team-news-brackley-town-h",
+      "published": "2026-04-25T10:30:00Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Team News: Eastleigh (H)",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/team-news-eastleigh-h-2/",
       "published": "2026-04-25T10:30:00Z"
     },
     {
@@ -663,15 +708,6 @@
       "published": "2026-04-25T06:15:42Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Matchday: Eastleigh (H)",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/matchday-eastleigh-h/",
-      "published": "2026-04-24T23:20:18Z"
-    },
-    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -679,6 +715,15 @@
       "title": "Preview: Scunthorpe United v Eastleigh",
       "url": "https://eastleighfc.com/2026/04/preview-scunthorpe-united-v-eastleigh/",
       "published": "2026-04-24T23:16:38Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham Women Cup Final – Banner Competition",
+      "url": "https://www.horshamfc.co.uk/2026/04/24/horsham-women-cup-final-banner-competition/",
+      "published": "2026-04-24T21:39:27Z"
     },
     {
       "club": "Torquay United",
@@ -1122,15 +1167,6 @@
       "published": "2026-04-24T11:00:09Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Info | Morecambe (H)",
-      "url": "https://www.fgr.co.uk/news/match-info-morecambe-h-2526/",
-      "published": "2026-04-24T11:00:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1246,15 +1282,6 @@
       "title": "Match Preview – Maidstone United (H) – Enterprise National League South",
       "url": "https://www.bathcityfc.com/match-preview-maidstone-united-h-enterprise-national-league-south/",
       "published": "2026-04-24T09:00:18Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Preview | Morecambe (H)",
-      "url": "https://www.fgr.co.uk/news/match-preview-morecambe-h-2526/",
-      "published": "2026-04-24T09:00:00Z"
     },
     {
       "club": "Woking",
@@ -1392,15 +1419,6 @@
       "published": "2026-04-23T18:00:10Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Travel Info | The Play-offs",
-      "url": "https://www.fgr.co.uk/news/travel-info-the-play-offs-2526/",
-      "published": "2026-04-23T18:00:00Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1462,24 +1480,6 @@
       "title": "U19s Match Report: Yeovil Town 5-0 AFC Portchester",
       "url": "https://ytfc.net/2026/04/u19s-match-report-yeovil-town-5-0-afc-portchester/",
       "published": "2026-04-23T16:32:45Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Matchday Guide – Ebbsfleet United",
-      "url": "https://worthingfc.com/2026/04/matchday-guide-ebbsfleet-united/",
-      "published": "2026-04-23T15:53:34Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "York City Ladies Development Team | League match preview | 23/04/26",
-      "url": "https://yorkcityfootballclub.co.uk/york-city-ladies-development-team-league-match-preview-23-04-26/",
-      "published": "2026-04-23T15:45:34Z"
     }
   ]
 }
