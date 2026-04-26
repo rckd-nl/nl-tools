@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-26T12:03:01Z",
+  "generatedAt": "2026-04-26T13:46:55Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=8726adbf-9b52-4ae5-9277-4e495d96278a",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=3ebe692e-5f6a-497d-83c0-e62dd4fad994",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "SSLError: HTTPSConnectionPool(host='worksoptownfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))"
+      "error": "HTTP 403"
     },
     {
       "club": "AFC Totton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Report: Seagulls secure playoff berth with Dorking draw",
+      "url": "https://wsmafc.co.uk/report-seagulls-secure-playoff-berth-with-dorking-draw/",
+      "published": "2026-04-26T13:35:12Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "End Of An Era",
+      "url": "https://etfc.london/end-of-an-era/",
+      "published": "2026-04-26T12:52:43Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Update: Macclesfield (A)",
+      "url": "https://chesterfc.com/04/26/update-macclesfield-a/",
+      "published": "2026-04-26T12:06:04Z"
+    },
+    {
       "club": "Marine",
       "code": "MAR",
       "short": "Marine",
@@ -598,6 +625,24 @@
       "title": "Highlight: Bath City",
       "url": "https://maidstoneunited.co.uk/04/26/highlight-bath-city/",
       "published": "2026-04-26T11:34:31Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Reaction | Adam Barton | Alfreton Town",
+      "url": "https://curzon-ashton.co.uk/reaction-adam-barton-alfreton-town-2/",
+      "published": "2026-04-26T10:00:49Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Gallery | Alfreton Town (A)",
+      "url": "https://curzon-ashton.co.uk/gallery-alfreton-town-a/",
+      "published": "2026-04-26T09:00:05Z"
     },
     {
       "club": "Tonbridge Angels",
@@ -631,7 +676,7 @@
       "code": "TOR",
       "short": "Torquay",
       "domain": "torquayunited.com",
-      "title": "Play-Off Tickets Selling FAST!",
+      "title": "Play-Off Tickets Update | General Sale SOLD OUT",
       "url": "https://torquayunited.com/play-off-tickets-selling-fast/",
       "published": "2026-04-26T07:49:00Z"
     },
@@ -778,15 +823,6 @@
       "title": "DYLAN MORGAN | TONBRIDGE ANGELS (A) | POST-MATCH",
       "url": "https://torquayunited.com/dylan-morgan-tonbridge-angels-a-post-match/",
       "published": "2026-04-25T18:45:16Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham v Chippenham Town – match report",
-      "url": "https://www.horshamfc.co.uk/2026/04/25/horsham-v-chippenham-town-match-report/",
-      "published": "2026-04-25T18:27:23Z"
     },
     {
       "club": "Altrincham",
@@ -1338,15 +1374,6 @@
       "published": "2026-04-24T23:16:38Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham Women Cup Final – Banner Competition",
-      "url": "https://www.horshamfc.co.uk/2026/04/24/horsham-women-cup-final-banner-competition/",
-      "published": "2026-04-24T21:39:27Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1453,33 +1480,6 @@
       "title": "Match Preview | Macclesfield (H)",
       "url": "https://radcliffefc.com/match-preview-macclesfield-h/",
       "published": "2026-04-24T16:28:57Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "BULLSCAST | One More Win to Save our Skin EP.23",
-      "url": "https://herefordfc.co.uk/2026/04/bullscast-one-more-win-to-save-our-skin-ep-23/",
-      "published": "2026-04-24T16:27:19Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Preview: King’s Lynn Town (H)",
-      "url": "https://chesterfc.com/04/24/preview-kings-lynn-town-h/",
-      "published": "2026-04-24T16:22:51Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "26/27 away kit available in club store",
-      "url": "https://chelmsfordcityfc.com/news/26-27-away-kit-available-in-club-store/",
-      "published": "2026-04-24T16:00:00Z"
     }
   ]
 }
