@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-26T09:17:50Z",
+  "generatedAt": "2026-04-26T10:15:46Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=02e11be5-fe49-45e2-8d32-9496b7327b1e",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=f7843404-b7dd-49bd-85a5-f4105fdeac32",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 502"
+      "error": "HTTP 403"
     },
     {
       "club": "AFC Totton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -931,6 +931,15 @@
       "title": "Jimmy McNulty Following York Game",
       "url": "https://rochdaleafc.co.uk/jimmy-mcnulty-following-york-game/",
       "published": "2026-04-25T15:35:41Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Report: Slough Town 3-2 Daggers",
+      "url": "https://daggers.co.uk/match-report-slough-town-3-2-daggers/",
+      "published": "2026-04-25T15:31:45Z"
     },
     {
       "club": "Kidderminster Harriers",
@@ -1471,15 +1480,6 @@
       "title": "End of Season Awards to be presented on the pitch after Maidstone match",
       "url": "https://www.bathcityfc.com/end-of-season-awards-to-be-presented-on-the-pitch-after-maidstone-match/",
       "published": "2026-04-24T15:51:29Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Match Preview: Worthing FC vs Ebbsfleet United",
-      "url": "https://worthingfc.com/2026/04/match-preview-worthing-fc-vs-ebbsfleet-united/",
-      "published": "2026-04-24T15:46:13Z"
     }
   ]
 }
