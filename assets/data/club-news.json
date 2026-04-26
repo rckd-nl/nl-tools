@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-26T17:28:22Z",
+  "generatedAt": "2026-04-26T18:33:18Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3731,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=c74b16d4-a695-4f0a-b62c-52f35b3ed902",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=e6843c71-7a67-4f5f-bbde-beb2e88ff42a",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "City bounce back from big defeat to earn Whitchurch draw",
+      "url": "https://www.bathcityfc.com/city-bounce-back-from-big-defeat-to-earn-whitchurch-draw/",
+      "published": "2026-04-26T18:19:40Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Matchday programme: Iron v Southend United - order online now!",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/matchday-programme-iron-v-southend-united-order-online-now-2/",
+      "published": "2026-04-26T17:27:49Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -670,15 +688,6 @@
       "title": "Gallery: Eastleigh (A) - Steve Hope",
       "url": "https://www.scunthorpe-united.co.uk/news/2026/april/gallery-eastleigh-a-steve-hope/",
       "published": "2026-04-26T14:50:53Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "VIDEO: Harry Shipstone reflects on league debut",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/video-harry-shipstone-reflects-on-league-debut/",
-      "published": "2026-04-26T14:30:04Z"
     },
     {
       "club": "Hereford",
@@ -1032,15 +1041,6 @@
       "published": "2026-04-25T17:15:20Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | FGR 5-0 Morecambe",
-      "url": "https://www.fgr.co.uk/news/match-report-morecambe-2526-h/",
-      "published": "2026-04-25T17:00:00Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1347,15 +1347,6 @@
       "published": "2026-04-25T14:34:32Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Play-off Eliminator | Ticket & Travel Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/play-off-eliminator-ticket-&-travel-2526-boreham-wood/",
-      "published": "2026-04-25T14:30:00Z"
-    },
-    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1480,6 +1471,15 @@
       "title": "Saturday’s Match Sponsor: EBC Group",
       "url": "https://harriers.co.uk/news/2026/04/25/saturdays-match-sponsor-ebc-group/",
       "published": "2026-04-25T09:00:33Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Commentary available for today’s match with Dorking Wanderers",
+      "url": "https://wsmafc.co.uk/commentary-available-for-todays-match-with-dorking-wanderers/",
+      "published": "2026-04-25T08:00:06Z"
     }
   ]
 }
