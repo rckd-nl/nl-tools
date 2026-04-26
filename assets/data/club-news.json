@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-26T13:46:55Z",
+  "generatedAt": "2026-04-26T14:33:19Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3731,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=3ebe692e-5f6a-497d-83c0-e62dd4fad994",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=e38e08f4-be4b-4c4d-8e0d-705bc5a40460",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,42 @@
     }
   ],
   "items": [
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "GALLERY Hereford FC 2-2 Peterborough Sports",
+      "url": "https://herefordfc.co.uk/2026/04/gallery-hereford-fc-2-2-peterborough-sports/",
+      "published": "2026-04-26T14:07:41Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Watch: Chester 0-0 King’s Lynn Town",
+      "url": "https://chesterfc.com/04/26/watch-chester-0-0-kings-lynn-town/",
+      "published": "2026-04-26T14:05:21Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Statement | Board of Directors",
+      "url": "https://curzon-ashton.co.uk/statement-board-of-directors/",
+      "published": "2026-04-26T13:50:15Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "Jamie Walker after Radcliffe defeat",
+      "url": "https://macclesfieldfc.com/latest-news/jamie-walker-after-radcliffe-defeat/",
+      "published": "2026-04-26T13:45:28Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -825,6 +861,15 @@
       "published": "2026-04-25T18:45:16Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham v Chippenham Town – match report",
+      "url": "https://www.horshamfc.co.uk/2026/04/25/horsham-v-chippenham-town-match-report/",
+      "published": "2026-04-25T18:27:23Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -877,15 +922,6 @@
       "title": "Gallery: WsM AFC 1 – 1 Dorking Wanderers",
       "url": "https://wsmafc.co.uk/gallery-wsm-afc-1-1-dorking-wanderers/",
       "published": "2026-04-25T17:15:20Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | FGR 5-0 Morecambe",
-      "url": "https://www.fgr.co.uk/news/match-report-morecambe-2526-h/",
-      "published": "2026-04-25T17:00:00Z"
     },
     {
       "club": "Southend United",
@@ -994,15 +1030,6 @@
       "title": "Jimmy McNulty Following York Game",
       "url": "https://rochdaleafc.co.uk/jimmy-mcnulty-following-york-game/",
       "published": "2026-04-25T15:35:41Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Match Report: Slough Town 3-2 Daggers",
-      "url": "https://daggers.co.uk/match-report-slough-town-3-2-daggers/",
-      "published": "2026-04-25T15:31:45Z"
     },
     {
       "club": "Kidderminster Harriers",
@@ -1194,15 +1221,6 @@
       "published": "2026-04-25T14:34:32Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Play-off Eliminator | Ticket & Travel Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/play-off-eliminator-ticket-&-travel-2526-boreham-wood/",
-      "published": "2026-04-25T14:30:00Z"
-    },
-    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1374,6 +1392,15 @@
       "published": "2026-04-24T23:16:38Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham Women Cup Final – Banner Competition",
+      "url": "https://www.horshamfc.co.uk/2026/04/24/horsham-women-cup-final-banner-competition/",
+      "published": "2026-04-24T21:39:27Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1453,33 +1480,6 @@
       "title": "Truro City Lottery – Weekly Winners 24/04/26",
       "url": "https://trurocity.co.uk/2026/04/truro-city-lottery-weekly-winners-24-04-26/",
       "published": "2026-04-24T17:13:49Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "AWAY DAY BLUES: RADCLIFFE",
-      "url": "https://macclesfieldfc.com/latest-news/away-day-blues-radcliffe/",
-      "published": "2026-04-24T17:00:31Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "INTERVIEW | Downes Previews Peterborough Finale",
-      "url": "https://herefordfc.co.uk/2026/04/interview-downes-previews-peterborough-finale/",
-      "published": "2026-04-24T16:31:09Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Match Preview | Macclesfield (H)",
-      "url": "https://radcliffefc.com/match-preview-macclesfield-h/",
-      "published": "2026-04-24T16:28:57Z"
     }
   ]
 }
