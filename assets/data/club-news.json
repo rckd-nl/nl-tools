@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-26T20:24:54Z",
+  "generatedAt": "2026-04-26T21:25:07Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=0d8b9f8b-61be-46b2-92bd-f9ec9a864b98",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=77f9a768-5a18-4d90-8c97-15d7d42beb0a",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Match Highlights Southport v AFC Telford United",
+      "url": "https://southportfc.net/match-highlights-southport-v-afc-telford-united/",
+      "published": "2026-04-26T20:36:56Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Loan Watch: Bak bags in Paulton playoff semi-final, Hicks & Jenkins end season",
+      "url": "https://wsmafc.co.uk/loan-watch-sat-25th-april-2026/",
+      "published": "2026-04-26T20:30:04Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -607,6 +625,15 @@
       "title": "The Seagulls visit The Tudors in National League South play-off eliminator",
       "url": "https://wsmafc.co.uk/the-seagulls-visit-the-tudors-in-national-league-south-play-off-eliminator/",
       "published": "2026-04-26T19:00:40Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "MATCH REPORT: RADCLIFFE FC 1-0 MACCLESFIELD FC",
+      "url": "https://macclesfieldfc.com/latest-news/match-report-radcliffe-fc-1-0-macclesfield-fc/",
+      "published": "2026-04-26T19:00:30Z"
     },
     {
       "club": "Torquay United",
@@ -1203,6 +1230,15 @@
       "published": "2026-04-25T15:35:41Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Report: Slough Town 3-2 Daggers",
+      "url": "https://daggers.co.uk/match-report-slough-town-3-2-daggers/",
+      "published": "2026-04-25T15:31:45Z"
+    },
+    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -1444,42 +1480,6 @@
       "title": "CHESTER CONFIRMED AS PLAY-OFF OPPONENTS",
       "url": "https://macclesfieldfc.com/latest-news/chester-confirmed-as-play-off-opponents/",
       "published": "2026-04-25T14:00:34Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Report: Scunthorpe United 0-1 Eastleigh",
-      "url": "https://eastleighfc.com/2026/04/report-scunthorpe-0-1-eastleigh/",
-      "published": "2026-04-25T13:50:09Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Report: Southend United 2-1 Wealdstone",
-      "url": "https://southendunited.co.uk/news/2026/april/25/report--southend-united-2-1-wealdstone/",
-      "published": "2026-04-25T13:33:17Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Jake Hyde Retires",
-      "url": "https://wokingfc.co.uk/04/25/jake-hyde-retires/",
-      "published": "2026-04-25T13:29:41Z"
-    },
-    {
-      "club": "Morecambe",
-      "code": "MOR",
-      "short": "Morecambe",
-      "domain": "morecambefc.com",
-      "title": "MATCH REPORT: FOREST GREEN ROVERS 5 - 0 MORECAMBE",
-      "url": "https://www.morecambefc.com/news/2026/april/25/match-report--forest-green-rovers-5---0-morecambe/",
-      "published": "2026-04-25T13:26:35Z"
     }
   ]
 }
