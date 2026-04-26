@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-25T23:56:59Z",
+  "generatedAt": "2026-04-26T03:58:37Z",
   "maxItems": 100,
   "sources": [
     {
@@ -110,10 +110,10 @@
     {
       "club": "Rochdale",
       "domain": "rochdaleafc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
+      "feed": "https://rochdaleafc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Scunthorpe United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=f35b6d6b-2dcb-4a4a-a1d0-e81243678b57",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=4acc5ed1-6ecb-4144-baed-7e4414d4f644",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -310,10 +310,10 @@
     {
       "club": "Marine",
       "domain": "marinefc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
+      "feed": "https://marinefc.com/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Merthyr Town",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -446,7 +446,7 @@
     {
       "club": "Dover Athletic",
       "domain": "doverathletic.com",
-      "feed": "",
+      "feed": "https://doverathletic.com/feed/",
       "ok": false,
       "count": 0,
       "error": "HTTP 403"
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -861,13 +861,13 @@
       "published": "2026-04-25T15:40:48Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Match Report: Slough Town 3-2 Daggers",
-      "url": "https://daggers.co.uk/match-report-slough-town-3-2-daggers/",
-      "published": "2026-04-25T15:31:45Z"
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Jimmy McNulty Following York Game",
+      "url": "https://rochdaleafc.co.uk/jimmy-mcnulty-following-york-game/",
+      "published": "2026-04-25T15:35:41Z"
     },
     {
       "club": "Kidderminster Harriers",
@@ -1075,6 +1075,15 @@
       "title": "What a way to sign off as Alty seal win with last kick of the campaign!",
       "url": "https://altrinchamfc.com/blogs/news/gateshead-matchday-46",
       "published": "2026-04-25T14:27:36Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Dale Heartbroken Late On",
+      "url": "https://rochdaleafc.co.uk/report-york-city-home-250426/",
+      "published": "2026-04-25T14:04:41Z"
     },
     {
       "club": "Woking",
@@ -1471,15 +1480,6 @@
       "title": "New Club Shop Bundles",
       "url": "https://harriers.co.uk/news/2026/04/24/new-club-shop-bundles/",
       "published": "2026-04-24T15:06:59Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Match Preview: Horsham vs Chippenham Town",
-      "url": "https://chippenhamtown.com/04/24/match-preview-horsham-vs-chippenham-town/",
-      "published": "2026-04-24T15:00:00Z"
     }
   ]
 }

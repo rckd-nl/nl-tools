@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-25T23:56:59Z",
+  "generatedAt": "2026-04-26T03:58:37Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -33,14 +33,6 @@
       "ok": false,
       "count": 0,
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
-    },
-    {
-      "club": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
     },
     {
       "club": "Solihull Moors",
@@ -101,7 +93,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=f35b6d6b-2dcb-4a4a-a1d0-e81243678b57",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=4acc5ed1-6ecb-4144-baed-7e4414d4f644",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -129,14 +121,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Marine",
-      "domain": "marinefc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
     },
     {
       "club": "Merthyr Town",
@@ -195,9 +179,17 @@
       "error": "HTTP 404"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "domain": "daggers.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
+    },
+    {
       "club": "Dover Athletic",
       "domain": "doverathletic.com",
-      "feed": "",
+      "feed": "https://doverathletic.com/feed/",
       "ok": false,
       "count": 0,
       "error": "HTTP 403"
@@ -240,7 +232,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Slough Town",
