@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-26T14:33:19Z",
+  "generatedAt": "2026-04-26T15:32:25Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=e38e08f4-be4b-4c4d-8e0d-705bc5a40460",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=cea9e199-f2c8-41d3-82b2-b3ca1f7f4e85",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 502"
     },
     {
       "club": "AFC Totton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,42 @@
     }
   ],
   "items": [
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "REPORT: UNITED WOMEN 5 – 2 GLOUCESTER",
+      "url": "https://torquayunited.com/report-united-women-5-2-gloucester/",
+      "published": "2026-04-26T15:16:42Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Ticketing information | Hemel Hempstead Town (A) – Enterprise National League South Playoff Eliminator",
+      "url": "https://wsmafc.co.uk/ticketing-information-hemel-hempstead-town-a-enterprise-national-league-south-playoff-eliminator/",
+      "published": "2026-04-26T14:58:26Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Gallery: Eastleigh (A) - Steve Hope",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/gallery-eastleigh-a-steve-hope/",
+      "published": "2026-04-26T14:50:53Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "VIDEO: Harry Shipstone reflects on league debut",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/video-harry-shipstone-reflects-on-league-debut/",
+      "published": "2026-04-26T14:30:04Z"
+    },
     {
       "club": "Hereford",
       "code": "HER",
@@ -1032,6 +1068,15 @@
       "published": "2026-04-25T15:35:41Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Report: Slough Town 3-2 Daggers",
+      "url": "https://daggers.co.uk/match-report-slough-town-3-2-daggers/",
+      "published": "2026-04-25T15:31:45Z"
+    },
+    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -1347,24 +1392,6 @@
       "published": "2026-04-25T09:00:33Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Play-off eliminator on general sale - season ticket seats released",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/play-off-eliminator-on-general-sale-season-ticket-seats-released/",
-      "published": "2026-04-25T08:57:00Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "In memoriam: 2025-26",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/in-memoriam-2025-26-4/",
-      "published": "2026-04-25T08:40:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1453,33 +1480,6 @@
       "title": "Match Preview | Alfreton Town (A)",
       "url": "https://curzon-ashton.co.uk/match-preview-alfreton-town-a/",
       "published": "2026-04-24T17:57:54Z"
-    },
-    {
-      "club": "Morecambe",
-      "code": "MOR",
-      "short": "Morecambe",
-      "domain": "morecambefc.com",
-      "title": "FANS GUIDE: FOREST GREEN ROVERS (A)",
-      "url": "https://www.morecambefc.com/news/2026/april/24/matchday-guide--forest-green-rovers--a-/",
-      "published": "2026-04-24T17:45:00Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Club Shop Open From 10.30 Saturday",
-      "url": "https://southportfc.net/club-shop-open-from-10-30-saturday/",
-      "published": "2026-04-24T17:27:54Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City Lottery – Weekly Winners 24/04/26",
-      "url": "https://trurocity.co.uk/2026/04/truro-city-lottery-weekly-winners-24-04-26/",
-      "published": "2026-04-24T17:13:49Z"
     }
   ]
 }
