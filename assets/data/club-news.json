@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-26T03:58:37Z",
+  "generatedAt": "2026-04-26T06:24:50Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=4acc5ed1-6ecb-4144-baed-7e4414d4f644",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=76747f75-8fd7-4ebc-a5f0-8b03dada0242",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -868,6 +868,15 @@
       "title": "Jimmy McNulty Following York Game",
       "url": "https://rochdaleafc.co.uk/jimmy-mcnulty-following-york-game/",
       "published": "2026-04-25T15:35:41Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Report: Slough Town 3-2 Daggers",
+      "url": "https://daggers.co.uk/match-report-slough-town-3-2-daggers/",
+      "published": "2026-04-25T15:31:45Z"
     },
     {
       "club": "Kidderminster Harriers",
@@ -1471,15 +1480,6 @@
       "title": "Match preview: Sutton United (H)",
       "url": "https://www.borehamwoodfootballclub.co.uk/match-preview-sutton-united-h-2/",
       "published": "2026-04-24T15:15:31Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "New Club Shop Bundles",
-      "url": "https://harriers.co.uk/news/2026/04/24/new-club-shop-bundles/",
-      "published": "2026-04-24T15:06:59Z"
     }
   ]
 }
