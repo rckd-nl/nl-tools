@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-27T10:03:06Z",
+  "generatedAt": "2026-04-27T12:03:58Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -33,14 +33,6 @@
       "ok": false,
       "count": 0,
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
     },
     {
       "club": "Solihull Moors",
@@ -101,7 +93,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=a2dd12a8-163f-4b8e-8da8-f6e14e0b33c2",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=492bceb9-170f-4fff-94f7-1cabcf6f7de0",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -185,22 +177,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
-    },
-    {
-      "club": "Dover Athletic",
-      "domain": "doverathletic.com",
-      "feed": "https://doverathletic.com/feed/",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
     },
     {
       "club": "Eastbourne Borough",
