@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-27T17:46:18Z",
+  "generatedAt": "2026-04-27T19:07:04Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3731,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -190,10 +190,10 @@
     {
       "club": "York City",
       "domain": "yorkcityfootballclub.co.uk",
-      "feed": "https://yorkcityfootballclub.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='yorkcityfootballclub.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "AFC Fylde",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=2aae3bd0-98f8-42e1-bc2b-8aa8153a43aa",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=41bf709e-387d-4680-b6be-19bd5ba788d6",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Weekend round up (26/4/2026)",
+      "url": "https://maidstoneunited.co.uk/04/27/weekend-round-up-26-4-2026/",
+      "published": "2026-04-27T18:12:47Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Luke Moore Retires From Professional Football",
+      "url": "https://dwfc.co.uk/2026/04/luke-moore-retires-from-professional-football/",
+      "published": "2026-04-27T18:00:30Z"
+    },
+    {
       "club": "Southport",
       "code": "SPT",
       "short": "Southport",
@@ -607,15 +625,6 @@
       "title": "Every Step For Dev",
       "url": "https://tonbridgeangels.co.uk/every-step-for-dev/",
       "published": "2026-04-27T17:27:45Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "York City Ladies secure their status as a National League club for a fifth season!",
-      "url": "https://yorkcityfootballclub.co.uk/york-city-ladies-secure-their-status-as-a-national-league-club-for-a-fifth-season/",
-      "published": "2026-04-27T16:06:48Z"
     },
     {
       "club": "Scunthorpe United",
@@ -805,6 +814,15 @@
       "title": "2026/27 Season Tickets",
       "url": "https://wokingfc.co.uk/04/27/2026-27-season-tickets/",
       "published": "2026-04-27T11:00:34Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Supporters Coach Update | Boreham Wood (A)",
+      "url": "https://www.fgr.co.uk/news/supporters-coach-update-boreham-wood-2526/",
+      "published": "2026-04-27T10:50:00Z"
     },
     {
       "club": "AFC Fylde",
@@ -1129,15 +1147,6 @@
       "title": "Darren Spong & Tee Kaptein | Gloucester City Women",
       "url": "https://torquayunited.com/%f0%9d%97%97%f0%9d%97%ae%f0%9d%97%bf%f0%9d%97%bf%f0%9d%97%b2%f0%9d%97%bb-%f0%9d%97%a6%f0%9d%97%bd%f0%9d%97%bc%f0%9d%97%bb%f0%9d%97%b4-%f0%9d%97%a7%f0%9d%97%b2%f0%9d%97%b2-%f0%9d%97%9e%f0%9d%97%ae/",
       "published": "2026-04-26T18:42:26Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Weekend round up (26/4/2026)",
-      "url": "https://maidstoneunited.co.uk/04/26/weekend-round-up-26-4-2026/",
-      "published": "2026-04-26T18:30:47Z"
     },
     {
       "club": "Bath City",
@@ -1471,15 +1480,6 @@
       "title": "Highlights: Scunthorpe United 0-1 Eastleigh",
       "url": "https://eastleighfc.com/2026/04/highlights-scunthorpe-united-0-1-eastleigh/",
       "published": "2026-04-25T20:14:58Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "EVERYTHING WE LEARNT FROM CALLUM WHELAN: POST BRACKLEY TOWN (H)",
-      "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-callum-whelan-post-brackley-town-h",
-      "published": "2026-04-25T19:56:54Z"
     }
   ]
 }

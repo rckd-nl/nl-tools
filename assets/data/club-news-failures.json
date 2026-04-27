@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-27T17:46:18Z",
+  "generatedAt": "2026-04-27T19:07:04Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -35,14 +35,6 @@
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
     },
     {
-      "club": "Forest Green Rovers",
-      "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
-    },
-    {
       "club": "Solihull Moors",
       "domain": "solihullmoorsfc.co.uk",
       "feed": "",
@@ -75,6 +67,14 @@
       "error": "HTTP 404"
     },
     {
+      "club": "York City",
+      "domain": "yorkcityfootballclub.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='yorkcityfootballclub.co.uk', port=443): Read timed out. (read timeout=25)"
+    },
+    {
       "club": "AFC Telford United",
       "domain": "telfordunited.com",
       "feed": "",
@@ -101,7 +101,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=2aae3bd0-98f8-42e1-bc2b-8aa8153a43aa",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=41bf709e-387d-4680-b6be-19bd5ba788d6",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
