@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-27T22:36:50Z",
+  "generatedAt": "2026-04-27T23:40:33Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=6daca9b9-3283-4f9e-8df8-2ab199487a31",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=e7399306-97de-4129-9594-28fcc9fb328f",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/news/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -446,10 +446,10 @@
     {
       "club": "Dover Athletic",
       "domain": "doverathletic.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "feed": "https://doverathletic.com/news/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Eastbourne Borough",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -1023,6 +1023,15 @@
       "published": "2026-04-27T07:52:26Z"
     },
     {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Ticket Prices – 2026/27",
+      "url": "https://doverathletic.com/news/ticket-prices-2026-27/",
+      "published": "2026-04-27T07:13:37Z"
+    },
+    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -1176,15 +1185,6 @@
       "published": "2026-04-26T18:19:40Z"
     },
     {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Farnborough to host PDL Play-Off clash",
-      "url": "https://farnboroughfc.co.uk/2026/04/farnborough-to-host-pdl-play-off-clash/",
-      "published": "2026-04-26T18:00:10Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1246,6 +1246,15 @@
       "title": "Cordon: “Now we will start planning for next season.” | Bridgwater United Reaction",
       "url": "https://worthingfc.com/2026/04/cordon-now-we-will-start-planning-for-next-season-bridgwater-united-reaction/",
       "published": "2026-04-26T16:05:30Z"
+    },
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Getting to Know Enyinnaya Ezenwanne",
+      "url": "https://doverathletic.com/news/getting-to-know-enyinnaya-ezenwanne/",
+      "published": "2026-04-26T15:34:16Z"
     },
     {
       "club": "Torquay United",
@@ -1356,6 +1365,15 @@
       "published": "2026-04-26T09:00:05Z"
     },
     {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "End of Season Awards",
+      "url": "https://doverathletic.com/news/end-of-season-awards-9/",
+      "published": "2026-04-26T08:39:40Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1363,6 +1381,24 @@
       "title": "Sunshine Scenes on Final Day",
       "url": "https://tonbridgeangels.co.uk/sunshine-scenes-on-final-day/",
       "published": "2026-04-26T08:36:12Z"
+    },
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Report – Dover Athletic 2-2 Chesham United",
+      "url": "https://doverathletic.com/news/report-dover-athletic-2-2-chesham-united/",
+      "published": "2026-04-26T08:31:21Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "2026/27 Early Bird Season Tickets",
+      "url": "https://farnboroughfc.co.uk/2026/04/2026-27-early-bird-season-tickets/",
+      "published": "2026-04-26T08:00:42Z"
     },
     {
       "club": "Curzon Ashton",
@@ -1444,42 +1480,6 @@
       "title": "Match Report: Yeovil Town 1-4 Solihull Moors",
       "url": "https://ytfc.net/2026/04/match-report-solihull-moors/",
       "published": "2026-04-25T22:56:19Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Match Gallery: Woking 0-1 Halifax",
-      "url": "https://wokingfc.co.uk/04/25/match-gallery-woking-0-1-halifax/",
-      "published": "2026-04-25T21:55:44Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "🎤 𝗣𝗼𝘀𝘁-𝗠𝗮𝘁𝗰𝗵 | Gary Horgan on our 3-2 loss at Horsham",
-      "url": "https://chippenhamtown.com/04/25/%f0%9f%8e%a4-%f0%9d%97%a3%f0%9d%97%bc%f0%9d%98%80%f0%9d%98%81-%f0%9d%97%a0%f0%9d%97%ae%f0%9d%98%81%f0%9d%97%b0%f0%9d%97%b5-gary-horgan-on-our-3-2-loss-at-horsham/",
-      "published": "2026-04-25T21:00:25Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Highlights: Scunthorpe United 0-1 Eastleigh",
-      "url": "https://eastleighfc.com/2026/04/highlights-scunthorpe-united-0-1-eastleigh/",
-      "published": "2026-04-25T20:14:58Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "EVERYTHING WE LEARNT FROM CALLUM WHELAN: POST BRACKLEY TOWN (H)",
-      "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-callum-whelan-post-brackley-town-h",
-      "published": "2026-04-25T19:56:54Z"
     }
   ]
 }
