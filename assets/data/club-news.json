@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-27T14:29:57Z",
+  "generatedAt": "2026-04-27T16:18:09Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=4ba42620-3134-4090-8768-8ae479a9b855",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=b0952072-3c8a-42d5-8e8c-1e1e7402f5b9",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
+      "feed": "https://daggers.co.uk/news/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -582,6 +582,96 @@
   ],
   "items": [
     {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "York City Ladies secure their status as a National League club for a fifth season!",
+      "url": "https://yorkcityfootballclub.co.uk/york-city-ladies-secure-their-status-as-a-national-league-club-for-a-fifth-season/",
+      "published": "2026-04-27T16:06:48Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Support your surface in 2026-27 with our Pitch Squares initiative package",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/support-your-surface-in-2026-27-with-our-pitch-squares-initiative-package-2/",
+      "published": "2026-04-27T15:56:49Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Chairman’s notes: Forest Green Rovers (H)",
+      "url": "https://www.borehamwoodfootballclub.co.uk/chairmans-notes-forest-green-rovers-h-2/",
+      "published": "2026-04-27T15:52:20Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Auction: Lifesize cardboard cutouts",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/auction-lifesize-cardboard-cutouts/",
+      "published": "2026-04-27T15:44:17Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Dibbs: Fans were brilliant",
+      "url": "https://harriers.co.uk/news/2026/04/27/dibbs-fans-were-brilliant/",
+      "published": "2026-04-27T15:26:43Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Press: Harry Taylor Looks Ahead To Scunthorpe United",
+      "url": "https://southendunited.co.uk/news/2026/april/27/press--harry-taylor-looks-ahead-to-scunthorpe-united/",
+      "published": "2026-04-27T15:25:48Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "25-26 Harriers award winners",
+      "url": "https://harriers.co.uk/news/2026/04/27/25-26-harriers-award-winners/",
+      "published": "2026-04-27T15:21:01Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Watch Scott Bartlett’s Maidstone United post-match interview",
+      "url": "https://www.bathcityfc.com/watch-scott-bartletts-maidstone-united-post-match-interview/",
+      "published": "2026-04-27T15:19:39Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "2026-27 season tickets: In-house finance option",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/2026-27-season-tickets-in-house-finance-option-2/",
+      "published": "2026-04-27T15:05:00Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Press: Kevin Maher Previews Scunthorpe United Eliminator",
+      "url": "https://southendunited.co.uk/news/2026/april/27/press--kevin-maher-previews-scunthorpe-united-eliminator/",
+      "published": "2026-04-27T14:19:19Z"
+    },
+    {
       "club": "Carlisle United",
       "code": "CAR",
       "short": "Carlisle",
@@ -634,6 +724,15 @@
       "title": "Niall McManus | Our No6 Departs After 8 Season’s",
       "url": "https://dwfc.co.uk/2026/04/mcmanus-departs/",
       "published": "2026-04-27T12:58:54Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Under 18's Prepare for County Cup Final",
+      "url": "https://afcfylde.co.uk/news/2026/april/27/under-18-s-prepare-for-county-cup-final/",
+      "published": "2026-04-27T12:33:00Z"
     },
     {
       "club": "Chester",
@@ -807,15 +906,6 @@
       "published": "2026-04-27T09:12:18Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Matchday Eve: Southend United (H)",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/matchday-eve-southend-united-h-2/",
-      "published": "2026-04-27T09:10:21Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -832,24 +922,6 @@
       "title": "Aldershot Town vs Truro City – Fan Gallery",
       "url": "https://trurocity.co.uk/2026/04/aldershot-town-vs-truro-city-fan-gallery/",
       "published": "2026-04-27T08:54:16Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Josh Morris the guest speaker with hospitality on sale for play-off eliminator next Tuesday",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/josh-morris-the-guest-speaker-with-hospitality-on-sale-for-play-off-eliminator-next-tuesday-2/",
-      "published": "2026-04-27T08:44:00Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Ticket office and club shop opening hours w/c April 27th",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/april/ticket-office-and-club-shop-opening-hours-w-c-april-27th/",
-      "published": "2026-04-27T08:38:03Z"
     },
     {
       "club": "AFC Fylde",
@@ -1408,78 +1480,6 @@
       "title": "EVERYTHING WE LEARNT FROM MARK HUGHES: POST BRACKLEY TOWN (H)",
       "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-mark-hughes-post-brackley-town-h",
       "published": "2026-04-25T19:31:34Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "THE REDS ARE GOING UP 🏆 | Worthing 2-0 Ebbsfleet United | Highlights",
-      "url": "https://worthingfc.com/2026/04/the-reds-are-going-up-%f0%9f%8f%86-worthing-2-0-ebbsfleet-united-highlights/",
-      "published": "2026-04-25T19:31:03Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Match Report: Horsham 3-2 Chippenham Town",
-      "url": "https://chippenhamtown.com/04/25/match-report-horsham-3-2-chippenham-town/",
-      "published": "2026-04-25T19:00:29Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Spencer Day Post AFC Totton (A)",
-      "url": "https://farnboroughfc.co.uk/2026/04/spencer-day-post-afc-totton-a/",
-      "published": "2026-04-25T19:00:22Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Seagulls Announce Long-Term Partnership with VX3",
-      "url": "https://wsmafc.co.uk/vx3/",
-      "published": "2026-04-25T18:45:39Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "DYLAN MORGAN | TONBRIDGE ANGELS (A) | POST-MATCH",
-      "url": "https://torquayunited.com/dylan-morgan-tonbridge-angels-a-post-match/",
-      "published": "2026-04-25T18:45:16Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham v Chippenham Town – match report",
-      "url": "https://www.horshamfc.co.uk/2026/04/25/horsham-v-chippenham-town-match-report/",
-      "published": "2026-04-25T18:27:23Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "The End Of Season Awards 2025/26",
-      "url": "https://altrinchamfc.com/blogs/news/the-end-of-season-awards-2025-26",
-      "published": "2026-04-25T18:22:20Z"
-    },
-    {
-      "club": "Salisbury",
-      "code": "SAL",
-      "short": "Salisbury",
-      "domain": "salisburyfc.co.uk",
-      "title": "The points are shared on the last game of the season",
-      "url": "https://salisburyfc.co.uk/2026/04/25/the-points-are-shared-on-the-last-game-of-the-season/",
-      "published": "2026-04-25T18:02:52Z"
     }
   ]
 }
