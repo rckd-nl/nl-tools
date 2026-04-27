@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-27T19:07:04Z",
+  "generatedAt": "2026-04-27T20:22:10Z",
   "maxItems": 100,
   "sources": [
     {
@@ -190,10 +190,10 @@
     {
       "club": "York City",
       "domain": "yorkcityfootballclub.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='yorkcityfootballclub.co.uk', port=443): Read timed out. (read timeout=25)"
+      "feed": "https://yorkcityfootballclub.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "AFC Fylde",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=41bf709e-387d-4680-b6be-19bd5ba788d6",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=8573b47a-651d-4e54-83dd-d459fa474adb",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/news/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Missed Any Of This Season’s Programmes?",
+      "url": "https://southportfc.net/missed-any-of-this-seasons-programmes/",
+      "published": "2026-04-27T19:23:31Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "PROMOTION PARTY AT THE LNER",
+      "url": "https://yorkcityfootballclub.co.uk/promotion-party-at-the-lner/",
+      "published": "2026-04-27T18:33:45Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -625,6 +643,15 @@
       "title": "Every Step For Dev",
       "url": "https://tonbridgeangels.co.uk/every-step-for-dev/",
       "published": "2026-04-27T17:27:45Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "York City Ladies secure their status as a National League club for a fifth season!",
+      "url": "https://yorkcityfootballclub.co.uk/york-city-ladies-secure-their-status-as-a-national-league-club-for-a-fifth-season/",
+      "published": "2026-04-27T16:06:48Z"
     },
     {
       "club": "Scunthorpe United",
@@ -1453,33 +1480,6 @@
       "title": "Match Report: Yeovil Town 1-4 Solihull Moors",
       "url": "https://ytfc.net/2026/04/match-report-solihull-moors/",
       "published": "2026-04-25T22:56:19Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Match Gallery: Woking 0-1 Halifax",
-      "url": "https://wokingfc.co.uk/04/25/match-gallery-woking-0-1-halifax/",
-      "published": "2026-04-25T21:55:44Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "🎤 𝗣𝗼𝘀𝘁-𝗠𝗮𝘁𝗰𝗵 | Gary Horgan on our 3-2 loss at Horsham",
-      "url": "https://chippenhamtown.com/04/25/%f0%9f%8e%a4-%f0%9d%97%a3%f0%9d%97%bc%f0%9d%98%80%f0%9d%98%81-%f0%9d%97%a0%f0%9d%97%ae%f0%9d%98%81%f0%9d%97%b0%f0%9d%97%b5-gary-horgan-on-our-3-2-loss-at-horsham/",
-      "published": "2026-04-25T21:00:25Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Highlights: Scunthorpe United 0-1 Eastleigh",
-      "url": "https://eastleighfc.com/2026/04/highlights-scunthorpe-united-0-1-eastleigh/",
-      "published": "2026-04-25T20:14:58Z"
     }
   ]
 }
