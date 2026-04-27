@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-26T23:27:15Z",
+  "generatedAt": "2026-04-27T01:18:35Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=872c7a0d-014e-4b2a-8de2-83902350f577",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=6cac8bb2-8991-4b4d-add5-bb8f5d53a7ad",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -1266,6 +1266,15 @@
       "published": "2026-04-25T15:35:41Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match Report: Slough Town 3-2 Daggers",
+      "url": "https://daggers.co.uk/match-report-slough-town-3-2-daggers/",
+      "published": "2026-04-25T15:31:45Z"
+    },
+    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -1471,15 +1480,6 @@
       "title": "What a way to sign off as Alty seal win with last kick of the campaign!",
       "url": "https://altrinchamfc.com/blogs/news/gateshead-matchday-46",
       "published": "2026-04-25T14:27:36Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Dale Heartbroken Late On",
-      "url": "https://rochdaleafc.co.uk/report-york-city-home-250426/",
-      "published": "2026-04-25T14:04:41Z"
     }
   ]
 }
