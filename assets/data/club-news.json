@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-28T16:31:37Z",
+  "generatedAt": "2026-04-28T18:15:37Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3733,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=f17e6635-43ea-4909-a07c-be4f99541632",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=4702d6a1-3518-42a2-b181-7ec51e3f92b3",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,51 @@
   ],
   "items": [
     {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Play-Off Ticket Update",
+      "url": "https://torquayunited.com/play-off-ticket-update/",
+      "published": "2026-04-28T18:00:41Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Report: Worthing FC Women 0-5 Bridgwater United Ladies",
+      "url": "https://worthingfc.com/2026/04/report-worthing-fc-women-0-5-bridgwater-united-ladies/",
+      "published": "2026-04-28T17:29:50Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Play-Off Eliminator Preview: Macclesfield (A)",
+      "url": "https://chesterfc.com/04/28/play-off-eliminator-preview-macclesfield/",
+      "published": "2026-04-28T16:55:10Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "PITCH INCURSIONS STRICTLY PROHIBITED",
+      "url": "https://www.carlisleunited.co.uk/news/pitch-incursions-strictly-prohibited",
+      "published": "2026-04-28T16:31:00Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Connell’s Pre-Match Thoughts: Macclesfield (A)",
+      "url": "https://chesterfc.com/04/28/connells-pre-match-thoughts-macclesfield-a/",
+      "published": "2026-04-28T16:00:24Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -625,6 +670,15 @@
       "title": "Highlights | Radcliffe 1-0 Macclesfield",
       "url": "https://radcliffefc.com/highlights-radcliffe-1-0-macclesfield/",
       "published": "2026-04-28T15:17:09Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Macclesfield clash available to watch on DAZN",
+      "url": "https://chesterfc.com/04/28/dazn/",
+      "published": "2026-04-28T15:00:21Z"
     },
     {
       "club": "Salisbury",
@@ -699,15 +753,6 @@
       "published": "2026-04-28T13:19:38Z"
     },
     {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "PLAY-OFFS | Plainmoor Pass Priority Window Ends 5pm Tuesday",
-      "url": "https://torquayunited.com/play-offs-plainmoor-pass-priority-window-ends-5pm-tuesday/",
-      "published": "2026-04-28T13:04:37Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -760,15 +805,6 @@
       "title": "2025/26: The Season in Numbers",
       "url": "https://afcfylde.co.uk/news/2026/april/28/2025-26--the-season-in-numbers/",
       "published": "2026-04-28T12:19:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Supporters Coach Travel Update | Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/supporters-coach-travel-update-boreham-wood-2526/",
-      "published": "2026-04-28T12:00:00Z"
     },
     {
       "club": "Torquay United",
@@ -879,24 +915,6 @@
       "published": "2026-04-28T09:51:30Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "D'Mani Mellor | Boreham Wood Preview",
-      "url": "https://www.fgr.co.uk/news/dmani-mellor-boreham-wood-preview-2526/",
-      "published": "2026-04-28T09:30:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "The gaffer ahead of the play-off eliminator",
-      "url": "https://www.fgr.co.uk/news/the-gaffer-ahead-of-the-play-off-eliminator-2526/",
-      "published": "2026-04-28T09:00:00Z"
-    },
-    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -985,6 +1003,15 @@
       "title": "Missed Any Of This Season’s Programmes?",
       "url": "https://southportfc.net/missed-any-of-this-seasons-programmes/",
       "published": "2026-04-27T19:23:31Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "ACCESS ALL AREAS | Worthing FC 2-0 Ebbsfleet United",
+      "url": "https://worthingfc.com/2026/04/access-all-areas-worthing-fc-2-0-ebbsfleet-united/",
+      "published": "2026-04-27T19:00:56Z"
     },
     {
       "club": "York City",
@@ -1147,6 +1174,15 @@
       "title": "REACTION | Lane on Survival-Sealing Header",
       "url": "https://herefordfc.co.uk/2026/04/reaction-lane-on-survival-sealing-header/",
       "published": "2026-04-27T13:22:37Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "PLAY-OFFS | Plainmoor Pass Priority Window Ends 5pm Tuesday",
+      "url": "https://torquayunited.com/play-offs-plainmoor-pass-priority-window-ends-5pm-tuesday/",
+      "published": "2026-04-27T13:04:37Z"
     },
     {
       "club": "Chelmsford City",
@@ -1444,42 +1480,6 @@
       "title": "Reaction | Holmes & Lapslie discuss final day defeat",
       "url": "https://chelmsfordcityfc.com/news/reaction-holmes-lapslie-discuss-final-day-defeat/",
       "published": "2026-04-26T21:46:18Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "Golden Letter Draw Results",
-      "url": "https://marinefc.com/golden-letter-draw-results/",
-      "published": "2026-04-26T20:48:00Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Match Highlights Southport v AFC Telford United",
-      "url": "https://southportfc.net/match-highlights-southport-v-afc-telford-united/",
-      "published": "2026-04-26T20:36:56Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Loan Watch: Bak bags in Paulton playoff semi-final, Hicks & Jenkins end season",
-      "url": "https://wsmafc.co.uk/loan-watch-sat-25th-april-2026/",
-      "published": "2026-04-26T20:30:04Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Match Highlights: WsM AFC 1 – 1 Dorking Wanderers",
-      "url": "https://wsmafc.co.uk/match-highlights-wsm-afc-1-1-dorking-wanderers/",
-      "published": "2026-04-26T19:45:02Z"
     }
   ]
 }
