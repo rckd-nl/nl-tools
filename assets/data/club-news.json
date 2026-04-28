@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-28T19:59:38Z",
+  "generatedAt": "2026-04-28T21:24:29Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3733,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=e0f38ac5-f08f-4242-a083-6f80dd24b423",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=0f0e1268-49b2-4835-95e3-208c4e80cfb4",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -843,15 +843,6 @@
       "published": "2026-04-28T12:19:00Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Supporters Coach Travel Update | Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/supporters-coach-travel-update-boreham-wood-2526/",
-      "published": "2026-04-28T12:00:00Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -906,15 +897,6 @@
       "published": "2026-04-28T10:38:20Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Youth Roundup – 26th April",
-      "url": "https://www.horshamfc.co.uk/2026/04/28/youth-roundup-26th-april/",
-      "published": "2026-04-28T10:22:34Z"
-    },
-    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -958,24 +940,6 @@
       "title": "Next Senior Blues Meeting Details: May 2026",
       "url": "https://chesterfc.com/04/28/next-senior-blues-meeting-details-may-2026/",
       "published": "2026-04-28T09:51:30Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "D'Mani Mellor | Boreham Wood Preview",
-      "url": "https://www.fgr.co.uk/news/dmani-mellor-boreham-wood-preview-2526/",
-      "published": "2026-04-28T09:30:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "The gaffer ahead of the play-off eliminator",
-      "url": "https://www.fgr.co.uk/news/the-gaffer-ahead-of-the-play-off-eliminator-2526/",
-      "published": "2026-04-28T09:00:00Z"
     },
     {
       "club": "AFC Fylde",
@@ -1480,6 +1444,42 @@
       "title": "Joe Thompson Legacy Walk This Saturday",
       "url": "https://rochdaleafc.co.uk/support-joe-thompsons-annual-legacy-walk/",
       "published": "2026-04-27T07:06:16Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "#RHLive: Play-Off Eliminator",
+      "url": "https://southendunited.co.uk/news/2026/april/27/-rhlive--play-off-eliminator/",
+      "published": "2026-04-27T07:00:00Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Report: Maidenhead United (H)",
+      "url": "https://hornchurchfc.com/report-maidenhead-united-h/",
+      "published": "2026-04-27T06:44:24Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Macclesfield Post-Match Reaction | Bernard Morley",
+      "url": "https://radcliffefc.com/macclesfield-post-match-reaction-bernard-morley-2/",
+      "published": "2026-04-27T02:17:34Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Horsham 25th April 2026",
+      "url": "https://chippenhamtown.com/04/26/horsham-25th-april-2026/",
+      "published": "2026-04-26T22:16:36Z"
     }
   ]
 }
