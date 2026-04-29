@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-29T01:29:29Z",
+  "generatedAt": "2026-04-29T05:03:54Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=c762a4ef-9bd5-4f30-acda-91750aaa19b0",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=a8a4ed15-9e34-40b8-a429-483c3b3016e5",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -1410,15 +1410,6 @@
       "published": "2026-04-27T09:19:05Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Early Bird Season Ticket Window Now LIVE!",
-      "url": "https://daggers.co.uk/early-bird-season-ticket-window-now-live/",
-      "published": "2026-04-27T09:16:59Z"
-    },
-    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -1480,6 +1471,15 @@
       "title": "Highlights: Maidenhead United (H)",
       "url": "https://hornchurchfc.com/highlights-maidenhead-united-h/",
       "published": "2026-04-27T07:52:26Z"
+    },
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Ticket Prices – 2026/27",
+      "url": "https://doverathletic.com/news/ticket-prices-2026-27/",
+      "published": "2026-04-27T07:13:37Z"
     }
   ]
 }
