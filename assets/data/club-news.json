@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-28T23:40:46Z",
+  "generatedAt": "2026-04-29T01:29:29Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3733,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=0cefc4c2-a0b7-4294-ae81-1e1656800a5b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=c762a4ef-9bd5-4f30-acda-91750aaa19b0",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Hemel Hempstead 1 – 1 AET (5 – 6 Pens) WsM AFC",
+      "url": "https://wsmafc.co.uk/hemel-hempstead-1-1-aet-5-6-pens-wsm-afc/",
+      "published": "2026-04-28T23:59:10Z"
+    },
     {
       "club": "Scunthorpe United",
       "code": "SCU",
@@ -888,15 +897,6 @@
       "published": "2026-04-28T12:19:00Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Supporters Coach Travel Update | Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/supporters-coach-travel-update-boreham-wood-2526/",
-      "published": "2026-04-28T12:00:00Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -994,24 +994,6 @@
       "title": "Next Senior Blues Meeting Details: May 2026",
       "url": "https://chesterfc.com/04/28/next-senior-blues-meeting-details-may-2026/",
       "published": "2026-04-28T09:51:30Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "D'Mani Mellor | Boreham Wood Preview",
-      "url": "https://www.fgr.co.uk/news/dmani-mellor-boreham-wood-preview-2526/",
-      "published": "2026-04-28T09:30:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "The gaffer ahead of the play-off eliminator",
-      "url": "https://www.fgr.co.uk/news/the-gaffer-ahead-of-the-play-off-eliminator-2526/",
-      "published": "2026-04-28T09:00:00Z"
     },
     {
       "club": "AFC Fylde",
@@ -1428,6 +1410,15 @@
       "published": "2026-04-27T09:19:05Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Early Bird Season Ticket Window Now LIVE!",
+      "url": "https://daggers.co.uk/early-bird-season-ticket-window-now-live/",
+      "published": "2026-04-27T09:16:59Z"
+    },
+    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -1480,6 +1471,15 @@
       "title": "Ethan and Phoebe Scoop Top Awards….’Waggy’ Honoured",
       "url": "https://tonbridgeangels.co.uk/ethan-and-phoebe-scoop-top-awards-waggy-honoured/",
       "published": "2026-04-27T08:00:00Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Highlights: Maidenhead United (H)",
+      "url": "https://hornchurchfc.com/highlights-maidenhead-united-h/",
+      "published": "2026-04-27T07:52:26Z"
     }
   ]
 }
