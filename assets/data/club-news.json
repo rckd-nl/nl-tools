@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-29T11:58:29Z",
+  "generatedAt": "2026-04-29T14:33:19Z",
   "maxItems": 100,
   "sources": [
     {
@@ -80,7 +80,7 @@
       "domain": "fgr.co.uk",
       "feed": "https://www.fgr.co.uk/news-rss.xml",
       "ok": true,
-      "count": 3733,
+      "count": 3734,
       "error": ""
     },
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=89453c31-2385-4b89-bf1a-c4deb4a307c3",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=714cee50-8618-4b61-ad11-3839addc3e30",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -390,10 +390,10 @@
     {
       "club": "AFC Totton",
       "domain": "afctotton.com",
-      "feed": "",
+      "feed": "https://www.afctotton.com/login",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "Feed returned 0 usable items"
     },
     {
       "club": "Bath City",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,69 @@
   ],
   "items": [
     {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "“𝗧𝗵𝗲𝘀𝗲 𝗮𝗿𝗲 𝗴𝗮𝗺𝗲𝘀 𝘁𝗵𝗮𝘁 𝘄𝗲 𝗹𝗼𝘃𝗲 𝗽𝗹𝗮𝘆𝗶𝗻𝗴 𝗶𝗻” | Dan Martin post – Hemel Hempstead Town (A)",
+      "url": "https://wsmafc.co.uk/%f0%9d%97%a7%f0%9d%97%b5%f0%9d%97%b2%f0%9d%98%80%f0%9d%97%b2-%f0%9d%97%ae%f0%9d%97%bf%f0%9d%97%b2-%f0%9d%97%b4%f0%9d%97%ae%f0%9d%97%ba%f0%9d%97%b2%f0%9d%98%80-%f0%9d%98%81%f0%9d%97%b5%f0%9d%97%ae/",
+      "published": "2026-04-29T14:30:27Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Report: Seagulls shootout delight in playoff eliminator",
+      "url": "https://wsmafc.co.uk/https-wsmafc-co-uk-report-hemel-hempstead-vs-wsm-afc/",
+      "published": "2026-04-29T13:50:39Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "ACADEMY RETAINED AND RELEASED LIST 2025/26",
+      "url": "https://www.carlisleunited.co.uk/news/academy-retained-and-released-list-202526",
+      "published": "2026-04-29T13:48:00Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "AWARDS | Tributes Paid to Bulls Centurions",
+      "url": "https://herefordfc.co.uk/2026/04/awards-tributes-paid-to-bulls-centurions/",
+      "published": "2026-04-29T13:41:14Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "MATCH PREVIEW: MACCLESFIELD FC VS CHESTER FC",
+      "url": "https://macclesfieldfc.com/latest-news/match-preview-macclesfield-fc-vs-chester-fc-2/",
+      "published": "2026-04-29T13:00:56Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Community | Sacred Heart to represent Pools at Wembley",
+      "url": "https://www.hartlepoolunited.co.uk/community-sacred-heart-to-represent-pools-at-wembley/",
+      "published": "2026-04-29T12:55:02Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Family Fun Day and Fan Zone Festival",
+      "url": "https://altrinchamfc.com/blogs/news/family-fun-day-and-fan-zone-festival",
+      "published": "2026-04-29T12:39:26Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -652,6 +715,15 @@
       "title": "Gallery: Hemel Hempstead 1 – 1 WsM AFC AET (5 – 6 Pens)",
       "url": "https://wsmafc.co.uk/hemel-hempstead-1-1-aet-5-6-pens-wsm-afc/",
       "published": "2026-04-29T09:00:10Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Play-off Preview | Boreham Wood (A)",
+      "url": "https://www.fgr.co.uk/news/play-off-preview-boreham-wood-a-2526/",
+      "published": "2026-04-29T09:00:00Z"
     },
     {
       "club": "Torquay United",
@@ -949,15 +1021,6 @@
       "title": "Next FREE networking event",
       "url": "https://chelmsfordcityfc.com/news/next-free-networking-event/",
       "published": "2026-04-28T13:00:00Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Family Fun Day and Fan Zone Festival",
-      "url": "https://altrinchamfc.com/blogs/news/family-fun-day-and-fan-zone-festival",
-      "published": "2026-04-28T12:54:19Z"
     },
     {
       "club": "Rochdale",
@@ -1320,15 +1383,6 @@
       "published": "2026-04-27T15:19:39Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "END OF SEASON KIT SALE",
-      "url": "https://macclesfieldfc.com/latest-news/end-of-season-kit-sale/",
-      "published": "2026-04-27T15:00:37Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1426,60 +1480,6 @@
       "title": "Tommy Miller Appointed As Manager",
       "url": "https://spennymoortownfc.co.uk/2026/04/27/tommy-miller-named-as-spennymoor-manager/",
       "published": "2026-04-27T11:24:47Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "2026/27 Season Tickets",
-      "url": "https://wokingfc.co.uk/04/27/2026-27-season-tickets/",
-      "published": "2026-04-27T11:00:34Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "25% OFF FOOD & DRINKS FOR SILKMEN SEASON TICKET HOLDERS",
-      "url": "https://macclesfieldfc.com/latest-news/25-off-food-drinks-for-silkmen-season-ticket-holders/",
-      "published": "2026-04-27T11:00:13Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "HIGHLIGHTS: GLOUCESTER CITY WOMEN (H)",
-      "url": "https://torquayunited.com/highlights-gloucester-city-women-h/",
-      "published": "2026-04-27T10:36:27Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "McKeown And Taylor Lead Way In Awards",
-      "url": "https://spennymoortownfc.co.uk/2026/04/27/mckeown-and-taylor-lead-way-in-awards/",
-      "published": "2026-04-27T10:02:33Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Isle of Man Summer Festival of Football 2026",
-      "url": "https://radcliffefc.com/isle-of-man-summer-festival-of-football-2026/",
-      "published": "2026-04-27T09:54:10Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Tickets: Play-Off Semi Final (H)",
-      "url": "https://hornchurchfc.com/tickets-play-off-semi-final-h/",
-      "published": "2026-04-27T09:53:21Z"
     }
   ]
 }
