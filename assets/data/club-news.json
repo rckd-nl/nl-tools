@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-29T07:38:52Z",
+  "generatedAt": "2026-04-29T09:55:40Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3733,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=7bf33140-9a44-47d0-89e3-93eeaa1855d8",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=9b497b28-d11a-49dc-b925-18bfd59e57ea",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -582,6 +582,51 @@
   ],
   "items": [
     {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Monkey Business welcomes Endless Executive Travel & Motorhome Hire",
+      "url": "https://www.hartlepoolunited.co.uk/monkey-business-welcomes-endless-executive-travel-motorhome-hire/",
+      "published": "2026-04-29T09:22:35Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Community | Parkes named PFA Community Champion",
+      "url": "https://www.hartlepoolunited.co.uk/community-parkes-named-pfa-community-champion/",
+      "published": "2026-04-29T09:12:02Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Gallery: Hemel Hempstead 1 – 1 WsM AFC AET (5 – 6 Pens)",
+      "url": "https://wsmafc.co.uk/hemel-hempstead-1-1-aet-5-6-pens-wsm-afc/",
+      "published": "2026-04-29T09:00:10Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Play-Off Ticket Latest",
+      "url": "https://torquayunited.com/play-off-ticket-latest/",
+      "published": "2026-04-29T08:59:31Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Highfield Spectator Safety Qualification Coming to Huish Park",
+      "url": "https://ytfc.net/2026/04/highfield-spectator-safety-qualification-coming-to-huish-park/",
+      "published": "2026-04-29T08:49:44Z"
+    },
+    {
       "club": "Boreham Wood",
       "code": "BHW",
       "short": "Boreham Wood",
@@ -598,15 +643,6 @@
       "title": "MATT WORTHINGTON | PLAY-OFF SEMI-FINAL | TRAINING",
       "url": "https://torquayunited.com/matt-worthington-play-off-semi-final-training/",
       "published": "2026-04-29T07:11:21Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Hemel Hempstead 1 – 1 AET (5 – 6 Pens) WsM AFC",
-      "url": "https://wsmafc.co.uk/hemel-hempstead-1-1-aet-5-6-pens-wsm-afc/",
-      "published": "2026-04-28T23:59:10Z"
     },
     {
       "club": "Scunthorpe United",
@@ -915,15 +951,6 @@
       "published": "2026-04-28T12:19:00Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Supporters Coach Travel Update | Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/supporters-coach-travel-update-boreham-wood-2526/",
-      "published": "2026-04-28T12:00:00Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1021,24 +1048,6 @@
       "title": "Next Senior Blues Meeting Details: May 2026",
       "url": "https://chesterfc.com/04/28/next-senior-blues-meeting-details-may-2026/",
       "published": "2026-04-28T09:51:30Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "D'Mani Mellor | Boreham Wood Preview",
-      "url": "https://www.fgr.co.uk/news/dmani-mellor-boreham-wood-preview-2526/",
-      "published": "2026-04-28T09:30:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "The gaffer ahead of the play-off eliminator",
-      "url": "https://www.fgr.co.uk/news/the-gaffer-ahead-of-the-play-off-eliminator-2526/",
-      "published": "2026-04-28T09:00:00Z"
     },
     {
       "club": "AFC Fylde",
@@ -1471,15 +1480,6 @@
       "title": "Aldershot Town vs Truro City – Match Gallery",
       "url": "https://trurocity.co.uk/2026/04/aldershot-town-vs-truro-city-match-gallery/",
       "published": "2026-04-27T09:02:08Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Aldershot Town vs Truro City – Fan Gallery",
-      "url": "https://trurocity.co.uk/2026/04/aldershot-town-vs-truro-city-fan-gallery/",
-      "published": "2026-04-27T08:54:16Z"
     }
   ]
 }
