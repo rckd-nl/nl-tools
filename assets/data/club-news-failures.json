@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-30T09:57:38Z",
+  "generatedAt": "2026-04-30T11:58:21Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -40,7 +40,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.fgr.co.uk', port=443): Read timed out. (read timeout=25)"
+      "error": "HTTP 404"
     },
     {
       "club": "Solihull Moors",
@@ -48,7 +48,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Sutton United",
@@ -101,7 +101,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=284dafb8-c961-4ad2-b549-f9f2e9c66291",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=a339b44d-2472-483f-8dac-e06627f5cd60",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -144,7 +144,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Peterborough Sports",
