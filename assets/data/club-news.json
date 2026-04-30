@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-30T19:02:27Z",
+  "generatedAt": "2026-04-30T20:22:30Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=71d49b0e-7ecc-46d0-ab64-fbc1d5513f38",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=c1606fa2-73ce-40d8-9383-354622ea7461",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -446,10 +446,10 @@
     {
       "club": "Dover Athletic",
       "domain": "doverathletic.com",
-      "feed": "https://doverathletic.com/news/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Eastbourne Borough",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Season Ticket & Matchday Prices For 2026-27 | Season Tickets On Sale From 9am Friday",
+      "url": "https://southportfc.net/season-ticket-matchday-prices-for-2026-27-season-tickets-on-sale-from-9am-friday/",
+      "published": "2026-04-30T20:09:33Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "ADAM LAKELAND APPOINTED SHRIMPS MANAGER",
+      "url": "https://www.morecambefc.com/news/2026/april/30/adam-lakeland-appointed-shrimps-manager/",
+      "published": "2026-04-30T18:30:00Z"
+    },
     {
       "club": "Southend United",
       "code": "SOU",
@@ -1462,24 +1480,6 @@
       "title": "JONAH LOWES SIGNS PROFESSIONAL CONTRACT",
       "url": "https://www.carlisleunited.co.uk/news/jonah-lowes-signs-professional-contract",
       "published": "2026-04-28T14:02:00Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "John Rooney ahead of the Play-Off Eliminator against Chester",
-      "url": "https://macclesfieldfc.com/latest-news/john-rooney-ahead-of-the-play-off-eliminator-against-chester/",
-      "published": "2026-04-28T14:00:42Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Hamblin stays a Stone",
-      "url": "https://maidstoneunited.co.uk/04/28/hamblin-stays-a-stone/",
-      "published": "2026-04-28T13:57:23Z"
     }
   ]
 }
