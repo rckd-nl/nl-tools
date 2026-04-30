@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-30T14:27:34Z",
+  "generatedAt": "2026-04-30T16:12:31Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=b0cf99ad-dd64-4dad-aa35-8f42c2021c36",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=a4385d30-d26d-4047-9ea4-29aa476ff90f",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/news/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,51 @@
   ],
   "items": [
     {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "JIMMY BALL | DORKING WANDERERS (H) | PRESS CALL",
+      "url": "https://torquayunited.com/jimmy-ball-dorking-wanderers-h-press-call/",
+      "published": "2026-04-30T16:05:35Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "COACH TRAVEL: KIDDERMINSTER HARRIERS",
+      "url": "https://macclesfieldfc.com/latest-news/coach-travel-kidderminster-harriers-2/",
+      "published": "2026-04-30T16:00:45Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "LIVE SPORT IN BAR TWENTY SEVEN",
+      "url": "https://macclesfieldfc.com/latest-news/live-sport-in-bar-twenty-seven/",
+      "published": "2026-04-30T15:00:48Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Club Volunteers – Thank You",
+      "url": "https://trurocity.co.uk/2026/04/club-volunteers-thank-you/",
+      "published": "2026-04-30T15:00:16Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "MATCH REPORT: MACCLESFIELD FC 2-1 CHESTER FC",
+      "url": "https://macclesfieldfc.com/latest-news/match-report-macclesfield-fc-2-1-chester-fc/",
+      "published": "2026-04-30T15:00:14Z"
+    },
+    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -634,6 +679,15 @@
       "title": "LEWIS FENSOME BECOMES RECORD APPEARANCE HOLDER",
       "url": "https://macclesfieldfc.com/latest-news/lewis-fensome-becomes-record-appearance-holder/",
       "published": "2026-04-30T12:46:23Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Youth Roundup 29th April",
+      "url": "https://www.horshamfc.co.uk/2026/04/30/youth-roundup-29th-april/",
+      "published": "2026-04-30T12:31:19Z"
     },
     {
       "club": "Spennymoor Town",
@@ -904,6 +958,15 @@
       "title": "Zak Joseph departs the Meadow",
       "url": "https://cheshamunited.co.uk/2026/04/zak-joseph-departs-the-meadow/",
       "published": "2026-04-29T18:00:56Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Report: Chester U19 1-1 Gateshead U19",
+      "url": "https://chesterfc.com/04/29/report-chester-u19-1-1-gateshead-u19/",
+      "published": "2026-04-29T17:25:16Z"
     },
     {
       "club": "Farnborough",
@@ -1270,6 +1333,15 @@
       "code": "MSU",
       "short": "Maidstone",
       "domain": "maidstoneunited.co.uk",
+      "title": "Book a place on the May soccer school",
+      "url": "https://maidstoneunited.co.uk/04/28/book-a-place-on-the-may-soccer-school/",
+      "published": "2026-04-28T15:40:05Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
       "title": "One of our own…",
       "url": "https://maidstoneunited.co.uk/04/28/one-of-our-own/",
       "published": "2026-04-28T15:18:05Z"
@@ -1408,78 +1480,6 @@
       "title": "College Side Ready For National Test",
       "url": "https://torquayunited.com/college-side-ready-for-national-test/",
       "published": "2026-04-28T11:08:16Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "GALLERY | Hereford FC 2-2 Peterborough Sports",
-      "url": "https://herefordfc.co.uk/2026/04/gallery-hereford-fc-2-2-peterborough-sports/",
-      "published": "2026-04-28T11:07:41Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Club shop open this Saturday",
-      "url": "https://maidstoneunited.co.uk/04/28/club-shop-open-this-saturday/",
-      "published": "2026-04-28T11:00:45Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "ACTION REPLAY: RADCLIFFE (A)",
-      "url": "https://macclesfieldfc.com/galleries/action-replay-radcliffe-a/",
-      "published": "2026-04-28T11:00:01Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Preview: Scunthorpe United (A)",
-      "url": "https://southendunited.co.uk/news/2026/april/28/preview--scunthorpe-united--a-/",
-      "published": "2026-04-28T10:38:20Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Snap Up Your 2026/27 Season Ticket Today",
-      "url": "https://spennymoortownfc.co.uk/2026/04/28/snap-up-your-2026-27-season-ticket-today/",
-      "published": "2026-04-28T10:15:42Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "1985/86 Squad Charity Collection",
-      "url": "https://chesterfc.com/04/28/1985-86-squad-charity-collection/",
-      "published": "2026-04-28T10:11:28Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "End of Season Message from the Chairman & Directors",
-      "url": "https://farnboroughfc.co.uk/2026/04/end-of-season-message-from-the-chairman-directors/",
-      "published": "2026-04-28T10:00:06Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "WOMEN’S FIRST TEAM TRIALS",
-      "url": "https://macclesfieldfc.com/latest-news/womens-first-team-trials/",
-      "published": "2026-04-28T10:00:01Z"
     }
   ]
 }
