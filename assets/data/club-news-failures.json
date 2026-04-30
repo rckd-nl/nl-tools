@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-30T22:38:59Z",
+  "generatedAt": "2026-04-30T23:38:50Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -93,7 +93,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=7a3929cf-62a7-427d-964f-7dca01f86507",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=fe7276a8-0cda-4ead-86c6-f5164c040bdd",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -177,6 +177,14 @@
       "ok": false,
       "count": 0,
       "error": "Feed returned 0 usable items"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "domain": "daggers.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Eastbourne Borough",
