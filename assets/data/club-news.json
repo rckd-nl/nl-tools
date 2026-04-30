@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-30T17:48:08Z",
+  "generatedAt": "2026-04-30T19:02:27Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=f4812b60-5648-40a0-bb04-b5afa17688b6",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=71d49b0e-7ecc-46d0-ab64-fbc1d5513f38",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Annual Accounts 2024/25",
+      "url": "https://southendunited.co.uk/news/2026/april/30/annual-accounts-2024-25/",
+      "published": "2026-04-30T18:30:00Z"
+    },
     {
       "club": "Altrincham",
       "code": "ALT",
@@ -717,15 +726,6 @@
       "published": "2026-04-30T13:29:52Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "250 Club April 2026 Prize Draw",
-      "url": "https://daggers.co.uk/250-club-april-2026-prize-draw/",
-      "published": "2026-04-30T13:17:56Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -751,15 +751,6 @@
       "title": "LEWIS FENSOME BECOMES RECORD APPEARANCE HOLDER",
       "url": "https://macclesfieldfc.com/latest-news/lewis-fensome-becomes-record-appearance-holder/",
       "published": "2026-04-30T12:46:23Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Youth Roundup 29th April",
-      "url": "https://www.horshamfc.co.uk/2026/04/30/youth-roundup-29th-april/",
-      "published": "2026-04-30T12:31:19Z"
     },
     {
       "club": "Spennymoor Town",
@@ -832,15 +823,6 @@
       "title": "TICKET NEWS: KIDDERMINSTER HARRIERS",
       "url": "https://macclesfieldfc.com/latest-news/ticket-news-kidderminster-harriers-2/",
       "published": "2026-04-30T09:45:02Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Club Shop Open this Afternoon",
-      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-46/",
-      "published": "2026-04-30T09:42:29Z"
     },
     {
       "club": "Maidstone United",
@@ -1480,6 +1462,24 @@
       "title": "JONAH LOWES SIGNS PROFESSIONAL CONTRACT",
       "url": "https://www.carlisleunited.co.uk/news/jonah-lowes-signs-professional-contract",
       "published": "2026-04-28T14:02:00Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "John Rooney ahead of the Play-Off Eliminator against Chester",
+      "url": "https://macclesfieldfc.com/latest-news/john-rooney-ahead-of-the-play-off-eliminator-against-chester/",
+      "published": "2026-04-28T14:00:42Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Hamblin stays a Stone",
+      "url": "https://maidstoneunited.co.uk/04/28/hamblin-stays-a-stone/",
+      "published": "2026-04-28T13:57:23Z"
     }
   ]
 }
