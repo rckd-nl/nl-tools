@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-30T20:22:30Z",
+  "generatedAt": "2026-04-30T21:44:37Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3737,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=c1606fa2-73ce-40d8-9383-354622ea7461",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=d30b1bca-97eb-429e-95bc-9e0c635cff89",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -446,10 +446,10 @@
     {
       "club": "Dover Athletic",
       "domain": "doverathletic.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "feed": "https://doverathletic.com/news/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Eastbourne Borough",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -681,15 +681,6 @@
       "published": "2026-04-30T16:00:45Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Highlights Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/playoff-match-highlights-2526-boreham-wood/",
-      "published": "2026-04-30T16:00:00Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -769,6 +760,15 @@
       "title": "LEWIS FENSOME BECOMES RECORD APPEARANCE HOLDER",
       "url": "https://macclesfieldfc.com/latest-news/lewis-fensome-becomes-record-appearance-holder/",
       "published": "2026-04-30T12:46:23Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Youth Roundup 29th April",
+      "url": "https://www.horshamfc.co.uk/2026/04/30/youth-roundup-29th-april/",
+      "published": "2026-04-30T12:31:19Z"
     },
     {
       "club": "Spennymoor Town",
@@ -906,15 +906,6 @@
       "published": "2026-04-30T08:21:43Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/match-report-boreham-1-0-forest-green-rovers-aet-2526/",
-      "published": "2026-04-30T00:00:00Z"
-    },
-    {
       "club": "Scunthorpe United",
       "code": "SCU",
       "short": "Scunthorpe",
@@ -922,15 +913,6 @@
       "title": "Away coach travel details for Rochdale play-off encounter",
       "url": "https://www.scunthorpe-united.co.uk/news/2026/april/away-coach-travel-details-for-rochdale-play-off-encounter/",
       "published": "2026-04-29T23:08:29Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage post Boreham Wood (A)",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-post-boreham-wood-a-2526/",
-      "published": "2026-04-29T23:00:00Z"
     },
     {
       "club": "Scunthorpe United",
@@ -1230,15 +1212,6 @@
       "published": "2026-04-29T09:00:10Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Play-off Preview | Boreham Wood (A)",
-      "url": "https://www.fgr.co.uk/news/play-off-preview-boreham-wood-a-2526/",
-      "published": "2026-04-29T09:00:00Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1480,6 +1453,33 @@
       "title": "JONAH LOWES SIGNS PROFESSIONAL CONTRACT",
       "url": "https://www.carlisleunited.co.uk/news/jonah-lowes-signs-professional-contract",
       "published": "2026-04-28T14:02:00Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "John Rooney ahead of the Play-Off Eliminator against Chester",
+      "url": "https://macclesfieldfc.com/latest-news/john-rooney-ahead-of-the-play-off-eliminator-against-chester/",
+      "published": "2026-04-28T14:00:42Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Hamblin stays a Stone",
+      "url": "https://maidstoneunited.co.uk/04/28/hamblin-stays-a-stone/",
+      "published": "2026-04-28T13:57:23Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Taylor Foran on board for 2026/27",
+      "url": "https://maidstoneunited.co.uk/04/28/taylor-foran-on-board-for-2026-27/",
+      "published": "2026-04-28T13:00:10Z"
     }
   ]
 }
