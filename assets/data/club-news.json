@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-30T07:44:55Z",
+  "generatedAt": "2026-04-30T09:57:38Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.fgr.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Gateshead",
@@ -129,7 +129,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Southend United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=bc7110c9-6e2a-4212-8e68-1122ba83b855",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=284dafb8-c961-4ad2-b549-f9f2e9c66291",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -329,7 +329,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Peterborough Sports",
@@ -581,6 +581,96 @@
     }
   ],
   "items": [
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "TRAVEL GUIDE: TORQUAY UNITED vs DORKING WANDERERS",
+      "url": "https://dwfc.co.uk/2026/04/travel-guide-torquay-united-vs-dorking-wanderers/",
+      "published": "2026-04-30T09:51:06Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "TICKET NEWS: KIDDERMINSTER HARRIERS",
+      "url": "https://macclesfieldfc.com/latest-news/ticket-news-kidderminster-harriers-2/",
+      "published": "2026-04-30T09:45:02Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Club Shop Open this Afternoon",
+      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-46/",
+      "published": "2026-04-30T09:42:29Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Hollands & Blair Women",
+      "url": "https://maidstoneunited.co.uk/04/30/key-info-hollands-blair-women/",
+      "published": "2026-04-30T09:27:41Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Torquay Tickets Now Live",
+      "url": "https://dwfc.co.uk/2026/04/torquay-tickets-now-live/",
+      "published": "2026-04-30T09:12:56Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Your Matchday Guide: Weston-super-Mare",
+      "url": "https://hornchurchfc.com/your-matchday-guide-weston-super-mare/",
+      "published": "2026-04-30T09:12:50Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "BTMK Box Office And Club Shop Opening Hours",
+      "url": "https://southendunited.co.uk/news/2026/april/30/btmk-box-office-and-club-shop-opening-hours/",
+      "published": "2026-04-30T08:53:34Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "U19s Match Report: Yeovil Town 6-0 Metropolitan Police",
+      "url": "https://ytfc.net/2026/04/u19s-match-report-yeovil-town-6-0-metropolitan-police/",
+      "published": "2026-04-30T08:40:43Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Play-Off Tickets | United v Dorking",
+      "url": "https://torquayunited.com/play-off-tickets-united-v-dorking/",
+      "published": "2026-04-30T08:27:47Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "U19s: Southend United 4-0 Oxford City",
+      "url": "https://southendunited.co.uk/news/2026/april/30/u19s--southend-united-4-0-oxford-city/",
+      "published": "2026-04-30T08:21:43Z"
+    },
     {
       "club": "Scunthorpe United",
       "code": "SCU",
@@ -879,15 +969,6 @@
       "published": "2026-04-29T09:00:10Z"
     },
     {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Play-Off Ticket Latest",
-      "url": "https://torquayunited.com/play-off-ticket-latest/",
-      "published": "2026-04-29T08:59:31Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -913,6 +994,15 @@
       "title": "MATT WORTHINGTON | PLAY-OFF SEMI-FINAL | TRAINING",
       "url": "https://torquayunited.com/matt-worthington-play-off-semi-final-training/",
       "published": "2026-04-29T07:11:21Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Play-Off Ticket Latest",
+      "url": "https://torquayunited.com/play-off-ticket-latest/",
+      "published": "2026-04-29T07:00:31Z"
     },
     {
       "club": "Southend United",
@@ -1390,96 +1480,6 @@
       "title": "Weekend round up (26/4/2026)",
       "url": "https://maidstoneunited.co.uk/04/27/weekend-round-up-26-4-2026/",
       "published": "2026-04-27T18:12:47Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Luke Moore Retires From Professional Football",
-      "url": "https://dwfc.co.uk/2026/04/luke-moore-retires-from-professional-football/",
-      "published": "2026-04-27T18:00:30Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "End Of Season Catch Up With Neil",
-      "url": "https://southportfc.net/end-of-season-catch-up-with-neil/",
-      "published": "2026-04-27T17:41:03Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Gallery: Awards Night Winners",
-      "url": "https://wsmafc.co.uk/gallery-awards-night-winners/",
-      "published": "2026-04-27T17:37:35Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Every Step For Dev",
-      "url": "https://tonbridgeangels.co.uk/every-step-for-dev/",
-      "published": "2026-04-27T17:27:45Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "York City Ladies secure their status as a National League club for a fifth season!",
-      "url": "https://yorkcityfootballclub.co.uk/york-city-ladies-secure-their-status-as-a-national-league-club-for-a-fifth-season/",
-      "published": "2026-04-27T16:06:48Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Chairman’s notes: Forest Green Rovers (H)",
-      "url": "https://www.borehamwoodfootballclub.co.uk/chairmans-notes-forest-green-rovers-h-2/",
-      "published": "2026-04-27T15:52:20Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Dibbs: Fans were brilliant",
-      "url": "https://harriers.co.uk/news/2026/04/27/dibbs-fans-were-brilliant/",
-      "published": "2026-04-27T15:26:43Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Press: Harry Taylor Looks Ahead To Scunthorpe United",
-      "url": "https://southendunited.co.uk/news/2026/april/27/press--harry-taylor-looks-ahead-to-scunthorpe-united/",
-      "published": "2026-04-27T15:25:48Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "25-26 Harriers award winners",
-      "url": "https://harriers.co.uk/news/2026/04/27/25-26-harriers-award-winners/",
-      "published": "2026-04-27T15:21:01Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Watch Scott Bartlett’s Maidstone United post-match interview",
-      "url": "https://www.bathcityfc.com/watch-scott-bartletts-maidstone-united-post-match-interview/",
-      "published": "2026-04-27T15:19:39Z"
     }
   ]
 }
