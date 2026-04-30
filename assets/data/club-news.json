@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-30T21:44:37Z",
+  "generatedAt": "2026-04-30T22:38:59Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3737,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=d30b1bca-97eb-429e-95bc-9e0c635cff89",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=7a3929cf-62a7-427d-964f-7dca01f86507",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "City miss out on repeat Cup success in penalty shoot-out defeat",
+      "url": "https://www.bathcityfc.com/city-miss-out-on-repeat-cup-success-in-penalty-shoot-out-defeat/",
+      "published": "2026-04-30T22:10:10Z"
+    },
+    {
       "club": "Southport",
       "code": "SPT",
       "short": "Southport",
@@ -681,6 +690,15 @@
       "published": "2026-04-30T16:00:45Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Highlights Boreham Wood",
+      "url": "https://www.fgr.co.uk/news/playoff-match-highlights-2526-boreham-wood/",
+      "published": "2026-04-30T16:00:00Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -733,6 +751,15 @@
       "title": "Early Bird Season Ticket window extended until midnight on Monday 4th May",
       "url": "https://yorkcityfootballclub.co.uk/early-bird-season-ticket-window-extended-until-midnight-on-monday-4th-may/",
       "published": "2026-04-30T13:29:52Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "250 Club April 2026 Prize Draw",
+      "url": "https://daggers.co.uk/250-club-april-2026-prize-draw/",
+      "published": "2026-04-30T13:17:56Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -843,6 +870,15 @@
       "published": "2026-04-30T09:45:02Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Club Shop Open this Afternoon",
+      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-46/",
+      "published": "2026-04-30T09:42:29Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -906,6 +942,15 @@
       "published": "2026-04-30T08:21:43Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report Boreham Wood",
+      "url": "https://www.fgr.co.uk/news/match-report-boreham-1-0-forest-green-rovers-aet-2526/",
+      "published": "2026-04-30T00:00:00Z"
+    },
+    {
       "club": "Scunthorpe United",
       "code": "SCU",
       "short": "Scunthorpe",
@@ -913,6 +958,15 @@
       "title": "Away coach travel details for Rochdale play-off encounter",
       "url": "https://www.scunthorpe-united.co.uk/news/2026/april/away-coach-travel-details-for-rochdale-play-off-encounter/",
       "published": "2026-04-29T23:08:29Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Robbie Savage post Boreham Wood (A)",
+      "url": "https://www.fgr.co.uk/news/robbie-savage-post-boreham-wood-a-2526/",
+      "published": "2026-04-29T23:00:00Z"
     },
     {
       "club": "Scunthorpe United",
@@ -1212,6 +1266,15 @@
       "published": "2026-04-29T09:00:10Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Play-off Preview | Boreham Wood (A)",
+      "url": "https://www.fgr.co.uk/news/play-off-preview-boreham-wood-a-2526/",
+      "published": "2026-04-29T09:00:00Z"
+    },
+    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1417,69 +1480,6 @@
       "title": "Macclesfield clash available to watch on DAZN",
       "url": "https://chesterfc.com/04/28/dazn/",
       "published": "2026-04-28T15:00:21Z"
-    },
-    {
-      "club": "Salisbury",
-      "code": "SAL",
-      "short": "Salisbury",
-      "domain": "salisburyfc.co.uk",
-      "title": "Shirt Sleeve Sponsorship Opportunity",
-      "url": "https://salisburyfc.co.uk/2026/04/28/shirt-sleeve-sponsorship-opportunity/",
-      "published": "2026-04-28T14:56:50Z"
-    },
-    {
-      "club": "Morecambe",
-      "code": "MOR",
-      "short": "Morecambe",
-      "domain": "morecambefc.com",
-      "title": "FORMER PLAYERS ASSOCIATION",
-      "url": "https://www.morecambefc.com/news/2026/april/28/former-players-association-/",
-      "published": "2026-04-28T14:35:00Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Play-Off Eliminator now on general sale with tickets to be sold on match day!",
-      "url": "https://www.borehamwoodfootballclub.co.uk/play-off-eliminator-now-on-general-sale-with-tickets-to-be-sold-on-match-day/",
-      "published": "2026-04-28T14:25:29Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "JONAH LOWES SIGNS PROFESSIONAL CONTRACT",
-      "url": "https://www.carlisleunited.co.uk/news/jonah-lowes-signs-professional-contract",
-      "published": "2026-04-28T14:02:00Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "John Rooney ahead of the Play-Off Eliminator against Chester",
-      "url": "https://macclesfieldfc.com/latest-news/john-rooney-ahead-of-the-play-off-eliminator-against-chester/",
-      "published": "2026-04-28T14:00:42Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Hamblin stays a Stone",
-      "url": "https://maidstoneunited.co.uk/04/28/hamblin-stays-a-stone/",
-      "published": "2026-04-28T13:57:23Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Taylor Foran on board for 2026/27",
-      "url": "https://maidstoneunited.co.uk/04/28/taylor-foran-on-board-for-2026-27/",
-      "published": "2026-04-28T13:00:10Z"
     }
   ]
 }
