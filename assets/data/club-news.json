@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-01T18:14:54Z",
+  "generatedAt": "2026-05-01T19:41:59Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=e4e7c84e-9250-49dd-9b5c-c646ed829280",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=e9bba22f-4abf-4e35-b303-65b592a92316",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Season Ticket Renewal Update",
+      "url": "https://wokingfc.co.uk/05/01/season-ticket-renewal-update/",
+      "published": "2026-05-01T18:39:29Z"
+    },
     {
       "club": "Enfield Town",
       "code": "ENF",
@@ -850,6 +859,15 @@
       "title": "TOM PIATAK'S MESSAGE",
       "url": "https://www.carlisleunited.co.uk/news/tom-piataks-message",
       "published": "2026-05-01T11:30:00Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "City in Action – Weston Super Mare Women (N) – Somerset FA Junior Cup Final",
+      "url": "https://www.bathcityfc.com/city-in-action-weston-super-mare-women-n-somerset-fa-junior-cup-final/",
+      "published": "2026-05-01T11:28:29Z"
     },
     {
       "club": "Kidderminster Harriers",
@@ -1212,6 +1230,15 @@
       "published": "2026-04-30T13:29:52Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "250 Club April 2026 Prize Draw",
+      "url": "https://daggers.co.uk/250-club-april-2026-prize-draw/",
+      "published": "2026-04-30T13:17:56Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1300,6 +1327,15 @@
       "title": "TRAVEL GUIDE: TORQUAY UNITED vs DORKING WANDERERS",
       "url": "https://dwfc.co.uk/2026/04/travel-guide-torquay-united-vs-dorking-wanderers/",
       "published": "2026-04-30T09:51:06Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Club Shop Open this Afternoon",
+      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-46/",
+      "published": "2026-04-30T09:42:29Z"
     },
     {
       "club": "Maidstone United",
@@ -1444,42 +1480,6 @@
       "title": "Goals galore but young Robins just miss out",
       "url": "https://altrinchamfc.com/blogs/news/goals-galore-but-young-robins-just-miss-out",
       "published": "2026-04-29T20:28:22Z"
-    },
-    {
-      "club": "Salisbury",
-      "code": "SAL",
-      "short": "Salisbury",
-      "domain": "salisburyfc.co.uk",
-      "title": "Retained / Released List",
-      "url": "https://salisburyfc.co.uk/2026/04/29/retained-released-list/",
-      "published": "2026-04-29T20:18:38Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Hornchurch Match Tickets available for ST Holders & Supporters Coach Tickets available",
-      "url": "https://wsmafc.co.uk/hornchurch-match-tickets-available-for-st-holders-supporters-coach-tickets-available/",
-      "published": "2026-04-29T18:36:32Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Inside Weston #013: Vs Hemel Hempstead (A)",
-      "url": "https://wsmafc.co.uk/inside-weston-013-vs-hemel-hempstead-a/",
-      "published": "2026-04-29T18:06:28Z"
-    },
-    {
-      "club": "Chesham United",
-      "code": "CHU",
-      "short": "Chesham",
-      "domain": "cheshamunited.co.uk",
-      "title": "Zak Joseph departs the Meadow",
-      "url": "https://cheshamunited.co.uk/2026/04/zak-joseph-departs-the-meadow/",
-      "published": "2026-04-29T18:00:56Z"
     }
   ]
 }
