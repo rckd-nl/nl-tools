@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-04-30T23:38:50Z",
+  "generatedAt": "2026-05-01T01:34:20Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=fe7276a8-0cda-4ead-86c6-f5164c040bdd",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=bdcc21da-4b9b-4fba-a6c8-49964a35d267",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,18 +430,18 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "https://dwfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 522"
     },
     {
       "club": "Dover Athletic",
@@ -753,6 +753,15 @@
       "published": "2026-04-30T13:29:52Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "250 Club April 2026 Prize Draw",
+      "url": "https://daggers.co.uk/250-club-april-2026-prize-draw/",
+      "published": "2026-04-30T13:17:56Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -843,15 +852,6 @@
       "published": "2026-04-30T10:00:31Z"
     },
     {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "TRAVEL GUIDE: TORQUAY UNITED vs DORKING WANDERERS",
-      "url": "https://dwfc.co.uk/2026/04/travel-guide-torquay-united-vs-dorking-wanderers/",
-      "published": "2026-04-30T09:51:06Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -861,6 +861,15 @@
       "published": "2026-04-30T09:45:02Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Club Shop Open this Afternoon",
+      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-46/",
+      "published": "2026-04-30T09:42:29Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -868,15 +877,6 @@
       "title": "Key info: Hollands & Blair Women",
       "url": "https://maidstoneunited.co.uk/04/30/key-info-hollands-blair-women/",
       "published": "2026-04-30T09:27:41Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Torquay Tickets Now Live",
-      "url": "https://dwfc.co.uk/2026/04/torquay-tickets-now-live/",
-      "published": "2026-04-30T09:12:56Z"
     },
     {
       "club": "Hornchurch",
@@ -967,15 +967,6 @@
       "title": "Gallery: Southend United (H) - Michael AC Braithwaite",
       "url": "https://www.scunthorpe-united.co.uk/news/2026/april/gallery-southend-united-h-michael-ac-braithwaite/",
       "published": "2026-04-29T22:45:32Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Rutherford and Sidwell Amongst the Goals to Fire Wanderers into Play-Off Semi-Finals",
-      "url": "https://dwfc.co.uk/2026/04/rutherford-and-sidwell-amongst-the-goals-to-fire-wanderers-into-play-off-semi-finals/",
-      "published": "2026-04-29T22:01:57Z"
     },
     {
       "club": "Macclesfield",
@@ -1480,6 +1471,15 @@
       "title": "FORMER PLAYERS ASSOCIATION",
       "url": "https://www.morecambefc.com/news/2026/april/28/former-players-association-/",
       "published": "2026-04-28T14:35:00Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Play-Off Eliminator now on general sale with tickets to be sold on match day!",
+      "url": "https://www.borehamwoodfootballclub.co.uk/play-off-eliminator-now-on-general-sale-with-tickets-to-be-sold-on-match-day/",
+      "published": "2026-04-28T14:25:29Z"
     }
   ]
 }
