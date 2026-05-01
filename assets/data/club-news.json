@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-01T05:31:33Z",
+  "generatedAt": "2026-05-01T07:57:03Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3737,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=828851dd-f5fe-4823-ae41-d934ac3d6aee",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=8e13fc43-971f-4530-bd4a-688311e536e5",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Women’s Gallery: WsM AFC 1 – 1 Bath City (4 – 3 Pens)",
+      "url": "https://wsmafc.co.uk/womens-gallery-wsm-afc-1-1-bath-city-4-3-pens/",
+      "published": "2026-05-01T07:47:21Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Event: FaST Fundraising Match",
+      "url": "https://farnboroughfc.co.uk/2026/05/event-fast-fundraising-match/",
+      "published": "2026-05-01T07:00:46Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Justin Rees' Message To Supporters",
+      "url": "https://southendunited.co.uk/news/2026/may/01/justin-rees--message-to-supporters/",
+      "published": "2026-05-01T07:00:00Z"
+    },
+    {
       "club": "Bath City",
       "code": "BAT",
       "short": "Bath",
@@ -688,15 +715,6 @@
       "title": "COACH TRAVEL: KIDDERMINSTER HARRIERS",
       "url": "https://macclesfieldfc.com/latest-news/coach-travel-kidderminster-harriers-2/",
       "published": "2026-04-30T16:00:45Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Highlights Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/playoff-match-highlights-2526-boreham-wood/",
-      "published": "2026-04-30T16:00:00Z"
     },
     {
       "club": "Macclesfield",
@@ -942,15 +960,6 @@
       "published": "2026-04-30T08:21:43Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/match-report-boreham-1-0-forest-green-rovers-aet-2526/",
-      "published": "2026-04-30T00:00:00Z"
-    },
-    {
       "club": "Scunthorpe United",
       "code": "SCU",
       "short": "Scunthorpe",
@@ -958,15 +967,6 @@
       "title": "Away coach travel details for Rochdale play-off encounter",
       "url": "https://www.scunthorpe-united.co.uk/news/2026/april/away-coach-travel-details-for-rochdale-play-off-encounter/",
       "published": "2026-04-29T23:08:29Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage post Boreham Wood (A)",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-post-boreham-wood-a-2526/",
-      "published": "2026-04-29T23:00:00Z"
     },
     {
       "club": "Scunthorpe United",
@@ -1266,15 +1266,6 @@
       "published": "2026-04-29T09:00:10Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Play-off Preview | Boreham Wood (A)",
-      "url": "https://www.fgr.co.uk/news/play-off-preview-boreham-wood-a-2526/",
-      "published": "2026-04-29T09:00:00Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1480,6 +1471,15 @@
       "title": "Macclesfield clash available to watch on DAZN",
       "url": "https://chesterfc.com/04/28/dazn/",
       "published": "2026-04-28T15:00:21Z"
+    },
+    {
+      "club": "Salisbury",
+      "code": "SAL",
+      "short": "Salisbury",
+      "domain": "salisburyfc.co.uk",
+      "title": "Shirt Sleeve Sponsorship Opportunity",
+      "url": "https://salisburyfc.co.uk/2026/04/28/shirt-sleeve-sponsorship-opportunity/",
+      "published": "2026-04-28T14:56:50Z"
     }
   ]
 }
