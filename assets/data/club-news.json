@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-02T11:11:32Z",
+  "generatedAt": "2026-05-02T12:06:49Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "ReadTimeout: HTTPSConnectionPool(host='fgr.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=c40d58f4-5ada-4570-8247-5654e3f372a4",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=adec068d-0ecb-4d9c-b316-5b13f41dfedf",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -582,12 +582,30 @@
   ],
   "items": [
     {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Allstars Sports Bowl screening Playoff semi-final",
+      "url": "https://wsmafc.co.uk/allstars-sports-bowl-screening-playoff-semi-final/",
+      "published": "2026-05-02T12:00:17Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "MATCH PREVIEW: BOREHAM WOOD (H)",
+      "url": "https://www.carlisleunited.co.uk/news/match-preview-boreham-wood-h-0",
+      "published": "2026-05-02T11:35:00Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
       "domain": "trurocity.co.uk",
-      "title": "Eden Flooring & Interiors Return as Back of Shirt Sponsor",
-      "url": "https://trurocity.co.uk/2026/05/eden-flooring-interiors-return-as-back-of-shirt-sponsor/",
+      "title": "Eden Flooring & Interiors Renew Back of Shirt Sponsorship",
+      "url": "https://trurocity.co.uk/2026/05/eden-flooring-interiors-renew-sponsorship/",
       "published": "2026-05-02T11:05:49Z"
     },
     {
@@ -679,6 +697,15 @@
       "title": "From The Boardroom…",
       "url": "https://torquayunited.com/from-the-boardroom-17/",
       "published": "2026-05-02T07:30:00Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "May 200 Club Winners",
+      "url": "https://www.horshamfc.co.uk/2026/05/02/may-200-club-winners-4/",
+      "published": "2026-05-02T06:37:01Z"
     },
     {
       "club": "Torquay United",
@@ -1383,6 +1410,15 @@
       "published": "2026-04-30T13:02:18Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Youth Roundup 29th April",
+      "url": "https://www.horshamfc.co.uk/2026/04/30/youth-roundup-29th-april/",
+      "published": "2026-04-30T12:31:19Z"
+    },
+    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -1444,42 +1480,6 @@
       "title": "TRAVEL GUIDE: TORQUAY UNITED vs DORKING WANDERERS",
       "url": "https://dwfc.co.uk/2026/04/travel-guide-torquay-united-vs-dorking-wanderers/",
       "published": "2026-04-30T09:51:06Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Club Shop Open this Afternoon",
-      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-46/",
-      "published": "2026-04-30T09:42:29Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Hollands & Blair Women",
-      "url": "https://maidstoneunited.co.uk/04/30/key-info-hollands-blair-women/",
-      "published": "2026-04-30T09:27:41Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Torquay Tickets Now Live",
-      "url": "https://dwfc.co.uk/2026/04/torquay-tickets-now-live/",
-      "published": "2026-04-30T09:12:56Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Your Matchday Guide: Weston-super-Mare",
-      "url": "https://hornchurchfc.com/your-matchday-guide-weston-super-mare/",
-      "published": "2026-04-30T09:12:50Z"
     }
   ]
 }
