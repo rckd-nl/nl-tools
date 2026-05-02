@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-02T17:09:57Z",
+  "generatedAt": "2026-05-02T18:05:00Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=e41e0330-148e-4e4c-a39d-55ed4813bbeb",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=ddb21465-c753-40a5-9977-4a6786c145f1",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Recap: Harriers 3-1 Macclesfield",
+      "url": "https://harriers.co.uk/news/2026/05/02/recap-harriers-3-1-macclesfield/",
+      "published": "2026-05-02T17:46:46Z"
+    },
     {
       "club": "Scunthorpe United",
       "code": "SCU",
@@ -751,6 +760,15 @@
       "title": "Eden Flooring & Interiors Renew Back of Shirt Sponsorship",
       "url": "https://trurocity.co.uk/2026/05/eden-flooring-interiors-renew-sponsorship/",
       "published": "2026-05-02T11:05:49Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Watch the Premier League live at the Daggers",
+      "url": "https://daggers.co.uk/watch-the-premier-league-live-at-the-daggers/",
+      "published": "2026-05-02T10:39:12Z"
     },
     {
       "club": "Torquay United",
@@ -1462,24 +1480,6 @@
       "title": "Club Volunteers – Thank You",
       "url": "https://trurocity.co.uk/2026/04/club-volunteers-thank-you/",
       "published": "2026-04-30T15:00:16Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MATCH REPORT: MACCLESFIELD FC 2-1 CHESTER FC",
-      "url": "https://macclesfieldfc.com/latest-news/match-report-macclesfield-fc-2-1-chester-fc/",
-      "published": "2026-04-30T15:00:14Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Dale’s Fortunes When Playing On Sundays",
-      "url": "https://rochdaleafc.co.uk/dales-fortunes-when-playing-on-sundays/",
-      "published": "2026-04-30T14:06:58Z"
     }
   ]
 }
