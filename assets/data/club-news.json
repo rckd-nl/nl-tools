@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-02T21:27:44Z",
+  "generatedAt": "2026-05-02T22:26:09Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3739,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=38a98089-29b7-4660-87ef-38bae93898f0",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=ec5f3857-bacf-4443-a729-f88b8f1d71a5",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -634,6 +634,15 @@
       "title": "Promotion Final Opponents Confirmed",
       "url": "https://torquayunited.com/promotion-final-arrangements/",
       "published": "2026-05-02T18:58:05Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Wanderers Bow Out Of Play-Off Semi-Final",
+      "url": "https://dwfc.co.uk/2026/05/wanderers-bow-out-of-play-off-semi-final/",
+      "published": "2026-05-02T18:08:39Z"
     },
     {
       "club": "Kidderminster Harriers",
@@ -1192,15 +1201,6 @@
       "title": "Kenny Waste Management Goal of the Month – April",
       "url": "https://macclesfieldfc.com/latest-news/kenny-waste-management-goal-of-the-month-april/",
       "published": "2026-05-01T12:00:01Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "2025/26 Retained And Released List Confirmed",
-      "url": "https://www.fgr.co.uk/news/2025-26-retained-and-released-list-confirmed/",
-      "published": "2026-05-01T12:00:00Z"
     },
     {
       "club": "Altrincham",
