@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-02T12:06:49Z",
+  "generatedAt": "2026-05-02T13:54:09Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='fgr.co.uk', port=443): Read timed out. (read timeout=25)"
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=adec068d-0ecb-4d9c-b316-5b13f41dfedf",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=638043be-b68f-4917-859b-5808d1b06f91",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,42 @@
   ],
   "items": [
     {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Gallery: Training pre-Rochdale (A)",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/gallery-training-pre-rochdale-a/",
+      "published": "2026-05-02T13:17:10Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Commentary available for Hornchurch match",
+      "url": "https://wsmafc.co.uk/commentary-available-for-hornchurch-match/",
+      "published": "2026-05-02T13:00:51Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Limited 2025/26 Shirts Available & 2026/27 Away Kit Update",
+      "url": "https://chelmsfordcityfc.com/news/limited-2025-26-shirts-available-2026-27-away-kit-update/",
+      "published": "2026-05-02T13:00:00Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Ake That! Bailey Signs Up for 26/27",
+      "url": "https://tonbridgeangels.co.uk/ake-that-bailey-signs-up-for-26-27/",
+      "published": "2026-05-02T12:39:32Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -607,15 +643,6 @@
       "title": "Eden Flooring & Interiors Renew Back of Shirt Sponsorship",
       "url": "https://trurocity.co.uk/2026/05/eden-flooring-interiors-renew-sponsorship/",
       "published": "2026-05-02T11:05:49Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Watch the Premier League live at the Daggers",
-      "url": "https://daggers.co.uk/watch-the-premier-league-live-at-the-daggers/",
-      "published": "2026-05-02T10:39:12Z"
     },
     {
       "club": "Torquay United",
@@ -697,15 +724,6 @@
       "title": "From The Boardroom…",
       "url": "https://torquayunited.com/from-the-boardroom-17/",
       "published": "2026-05-02T07:30:00Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "May 200 Club Winners",
-      "url": "https://www.horshamfc.co.uk/2026/05/02/may-200-club-winners-4/",
-      "published": "2026-05-02T06:37:01Z"
     },
     {
       "club": "Torquay United",
@@ -1383,15 +1401,6 @@
       "published": "2026-04-30T13:29:52Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "250 Club April 2026 Prize Draw",
-      "url": "https://daggers.co.uk/250-club-april-2026-prize-draw/",
-      "published": "2026-04-30T13:17:56Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1408,15 +1417,6 @@
       "title": "Seymours Estate Agents partnership renewed",
       "url": "https://wokingfc.co.uk/04/30/seymours-estate-agents-partnership-renewed/",
       "published": "2026-04-30T13:02:18Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Youth Roundup 29th April",
-      "url": "https://www.horshamfc.co.uk/2026/04/30/youth-roundup-29th-april/",
-      "published": "2026-04-30T12:31:19Z"
     },
     {
       "club": "Spennymoor Town",
