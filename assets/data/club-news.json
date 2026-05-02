@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-02T13:54:09Z",
+  "generatedAt": "2026-05-02T15:08:52Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3739,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=638043be-b68f-4917-859b-5808d1b06f91",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=74e13a46-57a0-43c0-abc2-1398b22c2fa5",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Marc White’s Post-Match Reaction | Torquay (A)",
+      "url": "https://dwfc.co.uk/2026/05/marc-whites-post-match-reaction-torquay-a/",
+      "published": "2026-05-02T14:53:40Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "EVERYTHING WE LEARNT FROM MORGAN FEENEY: PRE BOREHAM WOOD (H)",
+      "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-morgan-feeney-pre-boreham-wood-h",
+      "published": "2026-05-02T14:06:52Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Hollands & Blair Women",
+      "url": "https://maidstoneunited.co.uk/05/02/key-info-hollands-blair-women/",
+      "published": "2026-05-02T14:00:41Z"
+    },
     {
       "club": "Scunthorpe United",
       "code": "SCU",
@@ -724,6 +751,15 @@
       "title": "From The Boardroom…",
       "url": "https://torquayunited.com/from-the-boardroom-17/",
       "published": "2026-05-02T07:30:00Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "May 200 Club Winners",
+      "url": "https://www.horshamfc.co.uk/2026/05/02/may-200-club-winners-4/",
+      "published": "2026-05-02T06:37:01Z"
     },
     {
       "club": "Torquay United",
@@ -1012,6 +1048,15 @@
       "title": "Kenny Waste Management Goal of the Month – April",
       "url": "https://macclesfieldfc.com/latest-news/kenny-waste-management-goal-of-the-month-april/",
       "published": "2026-05-01T12:00:01Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "2025/26 Retained And Released List Confirmed",
+      "url": "https://www.fgr.co.uk/news/2025-26-retained-and-released-list-confirmed/",
+      "published": "2026-05-01T12:00:00Z"
     },
     {
       "club": "Altrincham",
@@ -1347,6 +1392,15 @@
       "published": "2026-04-30T16:00:45Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Highlights Boreham Wood",
+      "url": "https://www.fgr.co.uk/news/playoff-match-highlights-2526-boreham-wood/",
+      "published": "2026-04-30T16:00:00Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1419,67 +1473,13 @@
       "published": "2026-04-30T13:02:18Z"
     },
     {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Club Confirms 2025/26 Retained List",
-      "url": "https://spennymoortownfc.co.uk/2026/04/30/club-confirms-2025-26-retained-list/",
-      "published": "2026-04-30T11:02:26Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Early Bird Offer Ends Tonight",
-      "url": "https://tonbridgeangels.co.uk/early-bird-offer-ends-tonight/",
-      "published": "2026-04-30T10:50:51Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Gallery: Worthing FC 2-0 Ebbsfleet United",
-      "url": "https://worthingfc.com/2026/04/gallery-worthing-fc-2-0-ebbsfleet-united/",
-      "published": "2026-04-30T10:27:29Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Your Guide For Sunday’s Playoff Semi",
-      "url": "https://rochdaleafc.co.uk/your-guide-for-sundays-playoff-semi/",
-      "published": "2026-04-30T10:22:46Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "TVOS Preview | Scunthorpe United (H)",
-      "url": "https://rochdaleafc.co.uk/tvos-preview-scunthorpe-united-h-2/",
-      "published": "2026-04-30T10:17:17Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Season Tickets 2026/27",
-      "url": "https://www.hartlepoolunited.co.uk/season-tickets-2026-27/",
-      "published": "2026-04-30T10:00:31Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "TRAVEL GUIDE: TORQUAY UNITED vs DORKING WANDERERS",
-      "url": "https://dwfc.co.uk/2026/04/travel-guide-torquay-united-vs-dorking-wanderers/",
-      "published": "2026-04-30T09:51:06Z"
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Youth Roundup 29th April",
+      "url": "https://www.horshamfc.co.uk/2026/04/30/youth-roundup-29th-april/",
+      "published": "2026-04-30T12:31:19Z"
     }
   ]
 }
