@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-02T04:51:14Z",
+  "generatedAt": "2026-05-02T07:10:47Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=bac75aec-6e7a-451e-9659-804678abceae",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=92347ade-1735-4e39-a1a1-0a3d9826896b",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "May 200 Club Winners",
+      "url": "https://www.horshamfc.co.uk/2026/05/02/may-200-club-winners-4/",
+      "published": "2026-05-02T06:37:01Z"
+    },
     {
       "club": "Torquay United",
       "code": "TOR",
@@ -1302,6 +1311,15 @@
       "published": "2026-04-30T13:02:18Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Youth Roundup 29th April",
+      "url": "https://www.horshamfc.co.uk/2026/04/30/youth-roundup-29th-april/",
+      "published": "2026-04-30T12:31:19Z"
+    },
+    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -1462,24 +1480,6 @@
       "title": "Away coach travel details for Rochdale play-off encounter",
       "url": "https://www.scunthorpe-united.co.uk/news/2026/april/away-coach-travel-details-for-rochdale-play-off-encounter/",
       "published": "2026-04-29T23:08:29Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage post Boreham Wood (A)",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-post-boreham-wood-a-2526/",
-      "published": "2026-04-29T23:00:00Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Rutherford and Sidwell Amongst the Goals to Fire Wanderers into Play-Off Semi-Finals",
-      "url": "https://dwfc.co.uk/2026/04/rutherford-and-sidwell-amongst-the-goals-to-fire-wanderers-into-play-off-semi-finals/",
-      "published": "2026-04-29T22:01:57Z"
     }
   ]
 }
