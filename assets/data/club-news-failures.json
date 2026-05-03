@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-03T09:12:07Z",
+  "generatedAt": "2026-05-03T10:26:36Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -45,10 +45,10 @@
     {
       "club": "Sutton United",
       "domain": "suttonunited.net",
-      "feed": "https://www.suttonunited.net/wp-content/uploads/2024/06/News.jpg",
+      "feed": "",
       "ok": false,
       "count": 0,
-      "error": "Feed returned 0 usable items"
+      "error": "ReadTimeout: HTTPSConnectionPool(host='suttonunited.net', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Tamworth",
@@ -93,7 +93,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=db9e9c55-1139-4ef9-9a1b-e257d4b5488e",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=87ecac98-e3a4-4f25-8af1-05be481686b5",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -216,7 +216,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Slough Town",
