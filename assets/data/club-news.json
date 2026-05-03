@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-03T12:45:13Z",
+  "generatedAt": "2026-05-03T14:09:27Z",
   "maxItems": 100,
   "sources": [
     {
@@ -145,7 +145,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='suttonunited.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='suttonunited.net', port=443) at 0x7f73c99674d0>, 'Connection to suttonunited.net timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='suttonunited.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='suttonunited.net', port=443) at 0x7f980c2bad90>, 'Connection to suttonunited.net timed out. (connect timeout=25)'))"
     },
     {
       "club": "Tamworth",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=6602bd79-ea37-4598-bbbc-7d8182fe5e53",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=b8bfd39b-75d9-41ec-a847-9c3243d7f289",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Latest Promotion Final update",
+      "url": "https://harriers.co.uk/news/2026/05/03/latest-promotion-final-update/",
+      "published": "2026-05-03T13:49:37Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "Paul Dawson after Play-Off exit against Kidderminster",
+      "url": "https://macclesfieldfc.com/latest-news/paul-dawson-after-play-off-exit-against-kidderminster/",
+      "published": "2026-05-03T13:45:20Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Team News: Rochdale (A)",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/team-news-rochdale-a-5/",
+      "published": "2026-05-03T13:00:00Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -834,15 +861,6 @@
       "published": "2026-05-02T14:06:52Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Gallery: Training pre-Rochdale (A)",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/gallery-training-pre-rochdale-a/",
-      "published": "2026-05-02T13:17:10Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -904,15 +922,6 @@
       "title": "2026/27 Early Bird Season Tickets",
       "url": "https://farnboroughfc.co.uk/2026/05/2026-27-early-bird-season-tickets/",
       "published": "2026-05-02T11:00:42Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Watch the Premier League live at the Daggers",
-      "url": "https://daggers.co.uk/watch-the-premier-league-live-at-the-daggers/",
-      "published": "2026-05-02T10:39:12Z"
     },
     {
       "club": "Torquay United",
@@ -994,6 +1003,15 @@
       "title": "From The Boardroom…",
       "url": "https://torquayunited.com/from-the-boardroom-17/",
       "published": "2026-05-02T07:30:00Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "May 200 Club Winners",
+      "url": "https://www.horshamfc.co.uk/2026/05/02/may-200-club-winners-4/",
+      "published": "2026-05-02T06:37:01Z"
     },
     {
       "club": "Truro City",
@@ -1462,24 +1480,6 @@
       "title": "SILKMEN VS HARRIERS LIVE IN BAR TWENTY SEVEN",
       "url": "https://macclesfieldfc.com/latest-news/silkmen-vs-harriers-live-in-bar-twenty-seven/",
       "published": "2026-04-30T19:00:37Z"
-    },
-    {
-      "club": "Morecambe",
-      "code": "MOR",
-      "short": "Morecambe",
-      "domain": "morecambefc.com",
-      "title": "ADAM LAKELAND APPOINTED SHRIMPS MANAGER",
-      "url": "https://www.morecambefc.com/news/2026/april/30/adam-lakeland-appointed-shrimps-manager/",
-      "published": "2026-04-30T18:30:00Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Annual Accounts 2024/25",
-      "url": "https://southendunited.co.uk/news/2026/april/30/annual-accounts-2024-25/",
-      "published": "2026-04-30T18:30:00Z"
     }
   ]
 }
