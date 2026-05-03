@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-03T17:16:51Z",
+  "generatedAt": "2026-05-03T18:07:57Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -35,6 +35,14 @@
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
     },
     {
+      "club": "Forest Green Rovers",
+      "domain": "fgr.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
+    },
+    {
       "club": "Solihull Moors",
       "domain": "solihullmoorsfc.co.uk",
       "feed": "",
@@ -45,10 +53,10 @@
     {
       "club": "Sutton United",
       "domain": "suttonunited.net",
-      "feed": "",
+      "feed": "https://www.suttonunited.net/wp-content/uploads/2024/06/News.jpg",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='suttonunited.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='suttonunited.net', port=443) at 0x7f2eeefa9950>, 'Connection to suttonunited.net timed out. (connect timeout=25)'))"
+      "error": "Feed returned 0 usable items"
     },
     {
       "club": "Tamworth",
@@ -93,7 +101,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=8f48bd77-fcb7-460e-834d-5ba7f6f804c3",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=4c54820f-b3be-4330-8214-cf5544954e0e",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
