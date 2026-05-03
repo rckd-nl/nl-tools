@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-03T07:30:31Z",
+  "generatedAt": "2026-05-03T09:12:07Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3739,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=237896c7-1eb0-40ab-a065-fa4b3fcf2dd1",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=db9e9c55-1139-4ef9-9a1b-e257d4b5488e",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Today’s The Day For United’s Women!",
+      "url": "https://torquayunited.com/todays-the-day-for-uniteds-women/",
+      "published": "2026-05-03T09:05:01Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "VIDEO: Andy Butler looks ahead to Promotion Semi-Final against Rochdale",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/video-andy-butler-looks-ahead-to-promotion-semi-final-against-rochdale/",
+      "published": "2026-05-03T08:40:32Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Hollands & Blair Women",
+      "url": "https://maidstoneunited.co.uk/05/03/key-info-hollands-blair-women/",
+      "published": "2026-05-03T08:30:41Z"
+    },
     {
       "club": "Maidstone United",
       "code": "MSU",
@@ -769,15 +796,6 @@
       "title": "EVERYTHING WE LEARNT FROM MORGAN FEENEY: PRE BOREHAM WOOD (H)",
       "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-morgan-feeney-pre-boreham-wood-h",
       "published": "2026-05-02T14:06:52Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Hollands & Blair Women",
-      "url": "https://maidstoneunited.co.uk/05/02/key-info-hollands-blair-women/",
-      "published": "2026-05-02T14:00:41Z"
     },
     {
       "club": "Scunthorpe United",
@@ -1059,15 +1077,6 @@
       "published": "2026-05-01T17:00:17Z"
     },
     {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "U18s Trial At Plainmoor",
-      "url": "https://torquayunited.com/u18s-trial-at-plainmoor/",
-      "published": "2026-05-01T17:00:00Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1212,6 +1221,15 @@
       "published": "2026-05-01T12:00:01Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "2025/26 Retained And Released List Confirmed",
+      "url": "https://www.fgr.co.uk/news/2025-26-retained-and-released-list-confirmed/",
+      "published": "2026-05-01T12:00:00Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1300,15 +1318,6 @@
       "title": "Fanbase Announced as new Ticketing Partner",
       "url": "https://wsmafc.co.uk/fanbase-announced-as-new-ticketing-partner/",
       "published": "2026-05-01T10:35:03Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Booked on our away coach to Rochdale? Take note of important information.",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/booked-on-our-away-coach-to-rochdale-take-note-of-important-information/",
-      "published": "2026-05-01T10:22:55Z"
     },
     {
       "club": "Rochdale",
@@ -1471,15 +1480,6 @@
       "title": "Young Robins excel in all areas to claim deserved win",
       "url": "https://altrinchamfc.com/blogs/news/young-robins-excel-in-all-areas-to-claim-deserved-win",
       "published": "2026-04-30T17:43:44Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SILKMEN FAN CAM: CHESTER (H)",
-      "url": "https://macclesfieldfc.com/galleries/silkmen-fan-cam-chester-h-2/",
-      "published": "2026-04-30T17:00:54Z"
     }
   ]
 }
