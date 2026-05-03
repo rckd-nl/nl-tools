@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-03T18:07:57Z",
+  "generatedAt": "2026-05-03T19:21:30Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3739,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=4c54820f-b3be-4330-8214-cf5544954e0e",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=60bd9259-f815-4286-b43f-2fa6d3eb39bf",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Youth Roundup 3rd May 2026",
+      "url": "https://www.horshamfc.co.uk/2026/05/03/youth-roundup-3rd-may-2026/",
+      "published": "2026-05-03T18:27:03Z"
+    },
     {
       "club": "Macclesfield",
       "code": "MAC",
@@ -1365,6 +1374,15 @@
       "published": "2026-05-01T12:00:01Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "2025/26 Retained And Released List Confirmed",
+      "url": "https://www.fgr.co.uk/news/2025-26-retained-and-released-list-confirmed/",
+      "published": "2026-05-01T12:00:00Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1462,24 +1480,6 @@
       "title": "Club Shop Opening Times: Car Boot & Youth Tournament",
       "url": "https://salisburyfc.co.uk/2026/05/01/club-shop-opening-times-car-boot-youth-tournament/",
       "published": "2026-05-01T09:52:33Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "2026/27 Early Bird Offer Has Ended",
-      "url": "https://eastleighfc.com/2026/05/2026-27-early-bird-offer-has-ended/",
-      "published": "2026-05-01T09:47:24Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "ACTION REPLAY: CHESTER (H)",
-      "url": "https://macclesfieldfc.com/galleries/action-replay-chester-h-2/",
-      "published": "2026-05-01T09:00:52Z"
     }
   ]
 }
