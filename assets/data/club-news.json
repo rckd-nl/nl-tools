@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-03T01:25:16Z",
+  "generatedAt": "2026-05-03T05:09:35Z",
   "maxItems": 100,
   "sources": [
     {
@@ -142,10 +142,10 @@
     {
       "club": "Sutton United",
       "domain": "suttonunited.net",
-      "feed": "https://www.suttonunited.net/wp-content/uploads/2024/06/News.jpg",
+      "feed": "https://www.suttonunited.net",
       "ok": false,
       "count": 0,
-      "error": "Feed returned 0 usable items"
+      "error": "ReadTimeout: HTTPSConnectionPool(host='suttonunited.net', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Tamworth",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=15fcfc20-3661-4965-95af-0d6c39b1f8e2",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=887a54e6-3001-4796-9859-c4f08ca991bd",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
