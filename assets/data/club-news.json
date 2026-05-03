@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-03T19:21:30Z",
+  "generatedAt": "2026-05-03T20:30:35Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3739,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=60bd9259-f815-4286-b43f-2fa6d3eb39bf",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=bcd30199-15eb-4969-b7e1-1b85e7cac81d",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,15 +581,6 @@
     }
   ],
   "items": [
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Youth Roundup 3rd May 2026",
-      "url": "https://www.horshamfc.co.uk/2026/05/03/youth-roundup-3rd-may-2026/",
-      "published": "2026-05-03T18:27:03Z"
-    },
     {
       "club": "Macclesfield",
       "code": "MAC",
@@ -1122,15 +1113,6 @@
       "published": "2026-05-02T08:00:32Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "May 200 Club Winners",
-      "url": "https://www.horshamfc.co.uk/2026/05/02/may-200-club-winners-4/",
-      "published": "2026-05-02T06:37:01Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1374,15 +1356,6 @@
       "published": "2026-05-01T12:00:01Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "2025/26 Retained And Released List Confirmed",
-      "url": "https://www.fgr.co.uk/news/2025-26-retained-and-released-list-confirmed/",
-      "published": "2026-05-01T12:00:00Z"
-    },
-    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1480,6 +1453,33 @@
       "title": "Club Shop Opening Times: Car Boot & Youth Tournament",
       "url": "https://salisburyfc.co.uk/2026/05/01/club-shop-opening-times-car-boot-youth-tournament/",
       "published": "2026-05-01T09:52:33Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "2026/27 Early Bird Offer Has Ended",
+      "url": "https://eastleighfc.com/2026/05/2026-27-early-bird-offer-has-ended/",
+      "published": "2026-05-01T09:47:24Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "ACTION REPLAY: CHESTER (H)",
+      "url": "https://macclesfieldfc.com/galleries/action-replay-chester-h-2/",
+      "published": "2026-05-01T09:00:52Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Bluebirds Dream Draw Week 36",
+      "url": "https://chippenhamtown.com/05/01/bluebirds-dream-draw-week-36/",
+      "published": "2026-05-01T09:00:15Z"
     }
   ]
 }
