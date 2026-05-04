@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-04T14:35:49Z",
+  "generatedAt": "2026-05-04T16:33:41Z",
   "maxItems": 100,
   "sources": [
     {
@@ -142,10 +142,10 @@
     {
       "club": "Sutton United",
       "domain": "suttonunited.net",
-      "feed": "https://www.suttonunited.net/wp-content/uploads/2024/06/News.jpg",
+      "feed": "",
       "ok": false,
       "count": 0,
-      "error": "Feed returned 0 usable items"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='suttonunited.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='suttonunited.net', port=443) at 0x7f48048af9d0>, 'Connection to suttonunited.net timed out. (connect timeout=25)'))"
     },
     {
       "club": "Tamworth",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=76443514-4896-4139-9769-440cf37ce2d4",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=c73a83c0-ca72-44a3-a8f9-fb3b317cc6a6",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Welcome to Chester FC, Phil Parkinson!",
+      "url": "https://chesterfc.com/05/04/welcome-to-chester-fc-phil-parkinson/",
+      "published": "2026-05-04T16:00:33Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "/Alt Angle: MUFC Women vs. Hollands & Blair",
+      "url": "https://maidstoneunited.co.uk/05/04/alt-angle-mufc-women-vs-hollands-blair/",
+      "published": "2026-05-04T15:53:11Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "BULLSCAST | Staying Up! End of Season Review EP.24",
+      "url": "https://herefordfc.co.uk/2026/05/bullscast-staying-up-end-of-season-review-ep-24/",
+      "published": "2026-05-04T15:00:48Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -751,6 +778,15 @@
       "title": "Weekend round up (3/5/2026)",
       "url": "https://maidstoneunited.co.uk/05/03/weekend-round-up-3-5-2026/",
       "published": "2026-05-03T21:30:45Z"
+    },
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "Golden Letter Draw Results",
+      "url": "https://marinefc.com/golden-letter-draw-results/",
+      "published": "2026-05-03T20:48:00Z"
     },
     {
       "club": "Horsham",
@@ -1444,42 +1480,6 @@
       "title": "Gilbs goes for the Shots",
       "url": "https://maidstoneunited.co.uk/05/01/gilbs-goes-for-the-shots/",
       "published": "2026-05-01T14:58:28Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "2026 Retained and Released List",
-      "url": "https://radcliffefc.com/2026-retained-and-released-list/",
-      "published": "2026-05-01T13:54:35Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MATCH PREVIEW: KIDDERMINSTER HARRIERS VS MACCLESFIELD FC",
-      "url": "https://macclesfieldfc.com/latest-news/match-preview-kidderminster-harriers-vs-macclesfield-fc/",
-      "published": "2026-05-01T13:00:00Z"
-    },
-    {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "Welcome, Billy Holland!",
-      "url": "https://etfc.london/welcome-billy-holland/",
-      "published": "2026-05-01T12:21:19Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "TLK Scaffolding Services Become New Shirt Sleeve Sponsor",
-      "url": "https://trurocity.co.uk/2026/05/tlk-scaffolding-services-become-new-shirt-sleeve-sponsor/",
-      "published": "2026-05-01T12:16:28Z"
     }
   ]
 }

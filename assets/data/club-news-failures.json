@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-04T14:35:49Z",
+  "generatedAt": "2026-05-04T16:33:41Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -45,10 +45,10 @@
     {
       "club": "Sutton United",
       "domain": "suttonunited.net",
-      "feed": "https://www.suttonunited.net/wp-content/uploads/2024/06/News.jpg",
+      "feed": "",
       "ok": false,
       "count": 0,
-      "error": "Feed returned 0 usable items"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='suttonunited.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='suttonunited.net', port=443) at 0x7f48048af9d0>, 'Connection to suttonunited.net timed out. (connect timeout=25)'))"
     },
     {
       "club": "Tamworth",
@@ -93,7 +93,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=76443514-4896-4139-9769-440cf37ce2d4",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=c73a83c0-ca72-44a3-a8f9-fb3b317cc6a6",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
