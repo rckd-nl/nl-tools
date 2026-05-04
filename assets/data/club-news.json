@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-04T21:32:14Z",
+  "generatedAt": "2026-05-04T22:49:08Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='fgr.co.uk', port=443): Read timed out. (read timeout=25)"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3739,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -145,7 +145,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='suttonunited.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='suttonunited.net', port=443) at 0x7fa358dc5bd0>, 'Connection to suttonunited.net timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='suttonunited.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='suttonunited.net', port=443) at 0x7fab6ec76ed0>, 'Connection to suttonunited.net timed out. (connect timeout=25)'))"
     },
     {
       "club": "Tamworth",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=4c81af0a-6a31-4d7d-9a57-158b89ac9f40",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=a06a2551-66de-49d7-bc34-3f23f2fd8e76",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
