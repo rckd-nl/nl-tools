@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-03T23:32:39Z",
+  "generatedAt": "2026-05-04T01:27:18Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=8e01d2f4-9029-4a58-806b-510897ba9012",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=0a84070f-fc0b-4825-972d-2d5448324207",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -589,6 +589,15 @@
       "title": "Highlights | Dale 2-1 Scunthorpe United",
       "url": "https://rochdaleafc.co.uk/highlights-dale-2-1-scunthorpe-united/",
       "published": "2026-05-03T23:06:15Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Youth Roundup 3rd May 2026",
+      "url": "https://www.horshamfc.co.uk/2026/05/03/youth-roundup-3rd-may-2026/",
+      "published": "2026-05-03T18:27:03Z"
     },
     {
       "club": "Rochdale",
@@ -1122,6 +1131,15 @@
       "published": "2026-05-02T08:00:32Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "May 200 Club Winners",
+      "url": "https://www.horshamfc.co.uk/2026/05/02/may-200-club-winners-4/",
+      "published": "2026-05-02T06:37:01Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1462,24 +1480,6 @@
       "title": "Club Shop Opening Times: Car Boot & Youth Tournament",
       "url": "https://salisburyfc.co.uk/2026/05/01/club-shop-opening-times-car-boot-youth-tournament/",
       "published": "2026-05-01T09:52:33Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "2026/27 Early Bird Offer Has Ended",
-      "url": "https://eastleighfc.com/2026/05/2026-27-early-bird-offer-has-ended/",
-      "published": "2026-05-01T09:47:24Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "ACTION REPLAY: CHESTER (H)",
-      "url": "https://macclesfieldfc.com/galleries/action-replay-chester-h-2/",
-      "published": "2026-05-01T09:00:52Z"
     }
   ]
 }
