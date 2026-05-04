@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-04T18:15:24Z",
+  "generatedAt": "2026-05-04T20:04:37Z",
   "maxItems": 100,
   "sources": [
     {
@@ -145,7 +145,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='suttonunited.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='suttonunited.net', port=443) at 0x7f2f2e1bab50>, 'Connection to suttonunited.net timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='suttonunited.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='suttonunited.net', port=443) at 0x7f20d6f45d90>, 'Connection to suttonunited.net timed out. (connect timeout=25)'))"
     },
     {
       "club": "Tamworth",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=35301df3-433b-4681-8f04-5377d5107c67",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=13874ae5-7a2c-4daa-96ca-5c8c1140fe4a",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Season Tickets and Matchday Pricing 2026/27",
+      "url": "https://etfc.london/season-tickets-and-matchday-pricing-2026-27/",
+      "published": "2026-05-04T19:59:50Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "City in Action – Stockwood Wanderers (H) – Shield Services Group SW Reg WFL Div 1N",
+      "url": "https://www.bathcityfc.com/city-in-action-stockwood-wanderers-h-shield-services-group-sw-reg-wfl-div-1n/",
+      "published": "2026-05-04T18:41:41Z"
+    },
     {
       "club": "Torquay United",
       "code": "TOR",
@@ -933,15 +951,6 @@
       "published": "2026-05-03T13:45:20Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Daggers Appoint Lee Allinson as First Team Manager",
-      "url": "https://daggers.co.uk/daggers-appoint-lee-allinson-as-first-team-manager/",
-      "published": "2026-05-03T13:44:45Z"
-    },
-    {
       "club": "Scunthorpe United",
       "code": "SCU",
       "short": "Scunthorpe",
@@ -1264,15 +1273,6 @@
       "title": "2026/27 Early Bird Season Tickets",
       "url": "https://farnboroughfc.co.uk/2026/05/2026-27-early-bird-season-tickets/",
       "published": "2026-05-02T11:00:42Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Watch the Premier League live at the Daggers",
-      "url": "https://daggers.co.uk/watch-the-premier-league-live-at-the-daggers/",
-      "published": "2026-05-02T10:39:12Z"
     },
     {
       "club": "Tonbridge Angels",
