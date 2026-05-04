@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-04T16:33:41Z",
+  "generatedAt": "2026-05-04T18:15:24Z",
   "maxItems": 100,
   "sources": [
     {
@@ -145,7 +145,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='suttonunited.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='suttonunited.net', port=443) at 0x7f48048af9d0>, 'Connection to suttonunited.net timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='suttonunited.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='suttonunited.net', port=443) at 0x7f2f2e1bab50>, 'Connection to suttonunited.net timed out. (connect timeout=25)'))"
     },
     {
       "club": "Tamworth",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=c73a83c0-ca72-44a3-a8f9-fb3b317cc6a6",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=35301df3-433b-4681-8f04-5377d5107c67",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Hornchurch Play-Off Final Tickets: Plainmoor Pass Holder Sales Window",
+      "url": "https://torquayunited.com/hornchurch-play-off-final-tickets-plainmoor-pass-holder-sales-window/",
+      "published": "2026-05-04T17:51:35Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Women’s Gallery: WsM AFC 1 – 1 Yeovil Town",
+      "url": "https://wsmafc.co.uk/womens-gallery-wsm-afc-1-1-yeovil-town/",
+      "published": "2026-05-04T17:14:05Z"
+    },
     {
       "club": "Chester",
       "code": "CHE",
@@ -915,6 +933,15 @@
       "published": "2026-05-03T13:45:20Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Daggers Appoint Lee Allinson as First Team Manager",
+      "url": "https://daggers.co.uk/daggers-appoint-lee-allinson-as-first-team-manager/",
+      "published": "2026-05-03T13:44:45Z"
+    },
+    {
       "club": "Scunthorpe United",
       "code": "SCU",
       "short": "Scunthorpe",
@@ -1239,13 +1266,13 @@
       "published": "2026-05-02T11:00:42Z"
     },
     {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Today At Plainmoor | United v Dorking",
-      "url": "https://torquayunited.com/tomorrow-at-plainmoor-united-v-dorking/",
-      "published": "2026-05-02T09:33:14Z"
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Watch the Premier League live at the Daggers",
+      "url": "https://daggers.co.uk/watch-the-premier-league-live-at-the-daggers/",
+      "published": "2026-05-02T10:39:12Z"
     },
     {
       "club": "Tonbridge Angels",
@@ -1453,33 +1480,6 @@
       "title": "Event: Spring Festival 2026",
       "url": "https://farnboroughfc.co.uk/2026/05/event-spring-festival-2026/",
       "published": "2026-05-01T16:00:44Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Brett McGavin Signs New Two-Year Deal",
-      "url": "https://ytfc.net/2026/05/brett-mcgavin-signs-new-two-year-deal/",
-      "published": "2026-05-01T16:00:34Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "The Seagulls play The Urchins in National League South play-off semi-final",
-      "url": "https://wsmafc.co.uk/the-seagulls-play-the-urchins-in-national-league-south-play-off-semi-final/",
-      "published": "2026-05-01T15:15:22Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Gilbs goes for the Shots",
-      "url": "https://maidstoneunited.co.uk/05/01/gilbs-goes-for-the-shots/",
-      "published": "2026-05-01T14:58:28Z"
     }
   ]
 }
