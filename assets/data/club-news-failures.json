@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-04T20:04:37Z",
+  "generatedAt": "2026-05-04T21:32:14Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -35,6 +35,14 @@
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
     },
     {
+      "club": "Forest Green Rovers",
+      "domain": "fgr.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='fgr.co.uk', port=443): Read timed out. (read timeout=25)"
+    },
+    {
       "club": "Solihull Moors",
       "domain": "solihullmoorsfc.co.uk",
       "feed": "",
@@ -48,7 +56,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='suttonunited.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='suttonunited.net', port=443) at 0x7f20d6f45d90>, 'Connection to suttonunited.net timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='suttonunited.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='suttonunited.net', port=443) at 0x7fa358dc5bd0>, 'Connection to suttonunited.net timed out. (connect timeout=25)'))"
     },
     {
       "club": "Tamworth",
@@ -93,7 +101,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=13874ae5-7a2c-4daa-96ca-5c8c1140fe4a",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=4c81af0a-6a31-4d7d-9a57-158b89ac9f40",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
