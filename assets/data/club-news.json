@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-04T22:49:08Z",
+  "generatedAt": "2026-05-04T23:45:09Z",
   "maxItems": 100,
   "sources": [
     {
@@ -145,7 +145,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='suttonunited.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='suttonunited.net', port=443) at 0x7fab6ec76ed0>, 'Connection to suttonunited.net timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='suttonunited.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='suttonunited.net', port=443) at 0x7f07c3b5ea50>, 'Connection to suttonunited.net timed out. (connect timeout=25)'))"
     },
     {
       "club": "Tamworth",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=a06a2551-66de-49d7-bc34-3f23f2fd8e76",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=2a517e06-fe17-466a-9a7d-02f297bb917b",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -960,6 +960,15 @@
       "published": "2026-05-03T13:45:20Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Daggers Appoint Lee Allinson as First Team Manager",
+      "url": "https://daggers.co.uk/daggers-appoint-lee-allinson-as-first-team-manager/",
+      "published": "2026-05-03T13:44:45Z"
+    },
+    {
       "club": "Scunthorpe United",
       "code": "SCU",
       "short": "Scunthorpe",
@@ -1284,6 +1293,15 @@
       "published": "2026-05-02T11:00:42Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Watch the Premier League live at the Daggers",
+      "url": "https://daggers.co.uk/watch-the-premier-league-live-at-the-daggers/",
+      "published": "2026-05-02T10:39:12Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1462,24 +1480,6 @@
       "title": "2026/27 Season Tickets On Sale Now!",
       "url": "https://wokingfc.co.uk/05/01/2026-27-season-tickets-on-sale-now/",
       "published": "2026-05-01T16:58:44Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Matt Gould Signs One-Year Deal",
-      "url": "https://ytfc.net/2026/05/matt-gould-signs-one-year-deal/",
-      "published": "2026-05-01T16:42:57Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "NEWS | Fans Tune In For Tense Season Climax",
-      "url": "https://herefordfc.co.uk/2026/05/news-fans-tune-in-for-tense-season-climax/",
-      "published": "2026-05-01T16:10:31Z"
     }
   ]
 }
