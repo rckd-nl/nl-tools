@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-05T07:37:36Z",
+  "generatedAt": "2026-05-05T09:34:52Z",
   "maxItems": 100,
   "sources": [
     {
@@ -142,10 +142,10 @@
     {
       "club": "Sutton United",
       "domain": "suttonunited.net",
-      "feed": "",
+      "feed": "https://www.suttonunited.net/wp-content/uploads/2024/06/News.jpg",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='suttonunited.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='suttonunited.net', port=443) at 0x7f8c48c4ab50>, 'Connection to suttonunited.net timed out. (connect timeout=25)'))"
+      "error": "Feed returned 0 usable items"
     },
     {
       "club": "Tamworth",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=31f037dc-4293-475b-86cb-30941f268f40",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=1c88310b-693f-4875-b11b-068fa5d4ee21",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,105 @@
     }
   ],
   "items": [
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Gallery: Rochdale (A) - Steve Hope",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/gallery-rochdale-a-steve-hope/",
+      "published": "2026-05-05T09:31:50Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Hunt’s Food Group Extend Partnership with Yeovil Town",
+      "url": "https://ytfc.net/2026/05/hunts-food-group-extend-partnership-with-yeovil-town/",
+      "published": "2026-05-05T09:25:05Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "FAB Minutes: January & March 2026",
+      "url": "https://southendunited.co.uk/news/2026/may/05/fab-minutes--january---march-2026/",
+      "published": "2026-05-05T09:12:29Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "NEWS | Season Ticket Renewal Emails Sent Out",
+      "url": "https://herefordfc.co.uk/2026/05/news-season-ticket-renewal-emails-sent-out/",
+      "published": "2026-05-05T09:09:52Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "ACTION REPLAY: KIDDERMINSTER HARRIERS (A)",
+      "url": "https://macclesfieldfc.com/galleries/action-replay-kidderminster-harriers-a/",
+      "published": "2026-05-05T09:00:29Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Ticket office and club shop opening hours w/c May 4th",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/ticket-office-and-club-shop-opening-hours-w-c-may-4th/",
+      "published": "2026-05-05T08:51:39Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "April's Monthly Draw winners",
+      "url": "https://altrinchamfc.com/blogs/news/aprils-monthly-draw-winners-1",
+      "published": "2026-05-05T08:47:35Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "An End-Of-Season Message To All Angels’ Supporters",
+      "url": "https://tonbridgeangels.co.uk/an-end-of-season-message-to-all-angels-supporters/",
+      "published": "2026-05-05T08:32:55Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Wanderers Phase 3 Kit Auction",
+      "url": "https://dwfc.co.uk/2026/05/wanderers-phase-3-kit-auction/",
+      "published": "2026-05-05T08:20:08Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "2026/27 Season Tickets Proving Popular",
+      "url": "https://spennymoortownfc.co.uk/2026/05/05/2026-27-season-tickets-proving-popular/",
+      "published": "2026-05-05T08:09:25Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Inside Dale | Scunthorpe United (H)",
+      "url": "https://rochdaleafc.co.uk/inside-dale-scunthorpe-united-h-2/",
+      "published": "2026-05-05T07:51:18Z"
+    },
     {
       "club": "Tonbridge Angels",
       "code": "TON",
@@ -721,7 +820,7 @@
       "code": "HER",
       "short": "Hereford",
       "domain": "herefordfc.co.uk",
-      "title": "FANS GALLERY | Hereford FC 2-2 Peterborough Sports",
+      "title": "FAN GALLERY | Hereford FC 2-2 Peterborough Sports",
       "url": "https://herefordfc.co.uk/2026/05/fans-gallery-hereford-fc-2-2-peterborough-sports/",
       "published": "2026-05-04T10:19:20Z"
     },
@@ -1032,15 +1131,6 @@
       "published": "2026-05-03T09:05:01Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "VIDEO: Andy Butler looks ahead to Promotion Semi-Final against Rochdale",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/video-andy-butler-looks-ahead-to-promotion-semi-final-against-rochdale/",
-      "published": "2026-05-03T08:40:32Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1120,15 +1210,6 @@
       "title": "Recap: Harriers 3-1 Macclesfield",
       "url": "https://harriers.co.uk/news/2026/05/02/recap-harriers-3-1-macclesfield/",
       "published": "2026-05-02T17:46:46Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "A message from the Chair ahead of tomorrow's promotion semi-final",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/a-message-from-the-chair-ahead-of-tomorrows-promotion-semi-final/",
-      "published": "2026-05-02T16:46:53Z"
     },
     {
       "club": "Boreham Wood",
@@ -1399,87 +1480,6 @@
       "title": "Billy’s First Interview",
       "url": "https://etfc.london/billys-first-interview/",
       "published": "2026-05-01T18:09:27Z"
-    },
-    {
-      "club": "Chesham United",
-      "code": "CHU",
-      "short": "Chesham",
-      "domain": "cheshamunited.co.uk",
-      "title": "Notes from the Chair – 1st May 2026",
-      "url": "https://cheshamunited.co.uk/2026/05/notes-from-the-chair-1st-may-2026/",
-      "published": "2026-05-01T18:00:05Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "EVERYTHING WE LEARNT FROM MARK HUGHES: PRE BOREHAM WOOD (H)",
-      "url": "https://www.carlisleunited.co.uk/news/everything-we-learnt-mark-hughes-pre-boreham-wood-h",
-      "published": "2026-05-01T17:51:13Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Three days left to grab an Early Bird season ticket!",
-      "url": "https://www.bathcityfc.com/45127-2/",
-      "published": "2026-05-01T17:15:45Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "AWAY DAY BLUES: KIDDERMINSTER HARRIERS",
-      "url": "https://macclesfieldfc.com/latest-news/away-day-blues-kidderminster-harriers/",
-      "published": "2026-05-01T17:00:55Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Retained & Released List | 2025/26 Season",
-      "url": "https://ytfc.net/2026/05/retained-released-list-2025-26-season/",
-      "published": "2026-05-01T17:00:17Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Message from the CFU Board of Directors",
-      "url": "https://chesterfc.com/05/01/message-from-the-cfu-board-of-directors/",
-      "published": "2026-05-01T16:59:23Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "2026/27 Season Tickets On Sale Now!",
-      "url": "https://wokingfc.co.uk/05/01/2026-27-season-tickets-on-sale-now/",
-      "published": "2026-05-01T16:58:44Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Matt Gould Signs One-Year Deal",
-      "url": "https://ytfc.net/2026/05/matt-gould-signs-one-year-deal/",
-      "published": "2026-05-01T16:42:57Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "NEWS | Fans Tune In For Tense Season Climax",
-      "url": "https://herefordfc.co.uk/2026/05/news-fans-tune-in-for-tense-season-climax/",
-      "published": "2026-05-01T16:10:31Z"
     }
   ]
 }
