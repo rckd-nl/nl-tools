@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-06T17:57:08Z",
+  "generatedAt": "2026-05-06T20:04:17Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3739,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,42 @@
     }
   ],
   "items": [
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Change to ticket restrictions for young fans",
+      "url": "https://chesterfc.com/05/06/change-to-ticket-restrictions-for-young-fans/",
+      "published": "2026-05-06T19:55:54Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Trophy photo opportunity",
+      "url": "https://worthingfc.com/2026/05/trophy-photo-opportunity/",
+      "published": "2026-05-06T19:40:37Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Time to Vote for the 2025/26 Goal of the Season",
+      "url": "https://www.bathcityfc.com/time-to-vote-for-the-2025-26-goal-of-the-season/",
+      "published": "2026-05-06T19:06:51Z"
+    },
+    {
+      "club": "Chesham United",
+      "code": "CHU",
+      "short": "Chesham",
+      "domain": "cheshamunited.co.uk",
+      "title": "RIP Bernie Leavy",
+      "url": "https://cheshamunited.co.uk/2026/05/rip-bernie-leavy/",
+      "published": "2026-05-06T18:12:47Z"
+    },
     {
       "club": "Hereford",
       "code": "HER",
@@ -1014,6 +1050,15 @@
       "published": "2026-05-05T13:33:36Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Vote for your 2025-26 Goal of the Season!",
+      "url": "https://www.horshamfc.co.uk/2026/05/05/vote-for-your-2025-26-goal-of-the-season/",
+      "published": "2026-05-05T13:32:31Z"
+    },
+    {
       "club": "Carlisle United",
       "code": "CAR",
       "short": "Carlisle",
@@ -1435,51 +1480,6 @@
       "title": "NLS Promotion Final Ticketing Update",
       "url": "https://torquayunited.com/nls-promotion-final-ticketing-update/",
       "published": "2026-05-04T08:09:47Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Gallery: Weston-super-Mare (H)",
-      "url": "https://hornchurchfc.com/gallery-weston-super-mare-h/",
-      "published": "2026-05-04T07:34:45Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Highlights | Dale 2-1 Scunthorpe United",
-      "url": "https://rochdaleafc.co.uk/highlights-dale-2-1-scunthorpe-united/",
-      "published": "2026-05-03T23:06:15Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Invincibles. Champions.",
-      "url": "https://maidstoneunited.co.uk/05/03/invincibles-champions/",
-      "published": "2026-05-03T22:00:01Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Gallery: Hollands & Blair Women",
-      "url": "https://maidstoneunited.co.uk/05/03/gallery-hollands-blair-women/",
-      "published": "2026-05-03T21:50:25Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Weekend round up (3/5/2026)",
-      "url": "https://maidstoneunited.co.uk/05/03/weekend-round-up-3-5-2026/",
-      "published": "2026-05-03T21:30:45Z"
     }
   ]
 }
