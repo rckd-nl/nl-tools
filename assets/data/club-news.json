@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-07T17:28:42Z",
+  "generatedAt": "2026-05-07T19:23:07Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3739,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -446,10 +446,10 @@
     {
       "club": "Dover Athletic",
       "domain": "doverathletic.com",
-      "feed": "https://doverathletic.com/news/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Eastbourne Borough",
@@ -581,6 +581,51 @@
     }
   ],
   "items": [
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Bath City FC Community Update 2025/26",
+      "url": "https://www.bathcityfc.com/bath-city-fc-community-update-2025-26/",
+      "published": "2026-05-07T18:27:29Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Glovers to Visit Merthyr Town in Pre-Season",
+      "url": "https://ytfc.net/2026/05/glovers-to-visit-merthyr-town-in-pre-season/",
+      "published": "2026-05-07T18:00:37Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City To Launch Women’s Team",
+      "url": "https://trurocity.co.uk/2026/05/truro-city-to-launch-womens-team/",
+      "published": "2026-05-07T17:54:07Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Prediction League Winner 2025-26",
+      "url": "https://southportfc.net/prediction-league-winner-2026-27/",
+      "published": "2026-05-07T17:52:33Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "THANK YOU | THINK INTERIORS",
+      "url": "https://www.morecambefc.com/news/2026/may/07/commercial-thank-you-think-interiors/",
+      "published": "2026-05-07T17:00:00Z"
+    },
     {
       "club": "Southend United",
       "code": "SOU",
@@ -1435,51 +1480,6 @@
       "title": "Hunt’s Food Group Extend Partnership with Yeovil Town",
       "url": "https://ytfc.net/2026/05/hunts-food-group-extend-partnership-with-yeovil-town/",
       "published": "2026-05-05T09:25:05Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "FAB Minutes: January & March 2026",
-      "url": "https://southendunited.co.uk/news/2026/may/05/fab-minutes--january---march-2026/",
-      "published": "2026-05-05T09:12:29Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "NEWS | Season Ticket Renewal Emails Sent Out",
-      "url": "https://herefordfc.co.uk/2026/05/news-season-ticket-renewal-emails-sent-out/",
-      "published": "2026-05-05T09:09:52Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "ACTION REPLAY: KIDDERMINSTER HARRIERS (A)",
-      "url": "https://macclesfieldfc.com/galleries/action-replay-kidderminster-harriers-a/",
-      "published": "2026-05-05T09:00:29Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "VACANCY: ACADEMY LEAD SPORTS SCIENTIST",
-      "url": "https://www.carlisleunited.co.uk/news/vacancy-academy-lead-sports-scientist",
-      "published": "2026-05-05T09:00:00Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "April's Monthly Draw winners",
-      "url": "https://altrinchamfc.com/blogs/news/aprils-monthly-draw-winners-1",
-      "published": "2026-05-05T08:47:35Z"
     }
   ]
 }
