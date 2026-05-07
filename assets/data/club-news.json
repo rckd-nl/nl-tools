@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-07T20:55:50Z",
+  "generatedAt": "2026-05-07T22:20:27Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3739,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "U15s Clinch League and Cup Double",
+      "url": "https://tonbridgeangels.co.uk/u15s-clinch-league-and-cup-double/",
+      "published": "2026-05-07T21:06:44Z"
+    },
     {
       "club": "Bath City",
       "code": "BAT",
@@ -1149,15 +1158,6 @@
       "published": "2026-05-06T09:56:18Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Dagenham & Redbridge F.C. Announces Multi-Year Partnership with Gemini Sports",
-      "url": "https://daggers.co.uk/dagenham-redbridge-f-c-announces-multi-year-partnership-with-gemini-sports/",
-      "published": "2026-05-06T09:00:18Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1419,15 +1419,6 @@
       "published": "2026-05-05T13:16:38Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Lee Allinson’s First Daggers Interview",
-      "url": "https://daggers.co.uk/lee-allinsons-first-daggers-interview/",
-      "published": "2026-05-05T13:02:36Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1480,6 +1471,15 @@
       "title": "Hunt’s Food Group Extend Partnership with Yeovil Town",
       "url": "https://ytfc.net/2026/05/hunts-food-group-extend-partnership-with-yeovil-town/",
       "published": "2026-05-05T09:25:05Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "FAB Minutes: January & March 2026",
+      "url": "https://southendunited.co.uk/news/2026/may/05/fab-minutes--january---march-2026/",
+      "published": "2026-05-05T09:12:29Z"
     }
   ]
 }
