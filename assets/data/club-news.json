@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-07T23:17:20Z",
+  "generatedAt": "2026-05-08T00:11:00Z",
   "maxItems": 100,
   "sources": [
     {
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "CHAIRMEN ON PLAY-OFF FINAL & WATCH PARTY AT PLAINMOOR",
+      "url": "https://torquayunited.com/chairmen-on-play-off-final-watch-party-at-plainmoor/",
+      "published": "2026-05-08T00:03:40Z"
+    },
     {
       "club": "Tonbridge Angels",
       "code": "TON",
@@ -1158,6 +1167,15 @@
       "published": "2026-05-06T09:56:18Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Dagenham & Redbridge F.C. Announces Multi-Year Partnership with Gemini Sports",
+      "url": "https://daggers.co.uk/dagenham-redbridge-f-c-announces-multi-year-partnership-with-gemini-sports/",
+      "published": "2026-05-06T09:00:18Z"
+    },
+    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1419,6 +1437,15 @@
       "published": "2026-05-05T13:16:38Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Lee Allinson’s First Daggers Interview",
+      "url": "https://daggers.co.uk/lee-allinsons-first-daggers-interview/",
+      "published": "2026-05-05T13:02:36Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1453,33 +1480,6 @@
       "title": "Our Skipper On Passage To Wembley",
       "url": "https://rochdaleafc.co.uk/our-skipper-on-passage-to-wembley/",
       "published": "2026-05-05T10:53:45Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "NEWS | Retained and Released List Revealed",
-      "url": "https://herefordfc.co.uk/2026/05/news-retained-and-released-list-revealed/",
-      "published": "2026-05-05T09:34:11Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Hunt’s Food Group Extend Partnership with Yeovil Town",
-      "url": "https://ytfc.net/2026/05/hunts-food-group-extend-partnership-with-yeovil-town/",
-      "published": "2026-05-05T09:25:05Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "FAB Minutes: January & March 2026",
-      "url": "https://southendunited.co.uk/news/2026/may/05/fab-minutes--january---march-2026/",
-      "published": "2026-05-05T09:12:29Z"
     }
   ]
 }
