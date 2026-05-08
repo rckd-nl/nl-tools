@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-08T22:42:55Z",
+  "generatedAt": "2026-05-08T23:45:34Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3740,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -708,15 +708,6 @@
       "published": "2026-05-08T14:09:09Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Matchday Information: West & Coe v Hornchurch CC Charity Match",
-      "url": "https://daggers.co.uk/matchday-information-west-coe-v-hornchurch-cc-charity-match/",
-      "published": "2026-05-08T13:48:44Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -850,15 +841,6 @@
       "title": "Bluebirds Dream Draw Week 37",
       "url": "https://chippenhamtown.com/05/08/bluebirds-dream-draw-week-37/",
       "published": "2026-05-08T11:00:26Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Club Update",
-      "url": "https://www.fgr.co.uk/news/club-update-jmt-harry-isted/",
-      "published": "2026-05-08T11:00:00Z"
     },
     {
       "club": "Chelmsford City",
@@ -1480,6 +1462,24 @@
       "title": "Brian Newhall - Funeral Details",
       "url": "https://altrinchamfc.com/blogs/news/brian-newhall-funeral-details",
       "published": "2026-05-06T11:10:49Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Football Development Centre Lead Coach (Female) (Full-Time) | Job Advert",
+      "url": "https://yorkcityfootballclub.co.uk/football-development-centre-lead-coach-female-full-time-job-advert/",
+      "published": "2026-05-06T09:57:53Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Boardroom to Bootroom EP1 Out Now",
+      "url": "https://chelmsfordcityfc.com/news/boardroom-to-bootroom-ep1-out-now/",
+      "published": "2026-05-06T09:56:18Z"
     }
   ]
 }
