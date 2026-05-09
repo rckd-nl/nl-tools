@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-09T12:45:07Z",
+  "generatedAt": "2026-05-09T14:09:19Z",
   "maxItems": 100,
   "sources": [
     {
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "FIRST TEAM RETAINED AND RELEASED 2025/26",
+      "url": "https://www.carlisleunited.co.uk/news/first-team-retained-and-released-202526",
+      "published": "2026-05-09T13:52:00Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -589,6 +598,15 @@
       "title": "Stones to Visit Ramsgate in Pre-Season",
       "url": "https://maidstoneunited.co.uk/05/09/stones-to-visit-ramsgate-in-pre-season/",
       "published": "2026-05-09T12:31:18Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "2025/26 Retained List",
+      "url": "https://afcfylde.co.uk/news/2026/may/09/2025-26-retained-list/",
+      "published": "2026-05-09T12:10:28Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -832,6 +850,15 @@
       "title": "Early bird pricing structure extended until end of May, advance prices also confirmed",
       "url": "https://www.scunthorpe-united.co.uk/news/2026/may/early-bird-pricing-structure-extended-until-end-of-may-advance-prices-also-confirmed/",
       "published": "2026-05-08T14:09:09Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Matchday Information: West & Coe v Hornchurch CC Charity Match",
+      "url": "https://daggers.co.uk/matchday-information-west-coe-v-hornchurch-cc-charity-match/",
+      "published": "2026-05-08T13:48:44Z"
     },
     {
       "club": "Torquay United",
@@ -1453,33 +1480,6 @@
       "title": "TicketCo named Academy Sleeve Partner",
       "url": "https://www.hartlepoolunited.co.uk/ticketco-named-academy-sleeve-partner/",
       "published": "2026-05-06T14:43:12Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Cabaret Evening – Neil Diamond by James Norton",
-      "url": "https://wokingfc.co.uk/05/06/cabaret-evening-neil-diamond-by-james-norton/",
-      "published": "2026-05-06T14:40:01Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "York City Ladies Development Team, County Cup Final Preview",
-      "url": "https://yorkcityfootballclub.co.uk/york-city-ladies-development-team-county-cup-final-preview/",
-      "published": "2026-05-06T14:30:48Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Order Your Season Ticket In-Person",
-      "url": "https://spennymoortownfc.co.uk/2026/05/06/order-your-season-ticket-in-person/",
-      "published": "2026-05-06T14:19:52Z"
     }
   ]
 }
