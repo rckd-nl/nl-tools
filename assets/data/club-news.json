@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-09T19:35:18Z",
+  "generatedAt": "2026-05-09T20:30:09Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3740,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -924,15 +924,6 @@
       "published": "2026-05-08T14:09:09Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Matchday Information: West & Coe v Hornchurch CC Charity Match",
-      "url": "https://daggers.co.uk/matchday-information-west-coe-v-hornchurch-cc-charity-match/",
-      "published": "2026-05-08T13:48:44Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1039,15 +1030,6 @@
       "title": "Bluebirds Dream Draw Week 37",
       "url": "https://chippenhamtown.com/05/08/bluebirds-dream-draw-week-37/",
       "published": "2026-05-08T11:00:26Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Club Update",
-      "url": "https://www.fgr.co.uk/news/club-update-jmt-harry-isted/",
-      "published": "2026-05-08T11:00:00Z"
     },
     {
       "club": "Chelmsford City",
@@ -1480,6 +1462,24 @@
       "title": "SIGNING | Captain Hudson On Board For 2026/27",
       "url": "https://herefordfc.co.uk/2026/05/signing-captain-hudson-on-board-for-2026-27/",
       "published": "2026-05-06T17:16:52Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "On the Road: Promotion Final",
+      "url": "https://harriers.co.uk/news/2026/05/06/on-the-road-promotion-final/",
+      "published": "2026-05-06T16:22:22Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "PREVIEW | Hereford Pegasus vs Hereford FC",
+      "url": "https://herefordfc.co.uk/2026/05/preview-hereford-pegasus-vs-hereford-fc/",
+      "published": "2026-05-06T15:55:27Z"
     }
   ]
 }
