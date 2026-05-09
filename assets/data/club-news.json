@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-09T17:16:24Z",
+  "generatedAt": "2026-05-09T18:09:59Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3740,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -110,10 +110,10 @@
     {
       "club": "Rochdale",
       "domain": "rochdaleafc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
+      "feed": "https://rochdaleafc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Scunthorpe United",
@@ -310,10 +310,10 @@
     {
       "club": "Marine",
       "domain": "marinefc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
+      "feed": "https://marinefc.com/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Merthyr Town",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Going up again!",
+      "url": "https://harriers.co.uk/news/2026/05/09/going-up-again/",
+      "published": "2026-05-09T18:07:23Z"
+    },
     {
       "club": "Torquay United",
       "code": "TOR",
@@ -717,6 +726,15 @@
       "published": "2026-05-09T09:16:42Z"
     },
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Preview | Boreham Wood (N)",
+      "url": "https://rochdaleafc.co.uk/preview-boreham-wood-n/",
+      "published": "2026-05-09T09:02:22Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -733,6 +751,15 @@
       "title": "Callum Roberts named in Enterprise National League team of the season",
       "url": "https://www.scunthorpe-united.co.uk/news/2026/may/callum-roberts-named-in-enterprise-national-league-team-of-the-season/",
       "published": "2026-05-09T08:59:58Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Trio Named In Team Of The Season",
+      "url": "https://rochdaleafc.co.uk/team-of-the-season-090526/",
+      "published": "2026-05-09T08:56:46Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -906,6 +933,15 @@
       "published": "2026-05-08T13:30:00Z"
     },
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Jimmy McNulty On Focus Levels For Sunday",
+      "url": "https://rochdaleafc.co.uk/jimmy-mcnulty-on-focus-levels-for-sunday/",
+      "published": "2026-05-08T13:24:04Z"
+    },
+    {
       "club": "York City",
       "code": "YOR",
       "short": "York",
@@ -913,6 +949,15 @@
       "title": "SEASON TICKETS TO GO OFF SALE TOMORROW",
       "url": "https://yorkcityfootballclub.co.uk/season-tickets-to-go-off-sale-tomorrow/",
       "published": "2026-05-08T13:11:21Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Our Guide To Dale’s Wembley Final",
+      "url": "https://rochdaleafc.co.uk/our-guide-to-dales-wembley-final/",
+      "published": "2026-05-08T13:08:33Z"
     },
     {
       "club": "Torquay United",
@@ -976,15 +1021,6 @@
       "title": "Bluebirds Dream Draw Week 37",
       "url": "https://chippenhamtown.com/05/08/bluebirds-dream-draw-week-37/",
       "published": "2026-05-08T11:00:26Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Club Update",
-      "url": "https://www.fgr.co.uk/news/club-update-jmt-harry-isted/",
-      "published": "2026-05-08T11:00:00Z"
     },
     {
       "club": "Chelmsford City",
@@ -1444,42 +1480,6 @@
       "title": "Promotion Final Ballot closed",
       "url": "https://harriers.co.uk/news/2026/05/06/promotion-final-ballot-closed/",
       "published": "2026-05-06T15:01:11Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Order Your 2026/27 Home Shirt Online Now",
-      "url": "https://spennymoortownfc.co.uk/2026/05/06/order-your-2026-27-home-shirt-online-now/",
-      "published": "2026-05-06T14:57:56Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "TicketCo named Academy Sleeve Partner",
-      "url": "https://www.hartlepoolunited.co.uk/ticketco-named-academy-sleeve-partner/",
-      "published": "2026-05-06T14:43:12Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Cabaret Evening – Neil Diamond by James Norton",
-      "url": "https://wokingfc.co.uk/05/06/cabaret-evening-neil-diamond-by-james-norton/",
-      "published": "2026-05-06T14:40:01Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "York City Ladies Development Team, County Cup Final Preview",
-      "url": "https://yorkcityfootballclub.co.uk/york-city-ladies-development-team-county-cup-final-preview/",
-      "published": "2026-05-06T14:30:48Z"
     }
   ]
 }
