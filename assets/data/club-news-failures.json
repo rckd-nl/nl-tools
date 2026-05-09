@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-09T20:30:09Z",
+  "generatedAt": "2026-05-09T21:32:43Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -40,7 +40,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Solihull Moors",
@@ -187,14 +187,6 @@
       "error": "Feed returned 0 usable items"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
-    },
-    {
       "club": "Eastbourne Borough",
       "domain": "eastbourneborough.com",
       "feed": "",
@@ -232,7 +224,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Slough Town",
