@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-09T22:29:22Z",
+  "generatedAt": "2026-05-09T23:35:52Z",
   "maxItems": 100,
   "sources": [
     {
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "This week at Gallagher Stadium (w/c 10/5/26)",
+      "url": "https://maidstoneunited.co.uk/05/10/this-week-at-gallagher-stadium-w-c-10-5-26/",
+      "published": "2026-05-09T23:01:34Z"
+    },
     {
       "club": "Kidderminster Harriers",
       "code": "KID",
@@ -922,6 +931,15 @@
       "title": "Early bird pricing structure extended until end of May, advance prices also confirmed",
       "url": "https://www.scunthorpe-united.co.uk/news/2026/may/early-bird-pricing-structure-extended-until-end-of-may-advance-prices-also-confirmed/",
       "published": "2026-05-08T14:09:09Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Matchday Information: West & Coe v Hornchurch CC Charity Match",
+      "url": "https://daggers.co.uk/matchday-information-west-coe-v-hornchurch-cc-charity-match/",
+      "published": "2026-05-08T13:48:44Z"
     },
     {
       "club": "Torquay United",
@@ -1462,24 +1480,6 @@
       "title": "SIGNING | Captain Hudson On Board For 2026/27",
       "url": "https://herefordfc.co.uk/2026/05/signing-captain-hudson-on-board-for-2026-27/",
       "published": "2026-05-06T17:16:52Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "On the Road: Promotion Final",
-      "url": "https://harriers.co.uk/news/2026/05/06/on-the-road-promotion-final/",
-      "published": "2026-05-06T16:22:22Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "PREVIEW | Hereford Pegasus vs Hereford FC",
-      "url": "https://herefordfc.co.uk/2026/05/preview-hereford-pegasus-vs-hereford-fc/",
-      "published": "2026-05-06T15:55:27Z"
     }
   ]
 }
