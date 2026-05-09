@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-09T10:21:50Z",
+  "generatedAt": "2026-05-09T11:38:37Z",
   "maxItems": 100,
   "sources": [
     {
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,51 @@
     }
   ],
   "items": [
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Inside Weston #014: Vs Hornchurch (A)",
+      "url": "https://wsmafc.co.uk/inside-weston-014-vs-hornchurch-a/",
+      "published": "2026-05-09T11:30:57Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Wanderers announce new sleeve sponsor",
+      "url": "https://dwfc.co.uk/2026/05/tmc/",
+      "published": "2026-05-09T11:29:40Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "2026/27 SEASON TICKET RENEWALS COMING SOON",
+      "url": "https://macclesfieldfc.com/latest-news/2026-27-season-ticket-renewals-coming-soon/",
+      "published": "2026-05-09T11:00:40Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Retained List",
+      "url": "https://curzon-ashton.co.uk/retained-list-2/",
+      "published": "2026-05-09T11:00:05Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Scunthorpe United announces May Bank Holiday Family Day at the Attis Arena",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/scunthorpe-united-announces-may-bank-holiday-family-day-at-the-attis-arena/",
+      "published": "2026-05-09T10:38:50Z"
+    },
     {
       "club": "Yeovil Town",
       "code": "YEO",
@@ -780,15 +825,6 @@
       "published": "2026-05-08T14:09:09Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Matchday Information: West & Coe v Hornchurch CC Charity Match",
-      "url": "https://daggers.co.uk/matchday-information-west-coe-v-hornchurch-cc-charity-match/",
-      "published": "2026-05-08T13:48:44Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -904,15 +940,6 @@
       "title": "Volunteering Opportunities For 2026/27",
       "url": "https://spennymoortownfc.co.uk/2026/05/08/volunteering-opportunities-for-2026-27/",
       "published": "2026-05-08T11:20:36Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Young Drivers sessions to take place on the Attis Arena car park",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/young-drivers-sessions-to-take-place-on-the-attis-arena-car-park/",
-      "published": "2026-05-08T11:13:37Z"
     },
     {
       "club": "Chippenham Town",
@@ -1453,33 +1480,6 @@
       "title": "2025/26 SEASON REVIEW: JULY",
       "url": "https://macclesfieldfc.com/latest-news/2025-26-season-review-july/",
       "published": "2026-05-06T14:00:31Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "May Half Term Schools Out Club",
-      "url": "https://maidstoneunited.co.uk/05/06/may-half-term-schools-out-club/",
-      "published": "2026-05-06T13:30:02Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Your Matchday Guide: Promotion Final",
-      "url": "https://hornchurchfc.com/your-matchday-guide-promotion-final/",
-      "published": "2026-05-06T12:56:09Z"
-    },
-    {
-      "club": "Morecambe",
-      "code": "MOR",
-      "short": "Morecambe",
-      "domain": "morecambefc.com",
-      "title": "ACADEMY TRIALS CONFIRMED FOR MAY",
-      "url": "https://www.morecambefc.com/news/2026/may/06/academy-trials-confirmed-for-may/",
-      "published": "2026-05-06T12:15:00Z"
     }
   ]
 }
