@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-09T21:32:43Z",
+  "generatedAt": "2026-05-09T22:29:22Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -922,15 +922,6 @@
       "title": "Early bird pricing structure extended until end of May, advance prices also confirmed",
       "url": "https://www.scunthorpe-united.co.uk/news/2026/may/early-bird-pricing-structure-extended-until-end-of-may-advance-prices-also-confirmed/",
       "published": "2026-05-08T14:09:09Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Matchday Information: West & Coe v Hornchurch CC Charity Match",
-      "url": "https://daggers.co.uk/matchday-information-west-coe-v-hornchurch-cc-charity-match/",
-      "published": "2026-05-08T13:48:44Z"
     },
     {
       "club": "Torquay United",
@@ -1480,6 +1471,15 @@
       "title": "On the Road: Promotion Final",
       "url": "https://harriers.co.uk/news/2026/05/06/on-the-road-promotion-final/",
       "published": "2026-05-06T16:22:22Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "PREVIEW | Hereford Pegasus vs Hereford FC",
+      "url": "https://herefordfc.co.uk/2026/05/preview-hereford-pegasus-vs-hereford-fc/",
+      "published": "2026-05-06T15:55:27Z"
     }
   ]
 }
