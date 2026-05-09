@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-09T11:38:37Z",
+  "generatedAt": "2026-05-09T12:45:07Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3740,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Stones to Visit Ramsgate in Pre-Season",
+      "url": "https://maidstoneunited.co.uk/05/09/stones-to-visit-ramsgate-in-pre-season/",
+      "published": "2026-05-09T12:31:18Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -949,6 +958,15 @@
       "title": "Bluebirds Dream Draw Week 37",
       "url": "https://chippenhamtown.com/05/08/bluebirds-dream-draw-week-37/",
       "published": "2026-05-08T11:00:26Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Club Update",
+      "url": "https://www.fgr.co.uk/news/club-update-jmt-harry-isted/",
+      "published": "2026-05-08T11:00:00Z"
     },
     {
       "club": "Chelmsford City",
@@ -1462,24 +1480,6 @@
       "title": "Order Your Season Ticket In-Person",
       "url": "https://spennymoortownfc.co.uk/2026/05/06/order-your-season-ticket-in-person/",
       "published": "2026-05-06T14:19:52Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Director Ian Clear Steps Down",
-      "url": "https://tonbridgeangels.co.uk/director-ian-clear-steps-down/",
-      "published": "2026-05-06T14:08:58Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "2025/26 SEASON REVIEW: JULY",
-      "url": "https://macclesfieldfc.com/latest-news/2025-26-season-review-july/",
-      "published": "2026-05-06T14:00:31Z"
     }
   ]
 }
