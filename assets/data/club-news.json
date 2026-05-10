@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-10T07:51:50Z",
+  "generatedAt": "2026-05-10T09:52:35Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: HTTPSConnectionPool(host='www.fgr.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='www.fgr.co.uk', port=443): Failed to resolve 'www.fgr.co.uk' ([Errno -2] Name or service not known)\"))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3740,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -811,7 +811,7 @@
       "code": "BHW",
       "short": "Boreham Wood",
       "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Promotion Final: Wood Army fast approaching 6,000 sales for Wembley!",
+      "title": "Promotion Final: Wood Army fast approaching 7,000 sales for Wembley!",
       "url": "https://www.borehamwoodfootballclub.co.uk/promotion-final-wood-army-fast-approaching-6000-sales-for-wembley/",
       "published": "2026-05-08T19:41:39Z"
     },
@@ -1048,6 +1048,15 @@
       "title": "Bluebirds Dream Draw Week 37",
       "url": "https://chippenhamtown.com/05/08/bluebirds-dream-draw-week-37/",
       "published": "2026-05-08T11:00:26Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Club Update",
+      "url": "https://www.fgr.co.uk/news/club-update-jmt-harry-isted/",
+      "published": "2026-05-08T11:00:00Z"
     },
     {
       "club": "Chelmsford City",
@@ -1471,15 +1480,6 @@
       "title": "RIP Bernie Leavy",
       "url": "https://cheshamunited.co.uk/2026/05/rip-bernie-leavy/",
       "published": "2026-05-06T18:12:47Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "SIGNING | Captain Hudson On Board For 2026/27",
-      "url": "https://herefordfc.co.uk/2026/05/signing-captain-hudson-on-board-for-2026-27/",
-      "published": "2026-05-06T17:16:52Z"
     }
   ]
 }
