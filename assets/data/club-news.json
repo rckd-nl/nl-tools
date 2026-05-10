@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-10T18:10:22Z",
+  "generatedAt": "2026-05-10T19:39:17Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3740,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -129,7 +129,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Southend United",
@@ -329,7 +329,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Peterborough Sports",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,42 @@
     }
   ],
   "items": [
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "ENTERPRISE NATIONAL NORTH CLUB TO CLUB MILEAGES 2026-27",
+      "url": "https://southportfc.net/enterprise-national-north-club-to-club-mileages-2026-27/",
+      "published": "2026-05-10T19:27:15Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Ryan Reflects On Title Triumph",
+      "url": "https://torquayunited.com/ryan-reflects-on-title-triumph/",
+      "published": "2026-05-10T18:43:31Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Dale Seal Return To The EFL",
+      "url": "https://rochdaleafc.co.uk/dale-seal-return-to-the-efl/",
+      "published": "2026-05-10T18:34:04Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Report: Manchester Unity Women 3-1 Chester FC Women",
+      "url": "https://chesterfc.com/05/10/report-manchester-unity-women-3-1-chester-fc-women/",
+      "published": "2026-05-10T18:29:18Z"
+    },
     {
       "club": "Tonbridge Angels",
       "code": "TON",
@@ -942,15 +978,6 @@
       "published": "2026-05-08T17:48:39Z"
     },
     {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Important Supporter Advisory: Plainmoor Play-Off Final Watch Party Tomorrow",
-      "url": "https://torquayunited.com/important-supporter-advisory-plainmoor-play-off-final-watch-party-tomorrow/",
-      "published": "2026-05-08T16:49:30Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1120,15 +1147,6 @@
       "title": "Bluebirds Dream Draw Week 37",
       "url": "https://chippenhamtown.com/05/08/bluebirds-dream-draw-week-37/",
       "published": "2026-05-08T11:00:26Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Club Update",
-      "url": "https://www.fgr.co.uk/news/club-update-jmt-harry-isted/",
-      "published": "2026-05-08T11:00:00Z"
     },
     {
       "club": "Chelmsford City",
@@ -1462,24 +1480,6 @@
       "title": "ACADEMY HOST FAMILY OPPORTUNITIES",
       "url": "https://www.carlisleunited.co.uk/news/academy-host-family-opportunities",
       "published": "2026-05-07T09:00:00Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "SIGNING | Howkins Agrees Deal For Next Season",
-      "url": "https://herefordfc.co.uk/2026/05/signing-howkins-agrees-deal-for-next-season/",
-      "published": "2026-05-07T08:36:27Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Back Of Shorts Partnership Opportunity",
-      "url": "https://southendunited.co.uk/news/2026/may/07/back-of-shorts-partnership-opportunity/",
-      "published": "2026-05-07T08:35:32Z"
     }
   ]
 }
