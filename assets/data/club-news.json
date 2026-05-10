@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-10T17:16:43Z",
+  "generatedAt": "2026-05-10T18:10:22Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3740,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,51 @@
     }
   ],
   "items": [
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Tonbridge Angels Academy Trials – Football Scholarship",
+      "url": "https://tonbridgeangels.co.uk/tonbridge-angels-academy-trials-football-scholarship/",
+      "published": "2026-05-10T18:00:00Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Enterprise National League South 2026/27",
+      "url": "https://maidstoneunited.co.uk/05/10/enterprise-national-league-south-2026-27/",
+      "published": "2026-05-10T17:54:40Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "York City Ladies Development Team are Runners Up at Riverside",
+      "url": "https://yorkcityfootballclub.co.uk/york-city-ladies-development-team-are-runners-up-at-riverside/",
+      "published": "2026-05-10T17:53:41Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Three More Fixtures Added to Pre-Season Schedule",
+      "url": "https://maidstoneunited.co.uk/05/10/three-more-fixtures-added-to-pre-season-schedule/",
+      "published": "2026-05-10T17:46:49Z"
+    },
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "Squad update",
+      "url": "https://marinefc.com/squad-update-10/",
+      "published": "2026-05-10T17:28:23Z"
+    },
     {
       "club": "Torquay United",
       "code": "TOR",
@@ -1077,6 +1122,15 @@
       "published": "2026-05-08T11:00:26Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Club Update",
+      "url": "https://www.fgr.co.uk/news/club-update-jmt-harry-isted/",
+      "published": "2026-05-08T11:00:00Z"
+    },
+    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -1426,60 +1480,6 @@
       "title": "Back Of Shorts Partnership Opportunity",
       "url": "https://southendunited.co.uk/news/2026/may/07/back-of-shorts-partnership-opportunity/",
       "published": "2026-05-07T08:35:32Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Bath City Women edge out Paulton Rovers thanks to Spratt strike",
-      "url": "https://www.bathcityfc.com/bath-city-women-edge-out-paulton-rovers-thanks-to-spratt-strike/",
-      "published": "2026-05-06T21:29:20Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "U19s Match Report: AFC Fylde U19s 4-5 York City U19s",
-      "url": "https://yorkcityfootballclub.co.uk/u19s-match-report-afc-fylde-u19s-4-5-york-city-u19s/",
-      "published": "2026-05-06T21:13:26Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "‘I’m So Proud Of The Lads’ – Dom Welsh",
-      "url": "https://tonbridgeangels.co.uk/more-heartbreak-for-angels-lads/",
-      "published": "2026-05-06T21:02:17Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City Launch Kits For 2026/27 Season",
-      "url": "https://trurocity.co.uk/2026/05/truro-city-launch-kits-for-2026-27-season/",
-      "published": "2026-05-06T20:51:21Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Change to ticket restrictions for young fans",
-      "url": "https://chesterfc.com/05/06/change-to-ticket-restrictions-for-young-fans/",
-      "published": "2026-05-06T19:55:54Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Trophy photo opportunity",
-      "url": "https://worthingfc.com/2026/05/trophy-photo-opportunity/",
-      "published": "2026-05-06T19:40:37Z"
     }
   ]
 }
