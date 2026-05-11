@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-11T20:08:51Z",
+  "generatedAt": "2026-05-11T21:45:43Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Preview – Cup Final",
+      "url": "https://www.horshamfc.co.uk/2026/05/11/hfc-women-cup-final-preview/",
+      "published": "2026-05-11T20:44:06Z"
+    },
     {
       "club": "Boreham Wood",
       "code": "BHW",
@@ -1471,15 +1480,6 @@
       "title": "Glovers to Visit Merthyr Town in Pre-Season",
       "url": "https://ytfc.net/2026/05/glovers-to-visit-merthyr-town-in-pre-season/",
       "published": "2026-05-07T18:00:37Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City To Launch Women’s Team",
-      "url": "https://trurocity.co.uk/2026/05/truro-city-to-launch-womens-team/",
-      "published": "2026-05-07T17:54:07Z"
     }
   ]
 }
