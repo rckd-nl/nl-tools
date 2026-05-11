@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-11T08:51:59Z",
+  "generatedAt": "2026-05-11T12:27:01Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -33,6 +33,30 @@
       "ok": false,
       "count": 0,
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "club": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
+    },
+    {
+      "club": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
+    },
+    {
+      "club": "Scunthorpe United",
+      "domain": "scunthorpe-united.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Solihull Moors",
@@ -107,6 +131,14 @@
       "error": "HTTP 404"
     },
     {
+      "club": "Kidderminster Harriers",
+      "domain": "harriers.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
+    },
+    {
       "club": "King's Lynn Town",
       "domain": "kltown.co.uk",
       "feed": "",
@@ -121,6 +153,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Marine",
+      "domain": "marinefc.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Merthyr Town",
@@ -163,6 +203,14 @@
       "error": "HTTP 404"
     },
     {
+      "club": "Southport",
+      "domain": "southportfc.net",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
+    },
+    {
       "club": "Worksop Town",
       "domain": "worksoptownfc.co.uk",
       "feed": "",
@@ -177,6 +225,22 @@
       "ok": false,
       "count": 0,
       "error": "Feed returned 0 usable items"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "domain": "daggers.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "domain": "dorkingwanderers.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Eastbourne Borough",
