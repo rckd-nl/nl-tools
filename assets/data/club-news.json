@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-11T01:33:56Z",
+  "generatedAt": "2026-05-11T05:47:33Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3740,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -1149,15 +1149,6 @@
       "published": "2026-05-08T11:00:26Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Club Update",
-      "url": "https://www.fgr.co.uk/news/club-update-jmt-harry-isted/",
-      "published": "2026-05-08T11:00:00Z"
-    },
-    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -1480,6 +1471,15 @@
       "title": "Non-League Finals Day Broadcast on TNT Sports",
       "url": "https://southendunited.co.uk/news/2026/may/07/non-league-finals-day-broadcast-on-tnt-sports/",
       "published": "2026-05-07T10:05:30Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "ACADEMY HOST FAMILY OPPORTUNITIES",
+      "url": "https://www.carlisleunited.co.uk/news/academy-host-family-opportunities",
+      "published": "2026-05-07T09:00:00Z"
     }
   ]
 }
