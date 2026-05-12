@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-12T15:36:43Z",
+  "generatedAt": "2026-05-12T17:49:12Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3743,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='harriers.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "King's Lynn Town",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,13 +582,31 @@
   ],
   "items": [
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Partnership | Vegan Society",
-      "url": "https://www.fgr.co.uk/news/partnership-vegan-trademark-26/",
-      "published": "2026-05-12T14:30:00Z"
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Meet the PL Legends: Matt Le Tissier",
+      "url": "https://chippenhamtown.com/05/12/meet-the-pl-legends-matt-le-tissier/",
+      "published": "2026-05-12T17:00:36Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Press: Kevin Maher Speaks Ahead Of Wembley Trip",
+      "url": "https://southendunited.co.uk/news/2026/may/12/press--kevin-maher-speaks-ahead-of-wembley-trip/",
+      "published": "2026-05-12T15:54:42Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "One Club. One Weekend.",
+      "url": "https://southendunited.co.uk/news/2026/may/12/one-club--one-weekend/",
+      "published": "2026-05-12T15:30:46Z"
     },
     {
       "club": "Macclesfield",
@@ -670,15 +688,6 @@
       "title": "Herald Cup Final Returns To Plainmoor",
       "url": "https://torquayunited.com/herald-cup-final-returns-to-plainmoor/",
       "published": "2026-05-12T12:50:44Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "FGR Youth Ambassador Scheme 26-27",
-      "url": "https://www.fgr.co.uk/news/fgr-youth-ambassador-scheme-26-27/",
-      "published": "2026-05-12T11:15:00Z"
     },
     {
       "club": "Carlisle United",
@@ -861,15 +870,6 @@
       "published": "2026-05-11T16:03:49Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Earlybird Season Ticket Update",
-      "url": "https://www.fgr.co.uk/news/earlybird-season-ticket-update-2627/",
-      "published": "2026-05-11T16:00:00Z"
-    },
-    {
       "club": "Scunthorpe United",
       "code": "SCU",
       "short": "Scunthorpe",
@@ -888,15 +888,6 @@
       "published": "2026-05-11T14:56:13Z"
     },
     {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Highlights: Promotion Final",
-      "url": "https://harriers.co.uk/news/2026/05/11/highlights-promotion-final/",
-      "published": "2026-05-11T14:35:13Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -904,15 +895,6 @@
       "title": "JUNIOR ACADEMY REVIEW",
       "url": "https://macclesfieldfc.com/latest-news/junior-academy-review/",
       "published": "2026-05-11T14:00:40Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Recap: South Shields 0-2 Harriers",
-      "url": "https://harriers.co.uk/news/2026/05/11/recap-south-shields-0-2-harriers/",
-      "published": "2026-05-11T13:41:32Z"
     },
     {
       "club": "York City",
@@ -967,6 +949,15 @@
       "title": "Supporters Unite At Plainmoor For Play-Off Final Watch Party",
       "url": "https://torquayunited.com/supporters-unite-at-plainmoor-for-play-off-final-watch-party/",
       "published": "2026-05-11T11:58:55Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "KSI Meet & Greet Photo Gallery",
+      "url": "https://daggers.co.uk/ksi-meet-greet-photo-gallery/",
+      "published": "2026-05-11T11:42:17Z"
     },
     {
       "club": "Torquay United",
@@ -1194,15 +1185,6 @@
       "published": "2026-05-09T23:01:34Z"
     },
     {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Watch: Murray on promotion",
-      "url": "https://harriers.co.uk/news/2026/05/09/watch-murray-on-promotion/",
-      "published": "2026-05-09T18:20:12Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1210,15 +1192,6 @@
       "title": "JIMMY BALL | HORNCHURCH (A) | PLAY-OFF FINAL | POST-MATCH",
       "url": "https://torquayunited.com/jimmy-ball-hornchurch-a-play-off-final-post-match/",
       "published": "2026-05-09T18:14:09Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Going up again!",
-      "url": "https://harriers.co.uk/news/2026/05/09/going-up-again/",
-      "published": "2026-05-09T18:07:23Z"
     },
     {
       "club": "Maidstone United",
@@ -1437,6 +1410,15 @@
       "published": "2026-05-08T14:27:18Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Matchday Information: West & Coe v Hornchurch CC Charity Match",
+      "url": "https://daggers.co.uk/matchday-information-west-coe-v-hornchurch-cc-charity-match/",
+      "published": "2026-05-08T13:48:44Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1480,6 +1462,24 @@
       "title": "Our Guide To Dale’s Wembley Final",
       "url": "https://rochdaleafc.co.uk/our-guide-to-dales-wembley-final/",
       "published": "2026-05-08T13:08:33Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Club Statement: Dominic Odusanya",
+      "url": "https://chelmsfordcityfc.com/news/club-statement-dominic-odusanya/",
+      "published": "2026-05-08T13:01:38Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "WOMEN’S FIRST TEAM TRIALS",
+      "url": "https://macclesfieldfc.com/latest-news/womens-first-team-trials/",
+      "published": "2026-05-08T12:00:01Z"
     }
   ]
 }
