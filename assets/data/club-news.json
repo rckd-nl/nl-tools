@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-13T08:26:41Z",
+  "generatedAt": "2026-05-13T11:18:36Z",
   "maxItems": 100,
   "sources": [
     {
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,60 @@
     }
   ],
   "items": [
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Walking Football Update",
+      "url": "https://tonbridgeangels.co.uk/walking-football-update-14/",
+      "published": "2026-05-13T11:13:31Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Record Turnout For Fundraising Town Quiz",
+      "url": "https://spennymoortownfc.co.uk/2026/05/13/107403/",
+      "published": "2026-05-13T11:04:20Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "RETAINED LIST 2025/26",
+      "url": "https://macclesfieldfc.com/latest-news/retained-list-2025-26/",
+      "published": "2026-05-13T11:00:01Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Colin Rankin co-opted to the Board of City Fans United",
+      "url": "https://chesterfc.com/05/13/colin-rankin-co-opted-to-the-board-of-city-fans-united/",
+      "published": "2026-05-13T10:00:24Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Pre-season fixtures",
+      "url": "https://dwfc.co.uk/2026/05/pre-season-fixtures/",
+      "published": "2026-05-13T08:59:36Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Press: Nathan Ralph Previews Isuzu FA Trophy Final",
+      "url": "https://southendunited.co.uk/news/2026/may/13/press--nathan-ralph-previews-isuzu-fa-trophy-final/",
+      "published": "2026-05-13T08:52:04Z"
+    },
     {
       "club": "Woking",
       "code": "WOK",
@@ -798,15 +852,6 @@
       "published": "2026-05-12T10:46:30Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Youth Roundup 4th May",
-      "url": "https://www.horshamfc.co.uk/2026/05/12/youth-roundup-4th-may/",
-      "published": "2026-05-12T10:46:26Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -870,15 +915,6 @@
       "published": "2026-05-11T22:55:32Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Preview – Cup Final",
-      "url": "https://www.horshamfc.co.uk/2026/05/11/hfc-women-cup-final-preview/",
-      "published": "2026-05-11T20:44:06Z"
-    },
-    {
       "club": "Boreham Wood",
       "code": "BHW",
       "short": "Boreham Wood",
@@ -886,15 +922,6 @@
       "title": "Three more years: Luke Garrard extends!",
       "url": "https://www.borehamwoodfootballclub.co.uk/three-more-years-luke-garrard-extends/",
       "published": "2026-05-11T18:58:51Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "2025-26 Goal of the Season winner – Jack Bates!",
-      "url": "https://www.horshamfc.co.uk/2026/05/11/2025-26-goal-of-the-season-winner-jack-bates/",
-      "published": "2026-05-11T18:00:53Z"
     },
     {
       "club": "Dorking Wanderers",
@@ -1048,15 +1075,6 @@
       "title": "Supporters Unite At Plainmoor For Play-Off Final Watch Party",
       "url": "https://torquayunited.com/supporters-unite-at-plainmoor-for-play-off-final-watch-party/",
       "published": "2026-05-11T11:58:55Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "KSI Meet & Greet Photo Gallery",
-      "url": "https://daggers.co.uk/ksi-meet-greet-photo-gallery/",
-      "published": "2026-05-11T11:42:17Z"
     },
     {
       "club": "Torquay United",
@@ -1462,24 +1480,6 @@
       "title": "Notes from the Chair – 8th May 2026",
       "url": "https://cheshamunited.co.uk/2026/05/notes-from-the-chair-8th-may-2026/",
       "published": "2026-05-08T19:14:54Z"
-    },
-    {
-      "club": "Morecambe",
-      "code": "MOR",
-      "short": "Morecambe",
-      "domain": "morecambefc.com",
-      "title": "THANK YOU | HALO AEROSPACE LABORATORIES",
-      "url": "https://www.morecambefc.com/news/2026/may/08/thank-you---halo-laboratories/",
-      "published": "2026-05-08T18:00:00Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Season Ticket & Matchday Prices for 2026/2027 Season Confirmed",
-      "url": "https://wsmafc.co.uk/26-27-prices/",
-      "published": "2026-05-08T16:31:04Z"
     }
   ]
 }
