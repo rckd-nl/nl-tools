@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-13T11:18:36Z",
+  "generatedAt": "2026-05-13T13:37:38Z",
   "maxItems": 100,
   "sources": [
     {
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,60 @@
     }
   ],
   "items": [
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Highlights | Dale 2-2 Boreham Wood (3-1 Pens)",
+      "url": "https://rochdaleafc.co.uk/highlights-dale-2-2-boreham-wood-3-1-pens/",
+      "published": "2026-05-13T13:07:37Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Made of Stone: Academy Matchday",
+      "url": "https://maidstoneunited.co.uk/05/13/made-of-stone-academy-matchday/",
+      "published": "2026-05-13T13:00:51Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "GALLERY: Pre Wembley",
+      "url": "https://southendunited.co.uk/news/2026/may/13/gallery--pre-wembley/",
+      "published": "2026-05-13T12:51:22Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "1899 DRAW TOMORROW!",
+      "url": "https://torquayunited.com/1899-draw-tomorrow/",
+      "published": "2026-05-13T12:02:50Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "2026/27 Season Tickets Sales Pass 100",
+      "url": "https://spennymoortownfc.co.uk/2026/05/13/2026-27-season-tickets-sales-pass-100/",
+      "published": "2026-05-13T11:32:47Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Awards Night",
+      "url": "https://tonbridgeangels.co.uk/awards-night/",
+      "published": "2026-05-13T11:27:44Z"
+    },
     {
       "club": "Tonbridge Angels",
       "code": "TON",
@@ -852,6 +906,15 @@
       "published": "2026-05-12T10:46:30Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Youth Roundup 4th May",
+      "url": "https://www.horshamfc.co.uk/2026/05/12/youth-roundup-4th-may/",
+      "published": "2026-05-12T10:46:26Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -915,6 +978,15 @@
       "published": "2026-05-11T22:55:32Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Preview – Cup Final",
+      "url": "https://www.horshamfc.co.uk/2026/05/11/hfc-women-cup-final-preview/",
+      "published": "2026-05-11T20:44:06Z"
+    },
+    {
       "club": "Boreham Wood",
       "code": "BHW",
       "short": "Boreham Wood",
@@ -922,6 +994,15 @@
       "title": "Three more years: Luke Garrard extends!",
       "url": "https://www.borehamwoodfootballclub.co.uk/three-more-years-luke-garrard-extends/",
       "published": "2026-05-11T18:58:51Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "2025-26 Goal of the Season winner – Jack Bates!",
+      "url": "https://www.horshamfc.co.uk/2026/05/11/2025-26-goal-of-the-season-winner-jack-bates/",
+      "published": "2026-05-11T18:00:53Z"
     },
     {
       "club": "Dorking Wanderers",
@@ -1075,6 +1156,15 @@
       "title": "Supporters Unite At Plainmoor For Play-Off Final Watch Party",
       "url": "https://torquayunited.com/supporters-unite-at-plainmoor-for-play-off-final-watch-party/",
       "published": "2026-05-11T11:58:55Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "KSI Meet & Greet Photo Gallery",
+      "url": "https://daggers.co.uk/ksi-meet-greet-photo-gallery/",
+      "published": "2026-05-11T11:42:17Z"
     },
     {
       "club": "Torquay United",
@@ -1311,15 +1401,6 @@
       "published": "2026-05-09T18:20:12Z"
     },
     {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "JIMMY BALL | HORNCHURCH (A) | PLAY-OFF FINAL | POST-MATCH",
-      "url": "https://torquayunited.com/jimmy-ball-hornchurch-a-play-off-final-post-match/",
-      "published": "2026-05-09T18:14:09Z"
-    },
-    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -1399,87 +1480,6 @@
       "title": "Wanderers announce new sleeve sponsor",
       "url": "https://dwfc.co.uk/2026/05/tmc/",
       "published": "2026-05-09T11:29:40Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "2026/27 SEASON TICKET RENEWALS COMING SOON",
-      "url": "https://macclesfieldfc.com/latest-news/2026-27-season-ticket-renewals-coming-soon/",
-      "published": "2026-05-09T11:00:40Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Retained List",
-      "url": "https://curzon-ashton.co.uk/retained-list-2/",
-      "published": "2026-05-09T11:00:05Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Club Statement | Ciderspace Fan Zone",
-      "url": "https://ytfc.net/2026/05/club-statement-ciderspace-fan-zone/",
-      "published": "2026-05-09T09:55:15Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Preview | Boreham Wood (N)",
-      "url": "https://rochdaleafc.co.uk/preview-boreham-wood-n/",
-      "published": "2026-05-09T09:02:22Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Gus Scott-Morriss Named In National League Team Of The Season",
-      "url": "https://southendunited.co.uk/news/2026/may/09/gus-scott-morriss-named-in-national-league-team-of-the-season/",
-      "published": "2026-05-09T09:00:00Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Trio Named In Team Of The Season",
-      "url": "https://rochdaleafc.co.uk/team-of-the-season-090526/",
-      "published": "2026-05-09T08:56:46Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Women’s Gallery: Bitton 1 – 3 WsMAFC (AET)",
-      "url": "https://wsmafc.co.uk/womens-gallery-bitton-1-3-wsmafc-aet/",
-      "published": "2026-05-09T08:10:33Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Promotion Final: Wood Army fast approaching 7,000 sales for Wembley!",
-      "url": "https://www.borehamwoodfootballclub.co.uk/promotion-final-wood-army-fast-approaching-6000-sales-for-wembley/",
-      "published": "2026-05-08T19:41:39Z"
-    },
-    {
-      "club": "Chesham United",
-      "code": "CHU",
-      "short": "Chesham",
-      "domain": "cheshamunited.co.uk",
-      "title": "Notes from the Chair – 8th May 2026",
-      "url": "https://cheshamunited.co.uk/2026/05/notes-from-the-chair-8th-may-2026/",
-      "published": "2026-05-08T19:14:54Z"
     }
   ]
 }
