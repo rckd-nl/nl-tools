@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-14T04:18:39Z",
+  "generatedAt": "2026-05-14T07:28:52Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -706,15 +706,6 @@
       "title": "2025/26 REVIEW: AUGUST",
       "url": "https://macclesfieldfc.com/latest-news/2025-26-review-august/",
       "published": "2026-05-13T14:00:08Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Daggers Retained and Released List 2026",
-      "url": "https://daggers.co.uk/daggers-retained-and-released-list-2026/",
-      "published": "2026-05-13T13:27:55Z"
     },
     {
       "club": "Rochdale",
@@ -1293,15 +1284,6 @@
       "published": "2026-05-11T11:58:55Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "KSI Meet & Greet Photo Gallery",
-      "url": "https://daggers.co.uk/ksi-meet-greet-photo-gallery/",
-      "published": "2026-05-11T11:42:17Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1480,6 +1462,24 @@
       "title": "Youth Awards",
       "url": "https://tonbridgeangels.co.uk/youth-awards/",
       "published": "2026-05-10T15:18:36Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Match Report: Fylde Under 18's Lift Memorial Cup",
+      "url": "https://afcfylde.co.uk/news/2026/may/10/match-report--fylde-under-18-s-lift-memorial-cup/",
+      "published": "2026-05-10T14:56:00Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Wanderers announce new short sponsor",
+      "url": "https://dwfc.co.uk/2026/05/ctprocurement/",
+      "published": "2026-05-10T11:59:00Z"
     }
   ]
 }
