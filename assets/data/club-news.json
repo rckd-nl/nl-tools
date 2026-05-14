@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-14T21:52:38Z",
+  "generatedAt": "2026-05-14T23:17:11Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3743,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Support your surface in 2026-27 with our Pitch Squares initiative package",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/support-your-surface-in-2026-27-with-our-pitch-squares-initiative-package-4/",
+      "published": "2026-05-14T23:03:36Z"
+    },
     {
       "club": "Horsham",
       "code": "HRS",
@@ -1284,15 +1293,6 @@
       "published": "2026-05-12T15:30:46Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Partnership | Vegan Society",
-      "url": "https://www.fgr.co.uk/news/partnership-vegan-trademark-26/",
-      "published": "2026-05-12T14:30:00Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1372,15 +1372,6 @@
       "title": "Herald Cup Final Returns To Plainmoor",
       "url": "https://torquayunited.com/herald-cup-final-returns-to-plainmoor/",
       "published": "2026-05-12T12:50:44Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "FGR Youth Ambassador Scheme 26-27",
-      "url": "https://www.fgr.co.uk/news/fgr-youth-ambassador-scheme-26-27/",
-      "published": "2026-05-12T11:15:00Z"
     },
     {
       "club": "Carlisle United",
@@ -1480,6 +1471,15 @@
       "title": "Preview: Chester FC U19 vs FC Halifax Town U19",
       "url": "https://chesterfc.com/05/12/preview-chester-fc-u19-vs-fc-halifax-town-u19-2/",
       "published": "2026-05-12T07:52:18Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Vacancy: First Team Grounds Manager",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/vacancy-first-team-grounds-manager-4/",
+      "published": "2026-05-11T22:55:32Z"
     }
   ]
 }
