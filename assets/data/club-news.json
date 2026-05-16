@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-16T16:42:24Z",
+  "generatedAt": "2026-05-16T17:43:25Z",
   "maxItems": 100,
   "sources": [
     {
@@ -297,7 +297,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='leamingtonfc.co.uk', port=443): Read timed out. (read timeout=25)"
+      "error": "HTTP 404"
     },
     {
       "club": "Macclesfield",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -841,6 +841,15 @@
       "title": "NEWS | First Three Pre-Season Friendlies Revealed",
       "url": "https://herefordfc.co.uk/2026/05/news-first-three-pre-season-friendlies-revealed/",
       "published": "2026-05-15T14:01:35Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Register Now for the Dagenham & Redbridge FC Under-19 Pathway Programme Trials",
+      "url": "https://daggers.co.uk/register-now-for-the-dagenham-redbridge-fc-under-19-pathway-programme-trials/",
+      "published": "2026-05-15T13:53:41Z"
     },
     {
       "club": "Rochdale",
@@ -1392,6 +1401,15 @@
       "published": "2026-05-14T10:23:54Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Club Shop Open this Afternoon",
+      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-47/",
+      "published": "2026-05-14T10:09:21Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1462,24 +1480,6 @@
       "title": "Jordan Tillson bags Goal of the Season for Hampton screamer",
       "url": "https://www.bathcityfc.com/jordan-tillson-bags-goal-of-the-season-for-hampton-screamer/",
       "published": "2026-05-13T18:07:55Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Volunteer Recruitment Evening",
-      "url": "https://trurocity.co.uk/2026/05/volunteer-recruitment-evening-2/",
-      "published": "2026-05-13T17:36:53Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "2026/27 Season Tickets: available now!",
-      "url": "https://www.borehamwoodfootballclub.co.uk/2026-27-season-tickets-available-now/",
-      "published": "2026-05-13T17:16:04Z"
     }
   ]
 }

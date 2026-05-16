@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-16T16:42:24Z",
+  "generatedAt": "2026-05-16T17:43:25Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -120,7 +120,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='leamingtonfc.co.uk', port=443): Read timed out. (read timeout=25)"
+      "error": "HTTP 404"
     },
     {
       "club": "Merthyr Town",
@@ -177,14 +177,6 @@
       "ok": false,
       "count": 0,
       "error": "Feed returned 0 usable items"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
     },
     {
       "club": "Eastbourne Borough",
