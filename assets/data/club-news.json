@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-16T15:21:55Z",
+  "generatedAt": "2026-05-16T16:42:24Z",
   "maxItems": 100,
   "sources": [
     {
@@ -294,10 +294,10 @@
     {
       "club": "Leamington",
       "domain": "leamingtonfc.co.uk",
-      "feed": "https://leamingtonfc.co.uk/rss",
+      "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ReadTimeout: HTTPSConnectionPool(host='leamingtonfc.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Macclesfield",
