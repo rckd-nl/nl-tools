@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-16T09:19:26Z",
+  "generatedAt": "2026-05-16T10:42:16Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3743,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Another Year Of Lyle Taylor",
+      "url": "https://chelmsfordcityfc.com/news/another-year-of-lyle-taylor/",
+      "published": "2026-05-16T10:00:00Z"
+    },
     {
       "club": "Hartlepool United",
       "code": "HAR",
@@ -1471,15 +1480,6 @@
       "title": "Ticket Office Opening Hours Trial to Begin",
       "url": "https://chesterfc.com/05/13/ticket-office-opening-hours-trial-to-begin/",
       "published": "2026-05-13T14:59:08Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Making the difference: April’s Squad Builder draw winners",
-      "url": "https://www.bathcityfc.com/making-the-difference-aprils-squad-builder-draw-winners/",
-      "published": "2026-05-13T14:09:18Z"
     }
   ]
 }
