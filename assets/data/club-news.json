@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-16T17:43:25Z",
+  "generatedAt": "2026-05-16T18:43:53Z",
   "maxItems": 100,
   "sources": [
     {
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Caine Bradbury departs CTFC",
+      "url": "https://chippenhamtown.com/05/16/caine-bradbury-departs-ctfc/",
+      "published": "2026-05-16T18:00:43Z"
+    },
     {
       "club": "Farnborough",
       "code": "FAB",
@@ -841,15 +850,6 @@
       "title": "NEWS | First Three Pre-Season Friendlies Revealed",
       "url": "https://herefordfc.co.uk/2026/05/news-first-three-pre-season-friendlies-revealed/",
       "published": "2026-05-15T14:01:35Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Register Now for the Dagenham & Redbridge FC Under-19 Pathway Programme Trials",
-      "url": "https://daggers.co.uk/register-now-for-the-dagenham-redbridge-fc-under-19-pathway-programme-trials/",
-      "published": "2026-05-15T13:53:41Z"
     },
     {
       "club": "Rochdale",
@@ -1401,15 +1401,6 @@
       "published": "2026-05-14T10:23:54Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Club Shop Open this Afternoon",
-      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-47/",
-      "published": "2026-05-14T10:09:21Z"
-    },
-    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1480,6 +1471,15 @@
       "title": "Jordan Tillson bags Goal of the Season for Hampton screamer",
       "url": "https://www.bathcityfc.com/jordan-tillson-bags-goal-of-the-season-for-hampton-screamer/",
       "published": "2026-05-13T18:07:55Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Volunteer Recruitment Evening",
+      "url": "https://trurocity.co.uk/2026/05/volunteer-recruitment-evening-2/",
+      "published": "2026-05-13T17:36:53Z"
     }
   ]
 }
