@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-17T07:31:20Z",
+  "generatedAt": "2026-05-17T09:29:35Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3743,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Adidas become the Boro’s teamwear supplier",
+      "url": "https://radcliffefc.com/adidas-become-the-boros-teamwear-supplier/",
+      "published": "2026-05-17T08:27:26Z"
+    },
     {
       "club": "Maidstone United",
       "code": "MSU",
@@ -1471,15 +1480,6 @@
       "title": "Farnborough Women Trial Applications Open",
       "url": "https://farnboroughfc.co.uk/2026/05/farnborough-women-trial-applications-open/",
       "published": "2026-05-14T09:00:33Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Pools appoint Lee Clark as First Team Head Coach",
-      "url": "https://www.hartlepoolunited.co.uk/pools-appoint-lee-clark-as-first-team-head-coach/",
-      "published": "2026-05-14T07:58:26Z"
     }
   ]
 }
