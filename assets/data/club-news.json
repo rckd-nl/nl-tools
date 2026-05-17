@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-17T15:21:36Z",
+  "generatedAt": "2026-05-17T16:42:29Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Moran and Burridge ensure City end season on winning note",
+      "url": "https://www.bathcityfc.com/moran-and-burridge-ensure-city-end-season-on-winning-note/",
+      "published": "2026-05-17T16:07:29Z"
+    },
     {
       "club": "Salisbury",
       "code": "SAL",
@@ -1471,15 +1480,6 @@
       "title": "Early bird season tickets on sale now",
       "url": "https://maidstoneunited.co.uk/05/14/early-bird-season-tickets-take-flight-from-8-may/",
       "published": "2026-05-14T10:23:54Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Club Shop Open this Afternoon",
-      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-47/",
-      "published": "2026-05-14T10:09:21Z"
     }
   ]
 }
