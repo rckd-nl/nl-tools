@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-17T12:13:45Z",
+  "generatedAt": "2026-05-17T14:00:53Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://horshamfc.co.uk/news/feed/",
-      "ok": false,
-      "count": 0,
-      "error": "Feed returned 0 usable items"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Glovers to Face National League South Newcomers Farnham Town",
+      "url": "https://ytfc.net/2026/05/glovers-to-face-national-league-south-newcomers-farnham-town/",
+      "published": "2026-05-17T13:00:42Z"
+    },
     {
       "club": "Chelmsford City",
       "code": "CHC",
@@ -1140,6 +1149,15 @@
       "published": "2026-05-14T23:03:36Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "THE RESULTS OF THE HORNETTES CUP FINAL BANNER COMPETITION",
+      "url": "https://www.horshamfc.co.uk/2026/05/14/the-results-of-the-hornettes-cup-final-banner-competition/",
+      "published": "2026-05-14T20:56:39Z"
+    },
+    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -1462,24 +1480,6 @@
       "title": "Alty's Retained List confirmed",
       "url": "https://altrinchamfc.com/blogs/news/altys-retained-list-confirmed",
       "published": "2026-05-14T09:58:27Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "First Interview: Lee Clark",
-      "url": "https://www.hartlepoolunited.co.uk/first-interview-lee-clark/",
-      "published": "2026-05-14T09:41:27Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Back The Nash | The Next Step Together",
-      "url": "https://curzon-ashton.co.uk/the-next-step-together/",
-      "published": "2026-05-14T09:00:58Z"
     }
   ]
 }
