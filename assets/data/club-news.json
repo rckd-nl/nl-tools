@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-19T18:31:28Z",
+  "generatedAt": "2026-05-19T20:26:39Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3745,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=91ab7b7d-04c6-4750-84c8-1f223d5d2fae",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=6d4a2ef6-786c-47a3-a1fb-8dfc2a4b5cf6",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -1428,15 +1428,6 @@
       "published": "2026-05-16T23:01:16Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "New Season New Teams",
-      "url": "https://www.fgr.co.uk/news/new-season-new-teams-26-27/",
-      "published": "2026-05-16T23:00:00Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1480,6 +1471,15 @@
       "title": "Tonbridge Angels Retained List 2025/26",
       "url": "https://tonbridgeangels.co.uk/tonbridge-angels-retained-list-2025-26/",
       "published": "2026-05-16T14:00:00Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "GEORGE WILSON: FIRST SILKMEN INTERVIEW",
+      "url": "https://macclesfieldfc.com/latest-news/george-wilson-first-silkmen-interview/",
+      "published": "2026-05-16T13:00:23Z"
     }
   ]
 }
