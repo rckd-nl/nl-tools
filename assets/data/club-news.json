@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-19T20:26:39Z",
+  "generatedAt": "2026-05-19T22:04:28Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=6d4a2ef6-786c-47a3-a1fb-8dfc2a4b5cf6",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=71c3314f-f2d3-431b-9d38-32045fb99c64",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -625,6 +625,15 @@
       "title": "United Women Announce Retained List",
       "url": "https://torquayunited.com/united-women-announce-retained-list/",
       "published": "2026-05-19T17:22:40Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Harry Beautyman is a Dagger",
+      "url": "https://daggers.co.uk/harry-beautyman-is-a-dagger/",
+      "published": "2026-05-19T17:00:00Z"
     },
     {
       "club": "Maidstone United",
@@ -888,6 +897,15 @@
       "published": "2026-05-19T09:30:23Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Staff v Sponsors Charity Match",
+      "url": "https://daggers.co.uk/staff-v-sponsors-charity-match/",
+      "published": "2026-05-19T09:07:46Z"
+    },
+    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -1012,6 +1030,15 @@
       "title": "Our new alternate black kit is here",
       "url": "https://dwfc.co.uk/2026/05/our-new-alternate-black-kit-is-here/",
       "published": "2026-05-18T17:00:48Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Andy Carroll named as Daggers Player-Assistant Manager",
+      "url": "https://daggers.co.uk/andy-carroll-named-as-daggers-player-assistant-manager/",
+      "published": "2026-05-18T17:00:00Z"
     },
     {
       "club": "Scunthorpe United",
@@ -1453,33 +1480,6 @@
       "title": "Ladies: Southend United 6-0 Colchester United",
       "url": "https://southendunited.co.uk/news/2026/may/16/report-/",
       "published": "2026-05-16T15:00:00Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Early May update with Spencer Day",
-      "url": "https://farnboroughfc.co.uk/2026/05/early-may-update-with-spencer-day/",
-      "published": "2026-05-16T14:00:17Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Tonbridge Angels Retained List 2025/26",
-      "url": "https://tonbridgeangels.co.uk/tonbridge-angels-retained-list-2025-26/",
-      "published": "2026-05-16T14:00:00Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "GEORGE WILSON: FIRST SILKMEN INTERVIEW",
-      "url": "https://macclesfieldfc.com/latest-news/george-wilson-first-silkmen-interview/",
-      "published": "2026-05-16T13:00:23Z"
     }
   ]
 }
