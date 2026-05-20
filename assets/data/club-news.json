@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-20T05:54:44Z",
+  "generatedAt": "2026-05-20T09:59:22Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3745,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=561fc63c-f3b6-4144-b962-7be8df7130e5",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=bf72b445-0fc7-4d29-ae51-05e9efcec0d7",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,69 @@
   ],
   "items": [
     {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Book now for our annual Golf Day, returning in pre-season ahead of the 2026-27 season",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/book-now-for-our-annual-golf-day-returning-in-pre-season-ahead-of-the-2026-27-season-2/",
+      "published": "2026-05-20T09:18:11Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "NEWS | Bulls Launch Squad Builder For 2026/27 Season",
+      "url": "https://herefordfc.co.uk/2026/05/news-bulls-launch-squad-builder-for-2026-27-season/",
+      "published": "2026-05-20T09:01:01Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Pools Launch ‘Add Your Name to Your Seat’ Initiative for 2026/27 Season",
+      "url": "https://www.hartlepoolunited.co.uk/pools-launch-add-your-name-to-your-seat-initiative-for-2026-27-season/",
+      "published": "2026-05-20T09:00:51Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "VACANCY | Bulls Seeking First Team Sports Therapist",
+      "url": "https://herefordfc.co.uk/2026/05/vacancy-bulls-seeking-first-team-sports-therapist/",
+      "published": "2026-05-20T09:00:30Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Tompkins Tied Down",
+      "url": "https://chelmsfordcityfc.com/news/tompkins-tied-down/",
+      "published": "2026-05-20T08:58:00Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "2026-27 Pre-Season Fixtures Released",
+      "url": "https://www.horshamfc.co.uk/2026/05/20/2026-27-pre-season-fixtures-released/",
+      "published": "2026-05-20T08:51:13Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Club shop open this Wednesday",
+      "url": "https://maidstoneunited.co.uk/05/20/club-shop-open-this-saturday/",
+      "published": "2026-05-20T07:00:45Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -598,6 +661,15 @@
       "title": "Paul Knight Appointed Women’s Boss",
       "url": "https://trurocity.co.uk/2026/05/paul-knight-appointed-womens-boss/",
       "published": "2026-05-19T18:01:20Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – U18s vs Eastbourne United",
+      "url": "https://www.horshamfc.co.uk/2026/05/19/match-report-u18s-vs-eastbourne-united/",
+      "published": "2026-05-19T18:00:01Z"
     },
     {
       "club": "Radcliffe",
@@ -816,6 +888,15 @@
       "published": "2026-05-19T11:55:13Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "From 2026-27 all U14s Must Be Accompanied by a Responsible Adult",
+      "url": "https://www.horshamfc.co.uk/2026/05/19/from-2026-27-all-u14s-must-be-accompanied-by-a-responsible-adult/",
+      "published": "2026-05-19T11:17:04Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -832,6 +913,15 @@
       "title": "SIGNING | Lewis the Latest to Extend Hereford Stay",
       "url": "https://herefordfc.co.uk/2026/05/signing-lewis-the-latest-to-extend-hereford-stay/",
       "published": "2026-05-19T10:59:22Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham FC Recruiting: First Team Physiotherapist",
+      "url": "https://www.horshamfc.co.uk/2026/05/19/horsham-fc-recruiting-first-team-physiotherapist/",
+      "published": "2026-05-19T10:51:13Z"
     },
     {
       "club": "Spennymoor Town",
@@ -1018,7 +1108,7 @@
       "code": "HAR",
       "short": "Hartlepool",
       "domain": "hartlepoolunited.co.uk",
-      "title": "Rappor Lounge Café & Bar joins the final mile",
+      "title": "Rappor Lounge Café & Bar joins The Final Mile",
       "url": "https://www.hartlepoolunited.co.uk/rappor-lounge-cafe-bar-joins-the-final-mile/",
       "published": "2026-05-18T15:11:57Z"
     },
@@ -1039,6 +1129,15 @@
       "title": "Under-14 Season Ticket Pricing Update",
       "url": "https://wokingfc.co.uk/05/18/under-14-season-ticket-pricing-update/",
       "published": "2026-05-18T15:05:13Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Hornets play Sutton United in Pre-Season Friendly",
+      "url": "https://www.horshamfc.co.uk/2026/05/18/hornets-play-sutton-united-in-pre-season-friendly/",
+      "published": "2026-05-18T15:00:22Z"
     },
     {
       "club": "Hartlepool United",
@@ -1129,15 +1228,6 @@
       "title": "Argyle Friendly Added To Pre-Season Schedule",
       "url": "https://torquayunited.com/argyle-friendly-added-to-pre-season-schedule/",
       "published": "2026-05-18T12:00:00Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "May Bank Holiday Family Day at the Attis Arena this Sunday",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/may-bank-holiday-family-day-at-the-attis-arena-this-sunday/",
-      "published": "2026-05-18T11:11:20Z"
     },
     {
       "club": "AFC Fylde",
@@ -1237,15 +1327,6 @@
       "title": "First Interview | Max McCarthy",
       "url": "https://radcliffefc.com/first-interview-max-mccarthy/",
       "published": "2026-05-18T08:32:50Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Club shop open this Wednesday",
-      "url": "https://maidstoneunited.co.uk/05/18/club-shop-open-this-saturday/",
-      "published": "2026-05-18T08:00:45Z"
     },
     {
       "club": "Torquay United",
@@ -1392,15 +1473,6 @@
       "published": "2026-05-16T23:01:16Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "New Season New Teams",
-      "url": "https://www.fgr.co.uk/news/new-season-new-teams-26-27/",
-      "published": "2026-05-16T23:00:00Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1408,78 +1480,6 @@
       "title": "NEWS | Bromsgrove Added To Pre-Season Calendar",
       "url": "https://herefordfc.co.uk/2026/05/news-bromsgrove-added-to-pre-season-calendar/",
       "published": "2026-05-16T22:30:18Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Caine Bradbury departs CTFC",
-      "url": "https://chippenhamtown.com/05/16/caine-bradbury-departs-ctfc/",
-      "published": "2026-05-16T18:00:43Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Ladies: Southend United 6-0 Colchester United",
-      "url": "https://southendunited.co.uk/news/2026/may/16/report-/",
-      "published": "2026-05-16T15:00:00Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Early May update with Spencer Day",
-      "url": "https://farnboroughfc.co.uk/2026/05/early-may-update-with-spencer-day/",
-      "published": "2026-05-16T14:00:17Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Tonbridge Angels Retained List 2025/26",
-      "url": "https://tonbridgeangels.co.uk/tonbridge-angels-retained-list-2025-26/",
-      "published": "2026-05-16T14:00:00Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "GEORGE WILSON: FIRST SILKMEN INTERVIEW",
-      "url": "https://macclesfieldfc.com/latest-news/george-wilson-first-silkmen-interview/",
-      "published": "2026-05-16T13:00:23Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Now For The Treble!",
-      "url": "https://torquayunited.com/now-for-the-treble/",
-      "published": "2026-05-16T12:29:42Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "United Confirm Opening Pre-Season Fixtures",
-      "url": "https://torquayunited.com/torquay-united-confirm-opening-pre-season-fixtures/",
-      "published": "2026-05-16T12:00:00Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Tom Leahy Departs",
-      "url": "https://tonbridgeangels.co.uk/tom-leahy-departs/",
-      "published": "2026-05-16T11:34:03Z"
     }
   ]
 }
