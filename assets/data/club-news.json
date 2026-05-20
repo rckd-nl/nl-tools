@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-20T12:43:00Z",
+  "generatedAt": "2026-05-20T16:21:26Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=c0503068-7762-4a29-a1d4-1c227e96030b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=224621d3-2767-4056-9829-4ddc97a875a8",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -318,10 +318,10 @@
     {
       "club": "Merthyr Town",
       "domain": "merthyrtownfc.co.uk",
-      "feed": "https://www.merthyrtownfc.co.uk/news/feed",
+      "feed": "",
       "ok": false,
       "count": 0,
-      "error": "Feed returned 0 usable items"
+      "error": "ConnectionError: HTTPSConnectionPool(host='www.merthyrtownfc.co.uk', port=443): Max retries exceeded with url: /news/feed (Caused by NameResolutionError(\"HTTPSConnection(host='www.merthyrtownfc.co.uk', port=443): Failed to resolve 'www.merthyrtownfc.co.uk' ([Errno -2] Name or service not known)\"))"
     },
     {
       "club": "Oxford City",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,96 @@
     }
   ],
   "items": [
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Joe Nolan Joins The Nash",
+      "url": "https://curzon-ashton.co.uk/joe-nolan-joins-the-nash/",
+      "published": "2026-05-20T16:00:42Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Southend United Appoint Head Of Recruitment",
+      "url": "https://southendunited.co.uk/news/2026/may/20/jonathan-duckett-joins-as-head-of-recruitment-/",
+      "published": "2026-05-20T16:00:00Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Bath City Sponsors’ Draw 2026/27 – Your Chance to Win Big",
+      "url": "https://www.bathcityfc.com/bath-city-sponsors-draw-2026-27-your-chance-to-win-big/",
+      "published": "2026-05-20T15:47:41Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Free Under-14 Season Tickets In 26/27",
+      "url": "https://rochdaleafc.co.uk/junior-season-tickets-may-2026/",
+      "published": "2026-05-20T15:27:31Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "1-2-1 AND MINI MASTERCLASS AVAILABILITY",
+      "url": "https://macclesfieldfc.com/latest-news/1-2-1-and-mini-masterclass-availability/",
+      "published": "2026-05-20T15:00:03Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "2025/26 REVIEW: SEPTEMBER",
+      "url": "https://macclesfieldfc.com/latest-news/2025-26-review-september/",
+      "published": "2026-05-20T14:00:19Z"
+    },
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Can you help get Crabble ready?",
+      "url": "https://doverathletic.com/news/can-you-help-get-crabble-ready-3/",
+      "published": "2026-05-20T13:16:27Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "End Of Season Supporter Survey 2025/26",
+      "url": "https://yorkcityfootballclub.co.uk/end-of-season-supporter-survey-2025-26/",
+      "published": "2026-05-20T13:02:29Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Join us for March Of The Day III",
+      "url": "https://altrinchamfc.com/blogs/news/join-us-for-march-of-the-day-iii",
+      "published": "2026-05-20T12:58:44Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Brian Newhall - Funeral Details",
+      "url": "https://altrinchamfc.com/blogs/news/brian-newhall-funeral-details",
+      "published": "2026-05-20T12:47:08Z"
+    },
     {
       "club": "Spennymoor Town",
       "code": "SPE",
@@ -753,13 +843,13 @@
       "published": "2026-05-20T08:58:00Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "2026-27 Pre-Season Fixtures Released",
-      "url": "https://www.horshamfc.co.uk/2026/05/20/2026-27-pre-season-fixtures-released/",
-      "published": "2026-05-20T08:51:13Z"
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Academy Vacancies",
+      "url": "https://rochdaleafc.co.uk/academy-vacancies-200526/",
+      "published": "2026-05-20T07:34:45Z"
     },
     {
       "club": "Maidstone United",
@@ -780,15 +870,6 @@
       "published": "2026-05-20T06:58:28Z"
     },
     {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Academy Vacancies",
-      "url": "https://rochdaleafc.co.uk/academy-vacancies-200526/",
-      "published": "2026-05-20T02:34:45Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -807,15 +888,6 @@
       "published": "2026-05-19T18:01:20Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Report – U18s vs Eastbourne United",
-      "url": "https://www.horshamfc.co.uk/2026/05/19/match-report-u18s-vs-eastbourne-united/",
-      "published": "2026-05-19T18:00:01Z"
-    },
-    {
       "club": "Radcliffe",
       "code": "RAD",
       "short": "Radcliffe",
@@ -832,15 +904,6 @@
       "title": "United Women Announce Retained List",
       "url": "https://torquayunited.com/united-women-announce-retained-list/",
       "published": "2026-05-19T17:22:40Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Harry Beautyman is a Dagger",
-      "url": "https://daggers.co.uk/harry-beautyman-is-a-dagger/",
-      "published": "2026-05-19T17:00:00Z"
     },
     {
       "club": "Maidstone United",
@@ -1041,15 +1104,6 @@
       "published": "2026-05-19T11:55:13Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "From 2026-27 all U14s Must Be Accompanied by a Responsible Adult",
-      "url": "https://www.horshamfc.co.uk/2026/05/19/from-2026-27-all-u14s-must-be-accompanied-by-a-responsible-adult/",
-      "published": "2026-05-19T11:17:04Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1066,15 +1120,6 @@
       "title": "SIGNING | Lewis the Latest to Extend Hereford Stay",
       "url": "https://herefordfc.co.uk/2026/05/signing-lewis-the-latest-to-extend-hereford-stay/",
       "published": "2026-05-19T10:59:22Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham FC Recruiting: First Team Physiotherapist",
-      "url": "https://www.horshamfc.co.uk/2026/05/19/horsham-fc-recruiting-first-team-physiotherapist/",
-      "published": "2026-05-19T10:51:13Z"
     },
     {
       "club": "Spennymoor Town",
@@ -1102,15 +1147,6 @@
       "title": "2026/27 Hospitality Information",
       "url": "https://wokingfc.co.uk/05/19/2026-27-hospitality-information/",
       "published": "2026-05-19T09:30:23Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Staff v Sponsors Charity Match",
-      "url": "https://daggers.co.uk/staff-v-sponsors-charity-match/",
-      "published": "2026-05-19T09:07:46Z"
     },
     {
       "club": "Hartlepool United",
@@ -1230,15 +1266,6 @@
       "published": "2026-05-18T17:00:48Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Andy Carroll named as Daggers Player-Assistant Manager",
-      "url": "https://daggers.co.uk/andy-carroll-named-as-daggers-player-assistant-manager/",
-      "published": "2026-05-18T17:00:00Z"
-    },
-    {
       "club": "Scunthorpe United",
       "code": "SCU",
       "short": "Scunthorpe",
@@ -1291,15 +1318,6 @@
       "title": "Under-14 Season Ticket Pricing Update",
       "url": "https://wokingfc.co.uk/05/18/under-14-season-ticket-pricing-update/",
       "published": "2026-05-18T15:05:13Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Hornets play Sutton United in Pre-Season Friendly",
-      "url": "https://www.horshamfc.co.uk/2026/05/18/hornets-play-sutton-united-in-pre-season-friendly/",
-      "published": "2026-05-18T15:00:22Z"
     },
     {
       "club": "Hartlepool United",
@@ -1462,24 +1480,6 @@
       "title": "National League Trust appoints Luis Medina as Head of Trust",
       "url": "https://wokingfc.co.uk/05/18/national-league-trust-appoints-luis-medina-as-head-of-trust/",
       "published": "2026-05-18T09:59:48Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Car Boot Sales at the Deva Stadium",
-      "url": "https://chesterfc.com/05/18/car-boot-sales-at-the-deva-stadium/",
-      "published": "2026-05-18T09:59:03Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Report: Southend United 0-0 Wealdstone (Penalties: 4-2)",
-      "url": "https://southendunited.co.uk/news/2026/may/18/report--southend-united-0/",
-      "published": "2026-05-18T08:38:22Z"
     }
   ]
 }

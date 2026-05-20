@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-20T12:43:00Z",
+  "generatedAt": "2026-05-20T16:21:26Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -93,7 +93,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=c0503068-7762-4a29-a1d4-1c227e96030b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=224621d3-2767-4056-9829-4ddc97a875a8",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -125,10 +125,10 @@
     {
       "club": "Merthyr Town",
       "domain": "merthyrtownfc.co.uk",
-      "feed": "https://www.merthyrtownfc.co.uk/news/feed",
+      "feed": "",
       "ok": false,
       "count": 0,
-      "error": "Feed returned 0 usable items"
+      "error": "ConnectionError: HTTPSConnectionPool(host='www.merthyrtownfc.co.uk', port=443): Max retries exceeded with url: /news/feed (Caused by NameResolutionError(\"HTTPSConnection(host='www.merthyrtownfc.co.uk', port=443): Failed to resolve 'www.merthyrtownfc.co.uk' ([Errno -2] Name or service not known)\"))"
     },
     {
       "club": "Oxford City",
@@ -179,6 +179,14 @@
       "error": "Feed returned 0 usable items"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "domain": "daggers.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
+    },
+    {
       "club": "Eastbourne Borough",
       "domain": "eastbourneborough.com",
       "feed": "",
@@ -209,6 +217,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
