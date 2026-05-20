@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-20T21:16:20Z",
+  "generatedAt": "2026-05-20T22:49:16Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3746,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=c3b3f0a5-e552-4517-b383-f9499c11f12d",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=b10f3412-e6ef-46f4-b666-5d27adee75f9",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -778,6 +778,15 @@
       "title": "Glovers to Host Bristol Rovers in Home Pre-Season",
       "url": "https://ytfc.net/2026/05/glovers-to-host-bristol-rovers-in-home-pre-season/",
       "published": "2026-05-20T12:00:18Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "26/27 Pre-season Schedule",
+      "url": "https://www.fgr.co.uk/news/2627-pre-season-fixtures-schedule/",
+      "published": "2026-05-20T12:00:00Z"
     },
     {
       "club": "Woking",
@@ -1471,15 +1480,6 @@
       "title": "Supporter update",
       "url": "https://harriers.co.uk/news/2026/05/18/supporter-update/",
       "published": "2026-05-18T13:48:59Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "National League Trust appoints Luis Medina as Head of Trust",
-      "url": "https://wsmafc.co.uk/national-league-trust-luis-medina/",
-      "published": "2026-05-18T13:15:10Z"
     }
   ]
 }
