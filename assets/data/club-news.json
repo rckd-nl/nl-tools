@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-20T09:59:22Z",
+  "generatedAt": "2026-05-20T12:43:00Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3746,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=bf72b445-0fc7-4d29-ae51-05e9efcec0d7",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=c0503068-7762-4a29-a1d4-1c227e96030b",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,132 @@
   ],
   "items": [
     {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "New To The Division: Harborough Town",
+      "url": "https://spennymoortownfc.co.uk/2026/05/20/new-to-the-division-harborough-town/",
+      "published": "2026-05-20T12:01:50Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Idols Indie Bar joins The Final Mile",
+      "url": "https://www.hartlepoolunited.co.uk/idols-indie-bar-joins-the-final-mile/",
+      "published": "2026-05-20T12:00:34Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "The Matchday Experience",
+      "url": "https://chippenhamtown.com/05/20/the-matchday-experience/",
+      "published": "2026-05-20T12:00:23Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Glovers to Host Bristol Rovers in Home Pre-Season",
+      "url": "https://ytfc.net/2026/05/glovers-to-host-bristol-rovers-in-home-pre-season/",
+      "published": "2026-05-20T12:00:18Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "26/27 Pre-season Schedule",
+      "url": "https://www.fgr.co.uk/news/2627-pre-season-fixtures-schedule/",
+      "published": "2026-05-20T12:00:00Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Junior Cards is back for 2026/27!",
+      "url": "https://wokingfc.co.uk/05/20/junior-cards-is-back-for-2026-27/",
+      "published": "2026-05-20T11:59:51Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Academy Trials – Football Scholarship",
+      "url": "https://tonbridgeangels.co.uk/tonbridge-angels-academy-trials-football-scholarship/",
+      "published": "2026-05-20T11:08:03Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Two more pre-season dates added",
+      "url": "https://maidstoneunited.co.uk/05/20/two-more-pre-season-dates-added/",
+      "published": "2026-05-20T11:00:54Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "First Words: Paul Knight",
+      "url": "https://trurocity.co.uk/2026/05/first-words-paul-knight/",
+      "published": "2026-05-20T10:58:41Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Moors Move Excites Me – Stephenson",
+      "url": "https://spennymoortownfc.co.uk/2026/05/20/moors-move-excites-me-stephenson/",
+      "published": "2026-05-20T10:55:40Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Snap Up Your 2026/27 Season Ticket Today",
+      "url": "https://spennymoortownfc.co.uk/2026/05/20/snap-up-your-2026-27-season-ticket-today-2/",
+      "published": "2026-05-20T10:54:38Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "City Heading To Plainmoor",
+      "url": "https://torquayunited.com/city-heading-to-plainmoor/",
+      "published": "2026-05-20T10:00:00Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Louis Stephenson Signs For Spennymoor",
+      "url": "https://spennymoortownfc.co.uk/2026/05/20/louis-stephenson-signs-for-spennymoor/",
+      "published": "2026-05-20T09:58:00Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "FAB Minutes: April 2026",
+      "url": "https://southendunited.co.uk/news/2026/may/20/fab-minutes--april-2026/",
+      "published": "2026-05-20T09:55:08Z"
+    },
+    {
       "club": "Scunthorpe United",
       "code": "SCU",
       "short": "Scunthorpe",
@@ -645,6 +771,24 @@
       "published": "2026-05-20T07:00:45Z"
     },
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "2026/27 Season Tickets On Sale Now",
+      "url": "https://rochdaleafc.co.uk/2026-27-season-tickets-on-sale-monday-150526/",
+      "published": "2026-05-20T06:58:28Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Academy Vacancies",
+      "url": "https://rochdaleafc.co.uk/academy-vacancies-200526/",
+      "published": "2026-05-20T02:34:45Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -688,6 +832,15 @@
       "title": "United Women Announce Retained List",
       "url": "https://torquayunited.com/united-women-announce-retained-list/",
       "published": "2026-05-19T17:22:40Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Harry Beautyman is a Dagger",
+      "url": "https://daggers.co.uk/harry-beautyman-is-a-dagger/",
+      "published": "2026-05-19T17:00:00Z"
     },
     {
       "club": "Maidstone United",
@@ -951,6 +1104,15 @@
       "published": "2026-05-19T09:30:23Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Staff v Sponsors Charity Match",
+      "url": "https://daggers.co.uk/staff-v-sponsors-charity-match/",
+      "published": "2026-05-19T09:07:46Z"
+    },
+    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -985,15 +1147,6 @@
       "title": "2025/26 Retained List",
       "url": "https://doverathletic.com/news/2025-26-retained-list/",
       "published": "2026-05-19T08:09:43Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "2026/27 Season Tickets On Sale Now",
-      "url": "https://rochdaleafc.co.uk/2026-27-season-tickets-on-sale-monday-150526/",
-      "published": "2026-05-19T06:58:28Z"
     },
     {
       "club": "Maidstone United",
@@ -1075,6 +1228,15 @@
       "title": "Our new alternate black kit is here",
       "url": "https://dwfc.co.uk/2026/05/our-new-alternate-black-kit-is-here/",
       "published": "2026-05-18T17:00:48Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Andy Carroll named as Daggers Player-Assistant Manager",
+      "url": "https://daggers.co.uk/andy-carroll-named-as-daggers-player-assistant-manager/",
+      "published": "2026-05-18T17:00:00Z"
     },
     {
       "club": "Scunthorpe United",
@@ -1318,168 +1480,6 @@
       "title": "Report: Southend United 0-0 Wealdstone (Penalties: 4-2)",
       "url": "https://southendunited.co.uk/news/2026/may/18/report--southend-united-0/",
       "published": "2026-05-18T08:38:22Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "First Interview | Max McCarthy",
-      "url": "https://radcliffefc.com/first-interview-max-mccarthy/",
-      "published": "2026-05-18T08:32:50Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Plainmoor 2000 Campaign Launches 10am Monday",
-      "url": "https://torquayunited.com/plainmoor-2000-campaign-launches-10am-monday/",
-      "published": "2026-05-18T07:30:00Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Callum Morton Is Finally A Gull!",
-      "url": "https://torquayunited.com/callum-morton-is-finally-a-gull/",
-      "published": "2026-05-18T07:00:00Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "Golden Letter Draw Results",
-      "url": "https://marinefc.com/golden-letter-draw-results/",
-      "published": "2026-05-17T20:48:00Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "McCarthy becomes first signing of the summer",
-      "url": "https://radcliffefc.com/mccarthy-becomes-first-signing-of-the-summer/",
-      "published": "2026-05-17T18:30:17Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Perks Looks Back On Memorable Campaign",
-      "url": "https://torquayunited.com/perks-looks-back-on-memorable-campaign/",
-      "published": "2026-05-17T17:43:21Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "REPORT: UNITED WOMEN 5 – 0 POOLE TOWN",
-      "url": "https://torquayunited.com/report-united-women-5-0-poole-town/",
-      "published": "2026-05-17T17:23:24Z"
-    },
-    {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "Meet the Manager",
-      "url": "https://etfc.london/meet-the-manager-billy-holland/",
-      "published": "2026-05-17T17:05:06Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City Lottery – Weekly Winners 15/05/26",
-      "url": "https://trurocity.co.uk/2026/05/truro-city-lottery-weekly-winners-15-05-26/",
-      "published": "2026-05-17T16:56:27Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Moran and Burridge ensure City end season on winning note",
-      "url": "https://www.bathcityfc.com/moran-and-burridge-ensure-city-end-season-on-winning-note/",
-      "published": "2026-05-17T16:07:29Z"
-    },
-    {
-      "club": "Salisbury",
-      "code": "SAL",
-      "short": "Salisbury",
-      "domain": "salisburyfc.co.uk",
-      "title": "Pre-Season Schedule: 2026/27",
-      "url": "https://salisburyfc.co.uk/2026/05/17/pre-season-schedule-2026-27/",
-      "published": "2026-05-17T14:00:48Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Glovers to Face National League South Newcomers Farnham Town",
-      "url": "https://ytfc.net/2026/05/glovers-to-face-national-league-south-newcomers-farnham-town/",
-      "published": "2026-05-17T13:00:42Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Food Vendor Survey",
-      "url": "https://chelmsfordcityfc.com/news/food-vendor-survey/",
-      "published": "2026-05-17T10:00:00Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Welcome George Nikaj",
-      "url": "https://dwfc.co.uk/2026/05/welcome-george-nikaj/",
-      "published": "2026-05-17T08:31:51Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Dan Gallagher contract extension",
-      "url": "https://dwfc.co.uk/2026/05/dan-gallagher-contract-extension/",
-      "published": "2026-05-17T08:30:33Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Adidas become the Boro’s teamwear supplier",
-      "url": "https://radcliffefc.com/adidas-become-the-boros-teamwear-supplier/",
-      "published": "2026-05-17T08:27:26Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "This week at Gallagher Stadium (w/c 17/5/26)",
-      "url": "https://maidstoneunited.co.uk/05/17/this-week-at-gallagher-stadium-w-c-17-5-26/",
-      "published": "2026-05-16T23:01:16Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "NEWS | Bromsgrove Added To Pre-Season Calendar",
-      "url": "https://herefordfc.co.uk/2026/05/news-bromsgrove-added-to-pre-season-calendar/",
-      "published": "2026-05-16T22:30:18Z"
     }
   ]
 }
