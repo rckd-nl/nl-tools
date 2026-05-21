@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-21T15:55:13Z",
+  "generatedAt": "2026-05-21T18:15:40Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3746,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=a4396330-4bde-434a-84b3-a57ae3546762",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=3a14e49e-fbe9-4365-891e-6f0af6739a95",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,78 @@
     }
   ],
   "items": [
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City Community Trust – Will Snapes",
+      "url": "https://trurocity.co.uk/2026/05/truro-city-community-trust-will-snapes/",
+      "published": "2026-05-21T17:57:46Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Vacancy: First Team Grounds Person",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/vacancy-first-team-grounds-person/",
+      "published": "2026-05-21T17:42:08Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Introducing CTFC Golf Day Friday 10th July 2026",
+      "url": "https://chippenhamtown.com/05/21/introducing-ctfc-golf-day-friday-10th-july-2026/",
+      "published": "2026-05-21T17:30:50Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Timeless Treatments become brand-new back-of-shirt sponsor",
+      "url": "https://radcliffefc.com/timeless-treatments-become-brand-new-back-of-shirt-sponsor/",
+      "published": "2026-05-21T17:29:07Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "MORECAMBE FC LAUNCHES NEW 'TICKET PLUS' MATCHDAY UPGRADE",
+      "url": "https://www.morecambefc.com/news/2026/may/21/morecambe-fc-launches-new--ticket-plus-matchday-upgrade/",
+      "published": "2026-05-21T17:20:00Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Chelmsford City Football Club 25/26 Retained List",
+      "url": "https://chelmsfordcityfc.com/news/chelmsford-city-football-club-25-26-retained-list/",
+      "published": "2026-05-21T17:00:00Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Isuzu FA Trophy Photo Opportunity & Kit Sale",
+      "url": "https://southendunited.co.uk/news/2026/may/21/isuzu-fa-trophy-photo-oppurtnity---kit-sale/",
+      "published": "2026-05-21T16:25:11Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Club Shop Closing Dates",
+      "url": "https://southendunited.co.uk/news/2026/may/21/club-shop-closing-dates/",
+      "published": "2026-05-21T16:02:58Z"
+    },
     {
       "club": "Macclesfield",
       "code": "MAC",
@@ -771,15 +843,6 @@
       "published": "2026-05-21T09:26:57Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Club Shop Open this Afternoon",
-      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-48/",
-      "published": "2026-05-21T08:29:14Z"
-    },
-    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -859,15 +922,6 @@
       "title": "Ian Monnery Trophy confirmed for Saturday 18th July",
       "url": "https://chippenhamtown.com/05/20/ian-monnery-trophy-confirmed-for-saturday-18th-july/",
       "published": "2026-05-20T17:00:34Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Kane Crichlow is a Dagger",
-      "url": "https://daggers.co.uk/kane-crichlow-is-a-dagger/",
-      "published": "2026-05-20T17:00:00Z"
     },
     {
       "club": "Tonbridge Angels",
@@ -1012,6 +1066,15 @@
       "title": "Glovers to Host Bristol Rovers in Home Pre-Season",
       "url": "https://ytfc.net/2026/05/glovers-to-host-bristol-rovers-in-home-pre-season/",
       "published": "2026-05-20T12:00:18Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "26/27 Pre-season Schedule",
+      "url": "https://www.fgr.co.uk/news/2627-pre-season-fixtures-schedule/",
+      "published": "2026-05-20T12:00:00Z"
     },
     {
       "club": "Woking",
@@ -1221,15 +1284,6 @@
       "published": "2026-05-19T17:22:40Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Harry Beautyman is a Dagger",
-      "url": "https://daggers.co.uk/harry-beautyman-is-a-dagger/",
-      "published": "2026-05-19T17:00:00Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1426,60 +1480,6 @@
       "title": "Clubhouse to be closed on occasions over next couple of weeks",
       "url": "https://wsmafc.co.uk/clubhouse-to-be-closed-on-occasions-over-next-couple-of-weeks/",
       "published": "2026-05-19T11:55:13Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "From 2026-27 all U14s Must Be Accompanied by a Responsible Adult",
-      "url": "https://www.horshamfc.co.uk/2026/05/19/from-2026-27-all-u14s-must-be-accompanied-by-a-responsible-adult/",
-      "published": "2026-05-19T11:17:04Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SAM RE-SIGNS FOR SILKMEN",
-      "url": "https://macclesfieldfc.com/latest-news/sam-re-signs-for-silkmen/",
-      "published": "2026-05-19T11:00:01Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "SIGNING | Lewis the Latest to Extend Hereford Stay",
-      "url": "https://herefordfc.co.uk/2026/05/signing-lewis-the-latest-to-extend-hereford-stay/",
-      "published": "2026-05-19T10:59:22Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham FC Recruiting: First Team Physiotherapist",
-      "url": "https://www.horshamfc.co.uk/2026/05/19/horsham-fc-recruiting-first-team-physiotherapist/",
-      "published": "2026-05-19T10:51:13Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "James Eyes Play-Offs After Agreeing New Deal",
-      "url": "https://spennymoortownfc.co.uk/2026/05/19/james-eyes-play-offs-after-agreeing-new-deal/",
-      "published": "2026-05-19T10:11:00Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Brad James Agrees New Spennymoor Deal",
-      "url": "https://spennymoortownfc.co.uk/2026/05/19/brad-james-agrees-new-spennymoor-deal/",
-      "published": "2026-05-19T09:56:10Z"
     }
   ]
 }
