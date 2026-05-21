@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-21T08:32:10Z",
+  "generatedAt": "2026-05-21T11:56:04Z",
   "maxItems": 100,
   "sources": [
     {
@@ -142,10 +142,10 @@
     {
       "club": "Sutton United",
       "domain": "suttonunited.net",
-      "feed": "",
+      "feed": "https://www.suttonunited.net/wp-content/uploads/2024/06/News.jpg",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='suttonunited.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='suttonunited.net', port=443) at 0x7f4691aef6d0>, 'Connection to suttonunited.net timed out. (connect timeout=25)'))"
+      "error": "Feed returned 0 usable items"
     },
     {
       "club": "Tamworth",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=aa372bd2-ed00-4355-b099-4e3e669f2b0e",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=430f45c5-e8be-467a-8a46-afeb9c9f3ef2",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -318,10 +318,10 @@
     {
       "club": "Merthyr Town",
       "domain": "merthyrtownfc.co.uk",
-      "feed": "",
+      "feed": "https://www.merthyrtownfc.co.uk/news/feed",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: HTTPSConnectionPool(host='www.merthyrtownfc.co.uk', port=443): Max retries exceeded with url: /news/feed (Caused by NameResolutionError(\"HTTPSConnection(host='www.merthyrtownfc.co.uk', port=443): Failed to resolve 'www.merthyrtownfc.co.uk' ([Errno -2] Name or service not known)\"))"
+      "error": "Feed returned 0 usable items"
     },
     {
       "club": "Oxford City",
@@ -581,6 +581,60 @@
     }
   ],
   "items": [
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "NEWS | Season Ticket Holders: Name Your Seat",
+      "url": "https://herefordfc.co.uk/2026/05/news-season-ticket-holders-name-your-seat/",
+      "published": "2026-05-21T11:52:56Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Miller’s Summer Diary: Work Is Going Well",
+      "url": "https://spennymoortownfc.co.uk/2026/05/21/millers-summer-diary-work-is-going-well/",
+      "published": "2026-05-21T11:10:04Z"
+    },
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "CEO UPDATE – 21st MAY",
+      "url": "https://marinefc.com/ceo-update-21st-may/",
+      "published": "2026-05-21T10:44:29Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Les Walker Memorial Match",
+      "url": "https://hornchurchfc.com/les-walker-memorial-match/",
+      "published": "2026-05-21T10:27:13Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Book Now For Moors May Football Camp",
+      "url": "https://spennymoortownfc.co.uk/2026/05/21/book-now-for-moors-may-holiday-camp/",
+      "published": "2026-05-21T09:57:26Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "World Cup Games Shown Live",
+      "url": "https://chelmsfordcityfc.com/news/world-cup-games-shown-live/",
+      "published": "2026-05-21T09:26:57Z"
+    },
     {
       "club": "Rochdale",
       "code": "ROC",
@@ -1426,60 +1480,6 @@
       "title": "2026/27 Season and Match Ticket Prices",
       "url": "https://worthingfc.com/2026/05/2026-27-season-and-match-ticket-prices/",
       "published": "2026-05-18T16:10:03Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "McFAYDEN A MACC MAN",
-      "url": "https://macclesfieldfc.com/latest-news/mcfayden-a-macc-man/",
-      "published": "2026-05-18T16:00:45Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Rappor Lounge Café & Bar joins The Final Mile",
-      "url": "https://www.hartlepoolunited.co.uk/rappor-lounge-cafe-bar-joins-the-final-mile/",
-      "published": "2026-05-18T15:11:57Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Retained/Released List 2025/26",
-      "url": "https://rochdaleafc.co.uk/retained-released-list-2025-26/",
-      "published": "2026-05-18T15:08:21Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Under-14 Season Ticket Pricing Update",
-      "url": "https://wokingfc.co.uk/05/18/under-14-season-ticket-pricing-update/",
-      "published": "2026-05-18T15:05:13Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Hornets play Sutton United in Pre-Season Friendly",
-      "url": "https://www.horshamfc.co.uk/2026/05/18/hornets-play-sutton-united-in-pre-season-friendly/",
-      "published": "2026-05-18T15:00:22Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "BTG Consulting plc join Monkey Business",
-      "url": "https://www.hartlepoolunited.co.uk/btg-consulting-plc-join-monkey-business/",
-      "published": "2026-05-18T14:58:55Z"
     }
   ]
 }

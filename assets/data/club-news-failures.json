@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-21T08:32:10Z",
+  "generatedAt": "2026-05-21T11:56:04Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -45,10 +45,10 @@
     {
       "club": "Sutton United",
       "domain": "suttonunited.net",
-      "feed": "",
+      "feed": "https://www.suttonunited.net/wp-content/uploads/2024/06/News.jpg",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='suttonunited.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='suttonunited.net', port=443) at 0x7f4691aef6d0>, 'Connection to suttonunited.net timed out. (connect timeout=25)'))"
+      "error": "Feed returned 0 usable items"
     },
     {
       "club": "Tamworth",
@@ -93,7 +93,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=aa372bd2-ed00-4355-b099-4e3e669f2b0e",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=430f45c5-e8be-467a-8a46-afeb9c9f3ef2",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -125,10 +125,10 @@
     {
       "club": "Merthyr Town",
       "domain": "merthyrtownfc.co.uk",
-      "feed": "",
+      "feed": "https://www.merthyrtownfc.co.uk/news/feed",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: HTTPSConnectionPool(host='www.merthyrtownfc.co.uk', port=443): Max retries exceeded with url: /news/feed (Caused by NameResolutionError(\"HTTPSConnection(host='www.merthyrtownfc.co.uk', port=443): Failed to resolve 'www.merthyrtownfc.co.uk' ([Errno -2] Name or service not known)\"))"
+      "error": "Feed returned 0 usable items"
     },
     {
       "club": "Oxford City",
