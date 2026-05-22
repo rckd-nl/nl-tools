@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-22T22:19:49Z",
+  "generatedAt": "2026-05-22T23:49:39Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=0b5bb65d-24d0-477e-92d4-3f50a20d278f",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=e62b54d2-9b41-44c4-b566-83b7551266a6",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -651,15 +651,6 @@
       "domain": "marinefc.com",
       "title": "500 CLUB – FIRST PARTNER",
       "url": "https://marinefc.com/500-club-first-partner/",
-      "published": "2026-05-22T17:00:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Archie Tamplin is a Dagger",
-      "url": "https://daggers.co.uk/archie-tamplin-is-a-dagger/",
       "published": "2026-05-22T17:00:00Z"
     },
     {
@@ -906,15 +897,6 @@
       "published": "2026-05-22T11:00:45Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Three Pre-Season Fixtures Revealed",
-      "url": "https://daggers.co.uk/three-pre-season-fixtures-revealed/",
-      "published": "2026-05-22T11:00:00Z"
-    },
-    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -1101,15 +1083,6 @@
       "domain": "chelmsfordcityfc.com",
       "title": "Chelmsford City Football Club 25/26 Retained List",
       "url": "https://chelmsfordcityfc.com/news/chelmsford-city-football-club-25-26-retained-list/",
-      "published": "2026-05-21T17:00:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Nathan Ashmore is a Dagger",
-      "url": "https://daggers.co.uk/nathan-ashmore-is-a-dagger/",
       "published": "2026-05-21T17:00:00Z"
     },
     {
@@ -1320,15 +1293,6 @@
       "published": "2026-05-21T09:26:57Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Club Shop Open this Afternoon",
-      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-48/",
-      "published": "2026-05-21T08:29:14Z"
-    },
-    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -1410,15 +1374,6 @@
       "published": "2026-05-20T17:00:34Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Kane Crichlow is a Dagger",
-      "url": "https://daggers.co.uk/kane-crichlow-is-a-dagger/",
-      "published": "2026-05-20T17:00:00Z"
-    },
-    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1480,6 +1435,51 @@
       "title": "1-2-1 AND MINI MASTERCLASS AVAILABILITY",
       "url": "https://macclesfieldfc.com/latest-news/1-2-1-and-mini-masterclass-availability/",
       "published": "2026-05-20T15:00:03Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "2025/26 REVIEW: SEPTEMBER",
+      "url": "https://macclesfieldfc.com/latest-news/2025-26-review-september/",
+      "published": "2026-05-20T14:00:19Z"
+    },
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Can you help get Crabble ready?",
+      "url": "https://doverathletic.com/news/can-you-help-get-crabble-ready-3/",
+      "published": "2026-05-20T13:16:27Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "End Of Season Supporter Survey 2025/26",
+      "url": "https://yorkcityfootballclub.co.uk/end-of-season-supporter-survey-2025-26/",
+      "published": "2026-05-20T13:02:29Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "New To The Division: Harborough Town",
+      "url": "https://spennymoortownfc.co.uk/2026/05/20/new-to-the-division-harborough-town/",
+      "published": "2026-05-20T12:01:50Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Idols Indie Bar joins The Final Mile",
+      "url": "https://www.hartlepoolunited.co.uk/idols-indie-bar-joins-the-final-mile/",
+      "published": "2026-05-20T12:00:34Z"
     }
   ]
 }
