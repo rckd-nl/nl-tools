@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-22T09:52:00Z",
+  "generatedAt": "2026-05-22T12:42:09Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3746,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=0eff59f4-6cb3-41d1-ad81-bc62bc8c4675",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=1885076f-0b5a-4e27-830b-53d4123b63f2",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 522"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,132 @@
     }
   ],
   "items": [
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "PRE-SEASON FIXTURE NEWS: MACCLESFIELD FC VS HYDE UNITED",
+      "url": "https://macclesfieldfc.com/latest-news/pre-season-fixture-news-macclesfield-fc-vs-hyde-united/",
+      "published": "2026-05-22T12:00:51Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Pre-Season News – Larkhall Athletic (A)",
+      "url": "https://www.bathcityfc.com/pre-season-news-larkhall-athletic-a/",
+      "published": "2026-05-22T12:00:23Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Volunteers Day – 13th June",
+      "url": "https://chippenhamtown.com/05/22/volunteers-day-13th-june/",
+      "published": "2026-05-22T12:00:14Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Club Opening Hours",
+      "url": "https://torquayunited.com/club-opening-hours/",
+      "published": "2026-05-22T11:51:53Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Wilkinson set for full-time football opportunity",
+      "url": "https://maidstoneunited.co.uk/05/22/wilkinson-set-for-full-time-football-opportunity/",
+      "published": "2026-05-22T11:43:11Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Away trip to Warrington Town confirmed",
+      "url": "https://chesterfc.com/05/22/away-trip-to-warrington-town-confirmed/",
+      "published": "2026-05-22T11:00:45Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Expression of Interest for AFC Fylde Scholar Trials",
+      "url": "https://afcfylde.co.uk/news/2026/may/22/expression-of-interest-for-scholar-trials/",
+      "published": "2026-05-22T10:59:35Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Maidstone United Football Academy open evening",
+      "url": "https://maidstoneunited.co.uk/05/22/maidstone-united-football-academy-open-evening/",
+      "published": "2026-05-22T10:40:08Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "World Cup at Woodside",
+      "url": "https://worthingfc.com/2026/05/world-cup-at-woodside-2/",
+      "published": "2026-05-22T10:38:56Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Brian Newhall - Funeral Details",
+      "url": "https://altrinchamfc.com/blogs/news/brian-newhall-funeral-details",
+      "published": "2026-05-22T10:19:41Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Join us for March Of The Day III",
+      "url": "https://altrinchamfc.com/blogs/news/join-us-for-march-of-the-day-iii",
+      "published": "2026-05-22T10:17:11Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "The Enterprise National League 2026/27",
+      "url": "https://altrinchamfc.com/blogs/news/the-enterprise-national-league-2026-27",
+      "published": "2026-05-22T10:15:29Z"
+    },
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "An Update on our Youth Section",
+      "url": "https://doverathletic.com/news/an-update-on-our-youth-section/",
+      "published": "2026-05-22T10:05:38Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "VIDEO | AN EVENING WITH ADAM LAKELAND",
+      "url": "https://www.morecambefc.com/news/2026/may/22/video---an-evening-with-adam-lakeland/",
+      "published": "2026-05-22T10:05:00Z"
+    },
     {
       "club": "Spennymoor Town",
       "code": "SPE",
@@ -687,15 +813,6 @@
       "domain": "chelmsfordcityfc.com",
       "title": "Chelmsford City Football Club 25/26 Retained List",
       "url": "https://chelmsfordcityfc.com/news/chelmsford-city-football-club-25-26-retained-list/",
-      "published": "2026-05-21T17:00:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Nathan Ashmore is a Dagger",
-      "url": "https://daggers.co.uk/nathan-ashmore-is-a-dagger/",
       "published": "2026-05-21T17:00:00Z"
     },
     {
@@ -906,15 +1023,6 @@
       "published": "2026-05-21T09:26:57Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Club Shop Open this Afternoon",
-      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-48/",
-      "published": "2026-05-21T08:29:14Z"
-    },
-    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -994,15 +1102,6 @@
       "title": "Ian Monnery Trophy confirmed for Saturday 18th July",
       "url": "https://chippenhamtown.com/05/20/ian-monnery-trophy-confirmed-for-saturday-18th-july/",
       "published": "2026-05-20T17:00:34Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Kane Crichlow is a Dagger",
-      "url": "https://daggers.co.uk/kane-crichlow-is-a-dagger/",
-      "published": "2026-05-20T17:00:00Z"
     },
     {
       "club": "Tonbridge Angels",
@@ -1095,24 +1194,6 @@
       "published": "2026-05-20T13:02:29Z"
     },
     {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Join us for March Of The Day III",
-      "url": "https://altrinchamfc.com/blogs/news/join-us-for-march-of-the-day-iii",
-      "published": "2026-05-20T12:58:44Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Brian Newhall - Funeral Details",
-      "url": "https://altrinchamfc.com/blogs/news/brian-newhall-funeral-details",
-      "published": "2026-05-20T12:47:08Z"
-    },
-    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -1147,15 +1228,6 @@
       "title": "Glovers to Host Bristol Rovers in Home Pre-Season",
       "url": "https://ytfc.net/2026/05/glovers-to-host-bristol-rovers-in-home-pre-season/",
       "published": "2026-05-20T12:00:18Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "26/27 Pre-season Schedule",
-      "url": "https://www.fgr.co.uk/news/2627-pre-season-fixtures-schedule/",
-      "published": "2026-05-20T12:00:00Z"
     },
     {
       "club": "Woking",
@@ -1266,15 +1338,6 @@
       "published": "2026-05-20T08:58:00Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "2026-27 Pre-Season Fixtures Released",
-      "url": "https://www.horshamfc.co.uk/2026/05/20/2026-27-pre-season-fixtures-released/",
-      "published": "2026-05-20T08:51:13Z"
-    },
-    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -1329,15 +1392,6 @@
       "published": "2026-05-19T18:01:20Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Report – U18s vs Eastbourne United",
-      "url": "https://www.horshamfc.co.uk/2026/05/19/match-report-u18s-vs-eastbourne-united/",
-      "published": "2026-05-19T18:00:01Z"
-    },
-    {
       "club": "Radcliffe",
       "code": "RAD",
       "short": "Radcliffe",
@@ -1354,15 +1408,6 @@
       "title": "United Women Announce Retained List",
       "url": "https://torquayunited.com/united-women-announce-retained-list/",
       "published": "2026-05-19T17:22:40Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Harry Beautyman is a Dagger",
-      "url": "https://daggers.co.uk/harry-beautyman-is-a-dagger/",
-      "published": "2026-05-19T17:00:00Z"
     },
     {
       "club": "Maidstone United",
@@ -1435,51 +1480,6 @@
       "title": "Support the pitch with the Iron Super Draw and be in with a chance of winning a pitch square in June",
       "url": "https://www.scunthorpe-united.co.uk/news/2026/may/support-the-pitch-with-the-iron-super-draw-and-be-in-with-a-chance-of-winning-a-pitch-square-in-june/",
       "published": "2026-05-19T15:02:28Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Ronan Re-signs",
-      "url": "https://chelmsfordcityfc.com/news/ronan-re-signs/",
-      "published": "2026-05-19T14:58:00Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Neuven agree a further three-year commitment",
-      "url": "https://radcliffefc.com/neuven-agree-a-further-three-year-commitment/",
-      "published": "2026-05-19T14:56:12Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "TROPHY TRIUMPH AND PLAYER DEVELOPMENT HIGHLIGHT STRONG ACADEMY SEASON",
-      "url": "https://www.carlisleunited.co.uk/news/trophy-triumph-and-player-development-highlight-strong-academy-season",
-      "published": "2026-05-19T14:20:00Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Oli Coker Wins Enterprise National League Player Of The Month",
-      "url": "https://southendunited.co.uk/news/2026/may/19/oli-coker-wins-enterprise-national-league-player-of-the-month/",
-      "published": "2026-05-19T14:00:00Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Your 2026/27 Season Ticket holder partner benefits",
-      "url": "https://altrinchamfc.com/blogs/news/your-2026-27-season-ticket-holder-partner-benefits",
-      "published": "2026-05-19T13:58:19Z"
     }
   ]
 }
