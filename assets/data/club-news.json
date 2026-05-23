@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-23T16:42:47Z",
+  "generatedAt": "2026-05-23T17:47:54Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3749,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=f8bb305c-a6d6-4f3d-a8c3-b0a14d8b7894",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=e84af4a4-ba0b-45ae-bea2-d9b3655bba8e",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Her Game Too x DAME survey",
+      "url": "https://chesterfc.com/05/23/her-game-too-x-dame-survey/",
+      "published": "2026-05-23T17:22:35Z"
+    },
+    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -753,15 +762,6 @@
       "published": "2026-05-22T19:19:48Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Kyle Ajayi Signs for Rovers",
-      "url": "https://www.fgr.co.uk/news/kyle-ajayi-signs-for-rovers-26/",
-      "published": "2026-05-22T18:40:00Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -897,15 +897,6 @@
       "published": "2026-05-22T14:30:15Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Club Update - 1st Team Staff",
-      "url": "https://www.fgr.co.uk/news/club-update-1st-team-staff/",
-      "published": "2026-05-22T14:20:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -922,15 +913,6 @@
       "title": "MINUTES FROM THE MAY CUSG MEETING",
       "url": "https://www.carlisleunited.co.uk/news/minutes-may-cusg-meeting",
       "published": "2026-05-22T13:40:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Tom Knowles",
-      "url": "https://www.fgr.co.uk/news/tom-knowles-update/",
-      "published": "2026-05-22T13:30:00Z"
     },
     {
       "club": "Chelmsford City",
@@ -1480,6 +1462,24 @@
       "title": "Craig Ross Renews",
       "url": "https://wokingfc.co.uk/05/20/craig-ross-renews/",
       "published": "2026-05-20T18:44:08Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "INTERVIEW | Downes Discusses Cox Acquisition",
+      "url": "https://herefordfc.co.uk/2026/05/interview-downes-discusses-cox-acquisition/",
+      "published": "2026-05-20T17:40:15Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Joe’s First Words With The Nash",
+      "url": "https://curzon-ashton.co.uk/joes-first-words-with-the-nash/",
+      "published": "2026-05-20T17:00:52Z"
     }
   ]
 }
