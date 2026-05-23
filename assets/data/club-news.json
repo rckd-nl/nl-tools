@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-23T04:10:27Z",
+  "generatedAt": "2026-05-23T06:48:22Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=ad3f450d-b122-43b0-bc66-af3dfdc15f0b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=6ff70712-320c-4c47-b2cb-a0937f39c01b",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "2025-26 Champagne Moment Poll",
+      "url": "https://www.horshamfc.co.uk/2026/05/23/2025-26-champagne-moment-poll/",
+      "published": "2026-05-23T06:30:04Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -1471,15 +1480,6 @@
       "title": "New To The Division: Harborough Town",
       "url": "https://spennymoortownfc.co.uk/2026/05/20/new-to-the-division-harborough-town/",
       "published": "2026-05-20T12:01:50Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Idols Indie Bar joins The Final Mile",
-      "url": "https://www.hartlepoolunited.co.uk/idols-indie-bar-joins-the-final-mile/",
-      "published": "2026-05-20T12:00:34Z"
     }
   ]
 }
