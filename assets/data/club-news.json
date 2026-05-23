@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-23T15:23:40Z",
+  "generatedAt": "2026-05-23T16:42:47Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=00a2fb02-8c63-4207-8a00-34ca9ab8266e",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=f8bb305c-a6d6-4f3d-a8c3-b0a14d8b7894",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -586,6 +586,15 @@
       "code": "HOR",
       "short": "Hornchurch",
       "domain": "hornchurchfc.com",
+      "title": "Stadium Redevelopment Plans Announced",
+      "url": "https://hornchurchfc.com/stadium-redevelopment-plans-announced/",
+      "published": "2026-05-23T16:11:55Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
       "title": "Interview: Alex Sharp",
       "url": "https://hornchurchfc.com/interview-alex-sharp/",
       "published": "2026-05-23T15:11:30Z"
@@ -726,15 +735,6 @@
       "published": "2026-05-23T06:30:04Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Watch Live Football at the Daggers",
-      "url": "https://daggers.co.uk/watch-live-football-at-the-daggers-2/",
-      "published": "2026-05-23T04:04:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -804,15 +804,6 @@
       "domain": "marinefc.com",
       "title": "500 CLUB – FIRST PARTNER",
       "url": "https://marinefc.com/500-club-first-partner/",
-      "published": "2026-05-22T17:00:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Archie Tamplin is a Dagger",
-      "url": "https://daggers.co.uk/archie-tamplin-is-a-dagger/",
       "published": "2026-05-22T17:00:00Z"
     },
     {
@@ -1059,15 +1050,6 @@
       "published": "2026-05-22T11:00:45Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Three Pre-Season Fixtures Revealed",
-      "url": "https://daggers.co.uk/three-pre-season-fixtures-revealed/",
-      "published": "2026-05-22T11:00:00Z"
-    },
-    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -1254,15 +1236,6 @@
       "domain": "chelmsfordcityfc.com",
       "title": "Chelmsford City Football Club 25/26 Retained List",
       "url": "https://chelmsfordcityfc.com/news/chelmsford-city-football-club-25-26-retained-list/",
-      "published": "2026-05-21T17:00:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Nathan Ashmore is a Dagger",
-      "url": "https://daggers.co.uk/nathan-ashmore-is-a-dagger/",
       "published": "2026-05-21T17:00:00Z"
     },
     {
@@ -1473,13 +1446,40 @@
       "published": "2026-05-21T09:26:57Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Club Shop Open this Afternoon",
-      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-48/",
-      "published": "2026-05-21T08:29:14Z"
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Every Goal of our 2025/26 National League Season",
+      "url": "https://rochdaleafc.co.uk/every-goal-of-our-2025-26-national-league-season/",
+      "published": "2026-05-21T08:19:53Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Meet the PL Legends: Dean Windass",
+      "url": "https://chippenhamtown.com/05/21/meet-the-pl-legends-dean-windass/",
+      "published": "2026-05-21T07:00:57Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Dylan Mottley-Henry departs Chester FC",
+      "url": "https://chesterfc.com/05/20/dylan-mottley-henry-departs-chester-fc/",
+      "published": "2026-05-20T19:00:55Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Craig Ross Renews",
+      "url": "https://wokingfc.co.uk/05/20/craig-ross-renews/",
+      "published": "2026-05-20T18:44:08Z"
     }
   ]
 }
