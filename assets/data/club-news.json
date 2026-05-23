@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-23T17:47:54Z",
+  "generatedAt": "2026-05-23T18:48:28Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=e84af4a4-ba0b-45ae-bea2-d9b3655bba8e",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=4104f681-9530-40bb-a0a4-9b379ae70ba1",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "“𝗜𝘁’𝘀 𝗮 𝗯𝗶𝗴 𝘀𝘁𝗲𝗽 𝗶𝗻 𝗺𝘆 𝗰𝗮𝗿𝗲𝗲𝗿” | Owen Johnson – New contract",
+      "url": "https://wsmafc.co.uk/%f0%9d%97%9c%f0%9d%98%81%f0%9d%98%80-%f0%9d%97%ae-%f0%9d%97%af%f0%9d%97%b6%f0%9d%97%b4-%f0%9d%98%80%f0%9d%98%81%f0%9d%97%b2%f0%9d%97%bd-%f0%9d%97%b6%f0%9d%97%bb-%f0%9d%97%ba%f0%9d%98%86/",
+      "published": "2026-05-23T18:14:50Z"
+    },
     {
       "club": "Chester",
       "code": "CHE",
@@ -1471,15 +1480,6 @@
       "title": "INTERVIEW | Downes Discusses Cox Acquisition",
       "url": "https://herefordfc.co.uk/2026/05/interview-downes-discusses-cox-acquisition/",
       "published": "2026-05-20T17:40:15Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Joe’s First Words With The Nash",
-      "url": "https://curzon-ashton.co.uk/joes-first-words-with-the-nash/",
-      "published": "2026-05-20T17:00:52Z"
     }
   ]
 }
