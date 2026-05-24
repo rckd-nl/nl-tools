@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-24T14:01:45Z",
+  "generatedAt": "2026-05-24T15:25:45Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3749,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=66f87727-dc39-4689-97f2-76d3a0efa50f",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "George Burroughs is a Blue!",
+      "url": "https://chesterfc.com/05/24/george-burroughs-is-a-blue/",
+      "published": "2026-05-24T14:00:24Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -852,15 +861,6 @@
       "published": "2026-05-22T19:19:48Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Kyle Ajayi Signs for Rovers",
-      "url": "https://www.fgr.co.uk/news/kyle-ajayi-signs-for-rovers-26/",
-      "published": "2026-05-22T18:40:00Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1005,15 +1005,6 @@
       "published": "2026-05-22T14:30:15Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Club Update - 1st Team Staff",
-      "url": "https://www.fgr.co.uk/news/club-update-1st-team-staff/",
-      "published": "2026-05-22T14:20:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1030,15 +1021,6 @@
       "title": "MINUTES FROM THE MAY CUSG MEETING",
       "url": "https://www.carlisleunited.co.uk/news/minutes-may-cusg-meeting",
       "published": "2026-05-22T13:40:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Tom Knowles",
-      "url": "https://www.fgr.co.uk/news/tom-knowles-update/",
-      "published": "2026-05-22T13:30:00Z"
     },
     {
       "club": "Chelmsford City",
@@ -1480,6 +1462,24 @@
       "title": "NEWS | Bulls Launch Squad Builder For 2026/27 Season",
       "url": "https://herefordfc.co.uk/2026/05/news-bulls-launch-squad-builder-for-2026-27-season/",
       "published": "2026-05-21T13:01:01Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Southend United Appoint New General Manager",
+      "url": "https://southendunited.co.uk/news/2026/may/21/southend-united-appoint-new-general-manager/",
+      "published": "2026-05-21T13:00:00Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Hipkiss South Stand Sponsorship available!",
+      "url": "https://chesterfc.com/05/21/hipkiss-south-stand-sponsorship-available/",
+      "published": "2026-05-21T12:57:56Z"
     }
   ]
 }
