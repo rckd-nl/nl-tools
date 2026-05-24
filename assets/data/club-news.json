@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-23T23:14:21Z",
+  "generatedAt": "2026-05-24T00:14:21Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3749,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=20fd0361-d753-4ec4-aecc-02ad663fcd13",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=7586d2a3-1773-4520-83ac-7cf323ebdaf5",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -807,6 +807,15 @@
       "published": "2026-05-22T19:19:48Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Kyle Ajayi Signs for Rovers",
+      "url": "https://www.fgr.co.uk/news/kyle-ajayi-signs-for-rovers-26/",
+      "published": "2026-05-22T18:40:00Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -951,6 +960,15 @@
       "published": "2026-05-22T14:30:15Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Club Update - 1st Team Staff",
+      "url": "https://www.fgr.co.uk/news/club-update-1st-team-staff/",
+      "published": "2026-05-22T14:20:00Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -967,6 +985,15 @@
       "title": "MINUTES FROM THE MAY CUSG MEETING",
       "url": "https://www.carlisleunited.co.uk/news/minutes-may-cusg-meeting",
       "published": "2026-05-22T13:40:00Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Tom Knowles",
+      "url": "https://www.fgr.co.uk/news/tom-knowles-update/",
+      "published": "2026-05-22T13:30:00Z"
     },
     {
       "club": "Chelmsford City",
@@ -1453,33 +1480,6 @@
       "title": "NEW TO THE NATIONAL LEAGUE NORTH: BRACKLEY TOWN",
       "url": "https://macclesfieldfc.com/latest-news/new-to-the-national-league-north-brackley-town/",
       "published": "2026-05-21T12:00:59Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "NEWS | Season Ticket Holders: Name Your Seat",
-      "url": "https://herefordfc.co.uk/2026/05/news-season-ticket-holders-name-your-seat/",
-      "published": "2026-05-21T11:52:56Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Miller’s Summer Diary: Work Is Going Well",
-      "url": "https://spennymoortownfc.co.uk/2026/05/21/millers-summer-diary-work-is-going-well/",
-      "published": "2026-05-21T11:10:04Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "CEO UPDATE – 21st MAY",
-      "url": "https://marinefc.com/ceo-update-21st-may/",
-      "published": "2026-05-21T10:44:29Z"
     }
   ]
 }
