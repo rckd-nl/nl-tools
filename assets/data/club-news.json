@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-24T15:25:45Z",
+  "generatedAt": "2026-05-24T16:45:31Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3749,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=66f87727-dc39-4689-97f2-76d3a0efa50f",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=35c6fb8e-b8e8-4aa7-be31-27beb811978b",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Smith Stays at Woodside",
+      "url": "https://worthingfc.com/2026/05/smith-stays-at-woodside/",
+      "published": "2026-05-24T16:04:58Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "PRE-SEASON FIXTURE NEWS: LEEK TOWN VS MACCLESFIELD FC",
+      "url": "https://macclesfieldfc.com/latest-news/pre-season-fixture-news-leek-town-vs-macclesfield-fc/",
+      "published": "2026-05-24T16:00:11Z"
+    },
     {
       "club": "Chester",
       "code": "CHE",
@@ -825,24 +843,6 @@
       "published": "2026-05-23T07:43:47Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "2025-26 Champagne Moment Poll",
-      "url": "https://www.horshamfc.co.uk/2026/05/23/2025-26-champagne-moment-poll/",
-      "published": "2026-05-23T06:30:04Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Watch Live Football at the Daggers",
-      "url": "https://daggers.co.uk/watch-live-football-at-the-daggers-2/",
-      "published": "2026-05-23T04:04:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -859,6 +859,15 @@
       "title": "Aubrey Wilkes Trophy Date Confirmed",
       "url": "https://trurocity.co.uk/2026/05/aubrey-wilkes-trophy-date-confirmed/",
       "published": "2026-05-22T19:19:48Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Kyle Ajayi Signs for Rovers",
+      "url": "https://www.fgr.co.uk/news/kyle-ajayi-signs-for-rovers-26/",
+      "published": "2026-05-22T18:40:00Z"
     },
     {
       "club": "Hereford",
@@ -903,15 +912,6 @@
       "domain": "marinefc.com",
       "title": "500 CLUB – FIRST PARTNER",
       "url": "https://marinefc.com/500-club-first-partner/",
-      "published": "2026-05-22T17:00:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Archie Tamplin is a Dagger",
-      "url": "https://daggers.co.uk/archie-tamplin-is-a-dagger/",
       "published": "2026-05-22T17:00:00Z"
     },
     {
@@ -1005,6 +1005,15 @@
       "published": "2026-05-22T14:30:15Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Club Update - 1st Team Staff",
+      "url": "https://www.fgr.co.uk/news/club-update-1st-team-staff/",
+      "published": "2026-05-22T14:20:00Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1021,6 +1030,15 @@
       "title": "MINUTES FROM THE MAY CUSG MEETING",
       "url": "https://www.carlisleunited.co.uk/news/minutes-may-cusg-meeting",
       "published": "2026-05-22T13:40:00Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Tom Knowles",
+      "url": "https://www.fgr.co.uk/news/tom-knowles-update/",
+      "published": "2026-05-22T13:30:00Z"
     },
     {
       "club": "Chelmsford City",
@@ -1147,15 +1165,6 @@
       "title": "Away trip to Warrington Town confirmed",
       "url": "https://chesterfc.com/05/22/away-trip-to-warrington-town-confirmed/",
       "published": "2026-05-22T11:00:45Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Three Pre-Season Fixtures Revealed",
-      "url": "https://daggers.co.uk/three-pre-season-fixtures-revealed/",
-      "published": "2026-05-22T11:00:00Z"
     },
     {
       "club": "AFC Fylde",
@@ -1344,15 +1353,6 @@
       "domain": "chelmsfordcityfc.com",
       "title": "Chelmsford City Football Club 25/26 Retained List",
       "url": "https://chelmsfordcityfc.com/news/chelmsford-city-football-club-25-26-retained-list/",
-      "published": "2026-05-21T17:00:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Nathan Ashmore is a Dagger",
-      "url": "https://daggers.co.uk/nathan-ashmore-is-a-dagger/",
       "published": "2026-05-21T17:00:00Z"
     },
     {
