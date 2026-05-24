@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-24T07:58:41Z",
+  "generatedAt": "2026-05-24T09:34:59Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -118,10 +118,10 @@
     {
       "club": "Scunthorpe United",
       "domain": "scunthorpe-united.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://www.scunthorpe-united.co.uk/feed/",
+      "ok": true,
+      "count": 4,
+      "error": ""
     },
     {
       "club": "Solihull Moors",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=68ac2f9e-8375-48a8-a1a7-b79d593981d3",
+      "feed": "",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://harriers.co.uk/feed/",
+      "ok": true,
+      "count": 20,
+      "error": ""
     },
     {
       "club": "King's Lynn Town",
@@ -337,7 +337,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='psfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='psfc.co.uk', port=443) at 0x7fd927e24690>, 'Connection to psfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Radcliffe",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -430,26 +430,26 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://dwfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Dover Athletic",
       "domain": "doverathletic.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "feed": "https://doverathletic.com/news/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Eastbourne Borough",
@@ -489,7 +489,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 503"
+      "error": "HTTP 404"
     },
     {
       "club": "Hemel Hempstead Town",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Job Vacancy: Safety Officer",
+      "url": "https://chesterfc.com/05/24/job-vacancy-safety-officer/",
+      "published": "2026-05-24T09:00:20Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Josh Hare departs",
+      "url": "https://hornchurchfc.com/josh-hare-departs/",
+      "published": "2026-05-24T08:00:11Z"
+    },
     {
       "club": "Maidstone United",
       "code": "MSU",
@@ -753,6 +771,15 @@
       "published": "2026-05-23T09:00:08Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "New Club Shop Opening Hours",
+      "url": "https://southportfc.net/new-club-shop-opening-hours/",
+      "published": "2026-05-23T07:54:37Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -760,15 +787,6 @@
       "title": "Angelfest 2026 – Full Line-Up Revealed",
       "url": "https://tonbridgeangels.co.uk/angelfest-2026-full-line-up-revealed/",
       "published": "2026-05-23T07:43:47Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Watch Live Football at the Daggers",
-      "url": "https://daggers.co.uk/watch-live-football-at-the-daggers-2/",
-      "published": "2026-05-23T04:04:00Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -834,13 +852,13 @@
       "published": "2026-05-22T17:00:00Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Archie Tamplin is a Dagger",
-      "url": "https://daggers.co.uk/archie-tamplin-is-a-dagger/",
-      "published": "2026-05-22T17:00:00Z"
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Josh Barrett Is A Wanderer",
+      "url": "https://dwfc.co.uk/2026/05/josh-barrett-is-a-wanderer/",
+      "published": "2026-05-22T16:30:50Z"
     },
     {
       "club": "Hartlepool United",
@@ -969,6 +987,15 @@
       "published": "2026-05-22T13:28:00Z"
     },
     {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Mitch Walker signs for 26/27",
+      "url": "https://doverathletic.com/news/mitch-walker-signs-for-26-27/",
+      "published": "2026-05-22T13:19:41Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1003,6 +1030,15 @@
       "title": "AJIBOYE NOMINATED FOR GOAL OF THE SEASON",
       "url": "https://www.carlisleunited.co.uk/news/ajiboye-nominated-goal-season",
       "published": "2026-05-22T13:00:00Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "DWFC Women | Thank You, Bex Wells",
+      "url": "https://dwfc.co.uk/2026/05/dwfc-women-thank-you-bex-wells/",
+      "published": "2026-05-22T12:39:44Z"
     },
     {
       "club": "Macclesfield",
@@ -1068,15 +1104,6 @@
       "published": "2026-05-22T11:00:45Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Three Pre-Season Fixtures Revealed",
-      "url": "https://daggers.co.uk/three-pre-season-fixtures-revealed/",
-      "published": "2026-05-22T11:00:00Z"
-    },
-    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -1129,6 +1156,15 @@
       "title": "The Enterprise National League 2026/27",
       "url": "https://altrinchamfc.com/blogs/news/the-enterprise-national-league-2026-27",
       "published": "2026-05-22T10:15:29Z"
+    },
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "An Update on our Youth Section",
+      "url": "https://doverathletic.com/news/an-update-on-our-youth-section/",
+      "published": "2026-05-22T10:05:38Z"
     },
     {
       "club": "Morecambe",
@@ -1203,6 +1239,15 @@
       "published": "2026-05-21T17:57:46Z"
     },
     {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Vacancy: First Team Grounds Person",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/vacancy-first-team-grounds-person/",
+      "published": "2026-05-21T17:42:08Z"
+    },
+    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -1236,15 +1281,6 @@
       "domain": "chelmsfordcityfc.com",
       "title": "Chelmsford City Football Club 25/26 Retained List",
       "url": "https://chelmsfordcityfc.com/news/chelmsford-city-football-club-25-26-retained-list/",
-      "published": "2026-05-21T17:00:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Nathan Ashmore is a Dagger",
-      "url": "https://daggers.co.uk/nathan-ashmore-is-a-dagger/",
       "published": "2026-05-21T17:00:00Z"
     },
     {
@@ -1437,15 +1473,6 @@
       "published": "2026-05-21T09:26:57Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Club Shop Open this Afternoon",
-      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-48/",
-      "published": "2026-05-21T08:29:14Z"
-    },
-    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -1453,33 +1480,6 @@
       "title": "Meet the PL Legends: Dean Windass",
       "url": "https://chippenhamtown.com/05/21/meet-the-pl-legends-dean-windass/",
       "published": "2026-05-21T07:00:57Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Dylan Mottley-Henry departs Chester FC",
-      "url": "https://chesterfc.com/05/20/dylan-mottley-henry-departs-chester-fc/",
-      "published": "2026-05-20T19:00:55Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Craig Ross Renews",
-      "url": "https://wokingfc.co.uk/05/20/craig-ross-renews/",
-      "published": "2026-05-20T18:44:08Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "INTERVIEW | Downes Discusses Cox Acquisition",
-      "url": "https://herefordfc.co.uk/2026/05/interview-downes-discusses-cox-acquisition/",
-      "published": "2026-05-20T17:40:15Z"
     }
   ]
 }
