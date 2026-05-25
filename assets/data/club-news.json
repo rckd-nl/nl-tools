@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-25T06:52:09Z",
+  "generatedAt": "2026-05-25T11:20:05Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3749,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=49a2887d-4a2f-49ec-9420-01d115bfca84",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=675d8ce8-04f3-44c1-ae07-b2679582c064",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,87 @@
     }
   ],
   "items": [
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "A first chat with George Burroughs",
+      "url": "https://chesterfc.com/05/25/a-first-chat-with-george-burroughs/",
+      "published": "2026-05-25T11:11:37Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Going The Extra Mile",
+      "url": "https://etfc.london/going-the-extra-mile/",
+      "published": "2026-05-25T11:04:06Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Weston set to face The Posset in pre-season",
+      "url": "https://wsmafc.co.uk/weston-set-to-face-the-posset-in-pre-season/",
+      "published": "2026-05-25T11:00:08Z"
+    },
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Harry Beadle signs for 26/27",
+      "url": "https://doverathletic.com/news/harry-beadle-signs-for-26-27/",
+      "published": "2026-05-25T09:32:45Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Seagulls to welcome Exeter City to The Optima in pre-season",
+      "url": "https://wsmafc.co.uk/seagulls-to-welcome-exeter-city-to-the-optima-in-pre-season/",
+      "published": "2026-05-25T09:00:55Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Seymours Renew",
+      "url": "https://wokingfc.co.uk/05/25/seymours-renew/",
+      "published": "2026-05-25T08:59:03Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "VIDEO: Close season reflections from the gaffer",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/video-close-season-reflections-from-the-gaffer/",
+      "published": "2026-05-25T08:56:50Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "2026-27 matchday ticket prices",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/2026-27-matchday-ticket-prices/",
+      "published": "2026-05-25T08:33:17Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Final few days of Early Bird season tickets, advance prices also confirmed",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/final-few-days-of-early-bird-season-tickets-advance-prices-also-confirmed/",
+      "published": "2026-05-25T08:24:32Z"
+    },
     {
       "club": "Worthing",
       "code": "WOR",
@@ -843,15 +924,6 @@
       "published": "2026-05-23T07:43:47Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "2025-26 Champagne Moment Poll",
-      "url": "https://www.horshamfc.co.uk/2026/05/23/2025-26-champagne-moment-poll/",
-      "published": "2026-05-23T06:30:04Z"
-    },
-    {
       "club": "Dagenham & Redbridge",
       "code": "DAG",
       "short": "Dag & Red",
@@ -877,6 +949,15 @@
       "title": "Aubrey Wilkes Trophy Date Confirmed",
       "url": "https://trurocity.co.uk/2026/05/aubrey-wilkes-trophy-date-confirmed/",
       "published": "2026-05-22T19:19:48Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Kyle Ajayi Signs for Rovers",
+      "url": "https://www.fgr.co.uk/news/kyle-ajayi-signs-for-rovers-26/",
+      "published": "2026-05-22T18:40:00Z"
     },
     {
       "club": "Hereford",
@@ -1023,6 +1104,15 @@
       "published": "2026-05-22T14:30:15Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Club Update - 1st Team Staff",
+      "url": "https://www.fgr.co.uk/news/club-update-1st-team-staff/",
+      "published": "2026-05-22T14:20:00Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1039,6 +1129,15 @@
       "title": "MINUTES FROM THE MAY CUSG MEETING",
       "url": "https://www.carlisleunited.co.uk/news/minutes-may-cusg-meeting",
       "published": "2026-05-22T13:40:00Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Tom Knowles",
+      "url": "https://www.fgr.co.uk/news/tom-knowles-update/",
+      "published": "2026-05-22T13:30:00Z"
     },
     {
       "club": "Chelmsford City",
@@ -1381,105 +1480,6 @@
       "title": "Isuzu FA Trophy Photo Opportunity & Kit Sale",
       "url": "https://southendunited.co.uk/news/2026/may/21/isuzu-fa-trophy-photo-oppurtnity---kit-sale/",
       "published": "2026-05-21T16:25:11Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Club Shop Closing Dates",
-      "url": "https://southendunited.co.uk/news/2026/may/21/club-shop-closing-dates/",
-      "published": "2026-05-21T16:02:58Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "LIVE SPORT IN BAR TWENTY SEVEN",
-      "url": "https://macclesfieldfc.com/latest-news/live-sport-in-bar-twenty-seven/",
-      "published": "2026-05-21T15:00:48Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Walking Football Update",
-      "url": "https://tonbridgeangels.co.uk/walking-football-update-15/",
-      "published": "2026-05-21T15:00:00Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Wood confirm 2025/26 retained list",
-      "url": "https://www.borehamwoodfootballclub.co.uk/wood-confirm-2025-26-retained-list/",
-      "published": "2026-05-21T14:59:10Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Official: Sam Pearson departs the Spitfires",
-      "url": "https://eastleighfc.com/2026/05/official-sam-pearson-departs-the-spitfires/",
-      "published": "2026-05-21T14:59:04Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Maidstone United Raiders Charity Match",
-      "url": "https://maidstoneunited.co.uk/05/21/maidstone-united-raiders-charity-match/",
-      "published": "2026-05-21T14:55:06Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "United Sign Ex-Argyle ‘Keeper Zak Baker",
-      "url": "https://torquayunited.com/united-sign-ex-argyle-keeper-zak-baker/",
-      "published": "2026-05-21T14:52:03Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Club Statement: Louie kudiabor",
-      "url": "https://chelmsfordcityfc.com/news/club-statement-louie-kudiabor/",
-      "published": "2026-05-21T14:37:18Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Off-Pitch Team Strengthened",
-      "url": "https://tonbridgeangels.co.uk/off-pitch-team-strengthened/",
-      "published": "2026-05-21T13:56:39Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "May Half-Term Football Fun with Chester FC Community Trust",
-      "url": "https://chesterfc.com/05/21/soccerschool/",
-      "published": "2026-05-21T13:34:15Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "NEWS | Bulls Launch Squad Builder For 2026/27 Season",
-      "url": "https://herefordfc.co.uk/2026/05/news-bulls-launch-squad-builder-for-2026-27-season/",
-      "published": "2026-05-21T13:01:01Z"
     }
   ]
 }
