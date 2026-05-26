@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-26T05:57:11Z",
+  "generatedAt": "2026-05-26T10:20:44Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3750,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=f617f42e-e153-4e76-9e7a-fc063e44b0e6",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=0a362f1e-423b-4f36-be6b-f60f843b1c5a",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,69 @@
   ],
   "items": [
     {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Shorts Group Expands Partnership With Woking Football Club",
+      "url": "https://wokingfc.co.uk/05/26/shorts-group-expands-partnership-with-woking-football-club/",
+      "published": "2026-05-26T09:58:24Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Early bird season ticket pricing ends this weekend - buy now to get the best price!",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/early-bird-season-ticket-pricing-ends-this-weekend-buy-now-to-get-the-best-price/",
+      "published": "2026-05-26T09:37:18Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SILKMEN UNVEIL SPONSORS DIRECTORY",
+      "url": "https://macclesfieldfc.com/latest-news/silkmen-unveil-sponsors-directory/",
+      "published": "2026-05-26T09:30:29Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Altrincham FC all set for March of the Day III",
+      "url": "https://altrinchamfc.com/blogs/news/altrincham-fc-all-set-for-march-of-the-day-iii",
+      "published": "2026-05-26T09:29:18Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Pitch renovations continue with hybrid carpet system installed",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/pitch-renovations-continue-with-hybrid-carpet-system-installed/",
+      "published": "2026-05-26T09:11:49Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Angels Walking Footballers win another trophy!",
+      "url": "https://tonbridgeangels.co.uk/angels-walking-footballers-win-another-trophy/",
+      "published": "2026-05-26T08:21:27Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Secure Your 2026/27 Season Ticket",
+      "url": "https://rochdaleafc.co.uk/2026-27-season-tickets-on-sale-monday-150526/",
+      "published": "2026-05-26T06:58:28Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -636,6 +699,15 @@
       "published": "2026-05-25T17:00:43Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Kymani Thomas is a Dagger",
+      "url": "https://daggers.co.uk/kymani-thomas-is-a-dagger/",
+      "published": "2026-05-25T17:00:00Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -688,6 +760,15 @@
       "title": "Chester FC Inclusive Blues: Supporters and Community Members Invited to Attend Next Meeting",
       "url": "https://chesterfc.com/05/25/chester-fc-inclusive-blues-supporters-and-community-members-invited-to-attend-next-meeting/",
       "published": "2026-05-25T14:00:29Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Partnership | Beanstalk",
+      "url": "https://www.fgr.co.uk/news/partnership-beanstalk-26/",
+      "published": "2026-05-25T14:00:00Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -807,13 +888,13 @@
       "published": "2026-05-25T08:33:17Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Final few days of Early Bird season tickets, advance prices also confirmed",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/final-few-days-of-early-bird-season-tickets-advance-prices-also-confirmed/",
-      "published": "2026-05-25T08:24:32Z"
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Two Sides: Ben Beals",
+      "url": "https://spennymoortownfc.co.uk/2026/05/25/two-sides-ben-beals/",
+      "published": "2026-05-25T06:59:00Z"
     },
     {
       "club": "Marine",
@@ -969,6 +1050,15 @@
       "published": "2026-05-23T13:00:00Z"
     },
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Meet The Trophy On Wednesday!",
+      "url": "https://rochdaleafc.co.uk/meet-the-trophy-270526/",
+      "published": "2026-05-23T12:47:21Z"
+    },
+    {
       "club": "Salisbury",
       "code": "SAL",
       "short": "Salisbury",
@@ -1059,6 +1149,15 @@
       "published": "2026-05-23T07:54:37Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Watch Live Football at the Daggers",
+      "url": "https://daggers.co.uk/watch-live-football-at-the-daggers-2/",
+      "published": "2026-05-23T04:04:00Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1066,6 +1165,15 @@
       "title": "Aubrey Wilkes Trophy Date Confirmed",
       "url": "https://trurocity.co.uk/2026/05/aubrey-wilkes-trophy-date-confirmed/",
       "published": "2026-05-22T19:19:48Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Kyle Ajayi Signs for Rovers",
+      "url": "https://www.fgr.co.uk/news/kyle-ajayi-signs-for-rovers-26/",
+      "published": "2026-05-22T18:40:00Z"
     },
     {
       "club": "Hereford",
@@ -1110,6 +1218,15 @@
       "domain": "marinefc.com",
       "title": "500 CLUB – FIRST PARTNER",
       "url": "https://marinefc.com/500-club-first-partner/",
+      "published": "2026-05-22T17:00:00Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Archie Tamplin is a Dagger",
+      "url": "https://daggers.co.uk/archie-tamplin-is-a-dagger/",
       "published": "2026-05-22T17:00:00Z"
     },
     {
@@ -1203,6 +1320,15 @@
       "published": "2026-05-22T14:30:15Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Club Update - 1st Team Staff",
+      "url": "https://www.fgr.co.uk/news/club-update-1st-team-staff/",
+      "published": "2026-05-22T14:20:00Z"
+    },
+    {
       "club": "Carlisle United",
       "code": "CAR",
       "short": "Carlisle",
@@ -1210,6 +1336,15 @@
       "title": "MINUTES FROM THE MAY CUSG MEETING",
       "url": "https://www.carlisleunited.co.uk/news/minutes-may-cusg-meeting",
       "published": "2026-05-22T13:40:00Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Tom Knowles",
+      "url": "https://www.fgr.co.uk/news/tom-knowles-update/",
+      "published": "2026-05-22T13:30:00Z"
     },
     {
       "club": "Chelmsford City",
@@ -1338,148 +1473,13 @@
       "published": "2026-05-22T11:00:45Z"
     },
     {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Expression of Interest for AFC Fylde Scholar Trials",
-      "url": "https://afcfylde.co.uk/news/2026/may/22/expression-of-interest-for-scholar-trials/",
-      "published": "2026-05-22T10:59:35Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Maidstone United Football Academy open evening",
-      "url": "https://maidstoneunited.co.uk/05/22/maidstone-united-football-academy-open-evening/",
-      "published": "2026-05-22T10:40:08Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "World Cup at Woodside",
-      "url": "https://worthingfc.com/2026/05/world-cup-at-woodside-2/",
-      "published": "2026-05-22T10:38:56Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Brian Newhall - Funeral Details",
-      "url": "https://altrinchamfc.com/blogs/news/brian-newhall-funeral-details",
-      "published": "2026-05-22T10:19:41Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Join us for March Of The Day III",
-      "url": "https://altrinchamfc.com/blogs/news/join-us-for-march-of-the-day-iii",
-      "published": "2026-05-22T10:17:11Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "The Enterprise National League 2026/27",
-      "url": "https://altrinchamfc.com/blogs/news/the-enterprise-national-league-2026-27",
-      "published": "2026-05-22T10:15:29Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "An Update on our Youth Section",
-      "url": "https://doverathletic.com/news/an-update-on-our-youth-section/",
-      "published": "2026-05-22T10:05:38Z"
-    },
-    {
-      "club": "Morecambe",
-      "code": "MOR",
-      "short": "Morecambe",
-      "domain": "morecambefc.com",
-      "title": "VIDEO | AN EVENING WITH ADAM LAKELAND",
-      "url": "https://www.morecambefc.com/news/2026/may/22/video---an-evening-with-adam-lakeland/",
-      "published": "2026-05-22T10:05:00Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Glen Taylor Is In For 2026/27 – Are You?",
-      "url": "https://spennymoortownfc.co.uk/2026/05/22/glen-taylor-is-in-for-2026-27-are-you/",
-      "published": "2026-05-22T09:45:47Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "I Have Plenty Of Goals Left In Me – Taylor",
-      "url": "https://spennymoortownfc.co.uk/2026/05/22/i-have-plenty-of-goals-left-in-me-taylor/",
-      "published": "2026-05-22T09:20:00Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Glen Taylor Commits Future To Spennymoor",
-      "url": "https://spennymoortownfc.co.uk/2026/05/22/glen-taylor-commits-future-to-spennymoor/",
-      "published": "2026-05-22T09:01:00Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Academy Trial Day Taking Place On Tuesday",
-      "url": "https://spennymoortownfc.co.uk/2026/05/22/academy-trial-day-taking-place-on-tuesday/",
-      "published": "2026-05-22T08:56:17Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Style of Play x York City FC – Giveaway",
-      "url": "https://yorkcityfootballclub.co.uk/style-of-play-x-york-city-fc-giveaway/",
-      "published": "2026-05-22T08:31:33Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "BLUES LOTTO: Daily winners",
-      "url": "https://www.carlisleunited.co.uk/news/2024/june/blues-lotto-daily-winners",
-      "published": "2026-05-22T08:06:00Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "EFL Key Dates",
-      "url": "https://rochdaleafc.co.uk/efl-key-dates-220526/",
-      "published": "2026-05-22T07:23:25Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City Community Trust – Will Snapes",
-      "url": "https://trurocity.co.uk/2026/05/truro-city-community-trust-will-snapes/",
-      "published": "2026-05-21T17:57:46Z"
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Three Pre-Season Fixtures Revealed",
+      "url": "https://daggers.co.uk/three-pre-season-fixtures-revealed/",
+      "published": "2026-05-22T11:00:00Z"
     }
   ]
 }
