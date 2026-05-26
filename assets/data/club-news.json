@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-26T21:25:07Z",
+  "generatedAt": "2026-05-26T22:56:43Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3750,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=cc1e17ac-d268-46de-b58e-c3cbd098a6a3",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=cbc6469a-6755-4a58-b426-75bdb6a7c059",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -670,6 +670,15 @@
       "title": "Pre-Season: Romans Reunion",
       "url": "https://farnboroughfc.co.uk/2026/05/pre-season-romans-reunion/",
       "published": "2026-05-26T17:00:12Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Antony Papadopoulos is a Dagger",
+      "url": "https://daggers.co.uk/antony-papadopoulos-is-a-dagger/",
+      "published": "2026-05-26T17:00:00Z"
     },
     {
       "club": "Alfreton Town",
@@ -996,6 +1005,15 @@
       "published": "2026-05-25T17:00:43Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Kymani Thomas is a Dagger",
+      "url": "https://daggers.co.uk/kymani-thomas-is-a-dagger/",
+      "published": "2026-05-25T17:00:00Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1048,6 +1066,15 @@
       "title": "Chester FC Inclusive Blues: Supporters and Community Members Invited to Attend Next Meeting",
       "url": "https://chesterfc.com/05/25/chester-fc-inclusive-blues-supporters-and-community-members-invited-to-attend-next-meeting/",
       "published": "2026-05-25T14:00:29Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Partnership | Beanstalk",
+      "url": "https://www.fgr.co.uk/news/partnership-beanstalk-26/",
+      "published": "2026-05-25T14:00:00Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1428,6 +1455,15 @@
       "published": "2026-05-23T06:30:04Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Watch Live Football at the Daggers",
+      "url": "https://daggers.co.uk/watch-live-football-at-the-daggers-2/",
+      "published": "2026-05-23T04:04:00Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1437,49 +1473,13 @@
       "published": "2026-05-22T19:19:48Z"
     },
     {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "SIGN UP | Expressions of Interest for Women’s Team",
-      "url": "https://herefordfc.co.uk/2026/05/sign-up-expressions-of-interest-for-womens-team/",
-      "published": "2026-05-22T17:03:04Z"
-    },
-    {
-      "club": "Chesham United",
-      "code": "CHU",
-      "short": "Chesham",
-      "domain": "cheshamunited.co.uk",
-      "title": "2026/27 Season Ticket Details",
-      "url": "https://cheshamunited.co.uk/2026/05/season-tickets-2026-27/",
-      "published": "2026-05-22T17:00:28Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Aiden’s First Words With The Nash",
-      "url": "https://curzon-ashton.co.uk/aidens-first-words-with-the-nash/",
-      "published": "2026-05-22T17:00:17Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "MACRON NAMED NEW TECHNICAL PARTNER",
-      "url": "https://www.carlisleunited.co.uk/news/macron-named-new-technical-partner",
-      "published": "2026-05-22T17:00:00Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "500 CLUB – FIRST PARTNER",
-      "url": "https://marinefc.com/500-club-first-partner/",
-      "published": "2026-05-22T17:00:00Z"
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Kyle Ajayi Signs for Rovers",
+      "url": "https://www.fgr.co.uk/news/kyle-ajayi-signs-for-rovers-26/",
+      "published": "2026-05-22T18:40:00Z"
     }
   ]
 }
