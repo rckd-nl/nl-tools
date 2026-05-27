@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-27T12:34:09Z",
+  "generatedAt": "2026-05-27T16:31:50Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3750,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=2e158dea-cf9d-4241-afa2-8ddc34fe28d9",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=f34d7a2f-6f33-450d-8c1e-119b0b33b905",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,114 @@
   ],
   "items": [
     {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Welcome to Woodside, Noor Husin!",
+      "url": "https://worthingfc.com/2026/05/welcome-to-woodside-noor-husin/",
+      "published": "2026-05-27T16:05:33Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Curzon Ashton Partner With Willow Wood Hospice",
+      "url": "https://curzon-ashton.co.uk/willow-wood-our-charity-of-choice/",
+      "published": "2026-05-27T16:00:52Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SILKMEN TO HOST WOLVES XI IN PRE-SEASON",
+      "url": "https://macclesfieldfc.com/latest-news/silkmen-to-host-wolves-xi-in-pre-season/",
+      "published": "2026-05-27T16:00:35Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Six players to depart CTFC",
+      "url": "https://chippenhamtown.com/05/27/six-players-to-depart-ctfc/",
+      "published": "2026-05-27T16:00:33Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Cardiff City U21s Added to Pre-Season Schedule",
+      "url": "https://torquayunited.com/cardiff-city-u21s-added-to-pre-season-schedule/",
+      "published": "2026-05-27T15:59:04Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City Women Make Player-Coach Appointment",
+      "url": "https://trurocity.co.uk/2026/05/truro-city-women-make-player-coach-appointment/",
+      "published": "2026-05-27T15:47:53Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Noor Husin Departs",
+      "url": "https://southendunited.co.uk/news/2026/may/27/noor-husin-departs/",
+      "published": "2026-05-27T15:30:00Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "DIGITAL PROGRAMME SUBSCRIPTION 2026/27",
+      "url": "https://macclesfieldfc.com/latest-news/digital-programme-subscription-2026-27/",
+      "published": "2026-05-27T15:00:35Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "A Summer Message From Our Co-Chairs",
+      "url": "https://rochdaleafc.co.uk/a-summer-message-from-our-co-chairs/",
+      "published": "2026-05-27T14:54:10Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "GALLERY | BASH AT THE BAY 2026",
+      "url": "https://www.morecambefc.com/news/2026/may/27/gallery---bash-at-the-bay-2026/",
+      "published": "2026-05-27T14:40:00Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Jim Jam’s Catering Announced as Food & Beverage Provider",
+      "url": "https://worthingfc.com/2026/05/jim-jams-catering-announced-as-food-beverage-provider/",
+      "published": "2026-05-27T14:29:35Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "2025/26 REVIEW: OCTOBER",
+      "url": "https://macclesfieldfc.com/latest-news/2025-26-review-october/",
+      "published": "2026-05-27T14:00:50Z"
+    },
+    {
       "club": "Dorking Wanderers",
       "code": "DOR",
       "short": "Dorking",
@@ -616,6 +724,15 @@
       "title": "ENTERING THE NATIONAL LEAGUE NORTH: WELCOME TO HARBOROUGH TOWN",
       "url": "https://macclesfieldfc.com/latest-news/new-to-the-national-league-north-harborough-town/",
       "published": "2026-05-27T11:00:17Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: SECWFL Cup Final",
+      "url": "https://maidstoneunited.co.uk/05/27/key-info-secwfl-cup-final/",
+      "published": "2026-05-27T11:00:04Z"
     },
     {
       "club": "Chester",
@@ -778,15 +895,6 @@
       "title": "Pre-Season: Romans Reunion",
       "url": "https://farnboroughfc.co.uk/2026/05/pre-season-romans-reunion/",
       "published": "2026-05-26T17:00:12Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Antony Papadopoulos is a Dagger",
-      "url": "https://daggers.co.uk/antony-papadopoulos-is-a-dagger/",
-      "published": "2026-05-26T17:00:00Z"
     },
     {
       "club": "Alfreton Town",
@@ -1113,15 +1221,6 @@
       "published": "2026-05-25T17:00:43Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Kymani Thomas is a Dagger",
-      "url": "https://daggers.co.uk/kymani-thomas-is-a-dagger/",
-      "published": "2026-05-25T17:00:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1174,15 +1273,6 @@
       "title": "Chester FC Inclusive Blues: Supporters and Community Members Invited to Attend Next Meeting",
       "url": "https://chesterfc.com/05/25/chester-fc-inclusive-blues-supporters-and-community-members-invited-to-attend-next-meeting/",
       "published": "2026-05-25T14:00:29Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Partnership | Beanstalk",
-      "url": "https://www.fgr.co.uk/news/partnership-beanstalk-26/",
-      "published": "2026-05-25T14:00:00Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1390,96 +1480,6 @@
       "title": "This week at Gallagher Stadium (w/c 24/5/26)",
       "url": "https://maidstoneunited.co.uk/05/24/this-week-at-gallagher-stadium-w-c-24-5-26/",
       "published": "2026-05-23T23:01:10Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "“𝗜𝘁’𝘀 𝘀𝗼𝗺𝗲𝘁𝗵𝗶𝗻𝗴 𝗜’𝘃𝗲 𝗯𝗲𝗲𝗻 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 𝘁𝗼𝘄𝗮𝗿𝗱𝘀” | Ricardo Thompson – New Contract",
-      "url": "https://wsmafc.co.uk/%f0%9d%97%9c%f0%9d%98%81%f0%9d%98%80-%f0%9d%98%80%f0%9d%97%bc%f0%9d%97%ba%f0%9d%97%b2%f0%9d%98%81%f0%9d%97%b5%f0%9d%97%b6%f0%9d%97%bb%f0%9d%97%b4-%f0%9d%97%9c%f0%9d%98%83%f0%9d%97%b2/",
-      "published": "2026-05-23T22:47:00Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Her Game Too x DAME survey",
-      "url": "https://chesterfc.com/05/23/her-game-too-x-dame-survey/",
-      "published": "2026-05-23T17:22:35Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Stadium Redevelopment Plans Announced",
-      "url": "https://hornchurchfc.com/stadium-redevelopment-plans-announced/",
-      "published": "2026-05-23T16:11:55Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Interview: Alex Sharp",
-      "url": "https://hornchurchfc.com/interview-alex-sharp/",
-      "published": "2026-05-23T15:11:30Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Meet the PL Legends: Jimmy Carter",
-      "url": "https://chippenhamtown.com/05/23/meet-the-pl-legends-jimmy-carter/",
-      "published": "2026-05-23T13:00:57Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Retained List 2025/26",
-      "url": "https://southendunited.co.uk/news/2026/may/23/retained-list-2025-26/",
-      "published": "2026-05-23T13:00:00Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Meet The Trophy On Wednesday!",
-      "url": "https://rochdaleafc.co.uk/meet-the-trophy-270526/",
-      "published": "2026-05-23T12:47:21Z"
-    },
-    {
-      "club": "Salisbury",
-      "code": "SAL",
-      "short": "Salisbury",
-      "domain": "salisburyfc.co.uk",
-      "title": "The Colour Works Join Salisbury FC as Official Training Partner for 2026/27",
-      "url": "https://salisburyfc.co.uk/2026/05/23/the-colour-works-join-salisbury-fc-as-official-training-partner-for-2026-27/",
-      "published": "2026-05-23T12:00:23Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "SIGNING | Holmes Winging His Way to Hereford",
-      "url": "https://herefordfc.co.uk/2026/05/signing-holmes-winging-his-way-to-hereford/",
-      "published": "2026-05-23T12:00:20Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Academy graduates sign professional contracts at Pools",
-      "url": "https://www.hartlepoolunited.co.uk/academy-graduates-sign-professional-contracts-at-pools/",
-      "published": "2026-05-23T11:29:34Z"
     }
   ]
 }
