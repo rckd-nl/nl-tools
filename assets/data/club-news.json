@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-27T21:15:20Z",
+  "generatedAt": "2026-05-27T22:54:03Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=5e795c55-9c71-464d-8e3a-43b9f98bbe21",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=633ace46-c5a8-476b-97f3-37b5fd5a2d27",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Iron trio to take on Peak District Challenge this June in aid of Lindsey Lodge Hospice",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/iron-trio-to-take-on-peak-district-challenge-this-june-in-aid-of-lindsey-lodge-hospice/",
+      "published": "2026-05-27T22:16:29Z"
+    },
     {
       "club": "Rochdale",
       "code": "ROC",
@@ -652,15 +661,6 @@
       "title": "WANDERERS RETURN TO ORANGE",
       "url": "https://dwfc.co.uk/2026/05/wanderers-return-to-orange/",
       "published": "2026-05-27T17:01:10Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Henry Hawkins is a Dagger",
-      "url": "https://daggers.co.uk/henry-hawkins-is-a-dagger/",
-      "published": "2026-05-27T17:00:00Z"
     },
     {
       "club": "Tonbridge Angels",
@@ -843,6 +843,15 @@
       "published": "2026-05-27T10:35:14Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Club Statement – Kaz Bridgewater Departs Hornettes",
+      "url": "https://www.horshamfc.co.uk/2026/05/27/club-statement-kaz-bridgewater-departs-hornettes/",
+      "published": "2026-05-27T10:00:46Z"
+    },
+    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -994,15 +1003,6 @@
       "title": "Pre-Season: Romans Reunion",
       "url": "https://farnboroughfc.co.uk/2026/05/pre-season-romans-reunion/",
       "published": "2026-05-26T17:00:12Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Antony Papadopoulos is a Dagger",
-      "url": "https://daggers.co.uk/antony-papadopoulos-is-a-dagger/",
-      "published": "2026-05-26T17:00:00Z"
     },
     {
       "club": "Alfreton Town",
@@ -1329,15 +1329,6 @@
       "published": "2026-05-25T17:00:43Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Kymani Thomas is a Dagger",
-      "url": "https://daggers.co.uk/kymani-thomas-is-a-dagger/",
-      "published": "2026-05-25T17:00:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1480,6 +1471,15 @@
       "title": "Harry Beadle signs for 26/27",
       "url": "https://doverathletic.com/news/harry-beadle-signs-for-26-27/",
       "published": "2026-05-25T09:32:45Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Seagulls to welcome Exeter City to The Optima in pre-season",
+      "url": "https://wsmafc.co.uk/seagulls-to-welcome-exeter-city-to-the-optima-in-pre-season/",
+      "published": "2026-05-25T09:00:55Z"
     }
   ]
 }
