@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-28T00:17:20Z",
+  "generatedAt": "2026-05-28T04:45:34Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=85aaf8b9-ba46-41f3-8970-edfa193f6921",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=300d2463-b3ad-4bc9-8f3a-8adccf17e753",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -679,15 +679,6 @@
       "title": "WANDERERS RETURN TO ORANGE",
       "url": "https://dwfc.co.uk/2026/05/wanderers-return-to-orange/",
       "published": "2026-05-27T17:01:10Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Henry Hawkins is a Dagger",
-      "url": "https://daggers.co.uk/henry-hawkins-is-a-dagger/",
-      "published": "2026-05-27T17:00:00Z"
     },
     {
       "club": "Tonbridge Angels",
@@ -870,6 +861,15 @@
       "published": "2026-05-27T10:35:14Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Club Statement – Kaz Bridgewater Departs Hornettes",
+      "url": "https://www.horshamfc.co.uk/2026/05/27/club-statement-kaz-bridgewater-departs-hornettes/",
+      "published": "2026-05-27T10:00:46Z"
+    },
+    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -1021,15 +1021,6 @@
       "title": "Pre-Season: Romans Reunion",
       "url": "https://farnboroughfc.co.uk/2026/05/pre-season-romans-reunion/",
       "published": "2026-05-26T17:00:12Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Antony Papadopoulos is a Dagger",
-      "url": "https://daggers.co.uk/antony-papadopoulos-is-a-dagger/",
-      "published": "2026-05-26T17:00:00Z"
     },
     {
       "club": "Alfreton Town",
@@ -1356,15 +1347,6 @@
       "published": "2026-05-25T17:00:43Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Kymani Thomas is a Dagger",
-      "url": "https://daggers.co.uk/kymani-thomas-is-a-dagger/",
-      "published": "2026-05-25T17:00:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1480,6 +1462,24 @@
       "title": "Going The Extra Mile",
       "url": "https://etfc.london/going-the-extra-mile/",
       "published": "2026-05-25T11:04:06Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Weston set to face The Posset in pre-season",
+      "url": "https://wsmafc.co.uk/weston-set-to-face-the-posset-in-pre-season/",
+      "published": "2026-05-25T11:00:08Z"
+    },
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Harry Beadle signs for 26/27",
+      "url": "https://doverathletic.com/news/harry-beadle-signs-for-26-27/",
+      "published": "2026-05-25T09:32:45Z"
     }
   ]
 }

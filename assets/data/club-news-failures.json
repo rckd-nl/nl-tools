@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-28T00:17:20Z",
+  "generatedAt": "2026-05-28T04:45:34Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -101,7 +101,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=85aaf8b9-ba46-41f3-8970-edfa193f6921",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=300d2463-b3ad-4bc9-8f3a-8adccf17e753",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -187,6 +187,14 @@
       "error": "Feed returned 0 usable items"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "domain": "daggers.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
+    },
+    {
       "club": "Eastbourne Borough",
       "domain": "eastbourneborough.com",
       "feed": "",
@@ -217,14 +225,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
