@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-28T04:45:34Z",
+  "generatedAt": "2026-05-28T08:35:22Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3750,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=300d2463-b3ad-4bc9-8f3a-8adccf17e753",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=16739ded-d2ae-40b8-83c6-d66d150be007",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,42 @@
   ],
   "items": [
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: SECWFL Cup Final",
+      "url": "https://maidstoneunited.co.uk/05/28/key-info-secwfl-cup-final/",
+      "published": "2026-05-28T08:00:04Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Maidstone United under‑23s trial",
+      "url": "https://maidstoneunited.co.uk/05/28/maidstone-united-under-23s-trial/",
+      "published": "2026-05-28T07:57:49Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Ladies Star Doogan Surprises Mini Moors",
+      "url": "https://spennymoortownfc.co.uk/2026/05/28/ladies-star-doogan-surprises-mini-moors/",
+      "published": "2026-05-28T07:43:00Z"
+    },
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "2026/27 pre-season schedule confirmed",
+      "url": "https://marinefc.com/2026-27-pre-season-schedule-confirmed/",
+      "published": "2026-05-28T07:22:55Z"
+    },
+    {
       "club": "Enfield Town",
       "code": "ENF",
       "short": "Enfield",
@@ -832,15 +868,6 @@
       "title": "ENTERING THE NATIONAL LEAGUE NORTH: WELCOME TO HARBOROUGH TOWN",
       "url": "https://macclesfieldfc.com/latest-news/new-to-the-national-league-north-harborough-town/",
       "published": "2026-05-27T11:00:17Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: SECWFL Cup Final",
-      "url": "https://maidstoneunited.co.uk/05/27/key-info-secwfl-cup-final/",
-      "published": "2026-05-27T11:00:04Z"
     },
     {
       "club": "Chester",
@@ -1401,6 +1428,15 @@
       "published": "2026-05-25T14:00:29Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Partnership | Beanstalk",
+      "url": "https://www.fgr.co.uk/news/partnership-beanstalk-26/",
+      "published": "2026-05-25T14:00:00Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1444,42 +1480,6 @@
       "title": "Angelfest 2026 – Full Line-Up Revealed",
       "url": "https://tonbridgeangels.co.uk/angelfest-2026-full-line-up-revealed/",
       "published": "2026-05-25T11:47:05Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "A first chat with George Burroughs",
-      "url": "https://chesterfc.com/05/25/a-first-chat-with-george-burroughs/",
-      "published": "2026-05-25T11:11:37Z"
-    },
-    {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "Going The Extra Mile",
-      "url": "https://etfc.london/going-the-extra-mile/",
-      "published": "2026-05-25T11:04:06Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Weston set to face The Posset in pre-season",
-      "url": "https://wsmafc.co.uk/weston-set-to-face-the-posset-in-pre-season/",
-      "published": "2026-05-25T11:00:08Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Harry Beadle signs for 26/27",
-      "url": "https://doverathletic.com/news/harry-beadle-signs-for-26-27/",
-      "published": "2026-05-25T09:32:45Z"
     }
   ]
 }
