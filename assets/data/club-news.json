@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-27T22:54:03Z",
+  "generatedAt": "2026-05-28T00:17:20Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3750,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=633ace46-c5a8-476b-97f3-37b5fd5a2d27",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=85aaf8b9-ba46-41f3-8970-edfa193f6921",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Reminder: Meet the Manager",
+      "url": "https://etfc.london/meet-the-manager-billy-holland/",
+      "published": "2026-05-28T00:11:35Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Henry Departs",
+      "url": "https://etfc.london/henry-departs/",
+      "published": "2026-05-28T00:09:40Z"
+    },
     {
       "club": "Scunthorpe United",
       "code": "SCU",
@@ -661,6 +679,15 @@
       "title": "WANDERERS RETURN TO ORANGE",
       "url": "https://dwfc.co.uk/2026/05/wanderers-return-to-orange/",
       "published": "2026-05-27T17:01:10Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Henry Hawkins is a Dagger",
+      "url": "https://daggers.co.uk/henry-hawkins-is-a-dagger/",
+      "published": "2026-05-27T17:00:00Z"
     },
     {
       "club": "Tonbridge Angels",
@@ -843,15 +870,6 @@
       "published": "2026-05-27T10:35:14Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Club Statement – Kaz Bridgewater Departs Hornettes",
-      "url": "https://www.horshamfc.co.uk/2026/05/27/club-statement-kaz-bridgewater-departs-hornettes/",
-      "published": "2026-05-27T10:00:46Z"
-    },
-    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -1003,6 +1021,15 @@
       "title": "Pre-Season: Romans Reunion",
       "url": "https://farnboroughfc.co.uk/2026/05/pre-season-romans-reunion/",
       "published": "2026-05-26T17:00:12Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Antony Papadopoulos is a Dagger",
+      "url": "https://daggers.co.uk/antony-papadopoulos-is-a-dagger/",
+      "published": "2026-05-26T17:00:00Z"
     },
     {
       "club": "Alfreton Town",
@@ -1329,6 +1356,15 @@
       "published": "2026-05-25T17:00:43Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Kymani Thomas is a Dagger",
+      "url": "https://daggers.co.uk/kymani-thomas-is-a-dagger/",
+      "published": "2026-05-25T17:00:00Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1381,15 +1417,6 @@
       "title": "Chester FC Inclusive Blues: Supporters and Community Members Invited to Attend Next Meeting",
       "url": "https://chesterfc.com/05/25/chester-fc-inclusive-blues-supporters-and-community-members-invited-to-attend-next-meeting/",
       "published": "2026-05-25T14:00:29Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Partnership | Beanstalk",
-      "url": "https://www.fgr.co.uk/news/partnership-beanstalk-26/",
-      "published": "2026-05-25T14:00:00Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1453,33 +1480,6 @@
       "title": "Going The Extra Mile",
       "url": "https://etfc.london/going-the-extra-mile/",
       "published": "2026-05-25T11:04:06Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Weston set to face The Posset in pre-season",
-      "url": "https://wsmafc.co.uk/weston-set-to-face-the-posset-in-pre-season/",
-      "published": "2026-05-25T11:00:08Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Harry Beadle signs for 26/27",
-      "url": "https://doverathletic.com/news/harry-beadle-signs-for-26-27/",
-      "published": "2026-05-25T09:32:45Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Seagulls to welcome Exeter City to The Optima in pre-season",
-      "url": "https://wsmafc.co.uk/seagulls-to-welcome-exeter-city-to-the-optima-in-pre-season/",
-      "published": "2026-05-25T09:00:55Z"
     }
   ]
 }
