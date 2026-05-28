@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-28T19:27:00Z",
+  "generatedAt": "2026-05-28T21:38:47Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3750,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=c7407841-1de3-45de-89d1-a8203f13e68e",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=234073da-8ca7-41a0-bef0-da999604fa21",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -1005,6 +1005,15 @@
       "published": "2026-05-27T17:01:10Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Henry Hawkins is a Dagger",
+      "url": "https://daggers.co.uk/henry-hawkins-is-a-dagger/",
+      "published": "2026-05-27T17:00:00Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1174,6 +1183,15 @@
       "title": "MUFC Women: Inside Training",
       "url": "https://maidstoneunited.co.uk/05/27/mufc-women-inside-training-8/",
       "published": "2026-05-27T10:35:14Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Club Statement – Kaz Bridgewater Departs Hornettes",
+      "url": "https://www.horshamfc.co.uk/2026/05/27/club-statement-kaz-bridgewater-departs-hornettes/",
+      "published": "2026-05-27T10:00:46Z"
     },
     {
       "club": "Woking",
@@ -1347,6 +1365,15 @@
       "published": "2026-05-26T17:00:12Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Antony Papadopoulos is a Dagger",
+      "url": "https://daggers.co.uk/antony-papadopoulos-is-a-dagger/",
+      "published": "2026-05-26T17:00:00Z"
+    },
+    {
       "club": "Alfreton Town",
       "code": "ALF",
       "short": "Alfreton",
@@ -1453,33 +1480,6 @@
       "title": "Yellow Army Uniting For Plainmoor 2000!",
       "url": "https://torquayunited.com/yellow-army-uniting-for-plainmoor-2000-campaign/",
       "published": "2026-05-26T14:57:25Z"
-    },
-    {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "Pre-Season: Away Fixtures",
-      "url": "https://etfc.london/pre-season-away-fixtures/",
-      "published": "2026-05-26T14:37:47Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "York City FC Academy | Transition",
-      "url": "https://yorkcityfootballclub.co.uk/york-city-fc-academy-transition/",
-      "published": "2026-05-26T14:15:50Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Final Week For Early Bird Season Tickets",
-      "url": "https://spennymoortownfc.co.uk/2026/05/26/final-week-for-early-bird-season-tickets/",
-      "published": "2026-05-26T13:48:00Z"
     }
   ]
 }
