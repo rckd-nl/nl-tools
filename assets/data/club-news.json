@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-28T16:36:51Z",
+  "generatedAt": "2026-05-28T19:27:00Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3750,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=c5cc7fc8-860f-4fee-a5b4-ba61947db073",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=c7407841-1de3-45de-89d1-a8203f13e68e",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,60 @@
     }
   ],
   "items": [
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Josh Ayres Joins",
+      "url": "https://wokingfc.co.uk/05/28/ayres-signs/",
+      "published": "2026-05-28T18:59:05Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "City Will Face Taunton in Pre-Season",
+      "url": "https://trurocity.co.uk/2026/05/city-will-face-taunton-in-pre-season/",
+      "published": "2026-05-28T18:27:40Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Bath City Women recruiting Manager for Development team",
+      "url": "https://www.bathcityfc.com/bath-city-women-recruiting-manager-for-development-team/",
+      "published": "2026-05-28T18:08:52Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "50% Off All Macron Items In Shop Only",
+      "url": "https://southportfc.net/50-off-all-macron-items-in-shop-only/",
+      "published": "2026-05-28T18:03:49Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "First Three Pre Season Games Agreed",
+      "url": "https://southportfc.net/first-three-pre-season-games-agreed/",
+      "published": "2026-05-28T17:06:53Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Baker Ready To Deliver Again",
+      "url": "https://tonbridgeangels.co.uk/baker-ready-to-deliver-again/",
+      "published": "2026-05-28T17:00:00Z"
+    },
     {
       "club": "Dorking Wanderers",
       "code": "DOR",
@@ -1122,15 +1176,6 @@
       "published": "2026-05-27T10:35:14Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Club Statement – Kaz Bridgewater Departs Hornettes",
-      "url": "https://www.horshamfc.co.uk/2026/05/27/club-statement-kaz-bridgewater-departs-hornettes/",
-      "published": "2026-05-27T10:00:46Z"
-    },
-    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -1435,51 +1480,6 @@
       "title": "Final Week For Early Bird Season Tickets",
       "url": "https://spennymoortownfc.co.uk/2026/05/26/final-week-for-early-bird-season-tickets/",
       "published": "2026-05-26T13:48:00Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Moors Confirm First Pre-Season Friendlies",
-      "url": "https://spennymoortownfc.co.uk/2026/05/26/moors-confirm-first-pre-season-friendlies-2/",
-      "published": "2026-05-26T12:38:00Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Women’s first team trial on Sunday 7 June",
-      "url": "https://maidstoneunited.co.uk/05/26/womens-first-team-trial-on-sunday-7-june/",
-      "published": "2026-05-26T12:03:47Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MACCLESFIELD TRIAL XI TO PLAY THREE PRE-SEASON FIXTURES",
-      "url": "https://macclesfieldfc.com/latest-news/macclesfield-trial-xi-to-play-three-pre-season-fixtures/",
-      "published": "2026-05-26T12:00:44Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Pre-Season 2026",
-      "url": "https://doverathletic.com/news/pre-season-2026/",
-      "published": "2026-05-26T11:48:35Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Your Seat. Your Southend – 2026/27 Season Tickets On Sale",
-      "url": "https://southendunited.co.uk/news/2026/may/26/your-seat--your-southend--season-tickets-on-sale/",
-      "published": "2026-05-26T11:00:00Z"
     }
   ]
 }
