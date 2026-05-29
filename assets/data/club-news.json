@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-29T00:23:09Z",
+  "generatedAt": "2026-05-29T05:04:21Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3750,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=7a1fdf2c-2c89-42bf-9ba6-0451739f1eb6",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=671dd3d9-10c7-4baf-8b3d-6d1636519750",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -769,6 +769,15 @@
       "title": "Worthing FC Women’s First-Team Trials",
       "url": "https://worthingfc.com/2026/05/worthing-fc-womens-first-team-trials/",
       "published": "2026-05-28T11:03:28Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "2026/27 Early Bird Season Tickets",
+      "url": "https://farnboroughfc.co.uk/2026/05/2026-27-early-bird-season-tickets/",
+      "published": "2026-05-28T11:00:42Z"
     },
     {
       "club": "Macclesfield",
@@ -1471,15 +1480,6 @@
       "title": "Yellow Army Uniting For Plainmoor 2000!",
       "url": "https://torquayunited.com/yellow-army-uniting-for-plainmoor-2000-campaign/",
       "published": "2026-05-26T14:57:25Z"
-    },
-    {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "Pre-Season: Away Fixtures",
-      "url": "https://etfc.london/pre-season-away-fixtures/",
-      "published": "2026-05-26T14:37:47Z"
     }
   ]
 }
