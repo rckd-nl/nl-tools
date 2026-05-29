@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-28T23:05:30Z",
+  "generatedAt": "2026-05-29T00:23:09Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=ccada387-fd92-4abf-a2c7-c99e089bf5ed",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=7a1fdf2c-2c89-42bf-9ba6-0451739f1eb6",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -1185,15 +1185,6 @@
       "published": "2026-05-27T10:35:14Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Club Statement – Kaz Bridgewater Departs Hornettes",
-      "url": "https://www.horshamfc.co.uk/2026/05/27/club-statement-kaz-bridgewater-departs-hornettes/",
-      "published": "2026-05-27T10:00:46Z"
-    },
-    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -1480,6 +1471,15 @@
       "title": "Yellow Army Uniting For Plainmoor 2000!",
       "url": "https://torquayunited.com/yellow-army-uniting-for-plainmoor-2000-campaign/",
       "published": "2026-05-26T14:57:25Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Pre-Season: Away Fixtures",
+      "url": "https://etfc.london/pre-season-away-fixtures/",
+      "published": "2026-05-26T14:37:47Z"
     }
   ]
 }
