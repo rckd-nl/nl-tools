@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-29T21:30:47Z",
+  "generatedAt": "2026-05-29T23:04:47Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3751,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -129,7 +129,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Southend United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=6d6ce925-e81a-432c-8731-1b49cda517fb",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=4f6cd356-8c26-41e7-a46c-211b888a68eb",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -329,7 +329,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Peterborough Sports",
@@ -636,6 +636,15 @@
       "published": "2026-05-29T19:30:38Z"
     },
     {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Clarke: “The trajectory of the club has been amazing over the last few years.” | First Interview",
+      "url": "https://worthingfc.com/2026/05/clarke-the-trajectory-of-the-club-has-been-amazing-over-last-few-years-first-interview/",
+      "published": "2026-05-29T19:00:14Z"
+    },
+    {
       "club": "Chesham United",
       "code": "CHU",
       "short": "Chesham",
@@ -760,15 +769,6 @@
       "title": "Mason Obeng Joins Yeovil Town on Two-Year-Deal",
       "url": "https://ytfc.net/2026/05/mason-obeng-joins-yeovil-town-on-two-year-deal/",
       "published": "2026-05-29T16:00:10Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Bryan Ifeanyi Signs for Rovers",
-      "url": "https://www.fgr.co.uk/news/bryan-ifeanyi-signs-for-rovers-26/",
-      "published": "2026-05-29T16:00:00Z"
     },
     {
       "club": "Southend United",
