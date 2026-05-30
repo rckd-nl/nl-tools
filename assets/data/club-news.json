@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-30T12:22:24Z",
+  "generatedAt": "2026-05-30T14:10:53Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3751,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=f24d46ba-56e3-407f-9033-f961f45da723",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=3c57d9b5-fd8b-4f6b-b123-f2648b0aee56",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,42 @@
   ],
   "items": [
     {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Welcome to Chester FC, Luke Hewitson!",
+      "url": "https://chesterfc.com/05/30/welcome-to-chester-fc-luke-hewitson/",
+      "published": "2026-05-30T14:00:08Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "“𝗧𝗵𝗲𝘆 𝗱𝗲𝘀𝗲𝗿𝘃𝗲 𝘁𝗵𝗲𝗶𝗿 𝗼𝗽𝗽𝗼𝗿𝘁𝘂𝗻𝗶𝘁𝘆” | Scott Rogers on Owen Johnson, Josh Oliver & Ricardo Thompson",
+      "url": "https://wsmafc.co.uk/%f0%9d%97%a7%f0%9d%97%b5%f0%9d%97%b2%f0%9d%98%86-%f0%9d%97%b1%f0%9d%97%b2%f0%9d%98%80%f0%9d%97%b2%f0%9d%97%bf%f0%9d%98%83%f0%9d%97%b2-%f0%9d%98%81%f0%9d%97%b5%f0%9d%97%b2%f0%9d%97%b6%f0%9d%97%bf/",
+      "published": "2026-05-30T13:50:07Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SHRIMPTON SIGNS FOR SILKMEN",
+      "url": "https://macclesfieldfc.com/latest-news/shrimpton-signs-for-silkmen/",
+      "published": "2026-05-30T13:00:02Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "New Footwear Policy Will Protect Pitch and Users",
+      "url": "https://tonbridgeangels.co.uk/new-footwear-policy-will-protect-pitch-and-users/",
+      "published": "2026-05-30T12:51:42Z"
+    },
+    {
       "club": "Marine",
       "code": "MAR",
       "short": "Marine",
@@ -589,6 +625,15 @@
       "title": "ADAM THOMAS – NEW DEAL",
       "url": "https://marinefc.com/adam-thomas-new-deal/",
       "published": "2026-05-30T12:00:00Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Lock in your early bird savings",
+      "url": "https://maidstoneunited.co.uk/05/30/one-week-left-to-lock-in-your-early-bird-savings/",
+      "published": "2026-05-30T11:00:06Z"
     },
     {
       "club": "Marine",
@@ -703,7 +748,7 @@
       "code": "MSU",
       "short": "Maidstone",
       "domain": "maidstoneunited.co.uk",
-      "title": "MUFC Women – Match Highlights: League Cup Final",
+      "title": "MUFC Women Match Highlights: League Cup Final",
       "url": "https://maidstoneunited.co.uk/05/29/mufc-women-match-highlights-league-cup-final/",
       "published": "2026-05-29T19:30:38Z"
     },
@@ -850,6 +895,15 @@
       "title": "Mason Obeng Joins Yeovil Town on Two-Year-Deal",
       "url": "https://ytfc.net/2026/05/mason-obeng-joins-yeovil-town-on-two-year-deal/",
       "published": "2026-05-29T16:00:10Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Bryan Ifeanyi Signs for Rovers",
+      "url": "https://www.fgr.co.uk/news/bryan-ifeanyi-signs-for-rovers-26/",
+      "published": "2026-05-29T16:00:00Z"
     },
     {
       "club": "Southend United",
@@ -1426,60 +1480,6 @@
       "title": "Gus Scott-Morriss To Leave The Club",
       "url": "https://southendunited.co.uk/news/2026/may/28/gus-scott-morriss-to-leave-the-club/",
       "published": "2026-05-28T09:00:00Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Four Away Friendlies Confirmed",
-      "url": "https://afcfylde.co.uk/news/2026/may/28/four-away-friendlies-confirmed/",
-      "published": "2026-05-28T08:59:00Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: SECWFL Cup Final",
-      "url": "https://maidstoneunited.co.uk/05/28/key-info-secwfl-cup-final/",
-      "published": "2026-05-28T08:00:04Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Ladies Star Doogan Surprises Mini Moors",
-      "url": "https://spennymoortownfc.co.uk/2026/05/28/ladies-star-doogan-surprises-mini-moors/",
-      "published": "2026-05-28T07:43:00Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "2026/27 pre-season schedule confirmed",
-      "url": "https://marinefc.com/2026-27-pre-season-schedule-confirmed/",
-      "published": "2026-05-28T07:22:55Z"
-    },
-    {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "Henry Departs",
-      "url": "https://etfc.london/henry-departs/",
-      "published": "2026-05-28T00:09:40Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Iron trio to take on Peak District Challenge this June in aid of Lindsey Lodge Hospice",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/iron-trio-to-take-on-peak-district-challenge-this-june-in-aid-of-lindsey-lodge-hospice/",
-      "published": "2026-05-27T22:16:29Z"
     }
   ]
 }
