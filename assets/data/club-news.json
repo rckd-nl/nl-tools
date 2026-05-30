@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-30T22:44:03Z",
+  "generatedAt": "2026-05-30T23:44:52Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3751,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=fe51ebf8-46c1-4052-a806-ae32dd90d3c2",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=a2bc51f5-c098-4d78-bb93-883c00a7603b",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "This week at Gallagher Stadium (w/c 31/5/26)",
+      "url": "https://maidstoneunited.co.uk/05/31/this-week-at-gallagher-stadium-w-c-31-5-26/",
+      "published": "2026-05-30T23:01:35Z"
+    },
     {
       "club": "Curzon Ashton",
       "code": "CUR",
@@ -949,6 +958,15 @@
       "title": "Mason Obeng Joins Yeovil Town on Two-Year-Deal",
       "url": "https://ytfc.net/2026/05/mason-obeng-joins-yeovil-town-on-two-year-deal/",
       "published": "2026-05-29T16:00:10Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Bryan Ifeanyi Signs for Rovers",
+      "url": "https://www.fgr.co.uk/news/bryan-ifeanyi-signs-for-rovers-26/",
+      "published": "2026-05-29T16:00:00Z"
     },
     {
       "club": "Southend United",
@@ -1462,24 +1480,6 @@
       "title": "Clubhouse Open Till Early Hours For England Games",
       "url": "https://chelmsfordcityfc.com/news/clubhouse-open-till-early-hours-for-england-games/",
       "published": "2026-05-28T11:00:00Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "It Was Moors Or Nowhere For Me – Ramshaw",
-      "url": "https://spennymoortownfc.co.uk/2026/05/28/it-was-moors-or-nowhere-for-me-ramshaw/",
-      "published": "2026-05-28T10:52:39Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "A New Era For The Dorking Wanderers Women’s Pathway",
-      "url": "https://dwfc.co.uk/2026/05/a-new-era-for-the-dorking-wanderers-womens-pathway/",
-      "published": "2026-05-28T10:48:40Z"
     }
   ]
 }
