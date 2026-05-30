@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-30T21:43:49Z",
+  "generatedAt": "2026-05-30T22:44:03Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,18 +78,18 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3751,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -110,18 +110,18 @@
     {
       "club": "Rochdale",
       "domain": "rochdaleafc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
+      "feed": "https://rochdaleafc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Scunthorpe United",
       "domain": "scunthorpe-united.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://www.scunthorpe-united.co.uk/feed/",
+      "ok": true,
+      "count": 4,
+      "error": ""
     },
     {
       "club": "Solihull Moors",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=9724a2da-9072-44f5-8c9a-617edd4cd74b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=fe51ebf8-46c1-4052-a806-ae32dd90d3c2",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://harriers.co.uk/feed/",
+      "ok": true,
+      "count": 20,
+      "error": ""
     },
     {
       "club": "King's Lynn Town",
@@ -310,10 +310,10 @@
     {
       "club": "Marine",
       "domain": "marinefc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
+      "feed": "https://marinefc.com/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Merthyr Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -438,10 +438,10 @@
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://dwfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Dover Athletic",
@@ -672,6 +672,15 @@
       "published": "2026-05-30T12:51:42Z"
     },
     {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "ADAM THOMAS – NEW DEAL",
+      "url": "https://marinefc.com/adam-thomas-new-deal/",
+      "published": "2026-05-30T12:00:00Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -679,6 +688,15 @@
       "title": "Lock in your early bird savings",
       "url": "https://maidstoneunited.co.uk/05/30/one-week-left-to-lock-in-your-early-bird-savings/",
       "published": "2026-05-30T11:00:06Z"
+    },
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "GEORGE NEWELL NEW CONTRACT",
+      "url": "https://marinefc.com/george-newell-new-contract/",
+      "published": "2026-05-30T11:00:00Z"
     },
     {
       "club": "Woking",
@@ -735,6 +753,24 @@
       "published": "2026-05-29T23:23:23Z"
     },
     {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "DECLAN DRYSDALE SIGNS",
+      "url": "https://marinefc.com/declan-drysdale-signs/",
+      "published": "2026-05-29T21:00:00Z"
+    },
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "JAMES BUTLER – NEW CONTRACT",
+      "url": "https://marinefc.com/james-butler-new-contract/",
+      "published": "2026-05-29T20:30:00Z"
+    },
+    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -742,6 +778,15 @@
       "title": "Rhys Browne joins Chelmsford City!",
       "url": "https://chelmsfordcityfc.com/news/rhys-browne-joins-chelmsford-city/",
       "published": "2026-05-29T19:45:34Z"
+    },
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "SAM FIELDING – NEW DEAL",
+      "url": "https://marinefc.com/sam-fielding-new-deal/",
+      "published": "2026-05-29T19:40:49Z"
     },
     {
       "club": "Bath City",
@@ -825,6 +870,15 @@
       "published": "2026-05-29T17:30:17Z"
     },
     {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Will Evans pens new contract ahead of 2026-27 season",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/will-evans-pens-new-contract-ahead-of-2026-27-season/",
+      "published": "2026-05-29T17:30:00Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -861,6 +915,24 @@
       "published": "2026-05-29T16:58:00Z"
     },
     {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Gateshead FC confirm retained list ahead of the 2026/27 season",
+      "url": "https://gateshead-fc.com/gateshead-fc-confirm-retained-list-ahead-of-the-2026-27-season/",
+      "published": "2026-05-29T16:30:36Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "HITEK Electronic Materials: Three years on the front of our shirt",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/hitek-electronic-materials-three-years-on-the-front-of-our-shirt/",
+      "published": "2026-05-29T16:21:34Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -877,15 +949,6 @@
       "title": "Mason Obeng Joins Yeovil Town on Two-Year-Deal",
       "url": "https://ytfc.net/2026/05/mason-obeng-joins-yeovil-town-on-two-year-deal/",
       "published": "2026-05-29T16:00:10Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Bryan Ifeanyi Signs for Rovers",
-      "url": "https://www.fgr.co.uk/news/bryan-ifeanyi-signs-for-rovers-26/",
-      "published": "2026-05-29T16:00:00Z"
     },
     {
       "club": "Southend United",
@@ -906,6 +969,15 @@
       "published": "2026-05-29T15:58:43Z"
     },
     {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "MEYBA range now available in-store and online",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/may/meyba-range-now-available-in-store-and-online/",
+      "published": "2026-05-29T15:53:05Z"
+    },
+    {
       "club": "Dagenham & Redbridge",
       "code": "DAG",
       "short": "Dag & Red",
@@ -915,6 +987,15 @@
       "published": "2026-05-29T15:00:00Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Extra Club Shop Opening 10am to 2pm Saturday",
+      "url": "https://southportfc.net/extra-club-shop-opening-10am-to-2pm-saturday/",
+      "published": "2026-05-29T14:23:32Z"
+    },
+    {
       "club": "Enfield Town",
       "code": "ENF",
       "short": "Enfield",
@@ -922,6 +1003,15 @@
       "title": "Influential Trio Return for 26/27",
       "url": "https://etfc.london/influential-trio-return-for-26-27/",
       "published": "2026-05-29T14:11:45Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Fenton John signs two-year contract extension at Gateshead FC until 2028",
+      "url": "https://gateshead-fc.com/fenton-john-signs-two-year-contract-extension-at-gateshead-fc-until-2028/",
+      "published": "2026-05-29T14:00:28Z"
     },
     {
       "club": "Macclesfield",
@@ -985,6 +1075,15 @@
       "title": "FINAL SALE REDUCTIONS | CLUB SHOP & ONLINE STORE",
       "url": "https://torquayunited.com/final-sale-reductions-club-shop-online-store/",
       "published": "2026-05-29T11:36:47Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Join Us For Volunteers Week",
+      "url": "https://rochdaleafc.co.uk/join-us-for-volunteers-week/",
+      "published": "2026-05-29T11:20:50Z"
     },
     {
       "club": "Chippenham Town",
@@ -1140,6 +1239,15 @@
       "published": "2026-05-29T07:06:00Z"
     },
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Secure Your Season Ticket For EFL Return",
+      "url": "https://rochdaleafc.co.uk/2026-27-season-tickets-on-sale-monday-150526/",
+      "published": "2026-05-29T06:58:28Z"
+    },
+    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -1167,6 +1275,24 @@
       "published": "2026-05-28T18:08:52Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "50% Off All Macron Items In Shop Only",
+      "url": "https://southportfc.net/50-off-all-macron-items-in-shop-only/",
+      "published": "2026-05-28T18:03:49Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "First Three Pre Season Games Agreed",
+      "url": "https://southportfc.net/first-three-pre-season-games-agreed/",
+      "published": "2026-05-28T17:06:53Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1174,6 +1300,15 @@
       "title": "Baker Ready To Deliver Again",
       "url": "https://tonbridgeangels.co.uk/baker-ready-to-deliver-again/",
       "published": "2026-05-28T17:00:00Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Jack Wood is a Wanderer",
+      "url": "https://dwfc.co.uk/2026/05/jack-wood-is-a-wanderer/",
+      "published": "2026-05-28T16:30:54Z"
     },
     {
       "club": "Torquay United",
@@ -1338,148 +1473,13 @@
       "published": "2026-05-28T10:52:39Z"
     },
     {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Ramshaw Is Signed-Up For 26/27 – Are You?",
-      "url": "https://spennymoortownfc.co.uk/2026/05/28/ramshaw-is-signed-up-for-26-27-are-you/",
-      "published": "2026-05-28T10:30:35Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Ramshaw Agrees Terms On Spennymoor Deal",
-      "url": "https://spennymoortownfc.co.uk/2026/05/28/ramshaw-agrees-terms-on-spennymoor-deal/",
-      "published": "2026-05-28T10:30:09Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Alty Bank On Lewis Again",
-      "url": "https://altrinchamfc.com/blogs/news/alty-bank-on-lewis-again",
-      "published": "2026-05-28T10:28:19Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "1989/90 Kits Relaunched",
-      "url": "https://yorkcityfootballclub.co.uk/1989-90-kits-relaunched/",
-      "published": "2026-05-28T09:05:37Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Gus Scott-Morriss To Leave The Club",
-      "url": "https://southendunited.co.uk/news/2026/may/28/gus-scott-morriss-to-leave-the-club/",
-      "published": "2026-05-28T09:00:00Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Four Away Friendlies Confirmed",
-      "url": "https://afcfylde.co.uk/news/2026/may/28/four-away-friendlies-confirmed/",
-      "published": "2026-05-28T08:59:00Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: SECWFL Cup Final",
-      "url": "https://maidstoneunited.co.uk/05/28/key-info-secwfl-cup-final/",
-      "published": "2026-05-28T08:00:04Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Ladies Star Doogan Surprises Mini Moors",
-      "url": "https://spennymoortownfc.co.uk/2026/05/28/ladies-star-doogan-surprises-mini-moors/",
-      "published": "2026-05-28T07:43:00Z"
-    },
-    {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "Henry Departs",
-      "url": "https://etfc.london/henry-departs/",
-      "published": "2026-05-28T00:09:40Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Husin: “I’m looking forward to being part of a successful group.” | First Interview",
-      "url": "https://worthingfc.com/2026/05/%f0%9f%97%a3%ef%b8%8f-husin-im-looking-forward-to-being-part-of-a-successful-group-first-interview/",
-      "published": "2026-05-27T21:08:00Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Liam Dulson Joins",
-      "url": "https://wokingfc.co.uk/05/27/dulson-joins/",
-      "published": "2026-05-27T18:58:06Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Gary Lockett Resigns As Board Member",
-      "url": "https://southendunited.co.uk/news/2026/may/27/gary-lockett-resigns-as-board-member/",
-      "published": "2026-05-27T17:52:27Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Meet the PL Legends: Danny Simpson",
-      "url": "https://chippenhamtown.com/05/27/meet-the-pl-legends-danny-simpson/",
-      "published": "2026-05-27T17:30:10Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Callum Morton | First Interview",
-      "url": "https://torquayunited.com/callum-morton-first-interview/",
-      "published": "2026-05-27T17:26:46Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Henry Hawkins is a Dagger",
-      "url": "https://daggers.co.uk/henry-hawkins-is-a-dagger/",
-      "published": "2026-05-27T17:00:00Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Harness Attached To Angels",
-      "url": "https://tonbridgeangels.co.uk/harness-attached-to-angels/",
-      "published": "2026-05-27T17:00:00Z"
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "A New Era For The Dorking Wanderers Women’s Pathway",
+      "url": "https://dwfc.co.uk/2026/05/a-new-era-for-the-dorking-wanderers-womens-pathway/",
+      "published": "2026-05-28T10:48:40Z"
     }
   ]
 }
