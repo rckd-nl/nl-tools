@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-29T23:04:47Z",
+  "generatedAt": "2026-05-30T00:23:17Z",
   "maxItems": 100,
   "sources": [
     {
@@ -129,7 +129,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Southend United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=4f6cd356-8c26-41e7-a46c-211b888a68eb",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=dc32abf0-5285-496b-80d2-d47a6c878561",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -329,7 +329,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Peterborough Sports",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -796,6 +796,15 @@
       "title": "MEYBA range now available in-store and online",
       "url": "https://www.scunthorpe-united.co.uk/news/2026/may/meyba-range-now-available-in-store-and-online/",
       "published": "2026-05-29T15:53:05Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Daggers head to South Shields in Pre-Season Friendly",
+      "url": "https://daggers.co.uk/daggers-head-to-south-shields-in-pre-season-friendly/",
+      "published": "2026-05-29T15:00:00Z"
     },
     {
       "club": "Southport",
@@ -1471,15 +1480,6 @@
       "title": "WANDERERS RETURN TO ORANGE",
       "url": "https://dwfc.co.uk/2026/05/wanderers-return-to-orange/",
       "published": "2026-05-27T17:01:10Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Harness Attached To Angels",
-      "url": "https://tonbridgeangels.co.uk/harness-attached-to-angels/",
-      "published": "2026-05-27T17:00:00Z"
     }
   ]
 }
