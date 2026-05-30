@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-30T04:43:34Z",
+  "generatedAt": "2026-05-30T07:35:49Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=21c164b2-cdfe-4ab8-a349-c0d0e37ead63",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=12b73e96-71fd-4335-9573-70932a5c22e4",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -805,15 +805,6 @@
       "title": "MEYBA range now available in-store and online",
       "url": "https://www.scunthorpe-united.co.uk/news/2026/may/meyba-range-now-available-in-store-and-online/",
       "published": "2026-05-29T15:53:05Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Daggers head to South Shields in Pre-Season Friendly",
-      "url": "https://daggers.co.uk/daggers-head-to-south-shields-in-pre-season-friendly/",
-      "published": "2026-05-29T15:00:00Z"
     },
     {
       "club": "Southport",
@@ -1480,6 +1471,15 @@
       "title": "CLUB UPDATE | May 27, 2026",
       "url": "https://gateshead-fc.com/club-update-may-27-2026/",
       "published": "2026-05-27T17:05:36Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "WANDERERS RETURN TO ORANGE",
+      "url": "https://dwfc.co.uk/2026/05/wanderers-return-to-orange/",
+      "published": "2026-05-27T17:01:10Z"
     }
   ]
 }
