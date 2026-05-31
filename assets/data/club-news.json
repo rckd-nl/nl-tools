@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-31T21:44:24Z",
+  "generatedAt": "2026-05-31T22:43:32Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3751,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -129,7 +129,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Southend United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=8dc0d97e-d32a-4741-b06e-dd39895c61cd",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=a78606a5-e2ab-4c85-b814-3568da9e970f",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -329,7 +329,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Peterborough Sports",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -1086,6 +1086,15 @@
       "published": "2026-05-29T16:00:10Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Bryan Ifeanyi Signs for Rovers",
+      "url": "https://www.fgr.co.uk/news/bryan-ifeanyi-signs-for-rovers-26/",
+      "published": "2026-05-29T16:00:00Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1471,15 +1480,6 @@
       "title": "ROB ELLIOT APPOINTED AS HEAD COACH",
       "url": "https://www.carlisleunited.co.uk/news/rob-elliot-appointed-head-coach",
       "published": "2026-05-28T15:59:00Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "2026/27 Pre-Season Schedule",
-      "url": "https://worthingfc.com/2026/05/2026-27-pre-season-schedule/",
-      "published": "2026-05-28T15:12:55Z"
     }
   ]
 }
