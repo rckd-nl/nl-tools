@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-05-31T16:41:12Z",
+  "generatedAt": "2026-05-31T17:48:11Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3751,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=3fd13954-6a4c-4aee-b98e-49b09761b16a",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=7877037d-26f0-4fb1-a753-448e6c6268a6",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -1068,6 +1068,15 @@
       "published": "2026-05-29T16:00:10Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Bryan Ifeanyi Signs for Rovers",
+      "url": "https://www.fgr.co.uk/news/bryan-ifeanyi-signs-for-rovers-26/",
+      "published": "2026-05-29T16:00:00Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1471,15 +1480,6 @@
       "title": "Town to Host Orient; Worthing",
       "url": "https://etfc.london/town-to-host-orient-worthing/",
       "published": "2026-05-28T15:12:03Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "LIVE SPORT IN BAR TWENTY SEVEN",
-      "url": "https://macclesfieldfc.com/latest-news/live-sport-in-bar-twenty-seven-2/",
-      "published": "2026-05-28T15:00:51Z"
     }
   ]
 }
