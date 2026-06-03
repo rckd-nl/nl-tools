@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-03T07:16:46Z",
+  "generatedAt": "2026-06-03T12:15:27Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -21,10 +21,10 @@
     {
       "club": "Brackley Town",
       "domain": "brackleytownfc.com",
-      "feed": "",
+      "feed": "pitchero:/news (scrape)",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "Pitchero scrape returned 0 usable items"
     },
     {
       "club": "Braintree Town",
@@ -35,20 +35,20 @@
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
     },
     {
-      "club": "FC Halifax Town",
-      "domain": "fchalifaxtown.com",
+      "club": "Gateshead",
+      "domain": "gateshead-fc.com",
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 415"
     },
     {
-      "club": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
+      "club": "Scunthorpe United",
+      "domain": "scunthorpe-united.co.uk",
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 401"
+      "error": "HTTP 415"
     },
     {
       "club": "Solihull Moors",
@@ -85,10 +85,10 @@
     {
       "club": "AFC Telford United",
       "domain": "telfordunited.com",
-      "feed": "",
+      "feed": "https://telfordunited.com/news/feed",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "Feed returned 0 usable items"
     },
     {
       "club": "Bedford Town",
@@ -109,7 +109,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=d4f04448-d932-4f6e-998b-86561542cc10",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=74479923-2823-4fb9-9955-01e53b4baca1",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -121,6 +121,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "domain": "harriers.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -137,14 +145,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Marine",
-      "domain": "marinefc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
     },
     {
       "club": "Merthyr Town",
@@ -187,6 +187,14 @@
       "error": "HTTP 404"
     },
     {
+      "club": "Southport",
+      "domain": "southportfc.net",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
+    },
+    {
       "club": "Worksop Town",
       "domain": "worksoptownfc.co.uk",
       "feed": "",
@@ -203,12 +211,20 @@
       "error": "Feed returned 0 usable items"
     },
     {
-      "club": "Dover Athletic",
-      "domain": "doverathletic.com",
+      "club": "Dagenham & Redbridge",
+      "domain": "daggers.co.uk",
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 429"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "domain": "dorkingwanderers.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Eastbourne Borough",
@@ -256,7 +272,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Slough Town",
