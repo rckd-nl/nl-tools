@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-03T02:16:16Z",
+  "generatedAt": "2026-06-03T07:16:46Z",
   "maxItems": 100,
   "sources": [
     {
@@ -38,10 +38,10 @@
     {
       "club": "Brackley Town",
       "domain": "brackleytownfc.com",
-      "feed": "pitchero:/news (scrape)",
+      "feed": "",
       "ok": false,
       "count": 0,
-      "error": "Pitchero scrape returned 0 usable items"
+      "error": "HTTP 403"
     },
     {
       "club": "Braintree Town",
@@ -70,10 +70,10 @@
     {
       "club": "FC Halifax Town",
       "domain": "fchalifaxtown.com",
-      "feed": "https://fchalifaxtown.com/feed/",
-      "ok": true,
-      "count": 1,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Forest Green Rovers",
@@ -110,10 +110,10 @@
     {
       "club": "Rochdale",
       "domain": "rochdaleafc.co.uk",
-      "feed": "https://rochdaleafc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Scunthorpe United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=a5111a29-f743-43c8-a475-5cbd17d1d60a",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=d4f04448-d932-4f6e-998b-86561542cc10",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -310,10 +310,10 @@
     {
       "club": "Marine",
       "domain": "marinefc.com",
-      "feed": "https://marinefc.com/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Merthyr Town",
@@ -446,10 +446,10 @@
     {
       "club": "Dover Athletic",
       "domain": "doverathletic.com",
-      "feed": "https://doverathletic.com/news/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Eastbourne Borough",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "KEVIN SINFIELD AND VIV ANDERSON TO WALK FROM ALTY FOR MND ON WEDNESDAY",
+      "url": "https://altrinchamfc.com/blogs/news/kevin-sinfield-and-viv-anderson-to-walk-from-alty-for-mnd-on-wednesday",
+      "published": "2026-06-03T06:48:01Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -598,15 +607,6 @@
       "title": "Jackson Parts Ways with the Reds",
       "url": "https://worthingfc.com/2026/06/jackson-parts-ways-with-the-reds/",
       "published": "2026-06-02T20:00:23Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "KEVIN SINFIELD AND VIV ANDERSON TO WALK FROM ALTY FOR MND ON WEDNESDAY",
-      "url": "https://altrinchamfc.com/blogs/news/kevin-sinfield-and-viv-anderson-to-walk-from-alty-for-mnd-on-wednesday",
-      "published": "2026-06-02T19:16:20Z"
     },
     {
       "club": "Bath City",
@@ -807,15 +807,6 @@
       "published": "2026-06-02T12:58:43Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "June 200 Club winners",
-      "url": "https://www.horshamfc.co.uk/2026/06/02/june-200-club-winners-7/",
-      "published": "2026-06-02T12:43:39Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -841,15 +832,6 @@
       "title": "REUNITING WITH HEBBURN TOWN IN THE NATIONAL LEAGUE NORTH",
       "url": "https://macclesfieldfc.com/latest-news/reuniting-with-hebburn-town-in-the-national-league-north/",
       "published": "2026-06-02T12:00:11Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "JOE WRIGHT – FUNERAL",
-      "url": "https://marinefc.com/joe-wright/",
-      "published": "2026-06-02T11:06:12Z"
     },
     {
       "club": "Farnborough",
@@ -886,24 +868,6 @@
       "title": "Southend To Face Cambridge United In Pre-Season",
       "url": "https://southendunited.co.uk/news/2026/june/02/southend-to-play-cambridge-in-pre-season/",
       "published": "2026-06-02T11:00:00Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Don Hollands",
-      "url": "https://www.horshamfc.co.uk/2026/06/02/don-hollands/",
-      "published": "2026-06-02T10:42:29Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "ANNUAL GENERAL MEETING",
-      "url": "https://marinefc.com/annual-general-meeting-3/",
-      "published": "2026-06-02T10:37:56Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -967,15 +931,6 @@
       "title": "Celebrating Volunteers’ Week",
       "url": "https://maidstoneunited.co.uk/06/02/celebrating-volunteers-week/",
       "published": "2026-06-02T07:27:55Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Secure Your Season Ticket For EFL Return",
-      "url": "https://rochdaleafc.co.uk/2026-27-season-tickets-on-sale-monday-150526/",
-      "published": "2026-06-02T06:58:28Z"
     },
     {
       "club": "Bath City",
@@ -1138,15 +1093,6 @@
       "title": "Pools confirm opening pre-season fixtures",
       "url": "https://www.hartlepoolunited.co.uk/pools-confirm-opening-pre-season-fixtures/",
       "published": "2026-06-01T15:58:09Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Welcome Euan Williams",
-      "url": "https://doverathletic.com/news/welcome-euan-williams/",
-      "published": "2026-06-01T15:57:38Z"
     },
     {
       "club": "Scunthorpe United",
@@ -1365,15 +1311,6 @@
       "published": "2026-06-01T09:50:00Z"
     },
     {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Summer Pitch Works Underway",
-      "url": "https://rochdaleafc.co.uk/summer-pitch-works-underway-may26/",
-      "published": "2026-06-01T08:45:51Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1392,15 +1329,6 @@
       "published": "2026-06-01T08:00:00Z"
     },
     {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Limited Edition Promotion Coin Sold Out",
-      "url": "https://rochdaleafc.co.uk/limited-edition-commemorative-promotion-coin-010626/",
-      "published": "2026-06-01T07:18:17Z"
-    },
-    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -1417,15 +1345,6 @@
       "title": "This week at Gallagher Stadium (w/c 31/5/26)",
       "url": "https://maidstoneunited.co.uk/06/01/this-week-at-gallagher-stadium-w-c-31-5-26/",
       "published": "2026-05-31T23:01:35Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "Golden Letter Draw Results",
-      "url": "https://marinefc.com/golden-letter-draw-results/",
-      "published": "2026-05-31T20:48:00Z"
     },
     {
       "club": "Bath City",
@@ -1480,6 +1399,87 @@
       "title": "LACEY LANDS BACK AT LEASING.COM STADIUM",
       "url": "https://macclesfieldfc.com/latest-news/lacey-lands-back-at-leasing-com-stadium/",
       "published": "2026-05-31T14:00:38Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Billy Strikes Confident Tone",
+      "url": "https://etfc.london/billy-strikes-confident-tone/",
+      "published": "2026-05-31T13:53:08Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Les Gold’s Funeral",
+      "url": "https://etfc.london/les-golds-funeral/",
+      "published": "2026-05-31T11:43:55Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City Lottery – Weekly Winners 29/05/26",
+      "url": "https://trurocity.co.uk/2026/05/truro-city-lottery-weekly-winners-29-05-26/",
+      "published": "2026-05-31T11:09:22Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Bath City Women End of Season Awards",
+      "url": "https://www.bathcityfc.com/bath-city-women-end-of-season-awards-3/",
+      "published": "2026-05-31T11:00:57Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Last Chance For Early Bird & Renewal Season Tickets",
+      "url": "https://chelmsfordcityfc.com/news/last-chance-for-early-bird-renewal-season-tickets/",
+      "published": "2026-05-31T11:00:00Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Premier League Fantasy Football final table",
+      "url": "https://maidstoneunited.co.uk/05/31/premier-league-fantasy-football-final-table/",
+      "published": "2026-05-31T10:00:04Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Tom Elliott Celebrated as Part of Adobe Women's FA Cup Campaign",
+      "url": "https://afcfylde.co.uk/news/2026/may/31/tom-elliott-celebrated-as-part-of-adobe-women-s-fa-cup-campaign/",
+      "published": "2026-05-31T08:02:00Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Lock in your early bird savings",
+      "url": "https://maidstoneunited.co.uk/05/31/one-week-left-to-lock-in-your-early-bird-savings/",
+      "published": "2026-05-31T07:00:06Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Gallery: League Champions",
+      "url": "https://maidstoneunited.co.uk/05/30/gallery-league-champions/",
+      "published": "2026-05-30T19:30:12Z"
     }
   ]
 }
