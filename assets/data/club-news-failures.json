@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-03T22:57:45Z",
+  "generatedAt": "2026-06-04T01:52:08Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -21,10 +21,10 @@
     {
       "club": "Brackley Town",
       "domain": "brackleytownfc.com",
-      "feed": "pitchero:/news (scrape)",
+      "feed": "",
       "ok": false,
       "count": 0,
-      "error": "Pitchero scrape returned 0 usable items"
+      "error": "HTTP 403"
     },
     {
       "club": "Braintree Town",
@@ -35,12 +35,20 @@
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
     },
     {
-      "club": "Forest Green Rovers",
-      "domain": "fgr.co.uk",
+      "club": "Gateshead",
+      "domain": "gateshead-fc.com",
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 415"
+    },
+    {
+      "club": "Scunthorpe United",
+      "domain": "scunthorpe-united.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Solihull Moors",
@@ -101,7 +109,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=911693be-916b-4a85-b039-30d303f0bf41",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=28ce8615-6074-4858-bcad-7342000a86e3",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -113,6 +121,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "domain": "harriers.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -171,6 +187,14 @@
       "error": "HTTP 404"
     },
     {
+      "club": "Southport",
+      "domain": "southportfc.net",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
+    },
+    {
       "club": "Worksop Town",
       "domain": "worksoptownfc.co.uk",
       "feed": "",
@@ -185,6 +209,22 @@
       "ok": false,
       "count": 0,
       "error": "Feed returned 0 usable items"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "domain": "daggers.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "domain": "dorkingwanderers.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Eastbourne Borough",
