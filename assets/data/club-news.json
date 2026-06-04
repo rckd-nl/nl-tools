@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-04T07:00:11Z",
+  "generatedAt": "2026-06-04T10:47:41Z",
   "maxItems": 100,
   "sources": [
     {
@@ -70,18 +70,18 @@
     {
       "club": "FC Halifax Town",
       "domain": "fchalifaxtown.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "feed": "https://fchalifaxtown.com/feed/",
+      "ok": true,
+      "count": 1,
+      "error": ""
     },
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3755,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=00f03fbe-f9af-457b-be95-5a056663258a",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=81ef75ff-bf4f-4792-beea-82f7b03f0250",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,42 @@
   ],
   "items": [
     {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "New Opposition: Barrow AFC",
+      "url": "https://ytfc.net/2026/06/new-opposition-barrow/",
+      "published": "2026-06-04T09:58:46Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Volunteer Thanks!",
+      "url": "https://www.fgr.co.uk/news/volunteer-thanks-2526/",
+      "published": "2026-06-04T09:00:00Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Blue Eagle World Cup Screening Tickets On Sale",
+      "url": "https://southendunited.co.uk/news/2026/june/04/blue-eagle-world-cup-screening-tickets/",
+      "published": "2026-06-04T09:00:00Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SILKMEN MASTERMIND TO RETURN IN 2026/27",
+      "url": "https://macclesfieldfc.com/latest-news/silkmen-mastermind-to-return-in-2026-27/",
+      "published": "2026-06-04T08:20:34Z"
+    },
+    {
       "club": "Carlisle United",
       "code": "CAR",
       "short": "Carlisle",
@@ -618,15 +654,6 @@
       "published": "2026-06-03T17:00:24Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "RETAINED LIST FOR 2026/27 SEASON ANNOUNCED",
-      "url": "https://www.horshamfc.co.uk/2026/06/03/retained-list-for-2026-27-season-announced/",
-      "published": "2026-06-03T17:00:07Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -660,15 +687,6 @@
       "domain": "dorkingwanderers.com",
       "title": "Isaac Philpot Returns to the Wanderers",
       "url": "https://dwfc.co.uk/2026/06/philpot-returns/",
-      "published": "2026-06-03T16:00:45Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Isaac Philpot leaves",
-      "url": "https://www.horshamfc.co.uk/2026/06/03/isaac-philpot-leaves/",
       "published": "2026-06-03T16:00:45Z"
     },
     {
@@ -1131,15 +1149,6 @@
       "published": "2026-06-02T12:58:43Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "June 200 Club winners",
-      "url": "https://www.horshamfc.co.uk/2026/06/02/june-200-club-winners-7/",
-      "published": "2026-06-02T12:43:39Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1194,6 +1203,15 @@
       "published": "2026-06-02T11:00:11Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Girls ETC Registration of Interest",
+      "url": "https://www.fgr.co.uk/news/girls-etc-registration-of-interest-2627/",
+      "published": "2026-06-02T11:00:00Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1201,15 +1219,6 @@
       "title": "Southend To Face Cambridge United In Pre-Season",
       "url": "https://southendunited.co.uk/news/2026/june/02/southend-to-play-cambridge-in-pre-season/",
       "published": "2026-06-02T11:00:00Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Don Hollands",
-      "url": "https://www.horshamfc.co.uk/2026/06/02/don-hollands/",
-      "published": "2026-06-02T10:42:29Z"
     },
     {
       "club": "Marine",
@@ -1471,15 +1480,6 @@
       "title": "Maidstone United Football Academy open evening",
       "url": "https://maidstoneunited.co.uk/06/01/maidstone-united-football-academy-open-evening/",
       "published": "2026-06-01T15:18:08Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Shrimpers To Host Northampton In Pre-Season",
-      "url": "https://southendunited.co.uk/news/2026/june/01/shrimpers-to-host-northampton-in-pre-season/",
-      "published": "2026-06-01T15:00:00Z"
     }
   ]
 }
