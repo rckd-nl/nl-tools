@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-04T21:56:46Z",
+  "generatedAt": "2026-06-04T23:39:35Z",
   "maxItems": 100,
   "sources": [
     {
@@ -110,10 +110,10 @@
     {
       "club": "Rochdale",
       "domain": "rochdaleafc.co.uk",
-      "feed": "https://rochdaleafc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Scunthorpe United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=cb9540e7-c1bb-47c4-abff-5fa6b26ee8a4",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=13d8b27d-894e-480a-a856-a56661cc515f",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -310,10 +310,10 @@
     {
       "club": "Marine",
       "domain": "marinefc.com",
-      "feed": "https://marinefc.com/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Merthyr Town",
@@ -1059,15 +1059,6 @@
       "published": "2026-06-03T13:55:42Z"
     },
     {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "BOBBY GRANT – NOMINATION",
-      "url": "https://marinefc.com/bobby-grant-nomination/",
-      "published": "2026-06-03T13:31:52Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1140,15 +1131,6 @@
       "published": "2026-06-03T10:04:53Z"
     },
     {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Dale Learn Carabao Cup Preliminary Round Opponents",
-      "url": "https://rochdaleafc.co.uk/carabao-cup-preliminary-round-draw-030626/",
-      "published": "2026-06-03T09:58:28Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1192,15 +1174,6 @@
       "title": "KEVIN SINFIELD AND VIV ANDERSON TO WALK FROM ALTY FOR MND ON WEDNESDAY",
       "url": "https://altrinchamfc.com/blogs/news/kevin-sinfield-and-viv-anderson-to-walk-from-alty-for-mnd-on-wednesday",
       "published": "2026-06-03T06:48:01Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Trio Nominated For National League Awards",
-      "url": "https://rochdaleafc.co.uk/national-league-awards-nominations-0626/",
-      "published": "2026-06-03T03:29:45Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1428,15 +1401,6 @@
       "published": "2026-06-02T12:00:49Z"
     },
     {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "JOE WRIGHT – FUNERAL",
-      "url": "https://marinefc.com/joe-wright/",
-      "published": "2026-06-02T11:06:12Z"
-    },
-    {
       "club": "Farnborough",
       "code": "FAB",
       "short": "Farnborough",
@@ -1464,15 +1428,6 @@
       "published": "2026-06-02T11:00:00Z"
     },
     {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "ANNUAL GENERAL MEETING",
-      "url": "https://marinefc.com/annual-general-meeting-3/",
-      "published": "2026-06-02T10:37:56Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1480,6 +1435,51 @@
       "title": "Ollie Hulbert checks into The Optima",
       "url": "https://wsmafc.co.uk/ollie-hulbert-signs/",
       "published": "2026-06-02T10:00:32Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "New Opposition: AFC Fylde",
+      "url": "https://ytfc.net/2026/06/new-opposition-afc-fylde/",
+      "published": "2026-06-02T09:44:02Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Lee Collinson joins the Board of Directors",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/lee-collinson-joins-the-board-of-directors/",
+      "published": "2026-06-02T09:20:15Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Book now for our annual Golf Day, returning in pre-season ahead of the 2026-27 season",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/book-now-for-our-annual-golf-day-returning-in-pre-season-ahead-of-the-2026-27-season-3/",
+      "published": "2026-06-02T09:19:46Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Celebrating Volunteers’ Week",
+      "url": "https://maidstoneunited.co.uk/06/02/celebrating-volunteers-week/",
+      "published": "2026-06-02T07:27:55Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Player News – Joe Raynes signs for season number nine with Romans",
+      "url": "https://www.bathcityfc.com/player-news-joe-raynes-signs-for-season-number-nine-with-romans/",
+      "published": "2026-06-01T19:00:46Z"
     }
   ]
 }
