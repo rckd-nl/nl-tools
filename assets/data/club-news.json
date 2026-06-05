@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-05T01:55:34Z",
+  "generatedAt": "2026-06-05T06:45:49Z",
   "maxItems": 100,
   "sources": [
     {
@@ -38,10 +38,10 @@
     {
       "club": "Brackley Town",
       "domain": "brackleytownfc.com",
-      "feed": "pitchero:/news (scrape)",
+      "feed": "",
       "ok": false,
       "count": 0,
-      "error": "Pitchero scrape returned 0 usable items"
+      "error": "HTTP 403"
     },
     {
       "club": "Braintree Town",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=f0e6ed77-ad9b-4707-b83e-274dedce62b3",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=0c21ba9e-a7af-411d-b45a-9bf4eac0f966",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Club Open New Admin & Community Base",
+      "url": "https://trurocity.co.uk/2026/06/club-open-new-admin-community-base/",
+      "published": "2026-06-05T05:33:12Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -807,15 +816,6 @@
       "published": "2026-06-04T14:00:00Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Pre-Season fixture update",
-      "url": "https://www.horshamfc.co.uk/2026/06/04/pre-season-fixture-update/",
-      "published": "2026-06-04T13:05:06Z"
-    },
-    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -859,15 +859,6 @@
       "title": "Don’t Lose Your Seat!",
       "url": "https://torquayunited.com/dont-lose-your-seat/",
       "published": "2026-06-04T11:43:28Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "HORSHAM WITHOUT THE SHAM",
-      "url": "https://www.horshamfc.co.uk/2026/06/04/horsham-without-the-sham/",
-      "published": "2026-06-04T11:30:39Z"
     },
     {
       "club": "Macclesfield",
@@ -915,6 +906,15 @@
       "published": "2026-06-04T09:00:00Z"
     },
     {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Moors To Face Seaton Carew In Pre-Season",
+      "url": "https://spennymoortownfc.co.uk/2026/06/04/moors-to-face-seaton-carew-in-pre-season/",
+      "published": "2026-06-04T08:49:24Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -960,15 +960,6 @@
       "published": "2026-06-03T17:00:24Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "RETAINED LIST FOR 2026/27 SEASON ANNOUNCED",
-      "url": "https://www.horshamfc.co.uk/2026/06/03/retained-list-for-2026-27-season-announced/",
-      "published": "2026-06-03T17:00:07Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1002,15 +993,6 @@
       "domain": "dorkingwanderers.com",
       "title": "Isaac Philpot Returns to the Wanderers",
       "url": "https://dwfc.co.uk/2026/06/philpot-returns/",
-      "published": "2026-06-03T16:00:45Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Isaac Philpot leaves",
-      "url": "https://www.horshamfc.co.uk/2026/06/03/isaac-philpot-leaves/",
       "published": "2026-06-03T16:00:45Z"
     },
     {
@@ -1473,13 +1455,31 @@
       "published": "2026-06-02T12:58:43Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "June 200 Club winners",
-      "url": "https://www.horshamfc.co.uk/2026/06/02/june-200-club-winners-7/",
-      "published": "2026-06-02T12:43:39Z"
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "SIGNING | Bulls Welcome Willis to Edgar Street",
+      "url": "https://herefordfc.co.uk/2026/06/signing-bulls-welcome-willis-to-edgar-street/",
+      "published": "2026-06-02T12:00:58Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Meet the PL Legends: Colin Hendry",
+      "url": "https://chippenhamtown.com/06/02/meet-the-pl-legends-colin-hendry/",
+      "published": "2026-06-02T12:00:49Z"
+    },
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "JOE WRIGHT – FUNERAL",
+      "url": "https://marinefc.com/joe-wright/",
+      "published": "2026-06-02T11:06:12Z"
     }
   ]
 }
