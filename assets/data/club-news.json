@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-06T20:02:43Z",
+  "generatedAt": "2026-06-06T21:19:55Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3760,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=3df8e262-ed2d-497c-874d-d0bbd188dcd4",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=96faee9c-f270-4c8b-9a38-95b14d3d18bc",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "First Word | Oli Ewing",
+      "url": "https://www.fgr.co.uk/news/first-word-oli-ewing/",
+      "published": "2026-06-06T18:30:00Z"
+    },
     {
       "club": "Morecambe",
       "code": "MOR",
@@ -861,15 +870,6 @@
       "published": "2026-06-05T16:49:44Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Work Begins on New Showcase Playing Surface at the Fusion Aviation Community Stadium",
-      "url": "https://www.horshamfc.co.uk/2026/06/05/work-begins-on-new-showcase-playing-surface-at-the-fusion-aviation-community-stadium/",
-      "published": "2026-06-05T16:40:09Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -913,6 +913,15 @@
       "title": "Welcome to Weston – Ollie Hulbert | Goals",
       "url": "https://wsmafc.co.uk/welcome-to-weston-ollie-hulbert-goals/",
       "published": "2026-06-05T15:35:05Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Oli Ewing Joins FGR",
+      "url": "https://www.fgr.co.uk/news/fgr-sign-oli-ewing-from-scunthorpe/",
+      "published": "2026-06-05T15:15:00Z"
     },
     {
       "club": "Chester",
@@ -994,6 +1003,15 @@
       "title": "Could YOU be United’s next star?",
       "url": "https://torquayunited.com/u18s-trial-at-plainmoor/",
       "published": "2026-06-05T13:13:19Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Klukowski Steps Up to First Team",
+      "url": "https://www.fgr.co.uk/news/klukowski-steps-up-to-first-team/",
+      "published": "2026-06-05T13:00:00Z"
     },
     {
       "club": "Torquay United",
@@ -1194,6 +1212,15 @@
       "published": "2026-06-04T18:30:15Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Temi Departs",
+      "url": "https://www.fgr.co.uk/news/temi-departs/",
+      "published": "2026-06-04T17:55:00Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1356,13 +1383,13 @@
       "published": "2026-06-04T14:00:45Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Pre-Season fixture update",
-      "url": "https://www.horshamfc.co.uk/2026/06/04/pre-season-fixture-update/",
-      "published": "2026-06-04T13:05:06Z"
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Partnership | Quorn",
+      "url": "https://www.fgr.co.uk/news/partnership-quorn-26/",
+      "published": "2026-06-04T14:00:00Z"
     },
     {
       "club": "Eastleigh",
@@ -1401,15 +1428,6 @@
       "published": "2026-06-04T11:43:28Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "HORSHAM WITHOUT THE SHAM",
-      "url": "https://www.horshamfc.co.uk/2026/06/04/horsham-without-the-sham/",
-      "published": "2026-06-04T11:30:39Z"
-    },
-    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -1426,6 +1444,15 @@
       "title": "New Opposition: Barrow AFC",
       "url": "https://ytfc.net/2026/06/new-opposition-barrow/",
       "published": "2026-06-04T09:58:46Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Volunteer Thanks!",
+      "url": "https://www.fgr.co.uk/news/volunteer-thanks-2526/",
+      "published": "2026-06-04T09:00:00Z"
     },
     {
       "club": "Southend United",
@@ -1453,33 +1480,6 @@
       "title": "SINGING SECTION SEASON TICKETS ON SALE",
       "url": "https://www.carlisleunited.co.uk/news/singing-section-season-tickets-sale",
       "published": "2026-06-03T19:02:13Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Player News – Harvey Wiles-Richards stays local with another season at City",
-      "url": "https://www.bathcityfc.com/player-news-harvey-wiles-richards-stays-local-with-another-season-at-city/",
-      "published": "2026-06-03T19:00:59Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Women’s Football Pyramid club allocations confirmed",
-      "url": "https://farnboroughfc.co.uk/2026/06/womens-football-pyramid-club-allocations-confirmed/",
-      "published": "2026-06-03T18:00:17Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Get To Know Our New Signings",
-      "url": "https://curzon-ashton.co.uk/get-to-know-our-new-signings/",
-      "published": "2026-06-03T17:00:24Z"
     }
   ]
 }
