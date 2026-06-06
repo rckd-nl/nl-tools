@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-06T08:15:14Z",
+  "generatedAt": "2026-06-06T10:25:31Z",
   "maxItems": 100,
   "sources": [
     {
@@ -70,10 +70,10 @@
     {
       "club": "FC Halifax Town",
       "domain": "fchalifaxtown.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "feed": "https://fchalifaxtown.com/feed/",
+      "ok": true,
+      "count": 1,
+      "error": ""
     },
     {
       "club": "Forest Green Rovers",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=3a33c9c3-e39e-43ee-97f3-eede24c3c424",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=ee0ed963-418c-4f17-ac2b-00a57e17aa0c",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Women’s End of Season Awards 2025/26",
+      "url": "https://farnboroughfc.co.uk/2026/06/womens-end-of-season-awards-2025-26/",
+      "published": "2026-06-06T10:00:14Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "2026/27 PRE-SEASON FIXTURE UPDATE",
+      "url": "https://www.carlisleunited.co.uk/news/202627-pre-season-fixture-update",
+      "published": "2026-06-06T09:00:41Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -1462,24 +1480,6 @@
       "title": "Women’s first team trial on Sunday 7 June",
       "url": "https://maidstoneunited.co.uk/06/03/womens-first-team-trial-on-sunday-7-june/",
       "published": "2026-06-03T16:03:47Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Isaac Philpot Returns to the Wanderers",
-      "url": "https://dwfc.co.uk/2026/06/philpot-returns/",
-      "published": "2026-06-03T16:00:45Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Isaac Philpot leaves",
-      "url": "https://www.horshamfc.co.uk/2026/06/03/isaac-philpot-leaves/",
-      "published": "2026-06-03T16:00:45Z"
     }
   ]
 }
