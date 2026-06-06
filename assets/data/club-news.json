@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-06T18:23:45Z",
+  "generatedAt": "2026-06-06T20:02:43Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3759,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=59593278-8150-4dcd-8f95-eaa1ecffc239",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=3df8e262-ed2d-497c-874d-d0bbd188dcd4",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -915,15 +915,6 @@
       "published": "2026-06-05T15:35:05Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Oli Ewing Joins FGR",
-      "url": "https://www.fgr.co.uk/news/fgr-sign-oli-ewing-from-scunthorpe/",
-      "published": "2026-06-05T15:15:00Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1003,15 +994,6 @@
       "title": "Could YOU be United’s next star?",
       "url": "https://torquayunited.com/u18s-trial-at-plainmoor/",
       "published": "2026-06-05T13:13:19Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Klukowski Steps Up to First Team",
-      "url": "https://www.fgr.co.uk/news/klukowski-steps-up-to-first-team/",
-      "published": "2026-06-05T13:00:00Z"
     },
     {
       "club": "Torquay United",
@@ -1212,15 +1194,6 @@
       "published": "2026-06-04T18:30:15Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Temi Departs",
-      "url": "https://www.fgr.co.uk/news/temi-departs/",
-      "published": "2026-06-04T17:55:00Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1383,15 +1356,6 @@
       "published": "2026-06-04T14:00:45Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Partnership | Quorn",
-      "url": "https://www.fgr.co.uk/news/partnership-quorn-26/",
-      "published": "2026-06-04T14:00:00Z"
-    },
-    {
       "club": "Horsham",
       "code": "HRS",
       "short": "Horsham",
@@ -1464,15 +1428,6 @@
       "published": "2026-06-04T09:58:46Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Volunteer Thanks!",
-      "url": "https://www.fgr.co.uk/news/volunteer-thanks-2526/",
-      "published": "2026-06-04T09:00:00Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1480,6 +1435,51 @@
       "title": "Blue Eagle World Cup Screening Tickets On Sale",
       "url": "https://southendunited.co.uk/news/2026/june/04/blue-eagle-world-cup-screening-tickets/",
       "published": "2026-06-04T09:00:00Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Moors To Face Seaton Carew In Pre-Season",
+      "url": "https://spennymoortownfc.co.uk/2026/06/04/moors-to-face-seaton-carew-in-pre-season/",
+      "published": "2026-06-04T08:49:24Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "SINGING SECTION SEASON TICKETS ON SALE",
+      "url": "https://www.carlisleunited.co.uk/news/singing-section-season-tickets-sale",
+      "published": "2026-06-03T19:02:13Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Player News – Harvey Wiles-Richards stays local with another season at City",
+      "url": "https://www.bathcityfc.com/player-news-harvey-wiles-richards-stays-local-with-another-season-at-city/",
+      "published": "2026-06-03T19:00:59Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Women’s Football Pyramid club allocations confirmed",
+      "url": "https://farnboroughfc.co.uk/2026/06/womens-football-pyramid-club-allocations-confirmed/",
+      "published": "2026-06-03T18:00:17Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Get To Know Our New Signings",
+      "url": "https://curzon-ashton.co.uk/get-to-know-our-new-signings/",
+      "published": "2026-06-03T17:00:24Z"
     }
   ]
 }
