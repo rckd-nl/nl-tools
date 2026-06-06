@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-06T01:37:52Z",
+  "generatedAt": "2026-06-06T05:44:55Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3759,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=90f96b8a-5d2c-4767-a351-3d8da1ed043f",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=c2720560-619e-4b99-9ef5-8c9f490d5ca0",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -762,15 +762,6 @@
       "published": "2026-06-05T15:35:05Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Oli Ewing Joins FGR",
-      "url": "https://www.fgr.co.uk/news/fgr-sign-oli-ewing-from-scunthorpe/",
-      "published": "2026-06-05T15:15:00Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -850,15 +841,6 @@
       "title": "Could YOU be United’s next star?",
       "url": "https://torquayunited.com/u18s-trial-at-plainmoor/",
       "published": "2026-06-05T13:13:19Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Klukowski Steps Up to First Team",
-      "url": "https://www.fgr.co.uk/news/klukowski-steps-up-to-first-team/",
-      "published": "2026-06-05T13:00:00Z"
     },
     {
       "club": "Torquay United",
@@ -1059,15 +1041,6 @@
       "published": "2026-06-04T18:30:15Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Temi Departs",
-      "url": "https://www.fgr.co.uk/news/temi-departs/",
-      "published": "2026-06-04T17:55:00Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1239,15 +1212,6 @@
       "published": "2026-06-04T14:00:45Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Partnership | Quorn",
-      "url": "https://www.fgr.co.uk/news/partnership-quorn-26/",
-      "published": "2026-06-04T14:00:00Z"
-    },
-    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -1327,15 +1291,6 @@
       "title": "Club Shop Open this Afternoon",
       "url": "https://daggers.co.uk/club-shop-open-this-afternoon-49/",
       "published": "2026-06-04T09:14:27Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Volunteer Thanks!",
-      "url": "https://www.fgr.co.uk/news/volunteer-thanks-2526/",
-      "published": "2026-06-04T09:00:00Z"
     },
     {
       "club": "Southend United",
@@ -1480,6 +1435,51 @@
       "title": "FIRST INTERVIEW | WILL SMITH",
       "url": "https://www.morecambefc.com/news/2026/june/03/first-interview---will-smith/",
       "published": "2026-06-03T14:20:00Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "CTFC Academy Award winners",
+      "url": "https://chippenhamtown.com/06/03/ctfc-academy-award-winners/",
+      "published": "2026-06-03T14:00:53Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "WILL SMITH SIGNS FOR THE SHRIMPS",
+      "url": "https://www.morecambefc.com/news/2026/june/03/will-smith-signs-for-the-shrimps/",
+      "published": "2026-06-03T14:00:00Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "History Made as Women Secure Promotion",
+      "url": "https://tonbridgeangels.co.uk/history-made-as-women-secure-promotion/",
+      "published": "2026-06-03T14:00:00Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Maidstone United Women application for promotion accepted",
+      "url": "https://maidstoneunited.co.uk/06/03/maidstone-united-women-application-for-promotion-accepted/",
+      "published": "2026-06-03T13:55:42Z"
+    },
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "BOBBY GRANT – NOMINATION",
+      "url": "https://marinefc.com/bobby-grant-nomination/",
+      "published": "2026-06-03T13:31:52Z"
     }
   ]
 }
