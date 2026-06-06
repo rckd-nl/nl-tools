@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-06T12:04:16Z",
+  "generatedAt": "2026-06-06T14:10:03Z",
   "maxItems": 100,
   "sources": [
     {
@@ -70,10 +70,10 @@
     {
       "club": "FC Halifax Town",
       "domain": "fchalifaxtown.com",
-      "feed": "https://fchalifaxtown.com/feed/",
-      "ok": true,
-      "count": 1,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Forest Green Rovers",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=cca17388-b184-4d58-a400-92db543fac73",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=b10679d1-1a7f-4e1f-948f-0dce2e303e55",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,51 @@
     }
   ],
   "items": [
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Portishead fixture replaced with Bishop’s Cleeve",
+      "url": "https://chippenhamtown.com/06/06/portishead-fixture-replaced-with-bishops-cleeve/",
+      "published": "2026-06-06T14:00:50Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "CLUB STATEMENT: ROBERT SMETHURST",
+      "url": "https://macclesfieldfc.com/latest-news/club-statement-robert-smethurst/",
+      "published": "2026-06-06T13:34:12Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Darren Way Signs New Contract At Plainmoor",
+      "url": "https://torquayunited.com/darren-way-signs-new-contract-at-plainmoor/",
+      "published": "2026-06-06T13:14:01Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "2025/26 SEASON QUIZ",
+      "url": "https://macclesfieldfc.com/latest-news/2025-26-season-quiz/",
+      "published": "2026-06-06T13:00:35Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Welcome to Chester FC, Kofi Moore!",
+      "url": "https://chesterfc.com/06/06/welcome-to-chester-fc-kofi-moore/",
+      "published": "2026-06-06T13:00:29Z"
+    },
     {
       "club": "Bath City",
       "code": "BAT",
@@ -778,6 +823,15 @@
       "title": "Eddy Jones Signs New Deal",
       "url": "https://altrinchamfc.com/blogs/news/eddy-jones-signs-new-deal",
       "published": "2026-06-05T16:49:44Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Work Begins on New Showcase Playing Surface at the Fusion Aviation Community Stadium",
+      "url": "https://www.horshamfc.co.uk/2026/06/05/work-begins-on-new-showcase-playing-surface-at-the-fusion-aviation-community-stadium/",
+      "published": "2026-06-05T16:40:09Z"
     },
     {
       "club": "Maidstone United",
@@ -1311,6 +1365,15 @@
       "published": "2026-06-04T14:00:00Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Pre-Season fixture update",
+      "url": "https://www.horshamfc.co.uk/2026/06/04/pre-season-fixture-update/",
+      "published": "2026-06-04T13:05:06Z"
+    },
+    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -1327,15 +1390,6 @@
       "title": "SILKMEN NAMED AS NORTH CHESHIRE BUSINESS AWARDS AMBASSADOR OF THE YEAR FINALIST",
       "url": "https://macclesfieldfc.com/latest-news/silkmen-named-as-north-cheshire-business-awards-ambassador-of-the-year-finalist/",
       "published": "2026-06-04T12:22:27Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "PLATINUM MEMBERSHIPS AVAILABLE FOR 2026/27",
-      "url": "https://macclesfieldfc.com/latest-news/platinum-memberships-available-for-2026-27/",
-      "published": "2026-06-04T12:00:40Z"
     },
     {
       "club": "Chester",
@@ -1356,13 +1410,13 @@
       "published": "2026-06-04T11:43:28Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "2026 FIFA WORLD CUP LIVE IN BAR TWENTY SEVEN",
-      "url": "https://macclesfieldfc.com/latest-news/2026-fifa-world-cup-live-in-bar-twenty-seven/",
-      "published": "2026-06-04T11:00:35Z"
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "HORSHAM WITHOUT THE SHAM",
+      "url": "https://www.horshamfc.co.uk/2026/06/04/horsham-without-the-sham/",
+      "published": "2026-06-04T11:30:39Z"
     },
     {
       "club": "Chelmsford City",
@@ -1426,60 +1480,6 @@
       "title": "SINGING SECTION SEASON TICKETS ON SALE",
       "url": "https://www.carlisleunited.co.uk/news/singing-section-season-tickets-sale",
       "published": "2026-06-03T19:02:13Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Player News – Harvey Wiles-Richards stays local with another season at City",
-      "url": "https://www.bathcityfc.com/player-news-harvey-wiles-richards-stays-local-with-another-season-at-city/",
-      "published": "2026-06-03T19:00:59Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Women’s Football Pyramid club allocations confirmed",
-      "url": "https://farnboroughfc.co.uk/2026/06/womens-football-pyramid-club-allocations-confirmed/",
-      "published": "2026-06-03T18:00:17Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Get To Know Our New Signings",
-      "url": "https://curzon-ashton.co.uk/get-to-know-our-new-signings/",
-      "published": "2026-06-03T17:00:24Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Liam Vincent is a Dagger",
-      "url": "https://daggers.co.uk/liam-vincent-is-a-dagger/",
-      "published": "2026-06-03T17:00:00Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Plainmoor Is Open To All!",
-      "url": "https://torquayunited.com/plainmoor-is-open-to-all/",
-      "published": "2026-06-03T16:50:02Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Jones & Tomlin Extend 1886 Lounge Partnership",
-      "url": "https://worthingfc.com/2026/06/jones-tomlin-extend-1886-lounge-partnership/",
-      "published": "2026-06-03T16:45:10Z"
     }
   ]
 }
