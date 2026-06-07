@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-07T11:00:13Z",
+  "generatedAt": "2026-06-07T12:53:12Z",
   "maxItems": 100,
   "sources": [
     {
@@ -70,10 +70,10 @@
     {
       "club": "FC Halifax Town",
       "domain": "fchalifaxtown.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "feed": "https://fchalifaxtown.com/feed/",
+      "ok": true,
+      "count": 1,
+      "error": ""
     },
     {
       "club": "Forest Green Rovers",
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -118,10 +118,10 @@
     {
       "club": "Scunthorpe United",
       "domain": "scunthorpe-united.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://www.scunthorpe-united.co.uk/feed/",
+      "ok": true,
+      "count": 4,
+      "error": ""
     },
     {
       "club": "Solihull Moors",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=8e43a2ba-c416-4f82-a5f0-d6c05272937d",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=1d5b8b7f-408e-4c7d-855d-f40eed9a8ec4",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://harriers.co.uk/feed/",
+      "ok": true,
+      "count": 20,
+      "error": ""
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -430,18 +430,18 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://dwfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Dover Athletic",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "World Cup Connections: Canada",
+      "url": "https://southendunited.co.uk/news/2026/june/07/world-cup-connections--canada/",
+      "published": "2026-06-07T11:26:39Z"
+    },
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "MARINE CELEBRATE NATIONAL VOLUNTEERS’ WEEK",
+      "url": "https://marinefc.com/marine-celebrate-national-volunteers-week/",
+      "published": "2026-06-07T11:00:00Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -669,15 +687,6 @@
       "domain": "morecambefc.com",
       "title": "FIRST INTERVIEW | TAELOR O'KANE",
       "url": "https://www.morecambefc.com/news/2026/june/06/first-interview---taelor-o-kane/",
-      "published": "2026-06-06T17:00:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Noah Coppin is a Dagger",
-      "url": "https://daggers.co.uk/noah-coppin-is-a-dagger/",
       "published": "2026-06-06T17:00:00Z"
     },
     {
@@ -1023,6 +1032,15 @@
       "published": "2026-06-05T15:00:43Z"
     },
     {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Oli Ewing leaves the Iron for undisclosed fee",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/oli-ewing-leaves-the-iron-for-undisclosed-fee/",
+      "published": "2026-06-05T15:00:00Z"
+    },
+    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1104,6 +1122,15 @@
       "published": "2026-06-05T12:49:53Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Brogan boosts midfield",
+      "url": "https://harriers.co.uk/news/2026/06/05/brogan-boosts-midfield/",
+      "published": "2026-06-05T12:36:45Z"
+    },
+    {
       "club": "Morecambe",
       "code": "MOR",
       "short": "Morecambe",
@@ -1174,6 +1201,15 @@
       "title": "25% OFF EVERYTHING THIS WEEKEND IN BAR TWENTY SEVEN",
       "url": "https://macclesfieldfc.com/latest-news/25-off-everything-this-weekend-in-bar-twenty-seven/",
       "published": "2026-06-05T09:00:24Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "PRE-SEASON | Gateshead to face Spennymoor Town (A) in 2026/27 pre-season",
+      "url": "https://gateshead-fc.com/pre-season-gateshead-to-face-spennymoor-town-a-in-2026-27-pre-season/",
+      "published": "2026-06-05T09:00:09Z"
     },
     {
       "club": "Morecambe",
@@ -1302,15 +1338,6 @@
       "published": "2026-06-04T17:00:07Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Jet Dyer is a Dagger",
-      "url": "https://daggers.co.uk/jet-dyer-is-a-dagger/",
-      "published": "2026-06-04T17:00:00Z"
-    },
-    {
       "club": "Radcliffe",
       "code": "RAD",
       "short": "Radcliffe",
@@ -1383,6 +1410,15 @@
       "published": "2026-06-04T15:41:02Z"
     },
     {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Gateshead to face Blyth Town (A) in 2026/27 pre-season",
+      "url": "https://gateshead-fc.com/gateshead-to-face-blyth-town-a-in-2026-27-pre-season/",
+      "published": "2026-06-04T15:40:31Z"
+    },
+    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1428,6 +1464,15 @@
       "published": "2026-06-04T14:29:32Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Dolan relishes National League chance",
+      "url": "https://harriers.co.uk/news/2026/06/04/dolan-relishes-national-league-chance/",
+      "published": "2026-06-04T14:15:15Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1435,51 +1480,6 @@
       "title": "PRE-SEASON MATCH HOSPITALITY PACKAGES",
       "url": "https://macclesfieldfc.com/latest-news/pre-season-match-hospitality-packages/",
       "published": "2026-06-04T14:00:45Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Partnership | Quorn",
-      "url": "https://www.fgr.co.uk/news/partnership-quorn-26/",
-      "published": "2026-06-04T14:00:00Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Pre-Season fixture update",
-      "url": "https://www.horshamfc.co.uk/2026/06/04/pre-season-fixture-update/",
-      "published": "2026-06-04T13:05:06Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Three 2026/27 Pre-Season Fixtures Confirmed!",
-      "url": "https://eastleighfc.com/2026/06/three-2026-27-pre-season-fixtures-confirmed/",
-      "published": "2026-06-04T12:58:42Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "A heartfelt thank you to our Volunteers",
-      "url": "https://chesterfc.com/06/04/a-heartfelt-thanks-to-our-volunteers/",
-      "published": "2026-06-04T12:00:24Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Don’t Lose Your Seat!",
-      "url": "https://torquayunited.com/dont-lose-your-seat/",
-      "published": "2026-06-04T11:43:28Z"
     }
   ]
 }
