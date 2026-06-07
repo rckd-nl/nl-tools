@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-07T19:48:47Z",
+  "generatedAt": "2026-06-07T21:39:14Z",
   "maxItems": 100,
   "sources": [
     {
@@ -70,10 +70,10 @@
     {
       "club": "FC Halifax Town",
       "domain": "fchalifaxtown.com",
-      "feed": "https://fchalifaxtown.com/feed/",
-      "ok": true,
-      "count": 1,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Forest Green Rovers",
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -118,10 +118,10 @@
     {
       "club": "Scunthorpe United",
       "domain": "scunthorpe-united.co.uk",
-      "feed": "https://www.scunthorpe-united.co.uk/feed/",
-      "ok": true,
-      "count": 4,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Solihull Moors",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=a83f7abc-6324-4a1c-9f04-817edd161c01",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=5c83c437-13ad-45cd-8aee-f3e3b4509cc7",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -430,18 +430,18 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "https://dwfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Dover Athletic",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "KEY DATES CONFIRMED FOR THE 2026/27 CAMPAIGN",
+      "url": "https://www.carlisleunited.co.uk/news/key-dates-confirmed-202627-campaign",
+      "published": "2026-06-07T21:20:00Z"
+    },
     {
       "club": "Southend United",
       "code": "SOU",
@@ -723,15 +732,6 @@
       "domain": "morecambefc.com",
       "title": "FIRST INTERVIEW | TAELOR O'KANE",
       "url": "https://www.morecambefc.com/news/2026/june/06/first-interview---taelor-o-kane/",
-      "published": "2026-06-06T17:00:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Noah Coppin is a Dagger",
-      "url": "https://daggers.co.uk/noah-coppin-is-a-dagger/",
       "published": "2026-06-06T17:00:00Z"
     },
     {
@@ -1077,15 +1077,6 @@
       "published": "2026-06-05T15:00:43Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Oli Ewing leaves the Iron for undisclosed fee",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/oli-ewing-leaves-the-iron-for-undisclosed-fee/",
-      "published": "2026-06-05T15:00:00Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1167,15 +1158,6 @@
       "published": "2026-06-05T12:49:53Z"
     },
     {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Brogan boosts midfield",
-      "url": "https://harriers.co.uk/news/2026/06/05/brogan-boosts-midfield/",
-      "published": "2026-06-05T12:36:45Z"
-    },
-    {
       "club": "Morecambe",
       "code": "MOR",
       "short": "Morecambe",
@@ -1246,15 +1228,6 @@
       "title": "25% OFF EVERYTHING THIS WEEKEND IN BAR TWENTY SEVEN",
       "url": "https://macclesfieldfc.com/latest-news/25-off-everything-this-weekend-in-bar-twenty-seven/",
       "published": "2026-06-05T09:00:24Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "PRE-SEASON | Gateshead to face Spennymoor Town (A) in 2026/27 pre-season",
-      "url": "https://gateshead-fc.com/pre-season-gateshead-to-face-spennymoor-town-a-in-2026-27-pre-season/",
-      "published": "2026-06-05T09:00:09Z"
     },
     {
       "club": "Morecambe",
@@ -1383,15 +1356,6 @@
       "published": "2026-06-04T17:00:07Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Jet Dyer is a Dagger",
-      "url": "https://daggers.co.uk/jet-dyer-is-a-dagger/",
-      "published": "2026-06-04T17:00:00Z"
-    },
-    {
       "club": "Radcliffe",
       "code": "RAD",
       "short": "Radcliffe",
@@ -1464,15 +1428,6 @@
       "published": "2026-06-04T15:41:02Z"
     },
     {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Gateshead to face Blyth Town (A) in 2026/27 pre-season",
-      "url": "https://gateshead-fc.com/gateshead-to-face-blyth-town-a-in-2026-27-pre-season/",
-      "published": "2026-06-04T15:40:31Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1480,6 +1435,51 @@
       "title": "Glovers to Face Wycombe Wanderers in Behind Closed Doors Friendly",
       "url": "https://ytfc.net/2026/06/glovers-to-face-wycombe-wanderers-in-behind-closed-doors-friendly/",
       "published": "2026-06-04T15:30:45Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "NEWS | Shrewsbury Clash Finalises Friendly Schedule",
+      "url": "https://herefordfc.co.uk/2026/06/news-shrewsbury-clash-finalises-friendly-schedule/",
+      "published": "2026-06-04T15:00:49Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "LIVE SPORT IN BAR TWENTY SEVEN",
+      "url": "https://macclesfieldfc.com/latest-news/live-sport-in-bar-twenty-seven/",
+      "published": "2026-06-04T15:00:48Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Pre-Season: Tangerines Test",
+      "url": "https://farnboroughfc.co.uk/2026/06/pre-season-tangerines-test/",
+      "published": "2026-06-04T15:00:43Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Tyler Hill Signs For TUFC",
+      "url": "https://torquayunited.com/tyler-hill-signs-for-tufc/",
+      "published": "2026-06-04T14:29:32Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Partnership | Quorn",
+      "url": "https://www.fgr.co.uk/news/partnership-quorn-26/",
+      "published": "2026-06-04T14:00:00Z"
     }
   ]
 }
