@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-07T08:33:08Z",
+  "generatedAt": "2026-06-07T11:00:13Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -118,10 +118,10 @@
     {
       "club": "Scunthorpe United",
       "domain": "scunthorpe-united.co.uk",
-      "feed": "https://www.scunthorpe-united.co.uk/feed/",
-      "ok": true,
-      "count": 4,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Solihull Moors",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=1ae82e0a-2600-4100-a8d3-22cfac92df22",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=8e43a2ba-c416-4f82-a5f0-d6c05272937d",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -430,18 +430,18 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "https://dwfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Dover Athletic",
@@ -582,6 +582,42 @@
   ],
   "items": [
     {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Draw Prize Delights Chris",
+      "url": "https://torquayunited.com/draw-prize-delights-chris/",
+      "published": "2026-06-07T11:00:00Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Plainmoor Pitch Renovations 2026",
+      "url": "https://torquayunited.com/plainmoor-pitch-work-begins-2/",
+      "published": "2026-06-07T10:11:50Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "JOIN US FOR ONE OF OUR MOUTH-WATERING SUNDAY ROASTS THIS AFTERNOON",
+      "url": "https://macclesfieldfc.com/latest-news/join-us-for-one-of-our-mouth-watering-sunday-roasts-this-afternoon/",
+      "published": "2026-06-07T09:00:03Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Perfect Getaways continue support as our Official Holiday Provider!",
+      "url": "https://chesterfc.com/06/07/perfect-getaways-continue-support-as-our-official-holiday-provider/",
+      "published": "2026-06-07T08:59:09Z"
+    },
+    {
       "club": "Horsham",
       "code": "HRS",
       "short": "Horsham",
@@ -633,6 +669,15 @@
       "domain": "morecambefc.com",
       "title": "FIRST INTERVIEW | TAELOR O'KANE",
       "url": "https://www.morecambefc.com/news/2026/june/06/first-interview---taelor-o-kane/",
+      "published": "2026-06-06T17:00:00Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Noah Coppin is a Dagger",
+      "url": "https://daggers.co.uk/noah-coppin-is-a-dagger/",
       "published": "2026-06-06T17:00:00Z"
     },
     {
@@ -978,15 +1023,6 @@
       "published": "2026-06-05T15:00:43Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Oli Ewing leaves the Iron for undisclosed fee",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/oli-ewing-leaves-the-iron-for-undisclosed-fee/",
-      "published": "2026-06-05T15:00:00Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1068,15 +1104,6 @@
       "published": "2026-06-05T12:49:53Z"
     },
     {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Brogan boosts midfield",
-      "url": "https://harriers.co.uk/news/2026/06/05/brogan-boosts-midfield/",
-      "published": "2026-06-05T12:36:45Z"
-    },
-    {
       "club": "Morecambe",
       "code": "MOR",
       "short": "Morecambe",
@@ -1147,15 +1174,6 @@
       "title": "25% OFF EVERYTHING THIS WEEKEND IN BAR TWENTY SEVEN",
       "url": "https://macclesfieldfc.com/latest-news/25-off-everything-this-weekend-in-bar-twenty-seven/",
       "published": "2026-06-05T09:00:24Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "PRE-SEASON | Gateshead to face Spennymoor Town (A) in 2026/27 pre-season",
-      "url": "https://gateshead-fc.com/pre-season-gateshead-to-face-spennymoor-town-a-in-2026-27-pre-season/",
-      "published": "2026-06-05T09:00:09Z"
     },
     {
       "club": "Morecambe",
@@ -1284,6 +1302,15 @@
       "published": "2026-06-04T17:00:07Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Jet Dyer is a Dagger",
+      "url": "https://daggers.co.uk/jet-dyer-is-a-dagger/",
+      "published": "2026-06-04T17:00:00Z"
+    },
+    {
       "club": "Radcliffe",
       "code": "RAD",
       "short": "Radcliffe",
@@ -1356,15 +1383,6 @@
       "published": "2026-06-04T15:41:02Z"
     },
     {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Gateshead to face Blyth Town (A) in 2026/27 pre-season",
-      "url": "https://gateshead-fc.com/gateshead-to-face-blyth-town-a-in-2026-27-pre-season/",
-      "published": "2026-06-04T15:40:31Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1410,15 +1428,6 @@
       "published": "2026-06-04T14:29:32Z"
     },
     {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Dolan relishes National League chance",
-      "url": "https://harriers.co.uk/news/2026/06/04/dolan-relishes-national-league-chance/",
-      "published": "2026-06-04T14:15:15Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1453,15 +1462,6 @@
       "title": "Three 2026/27 Pre-Season Fixtures Confirmed!",
       "url": "https://eastleighfc.com/2026/06/three-2026-27-pre-season-fixtures-confirmed/",
       "published": "2026-06-04T12:58:42Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SILKMEN NAMED AS NORTH CHESHIRE BUSINESS AWARDS AMBASSADOR OF THE YEAR FINALIST",
-      "url": "https://macclesfieldfc.com/latest-news/silkmen-named-as-north-cheshire-business-awards-ambassador-of-the-year-finalist/",
-      "published": "2026-06-04T12:22:27Z"
     },
     {
       "club": "Chester",
