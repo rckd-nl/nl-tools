@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-07T16:46:29Z",
+  "generatedAt": "2026-06-07T17:56:37Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -118,10 +118,10 @@
     {
       "club": "Scunthorpe United",
       "domain": "scunthorpe-united.co.uk",
-      "feed": "https://www.scunthorpe-united.co.uk/feed/",
-      "ok": true,
-      "count": 4,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Solihull Moors",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=e38e2d13-73e7-4b35-907c-eea4dc0ec75d",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=06c2446e-9fcd-472d-a4e4-f0d85bd90758",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -430,18 +430,18 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "https://dwfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Dover Athletic",
@@ -705,6 +705,15 @@
       "domain": "morecambefc.com",
       "title": "FIRST INTERVIEW | TAELOR O'KANE",
       "url": "https://www.morecambefc.com/news/2026/june/06/first-interview---taelor-o-kane/",
+      "published": "2026-06-06T17:00:00Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Noah Coppin is a Dagger",
+      "url": "https://daggers.co.uk/noah-coppin-is-a-dagger/",
       "published": "2026-06-06T17:00:00Z"
     },
     {
@@ -1050,15 +1059,6 @@
       "published": "2026-06-05T15:00:43Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Oli Ewing leaves the Iron for undisclosed fee",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/oli-ewing-leaves-the-iron-for-undisclosed-fee/",
-      "published": "2026-06-05T15:00:00Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1140,15 +1140,6 @@
       "published": "2026-06-05T12:49:53Z"
     },
     {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Brogan boosts midfield",
-      "url": "https://harriers.co.uk/news/2026/06/05/brogan-boosts-midfield/",
-      "published": "2026-06-05T12:36:45Z"
-    },
-    {
       "club": "Morecambe",
       "code": "MOR",
       "short": "Morecambe",
@@ -1219,15 +1210,6 @@
       "title": "25% OFF EVERYTHING THIS WEEKEND IN BAR TWENTY SEVEN",
       "url": "https://macclesfieldfc.com/latest-news/25-off-everything-this-weekend-in-bar-twenty-seven/",
       "published": "2026-06-05T09:00:24Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "PRE-SEASON | Gateshead to face Spennymoor Town (A) in 2026/27 pre-season",
-      "url": "https://gateshead-fc.com/pre-season-gateshead-to-face-spennymoor-town-a-in-2026-27-pre-season/",
-      "published": "2026-06-05T09:00:09Z"
     },
     {
       "club": "Morecambe",
@@ -1356,6 +1338,15 @@
       "published": "2026-06-04T17:00:07Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Jet Dyer is a Dagger",
+      "url": "https://daggers.co.uk/jet-dyer-is-a-dagger/",
+      "published": "2026-06-04T17:00:00Z"
+    },
+    {
       "club": "Radcliffe",
       "code": "RAD",
       "short": "Radcliffe",
@@ -1428,15 +1419,6 @@
       "published": "2026-06-04T15:41:02Z"
     },
     {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Gateshead to face Blyth Town (A) in 2026/27 pre-season",
-      "url": "https://gateshead-fc.com/gateshead-to-face-blyth-town-a-in-2026-27-pre-season/",
-      "published": "2026-06-04T15:40:31Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1480,6 +1462,24 @@
       "title": "Tyler Hill Signs For TUFC",
       "url": "https://torquayunited.com/tyler-hill-signs-for-tufc/",
       "published": "2026-06-04T14:29:32Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Partnership | Quorn",
+      "url": "https://www.fgr.co.uk/news/partnership-quorn-26/",
+      "published": "2026-06-04T14:00:00Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Pre-Season fixture update",
+      "url": "https://www.horshamfc.co.uk/2026/06/04/pre-season-fixture-update/",
+      "published": "2026-06-04T13:05:06Z"
     }
   ]
 }
