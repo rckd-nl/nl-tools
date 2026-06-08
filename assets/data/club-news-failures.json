@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-08T05:22:34Z",
+  "generatedAt": "2026-06-08T10:12:10Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -35,12 +35,20 @@
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
     },
     {
-      "club": "Forest Green Rovers",
-      "domain": "fgr.co.uk",
+      "club": "FC Halifax Town",
+      "domain": "fchalifaxtown.com",
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "HTTP 403"
+    },
+    {
+      "club": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Solihull Moors",
@@ -101,7 +109,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=fb1f5632-29b3-48ae-88e0-605c93349b49",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=bed89759-4544-4f2e-b134-36037aaa7c8a",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -129,6 +137,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Marine",
+      "domain": "marinefc.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Merthyr Town",
@@ -219,12 +235,20 @@
       "error": "HTTP 404"
     },
     {
+      "club": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
+    },
+    {
       "club": "Maidenhead United",
       "domain": "maidenheadunitedfc.org",
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Slough Town",
