@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-09T12:55:29Z",
+  "generatedAt": "2026-06-09T16:16:11Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3761,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=354be548-8252-4392-a3da-87a290a90690",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=c1d9e3c5-254a-40b7-9dc1-c8f7797a1976",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,105 @@
   ],
   "items": [
     {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "First words: Nolan on Pools project",
+      "url": "https://www.hartlepoolunited.co.uk/first-words-nolan-on-pools-project/",
+      "published": "2026-06-09T16:05:53Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Stephen Walker Joins Yeovil Town on Two-Year Deal",
+      "url": "https://ytfc.net/2026/06/stephen-walker-joins-yeovil-town-on-two-year-deal/",
+      "published": "2026-06-09T16:00:49Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Club Statement – Player Movements",
+      "url": "https://chippenhamtown.com/06/09/club-statement-player-movements/",
+      "published": "2026-06-09T16:00:46Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "BEST OF FAN CAM IN OCTOBER",
+      "url": "https://macclesfieldfc.com/galleries/best-of-fan-cam-in-october/",
+      "published": "2026-06-09T16:00:41Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Pools land highly-rated forward Jack Nolan",
+      "url": "https://www.hartlepoolunited.co.uk/pools-land-highly-rated-forward-jack-nolan/",
+      "published": "2026-06-09T15:58:37Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Dale Appoint Ian Watson As Head Coach",
+      "url": "https://rochdaleafc.co.uk/dale-appoint-ian-watson-as-head-coach/",
+      "published": "2026-06-09T15:58:11Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Welcome back Jack Bridge!",
+      "url": "https://chelmsfordcityfc.com/news/welcome-back-jack-bridge/",
+      "published": "2026-06-09T15:53:00Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Jack Bridge To Depart Southend",
+      "url": "https://southendunited.co.uk/news/2026/june/09/jack-bridge-to-depart-southend/",
+      "published": "2026-06-09T15:45:00Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "York City FC Women Announce Titan Wealth As New Front-Of-Shirt Sponsor",
+      "url": "https://yorkcityfootballclub.co.uk/york-city-fc-women-announce-titan-wealth-as-new-front-of-shirt-sponsor/",
+      "published": "2026-06-09T14:29:32Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "HORNETS’ FAIR PLAY RECOGNISED AT NATIONAL LEAGUE AGM",
+      "url": "https://www.horshamfc.co.uk/2026/06/09/hornets-fair-play-recognised-at-national-league-agm/",
+      "published": "2026-06-09T13:05:29Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "ROOM HIRE – BAR TWENTY SEVEN",
+      "url": "https://macclesfieldfc.com/latest-news/room-hire-bar-twenty-seven/",
+      "published": "2026-06-09T13:00:13Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -604,7 +703,16 @@
       "code": "SOU",
       "short": "Southend",
       "domain": "southendunited.co.uk",
-      "title": "Press: Kieron Dyer's First Interview",
+      "title": "Press: Oliver Gage First Interview",
+      "url": "https://southendunited.co.uk/news/2026/june/09/press--oliver-gage-first-interview/",
+      "published": "2026-06-09T12:33:18Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Press: Kieron Dyer First Interview",
       "url": "https://southendunited.co.uk/news/2026/june/09/press-/",
       "published": "2026-06-09T12:24:08Z"
     },
@@ -715,6 +823,15 @@
       "title": "Charity football match in support of Five Acre Wood School",
       "url": "https://maidstoneunited.co.uk/06/09/charity-football-match-in-support-of-five-acre-wood-school/",
       "published": "2026-06-09T07:00:09Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Key Dates Confirmed for the 2026/27 National League South Season",
+      "url": "https://daggers.co.uk/key-dates-confirmed-for-the-2026-27-national-league-south-season/",
+      "published": "2026-06-09T00:08:53Z"
     },
     {
       "club": "Morecambe",
@@ -958,6 +1075,15 @@
       "title": "NEWS | Key Dates Decided For 2026/27 Campaign",
       "url": "https://herefordfc.co.uk/2026/06/news-key-dates-decided-for-2026-27-campaign/",
       "published": "2026-06-08T12:00:56Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "26/27 Season Tickets On General Sale",
+      "url": "https://www.fgr.co.uk/news/2627-season-ticket-general-sale/",
+      "published": "2026-06-08T12:00:00Z"
     },
     {
       "club": "Kidderminster Harriers",
@@ -1329,6 +1455,15 @@
       "published": "2026-06-06T19:10:00Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "First Word | Oli Ewing",
+      "url": "https://www.fgr.co.uk/news/first-word-oli-ewing/",
+      "published": "2026-06-06T18:30:00Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1345,141 +1480,6 @@
       "title": "FIRST INTERVIEW | TAELOR O'KANE",
       "url": "https://www.morecambefc.com/news/2026/june/06/first-interview---taelor-o-kane/",
       "published": "2026-06-06T17:00:00Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "DOM BERNARD ON JOINING TUFC",
-      "url": "https://torquayunited.com/dom-bernard-on-joining-tufc/",
-      "published": "2026-06-06T15:12:00Z"
-    },
-    {
-      "club": "Morecambe",
-      "code": "MOR",
-      "short": "Morecambe",
-      "domain": "morecambefc.com",
-      "title": "JACK NOLAN DEPARTS MORECAMBE FOOTBALL CLUB",
-      "url": "https://www.morecambefc.com/news/2026/june/06/jack-nolan-departs-morecambe-football-club/",
-      "published": "2026-06-06T15:05:00Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Watch England’s World Cup Campaign in the Blues Bar!",
-      "url": "https://chesterfc.com/06/06/worldcup2026/",
-      "published": "2026-06-06T14:59:12Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Portishead fixture replaced with Bishop’s Cleeve",
-      "url": "https://chippenhamtown.com/06/06/portishead-fixture-replaced-with-bishops-cleeve/",
-      "published": "2026-06-06T14:00:50Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "CLUB STATEMENT: ROBERT SMETHURST",
-      "url": "https://macclesfieldfc.com/latest-news/club-statement-robert-smethurst/",
-      "published": "2026-06-06T13:34:12Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Darren Way Signs New Contract At Plainmoor",
-      "url": "https://torquayunited.com/darren-way-signs-new-contract-at-plainmoor/",
-      "published": "2026-06-06T13:14:01Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "2025/26 SEASON QUIZ",
-      "url": "https://macclesfieldfc.com/latest-news/2025-26-season-quiz/",
-      "published": "2026-06-06T13:00:35Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Welcome to Chester FC, Kofi Moore!",
-      "url": "https://chesterfc.com/06/06/welcome-to-chester-fc-kofi-moore/",
-      "published": "2026-06-06T13:00:29Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Player News – Matt Bowman latest to sign for 26/27 season",
-      "url": "https://www.bathcityfc.com/player-news-matt-bowman-latest-to-sign-for-26-27-season/",
-      "published": "2026-06-06T12:00:39Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Reece Fleet departs CTFC",
-      "url": "https://chippenhamtown.com/06/06/reece-fleet-departs-ctfc/",
-      "published": "2026-06-06T12:00:35Z"
-    },
-    {
-      "club": "Morecambe",
-      "code": "MOR",
-      "short": "Morecambe",
-      "domain": "morecambefc.com",
-      "title": "TAELOR O'KANE JOINS THE SHRIMPS",
-      "url": "https://www.morecambefc.com/news/2026/june/06/taelor-o-kane-joins-the-shrimps/",
-      "published": "2026-06-06T11:30:00Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Cav Miley Welcome Interview!",
-      "url": "https://chelmsfordcityfc.com/news/cav-miley-welcome-interview/",
-      "published": "2026-06-06T11:07:56Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "WORLD GROUP CONTINUE TO SUPPORT UNITED IN MEMORIES",
-      "url": "https://www.carlisleunited.co.uk/news/world-group-continue-support-united-memories",
-      "published": "2026-06-06T10:55:00Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Women’s End of Season Awards 2025/26",
-      "url": "https://farnboroughfc.co.uk/2026/06/womens-end-of-season-awards-2025-26/",
-      "published": "2026-06-06T10:00:14Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "2026/27 PRE-SEASON FIXTURE UPDATE",
-      "url": "https://www.carlisleunited.co.uk/news/202627-pre-season-fixture-update",
-      "published": "2026-06-06T09:00:41Z"
     }
   ]
 }
