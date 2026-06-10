@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-10T06:44:55Z",
+  "generatedAt": "2026-06-10T10:56:09Z",
   "maxItems": 100,
   "sources": [
     {
@@ -70,18 +70,18 @@
     {
       "club": "FC Halifax Town",
       "domain": "fchalifaxtown.com",
-      "feed": "https://fchalifaxtown.com/feed/",
-      "ok": true,
-      "count": 1,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3761,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -169,7 +169,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Woking",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=68658a25-8557-47d7-b764-7ed84a9e3ddd",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=29c525b9-768f-44b2-8487-bd1ff6be0c1c",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -318,10 +318,10 @@
     {
       "club": "Merthyr Town",
       "domain": "merthyrtownfc.co.uk",
-      "feed": "https://www.merthyrtownfc.co.uk/news/feed",
+      "feed": "",
       "ok": false,
       "count": 0,
-      "error": "Feed returned 0 usable items"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Oxford City",
@@ -361,7 +361,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ReadTimeout: HTTPSConnectionPool(host='southshieldsfc.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Southport",
@@ -497,7 +497,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Hornchurch",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,87 @@
     }
   ],
   "items": [
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Seb re-signs",
+      "url": "https://harriers.co.uk/news/2026/06/10/seb-re-signs/",
+      "published": "2026-06-10T10:42:14Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "New Opposition: Kidderminster Harriers",
+      "url": "https://ytfc.net/2026/06/new-opposition-kidderminster-harriers/",
+      "published": "2026-06-10T10:41:44Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Bishop pens new deal",
+      "url": "https://harriers.co.uk/news/2026/06/10/bishop-pens-new-deal/",
+      "published": "2026-06-10T10:28:11Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Yeovil Town Extend Hodders Roofing Partnership on New Three-Year Deal",
+      "url": "https://ytfc.net/2026/06/yeovil-town-extend-hodders-roofing-partnership-on-new-three-year-deal/",
+      "published": "2026-06-10T10:14:23Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Academy Pathway Continues To Deliver As Young Professionals Commit Their Futures",
+      "url": "https://altrinchamfc.com/blogs/news/academy-pathway-continues-to-deliver-as-young-professionals-commit-their-futures",
+      "published": "2026-06-10T10:07:59Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Blues To Host Leyton Orient In Pre-Season",
+      "url": "https://southendunited.co.uk/news/2026/june/10/blues-to-host-leyton-orient-in-pre-season/",
+      "published": "2026-06-10T09:57:00Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Promotion Confirmed For Under-23 Side",
+      "url": "https://spennymoortownfc.co.uk/2026/06/10/promotion-confirmed-for-under-23-side/",
+      "published": "2026-06-10T08:36:14Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Rob Lee joins as Director of Football",
+      "url": "https://hornchurchfc.com/rob-lee-joins-as-director-of-football/",
+      "published": "2026-06-10T07:30:53Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Update on the summer works at Cannon Clarke Stadium @ Twerton Park",
+      "url": "https://www.bathcityfc.com/update-on-the-summer-works-at-cannon-clarke-stadium-twerton-park/",
+      "published": "2026-06-10T07:29:58Z"
+    },
     {
       "club": "Enfield Town",
       "code": "ENF",
@@ -816,6 +897,15 @@
       "published": "2026-06-09T14:29:32Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "HORNETS’ FAIR PLAY RECOGNISED AT NATIONAL LEAGUE AGM",
+      "url": "https://www.horshamfc.co.uk/2026/06/09/hornets-fair-play-recognised-at-national-league-agm/",
+      "published": "2026-06-09T13:05:29Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -829,7 +919,7 @@
       "code": "SOU",
       "short": "Southend",
       "domain": "southendunited.co.uk",
-      "title": "Nudev The New Back Of Shorts Partner For Southend United In 2026/27",
+      "title": "Nudev The New Back Of Shorts Partner In 2026/27",
       "url": "https://southendunited.co.uk/news/2026/june/09/southend-annouce-/",
       "published": "2026-06-09T12:47:23Z"
     },
@@ -1221,15 +1311,6 @@
       "published": "2026-06-08T12:00:56Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "26/27 Season Tickets On General Sale",
-      "url": "https://www.fgr.co.uk/news/2627-season-ticket-general-sale/",
-      "published": "2026-06-08T12:00:00Z"
-    },
-    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -1399,87 +1480,6 @@
       "title": "First three pre-season games confirmed.",
       "url": "https://yorkcityfootballclub.co.uk/first-three-pre-season-games-confirmed/",
       "published": "2026-06-08T08:00:44Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "2026 FIFA WORLD CUP LIVE IN BAR TWENTY SEVEN",
-      "url": "https://macclesfieldfc.com/latest-news/2026-fifa-world-cup-live-in-bar-twenty-seven/",
-      "published": "2026-06-08T08:00:35Z"
-    },
-    {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "Pre-season Friendlies",
-      "url": "https://etfc.london/pre-season-friendlies-2/",
-      "published": "2026-06-08T08:00:23Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Club shop open this Wednesday and Saturday",
-      "url": "https://maidstoneunited.co.uk/06/08/club-shop-open-this-wednesday-and-saturday/",
-      "published": "2026-06-08T07:00:45Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Season Tickets Now On Open Sale",
-      "url": "https://rochdaleafc.co.uk/2026-27-season-tickets-on-sale-monday-150526/",
-      "published": "2026-06-08T06:58:28Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Vacancy | Operations Manager",
-      "url": "https://rochdaleafc.co.uk/vacancy-operations-manager/",
-      "published": "2026-06-08T06:00:23Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "KEY DATES CONFIRMED FOR THE 2026/27 CAMPAIGN",
-      "url": "https://www.carlisleunited.co.uk/news/key-dates-confirmed-202627-campaign",
-      "published": "2026-06-07T21:20:00Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "Golden Letter Draw Results",
-      "url": "https://marinefc.com/golden-letter-draw-results/",
-      "published": "2026-06-07T20:48:00Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Joe Gubbins To Depart Blues",
-      "url": "https://southendunited.co.uk/news/2026/june/07/joe-gubbins-to-depart-blues/",
-      "published": "2026-06-07T18:51:55Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City Lottery – Weekly Winners 05/06/26",
-      "url": "https://trurocity.co.uk/2026/06/truro-city-lottery-weekly-winners-05-06-26/",
-      "published": "2026-06-07T18:39:54Z"
     }
   ]
 }
