@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-10T10:56:09Z",
+  "generatedAt": "2026-06-10T14:06:31Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -80,7 +80,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "HTTP 404"
     },
     {
       "club": "AFC Telford United",
@@ -109,7 +109,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=29c525b9-768f-44b2-8487-bd1ff6be0c1c",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=79705aaa-61d8-4470-9037-3a7c2f993272",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -141,10 +141,10 @@
     {
       "club": "Merthyr Town",
       "domain": "merthyrtownfc.co.uk",
-      "feed": "",
+      "feed": "https://www.merthyrtownfc.co.uk/news/feed",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "Feed returned 0 usable items"
     },
     {
       "club": "Oxford City",
@@ -176,7 +176,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='southshieldsfc.co.uk', port=443): Read timed out. (read timeout=25)"
+      "error": "HTTP 404"
     },
     {
       "club": "Worksop Town",
@@ -224,7 +224,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidenhead United",
