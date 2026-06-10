@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-10T14:06:31Z",
+  "generatedAt": "2026-06-10T17:37:35Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3763,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=79705aaa-61d8-4470-9037-3a7c2f993272",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=3ccee589-fd47-47da-a9ff-9724f02987bd",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,123 @@
   ],
   "items": [
     {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Louis Storey to Depart Gateshead FC",
+      "url": "https://gateshead-fc.com/louis-storey-to-depart-gateshead-fc/",
+      "published": "2026-06-10T17:29:10Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "LOUIS STOREY APPOINTED ASSISTANT HEAD COACH",
+      "url": "https://www.carlisleunited.co.uk/news/louis-storey-appointed-assistant-head-coach",
+      "published": "2026-06-10T17:29:00Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "INTERVIEW | Downes: Fans’ Response “Heart-warming”",
+      "url": "https://herefordfc.co.uk/2026/06/interview-downes-fans-response-heart-warming/",
+      "published": "2026-06-10T17:15:41Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Welcome to Farnborough: Duncan Idehen",
+      "url": "https://farnboroughfc.co.uk/2026/06/welcome-to-farnborough-duncan-idehen/",
+      "published": "2026-06-10T17:00:55Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Ashley Clarke Joins",
+      "url": "https://wokingfc.co.uk/06/10/ashley-clarke-joins/",
+      "published": "2026-06-10T16:59:16Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "TJ Bramble departs Maidstone United",
+      "url": "https://maidstoneunited.co.uk/06/10/tj-bramble-departs-maidstone-united/",
+      "published": "2026-06-10T16:42:49Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "D2 Design & Build Continue Support Of Southend United During 2026/27 Season",
+      "url": "https://southendunited.co.uk/news/2026/june/10/d2-design---build-continue-support/",
+      "published": "2026-06-10T16:04:45Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "First words: Ilunga on club ambitions",
+      "url": "https://www.hartlepoolunited.co.uk/first-words-ilunga-on-club-ambitions/",
+      "published": "2026-06-10T16:03:30Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Archie Davies Joins Yeovil Town on Two-Year Deal",
+      "url": "https://ytfc.net/2026/06/archie-davies-joins-yeovil-town-on-two-year-deal/",
+      "published": "2026-06-10T16:00:17Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Ilunga becomes latest Pools addition",
+      "url": "https://www.hartlepoolunited.co.uk/ilunga-becomes-latest-pools-addition/",
+      "published": "2026-06-10T15:58:23Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Ticket Office Update",
+      "url": "https://www.fgr.co.uk/news/ticket-office-update-2627/",
+      "published": "2026-06-10T15:30:00Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Harvey is the ‘Right’ stuff",
+      "url": "https://tonbridgeangels.co.uk/harvey-is-the-right-stuff/",
+      "published": "2026-06-10T15:00:00Z"
+    },
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Interview: Euan Williams",
+      "url": "https://doverathletic.com/news/interview-euan-williams/",
+      "published": "2026-06-10T14:57:54Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -654,11 +771,20 @@
       "published": "2026-06-10T13:00:22Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Partnership | EESI Group Services",
+      "url": "https://www.fgr.co.uk/news/partnership-eesi-26/",
+      "published": "2026-06-10T13:00:00Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
       "domain": "southendunited.co.uk",
-      "title": "World Cup Kicks Off At Blue Eagle Plus Opportunity To See The FA Trophy",
+      "title": "World Cup Kicks Off At Blue Eagle Plus Opportunity To See FA Trophy",
       "url": "https://southendunited.co.uk/news/2026/june/10/world-cup-kicks-off-at-blue-eagle/",
       "published": "2026-06-10T12:53:31Z"
     },
@@ -1354,132 +1480,6 @@
       "title": "Sponsorship opportunities with MUFC Women",
       "url": "https://maidstoneunited.co.uk/06/08/sponsorship-opportunities-with-mufc-women/",
       "published": "2026-06-08T15:44:17Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Women’s Trials Begin Tomorrow",
-      "url": "https://trurocity.co.uk/2026/06/womens-trials-begin-tomorrow/",
-      "published": "2026-06-08T15:41:16Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Season Ticket Direct Debit | Update",
-      "url": "https://yorkcityfootballclub.co.uk/season-ticket-direct-debit-update/",
-      "published": "2026-06-08T15:23:47Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "CLUB UPDATE | Bernard McWilliams steps down as Gateshead FC chairman",
-      "url": "https://gateshead-fc.com/club-update-bernard-mcwilliams-steps-down-as-gateshead-fc-chairman/",
-      "published": "2026-06-08T15:00:18Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Important Dates: Enterprise National League South 2026/2027",
-      "url": "https://wsmafc.co.uk/important-dates-enterprise-national-league-south-2026-2027/",
-      "published": "2026-06-08T14:55:40Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Become our transfer news club partner",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/become-our-transfer-news-club-partner/",
-      "published": "2026-06-08T14:49:14Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Key Enterprise National League dates confirmed",
-      "url": "https://altrinchamfc.com/blogs/news/key-enterprise-national-league-dates-confirmed",
-      "published": "2026-06-08T14:44:41Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Vacancy: Stadium Cleaner",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/vacancy-stadium-cleaner/",
-      "published": "2026-06-08T14:23:46Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "INSPIRA NAMED BUSINESS PARTNER",
-      "url": "https://www.carlisleunited.co.uk/news/inspira-named-business-partner",
-      "published": "2026-06-08T14:15:00Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Kieron Dyer Appointed Head Coach",
-      "url": "https://southendunited.co.uk/news/2026/june/08/kieron-dyer-appointed-head-coach/",
-      "published": "2026-06-08T14:03:00Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "York City FC Announces Integration of York City Women’s FC and Launches Search for First Full-Time Head Coach",
-      "url": "https://yorkcityfootballclub.co.uk/york-city-fc-announces-integration-of-york-city-womens-fc-and-launches-search-for-first-full-time-head-coach/",
-      "published": "2026-06-08T13:58:21Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Dale To Visit FC United In Pre-Season Opener",
-      "url": "https://rochdaleafc.co.uk/dale-to-visit-fc-united-in-pre-season-opener/",
-      "published": "2026-06-08T13:57:27Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Make a date with the FA",
-      "url": "https://maidstoneunited.co.uk/06/08/make-a-date-with-the-fa-2/",
-      "published": "2026-06-08T13:55:18Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Key Dates 2026/27",
-      "url": "https://gateshead-fc.com/key-dates-2026-27/",
-      "published": "2026-06-08T13:00:56Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Key dates confirmed for 2026/27 season",
-      "url": "https://farnboroughfc.co.uk/2026/06/key-dates-confirmed-for-2026-27-season/",
-      "published": "2026-06-08T13:00:52Z"
     }
   ]
 }
