@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-10T02:02:42Z",
+  "generatedAt": "2026-06-10T06:44:55Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=f02b7f33-5b2a-49e0-89b3-7b974db3da9b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=68658a25-8557-47d7-b764-7ed84a9e3ddd",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "pitchero:/news (scrape)",
-      "ok": false,
-      "count": 0,
-      "error": "Pitchero scrape returned 0 usable items"
+      "feed": "https://harriers.co.uk/feed/",
+      "ok": true,
+      "count": 20,
+      "error": ""
     },
     {
       "club": "King's Lynn Town",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -816,15 +816,6 @@
       "published": "2026-06-09T14:29:32Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "HORNETS’ FAIR PLAY RECOGNISED AT NATIONAL LEAGUE AGM",
-      "url": "https://www.horshamfc.co.uk/2026/06/09/hornets-fair-play-recognised-at-national-league-agm/",
-      "published": "2026-06-09T13:05:29Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -942,6 +933,15 @@
       "published": "2026-06-09T08:50:56Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Harriers Foundation Race Night",
+      "url": "https://harriers.co.uk/news/2026/06/09/harriers-foundation-race-night/",
+      "published": "2026-06-09T08:06:25Z"
+    },
+    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -967,6 +967,15 @@
       "title": "Charity football match in support of Five Acre Wood School",
       "url": "https://maidstoneunited.co.uk/06/09/charity-football-match-in-support-of-five-acre-wood-school/",
       "published": "2026-06-09T07:00:09Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Key Dates Confirmed for the 2026/27 National League South Season",
+      "url": "https://daggers.co.uk/key-dates-confirmed-for-the-2026-27-national-league-south-season/",
+      "published": "2026-06-09T00:08:53Z"
     },
     {
       "club": "Morecambe",
@@ -1221,6 +1230,15 @@
       "published": "2026-06-08T12:00:00Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "26-27 key dates confirmed",
+      "url": "https://harriers.co.uk/news/2026/06/08/26-27-key-dates-confirmed/",
+      "published": "2026-06-08T11:21:02Z"
+    },
+    {
       "club": "Scunthorpe United",
       "code": "SCU",
       "short": "Scunthorpe",
@@ -1462,24 +1480,6 @@
       "title": "Truro City Lottery – Weekly Winners 05/06/26",
       "url": "https://trurocity.co.uk/2026/06/truro-city-lottery-weekly-winners-05-06-26/",
       "published": "2026-06-07T18:39:54Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "BEST OF FAN CAM IN SEPTEMBER",
-      "url": "https://macclesfieldfc.com/latest-news/best-of-fan-cam-in-september/",
-      "published": "2026-06-07T16:00:11Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "DIGITAL PROGRAMME SUBSCRIPTIONS RETURN AHEAD OF 2026/27 CAMPAIGN",
-      "url": "https://macclesfieldfc.com/latest-news/digital-programme-subscriptions-return-ahead-of-2026-27-campaign/",
-      "published": "2026-06-07T14:00:31Z"
     }
   ]
 }
