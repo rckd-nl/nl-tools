@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-09T23:47:29Z",
+  "generatedAt": "2026-06-10T02:02:42Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -93,7 +93,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=efb52dc8-d70e-4e9a-9570-e18d68ef2040",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=f02b7f33-5b2a-49e0-89b3-7b974db3da9b",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -105,6 +105,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "domain": "harriers.co.uk",
+      "feed": "pitchero:/news (scrape)",
+      "ok": false,
+      "count": 0,
+      "error": "Pitchero scrape returned 0 usable items"
     },
     {
       "club": "King's Lynn Town",
@@ -179,6 +187,14 @@
       "error": "Feed returned 0 usable items"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "domain": "daggers.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
+    },
+    {
       "club": "Eastbourne Borough",
       "domain": "eastbourneborough.com",
       "feed": "",
@@ -209,14 +225,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
