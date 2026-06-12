@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-12T12:34:42Z",
+  "generatedAt": "2026-06-12T15:57:42Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=0220c887-07fd-4ecf-b1dd-a7a2a767a436",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=757b9eb0-318f-454f-8be6-ea49d8a8a7e5",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -438,10 +438,10 @@
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://dwfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Dover Athletic",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,96 @@
     }
   ],
   "items": [
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Gulls Fan Ellia Is Taking On OSCAR’s Dartmoor Challenge!",
+      "url": "https://torquayunited.com/gulls-fan-ellia-is-taking-on-oscars-dartmoor-challenge/",
+      "published": "2026-06-12T15:54:52Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "UNITED WELCOME NXT RECRUITMENT AS SPONSOR",
+      "url": "https://www.carlisleunited.co.uk/news/united-welcome-nxt-recruitment-sponsor",
+      "published": "2026-06-12T15:15:00Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Iron to face North Ferriby FC in pre-season encounter",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/iron-to-face-north-ferriby-fc-in-pre-season-encounter/",
+      "published": "2026-06-12T15:00:00Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "CST NEWSLETTER",
+      "url": "https://www.carlisleunited.co.uk/news/cst-newsletter-eleven",
+      "published": "2026-06-12T14:55:00Z"
+    },
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Interview: Jake Leberl",
+      "url": "https://doverathletic.com/news/interview-jake-leberl/",
+      "published": "2026-06-12T14:01:26Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "DREAM JOB FOR ASSISTANT GROUNDSMAN",
+      "url": "https://www.carlisleunited.co.uk/news/dream-job-assistant-groundsman",
+      "published": "2026-06-12T13:59:00Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Catching up with Craig Fagan",
+      "url": "https://maidstoneunited.co.uk/06/12/catching-up-with-craig-fagan-2/",
+      "published": "2026-06-12T13:56:18Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Welcome to Farnborough: Tom Lapslie",
+      "url": "https://farnboroughfc.co.uk/2026/06/welcome-to-farnborough-tom-lapslie/",
+      "published": "2026-06-12T13:00:47Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Shrimpers to Welcome West Ham In Pre-Season",
+      "url": "https://southendunited.co.uk/news/2026/june/12/shrimpers-to-welcome-west-ham-in-pre-season/",
+      "published": "2026-06-12T12:58:00Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "An evening with Joe Calzaghe at the Attis Arena in association with Nor-Lait Promotions",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/an-evening-with-joe-calzaghe-at-the-attis-arena-in-association-with-nor-lait-promotions/",
+      "published": "2026-06-12T12:45:27Z"
+    },
     {
       "club": "Maidstone United",
       "code": "MSU",
@@ -670,6 +760,15 @@
       "title": "Pre-season information: Ticketing",
       "url": "https://wsmafc.co.uk/pre-season-information-ticketing/",
       "published": "2026-06-12T10:00:45Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Bluebirds Dream Draw Week 42",
+      "url": "https://chippenhamtown.com/06/12/bluebirds-dream-draw-week-41-2/",
+      "published": "2026-06-12T10:00:17Z"
     },
     {
       "club": "Torquay United",
@@ -1266,15 +1365,6 @@
       "published": "2026-06-10T18:10:00Z"
     },
     {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Iron to take on Brigg Town CIC in opening pre-season friendly",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/iron-to-take-on-brigg-town-cic-in-opening-pre-season-friendly/",
-      "published": "2026-06-10T18:00:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1390,96 +1480,6 @@
       "title": "Harvey is the ‘Right’ stuff",
       "url": "https://tonbridgeangels.co.uk/harvey-is-the-right-stuff/",
       "published": "2026-06-10T15:00:00Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Interview: Euan Williams",
-      "url": "https://doverathletic.com/news/interview-euan-williams/",
-      "published": "2026-06-10T14:57:54Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "2025/26 REVIEW: DECEMBER",
-      "url": "https://macclesfieldfc.com/latest-news/2025-26-review-december/",
-      "published": "2026-06-10T14:00:26Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Welcoming The World (Cup) To Boots & Laces",
-      "url": "https://torquayunited.com/welcoming-the-world-cup-to-boots-laces/",
-      "published": "2026-06-10T13:42:35Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "New management team in for the U23s",
-      "url": "https://maidstoneunited.co.uk/06/10/new-management-team-in-for-the-u23s/",
-      "published": "2026-06-10T13:23:55Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Dale Appoint Ian Watson As Head Coach",
-      "url": "https://rochdaleafc.co.uk/dale-appoint-ian-watson-as-head-coach/",
-      "published": "2026-06-10T13:20:11Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Director of Football Update: Preparations Continue Ahead of 2026/27 Season",
-      "url": "https://altrinchamfc.com/blogs/news/director-of-football-update-preparations-continue-ahead-of-2026-27-season",
-      "published": "2026-06-10T13:17:08Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "The Early Bird Is Here To Stay!",
-      "url": "https://torquayunited.com/the-early-bird-is-here-to-stay/",
-      "published": "2026-06-10T13:12:41Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Will McGowan joins Harrogate Town",
-      "url": "https://gateshead-fc.com/will-mcgowan-joins-harrogate-town/",
-      "published": "2026-06-10T13:00:25Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "FATHER’S DAY AT BAR TWENTY SEVEN",
-      "url": "https://macclesfieldfc.com/latest-news/fathers-day-in-bar-twenty-seven/",
-      "published": "2026-06-10T13:00:22Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "World Cup Kicks Off At Blue Eagle Plus Opportunity To See FA Trophy",
-      "url": "https://southendunited.co.uk/news/2026/june/10/world-cup-kicks-off-at-blue-eagle/",
-      "published": "2026-06-10T12:53:31Z"
     }
   ]
 }
