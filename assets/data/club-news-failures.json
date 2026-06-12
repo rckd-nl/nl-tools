@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-11T23:56:34Z",
+  "generatedAt": "2026-06-12T05:05:16Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -33,6 +33,14 @@
       "ok": false,
       "count": 0,
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "club": "FC Halifax Town",
+      "domain": "fchalifaxtown.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Solihull Moors",
@@ -93,7 +101,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=2e0a5c13-d884-4ab8-a923-016e05489ec4",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=ff4d58dd-1e97-4274-892a-43cae183f8c7",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
