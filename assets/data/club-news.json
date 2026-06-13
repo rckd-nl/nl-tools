@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-13T01:36:42Z",
+  "generatedAt": "2026-06-13T06:05:45Z",
   "maxItems": 100,
   "sources": [
     {
@@ -70,10 +70,10 @@
     {
       "club": "FC Halifax Town",
       "domain": "fchalifaxtown.com",
-      "feed": "https://fchalifaxtown.com/feed/",
-      "ok": true,
-      "count": 1,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Forest Green Rovers",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=94ad0153-32b5-48ad-826a-6f5342dfcdf7",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=128a77b6-9cca-4ccd-bd7b-e71b8aeb592f",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -652,6 +652,15 @@
       "title": "Elevate your matchday experience for the 2026/27 season.",
       "url": "https://southportfc.net/elevate-your-matchday-experience-for-the-2026-27-season/",
       "published": "2026-06-12T17:49:12Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Ashley Nadesan – First Interview",
+      "url": "https://www.horshamfc.co.uk/2026/06/12/ashley-nadesan-first-interview/",
+      "published": "2026-06-12T17:30:44Z"
     },
     {
       "club": "Maidstone United",
@@ -1021,6 +1030,15 @@
       "title": "Interview: Ruben Soares-Junior",
       "url": "https://doverathletic.com/news/interview-ruben-soares-junior/",
       "published": "2026-06-11T17:32:14Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Ashley Nadesan Signs!",
+      "url": "https://www.horshamfc.co.uk/2026/06/11/ashley-nadesan-signs/",
+      "published": "2026-06-11T17:30:03Z"
     },
     {
       "club": "Dover Athletic",
@@ -1462,24 +1480,6 @@
       "title": "Striker Jaiden Bartolo signs for the Whites",
       "url": "https://salisburyfc.co.uk/2026/06/11/striker-jaiden-bartolo-signs-for-the-whites/",
       "published": "2026-06-11T09:00:24Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Josh Home Signs Contract Extension",
-      "url": "https://gateshead-fc.com/josh-home-signs-contract-extension/",
-      "published": "2026-06-11T09:00:19Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Sol Wanjau-Smith to leave CTFC",
-      "url": "https://chippenhamtown.com/06/11/sol-wanjau-smith-to-leave-ctfc/",
-      "published": "2026-06-11T08:30:48Z"
     }
   ]
 }
