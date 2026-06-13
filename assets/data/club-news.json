@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-13T22:50:24Z",
+  "generatedAt": "2026-06-13T23:52:17Z",
   "maxItems": 100,
   "sources": [
     {
@@ -38,10 +38,10 @@
     {
       "club": "Brackley Town",
       "domain": "brackleytownfc.com",
-      "feed": "",
+      "feed": "pitchero:/news (scrape)",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "Pitchero scrape returned 0 usable items"
     },
     {
       "club": "Braintree Town",
@@ -78,18 +78,18 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3753,
+      "error": ""
     },
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -118,10 +118,10 @@
     {
       "club": "Scunthorpe United",
       "domain": "scunthorpe-united.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://www.scunthorpe-united.co.uk/feed/",
+      "ok": true,
+      "count": 4,
+      "error": ""
     },
     {
       "club": "Solihull Moors",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=5a6afa8d-2e53-48d6-a2a5-8e62c1172c04",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=5d934452-412e-44bb-b977-f5fd5bc34531",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://harriers.co.uk/feed/",
+      "ok": true,
+      "count": 20,
+      "error": ""
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -438,10 +438,10 @@
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://dwfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Dover Athletic",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Medium night at the Attis Arena with Chantelle Giles",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/medium-night-at-the-attis-arena-with-chantelle-giles-3/",
+      "published": "2026-06-13T18:00:00Z"
+    },
     {
       "club": "Chester",
       "code": "CHE",
@@ -643,6 +652,15 @@
       "title": "Staff News – Richard Joyce named as new Bath City FC Assistant Manager",
       "url": "https://www.bathcityfc.com/staff-news-richard-joyce-named-as-new-bath-city-fc-assistant-manager/",
       "published": "2026-06-13T11:00:20Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "The Iron to take on Spalding United in pre-season encounter",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/the-iron-to-take-on-spalding-united-in-pre-season-encounter/",
+      "published": "2026-06-13T11:00:00Z"
     },
     {
       "club": "Torquay United",
@@ -726,6 +744,24 @@
       "published": "2026-06-12T18:30:00Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Elevate your matchday experience for the 2026/27 season.",
+      "url": "https://southportfc.net/elevate-your-matchday-experience-for-the-2026-27-season/",
+      "published": "2026-06-12T17:49:12Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Ashley Nadesan – First Interview",
+      "url": "https://www.horshamfc.co.uk/2026/06/12/ashley-nadesan-first-interview/",
+      "published": "2026-06-12T17:30:44Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -769,6 +805,15 @@
       "title": "Donaghy Signs On The Dotted Line",
       "url": "https://radcliffefc.com/donaghy-signs-on-the-dotted-line/",
       "published": "2026-06-12T17:00:36Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Iron to play first Saturday pre-season fixture against App Frod",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/iron-to-play-first-saturday-pre-season-fixture-against-app-frod/",
+      "published": "2026-06-12T17:00:00Z"
     },
     {
       "club": "Worthing",
@@ -832,6 +877,15 @@
       "title": "UNITED WELCOME NXT RECRUITMENT AS SPONSOR",
       "url": "https://www.carlisleunited.co.uk/news/united-welcome-nxt-recruitment-sponsor",
       "published": "2026-06-12T15:15:00Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Iron to face North Ferriby FC in pre-season encounter",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/iron-to-face-north-ferriby-fc-in-pre-season-encounter/",
+      "published": "2026-06-12T15:00:00Z"
     },
     {
       "club": "Carlisle United",
@@ -922,6 +976,15 @@
       "title": "SIGNING | Bitemo Pens Contract Extension",
       "url": "https://herefordfc.co.uk/2026/06/signing-bitemo-pens-contract-extension/",
       "published": "2026-06-12T11:29:11Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Gateshead FC & HOPE + GLORY agree long-term partnership extension",
+      "url": "https://gateshead-fc.com/gateshead-fc-hope-glory-agree-long-term-partnership-extension/",
+      "published": "2026-06-12T11:01:21Z"
     },
     {
       "club": "Chippenham Town",
@@ -1066,6 +1129,15 @@
       "title": "Interview: Ruben Soares-Junior",
       "url": "https://doverathletic.com/news/interview-ruben-soares-junior/",
       "published": "2026-06-11T17:32:14Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Ashley Nadesan Signs!",
+      "url": "https://www.horshamfc.co.uk/2026/06/11/ashley-nadesan-signs/",
+      "published": "2026-06-11T17:30:03Z"
     },
     {
       "club": "Dover Athletic",
@@ -1311,6 +1383,15 @@
       "published": "2026-06-11T13:52:03Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Season Long Hospitality 26/27",
+      "url": "https://www.fgr.co.uk/news/season-long-hospitality-2627/",
+      "published": "2026-06-11T13:25:00Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1365,6 +1446,15 @@
       "published": "2026-06-11T12:00:03Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Opposition Focus: Lye Town",
+      "url": "https://harriers.co.uk/news/2026/06/11/opposition-focus-lye-town/",
+      "published": "2026-06-11T11:59:44Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1374,6 +1464,15 @@
       "published": "2026-06-11T11:58:39Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Bid for match-worn signed shirts!",
+      "url": "https://harriers.co.uk/news/2026/06/11/bid-for-match-worn-signed-shirts/",
+      "published": "2026-06-11T11:45:44Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1381,105 +1480,6 @@
       "title": "Otis wins Best Player Award and helps Pakistan to tournament win",
       "url": "https://altrinchamfc.com/blogs/news/otis-wins-best-player-award-and-helps-pakistan-to-tournament-win",
       "published": "2026-06-11T11:18:50Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "AN UPDATE FROM SPORTING DIRECTOR JONATHAN BULL",
-      "url": "https://macclesfieldfc.com/latest-news/an-update-from-sporting-director-jonathan-bull-2/",
-      "published": "2026-06-11T11:15:58Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "City Face Exmouth Pre-Season Clash",
-      "url": "https://trurocity.co.uk/2026/06/city-face-exmouth-pre-season-clash/",
-      "published": "2026-06-11T10:45:17Z"
-    },
-    {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "All the Fun of the Fair",
-      "url": "https://etfc.london/all-the-fun-of-the-fair/",
-      "published": "2026-06-11T10:26:36Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "FROM WEST CUMBRIA TO THE WORLD CUP",
-      "url": "https://www.carlisleunited.co.uk/news/west-cumbria-world-cup",
-      "published": "2026-06-11T10:20:00Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Brown & Brown Continue Partnership with Yeovil Town",
-      "url": "https://ytfc.net/2026/06/brown-brown-continue-partnership-with-yeovil-town/",
-      "published": "2026-06-11T10:14:54Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "A message to the Yellow Army from Co-Chairman Michael Westcott",
-      "url": "https://torquayunited.com/%f0%9d%98%bc-%f0%9d%99%a2%f0%9d%99%9a%f0%9d%99%a8%f0%9d%99%a8%f0%9d%99%96%f0%9d%99%9c%f0%9d%99%9a-%f0%9d%99%a9%f0%9d%99%a4-%f0%9d%99%a9%f0%9d%99%9d%f0%9d%99%9a-%f0%9d%99%94%f0%9d%99%9a%f0%9d%99%a1/",
-      "published": "2026-06-11T10:06:15Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "York City FC Ladies Announce Phoenix As Shirt Sleeve Sponsor",
-      "url": "https://yorkcityfootballclub.co.uk/york-city-fc-ladies-announce-phoenix-as-shirt-sleeve-sponsor/",
-      "published": "2026-06-11T10:01:54Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "COMMUNITY SPORTS TRUST GALLERY: PREMIER LEAGUE PRIMARY STARS SCHOOLS FESTIVALS",
-      "url": "https://www.carlisleunited.co.uk/news/community-sports-trust-gallery-premier-league-primary-stars-schools-festivals",
-      "published": "2026-06-11T09:55:00Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "May's Monthly Draw Results",
-      "url": "https://altrinchamfc.com/blogs/news/mays-monthly-draw-results",
-      "published": "2026-06-11T09:11:47Z"
-    },
-    {
-      "club": "Salisbury",
-      "code": "SAL",
-      "short": "Salisbury",
-      "domain": "salisburyfc.co.uk",
-      "title": "Striker Jaiden Bartolo signs for the Whites",
-      "url": "https://salisburyfc.co.uk/2026/06/11/striker-jaiden-bartolo-signs-for-the-whites/",
-      "published": "2026-06-11T09:00:24Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Sol Wanjau-Smith to leave CTFC",
-      "url": "https://chippenhamtown.com/06/11/sol-wanjau-smith-to-leave-ctfc/",
-      "published": "2026-06-11T08:30:48Z"
     }
   ]
 }
