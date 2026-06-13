@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-13T06:05:45Z",
+  "generatedAt": "2026-06-13T09:38:56Z",
   "maxItems": 100,
   "sources": [
     {
@@ -70,18 +70,18 @@
     {
       "club": "FC Halifax Town",
       "domain": "fchalifaxtown.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "feed": "https://fchalifaxtown.com/feed/",
+      "ok": true,
+      "count": 1,
+      "error": ""
     },
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3753,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=128a77b6-9cca-4ccd-bd7b-e71b8aeb592f",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=54388094-083d-4e58-9723-57ee825ea428",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -1284,15 +1284,6 @@
       "published": "2026-06-11T13:52:03Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Season Long Hospitality 26/27",
-      "url": "https://www.fgr.co.uk/news/season-long-hospitality-2627/",
-      "published": "2026-06-11T13:25:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1480,6 +1471,15 @@
       "title": "Striker Jaiden Bartolo signs for the Whites",
       "url": "https://salisburyfc.co.uk/2026/06/11/striker-jaiden-bartolo-signs-for-the-whites/",
       "published": "2026-06-11T09:00:24Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Josh Home Signs Contract Extension",
+      "url": "https://gateshead-fc.com/josh-home-signs-contract-extension/",
+      "published": "2026-06-11T09:00:19Z"
     }
   ]
 }
