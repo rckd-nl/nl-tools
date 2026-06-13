@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-13T13:15:24Z",
+  "generatedAt": "2026-06-13T15:14:44Z",
   "maxItems": 100,
   "sources": [
     {
@@ -38,10 +38,10 @@
     {
       "club": "Brackley Town",
       "domain": "brackleytownfc.com",
-      "feed": "",
+      "feed": "pitchero:/news (scrape)",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "Pitchero scrape returned 0 usable items"
     },
     {
       "club": "Braintree Town",
@@ -110,10 +110,10 @@
     {
       "club": "Rochdale",
       "domain": "rochdaleafc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
+      "feed": "https://rochdaleafc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Scunthorpe United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=ceabd063-03af-41ab-aa89-3e578e7357b6",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=be4bb864-8be8-42c1-a0e5-dd9c537571dd",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -310,10 +310,10 @@
     {
       "club": "Marine",
       "domain": "marinefc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
+      "feed": "https://marinefc.com/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Merthyr Town",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -645,6 +645,15 @@
       "published": "2026-06-13T11:00:00Z"
     },
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Co-Chair Simon Gauge On Watson & Capital Projects",
+      "url": "https://rochdaleafc.co.uk/co-chair-simon-gauge-on-watson-capital-projects/",
+      "published": "2026-06-13T10:20:06Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -715,6 +724,15 @@
       "title": "Elevate your matchday experience for the 2026/27 season.",
       "url": "https://southportfc.net/elevate-your-matchday-experience-for-the-2026-27-season/",
       "published": "2026-06-12T17:49:12Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Ashley Nadesan – First Interview",
+      "url": "https://www.horshamfc.co.uk/2026/06/12/ashley-nadesan-first-interview/",
+      "published": "2026-06-12T17:30:44Z"
     },
     {
       "club": "Maidstone United",
@@ -969,6 +987,15 @@
       "published": "2026-06-12T10:59:09Z"
     },
     {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "York City FC End of Season Supporter Survey 2025/26 Results",
+      "url": "https://yorkcityfootballclub.co.uk/york-city-fc-end-of-season-supporter-survey-2025-26-results/",
+      "published": "2026-06-12T10:40:34Z"
+    },
+    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1041,6 +1068,15 @@
       "published": "2026-06-12T08:29:01Z"
     },
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Listen Back | Watson On BBC Radio Manchester",
+      "url": "https://rochdaleafc.co.uk/listen-back-watson-on-bbc-radio-manchester/",
+      "published": "2026-06-12T07:48:30Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1075,6 +1111,15 @@
       "title": "Interview: Ruben Soares-Junior",
       "url": "https://doverathletic.com/news/interview-ruben-soares-junior/",
       "published": "2026-06-11T17:32:14Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Ashley Nadesan Signs!",
+      "url": "https://www.horshamfc.co.uk/2026/06/11/ashley-nadesan-signs/",
+      "published": "2026-06-11T17:30:03Z"
     },
     {
       "club": "Dover Athletic",
@@ -1248,6 +1293,15 @@
       "published": "2026-06-11T14:55:28Z"
     },
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "An Update On Bowlee Training Facility & Community Hub",
+      "url": "https://rochdaleafc.co.uk/an-update-on-bowlee-training-facility-community-hub/",
+      "published": "2026-06-11T14:54:51Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1338,6 +1392,15 @@
       "published": "2026-06-11T13:01:42Z"
     },
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Ian Watson’s Opening Club Interview",
+      "url": "https://rochdaleafc.co.uk/ian-watsons-opening-dale-interview/",
+      "published": "2026-06-11T12:59:24Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1417,69 +1480,6 @@
       "title": "City Face Exmouth Pre-Season Clash",
       "url": "https://trurocity.co.uk/2026/06/city-face-exmouth-pre-season-clash/",
       "published": "2026-06-11T10:45:17Z"
-    },
-    {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "All the Fun of the Fair",
-      "url": "https://etfc.london/all-the-fun-of-the-fair/",
-      "published": "2026-06-11T10:26:36Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "FROM WEST CUMBRIA TO THE WORLD CUP",
-      "url": "https://www.carlisleunited.co.uk/news/west-cumbria-world-cup",
-      "published": "2026-06-11T10:20:00Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Brown & Brown Continue Partnership with Yeovil Town",
-      "url": "https://ytfc.net/2026/06/brown-brown-continue-partnership-with-yeovil-town/",
-      "published": "2026-06-11T10:14:54Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "A message to the Yellow Army from Co-Chairman Michael Westcott",
-      "url": "https://torquayunited.com/%f0%9d%98%bc-%f0%9d%99%a2%f0%9d%99%9a%f0%9d%99%a8%f0%9d%99%a8%f0%9d%99%96%f0%9d%99%9c%f0%9d%99%9a-%f0%9d%99%a9%f0%9d%99%a4-%f0%9d%99%a9%f0%9d%99%9d%f0%9d%99%9a-%f0%9d%99%94%f0%9d%99%9a%f0%9d%99%a1/",
-      "published": "2026-06-11T10:06:15Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "York City FC Ladies Announce Phoenix As Shirt Sleeve Sponsor",
-      "url": "https://yorkcityfootballclub.co.uk/york-city-fc-ladies-announce-phoenix-as-shirt-sleeve-sponsor/",
-      "published": "2026-06-11T10:01:54Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "COMMUNITY SPORTS TRUST GALLERY: PREMIER LEAGUE PRIMARY STARS SCHOOLS FESTIVALS",
-      "url": "https://www.carlisleunited.co.uk/news/community-sports-trust-gallery-premier-league-primary-stars-schools-festivals",
-      "published": "2026-06-11T09:55:00Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "May's Monthly Draw Results",
-      "url": "https://altrinchamfc.com/blogs/news/mays-monthly-draw-results",
-      "published": "2026-06-11T09:11:47Z"
     }
   ]
 }

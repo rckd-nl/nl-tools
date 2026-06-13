@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-13T13:15:24Z",
+  "generatedAt": "2026-06-13T15:14:44Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -21,10 +21,10 @@
     {
       "club": "Brackley Town",
       "domain": "brackleytownfc.com",
-      "feed": "",
+      "feed": "pitchero:/news (scrape)",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "Pitchero scrape returned 0 usable items"
     },
     {
       "club": "Braintree Town",
@@ -33,14 +33,6 @@
       "ok": false,
       "count": 0,
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
-    },
-    {
-      "club": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
     },
     {
       "club": "Solihull Moors",
@@ -101,7 +93,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=ceabd063-03af-41ab-aa89-3e578e7357b6",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=be4bb864-8be8-42c1-a0e5-dd9c537571dd",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -129,14 +121,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Marine",
-      "domain": "marinefc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
     },
     {
       "club": "Merthyr Town",
@@ -225,14 +209,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
