@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-13T18:02:54Z",
+  "generatedAt": "2026-06-13T19:57:32Z",
   "maxItems": 100,
   "sources": [
     {
@@ -70,10 +70,10 @@
     {
       "club": "FC Halifax Town",
       "domain": "fchalifaxtown.com",
-      "feed": "https://fchalifaxtown.com/feed/",
-      "ok": true,
-      "count": 1,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Forest Green Rovers",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=63d73c6e-3e80-4948-b95d-02d088b8584c",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=632a6767-07c2-4d50-8a80-f93cc9c982a0",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Medium night at the Attis Arena with Chantelle Giles",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/medium-night-at-the-attis-arena-with-chantelle-giles-3/",
+      "published": "2026-06-13T18:00:00Z"
+    },
     {
       "club": "Chester",
       "code": "CHE",
@@ -742,15 +751,6 @@
       "title": "Elevate your matchday experience for the 2026/27 season.",
       "url": "https://southportfc.net/elevate-your-matchday-experience-for-the-2026-27-season/",
       "published": "2026-06-12T17:49:12Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Ashley Nadesan – First Interview",
-      "url": "https://www.horshamfc.co.uk/2026/06/12/ashley-nadesan-first-interview/",
-      "published": "2026-06-12T17:30:44Z"
     },
     {
       "club": "Maidstone United",
@@ -922,15 +922,6 @@
       "title": "Shrimpers to Welcome West Ham In Pre-Season",
       "url": "https://southendunited.co.uk/news/2026/june/12/shrimpers-to-welcome-west-ham-in-pre-season/",
       "published": "2026-06-12T12:58:00Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "An evening with Joe Calzaghe at the Attis Arena in association with Nor-Lait Promotions",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/an-evening-with-joe-calzaghe-at-the-attis-arena-in-association-with-nor-lait-promotions/",
-      "published": "2026-06-12T12:45:27Z"
     },
     {
       "club": "Maidstone United",
@@ -1129,15 +1120,6 @@
       "title": "Interview: Ruben Soares-Junior",
       "url": "https://doverathletic.com/news/interview-ruben-soares-junior/",
       "published": "2026-06-11T17:32:14Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Ashley Nadesan Signs!",
-      "url": "https://www.horshamfc.co.uk/2026/06/11/ashley-nadesan-signs/",
-      "published": "2026-06-11T17:30:03Z"
     },
     {
       "club": "Dover Athletic",
@@ -1480,6 +1462,24 @@
       "title": "Otis wins Best Player Award and helps Pakistan to tournament win",
       "url": "https://altrinchamfc.com/blogs/news/otis-wins-best-player-award-and-helps-pakistan-to-tournament-win",
       "published": "2026-06-11T11:18:50Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "AN UPDATE FROM SPORTING DIRECTOR JONATHAN BULL",
+      "url": "https://macclesfieldfc.com/latest-news/an-update-from-sporting-director-jonathan-bull-2/",
+      "published": "2026-06-11T11:15:58Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "City Face Exmouth Pre-Season Clash",
+      "url": "https://trurocity.co.uk/2026/06/city-face-exmouth-pre-season-clash/",
+      "published": "2026-06-11T10:45:17Z"
     }
   ]
 }
