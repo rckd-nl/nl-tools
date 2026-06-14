@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-14T11:39:30Z",
+  "generatedAt": "2026-06-14T13:22:56Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3753,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=4fee952b-d015-4343-85a6-0c61389d858f",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=3c1dff57-90fa-4948-934f-bf325b74436c",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SILKMEN NAMED AS NORTH CHESHIRE BUSINESS AWARDS AMBASSADOR OF THE YEAR FINALIST",
+      "url": "https://macclesfieldfc.com/latest-news/silkmen-named-as-north-cheshire-business-awards-ambassador-of-the-year-finalist/",
+      "published": "2026-06-14T13:00:27Z"
+    },
     {
       "club": "Southend United",
       "code": "SOU",
@@ -1426,15 +1435,6 @@
       "title": "Local Hauliers Renew Partnerships",
       "url": "https://trurocity.co.uk/2026/06/local-hauliers-renew-partnerships/",
       "published": "2026-06-11T13:52:03Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Season Long Hospitality 26/27",
-      "url": "https://www.fgr.co.uk/news/season-long-hospitality-2627/",
-      "published": "2026-06-11T13:25:00Z"
     },
     {
       "club": "Weston-super-Mare",
