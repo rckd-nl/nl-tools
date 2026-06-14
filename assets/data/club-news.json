@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-14T05:09:40Z",
+  "generatedAt": "2026-06-14T08:52:10Z",
   "maxItems": 100,
   "sources": [
     {
@@ -70,10 +70,10 @@
     {
       "club": "FC Halifax Town",
       "domain": "fchalifaxtown.com",
-      "feed": "https://fchalifaxtown.com/feed/",
-      "ok": true,
-      "count": 1,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Forest Green Rovers",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=c5d57324-9006-4da7-81c3-61745a75aed6",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=b6457c4e-1311-42f2-bc7f-dcacec0df3fe",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "JOIN US FOR ONE OF OUR MOUTH-WATERING SUNDAY ROASTS THIS AFTERNOON",
+      "url": "https://macclesfieldfc.com/latest-news/join-us-for-one-of-our-mouth-watering-sunday-roasts-this-afternoon/",
+      "published": "2026-06-14T08:00:03Z"
+    },
     {
       "club": "Scunthorpe United",
       "code": "SCU",
@@ -751,15 +760,6 @@
       "title": "Elevate your matchday experience for the 2026/27 season.",
       "url": "https://southportfc.net/elevate-your-matchday-experience-for-the-2026-27-season/",
       "published": "2026-06-12T17:49:12Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Ashley Nadesan – First Interview",
-      "url": "https://www.horshamfc.co.uk/2026/06/12/ashley-nadesan-first-interview/",
-      "published": "2026-06-12T17:30:44Z"
     },
     {
       "club": "Maidstone United",
@@ -1131,15 +1131,6 @@
       "published": "2026-06-11T17:32:14Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Ashley Nadesan Signs!",
-      "url": "https://www.horshamfc.co.uk/2026/06/11/ashley-nadesan-signs/",
-      "published": "2026-06-11T17:30:03Z"
-    },
-    {
       "club": "Dover Athletic",
       "code": "DOV",
       "short": "Dover",
@@ -1480,6 +1471,15 @@
       "title": "Otis wins Best Player Award and helps Pakistan to tournament win",
       "url": "https://altrinchamfc.com/blogs/news/otis-wins-best-player-award-and-helps-pakistan-to-tournament-win",
       "published": "2026-06-11T11:18:50Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "AN UPDATE FROM SPORTING DIRECTOR JONATHAN BULL",
+      "url": "https://macclesfieldfc.com/latest-news/an-update-from-sporting-director-jonathan-bull-2/",
+      "published": "2026-06-11T11:15:58Z"
     }
   ]
 }
