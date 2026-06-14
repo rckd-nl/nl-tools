@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-14T08:52:10Z",
+  "generatedAt": "2026-06-14T11:39:30Z",
   "maxItems": 100,
   "sources": [
     {
@@ -70,10 +70,10 @@
     {
       "club": "FC Halifax Town",
       "domain": "fchalifaxtown.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "feed": "https://fchalifaxtown.com/feed/",
+      "ok": true,
+      "count": 1,
+      "error": ""
     },
     {
       "club": "Forest Green Rovers",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=b6457c4e-1311-42f2-bc7f-dcacec0df3fe",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=4fee952b-d015-4343-85a6-0c61389d858f",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Scout Report: Barrow AFC",
+      "url": "https://southendunited.co.uk/news/2026/june/14/scout-report--barrow-afc/",
+      "published": "2026-06-14T10:48:42Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Forever Yellow Prize Draw As 80% Target Hit",
+      "url": "https://torquayunited.com/forever-yellow-prize-draw-as-80-target-hit/",
+      "published": "2026-06-14T10:21:31Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "FROM THE ARCHIVES: THE GERMAN NATIONAL TEAM SET UP CAMP AT THE MOSS ROSE AHEAD OF EURO ’96",
+      "url": "https://macclesfieldfc.com/latest-news/from-the-archives-the-german-national-team-set-up-camp-at-the-moss-rose-ahead-of-euro-96/",
+      "published": "2026-06-14T09:00:05Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -589,6 +616,15 @@
       "title": "JOIN US FOR ONE OF OUR MOUTH-WATERING SUNDAY ROASTS THIS AFTERNOON",
       "url": "https://macclesfieldfc.com/latest-news/join-us-for-one-of-our-mouth-watering-sunday-roasts-this-afternoon/",
       "published": "2026-06-14T08:00:03Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "This week at Gallagher Stadium (w/c 14/6/26)",
+      "url": "https://maidstoneunited.co.uk/06/14/this-week-at-gallagher-stadium-w-c-14-6-26/",
+      "published": "2026-06-13T23:01:03Z"
     },
     {
       "club": "Scunthorpe United",
@@ -631,7 +667,7 @@
       "code": "MSU",
       "short": "Maidstone",
       "domain": "maidstoneunited.co.uk",
-      "title": "Gallagher Stadium Set to Welcome Teams for Walking Football Festival",
+      "title": "Gallagher Stadium set to welcome teams for Walking Football Festival",
       "url": "https://maidstoneunited.co.uk/06/13/gallagher-stadium-set-to-welcome-teams-for-walking-football-festival/",
       "published": "2026-06-13T12:46:25Z"
     },
@@ -760,6 +796,15 @@
       "title": "Elevate your matchday experience for the 2026/27 season.",
       "url": "https://southportfc.net/elevate-your-matchday-experience-for-the-2026-27-season/",
       "published": "2026-06-12T17:49:12Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Ashley Nadesan – First Interview",
+      "url": "https://www.horshamfc.co.uk/2026/06/12/ashley-nadesan-first-interview/",
+      "published": "2026-06-12T17:30:44Z"
     },
     {
       "club": "Maidstone United",
@@ -1131,6 +1176,15 @@
       "published": "2026-06-11T17:32:14Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Ashley Nadesan Signs!",
+      "url": "https://www.horshamfc.co.uk/2026/06/11/ashley-nadesan-signs/",
+      "published": "2026-06-11T17:30:03Z"
+    },
+    {
       "club": "Dover Athletic",
       "code": "DOV",
       "short": "Dover",
@@ -1426,60 +1480,6 @@
       "title": "Maple Accountancy continue its sponsorship for another season",
       "url": "https://www.borehamwoodfootballclub.co.uk/maple-accountancy-continue-sponsorship-for-another-season/",
       "published": "2026-06-11T12:20:01Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Welcome to Farnborough: Sam Okoye",
-      "url": "https://farnboroughfc.co.uk/2026/06/welcome-to-farnborough-sam-okoye/",
-      "published": "2026-06-11T12:00:03Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Opposition Focus: Lye Town",
-      "url": "https://harriers.co.uk/news/2026/06/11/opposition-focus-lye-town/",
-      "published": "2026-06-11T11:59:44Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "RIP Charles (David) Whipp",
-      "url": "https://altrinchamfc.com/blogs/news/rip-charles-david-whipp",
-      "published": "2026-06-11T11:58:39Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Bid for match-worn signed shirts!",
-      "url": "https://harriers.co.uk/news/2026/06/11/bid-for-match-worn-signed-shirts/",
-      "published": "2026-06-11T11:45:44Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Otis wins Best Player Award and helps Pakistan to tournament win",
-      "url": "https://altrinchamfc.com/blogs/news/otis-wins-best-player-award-and-helps-pakistan-to-tournament-win",
-      "published": "2026-06-11T11:18:50Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "AN UPDATE FROM SPORTING DIRECTOR JONATHAN BULL",
-      "url": "https://macclesfieldfc.com/latest-news/an-update-from-sporting-director-jonathan-bull-2/",
-      "published": "2026-06-11T11:15:58Z"
     }
   ]
 }
