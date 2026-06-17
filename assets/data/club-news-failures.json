@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-17T16:06:19Z",
+  "generatedAt": "2026-06-17T18:36:57Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -33,6 +33,30 @@
       "ok": false,
       "count": 0,
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "club": "Carlisle United",
+      "domain": "carlisleunited.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "domain": "fgr.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "club": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Solihull Moors",
@@ -93,10 +117,10 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=eba332ea-f259-47c0-9e65-56ec9feafcaf",
       "ok": false,
       "count": 0,
-      "error": "HTTP 503"
+      "error": "HTTP 404"
     },
     {
       "club": "Darlington",
@@ -121,6 +145,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Marine",
+      "domain": "marinefc.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Merthyr Town",
@@ -200,7 +232,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 503"
+      "error": "HTTP 404"
     },
     {
       "club": "Hemel Hempstead Town",
