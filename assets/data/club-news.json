@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-18T22:36:35Z",
+  "generatedAt": "2026-06-19T00:17:57Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -118,10 +118,10 @@
     {
       "club": "Scunthorpe United",
       "domain": "scunthorpe-united.co.uk",
-      "feed": "https://www.scunthorpe-united.co.uk/feed/",
-      "ok": true,
-      "count": 4,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Solihull Moors",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=1f22d703-ebab-4dde-ae92-b549edfa0e39",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=ff3299f4-0218-4281-a26d-fd13244952cb",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -438,10 +438,10 @@
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "https://dwfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Dover Athletic",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -670,24 +670,6 @@
       "title": "Gallery: Tom Dallison Signs ✍️",
       "url": "https://hornchurchfc.com/gallery-tom-dallison-signs-%e2%9c%8d%ef%b8%8f/",
       "published": "2026-06-18T16:59:15Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Dom gets his man",
-      "url": "https://www.horshamfc.co.uk/2026/06/18/dom-gets-his-man-2/",
-      "published": "2026-06-18T16:58:54Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Ross Barrows signs on for another campaign",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/ross-barrows-signs-on-for-another-campaign/",
-      "published": "2026-06-18T16:45:00Z"
     },
     {
       "club": "Torquay United",
@@ -843,15 +825,6 @@
       "published": "2026-06-18T13:00:16Z"
     },
     {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Watch: Walker speaks",
-      "url": "https://harriers.co.uk/news/2026/06/18/watch-walker-speaks/",
-      "published": "2026-06-18T12:50:17Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -861,15 +834,6 @@
       "published": "2026-06-18T12:00:15Z"
     },
     {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Boss delighted with Walker capture",
-      "url": "https://harriers.co.uk/news/2026/06/18/boss-delighted-with-walker-capture/",
-      "published": "2026-06-18T11:40:25Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -877,15 +841,6 @@
       "title": "SIGNING | Striker Waldron Snapped Up by Bulls",
       "url": "https://herefordfc.co.uk/2026/06/signing-striker-waldron-snapped-up-by-bulls/",
       "published": "2026-06-18T11:30:43Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Iron Super Draw: June 2026 winners",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/iron-super-draw-june-2026-winners/",
-      "published": "2026-06-18T11:29:53Z"
     },
     {
       "club": "Spennymoor Town",
@@ -913,15 +868,6 @@
       "title": "Welcome Back, Makai!",
       "url": "https://hornchurchfc.com/welcome-back-makai-3/",
       "published": "2026-06-18T11:00:21Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "The Iron to face off against Buxton FC in a pre-season encounter",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/the-iron-to-face-off-against-buxton-fc-in-a-pre-season-encounter/",
-      "published": "2026-06-18T11:00:00Z"
     },
     {
       "club": "Hornchurch",
@@ -1023,15 +969,6 @@
       "published": "2026-06-18T07:31:00Z"
     },
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Become A Southport FC Player For The Day",
-      "url": "https://southportfc.net/become-a-southport-fc-player-for-the-day/",
-      "published": "2026-06-18T06:52:24Z"
-    },
-    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1111,15 +1048,6 @@
       "title": "All at Bath City FC wish Ken Loach a happy 90th birthday",
       "url": "https://www.bathcityfc.com/all-at-bath-city-fc-wish-ken-loach-a-happy-90th-birthday/",
       "published": "2026-06-17T17:53:24Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Goalkeeper Louis Jones signs a new two-year contract with the Iron",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/goalkeeper-louis-jones-signs-a-new-two-year-contract-with-the-iron/",
-      "published": "2026-06-17T17:00:00Z"
     },
     {
       "club": "Chelmsford City",
@@ -1248,15 +1176,6 @@
       "published": "2026-06-17T13:30:00Z"
     },
     {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Walker to join Reds",
-      "url": "https://harriers.co.uk/news/2026/06/17/walker-to-join-reds/",
-      "published": "2026-06-17T13:16:11Z"
-    },
-    {
       "club": "York City",
       "code": "YOR",
       "short": "York",
@@ -1300,15 +1219,6 @@
       "title": "THE SHRIMPS VS THE SILKMEN IN 2026/27",
       "url": "https://macclesfieldfc.com/latest-news/the-shrimps-vs-the-silkmen-in-2026-27/",
       "published": "2026-06-17T12:00:11Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Opposition Focus: Chesterfield",
-      "url": "https://harriers.co.uk/news/2026/06/17/opposition-focus-chesterfield/",
-      "published": "2026-06-17T11:30:44Z"
     },
     {
       "club": "Forest Green Rovers",
@@ -1480,6 +1390,96 @@
       "title": "RYAN PERKS APPOINTED HEAD OF YOUTH",
       "url": "https://torquayunited.com/ryan-perks-appointed-head-of-youth/",
       "published": "2026-06-16T17:46:02Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "ELLIOT NEWBY JOINS MORECAMBE",
+      "url": "https://www.morecambefc.com/news/2026/june/16/elliot-newby-joins-morecambe/",
+      "published": "2026-06-16T17:30:00Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "National League announce Fanbase Partnership",
+      "url": "https://chesterfc.com/06/16/national-league-announce-fanbase-partnership/",
+      "published": "2026-06-16T17:13:47Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Smith Commits Future To Pools",
+      "url": "https://www.hartlepoolunited.co.uk/smith-commits-future-to-pools/",
+      "published": "2026-06-16T17:06:41Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Introducing ‘Winner’ Tony Craig",
+      "url": "https://tonbridgeangels.co.uk/introducing-winner-tony-craig/",
+      "published": "2026-06-16T16:47:22Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Scout Report: Hornchurch FC",
+      "url": "https://southendunited.co.uk/news/2026/june/16/scout-report--hornchurch-fc/",
+      "published": "2026-06-16T16:16:19Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Nell's Pizza World Cup offer for Season Ticket Holders",
+      "url": "https://altrinchamfc.com/blogs/news/nells-world-cup-offer-for-season-ticket-holders",
+      "published": "2026-06-16T15:26:02Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Vacancy: Digital Scoreboard Operator",
+      "url": "https://trurocity.co.uk/2026/06/vacancy-digital-scoreboard-operator/",
+      "published": "2026-06-16T15:12:06Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SILKMEN TO HOST RECRUITMENT EVENT",
+      "url": "https://macclesfieldfc.com/latest-news/silkmen-to-host-recruitment-event/",
+      "published": "2026-06-16T15:00:15Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Oakleaf Heating extend partnership with Maidstone United",
+      "url": "https://maidstoneunited.co.uk/06/16/oakleaf-heating-extend-partnership-with-maidstone-united/",
+      "published": "2026-06-16T15:00:04Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Volunteer Call For Community Clean Up Weekend",
+      "url": "https://southendunited.co.uk/news/2026/june/16/volunteer-call-for-stadium-preparation-weekend/",
+      "published": "2026-06-16T14:47:45Z"
     }
   ]
 }
