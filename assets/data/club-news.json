@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-19T16:43:42Z",
+  "generatedAt": "2026-06-19T18:25:16Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "https://www.carlisleunited.co.uk/rss.xml",
-      "ok": true,
-      "count": 50,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Eastleigh",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=5b2235f1-abcd-4220-94ed-93a81d3810f4",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=169af3de-8b28-4f53-a35f-36e728276f98",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,60 @@
     }
   ],
   "items": [
+    {
+      "club": "Chesham United",
+      "code": "CHU",
+      "short": "Chesham",
+      "domain": "cheshamunited.co.uk",
+      "title": "Notes from the Chair – 19th June 2026",
+      "url": "https://cheshamunited.co.uk/2026/06/notes-from-the-chair-19th-june-2026/",
+      "published": "2026-06-19T18:00:36Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Captain Callum Howe departs the Minstermen",
+      "url": "https://yorkcityfootballclub.co.uk/captain-callum-howe-departs-the-minstermen/",
+      "published": "2026-06-19T17:59:31Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Goalkeeper Maison Campbell pens new deal with the club ahead of 2026-27 season",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/goalkeeper-maison-campbell-pens-new-deal-with-the-club-ahead-of-2026-27-season/",
+      "published": "2026-06-19T17:30:00Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Urchins x High Five Construction",
+      "url": "https://hornchurchfc.com/urchins-x-high-five-construction-2/",
+      "published": "2026-06-19T17:12:35Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Welcome, Junior Moses!",
+      "url": "https://etfc.london/welcome-junior-moses/",
+      "published": "2026-06-19T17:05:11Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "MIGUEL AZEEZ DEPARTS THE SHRIMPS",
+      "url": "https://www.morecambefc.com/news/2026/june/19/miguel-azeez-departs-the-shrimps/",
+      "published": "2026-06-19T17:00:00Z"
+    },
     {
       "club": "Chester",
       "code": "CHE",
@@ -832,15 +886,6 @@
       "title": "SIGNING | Defender James to Remain with Hereford",
       "url": "https://herefordfc.co.uk/2026/06/signing-defender-james-to-remain-with-hereford/",
       "published": "2026-06-19T11:30:49Z"
-    },
-    {
-      "club": "Scunthorpe United",
-      "code": "SCU",
-      "short": "Scunthorpe",
-      "domain": "scunthorpe-united.co.uk",
-      "title": "Iron to host Business Brunch event on Fixture Release Day",
-      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/iron-to-host-business-brunch-event-on-fixture-release-day/",
-      "published": "2026-06-19T11:30:00Z"
     },
     {
       "club": "Forest Green Rovers",
@@ -1113,15 +1158,6 @@
       "published": "2026-06-18T16:59:15Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Dom gets his man",
-      "url": "https://www.horshamfc.co.uk/2026/06/18/dom-gets-his-man-2/",
-      "published": "2026-06-18T16:58:54Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1284,15 +1320,6 @@
       "published": "2026-06-18T12:00:15Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "LOUIS STOREY: “I WANT TO BE PART OF THAT JOURNEY”",
-      "url": "https://www.carlisleunited.co.uk/news/louis-storey-i-want-be-part-journey",
-      "published": "2026-06-18T12:00:00Z"
-    },
-    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -1453,33 +1480,6 @@
       "title": "Olly Crankshaw leaves Alty",
       "url": "https://altrinchamfc.com/blogs/news/olly-crankshaw-leaves-alty",
       "published": "2026-06-17T18:20:44Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "First Interview | Michael Nottingham",
-      "url": "https://radcliffefc.com/first-interview-michael-nottingham/",
-      "published": "2026-06-17T18:03:50Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Tom Wraight signs new two-year deal",
-      "url": "https://hornchurchfc.com/tom-wraight-signs-new-two-year-deal/",
-      "published": "2026-06-17T18:00:34Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "JUNIOR ACADEMY TALENT ID EVENTS",
-      "url": "https://macclesfieldfc.com/latest-news/junior-academy-talent-id-events/",
-      "published": "2026-06-17T18:00:31Z"
     }
   ]
 }
