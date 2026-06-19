@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-19T21:56:02Z",
+  "generatedAt": "2026-06-19T23:17:34Z",
   "maxItems": 100,
   "sources": [
     {
@@ -14,10 +14,10 @@
     {
       "club": "Altrincham",
       "domain": "altrinchamfc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 503"
+      "feed": "https://altrinchamfc.com/blogs/news.atom",
+      "ok": true,
+      "count": 30,
+      "error": ""
     },
     {
       "club": "Boreham Wood",
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='fgr.co.uk', port=443): Read timed out. (read timeout=25)"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3757,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,10 +246,10 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=8bb929fe-2f22-4534-b527-636a42333a4a",
       "ok": false,
       "count": 0,
-      "error": "HTTP 503"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -302,10 +302,10 @@
     {
       "club": "Macclesfield",
       "domain": "macclesfieldfc.com",
-      "feed": "https://macclesfieldfc.com/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "club": "Marine",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,13 +582,13 @@
   ],
   "items": [
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "RIP PAUL CAVELL",
-      "url": "https://macclesfieldfc.com/latest-news/rip-paul-cavell/",
-      "published": "2026-06-19T21:00:00Z"
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Vacancy: Chief Operating Officer",
+      "url": "https://afcfylde.co.uk/news/2026/june/19/vacancy--/",
+      "published": "2026-06-19T19:53:00Z"
     },
     {
       "club": "Worthing",
@@ -762,13 +762,13 @@
       "published": "2026-06-19T15:27:23Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "AWAY DAY BLUES: NORTHWICH VICTORIA",
-      "url": "https://macclesfieldfc.com/latest-news/away-day-blues-northwich-victoria/",
-      "published": "2026-06-19T15:00:05Z"
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Chairman's Summer Update",
+      "url": "https://altrinchamfc.com/blogs/news/chairmans-update",
+      "published": "2026-06-19T15:03:11Z"
     },
     {
       "club": "York City",
@@ -843,15 +843,6 @@
       "published": "2026-06-19T13:26:18Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MATCH PREVIEW: NORTHWICH VICTORIA VS MACCLESFIELD FC XI",
-      "url": "https://macclesfieldfc.com/latest-news/match-preview-northwich-victoria-vs-macclesfield-fc-xi/",
-      "published": "2026-06-19T13:00:35Z"
-    },
-    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -868,24 +859,6 @@
       "title": "Zak’s back!",
       "url": "https://harriers.co.uk/news/2026/06/19/zaks-back/",
       "published": "2026-06-19T12:16:15Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "BAR TWENTY SEVEN TO HOST RACE NIGHT",
-      "url": "https://macclesfieldfc.com/latest-news/bar-twenty-seven-to-host-race-night/",
-      "published": "2026-06-19T12:00:27Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "ACTION REPLAY: JANUARY",
-      "url": "https://macclesfieldfc.com/galleries/action-replay-january/",
-      "published": "2026-06-19T12:00:05Z"
     },
     {
       "club": "Maidstone United",
@@ -913,6 +886,15 @@
       "title": "SIGNING | Defender James to Remain with Hereford",
       "url": "https://herefordfc.co.uk/2026/06/signing-defender-james-to-remain-with-hereford/",
       "published": "2026-06-19T11:30:49Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "New GK & Set-Piece Coach",
+      "url": "https://www.fgr.co.uk/news/fgr-welcome-jonathan-gould/",
+      "published": "2026-06-19T11:29:00Z"
     },
     {
       "club": "Bath City",
@@ -976,15 +958,6 @@
       "title": "CFC Community Trust Weekly Update",
       "url": "https://chesterfc.com/06/19/cfc-community-trust-weekly-update-4/",
       "published": "2026-06-19T10:11:08Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "Ross Speight previews Northwich Victoria pre-season fixture",
-      "url": "https://macclesfieldfc.com/silkmen-tv/ross-speight-previews-northwich-victoria-pre-season-fixture/",
-      "published": "2026-06-19T10:00:03Z"
     },
     {
       "club": "Eastleigh",
@@ -1176,15 +1149,6 @@
       "published": "2026-06-18T16:59:15Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Dom gets his man",
-      "url": "https://www.horshamfc.co.uk/2026/06/18/dom-gets-his-man-2/",
-      "published": "2026-06-18T16:58:54Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1248,15 +1212,6 @@
       "published": "2026-06-18T15:09:57Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "LIVE SPORT IN BAR TWENTY SEVEN",
-      "url": "https://macclesfieldfc.com/latest-news/live-sport-in-bar-twenty-seven/",
-      "published": "2026-06-18T15:00:48Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1264,15 +1219,6 @@
       "title": "2026/27 fixtures to be released on Friday 10 July",
       "url": "https://maidstoneunited.co.uk/06/18/2026-27-fixtures-to-be-released-on-10-july/",
       "published": "2026-06-18T15:00:34Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SILKMEN NAMED AS NORTH CHESHIRE BUSINESS AWARDS AMBASSADOR OF THE YEAR FINALIST",
-      "url": "https://macclesfieldfc.com/latest-news/silkmen-named-as-north-cheshire-business-awards-ambassador-of-the-year-finalist/",
-      "published": "2026-06-18T15:00:27Z"
     },
     {
       "club": "Rochdale",
@@ -1311,15 +1257,6 @@
       "published": "2026-06-18T13:35:54Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "FATHER’S DAY AT BAR TWENTY SEVEN",
-      "url": "https://macclesfieldfc.com/latest-news/fathers-day-in-bar-twenty-seven/",
-      "published": "2026-06-18T13:00:22Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1336,15 +1273,6 @@
       "title": "Watch: Walker speaks",
       "url": "https://harriers.co.uk/news/2026/06/18/watch-walker-speaks/",
       "published": "2026-06-18T12:50:17Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "BEST OF FAN CAM IN DECEMBER",
-      "url": "https://macclesfieldfc.com/galleries/best-of-fan-cam-in-december/",
-      "published": "2026-06-18T12:00:15Z"
     },
     {
       "club": "Kidderminster Harriers",
@@ -1480,6 +1408,78 @@
       "title": "Promotion Trophy Tour",
       "url": "https://rochdaleafc.co.uk/promotion-trophy-tour/",
       "published": "2026-06-18T08:48:49Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Tickets on Sale Now For Ghana & Panama Fixtures 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "url": "https://afcfylde.co.uk/news/2026/june/18/tickets-on-sale-now-for-ghana---panama-fixtures/",
+      "published": "2026-06-18T07:31:00Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Become A Southport FC Player For The Day",
+      "url": "https://southportfc.net/become-a-southport-fc-player-for-the-day/",
+      "published": "2026-06-18T06:52:24Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Olly Crankshaw leaves Alty",
+      "url": "https://altrinchamfc.com/blogs/news/olly-crankshaw-leaves-alty",
+      "published": "2026-06-17T18:20:44Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "First Interview | Michael Nottingham",
+      "url": "https://radcliffefc.com/first-interview-michael-nottingham/",
+      "published": "2026-06-17T18:03:50Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Tom Wraight signs new two-year deal",
+      "url": "https://hornchurchfc.com/tom-wraight-signs-new-two-year-deal/",
+      "published": "2026-06-17T18:00:34Z"
+    },
+    {
+      "club": "Morecambe",
+      "code": "MOR",
+      "short": "Morecambe",
+      "domain": "morecambefc.com",
+      "title": "LAKELAND AND WALKER BACK COMMUNITY FOUNDATION'S WORK",
+      "url": "https://www.morecambefc.com/news/2026/june/17/lakeland-and-walker-back-community-foundation-s-work/",
+      "published": "2026-06-17T18:00:00Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Interview: Tom Wraight",
+      "url": "https://hornchurchfc.com/interview-tom-wraight/",
+      "published": "2026-06-17T17:58:39Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Michael Nottingham Joins Radcliffe",
+      "url": "https://radcliffefc.com/michael-nottingham-joins-radcliffe/",
+      "published": "2026-06-17T17:58:06Z"
     }
   ]
 }
