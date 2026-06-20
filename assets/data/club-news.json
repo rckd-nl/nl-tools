@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-20T13:16:20Z",
+  "generatedAt": "2026-06-20T15:17:20Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3758,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=283f2e81-6e21-45ca-be24-5d5ce4abae4f",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=7e24f9eb-c931-4a03-80f5-0a87e25d2517",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,60 @@
   ],
   "items": [
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "FGR Head Of Community Update",
+      "url": "https://www.fgr.co.uk/news/fgr-head-of-community-update/",
+      "published": "2026-06-20T15:00:00Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "A first chat with Billy Waters",
+      "url": "https://chesterfc.com/06/20/a-first-chat-with-billy-waters/",
+      "published": "2026-06-20T14:10:40Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Welcome to the Urchins, Josh Walker!",
+      "url": "https://hornchurchfc.com/welcome-to-the-urchins-josh-walker/",
+      "published": "2026-06-20T14:00:30Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "First Interview: Josh Walker",
+      "url": "https://hornchurchfc.com/first-interview-josh-walker/",
+      "published": "2026-06-20T13:59:49Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Gallery: Josh Walker Signs ✍️",
+      "url": "https://hornchurchfc.com/gallery-josh-walker-signs-%e2%9c%8d%ef%b8%8f/",
+      "published": "2026-06-20T13:59:12Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Watch England’s group games in the Spitfire Lounge",
+      "url": "https://maidstoneunited.co.uk/06/20/watch-englands-group-games-in-the-spitfire-lounge/",
+      "published": "2026-06-20T13:30:40Z"
+    },
+    {
       "club": "York City",
       "code": "YOR",
       "short": "York",
@@ -625,6 +679,15 @@
       "title": "Momodou Jallow signs for 26/27",
       "url": "https://doverathletic.com/news/momodou-jallow-signs-for-26-27/",
       "published": "2026-06-20T08:38:31Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Maidstone United Quiz Night",
+      "url": "https://maidstoneunited.co.uk/06/20/maidstone-utd-quiz-night/",
+      "published": "2026-06-20T08:00:22Z"
     },
     {
       "club": "Macclesfield",
@@ -976,6 +1039,15 @@
       "title": "SIGNING | Defender James to Remain with Hereford",
       "url": "https://herefordfc.co.uk/2026/06/signing-defender-james-to-remain-with-hereford/",
       "published": "2026-06-19T11:30:49Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "New GK & Set-Piece Coach",
+      "url": "https://www.fgr.co.uk/news/fgr-welcome-jonathan-gould/",
+      "published": "2026-06-19T11:29:00Z"
     },
     {
       "club": "Chippenham Town",
@@ -1408,78 +1480,6 @@
       "title": "Boss delighted with Walker capture",
       "url": "https://harriers.co.uk/news/2026/06/18/boss-delighted-with-walker-capture/",
       "published": "2026-06-18T11:40:25Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "SIGNING | Striker Waldron Snapped Up by Bulls",
-      "url": "https://herefordfc.co.uk/2026/06/signing-striker-waldron-snapped-up-by-bulls/",
-      "published": "2026-06-18T11:30:43Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Miller’s Summer Diary: Excitement Building",
-      "url": "https://spennymoortownfc.co.uk/2026/06/18/millers-summer-diary-excitement-building/",
-      "published": "2026-06-18T11:13:32Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "New Sponsor: Bohunt Farnborough",
-      "url": "https://farnboroughfc.co.uk/2026/06/new-sponsor-bohunt-farnborough/",
-      "published": "2026-06-18T11:00:52Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Welcome Back, Makai!",
-      "url": "https://hornchurchfc.com/welcome-back-makai-3/",
-      "published": "2026-06-18T11:00:21Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Gallery: Makai Welch returns ✍️",
-      "url": "https://hornchurchfc.com/gallery-makai-welch-returns-%e2%9c%8d%ef%b8%8f/",
-      "published": "2026-06-18T10:59:39Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "First Interview: Makai Welch",
-      "url": "https://hornchurchfc.com/first-interview-makai-welch/",
-      "published": "2026-06-18T10:59:01Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Tom Parker Creamery Join Yeovil Town as Official Partner",
-      "url": "https://ytfc.net/2026/06/tom-parker-creamery-join-yeovil-town-as-official-partner/",
-      "published": "2026-06-18T10:40:45Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "ADAM ANSON – CROWDFUNDER",
-      "url": "https://marinefc.com/adam-anson-crowdfunder/",
-      "published": "2026-06-18T10:25:13Z"
     }
   ]
 }
