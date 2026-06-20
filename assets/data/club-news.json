@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-20T06:04:59Z",
+  "generatedAt": "2026-06-20T09:40:49Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.carlisleunited.co.uk/rss.xml",
+      "ok": true,
+      "count": 50,
+      "error": ""
     },
     {
       "club": "Eastleigh",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=6e99590e-ae17-4ff9-a453-2852b8b15269",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=092561b6-4dab-456e-b537-fc7bcf10088a",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Momodou Jallow signs for 26/27",
+      "url": "https://doverathletic.com/news/momodou-jallow-signs-for-26-27/",
+      "published": "2026-06-20T08:38:31Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -645,6 +654,15 @@
       "published": "2026-06-19T18:29:55Z"
     },
     {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "MIGUEL AZEEZ: “I WANT TO BRING HAPPINESS TO THE FANS.”",
+      "url": "https://www.carlisleunited.co.uk/news/miguel-azeez-i-want-bring-happiness-fans",
+      "published": "2026-06-19T18:15:00Z"
+    },
+    {
       "club": "Chesham United",
       "code": "CHU",
       "short": "Chesham",
@@ -697,6 +715,15 @@
       "title": "MIGUEL AZEEZ DEPARTS THE SHRIMPS",
       "url": "https://www.morecambefc.com/news/2026/june/19/miguel-azeez-departs-the-shrimps/",
       "published": "2026-06-19T17:00:00Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "AZEEZ BECOMES THE FIRST SIGNING OF THE SUMMER",
+      "url": "https://www.carlisleunited.co.uk/news/azeez-becomes-first-signing-summer",
+      "published": "2026-06-19T16:59:00Z"
     },
     {
       "club": "Chester",
@@ -1203,15 +1230,6 @@
       "published": "2026-06-18T16:59:15Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Dom gets his man",
-      "url": "https://www.horshamfc.co.uk/2026/06/18/dom-gets-his-man-2/",
-      "published": "2026-06-18T16:58:54Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1374,6 +1392,15 @@
       "published": "2026-06-18T12:00:15Z"
     },
     {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "LOUIS STOREY: “I WANT TO BE PART OF THAT JOURNEY”",
+      "url": "https://www.carlisleunited.co.uk/news/louis-storey-i-want-be-part-journey",
+      "published": "2026-06-18T12:00:00Z"
+    },
+    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -1453,33 +1480,6 @@
       "title": "ADAM ANSON – CROWDFUNDER",
       "url": "https://marinefc.com/adam-anson-crowdfunder/",
       "published": "2026-06-18T10:25:13Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Ascot & World Cup Double Header at Victoria Road",
-      "url": "https://daggers.co.uk/ascot-world-cup-double-header-at-victoria-road/",
-      "published": "2026-06-18T10:10:00Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Matchday Pitch Maintenance Volunteers Wanted",
-      "url": "https://eastleighfc.com/2026/06/matchday-pitch-maintenance-volunteers-wanted/",
-      "published": "2026-06-18T09:41:38Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Scout Report: Harrogate Town",
-      "url": "https://southendunited.co.uk/news/2026/june/18/scout-report--harrogate-town/",
-      "published": "2026-06-18T09:39:55Z"
     }
   ]
 }
