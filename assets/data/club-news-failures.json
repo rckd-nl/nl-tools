@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-19T23:17:34Z",
+  "generatedAt": "2026-06-20T01:33:04Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -41,6 +41,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 202"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "domain": "fgr.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Solihull Moors",
@@ -101,7 +109,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=8bb929fe-2f22-4534-b527-636a42333a4a",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=1b756019-9c5d-4311-8374-4c1321ee0856",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -129,14 +137,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 503"
     },
     {
       "club": "Merthyr Town",
@@ -225,14 +225,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
