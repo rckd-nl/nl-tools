@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-21T00:24:50Z",
+  "generatedAt": "2026-06-21T05:36:45Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3758,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.fgr.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=7bedbbde-f91f-4071-8ca0-2614200d99ae",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=c308f4bb-0239-46ff-b5c9-1cf0a4dca9b5",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -607,15 +607,6 @@
       "title": "Danny Whitehead Joins The Nash",
       "url": "https://curzon-ashton.co.uk/danny-whitehead-joins-the-nash/",
       "published": "2026-06-20T16:00:22Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "FGR Head Of Community Update",
-      "url": "https://www.fgr.co.uk/news/fgr-head-of-community-update/",
-      "published": "2026-06-20T15:00:00Z"
     },
     {
       "club": "Chester",
@@ -1050,15 +1041,6 @@
       "published": "2026-06-19T11:30:49Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "New GK & Set-Piece Coach",
-      "url": "https://www.fgr.co.uk/news/fgr-welcome-jonathan-gould/",
-      "published": "2026-06-19T11:29:00Z"
-    },
-    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -1320,15 +1302,6 @@
       "published": "2026-06-18T16:59:15Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Dom gets his man",
-      "url": "https://www.horshamfc.co.uk/2026/06/18/dom-gets-his-man-2/",
-      "published": "2026-06-18T16:58:54Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1480,6 +1453,33 @@
       "title": "Watch: Walker speaks",
       "url": "https://harriers.co.uk/news/2026/06/18/watch-walker-speaks/",
       "published": "2026-06-18T12:50:17Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Boss delighted with Walker capture",
+      "url": "https://harriers.co.uk/news/2026/06/18/boss-delighted-with-walker-capture/",
+      "published": "2026-06-18T11:40:25Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "SIGNING | Striker Waldron Snapped Up by Bulls",
+      "url": "https://herefordfc.co.uk/2026/06/signing-striker-waldron-snapped-up-by-bulls/",
+      "published": "2026-06-18T11:30:43Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Miller’s Summer Diary: Excitement Building",
+      "url": "https://spennymoortownfc.co.uk/2026/06/18/millers-summer-diary-excitement-building/",
+      "published": "2026-06-18T11:13:32Z"
     }
   ]
 }
