@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-20T22:53:07Z",
+  "generatedAt": "2026-06-21T00:24:50Z",
   "maxItems": 100,
   "sources": [
     {
@@ -14,10 +14,10 @@
     {
       "club": "Altrincham",
       "domain": "altrinchamfc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://altrinchamfc.com/blogs/news.atom",
+      "ok": true,
+      "count": 30,
+      "error": ""
     },
     {
       "club": "Boreham Wood",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=f8922904-5f7d-4fdd-a2c6-0b71b601b660",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=7bedbbde-f91f-4071-8ca0-2614200d99ae",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -888,6 +888,15 @@
       "published": "2026-06-19T15:27:23Z"
     },
     {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Chairman's Summer Update",
+      "url": "https://altrinchamfc.com/blogs/news/chairmans-update",
+      "published": "2026-06-19T15:03:11Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1471,15 +1480,6 @@
       "title": "Watch: Walker speaks",
       "url": "https://harriers.co.uk/news/2026/06/18/watch-walker-speaks/",
       "published": "2026-06-18T12:50:17Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Boss delighted with Walker capture",
-      "url": "https://harriers.co.uk/news/2026/06/18/boss-delighted-with-walker-capture/",
-      "published": "2026-06-18T11:40:25Z"
     }
   ]
 }
