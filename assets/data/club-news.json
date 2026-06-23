@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-23T22:42:23Z",
+  "generatedAt": "2026-06-23T23:44:00Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,18 +78,18 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3762,
+      "error": ""
     },
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -118,10 +118,10 @@
     {
       "club": "Scunthorpe United",
       "domain": "scunthorpe-united.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://www.scunthorpe-united.co.uk/feed/",
+      "ok": true,
+      "count": 4,
+      "error": ""
     },
     {
       "club": "Solihull Moors",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=44406f73-363d-4541-9c3b-8cad92ac64b3",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=8c0e833a-ecf3-420d-b50c-f3c25dced5be",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://harriers.co.uk/feed/",
+      "ok": true,
+      "count": 20,
+      "error": ""
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -430,18 +430,18 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://dwfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Dover Athletic",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -636,13 +636,13 @@
       "published": "2026-06-23T18:00:00Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Jack Bateson is a Dagger",
-      "url": "https://daggers.co.uk/jack-bateson-is-a-dagger/",
-      "published": "2026-06-23T17:00:00Z"
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "DORKING WANDERERS FC WELCOMES FRANK VILLARES AND DEBRA TUCKER AS CO-OWNERS",
+      "url": "https://dwfc.co.uk/2026/06/dorking-wanderers-fc-welcomes-frank-villares-and-debra-tucker-as-co-owners/",
+      "published": "2026-06-23T17:00:11Z"
     },
     {
       "club": "Macclesfield",
@@ -679,6 +679,15 @@
       "title": "Graeme Hewitt appointed First Team Goalkeeper Coach",
       "url": "https://chesterfc.com/06/23/graeme-hewitt-appointed-first-team-goalkeeper-coach/",
       "published": "2026-06-23T15:30:12Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Reagan Ogle rejoins the Iron as fourth summer signing",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/reagan-ogle-rejoins-the-iron-as-fourth-summer-signing/",
+      "published": "2026-06-23T15:30:00Z"
     },
     {
       "club": "Macclesfield",
@@ -735,15 +744,6 @@
       "published": "2026-06-23T14:52:27Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Pre-Season Tickets Now Live!",
-      "url": "https://daggers.co.uk/pre-season-tickets-now-live/",
-      "published": "2026-06-23T14:30:00Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -762,6 +762,15 @@
       "published": "2026-06-23T14:02:01Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Yahya Leaves FGR",
+      "url": "https://www.fgr.co.uk/news/yahya-leaves-fgr/",
+      "published": "2026-06-23T13:30:00Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -769,15 +778,6 @@
       "title": "NEWS | Bulls Membership Open With MandM Bonus",
       "url": "https://herefordfc.co.uk/2026/06/news-bulls-membership-open-with-mandm-bonus/",
       "published": "2026-06-23T13:13:36Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Daggers Fans Forum Confirmed For July 9",
-      "url": "https://daggers.co.uk/daggers-fans-forum-confirmed-for-july-9/",
-      "published": "2026-06-23T13:10:35Z"
     },
     {
       "club": "Macclesfield",
@@ -796,6 +796,15 @@
       "title": "Access All Areas: Ibrahim Bakare’s first day in Eastleigh",
       "url": "https://eastleighfc.com/2026/06/access-all-areas-ibrahim-bakares-first-day-in-eastleigh/",
       "published": "2026-06-23T12:36:27Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Walking Football Friendlies",
+      "url": "https://southportfc.net/walking-football-friendlies/",
+      "published": "2026-06-23T12:15:21Z"
     },
     {
       "club": "Tonbridge Angels",
@@ -861,6 +870,15 @@
       "published": "2026-06-23T11:20:22Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Options Taken Up",
+      "url": "https://southportfc.net/options-taken-up/",
+      "published": "2026-06-23T11:01:05Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -906,6 +924,15 @@
       "published": "2026-06-23T10:05:10Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Contracts Signed For The 26/27 Season",
+      "url": "https://southportfc.net/contracts-signed-for-the-26-27-season/",
+      "published": "2026-06-23T10:02:31Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -922,6 +949,24 @@
       "title": "Turner sold to Sholing",
       "url": "https://farnboroughfc.co.uk/2026/06/turner-sold-to-sholing/",
       "published": "2026-06-23T10:00:06Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Cian Heads Out On Loan",
+      "url": "https://www.fgr.co.uk/news/harries-on-loan-kidderminster/",
+      "published": "2026-06-23T09:45:00Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Harries the Harrier",
+      "url": "https://harriers.co.uk/news/2026/06/23/harries-the-harrier/",
+      "published": "2026-06-23T09:44:21Z"
     },
     {
       "club": "Yeovil Town",
@@ -967,6 +1012,15 @@
       "title": "Jimmy Ball | 2026/27 Pre-Season Update | June",
       "url": "https://torquayunited.com/jimmy-ball-2026-27-pre-season-update-june/",
       "published": "2026-06-23T07:56:20Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Trevor Hitchen | Obituary By Michael Braham",
+      "url": "https://southportfc.net/trevor-hitchen-obituary-by-michael-braham/",
+      "published": "2026-06-22T19:23:14Z"
     },
     {
       "club": "Eastleigh",
@@ -1023,6 +1077,15 @@
       "published": "2026-06-22T17:56:38Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Charity Match Tickets Now On Sale",
+      "url": "https://southportfc.net/charity-match-tickets-now-on-sale/",
+      "published": "2026-06-22T17:20:56Z"
+    },
+    {
       "club": "Dover Athletic",
       "code": "DOV",
       "short": "Dover",
@@ -1077,15 +1140,6 @@
       "published": "2026-06-22T16:31:32Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Sports Pundit’s Inaugural Football Media Summit Comes To Victoria Road",
-      "url": "https://daggers.co.uk/sports-pundits-inaugural-football-media-summit-comes-to-victoria-road/",
-      "published": "2026-06-22T16:27:33Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1120,6 +1174,15 @@
       "title": "Scout Report: Worthing FC",
       "url": "https://southendunited.co.uk/news/2026/june/22/scout-report--worthing-fc/",
       "published": "2026-06-22T15:44:27Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "National League Cup 26/27",
+      "url": "https://www.fgr.co.uk/news/national-league-cup-2627/",
+      "published": "2026-06-22T14:45:00Z"
     },
     {
       "club": "Southend United",
@@ -1158,6 +1221,15 @@
       "published": "2026-06-22T12:47:43Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Partnership | Back Market",
+      "url": "https://www.fgr.co.uk/news/partnership-back-market-26/",
+      "published": "2026-06-22T12:45:00Z"
+    },
+    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -1167,6 +1239,15 @@
       "published": "2026-06-22T11:50:00Z"
     },
     {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Frazer Bell departs Gateshead FC",
+      "url": "https://gateshead-fc.com/frazer-bell-departs-gateshead-fc/",
+      "published": "2026-06-22T11:29:03Z"
+    },
+    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1174,6 +1255,15 @@
       "title": "Reg Barton (1942 – 2026)",
       "url": "https://chesterfc.com/06/22/reg-barton-1942-2026/",
       "published": "2026-06-22T11:29:03Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Tom Moore Departs The Club",
+      "url": "https://southportfc.net/tom-moore-departs-the-club/",
+      "published": "2026-06-22T11:21:34Z"
     },
     {
       "club": "Maidstone United",
@@ -1201,6 +1291,15 @@
       "title": "Olly Dyson Departs Spennymoor Town",
       "url": "https://spennymoortownfc.co.uk/2026/06/22/olly-dyson-departs-spennymoor-town/",
       "published": "2026-06-22T10:55:00Z"
+    },
+    {
+      "club": "Scunthorpe United",
+      "code": "SCU",
+      "short": "Scunthorpe",
+      "domain": "scunthorpe-united.co.uk",
+      "title": "Ticket office and club shop opening hours w/c June 22nd",
+      "url": "https://www.scunthorpe-united.co.uk/news/2026/june/ticket-office-and-club-shop-opening-hours-w-c-june-22nd/",
+      "published": "2026-06-22T09:13:27Z"
     },
     {
       "club": "Spennymoor Town",
@@ -1381,105 +1480,6 @@
       "title": "This week at Gallagher Stadium (w/c 21/6/26)",
       "url": "https://maidstoneunited.co.uk/06/21/this-week-at-gallagher-stadium-w-c-21-6-26/",
       "published": "2026-06-20T23:01:42Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "ARCHIE MAIR: \"I WANT TO SETTLE IN AND MAKE MY MARK\"",
-      "url": "https://www.carlisleunited.co.uk/news/archie-mair-i-want-settle-and-make-my-mark",
-      "published": "2026-06-20T18:45:00Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "ARCHIE MAIR RETURNS ON PERMANENT DEAL",
-      "url": "https://www.carlisleunited.co.uk/news/archie-mair-returns-permanent-deal",
-      "published": "2026-06-20T17:59:00Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Danny’s First Words With The Nash",
-      "url": "https://curzon-ashton.co.uk/dannys-first-words-with-the-nash/",
-      "published": "2026-06-20T17:00:25Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Danny Whitehead Joins The Nash",
-      "url": "https://curzon-ashton.co.uk/danny-whitehead-joins-the-nash/",
-      "published": "2026-06-20T16:00:22Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "A first chat with Billy Waters",
-      "url": "https://chesterfc.com/06/20/a-first-chat-with-billy-waters/",
-      "published": "2026-06-20T14:10:40Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Welcome to the Urchins, Josh Walker!",
-      "url": "https://hornchurchfc.com/welcome-to-the-urchins-josh-walker/",
-      "published": "2026-06-20T14:00:30Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "First Interview: Josh Walker",
-      "url": "https://hornchurchfc.com/first-interview-josh-walker/",
-      "published": "2026-06-20T13:59:49Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Gallery: Josh Walker Signs ✍️",
-      "url": "https://hornchurchfc.com/gallery-josh-walker-signs-%e2%9c%8d%ef%b8%8f/",
-      "published": "2026-06-20T13:59:12Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "George Sykes-Kenworthy pens new contract",
-      "url": "https://yorkcityfootballclub.co.uk/george-sykes-kenworthy-pens-new-contract/",
-      "published": "2026-06-20T11:15:18Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "NEIL YOUNG – END OF AN ERA",
-      "url": "https://marinefc.com/neil-young-steps-down/",
-      "published": "2026-06-20T11:00:00Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Pre-Season Friendly Ticket Update",
-      "url": "https://torquayunited.com/pre-season-friendly-ticket-update/",
-      "published": "2026-06-20T11:00:00Z"
     }
   ]
 }
