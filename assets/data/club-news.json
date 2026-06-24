@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-24T22:43:48Z",
+  "generatedAt": "2026-06-24T23:52:12Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "https://www.carlisleunited.co.uk/rss.xml",
-      "ok": true,
-      "count": 50,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Eastleigh",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=692d4f76-faef-45a2-ab6e-b64b59fe6203",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=ee74dfd7-a019-4acd-a31f-e4b75e4049bc",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -724,15 +724,6 @@
       "title": "Eastleigh to host Southampton in annual pre-season friendly",
       "url": "https://eastleighfc.com/2026/06/eastleigh-to-host-southampton-in-annual-pre-season-friendly/",
       "published": "2026-06-24T13:59:02Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "CARLISLE UNITED TO HOST FAMILY FUN DAY AT BRUNTON PARK IN JULY",
-      "url": "https://www.carlisleunited.co.uk/news/carlisle-united-host-family-fun-day-brunton-park-july",
-      "published": "2026-06-24T13:45:00Z"
     },
     {
       "club": "Hartlepool United",
@@ -1374,15 +1365,6 @@
       "published": "2026-06-23T09:00:37Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "SALFORD CITY FRIENDLY ADDED TO PRE-SEASON SCHEDULE",
-      "url": "https://www.carlisleunited.co.uk/news/salford-city-friendly-added-pre-season-schedule",
-      "published": "2026-06-23T08:59:33Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1480,6 +1462,24 @@
       "title": "Player News – Luke Russe departs to join Salisbury",
       "url": "https://www.bathcityfc.com/player-news-luke-russe-departs-to-join-salisbury/",
       "published": "2026-06-22T17:00:57Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Harry Barber-Olufowobi Signs First Professional Contract",
+      "url": "https://curzon-ashton.co.uk/harry-barber-olufowobi-interview/",
+      "published": "2026-06-22T17:00:21Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "National League Lowdown: AFC Fylde",
+      "url": "https://worthingfc.com/2026/06/national-league-lowdown-afc-fylde/",
+      "published": "2026-06-22T16:44:42Z"
     }
   ]
 }
