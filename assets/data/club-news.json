@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-25T04:36:02Z",
+  "generatedAt": "2026-06-25T08:06:39Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.carlisleunited.co.uk/rss.xml",
+      "ok": true,
+      "count": 50,
+      "error": ""
     },
     {
       "club": "Eastleigh",
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3763,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=d65d310e-252b-4db5-be52-19b75853b052",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=8c0178eb-f2c9-42a2-aedc-2527be739410",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -726,6 +726,15 @@
       "published": "2026-06-24T13:59:02Z"
     },
     {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "CARLISLE UNITED TO HOST FAMILY FUN DAY AT BRUNTON PARK IN JULY",
+      "url": "https://www.carlisleunited.co.uk/news/carlisle-united-host-family-fun-day-brunton-park-july",
+      "published": "2026-06-24T13:45:00Z"
+    },
+    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -843,6 +852,15 @@
       "published": "2026-06-24T10:29:56Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Quiz Night at the Clubhouse!",
+      "url": "https://www.horshamfc.co.uk/2026/06/24/quiz-night-at-the-clubhouse/",
+      "published": "2026-06-24T10:22:57Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -904,15 +922,6 @@
       "title": "Blackpool Tickets on Sale Now!",
       "url": "https://afcfylde.co.uk/news/2026/june/24/blackpool-tickets-on-sale-now-/",
       "published": "2026-06-24T08:55:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Missing The New Lawn?",
-      "url": "https://www.fgr.co.uk/news/new-lawn-asmr-4k/",
-      "published": "2026-06-24T08:45:00Z"
     },
     {
       "club": "Spennymoor Town",
@@ -1122,15 +1131,6 @@
       "published": "2026-06-23T14:02:01Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Yahya Leaves FGR",
-      "url": "https://www.fgr.co.uk/news/yahya-leaves-fgr/",
-      "published": "2026-06-23T13:30:00Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1284,15 +1284,6 @@
       "published": "2026-06-23T10:00:06Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Cian Heads Out On Loan",
-      "url": "https://www.fgr.co.uk/news/harries-on-loan-kidderminster/",
-      "published": "2026-06-23T09:45:00Z"
-    },
-    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -1318,6 +1309,15 @@
       "title": "Forever Dale Results – 24th June 2026",
       "url": "https://nycdaweeklydraw.co.uk/foreverdale/winners.php?date=20260624",
       "published": "2026-06-23T09:00:37Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "SALFORD CITY FRIENDLY ADDED TO PRE-SEASON SCHEDULE",
+      "url": "https://www.carlisleunited.co.uk/news/salford-city-friendly-added-pre-season-schedule",
+      "published": "2026-06-23T08:59:33Z"
     },
     {
       "club": "Southend United",
