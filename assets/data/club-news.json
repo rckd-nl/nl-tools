@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-26T17:26:46Z",
+  "generatedAt": "2026-06-26T19:25:40Z",
   "maxItems": 100,
   "sources": [
     {
@@ -38,10 +38,10 @@
     {
       "club": "Brackley Town",
       "domain": "brackleytownfc.com",
-      "feed": "pitchero:/news (scrape)",
+      "feed": "",
       "ok": false,
       "count": 0,
-      "error": "Pitchero scrape returned 0 usable items"
+      "error": "HTTP 403"
     },
     {
       "club": "Braintree Town",
@@ -57,7 +57,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 403"
     },
     {
       "club": "Eastleigh",
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3766,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=fe8613ad-9fcc-4df9-8272-c653e1b814b9",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=adce5b59-155c-403b-b398-f4f6dffc0616",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,78 @@
     }
   ],
   "items": [
+    {
+      "club": "Chesham United",
+      "code": "CHU",
+      "short": "Chesham",
+      "domain": "cheshamunited.co.uk",
+      "title": "Notes from the Chair – 26th June 2026",
+      "url": "https://cheshamunited.co.uk/2026/06/notes-from-the-chair-26th-june-2026/",
+      "published": "2026-06-26T19:01:04Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "James Berry Joins FGR On Loan",
+      "url": "https://www.fgr.co.uk/news/james-berry-joins-on-loan/",
+      "published": "2026-06-26T19:00:00Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "York City secure Arthur Read as latest summer signing",
+      "url": "https://yorkcityfootballclub.co.uk/york-city-secure-arthur-read-as-latest-summer-signing/",
+      "published": "2026-06-26T18:30:04Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Regan Miles | Marjon University Testing | Flight Plan",
+      "url": "https://torquayunited.com/regan-miles-marjon-university-testing-flight-plan/",
+      "published": "2026-06-26T18:23:13Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Marjon University Fitness Testing | Flight Plan",
+      "url": "https://torquayunited.com/marjon-university-fitness-testing-flight-plan/",
+      "published": "2026-06-26T18:12:18Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Welcome, Luke May-Parrott!",
+      "url": "https://etfc.london/welcome-luke-may-parrott/",
+      "published": "2026-06-26T18:06:23Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "First Interview: Jon Ustabasi",
+      "url": "https://macclesfieldfc.com/latest-news/first-interview-jon-ustabasi/",
+      "published": "2026-06-26T18:00:50Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Pre-Season: Community Day 2026",
+      "url": "https://farnboroughfc.co.uk/2026/06/pre-season-community-day-2026/",
+      "published": "2026-06-26T18:00:26Z"
+    },
     {
       "club": "York City",
       "code": "YOR",
@@ -868,6 +940,15 @@
       "title": "Sam Taylor becomes first of our new signings",
       "url": "https://altrinchamfc.com/blogs/news/sam-taylor-becomes-first-signing-of-the-summer",
       "published": "2026-06-26T11:58:21Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Favourite WC Kits",
+      "url": "https://www.fgr.co.uk/news/players-favourite-wc-kits/",
+      "published": "2026-06-26T11:30:00Z"
     },
     {
       "club": "Southend United",
@@ -1176,15 +1257,6 @@
       "published": "2026-06-25T16:15:33Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "BEST OF FAN CAM IN MARCH",
-      "url": "https://macclesfieldfc.com/galleries/best-of-fan-cam-in-march/",
-      "published": "2026-06-25T16:15:20Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1246,6 +1318,15 @@
       "title": "JACK McINTYRE SIGNS",
       "url": "https://marinefc.com/jack-mcintyre-signs/",
       "published": "2026-06-25T14:02:26Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Away Travel Prices FROZEN for the 2026/27 Season!",
+      "url": "https://www.fgr.co.uk/news/away-travel-prices-frozen-2627/",
+      "published": "2026-06-25T14:00:00Z"
     },
     {
       "club": "York City",
@@ -1399,87 +1480,6 @@
       "title": "Kian Jenkins | First Interview",
       "url": "https://torquayunited.com/kian-jenkins-first-interview/",
       "published": "2026-06-25T08:51:47Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Samson inks fresh Reds deal",
-      "url": "https://harriers.co.uk/news/2026/06/25/samson-inks-fresh-reds-deal/",
-      "published": "2026-06-25T08:23:16Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Trevor Hitchen Funeral Arrangements-Updated With Donation Details",
-      "url": "https://southportfc.net/trevor-hitchen-funeral-arrangements/",
-      "published": "2026-06-25T07:51:12Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Inclusive Blues Meeting Cancelled",
-      "url": "https://chesterfc.com/06/24/inclusive-blues-meeting-cancelled/",
-      "published": "2026-06-24T20:12:15Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Welcome to Farnborough: Tyler Frost",
-      "url": "https://farnboroughfc.co.uk/2026/06/welcome-to-farnborough-tyler-frost/",
-      "published": "2026-06-24T18:00:57Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Get to know Danny Whitehead and Harry Barber-Olufowobi",
-      "url": "https://curzon-ashton.co.uk/get-to-know-danny-and-harry/",
-      "published": "2026-06-24T17:00:50Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Club legend Brian Honour appointed Matchday Ambassador",
-      "url": "https://www.hartlepoolunited.co.uk/club-legend-brian-honour-appointed-matchday-ambassador/",
-      "published": "2026-06-24T16:56:56Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Club launches internship scheme",
-      "url": "https://hornchurchfc.com/club-launches-internship-scheme/",
-      "published": "2026-06-24T16:51:49Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Argyle Tickets on General Sale",
-      "url": "https://trurocity.co.uk/2026/06/argyle-tickets-on-general-sale/",
-      "published": "2026-06-24T16:07:23Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Joe Haigh Joins Yeovil Town on Two-Year Deal",
-      "url": "https://ytfc.net/2026/06/joe-haigh-joins-yeovil-town-on-two-year-deal/",
-      "published": "2026-06-24T16:00:54Z"
     }
   ]
 }

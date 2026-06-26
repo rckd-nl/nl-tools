@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-26T17:26:46Z",
+  "generatedAt": "2026-06-26T19:25:40Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -21,10 +21,10 @@
     {
       "club": "Brackley Town",
       "domain": "brackleytownfc.com",
-      "feed": "pitchero:/news (scrape)",
+      "feed": "",
       "ok": false,
       "count": 0,
-      "error": "Pitchero scrape returned 0 usable items"
+      "error": "HTTP 403"
     },
     {
       "club": "Braintree Town",
@@ -40,15 +40,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Morecambe",
@@ -125,7 +117,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=fe8613ad-9fcc-4df9-8272-c653e1b814b9",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=adce5b59-155c-403b-b398-f4f6dffc0616",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -256,7 +248,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Salisbury",
