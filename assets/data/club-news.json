@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-26T01:58:05Z",
+  "generatedAt": "2026-06-26T06:26:16Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3764,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=5e537fd5-de18-4e2e-92f3-8156f32ab249",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=3a611670-12f4-492b-aa7f-7cfb177f2f1e",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -807,15 +807,6 @@
       "published": "2026-06-25T14:02:26Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Away Travel Prices FROZEN for the 2026/27 Season!",
-      "url": "https://www.fgr.co.uk/news/away-travel-prices-frozen-2627/",
-      "published": "2026-06-25T14:00:00Z"
-    },
-    {
       "club": "York City",
       "code": "YOR",
       "short": "York",
@@ -1320,15 +1311,6 @@
       "published": "2026-06-24T08:55:00Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Missing The New Lawn?",
-      "url": "https://www.fgr.co.uk/news/new-lawn-asmr-4k/",
-      "published": "2026-06-24T08:45:00Z"
-    },
-    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -1480,6 +1462,24 @@
       "title": "MARINE APPOINT JIMMY HOLMES AS DIRECTOR OF FOOTBALL",
       "url": "https://marinefc.com/marine-appoint-jimmy-holmes-as-director-of-football/",
       "published": "2026-06-23T15:00:00Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Carabao Cup Round One Draw details confirmed",
+      "url": "https://yorkcityfootballclub.co.uk/carabao-cup-round-one-draw-details-confirmed/",
+      "published": "2026-06-23T14:59:25Z"
+    },
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Welcome Dequane Wilson-Braithwaite",
+      "url": "https://doverathletic.com/news/welcome-dequane-wilson-braithwaite/",
+      "published": "2026-06-23T14:55:00Z"
     }
   ]
 }
