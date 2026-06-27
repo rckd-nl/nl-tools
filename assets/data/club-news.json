@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-27T04:18:16Z",
+  "generatedAt": "2026-06-27T07:31:45Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.carlisleunited.co.uk/rss.xml",
+      "ok": true,
+      "count": 50,
+      "error": ""
     },
     {
       "club": "Eastleigh",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=1ce79eac-cc0a-4488-a360-c61b752916e9",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=2d0d10e4-5f59-476c-b684-cd4127a5d31a",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "GOALS | Ed’s Army 4 – 4 Trego Thrashers (3-4 on pens) | Staff Match 2026",
+      "url": "https://wsmafc.co.uk/goals-eds-army-4-4-trego-thrashers-3-4-on-pens-staff-match-2026/",
+      "published": "2026-06-27T06:00:51Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -1471,15 +1480,6 @@
       "title": "We’re Recruiting!",
       "url": "https://www.horshamfc.co.uk/2026/06/25/were-recruiting-2/",
       "published": "2026-06-25T10:54:31Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "B&C Security Services renews for a 9th consecutive season",
-      "url": "https://www.borehamwoodfootballclub.co.uk/bc-security-services-renews-for-a-9th-consecutive-season/",
-      "published": "2026-06-25T10:20:58Z"
     }
   ]
 }
