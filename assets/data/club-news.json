@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-26T23:50:51Z",
+  "generatedAt": "2026-06-27T04:18:16Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "https://www.carlisleunited.co.uk/rss.xml",
-      "ok": true,
-      "count": 50,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Eastleigh",
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3766,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=13fca6c8-5432-4563-b9bf-61eb152d7709",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=1ce79eac-cc0a-4488-a360-c61b752916e9",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -627,6 +627,15 @@
       "published": "2026-06-26T19:01:04Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "James Berry Joins FGR On Loan",
+      "url": "https://www.fgr.co.uk/news/james-berry-joins-on-loan/",
+      "published": "2026-06-26T19:00:00Z"
+    },
+    {
       "club": "York City",
       "code": "YOR",
       "short": "York",
@@ -967,6 +976,15 @@
       "title": "Sam Taylor becomes first of our new signings",
       "url": "https://altrinchamfc.com/blogs/news/sam-taylor-becomes-first-signing-of-the-summer",
       "published": "2026-06-26T11:58:21Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Favourite WC Kits",
+      "url": "https://www.fgr.co.uk/news/players-favourite-wc-kits/",
+      "published": "2026-06-26T11:30:00Z"
     },
     {
       "club": "Southend United",
@@ -1347,6 +1365,15 @@
       "published": "2026-06-25T14:02:26Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Away Travel Prices FROZEN for the 2026/27 Season!",
+      "url": "https://www.fgr.co.uk/news/away-travel-prices-frozen-2627/",
+      "published": "2026-06-25T14:00:00Z"
+    },
+    {
       "club": "York City",
       "code": "YOR",
       "short": "York",
@@ -1453,33 +1480,6 @@
       "title": "B&C Security Services renews for a 9th consecutive season",
       "url": "https://www.borehamwoodfootballclub.co.uk/bc-security-services-renews-for-a-9th-consecutive-season/",
       "published": "2026-06-25T10:20:58Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Lottery: Wealdstone",
-      "url": "https://southendunited.co.uk/news/2026/june/25/lottery--wealdstone/",
-      "published": "2026-06-25T10:15:00Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Olly Tipton joins Harriers",
-      "url": "https://harriers.co.uk/news/2026/06/25/olly-tipton-joins-harriers/",
-      "published": "2026-06-25T09:37:17Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Could YOU Coach The Gulls Of The Future?",
-      "url": "https://torquayunited.com/can-you-coach-the-gulls-of-the-future/",
-      "published": "2026-06-25T09:32:34Z"
     }
   ]
 }
