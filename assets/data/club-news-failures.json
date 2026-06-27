@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-27T20:27:14Z",
+  "generatedAt": "2026-06-27T21:47:06Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -35,12 +35,12 @@
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
     },
     {
-      "club": "Forest Green Rovers",
-      "domain": "fgr.co.uk",
+      "club": "Carlisle United",
+      "domain": "carlisleunited.co.uk",
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Gateshead",
@@ -125,7 +125,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=ab5b52a3-7a04-46a4-b5f0-7eb67598806d",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=d55698c4-8b1d-479b-8fff-c7703143bdf0",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -265,14 +265,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
