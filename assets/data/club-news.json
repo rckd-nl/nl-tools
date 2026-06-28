@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-28T01:56:40Z",
+  "generatedAt": "2026-06-28T06:40:11Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "https://www.carlisleunited.co.uk/rss.xml",
-      "ok": true,
-      "count": 50,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Eastleigh",
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3767,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -110,10 +110,10 @@
     {
       "club": "Rochdale",
       "domain": "rochdaleafc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
+      "feed": "https://rochdaleafc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Scunthorpe United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=af86c4c6-f310-4e85-a389-511a53976d1b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=205c33a0-9caf-4717-b389-cfc0cc06f525",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -310,10 +310,10 @@
     {
       "club": "Marine",
       "domain": "marinefc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
+      "feed": "https://marinefc.com/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Merthyr Town",
@@ -762,6 +762,15 @@
       "published": "2026-06-27T11:00:00Z"
     },
     {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "ISAAC ABANKWAH SIGNS FOR MARINE",
+      "url": "https://marinefc.com/isaac-abankwah-signs-for-marine/",
+      "published": "2026-06-27T10:59:00Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -868,6 +877,15 @@
       "title": "Notes from the Chair – 26th June 2026",
       "url": "https://cheshamunited.co.uk/2026/06/notes-from-the-chair-26th-june-2026/",
       "published": "2026-06-26T19:01:04Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "James Berry Joins FGR On Loan",
+      "url": "https://www.fgr.co.uk/news/james-berry-joins-on-loan/",
+      "published": "2026-06-26T19:00:00Z"
     },
     {
       "club": "York City",
@@ -987,6 +1005,24 @@
       "published": "2026-06-26T16:59:43Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Events at FGR",
+      "url": "https://www.fgr.co.uk/news/events-at-fgr/",
+      "published": "2026-06-26T16:45:00Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Get Behind Our Bowlee Scheme",
+      "url": "https://rochdaleafc.co.uk/get-behind-our-bowlee-scheme/",
+      "published": "2026-06-26T16:25:53Z"
+    },
+    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1057,6 +1093,15 @@
       "title": "Strength & Conditioning Session | First Day of Pre-Season | 25.6.26",
       "url": "https://wsmafc.co.uk/strength-conditioning-session-first-day-of-pre-season-25-6-26/",
       "published": "2026-06-26T14:40:54Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Behind-The-Scenes At Volunteers Week",
+      "url": "https://rochdaleafc.co.uk/behind-the-scenes-at-volunteers-week/",
+      "published": "2026-06-26T14:34:01Z"
     },
     {
       "club": "Torquay United",
@@ -1176,6 +1221,15 @@
       "published": "2026-06-26T11:58:21Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Favourite WC Kits",
+      "url": "https://www.fgr.co.uk/news/players-favourite-wc-kits/",
+      "published": "2026-06-26T11:30:00Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1210,6 +1264,24 @@
       "title": "On The Road With The Gulls In Pre-Season",
       "url": "https://torquayunited.com/pre-season-friendly-ticket-update/",
       "published": "2026-06-26T11:00:00Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Second Home Pre-Season Friendly Confirmed",
+      "url": "https://rochdaleafc.co.uk/second-home-pre-season-friendly-confirmed/",
+      "published": "2026-06-26T10:58:14Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Dale’s Fixtures For EFL Return Revealed",
+      "url": "https://rochdaleafc.co.uk/dales-fixtures-for-efl-return-revealed/",
+      "published": "2026-06-26T10:57:15Z"
     },
     {
       "club": "York City",
@@ -1408,78 +1480,6 @@
       "title": "Club Statement: Walton & Hersham",
       "url": "https://ytfc.net/2026/06/club-statement-walton-hersham/",
       "published": "2026-06-25T16:01:23Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Club Statement – Introduction of Hybrid Full-Time Model for 2026/27",
-      "url": "https://chippenhamtown.com/06/25/club-statement-introduction-of-hybrid-full-time-model-for-2026-27/",
-      "published": "2026-06-25T16:00:58Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Collin Andeng Ndi To Depart Southend United",
-      "url": "https://southendunited.co.uk/news/2026/june/25/colin-adeng-ndi-to-leave-southend-united/",
-      "published": "2026-06-25T15:59:00Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "York City or Crawley Town drawn away to Watford in Carabao Cup Round One",
-      "url": "https://yorkcityfootballclub.co.uk/york-city-or-crawley-town-drawn-away-to-watford-in-carabao-cup-round-one/",
-      "published": "2026-06-25T15:42:54Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Gallery: England V Ghana At The Blue Eagle",
-      "url": "https://southendunited.co.uk/news/2026/june/25/gallery--england-v-ghana-at-the-blue-eagle/",
-      "published": "2026-06-25T14:35:38Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Newcastle United U21s complete the Minstermen’s EFL Trophy group",
-      "url": "https://yorkcityfootballclub.co.uk/newcastle-united-u21s-complete-the-minstermens-efl-trophy-group/",
-      "published": "2026-06-25T13:36:41Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Support club partners Maidstone Scaffolding at the River Festival Raft race in aid of the MS Trust",
-      "url": "https://maidstoneunited.co.uk/06/25/support-club-partners-maidstone-scaffolding-at-the-river-festival-raft-race-in-aid-of-the-ms-trust/",
-      "published": "2026-06-25T13:14:54Z"
-    },
-    {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "Town’s 25 years",
-      "url": "https://etfc.london/towns-25-years/",
-      "published": "2026-06-25T11:22:38Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Introducing the Alty FC Foundation",
-      "url": "https://altrinchamfc.com/blogs/news/introducing-the-alty-fc-foundation",
-      "published": "2026-06-25T11:16:14Z"
     }
   ]
 }
