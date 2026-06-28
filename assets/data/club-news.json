@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-28T15:45:29Z",
+  "generatedAt": "2026-06-28T16:51:33Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -110,10 +110,10 @@
     {
       "club": "Rochdale",
       "domain": "rochdaleafc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
+      "feed": "https://rochdaleafc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Scunthorpe United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=7e3fe27b-7c29-40c9-8898-989d63f166c5",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=efacba31-b5c9-4027-bff0-e8aa77b3caff",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://harriers.co.uk/feed/",
+      "ok": true,
+      "count": 20,
+      "error": ""
     },
     {
       "club": "King's Lynn Town",
@@ -310,10 +310,10 @@
     {
       "club": "Marine",
       "domain": "marinefc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
+      "feed": "https://marinefc.com/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Merthyr Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -438,10 +438,10 @@
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://dwfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Dover Athletic",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "National League Lowdown: Altrincham",
+      "url": "https://worthingfc.com/2026/06/national-league-lowdown-altrincham/",
+      "published": "2026-06-28T16:41:14Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Pools appoint Danny Nye as Head of Performance & Sports Science",
+      "url": "https://www.hartlepoolunited.co.uk/pools-appoint-danny-nye-as-head-of-performance-sports-science/",
+      "published": "2026-06-28T15:49:39Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -598,6 +616,15 @@
       "title": "Pre-season: Day One.",
       "url": "https://maidstoneunited.co.uk/06/28/pre-season-day-one/",
       "published": "2026-06-28T13:39:42Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Tyrelle Newton signs one-year contract extension at Gateshead FC until 2027",
+      "url": "https://gateshead-fc.com/tyrelle-newton-signs-one-year-contract-extension-at-gateshead-fc-until-2027/",
+      "published": "2026-06-28T13:00:14Z"
     },
     {
       "club": "Maidstone United",
@@ -717,6 +744,15 @@
       "published": "2026-06-28T08:46:00Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Open Training Monday 6th July",
+      "url": "https://www.horshamfc.co.uk/2026/06/28/open-training-monday-6th-july/",
+      "published": "2026-06-28T07:00:35Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -762,6 +798,15 @@
       "published": "2026-06-27T17:49:21Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "NIALL McMANUS INTERVIEW",
+      "url": "https://www.horshamfc.co.uk/2026/06/27/niall-mcmanus-interview/",
+      "published": "2026-06-27T17:00:16Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -796,6 +841,15 @@
       "title": "Ethan’s Back (and this time it’s permanent..)",
       "url": "https://tonbridgeangels.co.uk/ethans-back-and-this-time-its-permanent/",
       "published": "2026-06-27T14:06:06Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Lucas Lowery signs one-year contract extension at Gateshead FC until 2027",
+      "url": "https://gateshead-fc.com/lucas-lowery-signs-one-year-contract-extension-at-gateshead-fc-until-2027/",
+      "published": "2026-06-27T14:00:04Z"
     },
     {
       "club": "Hartlepool United",
@@ -897,6 +951,15 @@
       "published": "2026-06-27T11:00:00Z"
     },
     {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "ISAAC ABANKWAH SIGNS FOR MARINE",
+      "url": "https://marinefc.com/isaac-abankwah-signs-for-marine/",
+      "published": "2026-06-27T10:59:00Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -931,6 +994,15 @@
       "title": "Angelfest Super Saturday",
       "url": "https://tonbridgeangels.co.uk/angelfest-super-saturday/",
       "published": "2026-06-27T09:03:50Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Niall McManus Joins Horsham",
+      "url": "https://www.horshamfc.co.uk/2026/06/27/niall-mcmanus-joins-horsham/",
+      "published": "2026-06-27T08:59:46Z"
     },
     {
       "club": "Hartlepool United",
@@ -1131,6 +1203,15 @@
       "published": "2026-06-26T16:45:00Z"
     },
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Get Behind Our Bowlee Scheme",
+      "url": "https://rochdaleafc.co.uk/get-behind-our-bowlee-scheme/",
+      "published": "2026-06-26T16:25:53Z"
+    },
+    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1147,6 +1228,15 @@
       "title": "Loick Ayina Joins Yeovil Town on Season-Long Loan",
       "url": "https://ytfc.net/2026/06/loick-ayina-joins-yeovil-town-on-season-long-loan/",
       "published": "2026-06-26T16:00:30Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Ben Williams signs one-year contract extension at Gateshead FC until 2027",
+      "url": "https://gateshead-fc.com/ben-williams-signs-one-year-contract-extension-at-gateshead-fc/",
+      "published": "2026-06-26T16:00:27Z"
     },
     {
       "club": "Macclesfield",
@@ -1201,6 +1291,24 @@
       "title": "Strength & Conditioning Session | First Day of Pre-Season | 25.6.26",
       "url": "https://wsmafc.co.uk/strength-conditioning-session-first-day-of-pre-season-25-6-26/",
       "published": "2026-06-26T14:40:54Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Behind-The-Scenes At Volunteers Week",
+      "url": "https://rochdaleafc.co.uk/behind-the-scenes-at-volunteers-week/",
+      "published": "2026-06-26T14:34:01Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Gateshead to face Heaton Stannington in 2026/27 pre-season schedule",
+      "url": "https://gateshead-fc.com/gateshead-to-face-heaton-stannington-in-2026-27-pre-season-schedule/",
+      "published": "2026-06-26T14:00:09Z"
     },
     {
       "club": "Torquay United",
@@ -1347,6 +1455,24 @@
       "published": "2026-06-26T11:00:00Z"
     },
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Second Home Pre-Season Friendly Confirmed",
+      "url": "https://rochdaleafc.co.uk/second-home-pre-season-friendly-confirmed/",
+      "published": "2026-06-26T10:58:14Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Dale’s Fixtures For EFL Return Revealed",
+      "url": "https://rochdaleafc.co.uk/dales-fixtures-for-efl-return-revealed/",
+      "published": "2026-06-26T10:57:15Z"
+    },
+    {
       "club": "York City",
       "code": "YOR",
       "short": "York",
@@ -1354,132 +1480,6 @@
       "title": "Ben Farrar and Ethan Stiver sign first professional contracts with York City",
       "url": "https://yorkcityfootballclub.co.uk/ben-farrar-and-ethan-stiver-sign-first-professional-contracts-with-york-city/",
       "published": "2026-06-26T10:31:08Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Angelfest is Here….And It’s Free!",
-      "url": "https://tonbridgeangels.co.uk/angelfest-is-here/",
-      "published": "2026-06-26T10:23:06Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Roy O’Brien Appointed Yeovil Town U19s Manager",
-      "url": "https://ytfc.net/2026/06/roy-obrien-appointed-yeovil-town-u19s-manager/",
-      "published": "2026-06-26T09:15:06Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Fylde Women Quartet Pen New Deals",
-      "url": "https://afcfylde.co.uk/news/2026/june/26/fylde-women-quartet-pen-new-deals/",
-      "published": "2026-06-26T09:07:00Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Pre-Season Tickets On General Sale At 3pm",
-      "url": "https://torquayunited.com/pre-season-tickets-on-general-sale-at-3pm/",
-      "published": "2026-06-26T08:42:04Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Have Your Say: Chester FC Launches Supporter Experience Survey!",
-      "url": "https://chesterfc.com/06/26/supportersurvey/",
-      "published": "2026-06-26T08:06:20Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Tickets on Sale for Final Group Stage Clash 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "url": "https://afcfylde.co.uk/news/2026/june/26/tickets-on-sale-for-final-group-stage-clash/",
-      "published": "2026-06-26T08:02:00Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Fifty 50: Glen Taylor",
-      "url": "https://spennymoortownfc.co.uk/2026/06/26/fifty-50-glen-taylor/",
-      "published": "2026-06-26T07:12:00Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Through thick and thin: Britelite extend Stones partnership",
-      "url": "https://maidstoneunited.co.uk/06/26/through-thick-and-thin-britelite-extend-stones-partnership/",
-      "published": "2026-06-26T07:09:18Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "First words: Owen Hampson",
-      "url": "https://www.hartlepoolunited.co.uk/first-words-owen-hampson/",
-      "published": "2026-06-25T20:18:50Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Pools sign Owen Hampson",
-      "url": "https://www.hartlepoolunited.co.uk/pools-sign-owen-hampson/",
-      "published": "2026-06-25T19:29:24Z"
-    },
-    {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "Welcome, George Nunn!",
-      "url": "https://etfc.london/welcome-george-nunn/",
-      "published": "2026-06-25T19:07:18Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Tickets now on sale for Stoke and Crewe friendlies!",
-      "url": "https://chesterfc.com/06/25/tickets-now-on-sale-for-stoke-and-crewe-friendlies/",
-      "published": "2026-06-25T18:46:17Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Volunteer Day Cancelled",
-      "url": "https://chippenhamtown.com/06/25/volunteer-day-cancelled/",
-      "published": "2026-06-25T18:45:18Z"
-    },
-    {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "Welcome, Edwin Mensah!",
-      "url": "https://etfc.london/welcome-edwin-mensah/",
-      "published": "2026-06-25T18:23:35Z"
     }
   ]
 }
