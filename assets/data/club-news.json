@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-29T21:15:54Z",
+  "generatedAt": "2026-06-29T22:24:33Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.carlisleunited.co.uk/rss.xml",
+      "ok": true,
+      "count": 50,
+      "error": ""
     },
     {
       "club": "Eastleigh",
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -110,10 +110,10 @@
     {
       "club": "Rochdale",
       "domain": "rochdaleafc.co.uk",
-      "feed": "https://rochdaleafc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Scunthorpe United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=e2b11b72-b356-4d27-b4df-abe28f8252d9",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=195ef08e-bb4a-45fa-98f2-78922935255f",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -310,10 +310,10 @@
     {
       "club": "Marine",
       "domain": "marinefc.com",
-      "feed": "https://marinefc.com/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Merthyr Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -438,10 +438,10 @@
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "https://dwfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Dover Athletic",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -582,13 +582,22 @@
   ],
   "items": [
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Welcome to Southport Harry Perritt",
-      "url": "https://southportfc.net/welcome-to-southport-harry-perritt/",
-      "published": "2026-06-29T19:30:16Z"
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Question of the Day | Who will win the World Cup?",
+      "url": "https://wsmafc.co.uk/question-of-the-day-who-will-win-the-world-cup/",
+      "published": "2026-06-29T22:22:19Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Gallery: Portugal Day Two",
+      "url": "https://wsmafc.co.uk/gallery-portugal-day-two/",
+      "published": "2026-06-29T21:26:20Z"
     },
     {
       "club": "Chester",
@@ -634,15 +643,6 @@
       "title": "Welcome to the Urchins, Jack Baldwin!",
       "url": "https://hornchurchfc.com/4262-2/",
       "published": "2026-06-29T18:00:33Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Preston Leech signs one-year contract extension at Gateshead FC until 2027",
-      "url": "https://gateshead-fc.com/preston-leech-signs-one-year-contract-extension-at-gateshead-fc-until-2027/",
-      "published": "2026-06-29T18:00:11Z"
     },
     {
       "club": "Truro City",
@@ -978,15 +978,6 @@
       "published": "2026-06-28T22:15:32Z"
     },
     {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "Golden Letter Draw Results",
-      "url": "https://marinefc.com/golden-letter-draw-results/",
-      "published": "2026-06-28T20:48:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1032,6 +1023,15 @@
       "published": "2026-06-28T17:58:45Z"
     },
     {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "CLUB STATEMENT: MARTIN FOYLE DEPARTS CARLISLE UNITED",
+      "url": "https://www.carlisleunited.co.uk/news/club-statement-martin-foyle-departs-carlisle-united",
+      "published": "2026-06-28T17:09:29Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1075,15 +1075,6 @@
       "title": "Pre-season: Day One.",
       "url": "https://maidstoneunited.co.uk/06/28/pre-season-day-one/",
       "published": "2026-06-28T13:39:42Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Tyrelle Newton signs one-year contract extension at Gateshead FC until 2027",
-      "url": "https://gateshead-fc.com/tyrelle-newton-signs-one-year-contract-extension-at-gateshead-fc-until-2027/",
-      "published": "2026-06-28T13:00:14Z"
     },
     {
       "club": "Maidstone United",
@@ -1203,15 +1194,6 @@
       "published": "2026-06-28T08:46:00Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Open Training Monday 6th July",
-      "url": "https://www.horshamfc.co.uk/2026/06/28/open-training-monday-6th-july/",
-      "published": "2026-06-28T07:00:35Z"
-    },
-    {
       "club": "Bath City",
       "code": "BAT",
       "short": "Bath",
@@ -1248,15 +1230,6 @@
       "published": "2026-06-27T17:49:21Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "NIALL McMANUS INTERVIEW",
-      "url": "https://www.horshamfc.co.uk/2026/06/27/niall-mcmanus-interview/",
-      "published": "2026-06-27T17:00:16Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1291,15 +1264,6 @@
       "title": "Ethan’s Back (and this time it’s permanent..)",
       "url": "https://tonbridgeangels.co.uk/ethans-back-and-this-time-its-permanent/",
       "published": "2026-06-27T14:06:06Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Lucas Lowery signs one-year contract extension at Gateshead FC until 2027",
-      "url": "https://gateshead-fc.com/lucas-lowery-signs-one-year-contract-extension-at-gateshead-fc-until-2027/",
-      "published": "2026-06-27T14:00:04Z"
     },
     {
       "club": "Hartlepool United",
@@ -1401,15 +1365,6 @@
       "published": "2026-06-27T11:00:00Z"
     },
     {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "ISAAC ABANKWAH SIGNS FOR MARINE",
-      "url": "https://marinefc.com/isaac-abankwah-signs-for-marine/",
-      "published": "2026-06-27T10:59:00Z"
-    },
-    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1446,15 +1401,6 @@
       "published": "2026-06-27T09:03:50Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Niall McManus Joins Horsham",
-      "url": "https://www.horshamfc.co.uk/2026/06/27/niall-mcmanus-joins-horsham/",
-      "published": "2026-06-27T08:59:46Z"
-    },
-    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -1473,13 +1419,67 @@
       "published": "2026-06-27T06:00:51Z"
     },
     {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "WsM AFC Golf Day | 26.6.26",
-      "url": "https://wsmafc.co.uk/wsm-afc-golf-day-26-6-26/",
-      "published": "2026-06-26T23:01:34Z"
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Zak Johnson returns to York City on permanent deal",
+      "url": "https://yorkcityfootballclub.co.uk/zak-johnson-returns-to-york-city-on-permanent-deal/",
+      "published": "2026-06-26T21:00:20Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Charlie McArthur signs for York City",
+      "url": "https://yorkcityfootballclub.co.uk/charlie-mcarthur-signs-for-york-city/",
+      "published": "2026-06-26T19:45:20Z"
+    },
+    {
+      "club": "Chesham United",
+      "code": "CHU",
+      "short": "Chesham",
+      "domain": "cheshamunited.co.uk",
+      "title": "Notes from the Chair – 26th June 2026",
+      "url": "https://cheshamunited.co.uk/2026/06/notes-from-the-chair-26th-june-2026/",
+      "published": "2026-06-26T19:01:04Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "James Berry Joins FGR On Loan",
+      "url": "https://www.fgr.co.uk/news/james-berry-joins-on-loan/",
+      "published": "2026-06-26T19:00:00Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "York City secure Arthur Read as latest summer signing",
+      "url": "https://yorkcityfootballclub.co.uk/york-city-secure-arthur-read-as-latest-summer-signing/",
+      "published": "2026-06-26T18:30:04Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Regan Miles | Marjon University Testing | Flight Plan",
+      "url": "https://torquayunited.com/regan-miles-marjon-university-testing-flight-plan/",
+      "published": "2026-06-26T18:23:13Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Marjon University Fitness Testing | Flight Plan",
+      "url": "https://torquayunited.com/marjon-university-fitness-testing-flight-plan/",
+      "published": "2026-06-26T18:12:18Z"
     }
   ]
 }
