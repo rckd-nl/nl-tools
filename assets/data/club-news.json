@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-29T19:28:16Z",
+  "generatedAt": "2026-06-29T21:15:54Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "https://www.carlisleunited.co.uk/rss.xml",
-      "ok": true,
-      "count": 50,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Eastleigh",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=5de07d6d-7daf-41cb-a0c0-b0ddfa1afbab",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=e2b11b72-b356-4d27-b4df-abe28f8252d9",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Welcome to Southport Harry Perritt",
+      "url": "https://southportfc.net/welcome-to-southport-harry-perritt/",
+      "published": "2026-06-29T19:30:16Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "A BTB Message from CFU Chair, Nick Phillipson",
+      "url": "https://chesterfc.com/06/29/a-btb-message-from-cfu-chair-nick-phillipson/",
+      "published": "2026-06-29T19:28:43Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -643,6 +661,15 @@
       "title": "Seated Argyle Tickets Sold Out",
       "url": "https://trurocity.co.uk/2026/06/seated-argyle-tickets-sold-out/",
       "published": "2026-06-29T17:41:50Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Lee Allinson Confirms Backroom Staff For 2026/27 Season",
+      "url": "https://daggers.co.uk/lee-allinson-confirms-backroom-staff-for-2026-27-season/",
+      "published": "2026-06-29T17:30:00Z"
     },
     {
       "club": "Southend United",
@@ -760,6 +787,15 @@
       "title": "Pre-Season Day Two: Hard Yards at Gallagher Stadium",
       "url": "https://maidstoneunited.co.uk/06/29/pre-season-day-two-hard-yards-at-gallagher-stadium/",
       "published": "2026-06-29T15:49:29Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Speakers Confirmed For Sports Pundit Football Media Summit",
+      "url": "https://daggers.co.uk/speakers-confirmed-for-sports-pundit-football-media-summit/",
+      "published": "2026-06-29T15:39:06Z"
     },
     {
       "club": "Eastleigh",
@@ -996,15 +1032,6 @@
       "published": "2026-06-28T17:58:45Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "CLUB STATEMENT: MARTIN FOYLE DEPARTS CARLISLE UNITED",
-      "url": "https://www.carlisleunited.co.uk/news/club-statement-martin-foyle-departs-carlisle-united",
-      "published": "2026-06-28T17:09:29Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1030,6 +1057,15 @@
       "title": "ENA MILL EXTEND MAJOR SILKMEN PARTNERSHIP",
       "url": "https://macclesfieldfc.com/latest-news/ena-mill-extend-major-silkmen-partnership/",
       "published": "2026-06-28T14:00:29Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Watch England v DR Congo Live At Victoria Road",
+      "url": "https://daggers.co.uk/watch-england-v-dr-congo-live-at-victoria-road/",
+      "published": "2026-06-28T13:41:06Z"
     },
     {
       "club": "Maidstone United",
@@ -1444,42 +1480,6 @@
       "title": "WsM AFC Golf Day | 26.6.26",
       "url": "https://wsmafc.co.uk/wsm-afc-golf-day-26-6-26/",
       "published": "2026-06-26T23:01:34Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Zak Johnson returns to York City on permanent deal",
-      "url": "https://yorkcityfootballclub.co.uk/zak-johnson-returns-to-york-city-on-permanent-deal/",
-      "published": "2026-06-26T21:00:20Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Charlie McArthur signs for York City",
-      "url": "https://yorkcityfootballclub.co.uk/charlie-mcarthur-signs-for-york-city/",
-      "published": "2026-06-26T19:45:20Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Brad Ash returns to The Optima",
-      "url": "https://wsmafc.co.uk/brad-ash-returns/",
-      "published": "2026-06-26T19:30:22Z"
-    },
-    {
-      "club": "Chesham United",
-      "code": "CHU",
-      "short": "Chesham",
-      "domain": "cheshamunited.co.uk",
-      "title": "Notes from the Chair – 26th June 2026",
-      "url": "https://cheshamunited.co.uk/2026/06/notes-from-the-chair-26th-june-2026/",
-      "published": "2026-06-26T19:01:04Z"
     }
   ]
 }
