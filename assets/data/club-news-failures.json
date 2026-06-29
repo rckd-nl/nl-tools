@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-29T05:07:54Z",
+  "generatedAt": "2026-06-29T10:00:59Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -33,30 +33,6 @@
       "ok": false,
       "count": 0,
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
-    },
-    {
-      "club": "Carlisle United",
-      "domain": "carlisleunited.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
-    },
-    {
-      "club": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
     },
     {
       "club": "Morecambe",
@@ -133,7 +109,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=ed150b82-72b7-4b15-8141-f5bb7ed0fee9",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -145,14 +121,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "domain": "harriers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -211,14 +179,6 @@
       "error": "HTTP 404"
     },
     {
-      "club": "Southport",
-      "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
-    },
-    {
       "club": "Worksop Town",
       "domain": "worksoptownfc.co.uk",
       "feed": "",
@@ -235,12 +195,12 @@
       "error": "Feed returned 0 usable items"
     },
     {
-      "club": "Dorking Wanderers",
-      "domain": "dorkingwanderers.com",
+      "club": "Dagenham & Redbridge",
+      "domain": "daggers.co.uk",
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 429"
     },
     {
       "club": "Eastbourne Borough",
@@ -273,14 +233,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
