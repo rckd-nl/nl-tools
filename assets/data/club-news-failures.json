@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-29T22:24:33Z",
+  "generatedAt": "2026-06-29T23:44:43Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -125,7 +125,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=195ef08e-bb4a-45fa-98f2-78922935255f",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=7de44d63-4ba1-4375-8352-bf45eb52a6a3",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -224,7 +224,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "SSLError: HTTPSConnectionPool(host='worksoptownfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1016)')))"
+      "error": "HTTP 403"
     },
     {
       "club": "AFC Totton",
@@ -288,7 +288,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Salisbury",
