@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-28T23:51:28Z",
+  "generatedAt": "2026-06-29T05:07:54Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -35,6 +35,22 @@
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
     },
     {
+      "club": "Carlisle United",
+      "domain": "carlisleunited.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "domain": "fgr.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
+    },
+    {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
       "feed": "",
@@ -49,14 +65,6 @@
       "ok": false,
       "count": 0,
       "error": "Feed returned 0 usable items"
-    },
-    {
-      "club": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
     },
     {
       "club": "Scunthorpe United",
@@ -125,7 +133,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=3890d149-afa5-42e4-a961-6b6f14cb1893",
+      "feed": "",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -161,14 +169,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Marine",
-      "domain": "marinefc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
     },
     {
       "club": "Merthyr Town",
@@ -224,7 +224,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "SSLError: HTTPSConnectionPool(host='worksoptownfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1016)')))"
     },
     {
       "club": "AFC Totton",
