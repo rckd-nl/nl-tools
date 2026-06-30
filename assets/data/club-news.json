@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-29T23:44:43Z",
+  "generatedAt": "2026-06-30T01:40:19Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "https://www.carlisleunited.co.uk/rss.xml",
-      "ok": true,
-      "count": 50,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Eastleigh",
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3767,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=7de44d63-4ba1-4375-8352-bf45eb52a6a3",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=7d8ef1d5-7081-4a67-8602-14b7c8003df9",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -1023,15 +1023,6 @@
       "published": "2026-06-28T17:58:45Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "CLUB STATEMENT: MARTIN FOYLE DEPARTS CARLISLE UNITED",
-      "url": "https://www.carlisleunited.co.uk/news/club-statement-martin-foyle-departs-carlisle-united",
-      "published": "2026-06-28T17:09:29Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1446,15 +1437,6 @@
       "published": "2026-06-26T19:01:04Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "James Berry Joins FGR On Loan",
-      "url": "https://www.fgr.co.uk/news/james-berry-joins-on-loan/",
-      "published": "2026-06-26T19:00:00Z"
-    },
-    {
       "club": "York City",
       "code": "YOR",
       "short": "York",
@@ -1480,6 +1462,24 @@
       "title": "Marjon University Fitness Testing | Flight Plan",
       "url": "https://torquayunited.com/marjon-university-fitness-testing-flight-plan/",
       "published": "2026-06-26T18:12:18Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Welcome, Luke May-Parrott!",
+      "url": "https://etfc.london/welcome-luke-may-parrott/",
+      "published": "2026-06-26T18:06:23Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "First Interview: Jon Ustabasi",
+      "url": "https://macclesfieldfc.com/latest-news/first-interview-jon-ustabasi/",
+      "published": "2026-06-26T18:00:50Z"
     }
   ]
 }
