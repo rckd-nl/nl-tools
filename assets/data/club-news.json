@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-06-30T19:27:12Z",
+  "generatedAt": "2026-06-30T21:24:00Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.carlisleunited.co.uk/rss.xml",
+      "ok": true,
+      "count": 50,
+      "error": ""
     },
     {
       "club": "Eastleigh",
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3768,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=a3e029f0-d3b7-423b-abe7-47922e1afb81",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=ff0668cc-7d02-48f1-8ef9-3d8854aa1969",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Join the Boreham Wood FC Media Team",
+      "url": "https://www.borehamwoodfootballclub.co.uk/join-the-boreham-wood-fc-media-team/",
+      "published": "2026-06-30T19:27:55Z"
+    },
     {
       "club": "Bath City",
       "code": "BAT",
@@ -951,6 +960,15 @@
       "published": "2026-06-30T10:55:00Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Your Instant Replay Partnership Renewed",
+      "url": "https://www.horshamfc.co.uk/2026/06/30/your-instant-replay-partnership-renewed/",
+      "published": "2026-06-30T10:52:11Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -958,15 +976,6 @@
       "title": "Truro City Sign Tom Tweedy",
       "url": "https://trurocity.co.uk/2026/06/truro-city-sign-tom-tweedy/",
       "published": "2026-06-30T10:33:07Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "FGR Women & Girls ETC Update",
-      "url": "https://www.fgr.co.uk/news/fgr-women-update/",
-      "published": "2026-06-30T10:30:00Z"
     },
     {
       "club": "Truro City",
@@ -1471,15 +1480,6 @@
       "title": "“𝗜𝘁 𝘄𝗮𝘀 𝗮 𝗿𝗲𝗮𝗹𝗹𝘆 𝗴𝗼𝗼𝗱 𝗱𝗮𝘆” | Gary Warren – Portugal Training Camp Day One",
       "url": "https://wsmafc.co.uk/%f0%9d%97%9c%f0%9d%98%81-%f0%9d%98%84%f0%9d%97%ae%f0%9d%98%80-%f0%9d%97%ae-%f0%9d%97%bf%f0%9d%97%b2%f0%9d%97%ae%f0%9d%97%b9%f0%9d%97%b9%f0%9d%98%86-%f0%9d%97%b4%f0%9d%97%bc%f0%9d%97%bc%f0%9d%97%b1/",
       "published": "2026-06-28T20:41:15Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "🎬 BEHIND THE SCENES: Worthing FC Pre-Season Testing 2026/27 🏃🏋️‍♂️",
-      "url": "https://worthingfc.com/2026/06/%f0%9f%8e%ac-behind-the-scenes-worthing-fc-pre-season-testing-2026-27-%f0%9f%8f%83%f0%9f%8f%8b%ef%b8%8f%e2%99%82%ef%b8%8f/",
-      "published": "2026-06-28T19:30:24Z"
     }
   ]
 }
