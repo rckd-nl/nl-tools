@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-01T17:36:10Z",
+  "generatedAt": "2026-07-01T19:27:18Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -43,12 +43,28 @@
       "error": "HTTP 202"
     },
     {
+      "club": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
+    },
+    {
       "club": "Morecambe",
       "domain": "morecambefc.com",
       "feed": "https://morecambefc.com/news/feed/",
       "ok": false,
       "count": 0,
       "error": "Feed returned 0 usable items"
+    },
+    {
+      "club": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Scunthorpe United",
@@ -117,7 +133,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=8d1bd7d1-991b-4def-b86a-a3c6a7058920",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=d73e0a98-e6a1-48e6-a289-1d9fdb6f8a91",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -129,6 +145,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "domain": "harriers.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -145,6 +169,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Marine",
+      "domain": "marinefc.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Merthyr Town",
@@ -187,6 +219,14 @@
       "error": "HTTP 404"
     },
     {
+      "club": "Southport",
+      "domain": "southportfc.net",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
+    },
+    {
       "club": "Worksop Town",
       "domain": "worksoptownfc.co.uk",
       "feed": "",
@@ -209,6 +249,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 429"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "domain": "dorkingwanderers.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Eastbourne Borough",
