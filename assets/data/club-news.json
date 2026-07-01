@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-01T00:24:22Z",
+  "generatedAt": "2026-07-01T05:15:04Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.carlisleunited.co.uk/rss.xml",
+      "ok": true,
+      "count": 50,
+      "error": ""
     },
     {
       "club": "Eastleigh",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=41da8adc-7736-421e-a8af-17ffcba9d3e0",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=66e5540a-1193-45be-aff5-d266b9c69011",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -589,6 +589,24 @@
       "title": "England v DR Congo In The Sports Bar",
       "url": "https://tonbridgeangels.co.uk/england-v-dr-congo-in-the-sports-bar/",
       "published": "2026-06-30T23:03:08Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "KENTON RICHARDSON SIGNS FOR UNITED",
+      "url": "https://www.carlisleunited.co.uk/news/kenton-richardson-signs-united",
+      "published": "2026-06-30T21:55:35Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "UNITED COMPLETE BRAD NICHOLSON TRANSFER",
+      "url": "https://www.carlisleunited.co.uk/news/united-complete-brad-nicholson-transfer",
+      "published": "2026-06-30T21:45:39Z"
     },
     {
       "club": "Boreham Wood",
@@ -931,6 +949,15 @@
       "title": "Facilities Update: June 2026",
       "url": "https://southendunited.co.uk/news/2026/june/30/facilities-update--june-2026/",
       "published": "2026-06-30T10:55:00Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Your Instant Replay Partnership Renewed",
+      "url": "https://www.horshamfc.co.uk/2026/06/30/your-instant-replay-partnership-renewed/",
+      "published": "2026-06-30T10:52:11Z"
     },
     {
       "club": "Truro City",
@@ -1453,33 +1480,6 @@
       "title": "Pools add defensive prospect Penman",
       "url": "https://www.hartlepoolunited.co.uk/pools-add-defensive-prospect-penman/",
       "published": "2026-06-28T17:58:45Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "National League Lowdown: Altrincham",
-      "url": "https://worthingfc.com/2026/06/national-league-lowdown-altrincham/",
-      "published": "2026-06-28T16:41:14Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Pools appoint Danny Nye as Head of Performance & Sports Science",
-      "url": "https://www.hartlepoolunited.co.uk/pools-appoint-danny-nye-as-head-of-performance-sports-science/",
-      "published": "2026-06-28T15:49:39Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "ENA MILL EXTEND MAJOR SILKMEN PARTNERSHIP",
-      "url": "https://macclesfieldfc.com/latest-news/ena-mill-extend-major-silkmen-partnership/",
-      "published": "2026-06-28T14:00:29Z"
     }
   ]
 }
