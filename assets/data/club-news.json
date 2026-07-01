@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-01T21:15:22Z",
+  "generatedAt": "2026-07-01T22:43:48Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3768,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=37641bea-56d7-4e50-8229-97d4f1bb39f4",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=58cfed2f-674f-47fc-b14a-81ddb924d9d0",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -1104,6 +1104,15 @@
       "published": "2026-06-30T16:59:01Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "2026/27 Captain & Vice Captain Revealed",
+      "url": "https://daggers.co.uk/2026-27-captain-vice-captain-revealed/",
+      "published": "2026-06-30T16:36:23Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1383,15 +1392,6 @@
       "published": "2026-06-30T10:33:07Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "FGR Women & Girls ETC Update",
-      "url": "https://www.fgr.co.uk/news/fgr-women-update/",
-      "published": "2026-06-30T10:30:00Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1408,6 +1408,15 @@
       "title": "Pre Season Matches | Updated List",
       "url": "https://southportfc.net/pre-season-matches-updated-list/",
       "published": "2026-06-30T09:55:31Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Rest In Peace Paul Cavell",
+      "url": "https://daggers.co.uk/rest-in-peace-paul-cavell/",
+      "published": "2026-06-30T09:45:31Z"
     },
     {
       "club": "Kidderminster Harriers",
@@ -1471,15 +1480,6 @@
       "title": "Welcome to Southport Harry Perritt",
       "url": "https://southportfc.net/welcome-to-southport-harry-perritt/",
       "published": "2026-06-29T19:30:16Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "A BTB Message from CFU Chair, Nick Phillipson",
-      "url": "https://chesterfc.com/06/29/a-btb-message-from-cfu-chair-nick-phillipson/",
-      "published": "2026-06-29T19:28:43Z"
     }
   ]
 }
