@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-02T13:12:22Z",
+  "generatedAt": "2026-07-02T15:33:01Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -117,7 +117,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=d4905c99-fe9c-44b4-aeda-d27f16ce17ba",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=600cd229-0761-435a-a1a3-9aed59da5ba7",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -192,7 +192,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: HTTPSConnectionPool(host='worksoptownfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='worksoptownfc.co.uk', port=443): Failed to resolve 'worksoptownfc.co.uk' ([Errno -3] Temporary failure in name resolution)\"))"
+      "error": "HTTP 403"
     },
     {
       "club": "AFC Totton",
@@ -241,14 +241,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
