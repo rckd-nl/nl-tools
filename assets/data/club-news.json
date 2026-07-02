@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-02T10:54:51Z",
+  "generatedAt": "2026-07-02T13:12:22Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3768,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=88f11ba4-e131-4088-8202-cfbed0e94b4d",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=d4905c99-fe9c-44b4-aeda-d27f16ce17ba",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "ConnectionError: HTTPSConnectionPool(host='worksoptownfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='worksoptownfc.co.uk', port=443): Failed to resolve 'worksoptownfc.co.uk' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     {
       "club": "AFC Totton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,69 @@
   ],
   "items": [
     {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Jimmy Ball | 2026/27 Pre-Season Update | Deon Moore Signs",
+      "url": "https://torquayunited.com/jimmy-ball-2026-27-pre-season-update-deon-moore-signs/",
+      "published": "2026-07-02T13:04:29Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Date confirmed for first Fans' Forum of 2026/27",
+      "url": "https://altrinchamfc.com/blogs/news/date-confirmed-for-first-fans-forum-of-2026-27",
+      "published": "2026-07-02T12:25:30Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "TUFC Mourns The Passing Of Paul Dobson",
+      "url": "https://torquayunited.com/tufc-mourns-the-passing-of-paul-dobson/",
+      "published": "2026-07-02T12:12:03Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Pre-Season: Dagenham & Redbridge (H)",
+      "url": "https://hornchurchfc.com/pre-season-dagenham-redbridge-h/",
+      "published": "2026-07-02T11:00:58Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Whitstable Town",
+      "url": "https://maidstoneunited.co.uk/07/02/key-info-whitstable-town/",
+      "published": "2026-07-02T11:00:33Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Coasters Complete Pre-Season Schedule with Huddersfield Clash",
+      "url": "https://afcfylde.co.uk/news/2026/july/02/coasters-complete-pre-season-schedule-with-huddersfield-clash/",
+      "published": "2026-07-02T10:55:00Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Simmons Estates renew sponsorship for a second season",
+      "url": "https://www.borehamwoodfootballclub.co.uk/simmons-estates-renew-sponsorship-for-a-second-season/",
+      "published": "2026-07-02T10:54:05Z"
+    },
+    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -598,15 +661,6 @@
       "title": "Hospitality Open For Preseason",
       "url": "https://chelmsfordcityfc.com/news/hospitality-open-for-preseason/",
       "published": "2026-07-02T10:45:11Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Silva Signs for Horsham!",
-      "url": "https://www.horshamfc.co.uk/2026/07/02/silva-signs-for-horsham/",
-      "published": "2026-07-02T10:42:53Z"
     },
     {
       "club": "Worthing",
@@ -1426,60 +1480,6 @@
       "title": "Watch: Paul Wotton latest",
       "url": "https://harriers.co.uk/news/2026/06/30/watch-paul-wotton-latest/",
       "published": "2026-06-30T11:45:04Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Training Ground Chef | Job Advert",
-      "url": "https://yorkcityfootballclub.co.uk/training-ground-chef-job-advert-2/",
-      "published": "2026-06-30T11:43:21Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Back To Work",
-      "url": "https://tonbridgeangels.co.uk/back-to-work/",
-      "published": "2026-06-30T11:15:32Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Frankie Hawken appointed Women’s Development Team Manager",
-      "url": "https://farnboroughfc.co.uk/2026/06/frankie-hawken-appointed-womens-development-team-manager/",
-      "published": "2026-06-30T11:00:41Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Facilities Update: June 2026",
-      "url": "https://southendunited.co.uk/news/2026/june/30/facilities-update--june-2026/",
-      "published": "2026-06-30T10:55:00Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Your Instant Replay Partnership Renewed",
-      "url": "https://www.horshamfc.co.uk/2026/06/30/your-instant-replay-partnership-renewed/",
-      "published": "2026-06-30T10:52:11Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City Sign Tom Tweedy",
-      "url": "https://trurocity.co.uk/2026/06/truro-city-sign-tom-tweedy/",
-      "published": "2026-06-30T10:33:07Z"
     }
   ]
 }
