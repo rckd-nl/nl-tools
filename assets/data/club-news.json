@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-02T20:40:16Z",
+  "generatedAt": "2026-07-02T21:53:03Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.carlisleunited.co.uk/rss.xml",
+      "ok": true,
+      "count": 50,
+      "error": ""
     },
     {
       "club": "Eastleigh",
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3769,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=d6f68dc0-ac51-48e8-b460-f8db9f7b348f",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=474ad551-2336-47dc-854a-1ad57e5e5541",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -753,15 +753,6 @@
       "published": "2026-07-02T15:00:23Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Gaffer On Pre-Season",
-      "url": "https://www.fgr.co.uk/news/gaffer-pre-season-interview/",
-      "published": "2026-07-02T15:00:00Z"
-    },
-    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -922,15 +913,6 @@
       "title": "Hospitality Open For Preseason",
       "url": "https://chelmsfordcityfc.com/news/hospitality-open-for-preseason/",
       "published": "2026-07-02T10:45:11Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Silva Signs for Horsham!",
-      "url": "https://www.horshamfc.co.uk/2026/07/02/silva-signs-for-horsham/",
-      "published": "2026-07-02T10:42:53Z"
     },
     {
       "club": "Worthing",
@@ -1338,6 +1320,15 @@
       "published": "2026-07-01T10:42:00Z"
     },
     {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "SOLAR MAINTENANCE SERVICES SPONSOR ACADEMY AND YOUTH TEAM FOR 2026/27",
+      "url": "https://www.carlisleunited.co.uk/news/solar-maintenance-services-sponsor-academy-and-youth-team-202627",
+      "published": "2026-07-01T10:00:00Z"
+    },
+    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -1419,6 +1410,24 @@
       "published": "2026-06-30T23:03:08Z"
     },
     {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "KENTON RICHARDSON SIGNS FOR UNITED",
+      "url": "https://www.carlisleunited.co.uk/news/kenton-richardson-signs-united",
+      "published": "2026-06-30T21:55:35Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "UNITED COMPLETE BRAD NICHOLSON TRANSFER",
+      "url": "https://www.carlisleunited.co.uk/news/united-complete-brad-nicholson-transfer",
+      "published": "2026-06-30T21:45:39Z"
+    },
+    {
       "club": "Boreham Wood",
       "code": "BHW",
       "short": "Boreham Wood",
@@ -1471,15 +1480,6 @@
       "title": "Tunji Akinola Renews",
       "url": "https://wokingfc.co.uk/06/30/tunji-akinola-renews/",
       "published": "2026-06-30T17:59:10Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Hutchinson: “The reputation of the Club speaks for itself.” | First Interview",
-      "url": "https://worthingfc.com/2026/06/%f0%9f%97%a3%ef%b8%8f-hutchinson-the-reputation-of-the-club-speaks-for-itself-first-interview/",
-      "published": "2026-06-30T17:15:30Z"
     }
   ]
 }
