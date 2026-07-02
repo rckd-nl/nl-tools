@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-02T21:53:03Z",
+  "generatedAt": "2026-07-02T23:24:53Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "https://www.carlisleunited.co.uk/rss.xml",
-      "ok": true,
-      "count": 50,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Eastleigh",
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3769,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=474ad551-2336-47dc-854a-1ad57e5e5541",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=5834bf9d-41a4-4881-98cd-a0425b5e2d9a",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Pre-Season Training on Tuesday (More to follow)",
+      "url": "https://chippenhamtown.com/07/02/a-selection-of-pictures-from-pre-season-training-on-tuesday-more-to-follow/",
+      "published": "2026-07-02T22:00:56Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -699,15 +708,6 @@
       "published": "2026-07-02T16:55:00Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Watch England v Mexico Live At Victoria Road",
-      "url": "https://daggers.co.uk/watch-england-v-mexico-live-at-victoria-road/",
-      "published": "2026-07-02T16:47:00Z"
-    },
-    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -751,6 +751,15 @@
       "title": "Tommy Uda moves into Consultant Physiotherapist role",
       "url": "https://chesterfc.com/07/02/tommy-uda-moves-into-consultant-physiotherapist-role/",
       "published": "2026-07-02T15:00:23Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Gaffer On Pre-Season",
+      "url": "https://www.fgr.co.uk/news/gaffer-pre-season-interview/",
+      "published": "2026-07-02T15:00:00Z"
     },
     {
       "club": "Rochdale",
@@ -852,15 +861,6 @@
       "published": "2026-07-02T12:00:35Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Tickets On Sale for Hornchurch Pre-Season Friendly",
-      "url": "https://daggers.co.uk/tickets-on-sale-for-hornchurch-pre-season-friendly/",
-      "published": "2026-07-02T11:09:19Z"
-    },
-    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -915,6 +915,15 @@
       "published": "2026-07-02T10:45:11Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Silva Signs for Horsham!",
+      "url": "https://www.horshamfc.co.uk/2026/07/02/silva-signs-for-horsham/",
+      "published": "2026-07-02T10:42:53Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -951,15 +960,6 @@
       "published": "2026-07-02T09:52:02Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Pre-Season Tickets Now Live!",
-      "url": "https://daggers.co.uk/pre-season-tickets-now-live/",
-      "published": "2026-07-02T09:30:00Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -967,24 +967,6 @@
       "title": "Mark One Consultants Continue as Yeovil Town Back of Shirt Partner",
       "url": "https://ytfc.net/2026/07/mark-one-consultants-continue-as-yeovil-town-back-of-shirt-partner/",
       "published": "2026-07-02T09:29:44Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Daggers Fans Forum Confirmed For July 9",
-      "url": "https://daggers.co.uk/daggers-fans-forum-confirmed-for-july-9/",
-      "published": "2026-07-02T09:10:35Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Speakers Confirmed For Sports Pundit Football Media Summit",
-      "url": "https://daggers.co.uk/speakers-confirmed-for-sports-pundit-football-media-summit/",
-      "published": "2026-07-02T09:09:06Z"
     },
     {
       "club": "Maidstone United",
@@ -1320,15 +1302,6 @@
       "published": "2026-07-01T10:42:00Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "SOLAR MAINTENANCE SERVICES SPONSOR ACADEMY AND YOUTH TEAM FOR 2026/27",
-      "url": "https://www.carlisleunited.co.uk/news/solar-maintenance-services-sponsor-academy-and-youth-team-202627",
-      "published": "2026-07-01T10:00:00Z"
-    },
-    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -1410,24 +1383,6 @@
       "published": "2026-06-30T23:03:08Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "KENTON RICHARDSON SIGNS FOR UNITED",
-      "url": "https://www.carlisleunited.co.uk/news/kenton-richardson-signs-united",
-      "published": "2026-06-30T21:55:35Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "UNITED COMPLETE BRAD NICHOLSON TRANSFER",
-      "url": "https://www.carlisleunited.co.uk/news/united-complete-brad-nicholson-transfer",
-      "published": "2026-06-30T21:45:39Z"
-    },
-    {
       "club": "Boreham Wood",
       "code": "BHW",
       "short": "Boreham Wood",
@@ -1480,6 +1435,51 @@
       "title": "Tunji Akinola Renews",
       "url": "https://wokingfc.co.uk/06/30/tunji-akinola-renews/",
       "published": "2026-06-30T17:59:10Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Hutchinson: “The reputation of the Club speaks for itself.” | First Interview",
+      "url": "https://worthingfc.com/2026/06/%f0%9f%97%a3%ef%b8%8f-hutchinson-the-reputation-of-the-club-speaks-for-itself-first-interview/",
+      "published": "2026-06-30T17:15:30Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "First Interview: Will Randall joins the Spitfires",
+      "url": "https://eastleighfc.com/2026/06/first-interview-will-randall-joins-the-spitfires/",
+      "published": "2026-06-30T17:08:23Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Katie Taylor appointed Women’s First Team Manager",
+      "url": "https://farnboroughfc.co.uk/2026/06/katie-taylor-appointed-womens-first-team-manager/",
+      "published": "2026-06-30T17:00:50Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "“𝗪𝗲’𝗿𝗲 𝗹𝗼𝗼𝗸𝗶𝗻𝗴 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗻𝗲𝘅𝘁 𝗢𝘄𝗲𝗻 𝗝𝗼𝗵𝗻𝘀𝗼𝗻” | Gary Warren on upcoming Scholarship Trials",
+      "url": "https://wsmafc.co.uk/%f0%9d%97%aa%f0%9d%97%b2%f0%9d%97%bf%f0%9d%97%b2-%f0%9d%97%b9%f0%9d%97%bc%f0%9d%97%bc%f0%9d%97%b8%f0%9d%97%b6%f0%9d%97%bb%f0%9d%97%b4-%f0%9d%97%b3%f0%9d%97%bc%f0%9d%97%bf-%f0%9d%98%81%f0%9d%97%b5/",
+      "published": "2026-06-30T16:30:53Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "First words: Terry Bondo",
+      "url": "https://www.hartlepoolunited.co.uk/first-words-terry-bondo/",
+      "published": "2026-06-30T16:09:07Z"
     }
   ]
 }
