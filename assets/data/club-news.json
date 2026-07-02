@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-01T23:59:10Z",
+  "generatedAt": "2026-07-02T04:23:19Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "https://www.carlisleunited.co.uk/rss.xml",
-      "ok": true,
-      "count": 50,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Eastleigh",
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3768,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=315efae0-42a6-490e-84af-a67123f819db",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=d30c4510-0c2a-4a52-9471-f5684a11dbf9",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -888,15 +888,6 @@
       "published": "2026-07-01T10:00:56Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "SOLAR MAINTENANCE SERVICES SPONSOR ACADEMY AND YOUTH TEAM FOR 2026/27",
-      "url": "https://www.carlisleunited.co.uk/news/solar-maintenance-services-sponsor-academy-and-youth-team-202627",
-      "published": "2026-07-01T10:00:00Z"
-    },
-    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -967,24 +958,6 @@
       "title": "England v DR Congo In The Sports Bar",
       "url": "https://tonbridgeangels.co.uk/england-v-dr-congo-in-the-sports-bar/",
       "published": "2026-06-30T23:03:08Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "KENTON RICHARDSON SIGNS FOR UNITED",
-      "url": "https://www.carlisleunited.co.uk/news/kenton-richardson-signs-united",
-      "published": "2026-06-30T21:55:35Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "UNITED COMPLETE BRAD NICHOLSON TRANSFER",
-      "url": "https://www.carlisleunited.co.uk/news/united-complete-brad-nicholson-transfer",
-      "published": "2026-06-30T21:45:39Z"
     },
     {
       "club": "Boreham Wood",
@@ -1329,6 +1302,15 @@
       "published": "2026-06-30T10:33:07Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "FGR Women & Girls ETC Update",
+      "url": "https://www.fgr.co.uk/news/fgr-women-update/",
+      "published": "2026-06-30T10:30:00Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1480,6 +1462,24 @@
       "title": "“𝗧𝗵𝗲 𝗰𝗹𝘂𝗯’𝘀 𝗲𝘃𝗼𝗹𝘃𝗲𝗱 𝗺𝗮𝘀𝘀𝗶𝘃𝗲𝗹𝘆” | Brad Ash – New signing interview",
       "url": "https://wsmafc.co.uk/%f0%9d%97%a7%f0%9d%97%b5%f0%9d%97%b2-%f0%9d%97%b0%f0%9d%97%b9%f0%9d%98%82%f0%9d%97%af%f0%9d%98%80-%f0%9d%97%b2%f0%9d%98%83%f0%9d%97%bc%f0%9d%97%b9%f0%9d%98%83%f0%9d%97%b2%f0%9d%97%b1-%f0%9d%97%ba/",
       "published": "2026-06-29T17:09:17Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Vacancy | Lead Videographer",
+      "url": "https://radcliffefc.com/vacancy-lead-videographer/",
+      "published": "2026-06-29T17:00:56Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Chairman to take on Run 66 Miles Challenge",
+      "url": "https://farnboroughfc.co.uk/2026/06/chairman-to-take-on-run-66-challenge/",
+      "published": "2026-06-29T17:00:42Z"
     }
   ]
 }
