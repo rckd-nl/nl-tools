@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-03T21:34:19Z",
+  "generatedAt": "2026-07-03T22:45:14Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -33,6 +33,22 @@
       "ok": false,
       "count": 0,
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "club": "Carlisle United",
+      "domain": "carlisleunited.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "domain": "fgr.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Morecambe",
@@ -109,7 +125,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=492b61a4-4888-4892-82ac-4dcb510696e7",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=7ff0fa0a-0075-47c2-91d3-7043a1cd7c86",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -195,6 +211,14 @@
       "error": "Feed returned 0 usable items"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "domain": "daggers.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
+    },
+    {
       "club": "Eastbourne Borough",
       "domain": "eastbourneborough.com",
       "feed": "",
@@ -225,14 +249,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
