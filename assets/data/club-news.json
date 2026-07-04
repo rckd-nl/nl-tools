@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-04T18:46:29Z",
+  "generatedAt": "2026-07-04T19:58:10Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "https://www.carlisleunited.co.uk/rss.xml",
-      "ok": true,
-      "count": 50,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Eastleigh",
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=8b2002bf-c66e-468c-9288-35c0a0055767",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=8a52ed57-67c6-461b-9c08-71b77c817f1e",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://harriers.co.uk/feed/",
+      "ok": true,
+      "count": 20,
+      "error": ""
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -438,10 +438,10 @@
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://dwfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Dover Athletic",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Report: Seagulls win in opening pre-season friendly",
+      "url": "https://wsmafc.co.uk/report-cullompton-ps/",
+      "published": "2026-07-04T19:16:06Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -636,6 +645,15 @@
       "published": "2026-07-04T15:19:36Z"
     },
     {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "New Signing Nikaj Fires Wanderers to Victory against Bognor Regis Town",
+      "url": "https://dwfc.co.uk/2026/07/new-signing-nikaj-fires-wanderers-to-victory-against-bognor-regis-town/",
+      "published": "2026-07-04T14:27:23Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -643,6 +661,15 @@
       "title": "Radio commentary available for Cullompton visit",
       "url": "https://wsmafc.co.uk/radio-commentary-available-for-cullompton-visit/",
       "published": "2026-07-04T12:00:18Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Prediction League Entries",
+      "url": "https://southportfc.net/prediction-league-entries/",
+      "published": "2026-07-04T11:50:41Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -679,6 +706,15 @@
       "title": "Felix Miles is a Bluebird",
       "url": "https://chippenhamtown.com/07/04/felix-miles-is-a-bluebird/",
       "published": "2026-07-04T09:30:14Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "RIP Paul Dobson – 1962 – 2026",
+      "url": "https://gateshead-fc.com/rip-paul-dobson-1962-2026/",
+      "published": "2026-07-04T09:22:40Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -807,6 +843,15 @@
       "published": "2026-07-03T17:30:25Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Club Shop Open Saturday 10-2",
+      "url": "https://southportfc.net/club-shop-open-saturday-10-2/",
+      "published": "2026-07-03T17:16:37Z"
+    },
+    {
       "club": "Chesham United",
       "code": "CHU",
       "short": "Chesham",
@@ -816,6 +861,15 @@
       "published": "2026-07-03T17:14:02Z"
     },
     {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Harry Chapman signs one-year contract extension at Gateshead FC until 2027",
+      "url": "https://gateshead-fc.com/harry-chapman-signs-one-year-contract-extension-at-gateshead-fc-until-2027/",
+      "published": "2026-07-03T17:00:14Z"
+    },
+    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -823,6 +877,15 @@
       "title": "Ethan Lindo signs for Chippenham",
       "url": "https://chippenhamtown.com/07/03/ethan-lindo-signs-for-chippenham/",
       "published": "2026-07-03T17:00:00Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Press Release | Club Staff Update – July 2026",
+      "url": "https://dwfc.co.uk/2026/07/press-release-club-staff-update-july-2026/",
+      "published": "2026-07-03T16:47:29Z"
     },
     {
       "club": "Radcliffe",
@@ -1059,15 +1122,6 @@
       "published": "2026-07-03T13:00:14Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "MINUTES FROM THE JUNE CUSG MEETING",
-      "url": "https://www.carlisleunited.co.uk/news/minutes-june-cusg-meeting-0",
-      "published": "2026-07-03T13:00:00Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1095,15 +1149,6 @@
       "published": "2026-07-03T12:07:49Z"
     },
     {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "“𝗛𝗲’𝘀 𝗶𝘁𝗰𝗵𝗶𝗻𝗴 𝘁𝗼 𝗴𝗲𝘁 𝘀𝘁𝗮𝗿𝘁𝗲𝗱” | Scott Rogers on the signing of Liam Sercombe",
-      "url": "https://wsmafc.co.uk/%f0%9d%97%9b%f0%9d%97%b2%f0%9d%98%80-%f0%9d%97%b6%f0%9d%98%81%f0%9d%97%b0%f0%9d%97%b5%f0%9d%97%b6%f0%9d%97%bb%f0%9d%97%b4-%f0%9d%98%81%f0%9d%97%bc-%f0%9d%97%b4%f0%9d%97%b2%f0%9d%98%81-%f0%9d%98%80/",
-      "published": "2026-07-03T12:01:40Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1120,6 +1165,15 @@
       "title": "Obi Signs For Rovers",
       "url": "https://www.fgr.co.uk/news/emeka-obi-joins-fgr/",
       "published": "2026-07-03T12:00:00Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Obi makes FGR move",
+      "url": "https://harriers.co.uk/news/2026/07/03/obi-makes-fgr-move/",
+      "published": "2026-07-03T11:59:50Z"
     },
     {
       "club": "Torquay United",
@@ -1230,15 +1284,6 @@
       "published": "2026-07-03T09:00:43Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "YOUTH TEAM ANNOUNCE 2026/27 PRE-SEASON PLANS",
-      "url": "https://www.carlisleunited.co.uk/news/youth-team-announce-202627-pre-season-plans",
-      "published": "2026-07-03T09:00:00Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1338,6 +1383,15 @@
       "published": "2026-07-02T18:58:36Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Boss applauds squad mentality",
+      "url": "https://harriers.co.uk/news/2026/07/02/boss-applauads-squad-mentality/",
+      "published": "2026-07-02T18:48:19Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1419,67 +1473,13 @@
       "published": "2026-07-02T16:26:49Z"
     },
     {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Spicer Signs Contract with the Reds",
-      "url": "https://worthingfc.com/2026/07/spicer-signs-contract-with-the-reds/",
-      "published": "2026-07-02T15:03:54Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "LIVE SPORT IN BAR TWENTY SEVEN",
-      "url": "https://macclesfieldfc.com/latest-news/live-sport-in-bar-twenty-seven/",
-      "published": "2026-07-02T15:00:48Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Tommy Uda moves into Consultant Physiotherapist role",
-      "url": "https://chesterfc.com/07/02/tommy-uda-moves-into-consultant-physiotherapist-role/",
-      "published": "2026-07-02T15:00:23Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Gaffer On Pre-Season",
-      "url": "https://www.fgr.co.uk/news/gaffer-pre-season-interview/",
-      "published": "2026-07-02T15:00:00Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Oldham Match To Kick-Off At 12.30pm",
-      "url": "https://rochdaleafc.co.uk/oldham-match-to-kick-off-at-12-30pm/",
-      "published": "2026-07-02T14:59:54Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "NEWS | Bulls Showcase Holmer Park #BASE",
-      "url": "https://herefordfc.co.uk/2026/07/news-bulls-showcase-holmer-park-base/",
-      "published": "2026-07-02T14:43:37Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Pennies pitch in for women’s team sponsorship",
-      "url": "https://maidstoneunited.co.uk/07/02/pennies-pitch-in-for-womens-team-sponsorship/",
-      "published": "2026-07-02T14:39:33Z"
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Harriers need your support!",
+      "url": "https://harriers.co.uk/news/2026/07/02/harriers-need-your-support/",
+      "published": "2026-07-02T15:34:56Z"
     }
   ]
 }
