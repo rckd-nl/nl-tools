@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-04T21:17:03Z",
+  "generatedAt": "2026-07-04T22:15:07Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.carlisleunited.co.uk/rss.xml",
+      "ok": true,
+      "count": 50,
+      "error": ""
     },
     {
       "club": "Eastleigh",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=509be1d8-8921-4efb-873e-94a5644350fb",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=0f500971-c74d-4f8f-8b28-ebfeba9ca413",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Gallery: Cullompton Rangers 1 – 2 WsM AFC",
+      "url": "https://wsmafc.co.uk/gallery-cullompton-rangers/",
+      "published": "2026-07-04T21:31:46Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -753,15 +762,6 @@
       "published": "2026-07-04T07:45:46Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Hornets Pre-season tickets on sale",
-      "url": "https://www.horshamfc.co.uk/2026/07/04/hornets-pre-season-tickets-on-sale/",
-      "published": "2026-07-04T07:44:37Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -805,15 +805,6 @@
       "title": "Yeovil Town Women Back Under Club Ownership",
       "url": "https://ytfc.net/2026/07/yeovil-town-women-back-under-club-ownership/",
       "published": "2026-07-03T19:57:52Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Archie Taylor arrives home as ‘one of our own’",
-      "url": "https://wsmafc.co.uk/archie-taylor-signs/",
-      "published": "2026-07-03T19:05:24Z"
     },
     {
       "club": "Southend United",
@@ -1041,15 +1032,6 @@
       "published": "2026-07-03T14:00:50Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Brand New Woven Pitch installation complete",
-      "url": "https://www.horshamfc.co.uk/2026/07/03/brand-new-woven-pitch-installation-complete/",
-      "published": "2026-07-03T14:00:49Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1129,6 +1111,15 @@
       "title": "MATCH PREVIEW: MACCLESFIELD FC VS HYDE UNITED",
       "url": "https://macclesfieldfc.com/latest-news/match-preview-macclesfield-fc-vs-hyde-united/",
       "published": "2026-07-03T13:00:14Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "MINUTES FROM THE JUNE CUSG MEETING",
+      "url": "https://www.carlisleunited.co.uk/news/minutes-june-cusg-meeting-0",
+      "published": "2026-07-03T13:00:00Z"
     },
     {
       "club": "Yeovil Town",
@@ -1293,6 +1284,15 @@
       "published": "2026-07-03T09:00:43Z"
     },
     {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "YOUTH TEAM ANNOUNCE 2026/27 PRE-SEASON PLANS",
+      "url": "https://www.carlisleunited.co.uk/news/youth-team-announce-202627-pre-season-plans",
+      "published": "2026-07-03T09:00:00Z"
+    },
+    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1300,15 +1300,6 @@
       "title": "Seeking a new handler for our mascot, Lupus!",
       "url": "https://chesterfc.com/07/03/seeking-a-new-handler-for-our-mascot-lupus/",
       "published": "2026-07-03T08:59:20Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham FC appoints Nathan Hull as Women’s First Team Manager",
-      "url": "https://www.horshamfc.co.uk/2026/07/03/horsham-fc-appoints-nathan-hull-as-womens-first-team-manager/",
-      "published": "2026-07-03T08:50:22Z"
     },
     {
       "club": "Woking",
@@ -1480,6 +1471,15 @@
       "title": "Date confirmed for first Fans' Forum of 2026/27",
       "url": "https://altrinchamfc.com/blogs/news/date-confirmed-for-first-fans-forum-of-2026-27",
       "published": "2026-07-02T16:26:49Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Harriers need your support!",
+      "url": "https://harriers.co.uk/news/2026/07/02/harriers-need-your-support/",
+      "published": "2026-07-02T15:34:56Z"
     }
   ]
 }
