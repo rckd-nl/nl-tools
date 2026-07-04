@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-04T08:18:16Z",
+  "generatedAt": "2026-07-04T10:29:44Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.carlisleunited.co.uk/rss.xml",
+      "ok": true,
+      "count": 50,
+      "error": ""
     },
     {
       "club": "Eastleigh",
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3771,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=5aa34600-0a43-4492-8eb9-16141f7b9fd5",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=fda69b3d-1730-4675-aa7c-f66d73144d79",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,42 @@
   ],
   "items": [
     {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "🎤 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 | Felix Miles on joining Chippenham Town",
+      "url": "https://chippenhamtown.com/07/04/%f0%9f%8e%a4-%f0%9d%97%9c%f0%9d%97%bb%f0%9d%98%81%f0%9d%97%b2%f0%9d%97%bf%f0%9d%98%83%f0%9d%97%b6%f0%9d%97%b2%f0%9d%98%84-felix-miles-on-joining-chippenham-town/",
+      "published": "2026-07-04T10:00:06Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Felix Miles is a Bluebird",
+      "url": "https://chippenhamtown.com/07/04/felix-miles-is-a-bluebird/",
+      "published": "2026-07-04T09:30:14Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "RIP Paul Dobson – 1962 – 2026",
+      "url": "https://gateshead-fc.com/rip-paul-dobson-1962-2026/",
+      "published": "2026-07-04T09:22:40Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Seagulls head to Cullompton for first pre-season trip",
+      "url": "https://wsmafc.co.uk/cullompton-match-preview/",
+      "published": "2026-07-04T08:31:20Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -715,6 +751,15 @@
       "title": "Notes from the Chair – 3rd July 2026",
       "url": "https://cheshamunited.co.uk/2026/07/notes-from-the-chair-3rd-july-2026/",
       "published": "2026-07-03T17:14:02Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Harry Chapman signs one-year contract extension at Gateshead FC until 2027",
+      "url": "https://gateshead-fc.com/harry-chapman-signs-one-year-contract-extension-at-gateshead-fc-until-2027/",
+      "published": "2026-07-03T17:00:14Z"
     },
     {
       "club": "Chippenham Town",
@@ -915,6 +960,15 @@
       "published": "2026-07-03T14:00:12Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Statement From Dale Vince",
+      "url": "https://www.fgr.co.uk/news/update-from-dale-vince-on-womens-team/",
+      "published": "2026-07-03T14:00:00Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -960,6 +1014,15 @@
       "published": "2026-07-03T13:00:14Z"
     },
     {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "MINUTES FROM THE JUNE CUSG MEETING",
+      "url": "https://www.carlisleunited.co.uk/news/minutes-june-cusg-meeting-0",
+      "published": "2026-07-03T13:00:00Z"
+    },
+    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1003,6 +1066,15 @@
       "title": "CFC Community Trust Weekly Update",
       "url": "https://chesterfc.com/07/03/cfc-community-trust-weekly-update-6/",
       "published": "2026-07-03T12:00:30Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Obi Signs For Rovers",
+      "url": "https://www.fgr.co.uk/news/emeka-obi-joins-fgr/",
+      "published": "2026-07-03T12:00:00Z"
     },
     {
       "club": "Kidderminster Harriers",
@@ -1129,6 +1201,15 @@
       "title": "GOODWINS AUTO SALVAGE CELEBRATE A DECADE OF LOYALTY BY EXTENDING SILKMEN PARTNERSHIP",
       "url": "https://macclesfieldfc.com/latest-news/goodwins-auto-salvage-celebrate-a-decade-of-loyalty-by-extending-silkmen-partnership/",
       "published": "2026-07-03T09:00:43Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "YOUTH TEAM ANNOUNCE 2026/27 PRE-SEASON PLANS",
+      "url": "https://www.carlisleunited.co.uk/news/youth-team-announce-202627-pre-season-plans",
+      "published": "2026-07-03T09:00:00Z"
     },
     {
       "club": "Chester",
@@ -1284,15 +1365,6 @@
       "published": "2026-07-02T17:01:34Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SILKMEN UNVEIL 2026/27 SPONSORSHIP OPPORTUNITIES BROCHURE",
-      "url": "https://macclesfieldfc.com/latest-news/silkmen-unveil-2026-27-sponsorship-opportunities-brochure/",
-      "published": "2026-07-02T17:00:30Z"
-    },
-    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -1383,6 +1455,15 @@
       "published": "2026-07-02T15:00:23Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Gaffer On Pre-Season",
+      "url": "https://www.fgr.co.uk/news/gaffer-pre-season-interview/",
+      "published": "2026-07-02T15:00:00Z"
+    },
+    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -1399,87 +1480,6 @@
       "title": "NEWS | Bulls Showcase Holmer Park #BASE",
       "url": "https://herefordfc.co.uk/2026/07/news-bulls-showcase-holmer-park-base/",
       "published": "2026-07-02T14:43:37Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Pennies pitch in for women’s team sponsorship",
-      "url": "https://maidstoneunited.co.uk/07/02/pennies-pitch-in-for-womens-team-sponsorship/",
-      "published": "2026-07-02T14:39:33Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Watch: Dean Holdsworth interview",
-      "url": "https://harriers.co.uk/news/2026/07/02/watch-dean-holdsworth-interview/",
-      "published": "2026-07-02T13:53:30Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Preston Leech joins Whitley Bay on loan",
-      "url": "https://gateshead-fc.com/preston-leech-joins-whitley-bay-on-loan/",
-      "published": "2026-07-02T13:52:50Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Stones continue pre-season progress",
-      "url": "https://maidstoneunited.co.uk/07/02/day-four-complete-as-stones-continue-pre-season-progress/",
-      "published": "2026-07-02T13:27:28Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Fixture Breakfast In The Cove",
-      "url": "https://torquayunited.com/fixture-breakfast-in-the-cove/",
-      "published": "2026-07-02T13:18:56Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Jimmy Ball | 2026/27 Pre-Season Update | Deon Moore Signs",
-      "url": "https://torquayunited.com/jimmy-ball-2026-27-pre-season-update-deon-moore-signs/",
-      "published": "2026-07-02T13:04:29Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "2026/27 PRE-SEASON SCHEDULE CONFIRMED",
-      "url": "https://macclesfieldfc.com/latest-news/2026-27-pre-season-schedule-confirmed/",
-      "published": "2026-07-02T13:00:27Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "TUFC Mourns The Passing Of Paul Dobson",
-      "url": "https://torquayunited.com/tufc-mourns-the-passing-of-paul-dobson/",
-      "published": "2026-07-02T12:12:03Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Tickets On Sale for Hornchurch Pre-Season Friendly",
-      "url": "https://daggers.co.uk/tickets-on-sale-for-hornchurch-pre-season-friendly/",
-      "published": "2026-07-02T11:09:19Z"
     }
   ]
 }
