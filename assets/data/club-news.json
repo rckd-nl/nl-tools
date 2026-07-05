@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-05T15:42:20Z",
+  "generatedAt": "2026-07-05T16:47:17Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.fgr.co.uk', port=443): Read timed out. (read timeout=25)"
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,10 +246,10 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=ffe1fba5-7ac3-4d88-bfd6-e243aa48eefc",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=6302f16e-3426-4a4b-b44a-d011010b6ab3",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 503"
     },
     {
       "club": "Curzon Ashton",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SILKMEN FAN CAM: HYDE UNITED (H)",
+      "url": "https://macclesfieldfc.com/galleries/silkmen-fan-cam-hyde-united-h-2/",
+      "published": "2026-07-05T16:00:54Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SILKMEN FAN CAM: HYDE UNITED (H)",
+      "url": "https://macclesfieldfc.com/latest-news/silkmen-fan-cam-hyde-united-h/",
+      "published": "2026-07-05T16:00:41Z"
+    },
     {
       "club": "Boreham Wood",
       "code": "BHW",
@@ -1212,15 +1230,6 @@
       "published": "2026-07-03T13:00:23Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MATCH PREVIEW: MACCLESFIELD FC VS HYDE UNITED",
-      "url": "https://macclesfieldfc.com/latest-news/match-preview-macclesfield-fc-vs-hyde-united/",
-      "published": "2026-07-03T13:00:14Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1282,15 +1291,6 @@
       "title": "Bluebirds Dream Draw Week 45",
       "url": "https://chippenhamtown.com/07/03/bluebirds-dream-draw-week-45/",
       "published": "2026-07-03T11:00:59Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "PRE-SEASON TICKET NEWS: LEEK TOWN (A)",
-      "url": "https://macclesfieldfc.com/latest-news/pre-season-ticket-news-leek-town-a/",
-      "published": "2026-07-03T11:00:40Z"
     },
     {
       "club": "Chester",

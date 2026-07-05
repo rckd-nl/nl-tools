@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-05T15:42:20Z",
+  "generatedAt": "2026-07-05T16:47:17Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -48,7 +48,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.fgr.co.uk', port=443): Read timed out. (read timeout=25)"
+      "error": "HTTP 404"
     },
     {
       "club": "Morecambe",
@@ -125,10 +125,10 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=ffe1fba5-7ac3-4d88-bfd6-e243aa48eefc",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=6302f16e-3426-4a4b-b44a-d011010b6ab3",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 503"
     },
     {
       "club": "Darlington",
