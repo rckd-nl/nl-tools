@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-05T22:42:33Z",
+  "generatedAt": "2026-07-05T23:47:17Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -109,7 +109,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=6517aebe-ae0f-4bac-852d-e544ad5fe5c1",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -216,7 +216,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 503"
+      "error": "HTTP 404"
     },
     {
       "club": "Hemel Hempstead Town",
@@ -225,6 +225,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
