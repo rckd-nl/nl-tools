@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-05T20:43:12Z",
+  "generatedAt": "2026-07-05T21:43:44Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -64,7 +64,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Sutton United",
@@ -117,7 +117,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=2fde6a7a-6956-44e9-b234-b5c931aabbf3",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=057ee5b0-ce9e-4d5f-8a79-2dfca1fe5ddc",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -160,7 +160,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Peterborough Sports",
@@ -233,6 +233,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",

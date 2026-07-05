@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-05T20:43:12Z",
+  "generatedAt": "2026-07-05T21:43:44Z",
   "maxItems": 100,
   "sources": [
     {
@@ -129,7 +129,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Southend United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=2fde6a7a-6956-44e9-b234-b5c931aabbf3",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=057ee5b0-ce9e-4d5f-8a79-2dfca1fe5ddc",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -329,7 +329,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Peterborough Sports",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Harkmac extend sponsorship for the 26/27 season",
+      "url": "https://www.borehamwoodfootballclub.co.uk/harkmac-extend-sponsorship-for-the-26-27-season/",
+      "published": "2026-07-05T21:00:21Z"
+    },
     {
       "club": "Worthing",
       "code": "WOR",
@@ -733,6 +742,15 @@
       "title": "Milly Peel appointed Head of Wellbeing and Psychology",
       "url": "https://chesterfc.com/07/05/milly-peel-appointed-head-of-wellbeing-and-psychology/",
       "published": "2026-07-05T11:00:23Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Preview: Weston v Bristol Rovers",
+      "url": "https://wsmafc.co.uk/preview-weston-v-bristol-rovers/",
+      "published": "2026-07-05T10:22:28Z"
     },
     {
       "club": "Maidstone United",
@@ -958,24 +976,6 @@
       "title": "Seagulls head to Cullompton for first pre-season trip",
       "url": "https://wsmafc.co.uk/cullompton-match-preview/",
       "published": "2026-07-04T08:31:20Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Jake Clements appointed new Lead Commentator",
-      "url": "https://wsmafc.co.uk/jake-clements-appointed-new-lead-commentator/",
-      "published": "2026-07-04T07:45:46Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Hornets Pre-season tickets on sale",
-      "url": "https://www.horshamfc.co.uk/2026/07/04/hornets-pre-season-tickets-on-sale/",
-      "published": "2026-07-04T07:44:37Z"
     },
     {
       "club": "Hereford",
@@ -1230,15 +1230,6 @@
       "published": "2026-07-03T14:00:50Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Brand New Woven Pitch installation complete",
-      "url": "https://www.horshamfc.co.uk/2026/07/03/brand-new-woven-pitch-installation-complete/",
-      "published": "2026-07-03T14:00:49Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1455,15 +1446,6 @@
       "published": "2026-07-03T08:59:20Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham FC appoints Nathan Hull as Women’s First Team Manager",
-      "url": "https://www.horshamfc.co.uk/2026/07/03/horsham-fc-appoints-nathan-hull-as-womens-first-team-manager/",
-      "published": "2026-07-03T08:50:22Z"
-    },
-    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -1480,6 +1462,24 @@
       "title": "England’s Round of 16 Fanzone",
       "url": "https://chelmsfordcityfc.com/news/englands-round-of-16-fanzone/",
       "published": "2026-07-03T08:27:40Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Match Day Information: Cobham (A)",
+      "url": "https://farnboroughfc.co.uk/2026/07/match-day-information-cobham-a-2/",
+      "published": "2026-07-03T08:00:08Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Sporting Memories Cafe – Wimbledon",
+      "url": "https://tonbridgeangels.co.uk/sporting-memories-cafe-wimbledon/",
+      "published": "2026-07-03T07:54:38Z"
     }
   ]
 }
