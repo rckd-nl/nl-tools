@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-05T16:47:17Z",
+  "generatedAt": "2026-07-05T17:50:02Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.carlisleunited.co.uk/rss.xml",
+      "ok": true,
+      "count": 50,
+      "error": ""
     },
     {
       "club": "Eastleigh",
@@ -246,10 +246,10 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=6302f16e-3426-4a4b-b44a-d011010b6ab3",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=b7f3b21a-9d98-4da3-b5f9-3f7d6999d9f2",
       "ok": false,
       "count": 0,
-      "error": "HTTP 503"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Angels Everywhere Update",
+      "url": "https://tonbridgeangels.co.uk/angels-everywhere-update/",
+      "published": "2026-07-05T17:18:15Z"
+    },
     {
       "club": "Macclesfield",
       "code": "MAC",
@@ -915,6 +924,15 @@
       "published": "2026-07-04T07:45:46Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Hornets Pre-season tickets on sale",
+      "url": "https://www.horshamfc.co.uk/2026/07/04/hornets-pre-season-tickets-on-sale/",
+      "published": "2026-07-04T07:44:37Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1176,6 +1194,15 @@
       "published": "2026-07-03T14:00:50Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Brand New Woven Pitch installation complete",
+      "url": "https://www.horshamfc.co.uk/2026/07/03/brand-new-woven-pitch-installation-complete/",
+      "published": "2026-07-03T14:00:49Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1228,6 +1255,15 @@
       "title": "Ethan Vaughan departs CTFC",
       "url": "https://chippenhamtown.com/07/03/ethan-vaughan-departs-ctfc/",
       "published": "2026-07-03T13:00:23Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "MINUTES FROM THE JUNE CUSG MEETING",
+      "url": "https://www.carlisleunited.co.uk/news/minutes-june-cusg-meeting-0",
+      "published": "2026-07-03T13:00:00Z"
     },
     {
       "club": "Yeovil Town",
@@ -1365,6 +1401,15 @@
       "published": "2026-07-03T09:01:06Z"
     },
     {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "YOUTH TEAM ANNOUNCE 2026/27 PRE-SEASON PLANS",
+      "url": "https://www.carlisleunited.co.uk/news/youth-team-announce-202627-pre-season-plans",
+      "published": "2026-07-03T09:00:00Z"
+    },
+    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1372,6 +1417,15 @@
       "title": "Seeking a new handler for our mascot, Lupus!",
       "url": "https://chesterfc.com/07/03/seeking-a-new-handler-for-our-mascot-lupus/",
       "published": "2026-07-03T08:59:20Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham FC appoints Nathan Hull as Women’s First Team Manager",
+      "url": "https://www.horshamfc.co.uk/2026/07/03/horsham-fc-appoints-nathan-hull-as-womens-first-team-manager/",
+      "published": "2026-07-03T08:50:22Z"
     },
     {
       "club": "Woking",
@@ -1426,60 +1480,6 @@
       "title": "All TUFC GOALS | 2025-2026",
       "url": "https://torquayunited.com/all-tufc-goals-2025-2026/",
       "published": "2026-07-02T19:08:14Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "First words: Neo Eccleston",
-      "url": "https://www.hartlepoolunited.co.uk/first-words-neo-eccleston/",
-      "published": "2026-07-02T19:03:05Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Inside Training: First Session of the Summer 🌡️☀️",
-      "url": "https://worthingfc.com/2026/07/inside-training-first-session-of-the-summer-%f0%9f%8c%a1%ef%b8%8f%e2%98%80%ef%b8%8f/",
-      "published": "2026-07-02T19:00:27Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Pools sign defender Neo Eccleston",
-      "url": "https://www.hartlepoolunited.co.uk/pools-sign-defender-neo-eccleston/",
-      "published": "2026-07-02T18:58:36Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Boss applauds squad mentality",
-      "url": "https://harriers.co.uk/news/2026/07/02/boss-applauads-squad-mentality/",
-      "published": "2026-07-02T18:48:19Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "SIGNING | Attacker Phillips Flies In From Bristol City",
-      "url": "https://herefordfc.co.uk/2026/07/signing-attacker-phillips-flies-in-from-bristol-city/",
-      "published": "2026-07-02T18:15:48Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Cian Hayes Returns",
-      "url": "https://rochdaleafc.co.uk/cian-hayes-returns-020726/",
-      "published": "2026-07-02T17:58:33Z"
     }
   ]
 }
