@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-05T14:11:25Z",
+  "generatedAt": "2026-07-05T15:42:20Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3771,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.fgr.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=71191f0a-1d99-499c-a930-9c59b0fac89b",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=ffe1fba5-7ac3-4d88-bfd6-e243aa48eefc",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Femi, take a bow!",
+      "url": "https://www.borehamwoodfootballclub.co.uk/femi-take-a-bow/",
+      "published": "2026-07-05T14:58:40Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Event Information: England vs Mexico at Woodside",
+      "url": "https://worthingfc.com/2026/07/event-information-england-vs-mexico/",
+      "published": "2026-07-05T14:19:07Z"
+    },
     {
       "club": "Macclesfield",
       "code": "MAC",
@@ -1167,15 +1185,6 @@
       "published": "2026-07-03T14:00:12Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Statement From Dale Vince",
-      "url": "https://www.fgr.co.uk/news/update-from-dale-vince-on-womens-team/",
-      "published": "2026-07-03T14:00:00Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1246,15 +1255,6 @@
       "title": "CFC Community Trust Weekly Update",
       "url": "https://chesterfc.com/07/03/cfc-community-trust-weekly-update-6/",
       "published": "2026-07-03T12:00:30Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Obi Signs For Rovers",
-      "url": "https://www.fgr.co.uk/news/emeka-obi-joins-fgr/",
-      "published": "2026-07-03T12:00:00Z"
     },
     {
       "club": "Kidderminster Harriers",
