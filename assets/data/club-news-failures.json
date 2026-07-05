@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-04T23:16:44Z",
+  "generatedAt": "2026-07-05T00:17:35Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -43,6 +43,14 @@
       "error": "HTTP 202"
     },
     {
+      "club": "Forest Green Rovers",
+      "domain": "fgr.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
       "feed": "",
@@ -57,6 +65,14 @@
       "ok": false,
       "count": 0,
       "error": "Feed returned 0 usable items"
+    },
+    {
+      "club": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Scunthorpe United",
@@ -125,7 +141,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=880df281-db5a-4f7a-8066-63cb9436693c",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=73a2123a-7dad-4e09-beb6-6e7e31901efa",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -161,6 +177,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Marine",
+      "domain": "marinefc.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 401"
     },
     {
       "club": "Merthyr Town",
