@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-05T19:43:48Z",
+  "generatedAt": "2026-07-05T20:43:12Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "https://www.carlisleunited.co.uk/rss.xml",
-      "ok": true,
-      "count": 50,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Eastleigh",
@@ -129,7 +129,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Southend United",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=e24fcef5-dd91-46fe-b900-e8992648bc74",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=2fde6a7a-6956-44e9-b234-b5c931aabbf3",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -329,7 +329,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Peterborough Sports",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Chairman Update: July 2026",
+      "url": "https://worthingfc.com/2026/07/chairman-update-july-2026/",
+      "published": "2026-07-05T20:38:20Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Brad Ash – What He Can Do",
+      "url": "https://wsmafc.co.uk/brad-ash-what-he-can-do/",
+      "published": "2026-07-05T19:50:30Z"
+    },
+    {
       "club": "Radcliffe",
       "code": "RAD",
       "short": "Radcliffe",
@@ -609,6 +627,15 @@
       "published": "2026-07-05T17:18:15Z"
     },
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Watch England vs. Mexico on Monday morning",
+      "url": "https://maidstoneunited.co.uk/07/05/watch-england-vs-mexico-on-monday-morning/",
+      "published": "2026-07-05T17:00:40Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -625,6 +652,15 @@
       "title": "SILKMEN FAN CAM: HYDE UNITED (H)",
       "url": "https://macclesfieldfc.com/latest-news/silkmen-fan-cam-hyde-united-h/",
       "published": "2026-07-05T16:00:41Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Gallery: Whitstable Town",
+      "url": "https://maidstoneunited.co.uk/07/05/gallery-whitstable-town/",
+      "published": "2026-07-05T15:30:22Z"
     },
     {
       "club": "Boreham Wood",
@@ -697,15 +733,6 @@
       "title": "Milly Peel appointed Head of Wellbeing and Psychology",
       "url": "https://chesterfc.com/07/05/milly-peel-appointed-head-of-wellbeing-and-psychology/",
       "published": "2026-07-05T11:00:23Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Watch England vs. Mexico on Monday morning",
-      "url": "https://maidstoneunited.co.uk/07/05/watch-england-vs-mexico-on-monday-morning/",
-      "published": "2026-07-05T10:04:40Z"
     },
     {
       "club": "Maidstone United",
@@ -967,15 +994,6 @@
       "title": "The Work Starts Here | Flight Plan",
       "url": "https://torquayunited.com/the-work-starts-here-flight-plan/",
       "published": "2026-07-03T22:58:54Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "“𝗜𝘁’𝘀 𝗴𝗼𝗼𝗱 𝘁𝗼 𝗵𝗮𝘃𝗲 𝗹𝗮𝗱𝘀 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗮𝗿𝗲𝗮” | Scott Rogers on the signing of Archie Taylor",
-      "url": "https://wsmafc.co.uk/%f0%9d%97%9c%f0%9d%98%81%f0%9d%98%80-%f0%9d%97%b4%f0%9d%97%bc%f0%9d%97%bc%f0%9d%97%b1-%f0%9d%98%81%f0%9d%97%bc-%f0%9d%97%b5%f0%9d%97%ae%f0%9d%98%83%f0%9d%97%b2-%f0%9d%97%b9%f0%9d%97%ae%f0%9d%97%b1/",
-      "published": "2026-07-03T22:05:14Z"
     },
     {
       "club": "Yeovil Town",
@@ -1284,15 +1302,6 @@
       "published": "2026-07-03T13:00:23Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "MINUTES FROM THE JUNE CUSG MEETING",
-      "url": "https://www.carlisleunited.co.uk/news/minutes-june-cusg-meeting-0",
-      "published": "2026-07-03T13:00:00Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1435,15 +1444,6 @@
       "title": "June's Monthly Draw Winners",
       "url": "https://altrinchamfc.com/blogs/news/junes-monthly-draw-winners-1",
       "published": "2026-07-03T09:01:06Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "YOUTH TEAM ANNOUNCE 2026/27 PRE-SEASON PLANS",
-      "url": "https://www.carlisleunited.co.uk/news/youth-team-announce-202627-pre-season-plans",
-      "published": "2026-07-03T09:00:00Z"
     },
     {
       "club": "Chester",

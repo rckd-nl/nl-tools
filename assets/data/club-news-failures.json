@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-05T19:43:48Z",
+  "generatedAt": "2026-07-05T20:43:12Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -35,6 +35,14 @@
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
     },
     {
+      "club": "Carlisle United",
+      "domain": "carlisleunited.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
+    },
+    {
       "club": "Morecambe",
       "domain": "morecambefc.com",
       "feed": "https://morecambefc.com/news/feed/",
@@ -56,7 +64,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Sutton United",
@@ -109,7 +117,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=e24fcef5-dd91-46fe-b900-e8992648bc74",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=2fde6a7a-6956-44e9-b234-b5c931aabbf3",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -152,7 +160,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Peterborough Sports",
@@ -232,7 +240,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Salisbury",
