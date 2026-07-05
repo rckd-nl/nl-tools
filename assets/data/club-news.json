@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-05T21:43:44Z",
+  "generatedAt": "2026-07-05T22:42:33Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.carlisleunited.co.uk/rss.xml",
+      "ok": true,
+      "count": 50,
+      "error": ""
     },
     {
       "club": "Eastleigh",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=057ee5b0-ce9e-4d5f-8a79-2dfca1fe5ddc",
+      "feed": "",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -489,7 +489,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 503"
     },
     {
       "club": "Hemel Hempstead Town",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Pre-Season Training 2 4th July 2026",
+      "url": "https://chippenhamtown.com/07/05/pre-season-training-2-4th-july-2026/",
+      "published": "2026-07-05T22:20:14Z"
+    },
     {
       "club": "Boreham Wood",
       "code": "BHW",
@@ -978,6 +987,15 @@
       "published": "2026-07-04T08:31:20Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Hornets Pre-season tickets on sale",
+      "url": "https://www.horshamfc.co.uk/2026/07/04/hornets-pre-season-tickets-on-sale/",
+      "published": "2026-07-04T07:44:37Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1230,6 +1248,15 @@
       "published": "2026-07-03T14:00:50Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Brand New Woven Pitch installation complete",
+      "url": "https://www.horshamfc.co.uk/2026/07/03/brand-new-woven-pitch-installation-complete/",
+      "published": "2026-07-03T14:00:49Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1291,6 +1318,15 @@
       "title": "Ethan Vaughan departs CTFC",
       "url": "https://chippenhamtown.com/07/03/ethan-vaughan-departs-ctfc/",
       "published": "2026-07-03T13:00:23Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "MINUTES FROM THE JUNE CUSG MEETING",
+      "url": "https://www.carlisleunited.co.uk/news/minutes-june-cusg-meeting-0",
+      "published": "2026-07-03T13:00:00Z"
     },
     {
       "club": "Yeovil Town",
@@ -1437,49 +1473,13 @@
       "published": "2026-07-03T09:01:06Z"
     },
     {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Seeking a new handler for our mascot, Lupus!",
-      "url": "https://chesterfc.com/07/03/seeking-a-new-handler-for-our-mascot-lupus/",
-      "published": "2026-07-03T08:59:20Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Cancer Testing Services",
-      "url": "https://wokingfc.co.uk/07/03/cancer-testing-services/",
-      "published": "2026-07-03T08:43:28Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "England’s Round of 16 Fanzone",
-      "url": "https://chelmsfordcityfc.com/news/englands-round-of-16-fanzone/",
-      "published": "2026-07-03T08:27:40Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Match Day Information: Cobham (A)",
-      "url": "https://farnboroughfc.co.uk/2026/07/match-day-information-cobham-a-2/",
-      "published": "2026-07-03T08:00:08Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Sporting Memories Cafe – Wimbledon",
-      "url": "https://tonbridgeangels.co.uk/sporting-memories-cafe-wimbledon/",
-      "published": "2026-07-03T07:54:38Z"
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "YOUTH TEAM ANNOUNCE 2026/27 PRE-SEASON PLANS",
+      "url": "https://www.carlisleunited.co.uk/news/youth-team-announce-202627-pre-season-plans",
+      "published": "2026-07-03T09:00:00Z"
     }
   ]
 }
