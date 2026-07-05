@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-05T17:50:02Z",
+  "generatedAt": "2026-07-05T19:43:48Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3771,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=b7f3b21a-9d98-4da3-b5f9-3f7d6999d9f2",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=e24fcef5-dd91-46fe-b900-e8992648bc74",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "First Interview | Harley O’Grady-Macken",
+      "url": "https://radcliffefc.com/first-interview-harley-ogrady-macken-2/",
+      "published": "2026-07-05T18:50:50Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Harley O’Grady-Macken returns to Radcliffe",
+      "url": "https://radcliffefc.com/harley-ogrady-macken-returns-to-radcliffe/",
+      "published": "2026-07-05T18:34:02Z"
+    },
     {
       "club": "Tonbridge Angels",
       "code": "TON",
@@ -1230,6 +1248,15 @@
       "published": "2026-07-03T14:00:12Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Statement From Dale Vince",
+      "url": "https://www.fgr.co.uk/news/update-from-dale-vince-on-womens-team/",
+      "published": "2026-07-03T14:00:00Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1300,6 +1327,15 @@
       "title": "CFC Community Trust Weekly Update",
       "url": "https://chesterfc.com/07/03/cfc-community-trust-weekly-update-6/",
       "published": "2026-07-03T12:00:30Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Obi Signs For Rovers",
+      "url": "https://www.fgr.co.uk/news/emeka-obi-joins-fgr/",
+      "published": "2026-07-03T12:00:00Z"
     },
     {
       "club": "Kidderminster Harriers",
@@ -1444,42 +1480,6 @@
       "title": "England’s Round of 16 Fanzone",
       "url": "https://chelmsfordcityfc.com/news/englands-round-of-16-fanzone/",
       "published": "2026-07-03T08:27:40Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Match Day Information: Cobham (A)",
-      "url": "https://farnboroughfc.co.uk/2026/07/match-day-information-cobham-a-2/",
-      "published": "2026-07-03T08:00:08Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Sporting Memories Cafe – Wimbledon",
-      "url": "https://tonbridgeangels.co.uk/sporting-memories-cafe-wimbledon/",
-      "published": "2026-07-03T07:54:38Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "📸 Pre-Season Training on Tuesday",
-      "url": "https://chippenhamtown.com/07/02/a-selection-of-pictures-from-pre-season-training-on-tuesday-more-to-follow/",
-      "published": "2026-07-02T22:00:56Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "All TUFC GOALS | 2025-2026",
-      "url": "https://torquayunited.com/all-tufc-goals-2025-2026/",
-      "published": "2026-07-02T19:08:14Z"
     }
   ]
 }
