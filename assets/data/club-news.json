@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-06T01:34:48Z",
+  "generatedAt": "2026-07-06T06:12:57Z",
   "maxItems": 100,
   "sources": [
     {
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=9d0faee7-27e3-45c1-b73f-c48028769fd8",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=c4710d52-a793-4fc1-bcdf-54a41f277785",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7face5c4fb10>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -715,6 +715,15 @@
       "title": "MATCH REPORT: MACCLESFIELD FC 3-0 HYDE UNITED",
       "url": "https://macclesfieldfc.com/latest-news/match-report-macclesfield-fc-3-0-hyde-united/",
       "published": "2026-07-05T14:00:47Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Match Day Information: Ashford Town (Middlesex) (A)",
+      "url": "https://farnboroughfc.co.uk/2026/07/match-day-information-ashford-town-middlesex-a-2/",
+      "published": "2026-07-05T14:00:32Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -996,6 +1005,15 @@
       "published": "2026-07-04T08:31:20Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Hornets Pre-season tickets on sale",
+      "url": "https://www.horshamfc.co.uk/2026/07/04/hornets-pre-season-tickets-on-sale/",
+      "published": "2026-07-04T07:44:37Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1248,6 +1266,15 @@
       "published": "2026-07-03T14:00:50Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Brand New Woven Pitch installation complete",
+      "url": "https://www.horshamfc.co.uk/2026/07/03/brand-new-woven-pitch-installation-complete/",
+      "published": "2026-07-03T14:00:49Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1453,33 +1480,6 @@
       "title": "June's Monthly Draw Winners",
       "url": "https://altrinchamfc.com/blogs/news/junes-monthly-draw-winners-1",
       "published": "2026-07-03T09:01:06Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Seeking a new handler for our mascot, Lupus!",
-      "url": "https://chesterfc.com/07/03/seeking-a-new-handler-for-our-mascot-lupus/",
-      "published": "2026-07-03T08:59:20Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Cancer Testing Services",
-      "url": "https://wokingfc.co.uk/07/03/cancer-testing-services/",
-      "published": "2026-07-03T08:43:28Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "England’s Round of 16 Fanzone",
-      "url": "https://chelmsfordcityfc.com/news/englands-round-of-16-fanzone/",
-      "published": "2026-07-03T08:27:40Z"
     }
   ]
 }
