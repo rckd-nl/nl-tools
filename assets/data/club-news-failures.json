@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-06T19:26:34Z",
+  "generatedAt": "2026-07-06T21:17:46Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -41,6 +41,22 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 202"
+    },
+    {
+      "club": "FC Halifax Town",
+      "domain": "fchalifaxtown.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "club": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Morecambe",
@@ -117,7 +133,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=78ed93bd-04cc-488a-a268-01ea93cb336f",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=dd2c86bb-a811-4f3d-8b0a-721544a53837",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -129,6 +145,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "domain": "harriers.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -187,6 +211,14 @@
       "error": "HTTP 404"
     },
     {
+      "club": "Southport",
+      "domain": "southportfc.net",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
+    },
+    {
       "club": "Worksop Town",
       "domain": "worksoptownfc.co.uk",
       "feed": "",
@@ -203,12 +235,20 @@
       "error": "Feed returned 0 usable items"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "domain": "daggers.co.uk",
+      "club": "Dorking Wanderers",
+      "domain": "dorkingwanderers.com",
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 429"
+      "error": "HTTP 404"
+    },
+    {
+      "club": "Dover Athletic",
+      "domain": "doverathletic.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Eastbourne Borough",
