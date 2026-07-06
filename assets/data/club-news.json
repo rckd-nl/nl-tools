@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-06T22:42:15Z",
+  "generatedAt": "2026-07-06T23:47:59Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.carlisleunited.co.uk/rss.xml",
+      "ok": true,
+      "count": 50,
+      "error": ""
     },
     {
       "club": "Eastleigh",
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3773,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=3f55defd-cfcc-4bfb-bbba-3c3a93c0fbab",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=f320ebcf-bd8f-4d01-b468-19e3479258ea",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -663,6 +663,15 @@
       "published": "2026-07-06T15:00:00Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Pre-Season Preview: Hornchurch",
+      "url": "https://daggers.co.uk/pre-season-preview-hornchurch/",
+      "published": "2026-07-06T15:00:00Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -744,15 +753,6 @@
       "published": "2026-07-06T13:07:30Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "26/27 Season Tickets Now on General Sale",
-      "url": "https://www.fgr.co.uk/news/26-27-season-tickets-now-on-general-sale/",
-      "published": "2026-07-06T13:00:00Z"
-    },
-    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -796,15 +796,6 @@
       "title": "CHEADLE TOWN ADDED TO PRE-SEASON SCHEDULE",
       "url": "https://macclesfieldfc.com/latest-news/cheadle-town-added-to-pre-season-schedule/",
       "published": "2026-07-06T12:00:58Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "First Word | James Berry",
-      "url": "https://www.fgr.co.uk/news/first-word-james-berry/",
-      "published": "2026-07-06T12:00:00Z"
     },
     {
       "club": "Woking",
@@ -1480,6 +1471,15 @@
       "title": "Match Preview | Glossop North End (A)",
       "url": "https://radcliffefc.com/match-preview-glossop-north-end-a/",
       "published": "2026-07-03T16:00:40Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "United Women Sign Sarah Stacey",
+      "url": "https://torquayunited.com/united-women-sign-sarah-stacey/",
+      "published": "2026-07-03T15:44:18Z"
     }
   ]
 }
