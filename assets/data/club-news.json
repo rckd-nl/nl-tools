@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-05T23:47:17Z",
+  "generatedAt": "2026-07-06T01:34:48Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "https://www.carlisleunited.co.uk/rss.xml",
-      "ok": true,
-      "count": 50,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Eastleigh",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=6517aebe-ae0f-4bac-852d-e544ad5fe5c1",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=9d0faee7-27e3-45c1-b73f-c48028769fd8",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7face5c4fb10>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -1311,15 +1311,6 @@
       "published": "2026-07-03T13:00:23Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "MINUTES FROM THE JUNE CUSG MEETING",
-      "url": "https://www.carlisleunited.co.uk/news/minutes-june-cusg-meeting-0",
-      "published": "2026-07-03T13:00:00Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1464,15 +1455,6 @@
       "published": "2026-07-03T09:01:06Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "YOUTH TEAM ANNOUNCE 2026/27 PRE-SEASON PLANS",
-      "url": "https://www.carlisleunited.co.uk/news/youth-team-announce-202627-pre-season-plans",
-      "published": "2026-07-03T09:00:00Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1480,6 +1462,24 @@
       "title": "Seeking a new handler for our mascot, Lupus!",
       "url": "https://chesterfc.com/07/03/seeking-a-new-handler-for-our-mascot-lupus/",
       "published": "2026-07-03T08:59:20Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Cancer Testing Services",
+      "url": "https://wokingfc.co.uk/07/03/cancer-testing-services/",
+      "published": "2026-07-03T08:43:28Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "England’s Round of 16 Fanzone",
+      "url": "https://chelmsfordcityfc.com/news/englands-round-of-16-fanzone/",
+      "published": "2026-07-03T08:27:40Z"
     }
   ]
 }
