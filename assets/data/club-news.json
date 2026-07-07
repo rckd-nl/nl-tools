@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-07T19:28:30Z",
+  "generatedAt": "2026-07-07T21:14:31Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.carlisleunited.co.uk/rss.xml",
+      "ok": true,
+      "count": 50,
+      "error": ""
     },
     {
       "club": "Eastleigh",
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3774,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=5188ecf3-da7b-4931-bb9f-37cbe9f18948",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=8b38ca7b-d499-4657-a2a5-aebfb7ca1032",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -374,10 +374,10 @@
     {
       "club": "Spennymoor Town",
       "domain": "spennymoortownfc.co.uk",
-      "feed": "https://spennymoortownfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 523"
     },
     {
       "club": "Worksop Town",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "REPORT: CULLOMPTON 1 – 5 UNITED",
+      "url": "https://torquayunited.com/report-cullompton-1-5-united/",
+      "published": "2026-07-07T20:21:44Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "2026/27 HOME KIT LAUNCH DETAILS",
+      "url": "https://www.carlisleunited.co.uk/news/202627-home-kit-launch-details",
+      "published": "2026-07-07T19:45:00Z"
+    },
+    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -607,15 +625,6 @@
       "title": "WELCOME TO MARINE, BEN DARBY!",
       "url": "https://marinefc.com/welcome-to-marine-ben-darby/",
       "published": "2026-07-07T18:20:45Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Sydney Agina On Loan",
-      "url": "https://www.fgr.co.uk/news/sydney-agina-on-loan/",
-      "published": "2026-07-07T17:00:00Z"
     },
     {
       "club": "Gateshead",
@@ -735,15 +744,6 @@
       "published": "2026-07-07T13:00:13Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "North Stand Ticket Offer",
-      "url": "https://www.fgr.co.uk/news/north-stand-ticket-offer/",
-      "published": "2026-07-07T13:00:00Z"
-    },
-    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -805,15 +805,6 @@
       "title": "Annual General Meeting (AGM) Details",
       "url": "https://chesterfc.com/07/07/annual-general-meeting-agm-details/",
       "published": "2026-07-07T11:59:28Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Club To Host Partners Engagement Night",
-      "url": "https://spennymoortownfc.co.uk/2026/07/07/club-to-host-partners-engagement-night/",
-      "published": "2026-07-07T11:52:45Z"
     },
     {
       "club": "Rochdale",
@@ -1086,24 +1077,6 @@
       "published": "2026-07-06T14:00:32Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "26/27 Season Tickets Now on General Sale",
-      "url": "https://www.fgr.co.uk/news/26-27-season-tickets-now-on-general-sale/",
-      "published": "2026-07-06T13:00:00Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Tickets On Sale For Pre-Season Friendlies",
-      "url": "https://spennymoortownfc.co.uk/2026/07/06/tickets-on-sale-for-pre-season-friendlies-3/",
-      "published": "2026-07-06T12:55:27Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1138,15 +1111,6 @@
       "title": "CHEADLE TOWN ADDED TO PRE-SEASON SCHEDULE",
       "url": "https://macclesfieldfc.com/latest-news/cheadle-town-added-to-pre-season-schedule/",
       "published": "2026-07-06T12:00:58Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "First Word | James Berry",
-      "url": "https://www.fgr.co.uk/news/first-word-james-berry/",
-      "published": "2026-07-06T12:00:00Z"
     },
     {
       "club": "Woking",
@@ -1228,15 +1192,6 @@
       "title": "Watch England’s World Cup Campaign in the Blues Bar!",
       "url": "https://chesterfc.com/07/06/worldcup2026/",
       "published": "2026-07-06T09:45:12Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Moors Ladies Membership Scheme Launched",
-      "url": "https://spennymoortownfc.co.uk/2026/07/06/moors-ladies-membership-scheme-launched/",
-      "published": "2026-07-06T09:23:25Z"
     },
     {
       "club": "Chester",
@@ -1480,6 +1435,51 @@
       "title": "Highlights: Buckland Athletic (A) | 2026-27 Pre-Season",
       "url": "https://torquayunited.com/highlights-buckland-athletic-a-2026-27-pre-season/",
       "published": "2026-07-05T09:12:39Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Alex Kieh signs for Men’s First Team",
+      "url": "https://chippenhamtown.com/07/05/alex-kieh-signs-for-mens-first-team/",
+      "published": "2026-07-05T09:00:43Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Welcome to Farnborough: Michael Reindorf",
+      "url": "https://farnboroughfc.co.uk/2026/07/welcome-to-farnborough-michael-reindorf/",
+      "published": "2026-07-05T08:00:31Z"
+    },
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Report: Margate 0-1 Dover Athletic",
+      "url": "https://doverathletic.com/news/report-margate-0-1-dover-athletic/",
+      "published": "2026-07-05T07:39:12Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Gallery: Cullompton Rangers 1 – 2 WsM AFC",
+      "url": "https://wsmafc.co.uk/gallery-cullompton-rangers/",
+      "published": "2026-07-04T21:31:46Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "“𝗜𝘁 𝘄𝗮𝘀 𝗴𝗼𝗼𝗱 𝘁𝗼 𝗴𝗲𝘁 𝘀𝗼𝗺𝗲 𝗺𝗶𝗻𝘂𝘁𝗲𝘀 𝗶𝗻 𝘁𝗵𝗲 𝗹𝗲𝗴𝘀” | Jake Hicks post – Cullompton Rangers",
+      "url": "https://wsmafc.co.uk/%f0%9d%97%9c%f0%9d%98%81-%f0%9d%98%84%f0%9d%97%ae%f0%9d%98%80-%f0%9d%97%b4%f0%9d%97%bc%f0%9d%97%bc%f0%9d%97%b1-%f0%9d%98%81%f0%9d%97%bc-%f0%9d%97%b4%f0%9d%97%b2%f0%9d%98%81-%f0%9d%98%80%f0%9d%97%bc/",
+      "published": "2026-07-04T20:50:23Z"
     }
   ]
 }
