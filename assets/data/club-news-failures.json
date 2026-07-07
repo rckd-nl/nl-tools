@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-07T05:54:50Z",
+  "generatedAt": "2026-07-07T10:04:56Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -41,14 +41,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 202"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Morecambe",
@@ -125,10 +117,10 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=a9655f8d-1c0e-46a2-a248-547ffb8b7a61",
       "ok": false,
       "count": 0,
-      "error": "HTTP 503"
+      "error": "HTTP 404"
     },
     {
       "club": "Darlington",
@@ -241,14 +233,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",

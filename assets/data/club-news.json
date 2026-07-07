@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-07T05:54:50Z",
+  "generatedAt": "2026-07-07T10:04:56Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3773,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -246,10 +246,10 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=a9655f8d-1c0e-46a2-a248-547ffb8b7a61",
       "ok": false,
       "count": 0,
-      "error": "HTTP 503"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,60 @@
     }
   ],
   "items": [
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "AN INVITATION TO OUR JULY BUSINESS NETWORKING EVENT",
+      "url": "https://macclesfieldfc.com/latest-news/an-invitation-to-our-june-business-networking-event/",
+      "published": "2026-07-07T10:00:42Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Welcome, Tylor Golden!",
+      "url": "https://www.borehamwoodfootballclub.co.uk/welcome-tylor-golden/",
+      "published": "2026-07-07T09:28:59Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "WHY CHOOSE OUR BTEC PROGRAMME",
+      "url": "https://macclesfieldfc.com/latest-news/why-choose-our-btec-programme/",
+      "published": "2026-07-07T09:26:03Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Super Saturday At The Blue Eagle",
+      "url": "https://southendunited.co.uk/news/2026/july/07/super-saturday-at-the-blue-eagle/",
+      "published": "2026-07-07T08:48:02Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "England’s Quarter Final Fanzone",
+      "url": "https://chelmsfordcityfc.com/news/englands-quarter-final-fanzone/",
+      "published": "2026-07-07T08:04:30Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "2026/27 Sky Bet League Two | Club Profiles",
+      "url": "https://rochdaleafc.co.uk/2026-27-sky-bet-league-two-club-profiles/",
+      "published": "2026-07-07T08:02:34Z"
+    },
     {
       "club": "Torquay United",
       "code": "TOR",
@@ -753,6 +807,15 @@
       "published": "2026-07-06T14:00:32Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "26/27 Season Tickets Now on General Sale",
+      "url": "https://www.fgr.co.uk/news/26-27-season-tickets-now-on-general-sale/",
+      "published": "2026-07-06T13:00:00Z"
+    },
+    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -796,6 +859,15 @@
       "title": "CHEADLE TOWN ADDED TO PRE-SEASON SCHEDULE",
       "url": "https://macclesfieldfc.com/latest-news/cheadle-town-added-to-pre-season-schedule/",
       "published": "2026-07-06T12:00:58Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "First Word | James Berry",
+      "url": "https://www.fgr.co.uk/news/first-word-james-berry/",
+      "published": "2026-07-06T12:00:00Z"
     },
     {
       "club": "Woking",
@@ -1113,15 +1185,6 @@
       "published": "2026-07-05T11:01:28Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SILKMEN UNVEIL 2026/27 SPONSORSHIP OPPORTUNITIES BROCHURE",
-      "url": "https://macclesfieldfc.com/latest-news/silkmen-unveil-2026-27-sponsorship-opportunities-brochure/",
-      "published": "2026-07-05T11:00:30Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1257,15 +1320,6 @@
       "published": "2026-07-04T17:20:08Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "John Rooney after Hyde United Pre-Season Victory",
-      "url": "https://macclesfieldfc.com/latest-news/john-rooney-after-hyde-united-pre-season-victory/",
-      "published": "2026-07-04T16:30:28Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1336,6 +1390,15 @@
       "title": "RIP Paul Dobson – 1962 – 2026",
       "url": "https://gateshead-fc.com/rip-paul-dobson-1962-2026/",
       "published": "2026-07-04T09:22:40Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Hornets Pre-season tickets on sale",
+      "url": "https://www.horshamfc.co.uk/2026/07/04/hornets-pre-season-tickets-on-sale/",
+      "published": "2026-07-04T07:44:37Z"
     },
     {
       "club": "Hereford",
@@ -1417,69 +1480,6 @@
       "title": "Notes from the Chair – 3rd July 2026",
       "url": "https://cheshamunited.co.uk/2026/07/notes-from-the-chair-3rd-july-2026/",
       "published": "2026-07-03T17:14:02Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Harry Chapman signs one-year contract extension at Gateshead FC until 2027",
-      "url": "https://gateshead-fc.com/harry-chapman-signs-one-year-contract-extension-at-gateshead-fc-until-2027/",
-      "published": "2026-07-03T17:00:14Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Ethan Lindo signs for Chippenham",
-      "url": "https://chippenhamtown.com/07/03/ethan-lindo-signs-for-chippenham/",
-      "published": "2026-07-03T17:00:00Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Press Release | Club Staff Update – July 2026",
-      "url": "https://dwfc.co.uk/2026/07/press-release-club-staff-update-july-2026/",
-      "published": "2026-07-03T16:47:29Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Match Preview vs Glossop North End | Luke Clark",
-      "url": "https://radcliffefc.com/match-preview-vs-glossop-north-end-luke-clark/",
-      "published": "2026-07-03T16:31:25Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Match Preview | Glossop North End (A)",
-      "url": "https://radcliffefc.com/match-preview-glossop-north-end-a/",
-      "published": "2026-07-03T16:00:40Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "United Women Sign Sarah Stacey",
-      "url": "https://torquayunited.com/united-women-sign-sarah-stacey/",
-      "published": "2026-07-03T15:44:18Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Shannon Toms Moves into Football General Manager Role",
-      "url": "https://worthingfc.com/2026/07/shannon-toms-moves-into-football-general-manager-role/",
-      "published": "2026-07-03T15:37:05Z"
     }
   ]
 }
