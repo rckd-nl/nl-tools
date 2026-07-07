@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-07T22:32:45Z",
+  "generatedAt": "2026-07-07T23:38:53Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "https://www.carlisleunited.co.uk/rss.xml",
-      "ok": true,
-      "count": 50,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Eastleigh",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=dd885bb8-b06e-427c-8113-b3c8debdca66",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=e530a6f6-839c-4b07-bab5-455ee32ee775",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Gallery: WsM AFC 0 – 3 Bristol Rovers",
+      "url": "https://wsmafc.co.uk/gallery-wsm-afc-0-3-bristol-rovers/",
+      "published": "2026-07-07T23:34:02Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "City open pre-season campaign with Larkhall victory",
+      "url": "https://www.bathcityfc.com/city-open-pre-season-campaign-with-larkhall-victory/",
+      "published": "2026-07-07T22:49:31Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -607,15 +625,6 @@
       "title": "REPORT: CULLOMPTON 1 – 5 UNITED",
       "url": "https://torquayunited.com/report-cullompton-1-5-united/",
       "published": "2026-07-07T20:21:44Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "2026/27 HOME KIT LAUNCH DETAILS",
-      "url": "https://www.carlisleunited.co.uk/news/202627-home-kit-launch-details",
-      "published": "2026-07-07T19:45:00Z"
     },
     {
       "club": "Hartlepool United",
@@ -1471,15 +1480,6 @@
       "title": "Clubhouse closed for England vs Mexico",
       "url": "https://wsmafc.co.uk/clubhouse-closed-for-england-vs-mexico/",
       "published": "2026-07-05T13:30:48Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "York City 2026/27 home shirt revealed",
-      "url": "https://yorkcityfootballclub.co.uk/york-city-2026-27-home-shirt-revealed/",
-      "published": "2026-07-05T11:01:28Z"
     }
   ]
 }
