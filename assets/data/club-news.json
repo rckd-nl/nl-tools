@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-08T22:47:02Z",
+  "generatedAt": "2026-07-08T23:52:41Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3776,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=a3a3e20c-8fa9-408c-ae86-bd7543028bba",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=9574c54b-2475-47f0-9e13-1dc322c8e8aa",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -717,15 +717,6 @@
       "published": "2026-07-08T15:00:03Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Get in sync with every FGR fixture!",
-      "url": "https://www.fgr.co.uk/news/fgr-fixture-calendar-sync/",
-      "published": "2026-07-08T15:00:00Z"
-    },
-    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -841,15 +832,6 @@
       "title": "Gallery: First Team Track Day",
       "url": "https://macclesfieldfc.com/galleries/gallery-first-team-track-day-2/",
       "published": "2026-07-08T13:00:01Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | Bishops Cleeve 1-3 FGR",
-      "url": "https://www.fgr.co.uk/news/match-report-bishops-cleeve-2627/",
-      "published": "2026-07-08T13:00:00Z"
     },
     {
       "club": "Radcliffe",
@@ -1176,15 +1158,6 @@
       "published": "2026-07-07T18:20:45Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Sydney Agina On Loan",
-      "url": "https://www.fgr.co.uk/news/sydney-agina-on-loan/",
-      "published": "2026-07-07T17:00:00Z"
-    },
-    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1309,15 +1282,6 @@
       "title": "ROOM HIRE – BAR TWENTY SEVEN",
       "url": "https://macclesfieldfc.com/latest-news/room-hire-bar-twenty-seven/",
       "published": "2026-07-07T13:00:13Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Youth Group Ticket Offer",
-      "url": "https://www.fgr.co.uk/news/north-stand-ticket-offer/",
-      "published": "2026-07-07T13:00:00Z"
     },
     {
       "club": "Eastleigh",
@@ -1480,6 +1444,42 @@
       "title": "Gulls Head To Cullompton",
       "url": "https://torquayunited.com/cullompton-game-brought-forward/",
       "published": "2026-07-06T23:51:21Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Pitch Update | Monday 6th July 2026",
+      "url": "https://wsmafc.co.uk/pitch-update-monday-6th-july-2026/",
+      "published": "2026-07-06T21:10:04Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Bearsted",
+      "url": "https://maidstoneunited.co.uk/07/06/key-info-bearsted/",
+      "published": "2026-07-06T18:44:20Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "National League Lowdown: Boreham Wood",
+      "url": "https://worthingfc.com/2026/07/national-league-lowdown-boreham-wood/",
+      "published": "2026-07-06T18:33:01Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "“𝗜𝘁’𝘀 𝗮 𝗴𝗿𝗲𝗮𝘁 𝗴𝗮𝗺𝗲 𝗳𝗼𝗿 𝘂𝘀” | Scott Rogers pre – Bristol Rovers",
+      "url": "https://wsmafc.co.uk/%f0%9d%97%9c%f0%9d%98%81%f0%9d%98%80-%f0%9d%97%ae-%f0%9d%97%b4%f0%9d%97%bf%f0%9d%97%b2%f0%9d%97%ae%f0%9d%98%81-%f0%9d%97%b4%f0%9d%97%ae%f0%9d%97%ba%f0%9d%97%b2-%f0%9d%97%b3%f0%9d%97%bc%f0%9d%97%bf/",
+      "published": "2026-07-06T17:30:00Z"
     }
   ]
 }
