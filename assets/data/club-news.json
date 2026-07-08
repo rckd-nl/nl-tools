@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-08T01:14:58Z",
+  "generatedAt": "2026-07-08T04:34:24Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.carlisleunited.co.uk/rss.xml",
+      "ok": true,
+      "count": 50,
+      "error": ""
     },
     {
       "club": "Eastleigh",
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3774,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=906c062a-8e9e-4635-953b-9dc8659b7a99",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=b227b3b6-dd96-420a-a68a-bd6a4b2ff728",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -627,6 +627,15 @@
       "published": "2026-07-07T20:21:44Z"
     },
     {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "2026/27 HOME KIT LAUNCH DETAILS",
+      "url": "https://www.carlisleunited.co.uk/news/202627-home-kit-launch-details",
+      "published": "2026-07-07T19:45:00Z"
+    },
+    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -652,15 +661,6 @@
       "title": "WELCOME TO MARINE, BEN DARBY!",
       "url": "https://marinefc.com/welcome-to-marine-ben-darby/",
       "published": "2026-07-07T18:20:45Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Sydney Agina On Loan",
-      "url": "https://www.fgr.co.uk/news/sydney-agina-on-loan/",
-      "published": "2026-07-07T17:00:00Z"
     },
     {
       "club": "Gateshead",
@@ -778,15 +778,6 @@
       "title": "ROOM HIRE – BAR TWENTY SEVEN",
       "url": "https://macclesfieldfc.com/latest-news/room-hire-bar-twenty-seven/",
       "published": "2026-07-07T13:00:13Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "North Stand Ticket Offer",
-      "url": "https://www.fgr.co.uk/news/north-stand-ticket-offer/",
-      "published": "2026-07-07T13:00:00Z"
     },
     {
       "club": "Eastleigh",
@@ -1131,15 +1122,6 @@
       "published": "2026-07-06T14:00:32Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "26/27 Season Tickets Now on General Sale",
-      "url": "https://www.fgr.co.uk/news/26-27-season-tickets-now-on-general-sale/",
-      "published": "2026-07-06T13:00:00Z"
-    },
-    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -1183,15 +1165,6 @@
       "title": "CHEADLE TOWN ADDED TO PRE-SEASON SCHEDULE",
       "url": "https://macclesfieldfc.com/latest-news/cheadle-town-added-to-pre-season-schedule/",
       "published": "2026-07-06T12:00:58Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "First Word | James Berry",
-      "url": "https://www.fgr.co.uk/news/first-word-james-berry/",
-      "published": "2026-07-06T12:00:00Z"
     },
     {
       "club": "Woking",
@@ -1480,6 +1453,33 @@
       "title": "Clubhouse closed for England vs Mexico",
       "url": "https://wsmafc.co.uk/clubhouse-closed-for-england-vs-mexico/",
       "published": "2026-07-05T13:30:48Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "York City 2026/27 home shirt revealed",
+      "url": "https://yorkcityfootballclub.co.uk/york-city-2026-27-home-shirt-revealed/",
+      "published": "2026-07-05T11:01:28Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Milly Peel appointed Head of Wellbeing and Psychology",
+      "url": "https://chesterfc.com/07/05/milly-peel-appointed-head-of-wellbeing-and-psychology/",
+      "published": "2026-07-05T11:00:23Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Preview: Weston v Bristol Rovers",
+      "url": "https://wsmafc.co.uk/preview-weston-v-bristol-rovers/",
+      "published": "2026-07-05T10:22:28Z"
     }
   ]
 }
