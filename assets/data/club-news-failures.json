@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-09T11:21:13Z",
+  "generatedAt": "2026-07-09T14:19:33Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -41,6 +41,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 202"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "domain": "fgr.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Morecambe",
@@ -117,7 +125,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=5052ccd5-25df-4b66-960d-0f05dcffa1d9",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=748a37bf-7f3c-452b-a4d8-6e5f02bbe755",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"

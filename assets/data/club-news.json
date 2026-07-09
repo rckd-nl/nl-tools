@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-09T11:21:13Z",
+  "generatedAt": "2026-07-09T14:19:33Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3777,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -246,7 +246,7 @@
     {
       "club": "Chorley",
       "domain": "chorleyfc.com",
-      "feed": "https://www.chorleyfc.com/.xml?shpxid=5052ccd5-25df-4b66-960d-0f05dcffa1d9",
+      "feed": "https://www.chorleyfc.com/.xml?shpxid=748a37bf-7f3c-452b-a4d8-6e5f02bbe755",
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
@@ -582,6 +582,114 @@
   ],
   "items": [
     {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "LIVE SPORT IN BAR TWENTY SEVEN",
+      "url": "https://macclesfieldfc.com/latest-news/live-sport-in-bar-twenty-seven-2/",
+      "published": "2026-07-09T14:00:51Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Preview: Paulton vs Chippenham Town",
+      "url": "https://chippenhamtown.com/07/09/preview-paulton-vs-chippenham-town/",
+      "published": "2026-07-09T14:00:33Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Official: Drake joins the Spitfires",
+      "url": "https://eastleighfc.com/2026/07/official-drake-joins-the-spitfires/",
+      "published": "2026-07-09T14:00:15Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Gateshead FC & National League launch ECAL fixture calendar",
+      "url": "https://gateshead-fc.com/gateshead-fc-national-league-launch-ecal-fixture-calendar/",
+      "published": "2026-07-09T13:53:01Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Barnsley game available to stream.",
+      "url": "https://yorkcityfootballclub.co.uk/barnsley-game-available-to-stream/",
+      "published": "2026-07-09T13:43:13Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Portishead Town friendly cancelled",
+      "url": "https://wsmafc.co.uk/portishead-town-friendly-cancelled/",
+      "published": "2026-07-09T13:15:46Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Duchy Hospital Partnership Extended",
+      "url": "https://trurocity.co.uk/2026/07/duchy-hospital-partnership-extended/",
+      "published": "2026-07-09T12:59:06Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham vs Eastleigh tomorrow night",
+      "url": "https://www.horshamfc.co.uk/2026/07/09/horsham-vs-eastleigh-tomorrow-night/",
+      "published": "2026-07-09T12:56:43Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Fixture Breakfast In The Cove",
+      "url": "https://torquayunited.com/fixture-breakfast-in-the-cove/",
+      "published": "2026-07-09T12:48:40Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Isaac Westendorf | First Interview",
+      "url": "https://torquayunited.com/isaac-westendorf-first-interview/",
+      "published": "2026-07-09T12:47:40Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Watch England this Saturday",
+      "url": "https://hornchurchfc.com/watch-england-this-saturday/",
+      "published": "2026-07-09T12:39:15Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Pre-season: Day 9",
+      "url": "https://maidstoneunited.co.uk/07/09/preseason-day-9/",
+      "published": "2026-07-09T12:36:40Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -699,15 +807,6 @@
       "published": "2026-07-09T08:50:18Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Sponsor a player for the 2026/2027 Season!",
-      "url": "https://www.fgr.co.uk/news/player-sponsor-2627/",
-      "published": "2026-07-09T08:30:00Z"
-    },
-    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -733,6 +832,15 @@
       "title": "Jordan Slew Puts Pen To Paper",
       "url": "https://southportfc.net/jordan-slew-puts-pen-to-paper/",
       "published": "2026-07-09T08:00:00Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Gallery: Bearsted",
+      "url": "https://maidstoneunited.co.uk/07/09/gallery-bearsted/",
+      "published": "2026-07-09T07:30:16Z"
     },
     {
       "club": "Southport",
@@ -897,15 +1005,6 @@
       "published": "2026-07-08T15:00:03Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Get in sync with every FGR fixture!",
-      "url": "https://www.fgr.co.uk/news/fgr-fixture-calendar-sync/",
-      "published": "2026-07-08T15:00:00Z"
-    },
-    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -1021,15 +1120,6 @@
       "title": "Gallery: First Team Track Day",
       "url": "https://macclesfieldfc.com/galleries/gallery-first-team-track-day-2/",
       "published": "2026-07-08T13:00:01Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | Bishops Cleeve 1-3 FGR",
-      "url": "https://www.fgr.co.uk/news/match-report-bishops-cleeve-2627/",
-      "published": "2026-07-08T13:00:00Z"
     },
     {
       "club": "Radcliffe",
@@ -1356,15 +1446,6 @@
       "published": "2026-07-07T18:20:45Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Sydney Agina On Loan",
-      "url": "https://www.fgr.co.uk/news/sydney-agina-on-loan/",
-      "published": "2026-07-07T17:00:00Z"
-    },
-    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1399,87 +1480,6 @@
       "title": "Welcome to Farnborough: Josh Parker",
       "url": "https://farnboroughfc.co.uk/2026/07/welcome-to-farnborough-josh-parker/",
       "published": "2026-07-07T16:00:26Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Match Preview | Flixton (A)",
-      "url": "https://radcliffefc.com/match-preview-flixton-a/",
-      "published": "2026-07-07T15:50:36Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "VACANCIES | Hereford FC Women Coaching Roles",
-      "url": "https://herefordfc.co.uk/2026/07/vacancies-hereford-fc-women-coaching-roles/",
-      "published": "2026-07-07T15:11:49Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Jason Adigun departs",
-      "url": "https://chelmsfordcityfc.com/news/jason-adigun-departs/",
-      "published": "2026-07-07T15:05:00Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Sean Adarkwa Signs",
-      "url": "https://wokingfc.co.uk/07/07/sean-adarkwa-signs/",
-      "published": "2026-07-07T14:59:48Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "WATCH ENGLAND VS NORWAY LIVE AT MARINE!",
-      "url": "https://marinefc.com/watch-england-vs-norway-live-at-marine/",
-      "published": "2026-07-07T14:15:25Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Culpitt departs the Stones",
-      "url": "https://maidstoneunited.co.uk/07/07/culpitt-departs-the-stones/",
-      "published": "2026-07-07T14:11:02Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Matty Kosylo nominated for Northwest Football Award",
-      "url": "https://altrinchamfc.com/blogs/news/matty-kosylo-nominated-for-northwest-football-award",
-      "published": "2026-07-07T13:58:01Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "A Pre-Season Guide: All you need to know",
-      "url": "https://wsmafc.co.uk/a-pre-season-guide/",
-      "published": "2026-07-07T13:05:25Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "FIXTURE RELEASE DAY – FRIDAY 10TH JULY",
-      "url": "https://macclesfieldfc.com/latest-news/fixture-release-day-friday-10th-july/",
-      "published": "2026-07-07T13:00:20Z"
     }
   ]
 }
