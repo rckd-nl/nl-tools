@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-10T01:20:29Z",
+  "generatedAt": "2026-07-10T05:14:07Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -798,6 +798,15 @@
       "published": "2026-07-09T14:32:14Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "200 Club July winners",
+      "url": "https://www.horshamfc.co.uk/2026/07/09/200-club-july-winners/",
+      "published": "2026-07-09T14:28:11Z"
+    },
+    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -877,6 +886,15 @@
       "title": "Duchy Hospital Partnership Extended",
       "url": "https://trurocity.co.uk/2026/07/duchy-hospital-partnership-extended/",
       "published": "2026-07-09T12:59:06Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham vs Eastleigh tomorrow night",
+      "url": "https://www.horshamfc.co.uk/2026/07/09/horsham-vs-eastleigh-tomorrow-night/",
+      "published": "2026-07-09T12:56:43Z"
     },
     {
       "club": "Torquay United",
@@ -1462,24 +1480,6 @@
       "title": "Gallery: Volunteer Weekend",
       "url": "https://southendunited.co.uk/news/2026/july/08/gallery--volunteer-weekend/",
       "published": "2026-07-08T10:24:18Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Post Match: Bearsted",
-      "url": "https://maidstoneunited.co.uk/07/08/post-match-bearsted/",
-      "published": "2026-07-08T10:21:06Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Manchester United u21s headline our pre-season schedule",
-      "url": "https://altrinchamfc.com/blogs/news/manchester-united-u21s-headline-our-pre-season-schedule",
-      "published": "2026-07-08T10:14:10Z"
     }
   ]
 }
