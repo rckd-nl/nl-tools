@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-11T18:12:20Z",
+  "generatedAt": "2026-07-11T19:34:27Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.carlisleunited.co.uk/rss.xml",
+      "ok": true,
+      "count": 50,
+      "error": ""
     },
     {
       "club": "Eastleigh",
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -430,18 +430,18 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "https://dwfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Dover Athletic",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,13 +582,49 @@
   ],
   "items": [
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "PSF | Atherton LR 1 Southport 1 With Interview with Neil",
-      "url": "https://southportfc.net/psf-atherton-lr-1-southport-1-with-interview-with-neil/",
-      "published": "2026-07-11T18:05:50Z"
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "REACTION | Downes After Pegasus Opener",
+      "url": "https://herefordfc.co.uk/2026/07/reaction-downes-after-pegasus-opener/",
+      "published": "2026-07-11T19:15:09Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Jimmy Ball | Brixham AFC (A) | Pre-Season 2026-27",
+      "url": "https://torquayunited.com/jimmy-ball-brixham-afc-a-pre-season-2026-27/",
+      "published": "2026-07-11T18:38:38Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Report: Mangotsfield United 2-3 Chippenham Town",
+      "url": "https://chippenhamtown.com/07/11/report-mangotsfield-united-2-3-chippenham-town/",
+      "published": "2026-07-11T18:30:34Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Post Match: Welling United",
+      "url": "https://maidstoneunited.co.uk/07/11/post-match-welling-united/",
+      "published": "2026-07-11T18:28:15Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "ROB ELLIOT: \"THE LADS DESERVE A LOT OF CREDIT\"",
+      "url": "https://www.carlisleunited.co.uk/news/rob-elliot-lads-deserve-lot-credit",
+      "published": "2026-07-11T18:16:00Z"
     },
     {
       "club": "Chippenham Town",
@@ -618,6 +654,15 @@
       "published": "2026-07-11T17:29:37Z"
     },
     {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "MATCH REPORT: MOTHERWELL 2-3 CARLISLE UNITED",
+      "url": "https://www.carlisleunited.co.uk/news/match-report-motherwell-2-3-carlisle-united",
+      "published": "2026-07-11T16:58:08Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -645,15 +690,6 @@
       "published": "2026-07-11T16:19:04Z"
     },
     {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Wanderers Fall Short in the Advertiser Trophy Against Leatherhead FC",
-      "url": "https://dwfc.co.uk/2026/07/wanderers-fall-short-in-the-advertiser-trophy-against-leatherhead-fc/",
-      "published": "2026-07-11T16:12:00Z"
-    },
-    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -679,6 +715,15 @@
       "title": "No World Cup screening this evening",
       "url": "https://maidstoneunited.co.uk/07/11/no-world-cup-screening-this-saturday/",
       "published": "2026-07-11T15:30:22Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "YOUTH MATCH REPORT: CARLISLE UNITED 4-1 CLEATOR MOOR",
+      "url": "https://www.carlisleunited.co.uk/news/youth-match-report-carlisle-united-4-1-cleator-moor",
+      "published": "2026-07-11T14:59:28Z"
     },
     {
       "club": "Worthing",
@@ -742,15 +787,6 @@
       "title": "“𝗪𝗲 𝗻𝗲𝗲𝗱 𝘁𝗼 𝘀𝘁𝗮𝗿𝘁 𝗿𝗮𝗺𝗽𝗶𝗻𝗴 𝗶𝘁 𝘂𝗽” | Gary Warren post – Clevedon Town",
       "url": "https://wsmafc.co.uk/%f0%9d%97%aa%f0%9d%97%b2-%f0%9d%97%bb%f0%9d%97%b2%f0%9d%97%b2%f0%9d%97%b1-%f0%9d%98%81%f0%9d%97%bc-%f0%9d%98%80%f0%9d%98%81%f0%9d%97%ae%f0%9d%97%bf%f0%9d%98%81-%f0%9d%97%bf%f0%9d%97%ae%f0%9d%97%ba/",
       "published": "2026-07-11T11:30:21Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Report – Eastleigh",
-      "url": "https://www.horshamfc.co.uk/2026/07/11/match-report-eastleigh/",
-      "published": "2026-07-11T11:28:13Z"
     },
     {
       "club": "Enfield Town",
@@ -832,33 +868,6 @@
       "title": "A first chat with Sam Foley",
       "url": "https://chesterfc.com/07/11/a-first-chat-with-sam-foley/",
       "published": "2026-07-11T08:22:09Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "300” GIANT SCREEN FANZONE TONIGHT",
-      "url": "https://southportfc.net/300-giant-screen-fanzone-tonight/",
-      "published": "2026-07-11T08:22:07Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Season Tickets",
-      "url": "https://southportfc.net/season-tickets/",
-      "published": "2026-07-11T08:16:32Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Prices | All Set For the 9am Kit Launch",
-      "url": "https://southportfc.net/prices-all-set-for-the-9am-kit-launch/",
-      "published": "2026-07-11T08:10:40Z"
     },
     {
       "club": "Chippenham Town",
@@ -949,24 +958,6 @@
       "title": "Notes from the Chair – 10th July 2026",
       "url": "https://cheshamunited.co.uk/2026/07/notes-from-the-chair-10th-july-2026/",
       "published": "2026-07-10T18:37:45Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Interviews | Danny, Jordan & Sam",
-      "url": "https://southportfc.net/interviews/",
-      "published": "2026-07-10T18:25:02Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "The 2026-27 fixtures are out – get every Southport game in your calendar",
-      "url": "https://southportfc.net/the-2026-27-fixtures-are-out-get-every-southport-game-in-your-calendar/",
-      "published": "2026-07-10T17:38:05Z"
     },
     {
       "club": "Farnborough",
@@ -1230,15 +1221,6 @@
       "published": "2026-07-10T11:59:57Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Dom reacts to the fixture schedule",
-      "url": "https://www.horshamfc.co.uk/2026/07/10/dom-reacts-to-the-fixture-schedule/",
-      "published": "2026-07-10T11:57:00Z"
-    },
-    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -1275,15 +1257,6 @@
       "published": "2026-07-10T11:19:06Z"
     },
     {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Weekly Update with Jordan Clark",
-      "url": "https://dwfc.co.uk/2026/07/weekly-update-with-jordan-clark/",
-      "published": "2026-07-10T11:09:33Z"
-    },
-    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1309,6 +1282,15 @@
       "title": "Bluebirds Dream Draw Week 46",
       "url": "https://chippenhamtown.com/07/10/bluebirds-dream-draw-week-46/",
       "published": "2026-07-10T11:00:21Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "The 2026-27 fixtures are out – get every Daggers game in your calendar",
+      "url": "https://daggers.co.uk/the-2026-27-fixtures-are-out-get-every-daggers-game-in-your-calendar/",
+      "published": "2026-07-10T11:00:00Z"
     },
     {
       "club": "Dover Athletic",
@@ -1347,24 +1329,6 @@
       "published": "2026-07-10T10:05:20Z"
     },
     {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "2026/27 National League South Fixtures Confirmed",
-      "url": "https://dwfc.co.uk/2026/07/2026-27-national-league-south-fixtures-confirmed/",
-      "published": "2026-07-10T10:02:36Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Fixtures released!",
-      "url": "https://harriers.co.uk/news/2026/07/10/fixtures-released/",
-      "published": "2026-07-10T10:01:15Z"
-    },
-    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -1401,15 +1365,6 @@
       "published": "2026-07-10T10:00:28Z"
     },
     {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Gateshead FC’s 2026/27 Enterprise National League fixtures confirmed",
-      "url": "https://gateshead-fc.com/gateshead-fcs-2026-27-enterprise-national-league-fixtures-confirmed/",
-      "published": "2026-07-10T10:00:24Z"
-    },
-    {
       "club": "Farnborough",
       "code": "FAB",
       "short": "Farnborough",
@@ -1426,24 +1381,6 @@
       "title": "Fixtures Released: 2026/27 Season",
       "url": "https://hornchurchfc.com/fixtures-released-2026-27-season/",
       "published": "2026-07-10T10:00:14Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Opening Day Away To Hebburn Town",
-      "url": "https://southportfc.net/opening-day-away-to-hebburn-town/",
-      "published": "2026-07-10T10:00:13Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "2026-27 FIXTURES ANNOUNCED",
-      "url": "https://www.horshamfc.co.uk/2026/07/10/2026-27-fixtures-announced/",
-      "published": "2026-07-10T10:00:13Z"
     },
     {
       "club": "Torquay United",
@@ -1464,6 +1401,15 @@
       "published": "2026-07-10T10:00:03Z"
     },
     {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "2026/27 FIXTURES CONFIRMED",
+      "url": "https://www.carlisleunited.co.uk/news/202627-fixtures-confirmed",
+      "published": "2026-07-10T10:00:00Z"
+    },
+    {
       "club": "Forest Green Rovers",
       "code": "FGR",
       "short": "Forest Green",
@@ -1480,6 +1426,60 @@
       "title": "2026/27 Enterprise National League Fixtures Released",
       "url": "https://southendunited.co.uk/news/2026/july/10/2026-27-enterprise-national-league-fixture/",
       "published": "2026-07-10T10:00:00Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Fylde to Kick Off 2026/27 Season at Home to Wealdstone",
+      "url": "https://afcfylde.co.uk/news/2026/july/10/fylde-to-kick-off-2026-27-season-at-home-to-wealdstone/",
+      "published": "2026-07-10T10:00:00Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "2026/27 Enterprise National League South Fixtures Released",
+      "url": "https://daggers.co.uk/2026-27-enterprise-national-league-south-fixtures-released/",
+      "published": "2026-07-10T10:00:00Z"
+    },
+    {
+      "club": "Chesham United",
+      "code": "CHU",
+      "short": "Chesham",
+      "domain": "cheshamunited.co.uk",
+      "title": "2026/27 Men’s League Fixtures Released",
+      "url": "https://cheshamunited.co.uk/2026/07/2026-27-mens-league-fixtures-released/",
+      "published": "2026-07-10T09:59:49Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Eastleigh’s 2026/27 National League Fixtures",
+      "url": "https://eastleighfc.com/2026/07/eastleighs-2026-27-national-league-fixtures/",
+      "published": "2026-07-10T09:59:38Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Fixtures Revealed For 2026/27 Season",
+      "url": "https://spennymoortownfc.co.uk/2026/07/10/fixtures-revealed-for-2026-27-season/",
+      "published": "2026-07-10T09:59:31Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Enterprise National League 2026/27 Fixtures Released",
+      "url": "https://wokingfc.co.uk/07/10/enterprise-national-league-2026-27-fixtures-released/",
+      "published": "2026-07-10T09:59:11Z"
     }
   ]
 }
