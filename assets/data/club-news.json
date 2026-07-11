@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-11T20:31:35Z",
+  "generatedAt": "2026-07-11T21:36:06Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "https://www.carlisleunited.co.uk/rss.xml",
-      "ok": true,
-      "count": 50,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Eastleigh",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -627,15 +627,6 @@
       "published": "2026-07-11T18:28:15Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "ROB ELLIOT: \"THE LADS DESERVE A LOT OF CREDIT\"",
-      "url": "https://www.carlisleunited.co.uk/news/rob-elliot-lads-deserve-lot-credit",
-      "published": "2026-07-11T18:16:00Z"
-    },
-    {
       "club": "Southport",
       "code": "SPT",
       "short": "Southport",
@@ -670,15 +661,6 @@
       "title": "Match Report | York City 2-1 Barnsley",
       "url": "https://yorkcityfootballclub.co.uk/match-report-york-city-2-1-barnsley/",
       "published": "2026-07-11T17:29:37Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "MATCH REPORT: MOTHERWELL 2-3 CARLISLE UNITED",
-      "url": "https://www.carlisleunited.co.uk/news/match-report-motherwell-2-3-carlisle-united",
-      "published": "2026-07-11T16:58:08Z"
     },
     {
       "club": "Macclesfield",
@@ -744,15 +726,6 @@
       "published": "2026-07-11T15:30:22Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "YOUTH MATCH REPORT: CARLISLE UNITED 4-1 CLEATOR MOOR",
-      "url": "https://www.carlisleunited.co.uk/news/youth-match-report-carlisle-united-4-1-cleator-moor",
-      "published": "2026-07-11T14:59:28Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -814,6 +787,15 @@
       "title": "“𝗪𝗲 𝗻𝗲𝗲𝗱 𝘁𝗼 𝘀𝘁𝗮𝗿𝘁 𝗿𝗮𝗺𝗽𝗶𝗻𝗴 𝗶𝘁 𝘂𝗽” | Gary Warren post – Clevedon Town",
       "url": "https://wsmafc.co.uk/%f0%9d%97%aa%f0%9d%97%b2-%f0%9d%97%bb%f0%9d%97%b2%f0%9d%97%b2%f0%9d%97%b1-%f0%9d%98%81%f0%9d%97%bc-%f0%9d%98%80%f0%9d%98%81%f0%9d%97%ae%f0%9d%97%bf%f0%9d%98%81-%f0%9d%97%bf%f0%9d%97%ae%f0%9d%97%ba/",
       "published": "2026-07-11T11:30:21Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Eastleigh",
+      "url": "https://www.horshamfc.co.uk/2026/07/11/match-report-eastleigh/",
+      "published": "2026-07-11T11:28:13Z"
     },
     {
       "club": "Enfield Town",
@@ -1293,6 +1275,15 @@
       "published": "2026-07-10T11:59:57Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Dom reacts to the fixture schedule",
+      "url": "https://www.horshamfc.co.uk/2026/07/10/dom-reacts-to-the-fixture-schedule/",
+      "published": "2026-07-10T11:57:00Z"
+    },
+    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -1480,6 +1471,15 @@
       "title": "2026/27 Fixtures",
       "url": "https://farnboroughfc.co.uk/2026/07/2026-27-fixtures/",
       "published": "2026-07-10T10:00:20Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Fixtures Released: 2026/27 Season",
+      "url": "https://hornchurchfc.com/fixtures-released-2026-27-season/",
+      "published": "2026-07-10T10:00:14Z"
     }
   ]
 }
