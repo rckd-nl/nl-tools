@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-11T15:17:52Z",
+  "generatedAt": "2026-07-11T16:14:42Z",
   "maxItems": 100,
   "sources": [
     {
@@ -70,10 +70,10 @@
     {
       "club": "FC Halifax Town",
       "domain": "fchalifaxtown.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "feed": "https://fchalifaxtown.com/feed/",
+      "ok": true,
+      "count": 1,
+      "error": ""
     },
     {
       "club": "Forest Green Rovers",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Alty play out entertaining draw at Colwyn Bay",
+      "url": "https://altrinchamfc.com/blogs/news/colwyn-bay-friendly",
+      "published": "2026-07-11T15:56:46Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Match Report: Welling United",
+      "url": "https://maidstoneunited.co.uk/07/11/match-report-welling-united/",
+      "published": "2026-07-11T15:48:31Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "YOUTH MATCH REPORT: CARLISLE UNITED 4-1 CLEATOR MOOR",
+      "url": "https://www.carlisleunited.co.uk/news/youth-match-report-carlisle-united-4-1-cleator-moor",
+      "published": "2026-07-11T14:59:28Z"
+    },
     {
       "club": "Worthing",
       "code": "WOR",
@@ -643,6 +670,15 @@
       "title": "“𝗪𝗲 𝗻𝗲𝗲𝗱 𝘁𝗼 𝘀𝘁𝗮𝗿𝘁 𝗿𝗮𝗺𝗽𝗶𝗻𝗴 𝗶𝘁 𝘂𝗽” | Gary Warren post – Clevedon Town",
       "url": "https://wsmafc.co.uk/%f0%9d%97%aa%f0%9d%97%b2-%f0%9d%97%bb%f0%9d%97%b2%f0%9d%97%b2%f0%9d%97%b1-%f0%9d%98%81%f0%9d%97%bc-%f0%9d%98%80%f0%9d%98%81%f0%9d%97%ae%f0%9d%97%bf%f0%9d%98%81-%f0%9d%97%bf%f0%9d%97%ae%f0%9d%97%ba/",
       "published": "2026-07-11T11:30:21Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Eastleigh",
+      "url": "https://www.horshamfc.co.uk/2026/07/11/match-report-eastleigh/",
+      "published": "2026-07-11T11:28:13Z"
     },
     {
       "club": "Enfield Town",
@@ -1041,6 +1077,15 @@
       "published": "2026-07-10T11:59:57Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Dom reacts to the fixture schedule",
+      "url": "https://www.horshamfc.co.uk/2026/07/10/dom-reacts-to-the-fixture-schedule/",
+      "published": "2026-07-10T11:57:00Z"
+    },
+    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -1093,15 +1138,6 @@
       "title": "Bluebirds Dream Draw Week 46",
       "url": "https://chippenhamtown.com/07/10/bluebirds-dream-draw-week-46/",
       "published": "2026-07-10T11:00:21Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "The 2026-27 fixtures are out – get every Daggers game in your calendar",
-      "url": "https://daggers.co.uk/the-2026-27-fixtures-are-out-get-every-daggers-game-in-your-calendar/",
-      "published": "2026-07-10T11:00:00Z"
     },
     {
       "club": "Dover Athletic",
@@ -1194,6 +1230,15 @@
       "published": "2026-07-10T10:00:14Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "2026-27 FIXTURES ANNOUNCED",
+      "url": "https://www.horshamfc.co.uk/2026/07/10/2026-27-fixtures-announced/",
+      "published": "2026-07-10T10:00:13Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1245,15 +1290,6 @@
       "domain": "afcfylde.co.uk",
       "title": "Fylde to Kick Off 2026/27 Season at Home to Wealdstone",
       "url": "https://afcfylde.co.uk/news/2026/july/10/fylde-to-kick-off-2026-27-season-at-home-to-wealdstone/",
-      "published": "2026-07-10T10:00:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "2026/27 Enterprise National League South Fixtures Released",
-      "url": "https://daggers.co.uk/2026-27-enterprise-national-league-south-fixtures-released/",
       "published": "2026-07-10T10:00:00Z"
     },
     {
@@ -1365,6 +1401,15 @@
       "published": "2026-07-10T09:00:00Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Get in sync with every Horsham fixture!",
+      "url": "https://www.horshamfc.co.uk/2026/07/10/get-in-sync-with-every-horsham-fixture/",
+      "published": "2026-07-10T08:17:21Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1390,15 +1435,6 @@
       "title": "Every Chester FC Fixture, synced to your device",
       "url": "https://chesterfc.com/07/10/every-chester-fc-fixture-synced-to-your-device/",
       "published": "2026-07-10T07:59:46Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Dagenham & Redbridge FC Celebrate 20 Years of West & Coe Partnership",
-      "url": "https://daggers.co.uk/dagenham-redbridge-fc-celebrate-20-years-of-west-coe-partnership/",
-      "published": "2026-07-10T07:40:13Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1444,42 +1480,6 @@
       "title": "A Pre-Season update with Danny Elliott",
       "url": "https://macclesfieldfc.com/latest-news/a-pre-season-update-with-danny-elliott/",
       "published": "2026-07-09T18:00:39Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "2026/27 MACRON HOME KIT LAUNCHED",
-      "url": "https://www.carlisleunited.co.uk/news/202627-macron-home-kit-launched",
-      "published": "2026-07-09T18:00:00Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Johnson’s Hotel Linen become our new Back of Shirt Sponsor!",
-      "url": "https://chesterfc.com/07/09/johnsons-hotel-linen-become-our-new-back-of-shirt-sponsor/",
-      "published": "2026-07-09T17:59:01Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Welcome to the Urchins, Ryan Inniss!",
-      "url": "https://hornchurchfc.com/welcome-to-the-urchins-ryan-inniss/",
-      "published": "2026-07-09T17:00:54Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Season Cards Ready For Collection",
-      "url": "https://southendunited.co.uk/news/2026/july/09/season-cards-ready-for-collection/",
-      "published": "2026-07-09T17:00:12Z"
     }
   ]
 }
