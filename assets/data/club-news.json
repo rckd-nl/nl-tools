@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-11T17:18:46Z",
+  "generatedAt": "2026-07-11T18:12:20Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "https://www.carlisleunited.co.uk/rss.xml",
-      "ok": true,
-      "count": 50,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Eastleigh",
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3783,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -582,13 +582,40 @@
   ],
   "items": [
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "MATCH REPORT: MOTHERWELL 2-3 CARLISLE UNITED",
-      "url": "https://www.carlisleunited.co.uk/news/match-report-motherwell-2-3-carlisle-united",
-      "published": "2026-07-11T16:58:08Z"
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "PSF | Atherton LR 1 Southport 1 With Interview with Neil",
+      "url": "https://southportfc.net/psf-atherton-lr-1-southport-1-with-interview-with-neil/",
+      "published": "2026-07-11T18:05:50Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "CTFC Golf Day Review",
+      "url": "https://chippenhamtown.com/07/11/ctfc-golf-day-review/",
+      "published": "2026-07-11T18:00:39Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Match Report | Mossley 1-0 Radcliffe",
+      "url": "https://radcliffefc.com/match-report-mossley-1-0-radcliffe/",
+      "published": "2026-07-11T17:54:34Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Match Report | York City 2-1 Barnsley",
+      "url": "https://yorkcityfootballclub.co.uk/match-report-york-city-2-1-barnsley/",
+      "published": "2026-07-11T17:29:37Z"
     },
     {
       "club": "Macclesfield",
@@ -654,15 +681,6 @@
       "published": "2026-07-11T15:30:22Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "YOUTH MATCH REPORT: CARLISLE UNITED 4-1 CLEATOR MOOR",
-      "url": "https://www.carlisleunited.co.uk/news/youth-match-report-carlisle-united-4-1-cleator-moor",
-      "published": "2026-07-11T14:59:28Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -681,6 +699,15 @@
       "published": "2026-07-11T14:07:59Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Fan Engagement Day | Summer 2026",
+      "url": "https://www.fgr.co.uk/news/fan-engagement-day-summer-2026/",
+      "published": "2026-07-11T14:00:00Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -697,6 +724,15 @@
       "title": "Report: Seagulls held at Clevedon",
       "url": "https://wsmafc.co.uk/report-clevedon/",
       "published": "2026-07-11T13:20:30Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Rovers welcome new scholars for 26/27",
+      "url": "https://www.fgr.co.uk/news/eight-first-year-scholars-sign-for-26-27/",
+      "published": "2026-07-11T13:00:00Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1041,6 +1077,15 @@
       "published": "2026-07-10T15:00:10Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "The 2026-27 fixtures are out – Sync all FGR games in your calendar",
+      "url": "https://www.fgr.co.uk/news/sync-all-fgr-in-your-calendar-26-27/",
+      "published": "2026-07-10T15:00:00Z"
+    },
+    {
       "club": "Marine",
       "code": "MAR",
       "short": "Marine",
@@ -1075,6 +1120,15 @@
       "title": "Ian Watson Talks Through Week One",
       "url": "https://rochdaleafc.co.uk/ian-watson-talks-through-week-one/",
       "published": "2026-07-10T13:50:23Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Gaffer On Fixture Release Day",
+      "url": "https://www.fgr.co.uk/news/gaffer-on-fixture-release-day/",
+      "published": "2026-07-10T13:45:00Z"
     },
     {
       "club": "Yeovil Town",
@@ -1410,12 +1464,12 @@
       "published": "2026-07-10T10:00:03Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "2026/27 FIXTURES CONFIRMED",
-      "url": "https://www.carlisleunited.co.uk/news/202627-fixtures-confirmed",
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Fixtures Released 26/27",
+      "url": "https://www.fgr.co.uk/news/fixture-release-26-27/",
       "published": "2026-07-10T10:00:00Z"
     },
     {
@@ -1426,60 +1480,6 @@
       "title": "2026/27 Enterprise National League Fixtures Released",
       "url": "https://southendunited.co.uk/news/2026/july/10/2026-27-enterprise-national-league-fixture/",
       "published": "2026-07-10T10:00:00Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Fylde to Kick Off 2026/27 Season at Home to Wealdstone",
-      "url": "https://afcfylde.co.uk/news/2026/july/10/fylde-to-kick-off-2026-27-season-at-home-to-wealdstone/",
-      "published": "2026-07-10T10:00:00Z"
-    },
-    {
-      "club": "Chesham United",
-      "code": "CHU",
-      "short": "Chesham",
-      "domain": "cheshamunited.co.uk",
-      "title": "2026/27 Men’s League Fixtures Released",
-      "url": "https://cheshamunited.co.uk/2026/07/2026-27-mens-league-fixtures-released/",
-      "published": "2026-07-10T09:59:49Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Eastleigh’s 2026/27 National League Fixtures",
-      "url": "https://eastleighfc.com/2026/07/eastleighs-2026-27-national-league-fixtures/",
-      "published": "2026-07-10T09:59:38Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Fixtures Revealed For 2026/27 Season",
-      "url": "https://spennymoortownfc.co.uk/2026/07/10/fixtures-revealed-for-2026-27-season/",
-      "published": "2026-07-10T09:59:31Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Enterprise National League 2026/27 Fixtures Released",
-      "url": "https://wokingfc.co.uk/07/10/enterprise-national-league-2026-27-fixtures-released/",
-      "published": "2026-07-10T09:59:11Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "2026/2027 Fixtures Announced",
-      "url": "https://doverathletic.com/news/2026-2027-fixtures-announced/",
-      "published": "2026-07-10T09:59:08Z"
     }
   ]
 }
