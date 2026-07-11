@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-11T01:11:07Z",
+  "generatedAt": "2026-07-11T04:30:09Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3781,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -771,15 +771,6 @@
       "published": "2026-07-10T15:00:10Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "The 2026-27 fixtures are out – Sync all FGR games in your calendar",
-      "url": "https://www.fgr.co.uk/news/sync-all-fgr-in-your-calendar-26-27/",
-      "published": "2026-07-10T15:00:00Z"
-    },
-    {
       "club": "Marine",
       "code": "MAR",
       "short": "Marine",
@@ -814,15 +805,6 @@
       "title": "Ian Watson Talks Through Week One",
       "url": "https://rochdaleafc.co.uk/ian-watson-talks-through-week-one/",
       "published": "2026-07-10T13:50:23Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Gaffer On Fixture Release Day",
-      "url": "https://www.fgr.co.uk/news/gaffer-on-fixture-release-day/",
-      "published": "2026-07-10T13:45:00Z"
     },
     {
       "club": "Yeovil Town",
@@ -922,6 +904,15 @@
       "title": "Pre-season begins in North Wales",
       "url": "https://altrinchamfc.com/blogs/news/pre-season-begins-in-north-wales",
       "published": "2026-07-10T11:59:57Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Dom reacts to the fixture schedule",
+      "url": "https://www.horshamfc.co.uk/2026/07/10/dom-reacts-to-the-fixture-schedule/",
+      "published": "2026-07-10T11:57:00Z"
     },
     {
       "club": "Spennymoor Town",
@@ -1122,6 +1113,15 @@
       "published": "2026-07-10T10:00:13Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "2026-27 FIXTURES ANNOUNCED",
+      "url": "https://www.horshamfc.co.uk/2026/07/10/2026-27-fixtures-announced/",
+      "published": "2026-07-10T10:00:13Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1138,15 +1138,6 @@
       "title": "NEWS | National League North Fixtures Released",
       "url": "https://herefordfc.co.uk/2026/07/news-national-league-north-fixtures-released/",
       "published": "2026-07-10T10:00:03Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Fixtures Released 26/27",
-      "url": "https://www.fgr.co.uk/news/fixture-release-26-27/",
-      "published": "2026-07-10T10:00:00Z"
     },
     {
       "club": "Southend United",
@@ -1275,15 +1266,6 @@
       "published": "2026-07-10T09:03:17Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Squad Numbers 26/27",
-      "url": "https://www.fgr.co.uk/news/squad-numbers-2627/",
-      "published": "2026-07-10T09:00:00Z"
-    },
-    {
       "club": "Marine",
       "code": "MAR",
       "short": "Marine",
@@ -1291,6 +1273,15 @@
       "title": "GET IN SYNC WITH EVERY MARINE FIXTURE!",
       "url": "https://marinefc.com/get-in-sync-with-every-marine-fixture/",
       "published": "2026-07-10T08:25:18Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Get in sync with every Horsham fixture!",
+      "url": "https://www.horshamfc.co.uk/2026/07/10/get-in-sync-with-every-horsham-fixture/",
+      "published": "2026-07-10T08:17:21Z"
     },
     {
       "club": "Truro City",
@@ -1480,6 +1471,15 @@
       "title": "Gallery: Pre-Season Training 09.07",
       "url": "https://macclesfieldfc.com/galleries/gallery-pre-season-training-09-07/",
       "published": "2026-07-09T16:00:59Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Slavi Spasov Joins Yeovil Town for an Undisclosed Fee",
+      "url": "https://ytfc.net/2026/07/slavi-spasov-joins-yeovil-town-for-an-undisclosed-fee/",
+      "published": "2026-07-09T16:00:35Z"
     }
   ]
 }
