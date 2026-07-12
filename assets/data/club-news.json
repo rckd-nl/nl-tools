@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-11T23:39:42Z",
+  "generatedAt": "2026-07-12T01:17:38Z",
   "maxItems": 100,
   "sources": [
     {
@@ -14,10 +14,10 @@
     {
       "club": "Altrincham",
       "domain": "altrinchamfc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://altrinchamfc.com/blogs/news.atom",
+      "ok": true,
+      "count": 30,
+      "error": ""
     },
     {
       "club": "Boreham Wood",
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -110,10 +110,10 @@
     {
       "club": "Rochdale",
       "domain": "rochdaleafc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
+      "feed": "https://rochdaleafc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Scunthorpe United",
@@ -310,10 +310,10 @@
     {
       "club": "Marine",
       "domain": "marinefc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 401"
+      "feed": "https://marinefc.com/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Merthyr Town",
@@ -489,7 +489,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 503"
+      "error": "HTTP 404"
     },
     {
       "club": "Hemel Hempstead Town",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "World Cup semi final on the big screen",
+      "url": "https://maidstoneunited.co.uk/07/12/no-world-cup-screening-this-saturday/",
+      "published": "2026-07-12T00:00:22Z"
+    },
     {
       "club": "Maidstone United",
       "code": "MSU",
@@ -708,6 +717,15 @@
       "published": "2026-07-11T16:12:00Z"
     },
     {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Alty play out entertaining draw at Colwyn Bay",
+      "url": "https://altrinchamfc.com/blogs/news/colwyn-bay-friendly",
+      "published": "2026-07-11T15:56:46Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -715,15 +733,6 @@
       "title": "Match Report: Welling United",
       "url": "https://maidstoneunited.co.uk/07/11/match-report-welling-united/",
       "published": "2026-07-11T15:48:31Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "No World Cup screening this evening",
-      "url": "https://maidstoneunited.co.uk/07/11/no-world-cup-screening-this-saturday/",
-      "published": "2026-07-11T15:30:22Z"
     },
     {
       "club": "Worthing",
@@ -805,6 +814,15 @@
       "title": "Match Preview | Mossley (A)",
       "url": "https://radcliffefc.com/match-preview-mossley-a/",
       "published": "2026-07-11T09:30:15Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Charlie's back for a second season",
+      "url": "https://altrinchamfc.com/blogs/news/charlies-back-for-a-second-season",
+      "published": "2026-07-11T09:24:54Z"
     },
     {
       "club": "Chippenham Town",
@@ -931,6 +949,15 @@
       "title": "Match Preview vs Mossley | Michael Nottingham",
       "url": "https://radcliffefc.com/match-preview-vs-mossley-michael-nottingham/",
       "published": "2026-07-10T18:53:08Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Inside Pre-Season | Week One",
+      "url": "https://rochdaleafc.co.uk/inside-pre-season-week-one/",
+      "published": "2026-07-10T18:51:48Z"
     },
     {
       "club": "Radcliffe",
@@ -1077,6 +1104,15 @@
       "published": "2026-07-10T15:00:10Z"
     },
     {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "PETER McCORMACK: 46 YEARS OF SERVICE",
+      "url": "https://marinefc.com/peter-mccormack-46-years-of-service/",
+      "published": "2026-07-10T14:46:40Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1093,6 +1129,15 @@
       "title": "NEWS | Get Every Bulls Fixture in Your Calendar",
       "url": "https://herefordfc.co.uk/2026/07/news-get-every-bulls-fixture-in-your-calendar/",
       "published": "2026-07-10T14:00:45Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Ian Watson Talks Through Week One",
+      "url": "https://rochdaleafc.co.uk/ian-watson-talks-through-week-one/",
+      "published": "2026-07-10T13:50:23Z"
     },
     {
       "club": "Yeovil Town",
@@ -1167,6 +1212,15 @@
       "published": "2026-07-10T12:29:06Z"
     },
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Ten Photos From Friday’s Session",
+      "url": "https://rochdaleafc.co.uk/ten-photos-from-fridays-session/",
+      "published": "2026-07-10T12:28:32Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1174,6 +1228,15 @@
       "title": "Jimmy Excited To Get Started As Fixtures Are Released",
       "url": "https://torquayunited.com/jimmy-excited-to-get-started-as-fixtures-are-released/",
       "published": "2026-07-10T12:00:15Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Pre-season begins in North Wales",
+      "url": "https://altrinchamfc.com/blogs/news/pre-season-begins-in-north-wales",
+      "published": "2026-07-10T11:59:57Z"
     },
     {
       "club": "Spennymoor Town",
@@ -1185,6 +1248,33 @@
       "published": "2026-07-10T11:54:00Z"
     },
     {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Alty TV Interview | Kristian Dennis",
+      "url": "https://altrinchamfc.com/blogs/news/alty-tv-interview-kristian-dennis",
+      "published": "2026-07-10T11:42:21Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Alty TV Interview - Neil Gibson",
+      "url": "https://altrinchamfc.com/blogs/news/alty-tv-interview-neil-gibson-1",
+      "published": "2026-07-10T11:21:53Z"
+    },
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "26/27 FIXTURES RELEASED",
+      "url": "https://marinefc.com/26-27-fixtures-released/",
+      "published": "2026-07-10T11:19:06Z"
+    },
+    {
       "club": "Dorking Wanderers",
       "code": "DOR",
       "short": "Dorking",
@@ -1192,6 +1282,15 @@
       "title": "Weekly Update with Jordan Clark",
       "url": "https://dwfc.co.uk/2026/07/weekly-update-with-jordan-clark/",
       "published": "2026-07-10T11:09:33Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "The 2026-27 fixtures are out – get every Altrincham game in your calendar",
+      "url": "https://altrinchamfc.com/blogs/news/the-2026-27-fixtures-are-out-get-every-altrincham-game-in-your-calendar",
+      "published": "2026-07-10T11:03:55Z"
     },
     {
       "club": "Macclesfield",
@@ -1381,105 +1480,6 @@
       "title": "Fylde to Kick Off 2026/27 Season at Home to Wealdstone",
       "url": "https://afcfylde.co.uk/news/2026/july/10/fylde-to-kick-off-2026-27-season-at-home-to-wealdstone/",
       "published": "2026-07-10T10:00:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "2026/27 Enterprise National League South Fixtures Released",
-      "url": "https://daggers.co.uk/2026-27-enterprise-national-league-south-fixtures-released/",
-      "published": "2026-07-10T10:00:00Z"
-    },
-    {
-      "club": "Chesham United",
-      "code": "CHU",
-      "short": "Chesham",
-      "domain": "cheshamunited.co.uk",
-      "title": "2026/27 Men’s League Fixtures Released",
-      "url": "https://cheshamunited.co.uk/2026/07/2026-27-mens-league-fixtures-released/",
-      "published": "2026-07-10T09:59:49Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Eastleigh’s 2026/27 National League Fixtures",
-      "url": "https://eastleighfc.com/2026/07/eastleighs-2026-27-national-league-fixtures/",
-      "published": "2026-07-10T09:59:38Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Fixtures Revealed For 2026/27 Season",
-      "url": "https://spennymoortownfc.co.uk/2026/07/10/fixtures-revealed-for-2026-27-season/",
-      "published": "2026-07-10T09:59:31Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Enterprise National League 2026/27 Fixtures Released",
-      "url": "https://wokingfc.co.uk/07/10/enterprise-national-league-2026-27-fixtures-released/",
-      "published": "2026-07-10T09:59:11Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "2026/2027 Fixtures Announced",
-      "url": "https://doverathletic.com/news/2026-2027-fixtures-announced/",
-      "published": "2026-07-10T09:59:08Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "26/27 National League South Fixtures",
-      "url": "https://chelmsfordcityfc.com/news/26-27-national-league-south-fixtures/",
-      "published": "2026-07-10T09:59:00Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Season Tickets Still On Sale For 2026/27",
-      "url": "https://spennymoortownfc.co.uk/2026/07/10/season-tickets-still-on-sale-for-2026-27/",
-      "published": "2026-07-10T09:48:00Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Subscribe to Yeovil Town Fixtures for the 2026/27 Season",
-      "url": "https://ytfc.net/2026/07/subscribe-to-yeovil-town-fixtures-for-the-2026-27-season/",
-      "published": "2026-07-10T09:30:37Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Get in sync with every Weston-super-Mare fixture!",
-      "url": "https://wsmafc.co.uk/get-in-sync-with-every-weston-super-mare-fixture/",
-      "published": "2026-07-10T09:04:13Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Paddy McLaughlin Testimonial Final Event Announcement",
-      "url": "https://yorkcityfootballclub.co.uk/paddy-mclaughlin-testimonial-final-event-announcement/",
-      "published": "2026-07-10T09:03:17Z"
     }
   ]
 }
