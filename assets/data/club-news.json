@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-12T16:20:45Z",
+  "generatedAt": "2026-07-12T17:22:40Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "https://www.carlisleunited.co.uk/rss.xml",
-      "ok": true,
-      "count": 50,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Eastleigh",
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3783,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -861,15 +861,6 @@
       "published": "2026-07-11T18:28:15Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "ROB ELLIOT: \"THE LADS DESERVE A LOT OF CREDIT\"",
-      "url": "https://www.carlisleunited.co.uk/news/rob-elliot-lads-deserve-lot-credit",
-      "published": "2026-07-11T18:16:00Z"
-    },
-    {
       "club": "Southport",
       "code": "SPT",
       "short": "Southport",
@@ -904,15 +895,6 @@
       "title": "Match Report | York City 2-1 Barnsley",
       "url": "https://yorkcityfootballclub.co.uk/match-report-york-city-2-1-barnsley/",
       "published": "2026-07-11T17:29:37Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "MATCH REPORT: MOTHERWELL 2-3 CARLISLE UNITED",
-      "url": "https://www.carlisleunited.co.uk/news/match-report-motherwell-2-3-carlisle-united",
-      "published": "2026-07-11T16:58:08Z"
     },
     {
       "club": "Macclesfield",
@@ -978,15 +960,6 @@
       "published": "2026-07-11T15:48:31Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "YOUTH MATCH REPORT: CARLISLE UNITED 4-1 CLEATOR MOOR",
-      "url": "https://www.carlisleunited.co.uk/news/youth-match-report-carlisle-united-4-1-cleator-moor",
-      "published": "2026-07-11T14:59:28Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1003,6 +976,15 @@
       "title": "“𝗖𝗹𝗲𝘃𝗲𝗱𝗼𝗻 𝘄𝗲𝗿𝗲 𝗿𝗲𝗮𝗹𝗹𝘆 𝗴𝗼𝗼𝗱 𝘁𝗼𝗻𝗶𝗴𝗵𝘁” | Max Harris post – Clevedon Town",
       "url": "https://wsmafc.co.uk/%f0%9d%97%96%f0%9d%97%b9%f0%9d%97%b2%f0%9d%98%83%f0%9d%97%b2%f0%9d%97%b1%f0%9d%97%bc%f0%9d%97%bb-%f0%9d%98%84%f0%9d%97%b2%f0%9d%97%bf%f0%9d%97%b2-%f0%9d%97%bf%f0%9d%97%b2%f0%9d%97%ae%f0%9d%97%b9/",
       "published": "2026-07-11T14:07:59Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Fan Engagement Day | Summer 2026",
+      "url": "https://www.fgr.co.uk/news/fan-engagement-day-summer-2026/",
+      "published": "2026-07-11T14:00:00Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1023,6 +1005,15 @@
       "published": "2026-07-11T13:20:30Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Rovers welcome new scholars for 26/27",
+      "url": "https://www.fgr.co.uk/news/eight-first-year-scholars-sign-for-26-27/",
+      "published": "2026-07-11T13:00:00Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1030,15 +1021,6 @@
       "title": "“𝗪𝗲 𝗻𝗲𝗲𝗱 𝘁𝗼 𝘀𝘁𝗮𝗿𝘁 𝗿𝗮𝗺𝗽𝗶𝗻𝗴 𝗶𝘁 𝘂𝗽” | Gary Warren post – Clevedon Town",
       "url": "https://wsmafc.co.uk/%f0%9d%97%aa%f0%9d%97%b2-%f0%9d%97%bb%f0%9d%97%b2%f0%9d%97%b2%f0%9d%97%b1-%f0%9d%98%81%f0%9d%97%bc-%f0%9d%98%80%f0%9d%98%81%f0%9d%97%ae%f0%9d%97%bf%f0%9d%98%81-%f0%9d%97%bf%f0%9d%97%ae%f0%9d%97%ba/",
       "published": "2026-07-11T11:30:21Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Report – Eastleigh",
-      "url": "https://www.horshamfc.co.uk/2026/07/11/match-report-eastleigh/",
-      "published": "2026-07-11T11:28:13Z"
     },
     {
       "club": "Enfield Town",
@@ -1365,6 +1347,15 @@
       "published": "2026-07-10T15:00:10Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "The 2026-27 fixtures are out – Sync all FGR games in your calendar",
+      "url": "https://www.fgr.co.uk/news/sync-all-fgr-in-your-calendar-26-27/",
+      "published": "2026-07-10T15:00:00Z"
+    },
+    {
       "club": "Marine",
       "code": "MAR",
       "short": "Marine",
@@ -1399,6 +1390,15 @@
       "title": "Ian Watson Talks Through Week One",
       "url": "https://rochdaleafc.co.uk/ian-watson-talks-through-week-one/",
       "published": "2026-07-10T13:50:23Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Gaffer On Fixture Release Day",
+      "url": "https://www.fgr.co.uk/news/gaffer-on-fixture-release-day/",
+      "published": "2026-07-10T13:45:00Z"
     },
     {
       "club": "Yeovil Town",
