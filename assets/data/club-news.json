@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-12T19:53:35Z",
+  "generatedAt": "2026-07-12T21:09:12Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.carlisleunited.co.uk/rss.xml",
+      "ok": true,
+      "count": 50,
+      "error": ""
     },
     {
       "club": "Eastleigh",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -598,15 +598,6 @@
       "title": "REPORT: QPR WOMEN 3 – 2 UNITED WOMEN",
       "url": "https://torquayunited.com/report-qpr-women-3-2-united-women/",
       "published": "2026-07-12T18:10:35Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Watch England v Argentina Live at Victoria Road",
-      "url": "https://daggers.co.uk/watch-england-v-argentina-live-at-victoria-road/",
-      "published": "2026-07-12T17:17:35Z"
     },
     {
       "club": "Farnborough",
@@ -897,6 +888,15 @@
       "published": "2026-07-11T18:28:15Z"
     },
     {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "ROB ELLIOT: \"THE LADS DESERVE A LOT OF CREDIT\"",
+      "url": "https://www.carlisleunited.co.uk/news/rob-elliot-lads-deserve-lot-credit",
+      "published": "2026-07-11T18:16:00Z"
+    },
+    {
       "club": "Southport",
       "code": "SPT",
       "short": "Southport",
@@ -931,6 +931,15 @@
       "title": "Match Report | York City 2-1 Barnsley",
       "url": "https://yorkcityfootballclub.co.uk/match-report-york-city-2-1-barnsley/",
       "published": "2026-07-11T17:29:37Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "MATCH REPORT: MOTHERWELL 2-3 CARLISLE UNITED",
+      "url": "https://www.carlisleunited.co.uk/news/match-report-motherwell-2-3-carlisle-united",
+      "published": "2026-07-11T16:58:08Z"
     },
     {
       "club": "Macclesfield",
@@ -994,6 +1003,15 @@
       "title": "Match Report: Welling United",
       "url": "https://maidstoneunited.co.uk/07/11/match-report-welling-united/",
       "published": "2026-07-11T15:48:31Z"
+    },
+    {
+      "club": "Carlisle United",
+      "code": "CAR",
+      "short": "Carlisle",
+      "domain": "carlisleunited.co.uk",
+      "title": "YOUTH MATCH REPORT: CARLISLE UNITED 4-1 CLEATOR MOOR",
+      "url": "https://www.carlisleunited.co.uk/news/youth-match-report-carlisle-united-4-1-cleator-moor",
+      "published": "2026-07-11T14:59:28Z"
     },
     {
       "club": "Worthing",
@@ -1462,24 +1480,6 @@
       "title": "QUESTION OF THE DAY | 𝗪𝗵𝗮𝘁 𝗶𝘀 𝘆𝗼𝘂𝗿 𝗽𝗿𝗲𝗱𝗶𝗰𝘁𝗶𝗼𝗻 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗼𝗽𝗲𝗻𝗶𝗻𝗴 𝗱𝗮𝘆 𝗼𝗳 𝗼𝘂𝗿 𝘀𝗲𝗮𝘀𝗼𝗻?",
       "url": "https://wsmafc.co.uk/question-of-the-day-%f0%9d%97%aa%f0%9d%97%b5%f0%9d%97%ae%f0%9d%98%81-%f0%9d%97%b6%f0%9d%98%80-%f0%9d%98%86%f0%9d%97%bc%f0%9d%98%82%f0%9d%97%bf-%f0%9d%97%bd%f0%9d%97%bf%f0%9d%97%b2%f0%9d%97%b1/",
       "published": "2026-07-10T13:27:13Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Brixham Next Pre-Season Test For Gulls",
-      "url": "https://torquayunited.com/brixham-next-pre-season-test-for-gulls/",
-      "published": "2026-07-10T13:14:01Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "P W Gates Distribution sign up as Chester FC’s new Shorts Sponsor!",
-      "url": "https://chesterfc.com/07/10/p-w-gates-distribution-sign-up-as-chester-fcs-new-shorts-sponsor/",
-      "published": "2026-07-10T12:59:35Z"
     }
   ]
 }
