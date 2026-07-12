@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-12T18:41:58Z",
+  "generatedAt": "2026-07-12T19:53:35Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "https://www.carlisleunited.co.uk/rss.xml",
-      "ok": true,
-      "count": 50,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Eastleigh",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Bluebirds Bar to screen England vs Argentina",
+      "url": "https://chippenhamtown.com/07/12/bluebirds-bar-to-screen-england-vs-argentina/",
+      "published": "2026-07-12T19:45:38Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -589,6 +598,15 @@
       "title": "REPORT: QPR WOMEN 3 – 2 UNITED WOMEN",
       "url": "https://torquayunited.com/report-qpr-women-3-2-united-women/",
       "published": "2026-07-12T18:10:35Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Watch England v Argentina Live at Victoria Road",
+      "url": "https://daggers.co.uk/watch-england-v-argentina-live-at-victoria-road/",
+      "published": "2026-07-12T17:17:35Z"
     },
     {
       "club": "Farnborough",
@@ -879,15 +897,6 @@
       "published": "2026-07-11T18:28:15Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "ROB ELLIOT: \"THE LADS DESERVE A LOT OF CREDIT\"",
-      "url": "https://www.carlisleunited.co.uk/news/rob-elliot-lads-deserve-lot-credit",
-      "published": "2026-07-11T18:16:00Z"
-    },
-    {
       "club": "Southport",
       "code": "SPT",
       "short": "Southport",
@@ -922,15 +931,6 @@
       "title": "Match Report | York City 2-1 Barnsley",
       "url": "https://yorkcityfootballclub.co.uk/match-report-york-city-2-1-barnsley/",
       "published": "2026-07-11T17:29:37Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "MATCH REPORT: MOTHERWELL 2-3 CARLISLE UNITED",
-      "url": "https://www.carlisleunited.co.uk/news/match-report-motherwell-2-3-carlisle-united",
-      "published": "2026-07-11T16:58:08Z"
     },
     {
       "club": "Macclesfield",
@@ -996,15 +996,6 @@
       "published": "2026-07-11T15:48:31Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "YOUTH MATCH REPORT: CARLISLE UNITED 4-1 CLEATOR MOOR",
-      "url": "https://www.carlisleunited.co.uk/news/youth-match-report-carlisle-united-4-1-cleator-moor",
-      "published": "2026-07-11T14:59:28Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1066,6 +1057,15 @@
       "title": "“𝗪𝗲 𝗻𝗲𝗲𝗱 𝘁𝗼 𝘀𝘁𝗮𝗿𝘁 𝗿𝗮𝗺𝗽𝗶𝗻𝗴 𝗶𝘁 𝘂𝗽” | Gary Warren post – Clevedon Town",
       "url": "https://wsmafc.co.uk/%f0%9d%97%aa%f0%9d%97%b2-%f0%9d%97%bb%f0%9d%97%b2%f0%9d%97%b2%f0%9d%97%b1-%f0%9d%98%81%f0%9d%97%bc-%f0%9d%98%80%f0%9d%98%81%f0%9d%97%ae%f0%9d%97%bf%f0%9d%98%81-%f0%9d%97%bf%f0%9d%97%ae%f0%9d%97%ba/",
       "published": "2026-07-11T11:30:21Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Eastleigh",
+      "url": "https://www.horshamfc.co.uk/2026/07/11/match-report-eastleigh/",
+      "published": "2026-07-11T11:28:13Z"
     },
     {
       "club": "Enfield Town",
