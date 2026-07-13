@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-13T00:14:10Z",
+  "generatedAt": "2026-07-13T04:01:32Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -1059,15 +1059,6 @@
       "published": "2026-07-11T11:30:21Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Report – Eastleigh",
-      "url": "https://www.horshamfc.co.uk/2026/07/11/match-report-eastleigh/",
-      "published": "2026-07-11T11:28:13Z"
-    },
-    {
       "club": "Enfield Town",
       "code": "ENF",
       "short": "Enfield",
@@ -1480,6 +1471,15 @@
       "title": "P W Gates Distribution sign up as Chester FC’s new Shorts Sponsor!",
       "url": "https://chesterfc.com/07/10/p-w-gates-distribution-sign-up-as-chester-fcs-new-shorts-sponsor/",
       "published": "2026-07-10T12:59:35Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Pre-season: Day 8 – visiting Bearsted FC",
+      "url": "https://maidstoneunited.co.uk/07/10/preseason-day-8-visiting-bearsted-fc/",
+      "published": "2026-07-10T12:44:50Z"
     }
   ]
 }
