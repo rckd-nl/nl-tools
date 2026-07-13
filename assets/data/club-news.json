@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-13T22:12:36Z",
+  "generatedAt": "2026-07-13T23:14:52Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "https://www.carlisleunited.co.uk/rss.xml",
-      "ok": true,
-      "count": 50,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Eastleigh",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Chippenham Town Legends V PL Legends 12th July 2026",
+      "url": "https://chippenhamtown.com/07/13/chippenham-town-legends-v-pl-legends-12th-july-2026/",
+      "published": "2026-07-13T22:23:16Z"
+    },
     {
       "club": "Chippenham Town",
       "code": "CHI",
@@ -951,6 +960,15 @@
       "published": "2026-07-13T11:00:30Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Ticket Information: Hitchin Town (A)",
+      "url": "https://daggers.co.uk/ticket-information-hitchin-town-a/",
+      "published": "2026-07-13T10:34:17Z"
+    },
+    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -1039,6 +1057,15 @@
       "title": "New 26-27 away kit launched!",
       "url": "https://harriers.co.uk/news/2026/07/13/new-26-27-away-kit-launched/",
       "published": "2026-07-13T09:15:23Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Pre-Season Match Report: Newmarket",
+      "url": "https://daggers.co.uk/pre-season-match-report-newmarket/",
+      "published": "2026-07-13T09:14:51Z"
     },
     {
       "club": "Woking",
@@ -1138,6 +1165,15 @@
       "title": "REPORT: QPR WOMEN 3 – 2 UNITED WOMEN",
       "url": "https://torquayunited.com/report-qpr-women-3-2-united-women/",
       "published": "2026-07-12T18:10:35Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Watch England v Argentina Live at Victoria Road",
+      "url": "https://daggers.co.uk/watch-england-v-argentina-live-at-victoria-road/",
+      "published": "2026-07-12T17:17:35Z"
     },
     {
       "club": "Farnborough",
@@ -1419,15 +1455,6 @@
       "published": "2026-07-11T18:28:15Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "ROB ELLIOT: \"THE LADS DESERVE A LOT OF CREDIT\"",
-      "url": "https://www.carlisleunited.co.uk/news/rob-elliot-lads-deserve-lot-credit",
-      "published": "2026-07-11T18:16:00Z"
-    },
-    {
       "club": "Southport",
       "code": "SPT",
       "short": "Southport",
@@ -1453,33 +1480,6 @@
       "title": "Match Report | Mossley 1-0 Radcliffe",
       "url": "https://radcliffefc.com/match-report-mossley-1-0-radcliffe/",
       "published": "2026-07-11T17:54:34Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Match Report | York City 2-1 Barnsley",
-      "url": "https://yorkcityfootballclub.co.uk/match-report-york-city-2-1-barnsley/",
-      "published": "2026-07-11T17:29:37Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "MATCH REPORT: MOTHERWELL 2-3 CARLISLE UNITED",
-      "url": "https://www.carlisleunited.co.uk/news/match-report-motherwell-2-3-carlisle-united",
-      "published": "2026-07-11T16:58:08Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Report: Vauxhall Motors 0-2 Chester",
-      "url": "https://chesterfc.com/07/11/report-vauxhall-motors-0-2-chester/",
-      "published": "2026-07-11T16:44:01Z"
     }
   ]
 }
