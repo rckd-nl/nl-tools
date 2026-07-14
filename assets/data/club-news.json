@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-14T14:15:35Z",
+  "generatedAt": "2026-07-14T15:48:45Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3785,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -582,6 +582,78 @@
   ],
   "items": [
     {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Report: Fleetwood Town 2-0 Chester",
+      "url": "https://chesterfc.com/07/14/report-fleetwood-town-2-0-chester/",
+      "published": "2026-07-14T15:21:11Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Preseason day 10: Welling United travel to Gallagher Stadium",
+      "url": "https://maidstoneunited.co.uk/07/14/preseason-day-10-welling-united-travel-to-gallagher-stadium/",
+      "published": "2026-07-14T15:00:08Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Kian Foreman joins Hebburn Town on loan",
+      "url": "https://www.hartlepoolunited.co.uk/kian-foreman-joins-hebburn-town-on-loan/",
+      "published": "2026-07-14T14:59:32Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "A latest football club update from director John Coyne",
+      "url": "https://altrinchamfc.com/blogs/news/a-latest-football-club-update-from-director-john-coyne",
+      "published": "2026-07-14T14:53:55Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Commercial & Media Vacancies",
+      "url": "https://southendunited.co.uk/news/2026/july/14/commercial---media-vacancies/",
+      "published": "2026-07-14T14:45:10Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Big Screen Viewing | England v Argentina",
+      "url": "https://southportfc.net/big-screen-viewing-england-v-argentina/",
+      "published": "2026-07-14T14:44:01Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "KEITH CURLE: FIRST INTERVIEW",
+      "url": "https://macclesfieldfc.com/latest-news/first-interview-with-keith-curle/",
+      "published": "2026-07-14T14:30:21Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Match preview: Real Bedford (A)",
+      "url": "https://www.borehamwoodfootballclub.co.uk/match-preview-real-bedford-a/",
+      "published": "2026-07-14T14:26:32Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -604,7 +676,7 @@
       "code": "WSM",
       "short": "Weston-s-Mare",
       "domain": "wsmafc.co.uk",
-      "title": "Clubhouse closed until 2PM on Wednesdat 15th July",
+      "title": "Clubhouse closed until 2PM on Wednesday 15th July",
       "url": "https://wsmafc.co.uk/clubhouse-closed-until-2pm-on-wednesdat-15th-july/",
       "published": "2026-07-14T13:53:41Z"
     },
@@ -852,6 +924,15 @@
       "published": "2026-07-13T16:59:56Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Tickets Now Available",
+      "url": "https://www.fgr.co.uk/news/tickets-now-available/",
+      "published": "2026-07-13T16:45:00Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -949,6 +1030,15 @@
       "title": "VACANCIES | Matchday Safety Stewards",
       "url": "https://herefordfc.co.uk/2026/07/vacancies-matchday-safety-stewards/",
       "published": "2026-07-13T14:53:40Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Partnership | GWP Medical Services",
+      "url": "https://www.fgr.co.uk/news/partnership-gwp-26/",
+      "published": "2026-07-13T14:45:00Z"
     },
     {
       "club": "Eastleigh",
@@ -1365,15 +1455,6 @@
       "published": "2026-07-12T17:00:13Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SILKMEN FAN CAM: CHEADLE TOWN (H)",
-      "url": "https://macclesfieldfc.com/galleries/silkmen-fan-cam-cheadle-town-h/",
-      "published": "2026-07-12T16:00:20Z"
-    },
-    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1399,87 +1480,6 @@
       "title": "Fylde Prepare for Hyde Test",
       "url": "https://afcfylde.co.uk/news/2026/july/12/fylde-prepare-for-hyde-test/",
       "published": "2026-07-12T14:33:00Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Worthing FC Television Broadcast Selections: 2026/27",
-      "url": "https://worthingfc.com/2026/07/worthing-fc-television-broadcast-selections-2026-27/",
-      "published": "2026-07-12T13:59:53Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Post-Vauxhall: Phil Parkinson",
-      "url": "https://chesterfc.com/07/12/post-vauxhall-phil-parkinson/",
-      "published": "2026-07-12T13:35:28Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "World Cup Semi-Final Night at Longmead",
-      "url": "https://tonbridgeangels.co.uk/world-cup-semi-final-night-at-longmead/",
-      "published": "2026-07-12T13:29:03Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Report: Blyth Spartans 1 Moors 3",
-      "url": "https://spennymoortownfc.co.uk/2026/07/12/report-blyth-spartans-1-moors-3-2/",
-      "published": "2026-07-12T13:11:56Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Semi Final Action in Bradley's 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "url": "https://afcfylde.co.uk/news/2026/july/12/semi-final-action-in-bradley-s-/",
-      "published": "2026-07-12T12:54:00Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Match Preview | Pickering Town (A) | Tuesday 14th July",
-      "url": "https://yorkcityfootballclub.co.uk/match-preview-pickering-town-a-tuesday-14th-july/",
-      "published": "2026-07-12T12:16:07Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Gallery: Welling United",
-      "url": "https://maidstoneunited.co.uk/07/12/gallery-welling-united/",
-      "published": "2026-07-12T11:00:30Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Post Match: Welling Utd",
-      "url": "https://maidstoneunited.co.uk/07/12/post-match-welling-utd/",
-      "published": "2026-07-12T10:14:40Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "MUFC Women: Hastings game OFF",
-      "url": "https://maidstoneunited.co.uk/07/12/mufc-women-hastings-game-off/",
-      "published": "2026-07-12T10:11:18Z"
     }
   ]
 }
