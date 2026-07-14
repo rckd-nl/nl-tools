@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-13T23:14:52Z",
+  "generatedAt": "2026-07-14T00:10:01Z",
   "maxItems": 100,
   "sources": [
     {
@@ -14,10 +14,10 @@
     {
       "club": "Altrincham",
       "domain": "altrinchamfc.com",
-      "feed": "https://altrinchamfc.com/blogs/news.atom",
-      "ok": true,
-      "count": 30,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "club": "Boreham Wood",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -924,15 +924,6 @@
       "published": "2026-07-13T11:49:53Z"
     },
     {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Next up in pre-season it's Wythenshawe Town",
-      "url": "https://altrinchamfc.com/blogs/news/next-up-in-pre-season-its-wythenshawe-town",
-      "published": "2026-07-13T11:34:17Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -958,15 +949,6 @@
       "title": "TAP IN PRE-SEASON MAINTENANCE",
       "url": "https://macclesfieldfc.com/latest-news/tap-in-pre-season-maintenance/",
       "published": "2026-07-13T11:00:30Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Ticket Information: Hitchin Town (A)",
-      "url": "https://daggers.co.uk/ticket-information-hitchin-town-a/",
-      "published": "2026-07-13T10:34:17Z"
     },
     {
       "club": "Kidderminster Harriers",
@@ -1057,15 +1039,6 @@
       "title": "New 26-27 away kit launched!",
       "url": "https://harriers.co.uk/news/2026/07/13/new-26-27-away-kit-launched/",
       "published": "2026-07-13T09:15:23Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Pre-Season Match Report: Newmarket",
-      "url": "https://daggers.co.uk/pre-season-match-report-newmarket/",
-      "published": "2026-07-13T09:14:51Z"
     },
     {
       "club": "Woking",
@@ -1167,15 +1140,6 @@
       "published": "2026-07-12T18:10:35Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Watch England v Argentina Live at Victoria Road",
-      "url": "https://daggers.co.uk/watch-england-v-argentina-live-at-victoria-road/",
-      "published": "2026-07-12T17:17:35Z"
-    },
-    {
       "club": "Farnborough",
       "code": "FAB",
       "short": "Farnborough",
@@ -1201,15 +1165,6 @@
       "title": "SILKMEN FAN CAM: CHEADLE TOWN (H)",
       "url": "https://macclesfieldfc.com/latest-news/silkmen-fan-cam-cheadle-town-h-2/",
       "published": "2026-07-12T16:00:14Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "ALTY TV Post-Match - Colwyn Bay",
-      "url": "https://altrinchamfc.com/blogs/news/alty-tv-post-match-colwyn-bay",
-      "published": "2026-07-12T15:42:29Z"
     },
     {
       "club": "Spennymoor Town",
@@ -1480,6 +1435,51 @@
       "title": "Match Report | Mossley 1-0 Radcliffe",
       "url": "https://radcliffefc.com/match-report-mossley-1-0-radcliffe/",
       "published": "2026-07-11T17:54:34Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Match Report | York City 2-1 Barnsley",
+      "url": "https://yorkcityfootballclub.co.uk/match-report-york-city-2-1-barnsley/",
+      "published": "2026-07-11T17:29:37Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Report: Vauxhall Motors 0-2 Chester",
+      "url": "https://chesterfc.com/07/11/report-vauxhall-motors-0-2-chester/",
+      "published": "2026-07-11T16:44:01Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "REPORT: BRIXHAM 0 – 2 UNITED",
+      "url": "https://torquayunited.com/report-brixham-0-2-united/",
+      "published": "2026-07-11T16:19:04Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Wanderers Fall Short in the Advertiser Trophy Against Leatherhead FC",
+      "url": "https://dwfc.co.uk/2026/07/wanderers-fall-short-in-the-advertiser-trophy-against-leatherhead-fc/",
+      "published": "2026-07-11T16:12:00Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Match Report: AFC Fylde 2-3 Blackpool",
+      "url": "https://afcfylde.co.uk/news/2026/july/11/match-report--afc-fylde-2-3-blackpool/",
+      "published": "2026-07-11T16:08:00Z"
     }
   ]
 }
