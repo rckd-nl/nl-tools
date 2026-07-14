@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-14T12:04:16Z",
+  "generatedAt": "2026-07-14T14:15:35Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3785,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,78 @@
   ],
   "items": [
     {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Matchday Ball Crew 2026/27",
+      "url": "https://trurocity.co.uk/2026/07/matchday-ball-crew-2026-27/",
+      "published": "2026-07-14T14:09:31Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Vacancy: Matchday Safeguarding Volunteers",
+      "url": "https://trurocity.co.uk/2026/07/vacancy-matchday-safeguarding-volunteers/",
+      "published": "2026-07-14T13:59:42Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Clubhouse closed until 2PM on Wednesdat 15th July",
+      "url": "https://wsmafc.co.uk/clubhouse-closed-until-2pm-on-wednesdat-15th-july/",
+      "published": "2026-07-14T13:53:41Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Beckwith Nominated In Northwest Football Awards",
+      "url": "https://rochdaleafc.co.uk/beckwith-nominated-in-northwest-football-awards/",
+      "published": "2026-07-14T13:32:35Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Mascots and Flag Bearers 2026/27",
+      "url": "https://trurocity.co.uk/2026/07/mascots-and-flag-bearers-2026-27/",
+      "published": "2026-07-14T13:28:11Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "MATCH PREVIEW: LEEK TOWN VS MACCLESFIELD FC",
+      "url": "https://macclesfieldfc.com/latest-news/match-preview-leek-town-vs-macclesfield-fc/",
+      "published": "2026-07-14T13:00:20Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Vacancy: Football Performance Placement",
+      "url": "https://spennymoortownfc.co.uk/2026/07/14/vacancy-football-performance-placement/",
+      "published": "2026-07-14T12:20:36Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Match Ticket Prices 2026/27",
+      "url": "https://trurocity.co.uk/2026/07/match-ticket-prices-2026-27/",
+      "published": "2026-07-14T12:14:25Z"
+    },
+    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -591,6 +663,15 @@
       "published": "2026-07-14T12:00:38Z"
     },
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "World Cup semi final on the big screen",
+      "url": "https://maidstoneunited.co.uk/07/14/no-world-cup-screening-this-saturday/",
+      "published": "2026-07-14T12:00:22Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -598,6 +679,15 @@
       "title": "Official Security Provider – Alpha Protect",
       "url": "https://trurocity.co.uk/2026/07/official-security-provider-alpha-protect/",
       "published": "2026-07-14T11:41:05Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham vs Wimbledon U18s TONIGHT",
+      "url": "https://www.horshamfc.co.uk/2026/07/14/horsham-vs-wimbledon-u18s-tonight/",
+      "published": "2026-07-14T11:29:25Z"
     },
     {
       "club": "Macclesfield",
@@ -667,7 +757,7 @@
       "code": "TON",
       "short": "Tonbridge",
       "domain": "tonbridgeangels.co.uk",
-      "title": "Angels v Sutton United",
+      "title": "Angels v Sutton + World Cup Semi",
       "url": "https://tonbridgeangels.co.uk/angels-v-sutton-united/",
       "published": "2026-07-14T08:15:50Z"
     },
@@ -760,15 +850,6 @@
       "title": "Ticketing Update for the 2026/27 Season",
       "url": "https://wokingfc.co.uk/07/13/ticketing-update-for-the-2026-27-season/",
       "published": "2026-07-13T16:59:56Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Tickets Now Available",
-      "url": "https://www.fgr.co.uk/news/tickets-now-available/",
-      "published": "2026-07-13T16:45:00Z"
     },
     {
       "club": "Worthing",
@@ -868,15 +949,6 @@
       "title": "VACANCIES | Matchday Safety Stewards",
       "url": "https://herefordfc.co.uk/2026/07/vacancies-matchday-safety-stewards/",
       "published": "2026-07-13T14:53:40Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Partnership | GWP Medical Services",
-      "url": "https://www.fgr.co.uk/news/partnership-gwp-26/",
-      "published": "2026-07-13T14:45:00Z"
     },
     {
       "club": "Eastleigh",
@@ -1302,15 +1374,6 @@
       "published": "2026-07-12T16:00:20Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SILKMEN FAN CAM: CHEADLE TOWN (H)",
-      "url": "https://macclesfieldfc.com/latest-news/silkmen-fan-cam-cheadle-town-h-2/",
-      "published": "2026-07-12T16:00:14Z"
-    },
-    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1417,69 +1480,6 @@
       "title": "MUFC Women: Hastings game OFF",
       "url": "https://maidstoneunited.co.uk/07/12/mufc-women-hastings-game-off/",
       "published": "2026-07-12T10:11:18Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "GALLERY | Hereford Pegasus 1-1 Hereford FC",
-      "url": "https://herefordfc.co.uk/2026/07/gallery-hereford-pegasus-1-1-hereford-fc/",
-      "published": "2026-07-12T10:09:31Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Match Report: Melksham Town",
-      "url": "https://ytfc.net/2026/07/match-report-melksham-town/",
-      "published": "2026-07-12T08:57:22Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Report: Dover Athletic 3-1 Cray Wanderers",
-      "url": "https://doverathletic.com/news/report-dover-athletic-3-1-cray-wanderers/",
-      "published": "2026-07-12T08:55:59Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Highlights: Brixham AFC (A) | Pre-Season 2026-27",
-      "url": "https://torquayunited.com/highlights-brixham-afc-a-pre-season-2026-27/",
-      "published": "2026-07-12T08:16:15Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "QPR Test For United’s Women",
-      "url": "https://torquayunited.com/qpr-test-for-uniteds-women/",
-      "published": "2026-07-12T08:00:00Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Mossley (A) Post-Match Reaction | Kyle Hawley",
-      "url": "https://radcliffefc.com/mossley-a-post-match-reaction-kyle-hawley/",
-      "published": "2026-07-12T06:41:41Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Mossley (A) Post-Match Reaction | Bernard Morley",
-      "url": "https://radcliffefc.com/mossley-a-post-match-reaction-bernard-morley/",
-      "published": "2026-07-12T06:41:13Z"
     }
   ]
 }
