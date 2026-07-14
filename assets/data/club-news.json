@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-14T08:30:10Z",
+  "generatedAt": "2026-07-14T10:26:46Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -438,10 +438,10 @@
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "https://dwfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Dover Athletic",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Preview: Seaton Carew v Moors",
+      "url": "https://spennymoortownfc.co.uk/2026/07/14/preview-seaton-carew-v-moors/",
+      "published": "2026-07-14T10:03:55Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "AN INVITATION TO OUR JULY BUSINESS NETWORKING EVENT",
+      "url": "https://macclesfieldfc.com/latest-news/an-invitation-to-our-july-business-networking-event/",
+      "published": "2026-07-14T09:00:42Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -609,24 +627,6 @@
       "published": "2026-07-14T07:33:59Z"
     },
     {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Chippenham Town Legends V PL Legends 12th July 2026",
-      "url": "https://chippenhamtown.com/07/13/chippenham-town-legends-v-pl-legends-12th-july-2026/",
-      "published": "2026-07-13T22:23:16Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Paulton Rovers 10th July 2026",
-      "url": "https://chippenhamtown.com/07/13/paulton-rovers-10th-july-2026/",
-      "published": "2026-07-13T21:32:31Z"
-    },
-    {
       "club": "Curzon Ashton",
       "code": "CUR",
       "short": "Curzon Ashton",
@@ -652,6 +652,15 @@
       "title": "Exmouth vs Truro – Entry Prices",
       "url": "https://trurocity.co.uk/2026/07/exmouth-vs-truro-entry-prices/",
       "published": "2026-07-13T18:07:30Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "NEWS | Volunteer Helping Day at Edgar Street",
+      "url": "https://herefordfc.co.uk/2026/07/news-volunteer-helping-day-at-edgar-street/",
+      "published": "2026-07-13T18:00:25Z"
     },
     {
       "club": "Eastleigh",
@@ -733,15 +742,6 @@
       "title": "🎥 𝗠𝗮𝘁𝗰𝗵 𝗛𝗶𝗴𝗵𝗹𝗶𝗴𝗵𝘁𝘀 | Chippenham Town Legends 2-4 PL Legends",
       "url": "https://chippenhamtown.com/07/13/%f0%9f%8e%a5-%f0%9d%97%a0%f0%9d%97%ae%f0%9d%98%81%f0%9d%97%b0%f0%9d%97%b5-%f0%9d%97%9b%f0%9d%97%b6%f0%9d%97%b4%f0%9d%97%b5%f0%9d%97%b9%f0%9d%97%b6%f0%9d%97%b4%f0%9d%97%b5%f0%9d%98%81%f0%9d%98%80-chi-6/",
       "published": "2026-07-13T16:00:39Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "NEWS | Volunteer Helping Day at Edgar Street",
-      "url": "https://herefordfc.co.uk/2026/07/news-volunteer-helping-day-at-edgar-street/",
-      "published": "2026-07-13T16:00:25Z"
     },
     {
       "club": "Hartlepool United",
@@ -915,6 +915,15 @@
       "published": "2026-07-13T13:07:06Z"
     },
     {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "2026/27 SEASON TICKETS ON GENERAL SALE",
+      "url": "https://macclesfieldfc.com/latest-news/2026-27-season-tickets-on-general-sale/",
+      "published": "2026-07-13T13:00:50Z"
+    },
+    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -969,15 +978,6 @@
       "published": "2026-07-13T11:08:40Z"
     },
     {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Buy today! New online shop launched",
-      "url": "https://harriers.co.uk/news/2026/07/13/buy-today-new-online-shop-launched/",
-      "published": "2026-07-13T11:06:04Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -994,15 +994,6 @@
       "title": "Ticket Information: Hitchin Town (A)",
       "url": "https://daggers.co.uk/ticket-information-hitchin-town-a/",
       "published": "2026-07-13T10:34:17Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "26-27 Home shirt launched!",
-      "url": "https://harriers.co.uk/news/2026/07/13/26-27-home-shirt-launched/",
-      "published": "2026-07-13T10:25:40Z"
     },
     {
       "club": "Chester",
@@ -1075,15 +1066,6 @@
       "title": "Training Day | VX3 Stadium, Homers Heath | Flight Plan",
       "url": "https://torquayunited.com/training-day-vx3-stadium-homers-heath-flight-plan/",
       "published": "2026-07-13T09:16:40Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "New 26-27 away kit launched!",
-      "url": "https://harriers.co.uk/news/2026/07/13/new-26-27-away-kit-launched/",
-      "published": "2026-07-13T09:15:23Z"
     },
     {
       "club": "Dagenham & Redbridge",
@@ -1192,6 +1174,15 @@
       "title": "REPORT: QPR WOMEN 3 – 2 UNITED WOMEN",
       "url": "https://torquayunited.com/report-qpr-women-3-2-united-women/",
       "published": "2026-07-12T18:10:35Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Chippenham Town Legends V PL Legends 12th July 2026",
+      "url": "https://chippenhamtown.com/07/12/chippenham-town-legends-v-pl-legends-12th-july-2026/",
+      "published": "2026-07-12T18:00:16Z"
     },
     {
       "club": "Dagenham & Redbridge",
@@ -1318,24 +1309,6 @@
       "title": "Match Preview | Pickering Town (A) | Tuesday 14th July",
       "url": "https://yorkcityfootballclub.co.uk/match-preview-pickering-town-a-tuesday-14th-july/",
       "published": "2026-07-12T12:16:07Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "Sam Heathcote post Cheadle Town",
-      "url": "https://macclesfieldfc.com/latest-news/sam-heathcote-post-cheadle-town/",
-      "published": "2026-07-12T12:00:39Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SILKMEN UNVEIL 2026/27 SPONSORSHIP OPPORTUNITIES BROCHURE",
-      "url": "https://macclesfieldfc.com/latest-news/silkmen-unveil-2026-27-sponsorship-opportunities-brochure/",
-      "published": "2026-07-12T11:00:30Z"
     },
     {
       "club": "Maidstone United",
@@ -1480,6 +1453,33 @@
       "title": "Post Match: Welling United",
       "url": "https://maidstoneunited.co.uk/07/11/post-match-welling-united/",
       "published": "2026-07-11T18:28:15Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "CTFC Golf Day Review",
+      "url": "https://chippenhamtown.com/07/11/ctfc-golf-day-review/",
+      "published": "2026-07-11T18:00:39Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Match Report | Mossley 1-0 Radcliffe",
+      "url": "https://radcliffefc.com/match-report-mossley-1-0-radcliffe/",
+      "published": "2026-07-11T17:54:34Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Match Report | York City 2-1 Barnsley",
+      "url": "https://yorkcityfootballclub.co.uk/match-report-york-city-2-1-barnsley/",
+      "published": "2026-07-11T17:29:37Z"
     }
   ]
 }
