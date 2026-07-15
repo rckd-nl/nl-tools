@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-15T14:12:33Z",
+  "generatedAt": "2026-07-15T15:51:31Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "https://www.carlisleunited.co.uk/rss.xml",
-      "ok": true,
-      "count": 50,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Eastleigh",
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3786,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,60 @@
     }
   ],
   "items": [
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Do you have what it takes to be a PA announcer?",
+      "url": "https://wokingfc.co.uk/07/15/do-you-have-what-it-takes-to-be-a-pa-announcer/",
+      "published": "2026-07-15T15:43:07Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Highlights: Millwall U21s (H)",
+      "url": "https://hornchurchfc.com/highlights-millwall-u21s-h/",
+      "published": "2026-07-15T15:03:03Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Earn Your Stripes!",
+      "url": "https://torquayunited.com/earn-your-stripes/",
+      "published": "2026-07-15T15:00:00Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "World Cup semi final on the big screen",
+      "url": "https://maidstoneunited.co.uk/07/15/no-world-cup-screening-this-saturday/",
+      "published": "2026-07-15T14:55:22Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "York City 2026/27 third shirt revealed",
+      "url": "https://yorkcityfootballclub.co.uk/york-city-2026-27-third-shirt-revealed/",
+      "published": "2026-07-15T14:36:32Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Alty FC Foundation's Three Peaks Challenge",
+      "url": "https://altrinchamfc.com/blogs/news/alty-fc-foundations-three-peaks-challenge",
+      "published": "2026-07-15T14:34:13Z"
+    },
     {
       "club": "Macclesfield",
       "code": "MAC",
@@ -796,15 +850,6 @@
       "title": "Next up it's Vauxhall Motors",
       "url": "https://altrinchamfc.com/blogs/news/next-up-its-vauxhall-motors",
       "published": "2026-07-15T10:14:31Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "YOUTH MATCH REPORT: CARLISLE CITY 1-2 CARLISLE UNITED",
-      "url": "https://www.carlisleunited.co.uk/news/youth-match-report-carlisle-city-1-2-carlisle-united",
-      "published": "2026-07-15T10:12:05Z"
     },
     {
       "club": "Hartlepool United",
@@ -1117,6 +1162,15 @@
       "code": "ROC",
       "short": "Rochdale",
       "domain": "rochdaleafc.co.uk",
+      "title": "Forever Dale Results – 15th July 2026",
+      "url": "https://nycdaweeklydraw.co.uk/foreverdale/winners.php?date=20260715",
+      "published": "2026-07-14T20:54:00Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
       "title": "Tickets On Sale For Spain Friendly",
       "url": "https://rochdaleafc.co.uk/tickets-on-sale-for-spain-friendly/",
       "published": "2026-07-14T20:53:23Z"
@@ -1192,6 +1246,15 @@
       "title": "Pools sign experienced defender Liam Gibson",
       "url": "https://www.hartlepoolunited.co.uk/pools-sign-experienced-defender-liam-gibson/",
       "published": "2026-07-14T17:43:46Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Pre-season | Ticketing Update",
+      "url": "https://www.fgr.co.uk/news/pre-seaosn-ticketing-update-26/",
+      "published": "2026-07-14T17:00:00Z"
     },
     {
       "club": "Maidstone United",
@@ -1392,15 +1455,6 @@
       "published": "2026-07-14T12:00:38Z"
     },
     {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "World Cup semi final on the big screen",
-      "url": "https://maidstoneunited.co.uk/07/14/no-world-cup-screening-this-saturday/",
-      "published": "2026-07-14T12:00:22Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1426,60 +1480,6 @@
       "title": "Our 2026/27 Squad Is Confirmed",
       "url": "https://dwfc.co.uk/2026/07/slc/",
       "published": "2026-07-14T10:59:32Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Highlights: Redbridge (A)",
-      "url": "https://hornchurchfc.com/highlights-redbridge-a-2/",
-      "published": "2026-07-14T10:56:47Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Radcliffe FC Soccer School | Summer 2026",
-      "url": "https://radcliffefc.com/radcliffe-fc-soccer-school-summer-2026/",
-      "published": "2026-07-14T10:31:42Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Preview: Seaton Carew v Moors",
-      "url": "https://spennymoortownfc.co.uk/2026/07/14/preview-seaton-carew-v-moors/",
-      "published": "2026-07-14T10:03:55Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "UNITED WELCOME INTAKE OF SCHOLARS AHEAD OF 2026/27",
-      "url": "https://www.carlisleunited.co.uk/news/united-welcome-intake-scholars-ahead-202627",
-      "published": "2026-07-14T09:15:00Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Get the fixtures on your phone",
-      "url": "https://maidstoneunited.co.uk/07/14/get-the-fixtures-on-your-phone/",
-      "published": "2026-07-14T09:00:01Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Angels v Sutton + World Cup Semi",
-      "url": "https://tonbridgeangels.co.uk/angels-v-sutton-united/",
-      "published": "2026-07-14T08:15:50Z"
     }
   ]
 }
