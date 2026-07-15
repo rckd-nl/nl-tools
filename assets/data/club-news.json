@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-15T00:08:26Z",
+  "generatedAt": "2026-07-15T03:34:39Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -438,10 +438,10 @@
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "https://dwfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Dover Athletic",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Match Report | Pickering Town 4-2 York City",
+      "url": "https://yorkcityfootballclub.co.uk/match-report-pickering-town-4-2-york-city/",
+      "published": "2026-07-15T00:27:39Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -717,15 +726,6 @@
       "published": "2026-07-14T19:04:52Z"
     },
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "NEXT MATCH | Home v Fleetwood Town Saturday 3pm",
-      "url": "https://southportfc.net/next-match-home-v-fleetwood-town-saturday-3pm/",
-      "published": "2026-07-14T18:12:24Z"
-    },
-    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -823,15 +823,6 @@
       "title": "Commercial & Media Vacancies",
       "url": "https://southendunited.co.uk/news/2026/july/14/commercial---media-vacancies/",
       "published": "2026-07-14T14:45:10Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Big Screen Viewing | England v Argentina",
-      "url": "https://southportfc.net/big-screen-viewing-england-v-argentina/",
-      "published": "2026-07-14T14:44:01Z"
     },
     {
       "club": "Macclesfield",
@@ -976,15 +967,6 @@
       "title": "AWAY DAY BLUES: LEEK TOWN",
       "url": "https://macclesfieldfc.com/latest-news/away-day-blues-leek-town/",
       "published": "2026-07-14T11:00:17Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Our 2026/27 Squad Is Confirmed",
-      "url": "https://dwfc.co.uk/2026/07/slc/",
-      "published": "2026-07-14T10:59:32Z"
     },
     {
       "club": "Hornchurch",
@@ -1392,15 +1374,6 @@
       "published": "2026-07-13T11:08:40Z"
     },
     {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Buy today! New online shop launched",
-      "url": "https://harriers.co.uk/news/2026/07/13/buy-today-new-online-shop-launched/",
-      "published": "2026-07-13T11:06:04Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1417,15 +1390,6 @@
       "title": "Ticket Information: Hitchin Town (A)",
       "url": "https://daggers.co.uk/ticket-information-hitchin-town-a/",
       "published": "2026-07-13T10:34:17Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "26-27 Home shirt launched!",
-      "url": "https://harriers.co.uk/news/2026/07/13/26-27-home-shirt-launched/",
-      "published": "2026-07-13T10:25:40Z"
     },
     {
       "club": "Chester",
@@ -1480,6 +1444,42 @@
       "title": "England’s Semi Final Fanzone",
       "url": "https://chelmsfordcityfc.com/news/englands-semi-final-fanzone/",
       "published": "2026-07-13T09:21:14Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "“It Was A Decent Work Out”",
+      "url": "https://tonbridgeangels.co.uk/it-was-a-decent-work-out/",
+      "published": "2026-07-13T09:20:39Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Training Day | VX3 Stadium, Homers Heath | Flight Plan",
+      "url": "https://torquayunited.com/training-day-vx3-stadium-homers-heath-flight-plan/",
+      "published": "2026-07-13T09:16:40Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Pre-Season Match Report: Newmarket",
+      "url": "https://daggers.co.uk/pre-season-match-report-newmarket/",
+      "published": "2026-07-13T09:14:51Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "AHEAD OF THE GAME: Portsmouth (H)",
+      "url": "https://wokingfc.co.uk/07/13/ahead-of-the-game-2/",
+      "published": "2026-07-13T09:09:13Z"
     }
   ]
 }
