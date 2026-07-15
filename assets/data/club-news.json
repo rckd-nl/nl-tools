@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-15T15:51:31Z",
+  "generatedAt": "2026-07-15T17:42:36Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3786,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -581,6 +581,51 @@
     }
   ],
   "items": [
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Vacancy: Videographer (Voluntary)",
+      "url": "https://worthingfc.com/2026/07/vacancy-videographer-voluntary/",
+      "published": "2026-07-15T17:30:21Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SILKMEN FAN CAM: LEEK TOWN (A)",
+      "url": "https://macclesfieldfc.com/latest-news/silkmen-fan-cam-leek-town-a-2/",
+      "published": "2026-07-15T16:00:48Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SILKMEN FAN CAM: LEEK TOWN (A)",
+      "url": "https://macclesfieldfc.com/galleries/silkmen-fan-cam-leek-town-a/",
+      "published": "2026-07-15T16:00:01Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Exmouth Town vs Truro City – Match Gallery",
+      "url": "https://trurocity.co.uk/2026/07/exmouth-town-vs-truro-city-match-gallery/",
+      "published": "2026-07-15T15:59:49Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "John Askey Post Exmouth Town (a)",
+      "url": "https://trurocity.co.uk/2026/07/john-askey-post-exmouth-town-a/",
+      "published": "2026-07-15T15:56:49Z"
+    },
     {
       "club": "Woking",
       "code": "WOK",
@@ -1248,15 +1293,6 @@
       "published": "2026-07-14T17:43:46Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Pre-season | Ticketing Update",
-      "url": "https://www.fgr.co.uk/news/pre-seaosn-ticketing-update-26/",
-      "published": "2026-07-14T17:00:00Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1347,15 +1383,6 @@
       "published": "2026-07-14T14:44:01Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "KEITH CURLE: FIRST INTERVIEW",
-      "url": "https://macclesfieldfc.com/latest-news/first-interview-with-keith-curle/",
-      "published": "2026-07-14T14:30:21Z"
-    },
-    {
       "club": "Boreham Wood",
       "code": "BHW",
       "short": "Boreham Wood",
@@ -1419,15 +1446,6 @@
       "published": "2026-07-14T13:28:11Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MATCH PREVIEW: LEEK TOWN VS MACCLESFIELD FC",
-      "url": "https://macclesfieldfc.com/latest-news/match-preview-leek-town-vs-macclesfield-fc/",
-      "published": "2026-07-14T13:00:20Z"
-    },
-    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -1462,24 +1480,6 @@
       "title": "Official Security Provider – Alpha Protect",
       "url": "https://trurocity.co.uk/2026/07/official-security-provider-alpha-protect/",
       "published": "2026-07-14T11:41:05Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham vs Wimbledon U18s TONIGHT",
-      "url": "https://www.horshamfc.co.uk/2026/07/14/horsham-vs-wimbledon-u18s-tonight/",
-      "published": "2026-07-14T11:29:25Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Our 2026/27 Squad Is Confirmed",
-      "url": "https://dwfc.co.uk/2026/07/slc/",
-      "published": "2026-07-14T10:59:32Z"
     }
   ]
 }
