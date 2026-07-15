@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-15T17:42:36Z",
+  "generatedAt": "2026-07-15T18:54:49Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3786,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -297,7 +297,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='leamingtonfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='leamingtonfc.co.uk', port=443) at 0x7f3c709d5690>, 'Connection to leamingtonfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Macclesfield",
@@ -1293,6 +1293,15 @@
       "published": "2026-07-14T17:43:46Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Pre-season | Ticketing Update",
+      "url": "https://www.fgr.co.uk/news/pre-seaosn-ticketing-update-26/",
+      "published": "2026-07-14T17:00:00Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1471,15 +1480,6 @@
       "title": "Preview: Chippenham Town vs Swindon Town",
       "url": "https://chippenhamtown.com/07/14/preview-chippenham-town-vs-swindon-town/",
       "published": "2026-07-14T12:00:38Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Official Security Provider – Alpha Protect",
-      "url": "https://trurocity.co.uk/2026/07/official-security-provider-alpha-protect/",
-      "published": "2026-07-14T11:41:05Z"
     }
   ]
 }
