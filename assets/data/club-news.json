@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-15T18:54:49Z",
+  "generatedAt": "2026-07-15T20:05:10Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3786,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -297,7 +297,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='leamingtonfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='leamingtonfc.co.uk', port=443) at 0x7f3c709d5690>, 'Connection to leamingtonfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='leamingtonfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='leamingtonfc.co.uk', port=443) at 0x7fb0011b0f90>, 'Connection to leamingtonfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Macclesfield",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Gallery – Dayle Grubb Testimonial Match",
+      "url": "https://wsmafc.co.uk/gallery-dayle-grubb-testimonial-match/",
+      "published": "2026-07-15T20:01:13Z"
+    },
     {
       "club": "Worthing",
       "code": "WOR",
@@ -1050,15 +1059,6 @@
       "published": "2026-07-15T08:00:22Z"
     },
     {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Watch England’s Semi-Final in the Cherrywood Bar",
-      "url": "https://farnboroughfc.co.uk/2026/07/watch-englands-semi-final-in-the-cherrywood-bar/",
-      "published": "2026-07-15T08:00:13Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1248,15 +1248,6 @@
       "published": "2026-07-14T20:31:25Z"
     },
     {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Gallery – Dayle Grubb Testimonial Match",
-      "url": "https://wsmafc.co.uk/gallery-dayle-grubb-testimonial-match/",
-      "published": "2026-07-14T20:04:13Z"
-    },
-    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -1291,15 +1282,6 @@
       "title": "Pools sign experienced defender Liam Gibson",
       "url": "https://www.hartlepoolunited.co.uk/pools-sign-experienced-defender-liam-gibson/",
       "published": "2026-07-14T17:43:46Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Pre-season | Ticketing Update",
-      "url": "https://www.fgr.co.uk/news/pre-seaosn-ticketing-update-26/",
-      "published": "2026-07-14T17:00:00Z"
     },
     {
       "club": "Maidstone United",
@@ -1480,6 +1462,24 @@
       "title": "Preview: Chippenham Town vs Swindon Town",
       "url": "https://chippenhamtown.com/07/14/preview-chippenham-town-vs-swindon-town/",
       "published": "2026-07-14T12:00:38Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Official Security Provider – Alpha Protect",
+      "url": "https://trurocity.co.uk/2026/07/official-security-provider-alpha-protect/",
+      "published": "2026-07-14T11:41:05Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham vs Wimbledon U18s TONIGHT",
+      "url": "https://www.horshamfc.co.uk/2026/07/14/horsham-vs-wimbledon-u18s-tonight/",
+      "published": "2026-07-14T11:29:25Z"
     }
   ]
 }
