@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-15T22:25:24Z",
+  "generatedAt": "2026-07-15T23:24:29Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3786,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -297,7 +297,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='leamingtonfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='leamingtonfc.co.uk', port=443) at 0x7fe6b08c56d0>, 'Connection to leamingtonfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='leamingtonfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='leamingtonfc.co.uk', port=443) at 0x7f18c69b0e50>, 'Connection to leamingtonfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Macclesfield",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Isle of Man Preview | Brad Roscoe",
+      "url": "https://radcliffefc.com/isle-of-man-preview-brad-roscoe/",
+      "published": "2026-07-15T23:03:53Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -924,6 +933,15 @@
       "published": "2026-07-15T10:00:04Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "26/27 Season Ticket Cards Available for Collection",
+      "url": "https://daggers.co.uk/26-27-season-ticket-cards-available-for-collection/",
+      "published": "2026-07-15T09:55:30Z"
+    },
+    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -949,6 +967,15 @@
       "title": "Match Report: Merthyr Town 2-2 Yeovil Town",
       "url": "https://ytfc.net/2026/07/match-report-merthyr-town-2-2-yeovil-town/",
       "published": "2026-07-15T09:44:36Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Pre-Season Tickets Now Live!",
+      "url": "https://daggers.co.uk/pre-season-tickets-now-live/",
+      "published": "2026-07-15T09:30:00Z"
     },
     {
       "club": "Torquay United",
@@ -1012,6 +1039,15 @@
       "title": "Ticket Information: Hartlepool United (H)",
       "url": "https://spennymoortownfc.co.uk/2026/07/15/ticket-information-hartlepool-united-h/",
       "published": "2026-07-15T08:34:35Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Pre-Season Match Report: Hitchin",
+      "url": "https://daggers.co.uk/pre-season-match-report-hitchin/",
+      "published": "2026-07-15T08:27:18Z"
     },
     {
       "club": "Dover Athletic",
@@ -1284,15 +1320,6 @@
       "published": "2026-07-14T17:43:46Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Pre-season | Ticketing Update",
-      "url": "https://www.fgr.co.uk/news/pre-seaosn-ticketing-update-26/",
-      "published": "2026-07-14T17:00:00Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1453,33 +1480,6 @@
       "title": "Vacancy: Football Performance Placement",
       "url": "https://spennymoortownfc.co.uk/2026/07/14/vacancy-football-performance-placement/",
       "published": "2026-07-14T12:20:36Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Match Ticket Prices 2026/27",
-      "url": "https://trurocity.co.uk/2026/07/match-ticket-prices-2026-27/",
-      "published": "2026-07-14T12:14:25Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Preview: Chippenham Town vs Swindon Town",
-      "url": "https://chippenhamtown.com/07/14/preview-chippenham-town-vs-swindon-town/",
-      "published": "2026-07-14T12:00:38Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Official Security Provider – Alpha Protect",
-      "url": "https://trurocity.co.uk/2026/07/official-security-provider-alpha-protect/",
-      "published": "2026-07-14T11:41:05Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-15T22:25:24Z",
+  "generatedAt": "2026-07-15T23:24:29Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -41,6 +41,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 202"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "domain": "fgr.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Morecambe",
@@ -144,7 +152,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='leamingtonfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='leamingtonfc.co.uk', port=443) at 0x7fe6b08c56d0>, 'Connection to leamingtonfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='leamingtonfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='leamingtonfc.co.uk', port=443) at 0x7f18c69b0e50>, 'Connection to leamingtonfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Merthyr Town",
@@ -203,14 +211,6 @@
       "error": "Feed returned 0 usable items"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
-    },
-    {
       "club": "Eastbourne Borough",
       "domain": "eastbourneborough.com",
       "feed": "",
@@ -248,7 +248,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Salisbury",
