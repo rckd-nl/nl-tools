@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-16T03:39:18Z",
+  "generatedAt": "2026-07-16T06:08:07Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -430,18 +430,18 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "https://dwfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Dover Athletic",
@@ -726,15 +726,6 @@
       "published": "2026-07-15T13:52:59Z"
     },
     {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Be in the team photo!",
-      "url": "https://harriers.co.uk/news/2026/07/15/be-in-the-team-photo/",
-      "published": "2026-07-15T13:43:02Z"
-    },
-    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -933,15 +924,6 @@
       "published": "2026-07-15T10:00:04Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "26/27 Season Ticket Cards Available for Collection",
-      "url": "https://daggers.co.uk/26-27-season-ticket-cards-available-for-collection/",
-      "published": "2026-07-15T09:55:30Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -967,15 +949,6 @@
       "title": "Match Report: Merthyr Town 2-2 Yeovil Town",
       "url": "https://ytfc.net/2026/07/match-report-merthyr-town-2-2-yeovil-town/",
       "published": "2026-07-15T09:44:36Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Pre-Season Tickets Now Live!",
-      "url": "https://daggers.co.uk/pre-season-tickets-now-live/",
-      "published": "2026-07-15T09:30:00Z"
     },
     {
       "club": "Torquay United",
@@ -1041,15 +1014,6 @@
       "published": "2026-07-15T08:34:35Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Pre-Season Match Report: Hitchin",
-      "url": "https://daggers.co.uk/pre-season-match-report-hitchin/",
-      "published": "2026-07-15T08:27:18Z"
-    },
-    {
       "club": "Dover Athletic",
       "code": "DOV",
       "short": "Dover",
@@ -1057,15 +1021,6 @@
       "title": "New Additions to the Backroom Team",
       "url": "https://doverathletic.com/news/new-additions-to-the-backroom-team/",
       "published": "2026-07-15T08:26:35Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Recap: Droitwich 0-2 Harriers",
-      "url": "https://harriers.co.uk/news/2026/07/15/recap-droitwich-0-2-harriers/",
-      "published": "2026-07-15T08:26:26Z"
     },
     {
       "club": "Spennymoor Town",
@@ -1302,15 +1257,6 @@
       "published": "2026-07-14T19:04:52Z"
     },
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "NEXT MATCH | Home v Fleetwood Town Saturday 3pm",
-      "url": "https://southportfc.net/next-match-home-v-fleetwood-town-saturday-3pm/",
-      "published": "2026-07-14T18:12:24Z"
-    },
-    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -1401,15 +1347,6 @@
       "published": "2026-07-14T14:45:10Z"
     },
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Big Screen Viewing | England v Argentina",
-      "url": "https://southportfc.net/big-screen-viewing-england-v-argentina/",
-      "published": "2026-07-14T14:44:01Z"
-    },
-    {
       "club": "Boreham Wood",
       "code": "BHW",
       "short": "Boreham Wood",
@@ -1480,6 +1417,69 @@
       "title": "Vacancy: Football Performance Placement",
       "url": "https://spennymoortownfc.co.uk/2026/07/14/vacancy-football-performance-placement/",
       "published": "2026-07-14T12:20:36Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Match Ticket Prices 2026/27",
+      "url": "https://trurocity.co.uk/2026/07/match-ticket-prices-2026-27/",
+      "published": "2026-07-14T12:14:25Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Preview: Chippenham Town vs Swindon Town",
+      "url": "https://chippenhamtown.com/07/14/preview-chippenham-town-vs-swindon-town/",
+      "published": "2026-07-14T12:00:38Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Official Security Provider – Alpha Protect",
+      "url": "https://trurocity.co.uk/2026/07/official-security-provider-alpha-protect/",
+      "published": "2026-07-14T11:41:05Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham vs Wimbledon U18s TONIGHT",
+      "url": "https://www.horshamfc.co.uk/2026/07/14/horsham-vs-wimbledon-u18s-tonight/",
+      "published": "2026-07-14T11:29:25Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Highlights: Redbridge (A)",
+      "url": "https://hornchurchfc.com/highlights-redbridge-a-2/",
+      "published": "2026-07-14T10:56:47Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Radcliffe FC Soccer School | Summer 2026",
+      "url": "https://radcliffefc.com/radcliffe-fc-soccer-school-summer-2026/",
+      "published": "2026-07-14T10:31:42Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Preview: Seaton Carew v Moors",
+      "url": "https://spennymoortownfc.co.uk/2026/07/14/preview-seaton-carew-v-moors/",
+      "published": "2026-07-14T10:03:55Z"
     }
   ]
 }
