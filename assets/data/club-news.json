@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-16T17:42:35Z",
+  "generatedAt": "2026-07-16T18:51:03Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,42 @@
     }
   ],
   "items": [
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "INTERVIEW | James on Extending Hereford Stay",
+      "url": "https://herefordfc.co.uk/2026/07/interview-james-on-extending-hereford-stay/",
+      "published": "2026-07-16T18:26:19Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Challenging Start For Town",
+      "url": "https://etfc.london/challenging-start-for-town/",
+      "published": "2026-07-16T18:24:28Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Welcome Back: Michael Fernandes",
+      "url": "https://farnboroughfc.co.uk/2026/07/welcome-back-michael-fernandes/",
+      "published": "2026-07-16T18:00:15Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Bob Chester returns to the club as part of our match day team",
+      "url": "https://www.bathcityfc.com/bob-chester-returns-to-our-match-day-team/",
+      "published": "2026-07-16T17:56:22Z"
+    },
     {
       "club": "Boreham Wood",
       "code": "BHW",
@@ -1095,6 +1131,15 @@
       "published": "2026-07-15T12:00:00Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Wimbledon U18s",
+      "url": "https://www.horshamfc.co.uk/2026/07/15/match-report-wimbledon-u18s/",
+      "published": "2026-07-15T11:59:31Z"
+    },
+    {
       "club": "Bath City",
       "code": "BAT",
       "short": "Bath",
@@ -1435,51 +1480,6 @@
       "title": "MATCH REPORT: Woking 1-2 Portsmouth",
       "url": "https://wokingfc.co.uk/07/14/match-report-woking-1-2-portsmouth/",
       "published": "2026-07-14T21:26:41Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Ollie Chamberlain departs",
-      "url": "https://wsmafc.co.uk/ollie-chamberlain-departs/",
-      "published": "2026-07-14T21:11:52Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Forever Dale Results – 15th July 2026",
-      "url": "https://nycdaweeklydraw.co.uk/foreverdale/winners.php?date=20260715",
-      "published": "2026-07-14T20:54:00Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Tickets On Sale For Spain Friendly",
-      "url": "https://rochdaleafc.co.uk/tickets-on-sale-for-spain-friendly/",
-      "published": "2026-07-14T20:53:23Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Dale Open Up Pre-Season At FC United",
-      "url": "https://rochdaleafc.co.uk/dale-open-up-pre-season-at-fc-united/",
-      "published": "2026-07-14T20:52:57Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Report: Poole Town 2-0 Eastleigh",
-      "url": "https://eastleighfc.com/2026/07/report-poole-town-2-0-eastleigh/",
-      "published": "2026-07-14T20:37:56Z"
     }
   ]
 }
