@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-17T17:33:48Z",
+  "generatedAt": "2026-07-17T18:43:23Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://harriers.co.uk/feed/",
+      "ok": true,
+      "count": 20,
+      "error": ""
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -438,10 +438,10 @@
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://dwfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Dover Athletic",
@@ -582,6 +582,51 @@
   ],
   "items": [
     {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Welcome to the Urchins, Asher Yearwood!",
+      "url": "https://hornchurchfc.com/welcome-to-the-urchins-asher-yearwood/",
+      "published": "2026-07-17T18:30:25Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "First Interview: Asher Yearwood",
+      "url": "https://hornchurchfc.com/first-interview-asher-yearwood/",
+      "published": "2026-07-17T18:29:48Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Gallery: Asher Yearwood signs ✍️",
+      "url": "https://hornchurchfc.com/gallery-asher-yearwood-signs-%e2%9c%8d%ef%b8%8f/",
+      "published": "2026-07-17T18:29:38Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Jack Hunt joins the Minstermen",
+      "url": "https://yorkcityfootballclub.co.uk/jack-hunt-joins-the-minstermen/",
+      "published": "2026-07-17T18:14:18Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Pre-Season Friendly Preview: Frome Town (A)",
+      "url": "https://worthingfc.com/2026/07/pre-season-friendly-preview-frome-town-a/",
+      "published": "2026-07-17T17:57:43Z"
+    },
+    {
       "club": "Dagenham & Redbridge",
       "code": "DAG",
       "short": "Dag & Red",
@@ -672,6 +717,15 @@
       "published": "2026-07-17T15:35:41Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Striker Amantchi joins Reds",
+      "url": "https://harriers.co.uk/news/2026/07/17/striker-amantchi-joins-reds/",
+      "published": "2026-07-17T15:33:15Z"
+    },
+    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -681,6 +735,15 @@
       "published": "2026-07-17T15:31:50Z"
     },
     {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Levi Amantchi joins Kidderminster Harriers on season-long loan",
+      "url": "https://gateshead-fc.com/levi-amantchi-joins-kidderminster-harriers-on-season-long-loan/",
+      "published": "2026-07-17T15:30:05Z"
+    },
+    {
       "club": "Forest Green Rovers",
       "code": "FGR",
       "short": "Forest Green",
@@ -688,6 +751,15 @@
       "title": "Ross signs for Rovers",
       "url": "https://www.fgr.co.uk/news/ross-signs-for-rovers/",
       "published": "2026-07-17T15:15:00Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Wotton lands Moore",
+      "url": "https://harriers.co.uk/news/2026/07/17/wotton-lands-moore/",
+      "published": "2026-07-17T15:11:45Z"
     },
     {
       "club": "Chippenham Town",
@@ -706,6 +778,24 @@
       "title": "Daggers Partner with Identisurge!",
       "url": "https://daggers.co.uk/daggers-partner-with-identisurge/",
       "published": "2026-07-17T15:00:00Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Striker Daniel Ogwuru Is A Sandgrounder",
+      "url": "https://southportfc.net/striker-daniel-ogwuru-is-a-sandgrounder/",
+      "published": "2026-07-17T14:51:08Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Max Davies Joins On Loan",
+      "url": "https://southportfc.net/max-davies-joins-on-loan/",
+      "published": "2026-07-17T14:47:15Z"
     },
     {
       "club": "Eastleigh",
@@ -823,6 +913,15 @@
       "title": "INTERVIEW | Downes Talks Cleeve Clash and Youth Team",
       "url": "https://herefordfc.co.uk/2026/07/interview-downes-talks-cleeve-clash-and-youth-team/",
       "published": "2026-07-17T13:00:32Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Spennymoor Town friendly designated as Rob Ramshaw’s testimonial match",
+      "url": "https://gateshead-fc.com/spennymoor-town-friendly-designated-as-rob-ramshaws-testimonial-match/",
+      "published": "2026-07-17T13:00:09Z"
     },
     {
       "club": "Chester",
@@ -1230,6 +1329,15 @@
       "published": "2026-07-16T15:29:54Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Boss pleased with summer progress",
+      "url": "https://harriers.co.uk/news/2026/07/16/boss-pleased-with-summer-progress/",
+      "published": "2026-07-16T15:21:31Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1372,114 +1480,6 @@
       "title": "Gallery: Millwall U21s (H)",
       "url": "https://hornchurchfc.com/gallery-millwall-u21s-h/",
       "published": "2026-07-16T09:46:40Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Isle of Man Preview | Brad Roscoe",
-      "url": "https://radcliffefc.com/isle-of-man-preview-brad-roscoe/",
-      "published": "2026-07-16T09:00:53Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "CTFC unveil new away shirt!",
-      "url": "https://chippenhamtown.com/07/16/ctfc-unveil-new-away-shirt/",
-      "published": "2026-07-16T09:00:08Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Get the fixtures on your phone",
-      "url": "https://maidstoneunited.co.uk/07/16/get-the-fixtures-on-your-phone/",
-      "published": "2026-07-16T09:00:01Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Match Preview: Huddersfield Town (H)",
-      "url": "https://afcfylde.co.uk/news/2026/july/16/match-preview--huddersfield-town--h-/",
-      "published": "2026-07-16T08:03:00Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Isle of Man Preview | Steve Halford",
-      "url": "https://radcliffefc.com/isle-of-man-preview-steve-halford/",
-      "published": "2026-07-16T08:00:17Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Mascot Packages 26/27",
-      "url": "https://www.fgr.co.uk/news/mascot-packages-26-27/",
-      "published": "2026-07-16T08:00:00Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Reaction | Cooper & Sery Reflect On Canvey Island Victory",
-      "url": "https://chelmsfordcityfc.com/news/reaction-cooper-sery-reflect-on-canvey-island-victory/",
-      "published": "2026-07-16T07:58:24Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Cannon Clarke Renew Stadium Sponsorship for 2026/27 Season",
-      "url": "https://www.bathcityfc.com/cannon-clarke-renew-stadium-sponsorship-for-2026-27-season/",
-      "published": "2026-07-16T07:37:08Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Pre-season continues",
-      "url": "https://tonbridgeangels.co.uk/pre-season-continues/",
-      "published": "2026-07-16T07:30:12Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Gallery – Dayle Grubb Testimonial Match",
-      "url": "https://wsmafc.co.uk/gallery-dayle-grubb-testimonial-match/",
-      "published": "2026-07-15T20:01:13Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Vacancy: Videographer (Voluntary)",
-      "url": "https://worthingfc.com/2026/07/vacancy-videographer-voluntary/",
-      "published": "2026-07-15T17:30:21Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Exmouth Town vs Truro City – Match Gallery",
-      "url": "https://trurocity.co.uk/2026/07/exmouth-town-vs-truro-city-match-gallery/",
-      "published": "2026-07-15T15:59:49Z"
     }
   ]
 }
