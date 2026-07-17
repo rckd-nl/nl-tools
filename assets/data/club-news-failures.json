@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-17T22:09:33Z",
+  "generatedAt": "2026-07-17T23:10:36Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -9,6 +9,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 403"
+    },
+    {
+      "club": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "club": "Boston United",
@@ -232,7 +240,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 503"
     },
     {
       "club": "Hemel Hempstead Town",

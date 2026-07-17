@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-17T22:09:33Z",
+  "generatedAt": "2026-07-17T23:10:36Z",
   "maxItems": 100,
   "sources": [
     {
@@ -14,10 +14,10 @@
     {
       "club": "Altrincham",
       "domain": "altrinchamfc.com",
-      "feed": "https://altrinchamfc.com/blogs/news.atom",
-      "ok": true,
-      "count": 30,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "club": "Boreham Wood",
@@ -489,7 +489,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 503"
     },
     {
       "club": "Hemel Hempstead Town",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "REACTION | Downes Dissects Bishops Cleeve Defeat",
+      "url": "https://herefordfc.co.uk/2026/07/reaction-downes-dissects-bishops-cleeve-defeat/",
+      "published": "2026-07-17T22:49:49Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -1032,33 +1041,6 @@
       "published": "2026-07-17T11:58:22Z"
     },
     {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "We open 2026/27 with Southend United on Moss Lane",
-      "url": "https://altrinchamfc.com/blogs/news/our-2026-27-fixtures-are-here",
-      "published": "2026-07-17T11:42:21Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Introducing Alty Away 2026/27",
-      "url": "https://altrinchamfc.com/blogs/news/introducing-altrincham-fc-away-2026-27",
-      "published": "2026-07-17T11:41:46Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Alty FC Foundation's Three Peaks Challenge",
-      "url": "https://altrinchamfc.com/blogs/news/alty-fc-foundations-three-peaks-challenge",
-      "published": "2026-07-17T11:41:04Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1140,15 +1122,6 @@
       "published": "2026-07-17T10:52:39Z"
     },
     {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Ticket details for Chorley on Tuesday",
-      "url": "https://altrinchamfc.com/blogs/news/ticket-details-for-chorley-on-tuesday",
-      "published": "2026-07-17T10:47:13Z"
-    },
-    {
       "club": "York City",
       "code": "YOR",
       "short": "York",
@@ -1156,15 +1129,6 @@
       "title": "Match Preview | Sunderland AFC (H) | Saturday 18th July",
       "url": "https://yorkcityfootballclub.co.uk/match-preview-sunderland-afc-h-saturday-18th-july/",
       "published": "2026-07-17T10:45:39Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Volunteer media officers on board for 2026/27",
-      "url": "https://altrinchamfc.com/blogs/news/volunteer-media-officers-on-board-for-2026-27",
-      "published": "2026-07-17T10:00:15Z"
     },
     {
       "club": "Rochdale",
@@ -1356,15 +1320,6 @@
       "published": "2026-07-16T16:11:31Z"
     },
     {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Vauxhall Motors friendly cancelled",
-      "url": "https://altrinchamfc.com/blogs/news/vauxhall-motors-friendly-cancelled",
-      "published": "2026-07-16T15:29:54Z"
-    },
-    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -1480,6 +1435,51 @@
       "title": "ACTION REPLAY: LEEK TOWN (A)",
       "url": "https://macclesfieldfc.com/latest-news/action-replay-leek-town-a-2/",
       "published": "2026-07-16T11:00:16Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "CTFC to play MK Dons on Saturday 18th July",
+      "url": "https://chippenhamtown.com/07/16/ctfc-to-play-mk-dons-xi-on-saturday-18th-july/",
+      "published": "2026-07-16T11:00:09Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Tom Lawrence Resigns As Director",
+      "url": "https://southendunited.co.uk/news/2026/july/16/tom-lawrence-resigns-as-director/",
+      "published": "2026-07-16T11:00:00Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Gallery: Millwall U21s (H)",
+      "url": "https://hornchurchfc.com/gallery-millwall-u21s-h/",
+      "published": "2026-07-16T09:46:40Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Isle of Man Preview | Brad Roscoe",
+      "url": "https://radcliffefc.com/isle-of-man-preview-brad-roscoe/",
+      "published": "2026-07-16T09:00:53Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "CTFC unveil new away shirt!",
+      "url": "https://chippenhamtown.com/07/16/ctfc-unveil-new-away-shirt/",
+      "published": "2026-07-16T09:00:08Z"
     }
   ]
 }
