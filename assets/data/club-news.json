@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-17T16:05:13Z",
+  "generatedAt": "2026-07-17T17:33:48Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -438,10 +438,10 @@
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "https://dwfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Dover Athletic",
@@ -582,6 +582,60 @@
   ],
   "items": [
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Samuel Adenola is a Dagger",
+      "url": "https://daggers.co.uk/samuel-adenola-is-a-dagger/",
+      "published": "2026-07-17T17:00:00Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City vs Exeter City – Match Information",
+      "url": "https://trurocity.co.uk/2026/07/truro-city-vs-exeter-city-match-information/",
+      "published": "2026-07-17T16:50:37Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "West Ham United Friendly To Be Streamed",
+      "url": "https://southendunited.co.uk/news/2026/july/17/west-ham-united-friendly-to-be-streamed/",
+      "published": "2026-07-17T16:30:38Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Ticket Details | Crawley & Bristol Rovers | Carabao Cup and Sky Bet League Two",
+      "url": "https://yorkcityfootballclub.co.uk/ticket-details-crawley-bristol-rovers-carabao-cup-and-sky-bet-league-two/",
+      "published": "2026-07-17T16:22:58Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Matchday Information: Southampton (H)",
+      "url": "https://eastleighfc.com/2026/07/matchday-information-southampton-h-2/",
+      "published": "2026-07-17T16:08:11Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Interview: Oliver Gage Provides Summer Update",
+      "url": "https://southendunited.co.uk/news/2026/july/17/interview--oliver-gage-provides-summer-update/",
+      "published": "2026-07-17T16:00:53Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -618,15 +672,6 @@
       "published": "2026-07-17T15:35:41Z"
     },
     {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Striker Amantchi joins Reds",
-      "url": "https://harriers.co.uk/news/2026/07/17/striker-amantchi-joins-reds/",
-      "published": "2026-07-17T15:33:15Z"
-    },
-    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -636,15 +681,6 @@
       "published": "2026-07-17T15:31:50Z"
     },
     {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Levi Amantchi joins Kidderminster Harriers on season-long loan",
-      "url": "https://gateshead-fc.com/levi-amantchi-joins-kidderminster-harriers-on-season-long-loan/",
-      "published": "2026-07-17T15:30:05Z"
-    },
-    {
       "club": "Forest Green Rovers",
       "code": "FGR",
       "short": "Forest Green",
@@ -652,15 +688,6 @@
       "title": "Ross signs for Rovers",
       "url": "https://www.fgr.co.uk/news/ross-signs-for-rovers/",
       "published": "2026-07-17T15:15:00Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Wotton lands Moore",
-      "url": "https://harriers.co.uk/news/2026/07/17/wotton-lands-moore/",
-      "published": "2026-07-17T15:11:45Z"
     },
     {
       "club": "Chippenham Town",
@@ -679,24 +706,6 @@
       "title": "Daggers Partner with Identisurge!",
       "url": "https://daggers.co.uk/daggers-partner-with-identisurge/",
       "published": "2026-07-17T15:00:00Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Striker Daniel Ogwuru Is A Sandgrounder",
-      "url": "https://southportfc.net/striker-daniel-ogwuru-is-a-sandgrounder/",
-      "published": "2026-07-17T14:51:08Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Max Davies Joins On Loan",
-      "url": "https://southportfc.net/max-davies-joins-on-loan/",
-      "published": "2026-07-17T14:47:15Z"
     },
     {
       "club": "Eastleigh",
@@ -814,15 +823,6 @@
       "title": "INTERVIEW | Downes Talks Cleeve Clash and Youth Team",
       "url": "https://herefordfc.co.uk/2026/07/interview-downes-talks-cleeve-clash-and-youth-team/",
       "published": "2026-07-17T13:00:32Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Spennymoor Town friendly designated as Rob Ramshaw’s testimonial match",
-      "url": "https://gateshead-fc.com/spennymoor-town-friendly-designated-as-rob-ramshaws-testimonial-match/",
-      "published": "2026-07-17T13:00:09Z"
     },
     {
       "club": "Chester",
@@ -967,6 +967,15 @@
       "title": "2026 FIFA WORLD CUP LIVE IN BAR TWENTY SEVEN",
       "url": "https://macclesfieldfc.com/latest-news/2026-fifa-world-cup-live-in-bar-twenty-seven/",
       "published": "2026-07-17T11:00:35Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Bluebirds Dream Draw Week 47",
+      "url": "https://chippenhamtown.com/07/17/bluebirds-dream-draw-week-47/",
+      "published": "2026-07-17T11:00:13Z"
     },
     {
       "club": "Dagenham & Redbridge",
@@ -1219,15 +1228,6 @@
       "title": "Vauxhall Motors friendly cancelled",
       "url": "https://altrinchamfc.com/blogs/news/vauxhall-motors-friendly-cancelled",
       "published": "2026-07-16T15:29:54Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Boss pleased with summer progress",
-      "url": "https://harriers.co.uk/news/2026/07/16/boss-pleased-with-summer-progress/",
-      "published": "2026-07-16T15:21:31Z"
     },
     {
       "club": "Macclesfield",
