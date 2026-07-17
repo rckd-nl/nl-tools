@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-17T18:43:23Z",
+  "generatedAt": "2026-07-17T19:50:28Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Chesham United",
+      "code": "CHU",
+      "short": "Chesham",
+      "domain": "cheshamunited.co.uk",
+      "title": "Notes from the Chair – 17th July 2026",
+      "url": "https://cheshamunited.co.uk/2026/07/notes-from-the-chair-17th-july-2026/",
+      "published": "2026-07-17T19:11:09Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Player News – Donovan Wilson back with the Romans on permanent deal",
+      "url": "https://www.bathcityfc.com/player-news-donovan-wilson-back-with-the-romans-on-permanent-deal/",
+      "published": "2026-07-17T19:00:50Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Goalkeeper Solomon Honor In On Loan",
+      "url": "https://southportfc.net/goalkeeper-solomon-honor-in-on-loan/",
+      "published": "2026-07-17T18:43:21Z"
+    },
     {
       "club": "Hornchurch",
       "code": "HOR",
@@ -1194,6 +1221,15 @@
       "published": "2026-07-17T08:54:45Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Supporters’ Coach – Torquay United",
+      "url": "https://www.horshamfc.co.uk/2026/07/17/supporters-coach-torquay-united/",
+      "published": "2026-07-17T08:36:30Z"
+    },
+    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -1444,42 +1480,6 @@
       "title": "ACTION REPLAY: LEEK TOWN (A)",
       "url": "https://macclesfieldfc.com/latest-news/action-replay-leek-town-a-2/",
       "published": "2026-07-16T11:00:16Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "CTFC to play MK Dons on Saturday 18th July",
-      "url": "https://chippenhamtown.com/07/16/ctfc-to-play-mk-dons-xi-on-saturday-18th-july/",
-      "published": "2026-07-16T11:00:09Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Tom Lawrence Resigns As Director",
-      "url": "https://southendunited.co.uk/news/2026/july/16/tom-lawrence-resigns-as-director/",
-      "published": "2026-07-16T11:00:00Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Andy Duff leaves CEO role",
-      "url": "https://altrinchamfc.com/blogs/news/andy-duff-leaves-ceo-role",
-      "published": "2026-07-16T10:58:17Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Gallery: Millwall U21s (H)",
-      "url": "https://hornchurchfc.com/gallery-millwall-u21s-h/",
-      "published": "2026-07-16T09:46:40Z"
     }
   ]
 }
