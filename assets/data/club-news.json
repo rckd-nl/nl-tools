@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-18T19:33:31Z",
+  "generatedAt": "2026-07-18T20:31:18Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Gallery: WsM AFC 1 – 2 Torquay United",
+      "url": "https://wsmafc.co.uk/gallery-wsm-afc-1-2-torquay-united/",
+      "published": "2026-07-18T20:08:53Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Interviews | Sol Honor & Neil Danns After Fleetwood",
+      "url": "https://southportfc.net/interviews-sol-honor-neil-danns-after-fleetwood/",
+      "published": "2026-07-18T20:01:41Z"
+    },
     {
       "club": "Maidstone United",
       "code": "MSU",
@@ -1462,24 +1480,6 @@
       "title": "2026 FIFA WORLD CUP LIVE IN BAR TWENTY SEVEN",
       "url": "https://macclesfieldfc.com/latest-news/2026-fifa-world-cup-live-in-bar-twenty-seven/",
       "published": "2026-07-17T11:00:35Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Bluebirds Dream Draw Week 47",
-      "url": "https://chippenhamtown.com/07/17/bluebirds-dream-draw-week-47/",
-      "published": "2026-07-17T11:00:13Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Dagenham & Redbridge FC Announce Wolf Competitions as New Principal Partner",
-      "url": "https://daggers.co.uk/dagenham-redbridge-fc-announce-wolf-competitions-as-new-principal-partner/",
-      "published": "2026-07-17T11:00:00Z"
     }
   ]
 }
