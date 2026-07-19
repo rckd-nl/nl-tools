@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-19T19:35:12Z",
+  "generatedAt": "2026-07-19T20:31:22Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Wotton on new recruits",
+      "url": "https://harriers.co.uk/news/2026/07/19/wotton-on-new-recruits/",
+      "published": "2026-07-19T20:28:10Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Halesowen goals and reaction",
+      "url": "https://harriers.co.uk/news/2026/07/19/halesowen-goals-and-reaction/",
+      "published": "2026-07-19T19:54:06Z"
+    },
+    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -627,15 +645,6 @@
       "published": "2026-07-19T17:02:32Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham FC Podcast",
-      "url": "https://www.horshamfc.co.uk/2026/07/19/horsham-fc-podcast/",
-      "published": "2026-07-19T17:00:59Z"
-    },
-    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -661,15 +670,6 @@
       "title": "SILKMEN FAN CAM: WOLVES (H)",
       "url": "https://macclesfieldfc.com/latest-news/silkmen-fan-cam-wolves-h-2/",
       "published": "2026-07-19T16:30:29Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match report – Eastbourne Town",
-      "url": "https://www.horshamfc.co.uk/2026/07/19/match-report-eastbourne-town/",
-      "published": "2026-07-19T16:05:00Z"
     },
     {
       "club": "Torquay United",
