@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-19T04:50:21Z",
+  "generatedAt": "2026-07-19T07:18:00Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -120,7 +120,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f284eba0a50>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 202"
     },
     {
       "club": "Darlington",
@@ -240,7 +240,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f284e97f790>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -248,7 +248,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Salisbury",
