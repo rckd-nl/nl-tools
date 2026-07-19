@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-19T20:31:22Z",
+  "generatedAt": "2026-07-19T21:37:49Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3792,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Preview: Taunton Town v Weston",
+      "url": "https://wsmafc.co.uk/preview-taunton-town/",
+      "published": "2026-07-19T20:48:55Z"
+    },
     {
       "club": "Kidderminster Harriers",
       "code": "KID",
@@ -645,6 +654,15 @@
       "published": "2026-07-19T17:02:32Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham FC Podcast",
+      "url": "https://www.horshamfc.co.uk/2026/07/19/horsham-fc-podcast/",
+      "published": "2026-07-19T17:00:59Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -670,6 +688,15 @@
       "title": "SILKMEN FAN CAM: WOLVES (H)",
       "url": "https://macclesfieldfc.com/latest-news/silkmen-fan-cam-wolves-h-2/",
       "published": "2026-07-19T16:30:29Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match report – Eastbourne Town",
+      "url": "https://www.horshamfc.co.uk/2026/07/19/match-report-eastbourne-town/",
+      "published": "2026-07-19T16:05:00Z"
     },
     {
       "club": "Torquay United",
@@ -805,15 +832,6 @@
       "title": "Highlights: Weston-super-Mare (A) | Pre-Season 2026-27",
       "url": "https://torquayunited.com/highlights-weston-super-mare-a-pre-season-2026-27/",
       "published": "2026-07-19T08:46:31Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | Merthyr Town 1-2 FGR",
-      "url": "https://www.fgr.co.uk/news/match-report-merthyr-town-1-2-fgr/",
-      "published": "2026-07-19T08:30:00Z"
     },
     {
       "club": "Rochdale",
@@ -1462,24 +1480,6 @@
       "title": "Striker Amantchi joins Reds",
       "url": "https://harriers.co.uk/news/2026/07/17/striker-amantchi-joins-reds/",
       "published": "2026-07-17T15:33:15Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Mariners United Sporting Club (CIC) and HIMA Enterprise Hub join Monkey Business",
-      "url": "https://www.hartlepoolunited.co.uk/mariners-united-sporting-club-cic-and-hima-enterprise-hub/",
-      "published": "2026-07-17T15:31:50Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Levi Amantchi joins Kidderminster Harriers on season-long loan",
-      "url": "https://gateshead-fc.com/levi-amantchi-joins-kidderminster-harriers-on-season-long-loan/",
-      "published": "2026-07-17T15:30:05Z"
     }
   ]
 }
