@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-19T17:19:17Z",
+  "generatedAt": "2026-07-19T18:14:29Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3792,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Gallery: Norwich City U21s",
+      "url": "https://hornchurchfc.com/gallery-norwich-city-u21s/",
+      "published": "2026-07-19T18:13:35Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Hazlewood: “Today it felt a lot more calmer on the ball.” | Southampton Women’s Reaction",
+      "url": "https://worthingfc.com/2026/07/hazlewood-today-it-felt-a-lot-more-calmer-on-the-ball-southampton-womens-reaction/",
+      "published": "2026-07-19T18:06:23Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Highlights: Norwich City U21s (H)",
+      "url": "https://hornchurchfc.com/highlights-norwich-city-u21s-h/",
+      "published": "2026-07-19T17:49:55Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -778,6 +805,15 @@
       "title": "Highlights: Weston-super-Mare (A) | Pre-Season 2026-27",
       "url": "https://torquayunited.com/highlights-weston-super-mare-a-pre-season-2026-27/",
       "published": "2026-07-19T08:46:31Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report | Merthyr Town 1-2 FGR",
+      "url": "https://www.fgr.co.uk/news/match-report-merthyr-town-1-2-fgr/",
+      "published": "2026-07-19T08:30:00Z"
     },
     {
       "club": "Rochdale",
@@ -1444,42 +1480,6 @@
       "title": "Levi Amantchi joins Kidderminster Harriers on season-long loan",
       "url": "https://gateshead-fc.com/levi-amantchi-joins-kidderminster-harriers-on-season-long-loan/",
       "published": "2026-07-17T15:30:05Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Wotton lands Moore",
-      "url": "https://harriers.co.uk/news/2026/07/17/wotton-lands-moore/",
-      "published": "2026-07-17T15:11:45Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Preview: Chippenham vs Melksham – Ian Monnery Trophy",
-      "url": "https://chippenhamtown.com/07/17/preview-chippenham-vs-melksham-ian-monnery-trophy/",
-      "published": "2026-07-17T15:00:41Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Daggers Partner with Identisurge!",
-      "url": "https://daggers.co.uk/daggers-partner-with-identisurge/",
-      "published": "2026-07-17T15:00:00Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Striker Daniel Ogwuru Is A Sandgrounder",
-      "url": "https://southportfc.net/striker-daniel-ogwuru-is-a-sandgrounder/",
-      "published": "2026-07-17T14:51:08Z"
     }
   ]
 }
