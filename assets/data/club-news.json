@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-20T21:54:19Z",
+  "generatedAt": "2026-07-20T23:18:22Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,15 +581,6 @@
     }
   ],
   "items": [
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Melksham Town the Ian Monnery Trophy 18th July 2026",
-      "url": "https://chippenhamtown.com/07/20/melksham-town-the-ian-monnery-trophy-18th-july-2026/",
-      "published": "2026-07-20T21:20:45Z"
-    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -852,6 +843,15 @@
       "published": "2026-07-20T14:24:33Z"
     },
     {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Melksham Town the Ian Monnery Trophy 18th July 2026",
+      "url": "https://chippenhamtown.com/07/20/melksham-town-the-ian-monnery-trophy-18th-july-2026/",
+      "published": "2026-07-20T14:00:45Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -976,6 +976,15 @@
       "title": "Supporter Update",
       "url": "https://torquayunited.com/supporter-update/",
       "published": "2026-07-20T10:18:21Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Fusion Aviation Continue as Headline Partner",
+      "url": "https://www.horshamfc.co.uk/2026/07/20/fusion-aviation-continue-as-headline-partner/",
+      "published": "2026-07-20T10:04:01Z"
     },
     {
       "club": "Macclesfield",
@@ -1185,6 +1194,15 @@
       "published": "2026-07-19T17:02:32Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham FC Podcast",
+      "url": "https://www.horshamfc.co.uk/2026/07/19/horsham-fc-podcast/",
+      "published": "2026-07-19T17:00:59Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1210,6 +1228,15 @@
       "title": "SILKMEN FAN CAM: WOLVES (H)",
       "url": "https://macclesfieldfc.com/latest-news/silkmen-fan-cam-wolves-h-2/",
       "published": "2026-07-19T16:30:29Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match report – Eastbourne Town",
+      "url": "https://www.horshamfc.co.uk/2026/07/19/match-report-eastbourne-town/",
+      "published": "2026-07-19T16:05:00Z"
     },
     {
       "club": "Torquay United",
@@ -1453,33 +1480,6 @@
       "title": "2026-27 Squad Update",
       "url": "https://southportfc.net/2026-27-squad-update/",
       "published": "2026-07-18T18:51:01Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "🎤 𝗣𝗼𝘀𝘁-𝗠𝗮𝘁𝗰𝗵 | Lee Collier following our 3-1 win against Melksham & 1-1 draw with MK Dons.",
-      "url": "https://chippenhamtown.com/07/18/%f0%9f%8e%a4-%f0%9d%97%a3%f0%9d%97%bc%f0%9d%98%80%f0%9d%98%81-%f0%9d%97%a0%f0%9d%97%ae%f0%9d%98%81%f0%9d%97%b0%f0%9d%97%b5-lee-collier-following-our-3-1-win-against-melksham-1-1-draw-with-mk-dons/",
-      "published": "2026-07-18T18:47:50Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Roman Charles-Cook Signs for 26/27",
-      "url": "https://doverathletic.com/news/roman-charles-cook-signs-for-26-27/",
-      "published": "2026-07-18T18:43:13Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "PSF v Fleetwood Town",
-      "url": "https://southportfc.net/psf-v-fleetwood-town/",
-      "published": "2026-07-18T18:40:30Z"
     }
   ]
 }
