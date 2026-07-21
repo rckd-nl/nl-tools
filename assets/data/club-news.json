@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-21T11:39:22Z",
+  "generatedAt": "2026-07-21T13:07:37Z",
   "maxItems": 100,
   "sources": [
     {
@@ -310,10 +310,10 @@
     {
       "club": "Marine",
       "domain": "marinefc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='marinefc.com', port=443): Read timed out. (read timeout=25)"
+      "feed": "https://marinefc.com/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Merthyr Town",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,69 @@
     }
   ],
   "items": [
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "MATCH PREVIEW: WARRINGTON TOWN VS MACCLESFIELD FC",
+      "url": "https://macclesfieldfc.com/latest-news/match-preview-warrington-town-vs-macclesfield-fc/",
+      "published": "2026-07-21T13:00:31Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Wanted 26-27: Ball retrievers",
+      "url": "https://harriers.co.uk/news/2026/07/21/wanted-26-27-ball-retrievers/",
+      "published": "2026-07-21T12:58:42Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Woodside Corporate Six-A-Side Tournament 2026",
+      "url": "https://worthingfc.com/2026/07/woodside-corporate-six-a-side-tournament-2026/",
+      "published": "2026-07-21T12:55:40Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Wanted: Matchday Volunteers to Host Our Group Visitors",
+      "url": "https://www.bathcityfc.com/wanted-matchday-volunteers-to-host-our-group-visitors/",
+      "published": "2026-07-21T12:48:43Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Speed Quizzing has become our new back of shirt sponsor for both Away and Third kits for the 2026/27 season.",
+      "url": "https://yorkcityfootballclub.co.uk/speed-quizzing-has-become-our-new-back-of-shirt-sponsor-for-both-away-and-third-kits-for-the-2026-27-season/",
+      "published": "2026-07-21T12:00:11Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Match Preview: Worthing FC vs Queens Park Rangers U21s",
+      "url": "https://worthingfc.com/2026/07/match-preview-worthing-fc-vs-queens-park-rangers-u21s/",
+      "published": "2026-07-21T11:56:07Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "AWAY DAY BLUES: WARRINGTON TOWN",
+      "url": "https://macclesfieldfc.com/latest-news/away-day-blues-warrington-town/",
+      "published": "2026-07-21T11:30:43Z"
+    },
     {
       "club": "Torquay United",
       "code": "TOR",
@@ -825,15 +888,6 @@
       "published": "2026-07-20T16:40:59Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Identisurge FAQs Answered",
-      "url": "https://daggers.co.uk/identisurge-faqs-answered/",
-      "published": "2026-07-20T16:34:22Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1050,15 +1104,6 @@
       "published": "2026-07-20T12:00:30Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Dagenham & Redbridge FC Unveil 2026/27 Away Kit in Collaboration with Acid FC",
-      "url": "https://daggers.co.uk/dagenham-redbridge-fc-unveil-2026-27-away-kit-in-collaboration-with-acid-fc/",
-      "published": "2026-07-20T12:00:00Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1239,15 +1284,6 @@
       "published": "2026-07-20T07:52:00Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Pre-Season Tickets Now Live!",
-      "url": "https://daggers.co.uk/pre-season-tickets-now-live/",
-      "published": "2026-07-20T07:30:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1264,6 +1300,15 @@
       "title": "Preview: Taunton Town v Weston",
       "url": "https://wsmafc.co.uk/preview-taunton-town/",
       "published": "2026-07-19T20:48:55Z"
+    },
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "Golden Letter Draw Results",
+      "url": "https://marinefc.com/golden-letter-draw-results/",
+      "published": "2026-07-19T20:48:00Z"
     },
     {
       "club": "Kidderminster Harriers",
@@ -1374,15 +1419,6 @@
       "published": "2026-07-19T16:30:38Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SILKMEN FAN CAM: WOLVES (H)",
-      "url": "https://macclesfieldfc.com/latest-news/silkmen-fan-cam-wolves-h-2/",
-      "published": "2026-07-19T16:30:29Z"
-    },
-    {
       "club": "Horsham",
       "code": "HRS",
       "short": "Horsham",
@@ -1428,15 +1464,6 @@
       "published": "2026-07-19T14:00:38Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MATCH REPORT: MACCLESFIELD FC 2-1 WOLVES XI",
-      "url": "https://macclesfieldfc.com/latest-news/match-report-macclesfield-fc-2-1-wolves-xi/",
-      "published": "2026-07-19T14:00:34Z"
-    },
-    {
       "club": "Forest Green Rovers",
       "code": "FGR",
       "short": "Forest Green",
@@ -1453,33 +1480,6 @@
       "title": "Dale Draw With Al-Rayyan in Spain",
       "url": "https://rochdaleafc.co.uk/stalemate-with-al-rayyan-in-spain/",
       "published": "2026-07-19T11:53:12Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Highlights: Moors 1 Hartlepool United 2",
-      "url": "https://spennymoortownfc.co.uk/2026/07/19/highlights-moors-1-hartlepool-united-2/",
-      "published": "2026-07-19T11:06:20Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "“𝗜𝘁’𝘀 𝗮𝗹𝘄𝗮𝘆𝘀 𝗻𝗶𝗰𝗲 𝘁𝗼 𝗴𝗲𝘁 𝗮 𝗴𝗼𝗮𝗹 𝗰𝗼𝗻𝘁𝗿𝗶𝗯𝘂𝘁𝗶𝗼𝗻” | Jacob Jagger Cane – post Torquay United (H)",
-      "url": "https://wsmafc.co.uk/%f0%9d%97%9c%f0%9d%98%81%f0%9d%98%80-%f0%9d%97%ae%f0%9d%97%b9%f0%9d%98%84%f0%9d%97%ae%f0%9d%98%86%f0%9d%98%80-%f0%9d%97%bb%f0%9d%97%b6%f0%9d%97%b0%f0%9d%97%b2-%f0%9d%98%81%f0%9d%97%bc-%f0%9d%97%b4/",
-      "published": "2026-07-19T10:37:18Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Post Hartlepool United (H): Tommy Miller",
-      "url": "https://spennymoortownfc.co.uk/2026/07/19/post-hartlepool-united-h-tommy-miller/",
-      "published": "2026-07-19T10:07:40Z"
     }
   ]
 }

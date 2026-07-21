@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-21T11:39:22Z",
+  "generatedAt": "2026-07-21T13:07:37Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -147,14 +147,6 @@
       "error": "HTTP 404"
     },
     {
-      "club": "Marine",
-      "domain": "marinefc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='marinefc.com', port=443): Read timed out. (read timeout=25)"
-    },
-    {
       "club": "Merthyr Town",
       "domain": "merthyrtownfc.co.uk",
       "feed": "https://www.merthyrtownfc.co.uk/news/feed",
@@ -211,6 +203,14 @@
       "error": "Feed returned 0 usable items"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "domain": "daggers.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
+    },
+    {
       "club": "Eastbourne Borough",
       "domain": "eastbourneborough.com",
       "feed": "",
@@ -248,7 +248,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Salisbury",
