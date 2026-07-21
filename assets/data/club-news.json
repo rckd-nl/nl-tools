@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-21T22:39:38Z",
+  "generatedAt": "2026-07-21T23:43:46Z",
   "maxItems": 100,
   "sources": [
     {
@@ -80,16 +80,16 @@
       "domain": "fgr.co.uk",
       "feed": "https://www.fgr.co.uk/news-rss.xml",
       "ok": true,
-      "count": 3798,
+      "count": 3799,
       "error": ""
     },
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://harriers.co.uk/feed/",
+      "ok": true,
+      "count": 20,
+      "error": ""
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -438,10 +438,10 @@
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://dwfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Dover Athletic",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "REACTION | Downes on Friendly Win Over Worcester",
+      "url": "https://herefordfc.co.uk/2026/07/reaction-downes-on-friendly-win-over-worcester/",
+      "published": "2026-07-21T22:46:29Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -607,6 +616,24 @@
       "title": "Jimmy Ball | Plymouth Argyle (H) | Pre-Season 2026-27",
       "url": "https://torquayunited.com/jimmy-ball-plymouth-argyle-h-pre-season-2026-27/",
       "published": "2026-07-21T22:03:54Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report | FGR 2-2 Bristol Rovers",
+      "url": "https://www.fgr.co.uk/news/match-report-fgr-2-2-bristol-rovers-26/",
+      "published": "2026-07-21T22:00:00Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Match Report | Wanderers vs Chatham Town",
+      "url": "https://dwfc.co.uk/2026/07/match-report-dorking-vs-chatham/",
+      "published": "2026-07-21T21:52:09Z"
     },
     {
       "club": "Forest Green Rovers",
@@ -645,6 +672,15 @@
       "published": "2026-07-21T20:41:36Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Player accommodation needed",
+      "url": "https://harriers.co.uk/news/2026/07/21/player-accommodation-needed/",
+      "published": "2026-07-21T18:52:54Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -681,6 +717,15 @@
       "published": "2026-07-21T17:03:47Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Alvechurch tickets on sale",
+      "url": "https://harriers.co.uk/news/2026/07/21/alvechurch-tickets-on-sale/",
+      "published": "2026-07-21T16:27:34Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -688,6 +733,15 @@
       "title": "Injury Update: July 2026",
       "url": "https://worthingfc.com/2026/07/injury-update-july-2026/",
       "published": "2026-07-21T15:26:05Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Willis pens deal",
+      "url": "https://harriers.co.uk/news/2026/07/21/willis-pens-deal/",
+      "published": "2026-07-21T15:11:28Z"
     },
     {
       "club": "Macclesfield",
@@ -751,6 +805,15 @@
       "title": "MATCH PREVIEW: WARRINGTON TOWN VS MACCLESFIELD FC",
       "url": "https://macclesfieldfc.com/latest-news/match-preview-warrington-town-vs-macclesfield-fc/",
       "published": "2026-07-21T13:00:31Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Wanted 26-27: Ball retrievers",
+      "url": "https://harriers.co.uk/news/2026/07/21/wanted-26-27-ball-retrievers/",
+      "published": "2026-07-21T12:58:42Z"
     },
     {
       "club": "Worthing",
@@ -967,6 +1030,15 @@
       "title": "Josh Donaldson joins Hebburn Town on Loan",
       "url": "https://www.hartlepoolunited.co.uk/josh-donaldson-joins-hebburn-town-on-loan/",
       "published": "2026-07-20T17:56:31Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Derek Ryder Rest In Peace",
+      "url": "https://southportfc.net/derek-ryder-rest-in-peace/",
+      "published": "2026-07-20T17:47:35Z"
     },
     {
       "club": "Worthing",
@@ -1320,6 +1392,15 @@
       "published": "2026-07-20T10:18:21Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Fusion Aviation Continue as Headline Partner",
+      "url": "https://www.horshamfc.co.uk/2026/07/20/fusion-aviation-continue-as-headline-partner/",
+      "published": "2026-07-20T10:04:01Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1399,87 +1480,6 @@
       "title": "Ticket Details: Chorley (A)",
       "url": "https://chesterfc.com/07/20/chorley-a/",
       "published": "2026-07-20T08:59:02Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Access All Areas: Eastleigh v Southampton",
-      "url": "https://eastleighfc.com/2026/07/access-all-areas-eastleigh-v-southampton-2/",
-      "published": "2026-07-20T08:57:41Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Walking Football Update",
-      "url": "https://tonbridgeangels.co.uk/walking-football-update-18/",
-      "published": "2026-07-20T08:22:21Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Ticket Information: Bishop Auckland (A)",
-      "url": "https://spennymoortownfc.co.uk/2026/07/20/ticket-information-bishop-auckland-a/",
-      "published": "2026-07-20T07:52:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Pre-Season Tickets Now Live!",
-      "url": "https://daggers.co.uk/pre-season-tickets-now-live/",
-      "published": "2026-07-20T07:30:00Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "16 players retained by Women’s side",
-      "url": "https://wsmafc.co.uk/women-retained-2627/",
-      "published": "2026-07-19T21:50:07Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Preview: Taunton Town v Weston",
-      "url": "https://wsmafc.co.uk/preview-taunton-town/",
-      "published": "2026-07-19T20:48:55Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "Golden Letter Draw Results",
-      "url": "https://marinefc.com/golden-letter-draw-results/",
-      "published": "2026-07-19T20:48:00Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Gallery: Millwall Lionesses",
-      "url": "https://maidstoneunited.co.uk/07/19/gallery-millwall-lionesses/",
-      "published": "2026-07-19T19:20:12Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Gallery: Norwich City U21s",
-      "url": "https://hornchurchfc.com/gallery-norwich-city-u21s/",
-      "published": "2026-07-19T18:13:35Z"
     }
   ]
 }
