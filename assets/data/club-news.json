@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-21T17:05:45Z",
+  "generatedAt": "2026-07-21T18:43:30Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://harriers.co.uk/feed/",
+      "ok": true,
+      "count": 20,
+      "error": ""
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -430,18 +430,18 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://dwfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Dover Athletic",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Gallery: 21/07 Training",
+      "url": "https://southendunited.co.uk/news/2026/july/21/gallery--21-07-training-/",
+      "published": "2026-07-21T18:16:31Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: U23s vs. Greenways",
+      "url": "https://maidstoneunited.co.uk/07/21/key-info-u23s-vs-greenways/",
+      "published": "2026-07-21T18:15:10Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Mascot packages for 2026/27 sold out",
+      "url": "https://maidstoneunited.co.uk/07/21/mascot-packages-for-2026-27-go-live-tomorrow/",
+      "published": "2026-07-21T18:00:11Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -589,6 +616,15 @@
       "title": "Reds Add Aguiar to Midfield Options",
       "url": "https://worthingfc.com/2026/07/reds-add-aguiar-to-midfield-options/",
       "published": "2026-07-21T17:03:47Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Alvechurch tickets on sale",
+      "url": "https://harriers.co.uk/news/2026/07/21/alvechurch-tickets-on-sale/",
+      "published": "2026-07-21T16:27:34Z"
     },
     {
       "club": "Worthing",
@@ -600,13 +636,13 @@
       "published": "2026-07-21T15:26:05Z"
     },
     {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: U23s vs. Greenways",
-      "url": "https://maidstoneunited.co.uk/07/21/key-info-u23s-vs-greenways/",
-      "published": "2026-07-21T15:05:10Z"
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Willis pens deal",
+      "url": "https://harriers.co.uk/news/2026/07/21/willis-pens-deal/",
+      "published": "2026-07-21T15:11:28Z"
     },
     {
       "club": "Macclesfield",
@@ -672,6 +708,15 @@
       "published": "2026-07-21T13:00:31Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Wanted 26-27: Ball retrievers",
+      "url": "https://harriers.co.uk/news/2026/07/21/wanted-26-27-ball-retrievers/",
+      "published": "2026-07-21T12:58:42Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -679,15 +724,6 @@
       "title": "Woodside Corporate Six-A-Side Tournament 2026",
       "url": "https://worthingfc.com/2026/07/woodside-corporate-six-a-side-tournament-2026/",
       "published": "2026-07-21T12:55:40Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Squad Numbers Revealed for 26/27",
-      "url": "https://daggers.co.uk/squad-numbers-revealed-for-26-27/",
-      "published": "2026-07-21T12:52:50Z"
     },
     {
       "club": "Bath City",
@@ -852,15 +888,6 @@
       "published": "2026-07-21T08:00:25Z"
     },
     {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Mascot packages for 2026/27 go live this evening",
-      "url": "https://maidstoneunited.co.uk/07/21/mascot-packages-for-2026-27-go-live-tomorrow/",
-      "published": "2026-07-21T07:00:11Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -895,6 +922,15 @@
       "title": "Josh Donaldson joins Hebburn Town on Loan",
       "url": "https://www.hartlepoolunited.co.uk/josh-donaldson-joins-hebburn-town-on-loan/",
       "published": "2026-07-20T17:56:31Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Derek Ryder Rest In Peace",
+      "url": "https://southportfc.net/derek-ryder-rest-in-peace/",
+      "published": "2026-07-20T17:47:35Z"
     },
     {
       "club": "Worthing",
@@ -958,15 +994,6 @@
       "title": "PREVIEW | Hereford FC vs Worcester City",
       "url": "https://herefordfc.co.uk/2026/07/preview-hereford-fc-vs-worcester-city/",
       "published": "2026-07-20T16:40:59Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Identisurge FAQs Answered",
-      "url": "https://daggers.co.uk/identisurge-faqs-answered/",
-      "published": "2026-07-20T16:34:22Z"
     },
     {
       "club": "Chester",
@@ -1176,15 +1203,6 @@
       "published": "2026-07-20T12:00:30Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Dagenham & Redbridge FC Unveil 2026/27 Away Kit in Collaboration with Acid FC",
-      "url": "https://daggers.co.uk/dagenham-redbridge-fc-unveil-2026-27-away-kit-in-collaboration-with-acid-fc/",
-      "published": "2026-07-20T12:00:00Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1365,15 +1383,6 @@
       "published": "2026-07-20T07:52:00Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Pre-Season Tickets Now Live!",
-      "url": "https://daggers.co.uk/pre-season-tickets-now-live/",
-      "published": "2026-07-20T07:30:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1399,6 +1408,24 @@
       "title": "Golden Letter Draw Results",
       "url": "https://marinefc.com/golden-letter-draw-results/",
       "published": "2026-07-19T20:48:00Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Wotton on new recruits",
+      "url": "https://harriers.co.uk/news/2026/07/19/wotton-on-new-recruits/",
+      "published": "2026-07-19T20:28:10Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Halesowen goals and reaction",
+      "url": "https://harriers.co.uk/news/2026/07/19/halesowen-goals-and-reaction/",
+      "published": "2026-07-19T19:54:06Z"
     },
     {
       "club": "Maidstone United",
@@ -1453,33 +1480,6 @@
       "title": "Report: Norwich City U21s",
       "url": "https://hornchurchfc.com/report-norwich-city-u21s/",
       "published": "2026-07-19T17:02:32Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham FC Podcast",
-      "url": "https://www.horshamfc.co.uk/2026/07/19/horsham-fc-podcast/",
-      "published": "2026-07-19T17:00:59Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Match Report | Bury 2-1 Radcliffe",
-      "url": "https://radcliffefc.com/match-report-bury-2-1-radcliffe/",
-      "published": "2026-07-19T17:00:32Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Angels Soccer Camps",
-      "url": "https://tonbridgeangels.co.uk/angels-soccer-camps/",
-      "published": "2026-07-19T17:00:00Z"
     }
   ]
 }
