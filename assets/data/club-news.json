@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-21T03:46:46Z",
+  "generatedAt": "2026-07-21T06:19:59Z",
   "maxItems": 100,
   "sources": [
     {
@@ -14,10 +14,10 @@
     {
       "club": "Altrincham",
       "domain": "altrinchamfc.com",
-      "feed": "https://altrinchamfc.com/blogs/news.atom",
-      "ok": true,
-      "count": 30,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Boreham Wood",
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -430,18 +430,18 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
       "domain": "dorkingwanderers.com",
-      "feed": "https://dwfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Dover Athletic",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City vs Exeter City – Match Highlights",
+      "url": "https://trurocity.co.uk/2026/07/truro-city-vs-exeter-city-match-highlights/",
+      "published": "2026-07-21T06:16:42Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -607,15 +616,6 @@
       "title": "Josh Donaldson joins Hebburn Town on Loan",
       "url": "https://www.hartlepoolunited.co.uk/josh-donaldson-joins-hebburn-town-on-loan/",
       "published": "2026-07-20T17:56:31Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Derek Ryder Rest In Peace",
-      "url": "https://southportfc.net/derek-ryder-rest-in-peace/",
-      "published": "2026-07-20T17:47:35Z"
     },
     {
       "club": "Worthing",
@@ -679,15 +679,6 @@
       "title": "PREVIEW | Hereford FC vs Worcester City",
       "url": "https://herefordfc.co.uk/2026/07/preview-hereford-fc-vs-worcester-city/",
       "published": "2026-07-20T16:40:59Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Identisurge FAQs Answered",
-      "url": "https://daggers.co.uk/identisurge-faqs-answered/",
-      "published": "2026-07-20T16:34:22Z"
     },
     {
       "club": "Chester",
@@ -915,15 +906,6 @@
       "published": "2026-07-20T12:00:30Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Dagenham & Redbridge FC Unveil 2026/27 Away Kit in Collaboration with Acid FC",
-      "url": "https://daggers.co.uk/dagenham-redbridge-fc-unveil-2026-27-away-kit-in-collaboration-with-acid-fc/",
-      "published": "2026-07-20T12:00:00Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1014,15 +996,6 @@
       "published": "2026-07-20T09:59:00Z"
     },
     {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "This is home 2026/27",
-      "url": "https://altrinchamfc.com/blogs/news/welcome-to-our-2026-27-home-kit",
-      "published": "2026-07-20T09:58:23Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1104,15 +1077,6 @@
       "published": "2026-07-20T07:52:00Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Pre-Season Tickets Now Live!",
-      "url": "https://daggers.co.uk/pre-season-tickets-now-live/",
-      "published": "2026-07-20T07:30:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1138,24 +1102,6 @@
       "title": "Golden Letter Draw Results",
       "url": "https://marinefc.com/golden-letter-draw-results/",
       "published": "2026-07-19T20:48:00Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Wotton on new recruits",
-      "url": "https://harriers.co.uk/news/2026/07/19/wotton-on-new-recruits/",
-      "published": "2026-07-19T20:28:10Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Halesowen goals and reaction",
-      "url": "https://harriers.co.uk/news/2026/07/19/halesowen-goals-and-reaction/",
-      "published": "2026-07-19T19:54:06Z"
     },
     {
       "club": "Maidstone United",
@@ -1480,6 +1426,60 @@
       "title": "Report: Chippenham 3-1 Melksham",
       "url": "https://chippenhamtown.com/07/18/report-chippenham-3-1-melksham/",
       "published": "2026-07-18T20:45:32Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Gallery: WsM AFC 1 – 2 Torquay United",
+      "url": "https://wsmafc.co.uk/gallery-wsm-afc-1-2-torquay-united/",
+      "published": "2026-07-18T20:08:53Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Gallery: Ramsgate",
+      "url": "https://maidstoneunited.co.uk/07/18/gallery-ramsgate/",
+      "published": "2026-07-18T19:10:57Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Match Report: Ramsgate",
+      "url": "https://maidstoneunited.co.uk/07/18/match-report-ramsgate/",
+      "published": "2026-07-18T19:03:09Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "🎤 𝗣𝗼𝘀𝘁-𝗠𝗮𝘁𝗰𝗵 | Lee Collier following our 3-1 win against Melksham & 1-1 draw with MK Dons.",
+      "url": "https://chippenhamtown.com/07/18/%f0%9f%8e%a4-%f0%9d%97%a3%f0%9d%97%bc%f0%9d%98%80%f0%9d%98%81-%f0%9d%97%a0%f0%9d%97%ae%f0%9d%98%81%f0%9d%97%b0%f0%9d%97%b5-lee-collier-following-our-3-1-win-against-melksham-1-1-draw-with-mk-dons/",
+      "published": "2026-07-18T18:47:50Z"
+    },
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Roman Charles-Cook Signs for 26/27",
+      "url": "https://doverathletic.com/news/roman-charles-cook-signs-for-26-27/",
+      "published": "2026-07-18T18:43:13Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Match Report: Yeovil Town 1-0 Cardiff City U21s",
+      "url": "https://ytfc.net/2026/07/match-report-yeovil-town-1-0-cardiff-city-u21s/",
+      "published": "2026-07-18T18:18:09Z"
     }
   ]
 }
