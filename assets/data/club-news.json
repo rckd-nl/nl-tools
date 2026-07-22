@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-22T18:50:26Z",
+  "generatedAt": "2026-07-22T20:25:58Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3801,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Match Details | Warrington Town Away On Saturday",
+      "url": "https://southportfc.net/match-details-warrington-town-away-on-saturday/",
+      "published": "2026-07-22T20:03:43Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "United Continue Women’s National League Preparations with Exeter City Test",
+      "url": "https://torquayunited.com/united-continue-womens-national-league-preparations-with-exeter-city-test/",
+      "published": "2026-07-22T18:55:48Z"
+    },
     {
       "club": "Chester",
       "code": "CHE",
@@ -726,15 +744,6 @@
       "published": "2026-07-22T15:00:16Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Kelly Joins FGR",
-      "url": "https://www.fgr.co.uk/news/kyle-kelly-joins-fgr/",
-      "published": "2026-07-22T15:00:00Z"
-    },
-    {
       "club": "Gateshead",
       "code": "GAT",
       "short": "Gateshead",
@@ -877,6 +886,15 @@
       "title": "Level in a Wiltshire Derby | Highlights vs Westbury",
       "url": "https://chippenhamtown.com/07/22/level-in-a-wiltshire-derby-highlights-vs-westbury/",
       "published": "2026-07-22T13:00:03Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Dulwich Hamlet",
+      "url": "https://www.horshamfc.co.uk/2026/07/22/match-report-dulwich-hamlet/",
+      "published": "2026-07-22T12:30:34Z"
     },
     {
       "club": "Southend United",
@@ -1104,15 +1122,6 @@
       "published": "2026-07-22T08:00:31Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "New Away Kit Day!",
-      "url": "https://www.fgr.co.uk/news/new-away-kit-2628/",
-      "published": "2026-07-22T08:00:00Z"
-    },
-    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -1221,15 +1230,6 @@
       "published": "2026-07-21T22:01:11Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | FGR 2-2 Bristol Rovers",
-      "url": "https://www.fgr.co.uk/news/match-report-fgr-2-2-bristol-rovers-26/",
-      "published": "2026-07-21T22:00:00Z"
-    },
-    {
       "club": "Dorking Wanderers",
       "code": "DOR",
       "short": "Dorking",
@@ -1239,15 +1239,6 @@
       "published": "2026-07-21T21:52:09Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Kyle Ajayi | Post Bristol Rovers (H)",
-      "url": "https://www.fgr.co.uk/news/kyle-ajayi-post-bristol-rovers-h/",
-      "published": "2026-07-21T21:30:00Z"
-    },
-    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1255,15 +1246,6 @@
       "title": "Alty draw at Chorley in latest pre-season outing",
       "url": "https://altrinchamfc.com/blogs/news/pre-season-friendly-chorley",
       "published": "2026-07-21T21:28:07Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage | Post Bristol Rovers (H)",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-post-bristol-rovers-h/",
-      "published": "2026-07-21T21:00:00Z"
     },
     {
       "club": "Torquay United",
@@ -1480,6 +1462,24 @@
       "title": "Preview: Stoke City (H)",
       "url": "https://chesterfc.com/07/21/preview-stoke-city-h/",
       "published": "2026-07-21T10:52:28Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Campbell pleased despite defeat in first pre-season test",
+      "url": "https://maidstoneunited.co.uk/07/21/campbell-pleased-despite-defeat-in-first-pre-season-test/",
+      "published": "2026-07-21T10:40:04Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Charleston Appointed Women’s Assistant",
+      "url": "https://trurocity.co.uk/2026/07/charleston-appointed-womens-assistant/",
+      "published": "2026-07-21T10:31:22Z"
     }
   ]
 }
