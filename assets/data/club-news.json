@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-22T17:44:17Z",
+  "generatedAt": "2026-07-22T18:50:26Z",
   "maxItems": 100,
   "sources": [
     {
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://harriers.co.uk/feed/",
+      "ok": true,
+      "count": 20,
+      "error": ""
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -636,15 +636,6 @@
       "published": "2026-07-22T17:00:14Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Daggers Sign Hamza Semakula on Non-Contract Terms",
-      "url": "https://daggers.co.uk/daggers-sign-hamza-semakula-on-non-contract-terms/",
-      "published": "2026-07-22T17:00:00Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -726,6 +717,15 @@
       "published": "2026-07-22T15:00:33Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Vauxhall Motors PSF Cancelled",
+      "url": "https://southportfc.net/vauxhall-motors-psf-cancelled/",
+      "published": "2026-07-22T15:00:16Z"
+    },
+    {
       "club": "Forest Green Rovers",
       "code": "FGR",
       "short": "Forest Green",
@@ -751,15 +751,6 @@
       "title": "Just the Goals: U23s vs Greenways",
       "url": "https://maidstoneunited.co.uk/07/22/just-the-goals-u23s-vs-greenways/",
       "published": "2026-07-22T14:43:32Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Fan-Favourite Yellow Third Kit Returns for 2026/27",
-      "url": "https://daggers.co.uk/fan-favourite-yellow-third-kit-returns-for-2026-27/",
-      "published": "2026-07-22T14:34:55Z"
     },
     {
       "club": "Spennymoor Town",
@@ -1068,15 +1059,6 @@
       "published": "2026-07-22T09:29:52Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Pre-Season Match Report: Crystal Palace U21s",
-      "url": "https://daggers.co.uk/pre-season-match-report-crystal-palace-u21s/",
-      "published": "2026-07-22T09:25:11Z"
-    },
-    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -1102,6 +1084,15 @@
       "title": "Ticket Information: FC Halifax Town (H)",
       "url": "https://spennymoortownfc.co.uk/2026/07/22/ticket-information-fc-halifax-town-h/",
       "published": "2026-07-22T08:31:54Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Charity Match Tickets Now On Sale",
+      "url": "https://southportfc.net/charity-match-tickets-now-on-sale/",
+      "published": "2026-07-22T08:20:56Z"
     },
     {
       "club": "Worthing",
@@ -1156,6 +1147,24 @@
       "title": "Report: Westbury 2-2 Town",
       "url": "https://chippenhamtown.com/07/22/report-westbury-2-2-town/",
       "published": "2026-07-22T06:30:19Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "FC United Of Manchester Friday 7.45pm",
+      "url": "https://southportfc.net/fc-united-of-manchester-friday-7-45pm/",
+      "published": "2026-07-22T06:23:10Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Prediction League 2026-27 | Free To Enter",
+      "url": "https://southportfc.net/prediction-league-2026-27-free-to-enter/",
+      "published": "2026-07-22T06:14:55Z"
     },
     {
       "club": "York City",
@@ -1266,6 +1275,15 @@
       "published": "2026-07-21T20:41:36Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Player accommodation needed",
+      "url": "https://harriers.co.uk/news/2026/07/21/player-accommodation-needed/",
+      "published": "2026-07-21T18:52:54Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1293,6 +1311,15 @@
       "published": "2026-07-21T17:03:47Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Alvechurch tickets on sale",
+      "url": "https://harriers.co.uk/news/2026/07/21/alvechurch-tickets-on-sale/",
+      "published": "2026-07-21T16:27:34Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1300,6 +1327,15 @@
       "title": "Injury Update: July 2026",
       "url": "https://worthingfc.com/2026/07/injury-update-july-2026/",
       "published": "2026-07-21T15:26:05Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Willis pens deal",
+      "url": "https://harriers.co.uk/news/2026/07/21/willis-pens-deal/",
+      "published": "2026-07-21T15:11:28Z"
     },
     {
       "club": "Macclesfield",
@@ -1356,6 +1392,15 @@
       "published": "2026-07-21T13:39:21Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Wanted 26-27: Ball retrievers",
+      "url": "https://harriers.co.uk/news/2026/07/21/wanted-26-27-ball-retrievers/",
+      "published": "2026-07-21T12:58:42Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1363,15 +1408,6 @@
       "title": "Woodside Corporate Six-A-Side Tournament 2026",
       "url": "https://worthingfc.com/2026/07/woodside-corporate-six-a-side-tournament-2026/",
       "published": "2026-07-21T12:55:40Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Squad Numbers Revealed for 26/27",
-      "url": "https://daggers.co.uk/squad-numbers-revealed-for-26-27/",
-      "published": "2026-07-21T12:52:50Z"
     },
     {
       "club": "Bath City",
@@ -1444,42 +1480,6 @@
       "title": "Preview: Stoke City (H)",
       "url": "https://chesterfc.com/07/21/preview-stoke-city-h/",
       "published": "2026-07-21T10:52:28Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Campbell pleased despite defeat in first pre-season test",
-      "url": "https://maidstoneunited.co.uk/07/21/campbell-pleased-despite-defeat-in-first-pre-season-test/",
-      "published": "2026-07-21T10:40:04Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Charleston Appointed Women’s Assistant",
-      "url": "https://trurocity.co.uk/2026/07/charleston-appointed-womens-assistant/",
-      "published": "2026-07-21T10:31:22Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Ticket details for Chorley visit tonight",
-      "url": "https://altrinchamfc.com/blogs/news/ticket-details-for-chorley-on-tuesday",
-      "published": "2026-07-21T10:20:11Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Alty FC Foundation complete fundraising trek",
-      "url": "https://altrinchamfc.com/blogs/news/alty-fc-foundation-complete-fundraising-trek",
-      "published": "2026-07-21T09:37:23Z"
     }
   ]
 }
