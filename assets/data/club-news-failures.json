@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-23T12:05:14Z",
+  "generatedAt": "2026-07-23T14:33:15Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -9,14 +9,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 403"
-    },
-    {
-      "club": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
     },
     {
       "club": "Boston United",
@@ -72,7 +64,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Sutton United",
@@ -168,7 +160,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Peterborough Sports",
@@ -209,14 +201,6 @@
       "ok": false,
       "count": 0,
       "error": "Feed returned 0 usable items"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
     },
     {
       "club": "Eastbourne Borough",
