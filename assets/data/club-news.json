@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-23T19:49:01Z",
+  "generatedAt": "2026-07-23T20:48:51Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -607,6 +607,15 @@
       "title": "MUFC Women: Inside Training",
       "url": "https://maidstoneunited.co.uk/07/23/mufc-women-inside-training-10/",
       "published": "2026-07-23T18:01:16Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham FC Women trial opportunities",
+      "url": "https://www.horshamfc.co.uk/2026/07/23/55782/",
+      "published": "2026-07-23T17:50:55Z"
     },
     {
       "club": "Chippenham Town",
@@ -771,15 +780,6 @@
       "published": "2026-07-23T12:39:28Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Goalkeeper Shirts Now Available to Buy",
-      "url": "https://daggers.co.uk/goalkeeper-shirts-now-available-to-buy/",
-      "published": "2026-07-23T12:29:02Z"
-    },
-    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -850,15 +850,6 @@
       "title": "FESTIVE FIXTURES – 2026/27",
       "url": "https://macclesfieldfc.com/latest-news/festive-fixtures-2026-27/",
       "published": "2026-07-23T11:00:37Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Club Shop Open this Afternoon",
-      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-49/",
-      "published": "2026-07-23T10:49:30Z"
     },
     {
       "club": "Hereford",
@@ -1095,15 +1086,6 @@
       "published": "2026-07-22T17:00:14Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Daggers Sign Hamza Semakula on Non-Contract Terms",
-      "url": "https://daggers.co.uk/daggers-sign-hamza-semakula-on-non-contract-terms/",
-      "published": "2026-07-22T17:00:00Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1201,15 +1183,6 @@
       "title": "Just the Goals: U23s vs Greenways",
       "url": "https://maidstoneunited.co.uk/07/22/just-the-goals-u23s-vs-greenways/",
       "published": "2026-07-22T14:43:32Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Fan-Favourite Yellow Third Kit Returns for 2026/27",
-      "url": "https://daggers.co.uk/fan-favourite-yellow-third-kit-returns-for-2026-27/",
-      "published": "2026-07-22T14:34:55Z"
     },
     {
       "club": "Spennymoor Town",
@@ -1318,6 +1291,15 @@
       "title": "Level in a Wiltshire Derby | Highlights vs Westbury",
       "url": "https://chippenhamtown.com/07/22/level-in-a-wiltshire-derby-highlights-vs-westbury/",
       "published": "2026-07-22T13:00:03Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Dulwich Hamlet",
+      "url": "https://www.horshamfc.co.uk/2026/07/22/match-report-dulwich-hamlet/",
+      "published": "2026-07-22T12:30:34Z"
     },
     {
       "club": "Southend United",
@@ -1473,13 +1455,31 @@
       "published": "2026-07-22T09:29:52Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Pre-Season Match Report: Crystal Palace U21s",
-      "url": "https://daggers.co.uk/pre-season-match-report-crystal-palace-u21s/",
-      "published": "2026-07-22T09:25:11Z"
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Matchday Information: Valenciennes (H)",
+      "url": "https://eastleighfc.com/2026/07/matchday-information-valenciennes-h/",
+      "published": "2026-07-22T09:16:29Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Barrow (H) Post-Match Reaction | Tom Donaghy",
+      "url": "https://radcliffefc.com/barrow-h-post-match-reaction-tom-donaghy/",
+      "published": "2026-07-22T09:00:29Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Highlights: Plymouth Argyle (H) | Pre-Season 2026-2027",
+      "url": "https://torquayunited.com/highlights-plymouth-argyle-h-pre-season-2026-2027/",
+      "published": "2026-07-22T08:36:13Z"
     }
   ]
 }
