@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-23T16:16:48Z",
+  "generatedAt": "2026-07-23T17:50:43Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3802,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Piotr Petrynski signs first team deal",
+      "url": "https://chippenhamtown.com/07/23/piotr-petrynski-signs-first-team-deal/",
+      "published": "2026-07-23T17:00:08Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "SIGNING | Williamson Earns Deal After Successful Trial",
+      "url": "https://herefordfc.co.uk/2026/07/signing-williamson-earns-deal-after-successful-trial/",
+      "published": "2026-07-23T17:00:07Z"
+    },
     {
       "club": "York City",
       "code": "YOR",
@@ -879,15 +897,6 @@
       "published": "2026-07-23T09:30:09Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Rovers sign Omari Patrick",
-      "url": "https://www.fgr.co.uk/news/rovers-sign-omari-patrick /",
-      "published": "2026-07-23T09:30:00Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1149,15 +1158,6 @@
       "published": "2026-07-22T15:00:16Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Kelly Joins FGR",
-      "url": "https://www.fgr.co.uk/news/kyle-kelly-joins-fgr/",
-      "published": "2026-07-22T15:00:00Z"
-    },
-    {
       "club": "Gateshead",
       "code": "GAT",
       "short": "Gateshead",
@@ -1291,6 +1291,15 @@
       "title": "Level in a Wiltshire Derby | Highlights vs Westbury",
       "url": "https://chippenhamtown.com/07/22/level-in-a-wiltshire-derby-highlights-vs-westbury/",
       "published": "2026-07-22T13:00:03Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Dulwich Hamlet",
+      "url": "https://www.horshamfc.co.uk/2026/07/22/match-report-dulwich-hamlet/",
+      "published": "2026-07-22T12:30:34Z"
     },
     {
       "club": "Southend United",
@@ -1471,15 +1480,6 @@
       "title": "Matchday Information: Valenciennes (H)",
       "url": "https://eastleighfc.com/2026/07/matchday-information-valenciennes-h/",
       "published": "2026-07-22T09:16:29Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Barrow (H) Post-Match Reaction | Tom Donaghy",
-      "url": "https://radcliffefc.com/barrow-h-post-match-reaction-tom-donaghy/",
-      "published": "2026-07-22T09:00:29Z"
     }
   ]
 }
