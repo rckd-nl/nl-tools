@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-23T14:33:15Z",
+  "generatedAt": "2026-07-23T16:16:48Z",
   "maxItems": 100,
   "sources": [
     {
@@ -129,7 +129,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Southend United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -329,7 +329,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Peterborough Sports",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,69 @@
   ],
   "items": [
     {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "York City U18s’ 2026/27 EFL Youth Alliance League fixtures confirmed",
+      "url": "https://yorkcityfootballclub.co.uk/york-city-u18s-2026-27-efl-youth-alliance-league-fixtures-confirmed/",
+      "published": "2026-07-23T15:43:03Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Pools charity enters new era as Foundation becomes United for the Community",
+      "url": "https://www.hartlepoolunited.co.uk/pools-charity-enters-new-era-as-foundation-becomes-united-for-the-community/",
+      "published": "2026-07-23T15:37:42Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Book Your Pre-Match Meal v Exeter",
+      "url": "https://torquayunited.com/book-your-meal-v-exeter/",
+      "published": "2026-07-23T15:22:59Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Ticket & Travel Information: Carlisle United (A)",
+      "url": "https://worthingfc.com/2026/07/ticket-travel-information-carlisle-united-a/",
+      "published": "2026-07-23T15:11:08Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "LIVE SPORT IN BAR TWENTY SEVEN",
+      "url": "https://macclesfieldfc.com/latest-news/live-sport-in-bar-twenty-seven-2/",
+      "published": "2026-07-23T15:00:51Z"
+    },
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "MARINE SEEKS AMBITIOUS INVESTOR DIRECTORS TO DRIVE CLUB FORWARD",
+      "url": "https://marinefc.com/marine-seeks-ambitious-investor-directors-to-drive-club-forward/",
+      "published": "2026-07-23T15:00:00Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "A chat with Steven Reid",
+      "url": "https://chesterfc.com/07/23/a-chat-with-steven-reid/",
+      "published": "2026-07-23T14:56:35Z"
+    },
+    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -604,7 +667,7 @@
       "code": "TON",
       "short": "Tonbridge",
       "domain": "tonbridgeangels.co.uk",
-      "title": "Volunteer Matchday Stewards Wanted",
+      "title": "Volunteer Stewards Wanted",
       "url": "https://tonbridgeangels.co.uk/volunteer-matchday-stewards-wanted/",
       "published": "2026-07-23T14:01:58Z"
     },
@@ -1221,15 +1284,6 @@
       "published": "2026-07-22T13:13:13Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "IN PICTURES: ONE YEAR OF CARLOS DOS SANTOS",
-      "url": "https://macclesfieldfc.com/galleries/in-pictures-one-year-of-carlos-dos-santos/",
-      "published": "2026-07-22T13:00:15Z"
-    },
-    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -1237,15 +1291,6 @@
       "title": "Level in a Wiltshire Derby | Highlights vs Westbury",
       "url": "https://chippenhamtown.com/07/22/level-in-a-wiltshire-derby-highlights-vs-westbury/",
       "published": "2026-07-22T13:00:03Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Report – Dulwich Hamlet",
-      "url": "https://www.horshamfc.co.uk/2026/07/22/match-report-dulwich-hamlet/",
-      "published": "2026-07-22T12:30:34Z"
     },
     {
       "club": "Southend United",
@@ -1435,51 +1480,6 @@
       "title": "Barrow (H) Post-Match Reaction | Tom Donaghy",
       "url": "https://radcliffefc.com/barrow-h-post-match-reaction-tom-donaghy/",
       "published": "2026-07-22T09:00:29Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Highlights: Plymouth Argyle (H) | Pre-Season 2026-2027",
-      "url": "https://torquayunited.com/highlights-plymouth-argyle-h-pre-season-2026-2027/",
-      "published": "2026-07-22T08:36:13Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Ticket Information: FC Halifax Town (H)",
-      "url": "https://spennymoortownfc.co.uk/2026/07/22/ticket-information-fc-halifax-town-h/",
-      "published": "2026-07-22T08:31:54Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Charity Match Tickets Now On Sale",
-      "url": "https://southportfc.net/charity-match-tickets-now-on-sale/",
-      "published": "2026-07-22T08:20:56Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Wadham: “I’m grateful for the opportunity to come back” | QPR U21s Reaction",
-      "url": "https://worthingfc.com/2026/07/wadham-im-grateful-for-the-opportunity-to-come-back-qpr-u21s-reaction/",
-      "published": "2026-07-22T08:00:31Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Barrow (H) Post-Match Reaction | Bernard Morley",
-      "url": "https://radcliffefc.com/barrow-h-post-match-reaction-bernard-morley/",
-      "published": "2026-07-22T08:00:03Z"
     }
   ]
 }
