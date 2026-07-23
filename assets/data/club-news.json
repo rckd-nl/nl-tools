@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-23T20:48:51Z",
+  "generatedAt": "2026-07-23T21:48:53Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3802,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Preview: Weston v Exeter City",
+      "url": "https://wsmafc.co.uk/preview-exeter-city/",
+      "published": "2026-07-23T20:50:25Z"
+    },
     {
       "club": "Woking",
       "code": "WOK",
@@ -780,6 +789,15 @@
       "published": "2026-07-23T12:39:28Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Goalkeeper Shirts Now Available to Buy",
+      "url": "https://daggers.co.uk/goalkeeper-shirts-now-available-to-buy/",
+      "published": "2026-07-23T12:29:02Z"
+    },
+    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -852,6 +870,15 @@
       "published": "2026-07-23T11:00:37Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Club Shop Open this Afternoon",
+      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-49/",
+      "published": "2026-07-23T10:49:30Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -913,6 +940,15 @@
       "title": "NEWS | Meet the Players Post-Solihull Friendly",
       "url": "https://herefordfc.co.uk/2026/07/news-meet-the-players-post-solihull-friendly/",
       "published": "2026-07-23T09:30:09Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Rovers sign Omari Patrick",
+      "url": "https://www.fgr.co.uk/news/rovers-sign-omari-patrick /",
+      "published": "2026-07-23T09:30:00Z"
     },
     {
       "club": "Maidstone United",
@@ -1086,6 +1122,15 @@
       "published": "2026-07-22T17:00:14Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Daggers Sign Hamza Semakula on Non-Contract Terms",
+      "url": "https://daggers.co.uk/daggers-sign-hamza-semakula-on-non-contract-terms/",
+      "published": "2026-07-22T17:00:00Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1167,6 +1212,15 @@
       "published": "2026-07-22T15:00:16Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Kelly Joins FGR",
+      "url": "https://www.fgr.co.uk/news/kyle-kelly-joins-fgr/",
+      "published": "2026-07-22T15:00:00Z"
+    },
+    {
       "club": "Gateshead",
       "code": "GAT",
       "short": "Gateshead",
@@ -1183,6 +1237,15 @@
       "title": "Just the Goals: U23s vs Greenways",
       "url": "https://maidstoneunited.co.uk/07/22/just-the-goals-u23s-vs-greenways/",
       "published": "2026-07-22T14:43:32Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Fan-Favourite Yellow Third Kit Returns for 2026/27",
+      "url": "https://daggers.co.uk/fan-favourite-yellow-third-kit-returns-for-2026-27/",
+      "published": "2026-07-22T14:34:55Z"
     },
     {
       "club": "Spennymoor Town",
@@ -1417,69 +1480,6 @@
       "title": "Alty TV Post-Match | Chorley 0 Alty 0",
       "url": "https://altrinchamfc.com/blogs/news/alty-tv-post-match-chorley-pre-season-friendly",
       "published": "2026-07-22T10:36:21Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "GALLERY | Hereford FC 3-1 Worcester City",
-      "url": "https://herefordfc.co.uk/2026/07/gallery-hereford-fc-3-1-worcester-city/",
-      "published": "2026-07-22T10:32:52Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Report: Leyton Orient (H)",
-      "url": "https://hornchurchfc.com/report-leyton-orient-h/",
-      "published": "2026-07-22T09:40:20Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "“𝗪𝗲 𝘀𝗰𝗼𝗿𝗲𝗱 𝘀𝗼𝗺𝗲 𝗴𝗼𝗼𝗱 𝗴𝗼𝗮𝗹𝘀” | Scott Rogers post – Taunton Town (A)",
-      "url": "https://wsmafc.co.uk/%f0%9d%97%aa%f0%9d%97%b2-%f0%9d%98%80%f0%9d%97%b0%f0%9d%97%bc%f0%9d%97%bf%f0%9d%97%b2%f0%9d%97%b1-%f0%9d%98%80%f0%9d%97%bc%f0%9d%97%ba%f0%9d%97%b2-%f0%9d%97%b4%f0%9d%97%bc%f0%9d%97%bc%f0%9d%97%b1/",
-      "published": "2026-07-22T09:31:05Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Match Report | Mossley (A)",
-      "url": "https://curzon-ashton.co.uk/match-report-mossley-a/",
-      "published": "2026-07-22T09:29:52Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Matchday Information: Valenciennes (H)",
-      "url": "https://eastleighfc.com/2026/07/matchday-information-valenciennes-h/",
-      "published": "2026-07-22T09:16:29Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Barrow (H) Post-Match Reaction | Tom Donaghy",
-      "url": "https://radcliffefc.com/barrow-h-post-match-reaction-tom-donaghy/",
-      "published": "2026-07-22T09:00:29Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Highlights: Plymouth Argyle (H) | Pre-Season 2026-2027",
-      "url": "https://torquayunited.com/highlights-plymouth-argyle-h-pre-season-2026-2027/",
-      "published": "2026-07-22T08:36:13Z"
     }
   ]
 }
