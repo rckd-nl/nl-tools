@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-24T21:23:03Z",
+  "generatedAt": "2026-07-24T22:49:15Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3806,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='fgr.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Gateshead",
@@ -142,10 +142,10 @@
     {
       "club": "Sutton United",
       "domain": "suttonunited.net",
-      "feed": "",
+      "feed": "https://cdn.suttonunited.net/wp-content/uploads/2024/06/News.jpg",
       "ok": false,
       "count": 0,
-      "error": "HTTP 502"
+      "error": "Feed returned 0 usable items"
     },
     {
       "club": "Tamworth",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -489,7 +489,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 503"
     },
     {
       "club": "Hemel Hempstead Town",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "“𝗧𝗵𝗲𝗿𝗲’𝘀 𝘀𝗼𝗺𝗲 𝗿𝗲𝗮𝗹𝗹𝘆 𝗴𝗼𝗼𝗱 𝗽𝗲𝗼𝗽𝗹𝗲 𝗱𝗼𝘄𝗻 𝘁𝗵𝗲𝗿𝗲” | Gary Warren pre – Exeter City (H)",
+      "url": "https://wsmafc.co.uk/%f0%9d%97%a7%f0%9d%97%b5%f0%9d%97%b2%f0%9d%97%bf%f0%9d%97%b2%f0%9d%98%80-%f0%9d%98%80%f0%9d%97%bc%f0%9d%97%ba%f0%9d%97%b2-%f0%9d%97%bf%f0%9d%97%b2%f0%9d%97%ae%f0%9d%97%b9%f0%9d%97%b9%f0%9d%98%86/",
+      "published": "2026-07-24T22:00:45Z"
+    },
     {
       "club": "Chester",
       "code": "CHE",
@@ -816,15 +825,6 @@
       "published": "2026-07-24T15:49:55Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Gaffer On Mendy Leaving",
-      "url": "https://www.fgr.co.uk/news/rs-on-mendy/",
-      "published": "2026-07-24T15:45:00Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -841,15 +841,6 @@
       "title": "John Rooney ahead of Altrincham clash",
       "url": "https://macclesfieldfc.com/latest-news/john-rooney-ahead-of-altrincham-clash/",
       "published": "2026-07-24T15:00:14Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Mendy Joins Hearts",
-      "url": "https://www.fgr.co.uk/news/mendy-to-hearts/",
-      "published": "2026-07-24T15:00:00Z"
     },
     {
       "club": "Torquay United",
@@ -1023,15 +1014,6 @@
       "published": "2026-07-24T10:59:15Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Info | Cardiff City (H)",
-      "url": "https://www.fgr.co.uk/news/match-info-cardiff-city-h/",
-      "published": "2026-07-24T10:00:00Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1048,15 +1030,6 @@
       "title": "AHEAD OF THE GAME: Reading (H)",
       "url": "https://wokingfc.co.uk/07/24/ahead-of-the-game-reading-h/",
       "published": "2026-07-24T09:30:59Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Preview | Cardiff City (A)",
-      "url": "https://www.fgr.co.uk/news/match-preview-cardiff-city-a/",
-      "published": "2026-07-24T09:30:00Z"
     },
     {
       "club": "Southend United",
@@ -1120,15 +1093,6 @@
       "title": "Match Preview – Newport County (H) – Pre-Season Friendly",
       "url": "https://www.bathcityfc.com/match-preview-newport-county-h-pre-season-friendly/",
       "published": "2026-07-24T08:00:43Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Matchday | Home v FC United Of Manchester 7.45pm",
-      "url": "https://southportfc.net/matchday-home-v-fc-united-of-manchester-7-45pm/",
-      "published": "2026-07-24T06:52:07Z"
     },
     {
       "club": "AFC Fylde",
@@ -1480,6 +1444,42 @@
       "title": "Archbishop of York visits York City Football Club Foundation",
       "url": "https://yorkcityfootballclub.co.uk/archbishop-of-york-visits-york-city-football-club-foundation/",
       "published": "2026-07-23T09:37:50Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "NEWS | Meet the Players Post-Solihull Friendly",
+      "url": "https://herefordfc.co.uk/2026/07/news-meet-the-players-post-solihull-friendly/",
+      "published": "2026-07-23T09:30:09Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Getting to know Rob Tuvey",
+      "url": "https://maidstoneunited.co.uk/07/23/getting-to-know-rob-tuvey/",
+      "published": "2026-07-23T09:20:49Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Dorking Wanderers F.C. and Surrey Football Association announce agreement on Meadowbank Stadium lease",
+      "url": "https://dwfc.co.uk/2026/07/mblease/",
+      "published": "2026-07-23T09:15:47Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Scunthorpe United Away Travel Confirmed",
+      "url": "https://ytfc.net/2026/07/scunthorpe-united-away-travel-confirmed/",
+      "published": "2026-07-23T09:00:31Z"
     }
   ]
 }
