@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-24T17:14:46Z",
+  "generatedAt": "2026-07-24T18:50:01Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3806,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,13 +582,76 @@
   ],
   "items": [
     {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Harry Messenger signs for Men’s First Team",
-      "url": "https://chippenhamtown.com/07/24/harry-messenger-signs-for-ctfc/",
-      "published": "2026-07-24T17:00:04Z"
+      "club": "Chesham United",
+      "code": "CHU",
+      "short": "Chesham",
+      "domain": "cheshamunited.co.uk",
+      "title": "Notes from the Chair – 24th July 2026",
+      "url": "https://cheshamunited.co.uk/2026/07/notes-from-the-chair-24th-july-2026/",
+      "published": "2026-07-24T18:26:26Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Hands Across Devon: A West Country Ramble",
+      "url": "https://torquayunited.com/hands-across-devon-a-west-country-ramble/",
+      "published": "2026-07-24T18:01:19Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Gateshead FC reveal 2026/27 HOPE + GLORY home shirt",
+      "url": "https://gateshead-fc.com/gateshead-fc-reveal-2026-27-hope-glory-home-shirt/",
+      "published": "2026-07-24T18:00:11Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "First Words: Cameron John",
+      "url": "https://www.hartlepoolunited.co.uk/first-words-cameron-john/",
+      "published": "2026-07-24T17:57:37Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Pools secure permanent return of Cameron John",
+      "url": "https://www.hartlepoolunited.co.uk/pools-secure-permanent-return-of-cameron-john/",
+      "published": "2026-07-24T17:57:29Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Plymouth Argyle (h) – All Tickets Issued",
+      "url": "https://trurocity.co.uk/2026/07/plymouth-argyle-h-all-tickets-issued/",
+      "published": "2026-07-24T17:24:56Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "U18s REPORT | Worcester Reserves 1-0 Hereford FC",
+      "url": "https://herefordfc.co.uk/2026/07/u18s-report-worcester-reserves-1-0-hereford-fc/",
+      "published": "2026-07-24T17:22:30Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City vs Plymouth Argyle – Match Information",
+      "url": "https://trurocity.co.uk/2026/07/truro-city-vs-plymouth-argyle-match-information/",
+      "published": "2026-07-24T17:16:52Z"
     },
     {
       "club": "Maidstone United",
@@ -597,7 +660,16 @@
       "domain": "maidstoneunited.co.uk",
       "title": "Key info: Ashford United",
       "url": "https://maidstoneunited.co.uk/07/24/key-info-ashford-united/",
-      "published": "2026-07-24T16:45:43Z"
+      "published": "2026-07-24T17:00:43Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Harry Messenger signs for Men’s First Team",
+      "url": "https://chippenhamtown.com/07/24/harry-messenger-signs-for-ctfc/",
+      "published": "2026-07-24T17:00:04Z"
     },
     {
       "club": "Macclesfield",
@@ -690,15 +762,6 @@
       "published": "2026-07-24T15:49:55Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Gaffer On Mendy Leaving",
-      "url": "https://www.fgr.co.uk/news/rs-on-mendy/",
-      "published": "2026-07-24T15:45:00Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -715,15 +778,6 @@
       "title": "John Rooney ahead of Altrincham clash",
       "url": "https://macclesfieldfc.com/latest-news/john-rooney-ahead-of-altrincham-clash/",
       "published": "2026-07-24T15:00:14Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Mendy Joins Hearts",
-      "url": "https://www.fgr.co.uk/news/mendy-to-hearts/",
-      "published": "2026-07-24T15:00:00Z"
     },
     {
       "club": "Torquay United",
@@ -897,15 +951,6 @@
       "published": "2026-07-24T10:59:15Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Info | Cardiff City (H)",
-      "url": "https://www.fgr.co.uk/news/match-info-cardiff-city-h/",
-      "published": "2026-07-24T10:00:00Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -922,15 +967,6 @@
       "title": "AHEAD OF THE GAME: Reading (H)",
       "url": "https://wokingfc.co.uk/07/24/ahead-of-the-game-reading-h/",
       "published": "2026-07-24T09:30:59Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Preview | Cardiff City (A)",
-      "url": "https://www.fgr.co.uk/news/match-preview-cardiff-city-a/",
-      "published": "2026-07-24T09:30:00Z"
     },
     {
       "club": "Southend United",
@@ -1221,6 +1257,15 @@
       "published": "2026-07-23T12:39:28Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Goalkeeper Shirts Now Available to Buy",
+      "url": "https://daggers.co.uk/goalkeeper-shirts-now-available-to-buy/",
+      "published": "2026-07-23T12:29:02Z"
+    },
+    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -1284,6 +1329,15 @@
       "published": "2026-07-23T11:00:50Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Club Shop Open this Afternoon",
+      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-49/",
+      "published": "2026-07-23T10:49:30Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1345,15 +1399,6 @@
       "title": "NEWS | Meet the Players Post-Solihull Friendly",
       "url": "https://herefordfc.co.uk/2026/07/news-meet-the-players-post-solihull-friendly/",
       "published": "2026-07-23T09:30:09Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Rovers sign Omari Patrick",
-      "url": "https://www.fgr.co.uk/news/rovers-sign-omari-patrick /",
-      "published": "2026-07-23T09:30:00Z"
     },
     {
       "club": "Maidstone United",
@@ -1435,51 +1480,6 @@
       "title": "Report: Southend United 1-3 Northampton Town",
       "url": "https://southendunited.co.uk/news/2026/july/22/report--southend-united-1-3-northampton-town/",
       "published": "2026-07-22T20:36:38Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Match Details | Warrington Town Away On Saturday",
-      "url": "https://southportfc.net/match-details-warrington-town-away-on-saturday/",
-      "published": "2026-07-22T20:03:43Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "United Women Continue Preparations with Exeter Test",
-      "url": "https://torquayunited.com/united-continue-womens-national-league-preparations-with-exeter-city-test/",
-      "published": "2026-07-22T18:55:48Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Annual Book of Remembrance Fixture Details",
-      "url": "https://chesterfc.com/07/22/annual-book-of-remembrance-fixture-details/",
-      "published": "2026-07-22T17:38:53Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Angels Family Fun Day",
-      "url": "https://tonbridgeangels.co.uk/angels-family-fun-day/",
-      "published": "2026-07-22T17:38:35Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Report: Seagulls cap off away friendlies with excellent win",
-      "url": "https://wsmafc.co.uk/report-taunton-away/",
-      "published": "2026-07-22T17:00:49Z"
     }
   ]
 }
