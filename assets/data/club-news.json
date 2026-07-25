@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-25T10:47:25Z",
+  "generatedAt": "2026-07-25T11:53:28Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,51 @@
     }
   ],
   "items": [
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Streaming Information: Southend United V Leyton Orient",
+      "url": "https://southendunited.co.uk/news/2026/july/25/streaming-information--southend-v-leyton-orient/",
+      "published": "2026-07-25T11:30:37Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Woking sign Shadrach Ogie",
+      "url": "https://wokingfc.co.uk/07/25/woking-sign-shadrach-ogie/",
+      "published": "2026-07-25T11:01:23Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "ADAN ADDED",
+      "url": "https://macclesfieldfc.com/latest-news/adan-added/",
+      "published": "2026-07-25T11:00:31Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Post-Hyde United: Phil Parkinson",
+      "url": "https://chesterfc.com/07/25/post-hyde-united-phil-parkinson/",
+      "published": "2026-07-25T10:56:15Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Town Sparkle In Worthing Draw",
+      "url": "https://etfc.london/town-sparkle-in-worthing-draw/",
+      "published": "2026-07-25T10:51:33Z"
+    },
     {
       "club": "Eastleigh",
       "code": "EAS",
@@ -1248,15 +1293,6 @@
       "published": "2026-07-23T18:01:16Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham FC Women trial opportunities",
-      "url": "https://www.horshamfc.co.uk/2026/07/23/55782/",
-      "published": "2026-07-23T17:50:55Z"
-    },
-    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -1444,42 +1480,6 @@
       "title": "Season Tickets Collection Information",
       "url": "https://spennymoortownfc.co.uk/2026/07/23/2026-27-season-tickets-collection-information/",
       "published": "2026-07-23T12:03:00Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "25% OFF GUINNESS & BODDINGTONS IN BAR TWENTY SEVEN",
-      "url": "https://macclesfieldfc.com/latest-news/25-off-guinness-boddingtons-in-bar-twenty-seven/",
-      "published": "2026-07-23T12:00:28Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Pay What You Want v Cardiff U21s!",
-      "url": "https://torquayunited.com/pay-what-you-want-v-cardiff-u21s-2/",
-      "published": "2026-07-23T11:39:53Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Inside Preseason: Day 18",
-      "url": "https://maidstoneunited.co.uk/07/23/inside-preseason-day-18/",
-      "published": "2026-07-23T11:26:11Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Bromley vs MUFC Women",
-      "url": "https://maidstoneunited.co.uk/07/23/bromley-vs-mufc-women/",
-      "published": "2026-07-23T11:10:55Z"
     }
   ]
 }
