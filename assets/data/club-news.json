@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-25T15:23:31Z",
+  "generatedAt": "2026-07-25T16:36:52Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3806,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Report: Eastleigh 0-1 Crawley Town",
+      "url": "https://eastleighfc.com/2026/07/report-eastleigh-0-1-crawley-town/",
+      "published": "2026-07-25T16:23:55Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Match Report: Ashford United",
+      "url": "https://maidstoneunited.co.uk/07/25/match-report-ashford-united/",
+      "published": "2026-07-25T15:57:19Z"
+    },
     {
       "club": "Chester",
       "code": "CHE",
@@ -1041,6 +1059,15 @@
       "published": "2026-07-24T15:49:55Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Gaffer On Mendy Leaving",
+      "url": "https://www.fgr.co.uk/news/rs-on-mendy/",
+      "published": "2026-07-24T15:45:00Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1057,6 +1084,15 @@
       "title": "John Rooney ahead of Altrincham clash",
       "url": "https://macclesfieldfc.com/latest-news/john-rooney-ahead-of-altrincham-clash/",
       "published": "2026-07-24T15:00:14Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Mendy Joins Hearts",
+      "url": "https://www.fgr.co.uk/news/mendy-to-hearts/",
+      "published": "2026-07-24T15:00:00Z"
     },
     {
       "club": "Torquay United",
@@ -1230,6 +1266,15 @@
       "published": "2026-07-24T10:59:15Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Info | Cardiff City (H)",
+      "url": "https://www.fgr.co.uk/news/match-info-cardiff-city-h/",
+      "published": "2026-07-24T10:00:00Z"
+    },
+    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1246,6 +1291,15 @@
       "title": "AHEAD OF THE GAME: Reading (H)",
       "url": "https://wokingfc.co.uk/07/24/ahead-of-the-game-reading-h/",
       "published": "2026-07-24T09:30:59Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Preview | Cardiff City (A)",
+      "url": "https://www.fgr.co.uk/news/match-preview-cardiff-city-a/",
+      "published": "2026-07-24T09:30:00Z"
     },
     {
       "club": "Southend United",
@@ -1365,15 +1419,6 @@
       "published": "2026-07-23T18:01:16Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham FC Women trial opportunities",
-      "url": "https://www.horshamfc.co.uk/2026/07/23/55782/",
-      "published": "2026-07-23T17:50:55Z"
-    },
-    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -1435,51 +1480,6 @@
       "title": "LIVE SPORT IN BAR TWENTY SEVEN",
       "url": "https://macclesfieldfc.com/latest-news/live-sport-in-bar-twenty-seven-2/",
       "published": "2026-07-23T15:00:51Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "MARINE SEEKS AMBITIOUS INVESTOR DIRECTORS TO DRIVE CLUB FORWARD",
-      "url": "https://marinefc.com/marine-seeks-ambitious-investor-directors-to-drive-club-forward/",
-      "published": "2026-07-23T15:00:00Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "A chat with Steven Reid",
-      "url": "https://chesterfc.com/07/23/a-chat-with-steven-reid/",
-      "published": "2026-07-23T14:56:35Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Union Golf Road Away Travel returns",
-      "url": "https://altrinchamfc.com/blogs/news/union-golf-road-away-travel-returns",
-      "published": "2026-07-23T14:17:51Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Volunteer Stewards Wanted",
-      "url": "https://tonbridgeangels.co.uk/volunteer-matchday-stewards-wanted/",
-      "published": "2026-07-23T14:01:58Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Christophe Duchamp joins Gateshead FC as Official Player of the Month sponsor for 2026/27 season",
-      "url": "https://gateshead-fc.com/christophe-duchamp-joins-gateshead-fc-as-official-player-of-the-month-sponsor-for-2026-27-season/",
-      "published": "2026-07-23T14:00:24Z"
     }
   ]
 }
