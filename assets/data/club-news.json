@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-25T17:43:46Z",
+  "generatedAt": "2026-07-25T18:43:08Z",
   "maxItems": 100,
   "sources": [
     {
@@ -80,7 +80,7 @@
       "domain": "fgr.co.uk",
       "feed": "https://www.fgr.co.uk/news-rss.xml",
       "ok": true,
-      "count": 3807,
+      "count": 3809,
       "error": ""
     },
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,42 @@
   ],
   "items": [
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report | FGR 1-5 Cardiff City",
+      "url": "https://www.fgr.co.uk/news/match-report-fgr-1-5-cardiff-city-26/",
+      "published": "2026-07-26T08:00:00Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Match report | Clitheroe (H)",
+      "url": "https://curzon-ashton.co.uk/match-report-clitheroe-h/",
+      "published": "2026-07-25T18:34:54Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Wanderers win on the coast",
+      "url": "https://dwfc.co.uk/2026/07/wanderers-win-on-the-coast/",
+      "published": "2026-07-25T17:51:32Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "City twice come from behind to secure Exiles pre-season draw",
+      "url": "https://www.bathcityfc.com/city-twice-come-from-behind-to-secure-exiles-draw/",
+      "published": "2026-07-25T17:47:58Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -589,6 +625,15 @@
       "title": "“𝗪𝗲 𝗹𝗼𝗼𝗸𝗲𝗱 𝗮 𝗹𝗶𝘁𝘁𝗹𝗲 𝗯𝗶𝘁 𝗼𝗳𝗳 𝗶𝘁” | Scott Rogers post – Exeter City (H)",
       "url": "https://wsmafc.co.uk/%f0%9d%97%aa%f0%9d%97%b2-%f0%9d%97%b9%f0%9d%97%bc%f0%9d%97%bc%f0%9d%97%b8%f0%9d%97%b2%f0%9d%97%b1-%f0%9d%97%ae-%f0%9d%97%b9%f0%9d%97%b6%f0%9d%98%81%f0%9d%98%81%f0%9d%97%b9%f0%9d%97%b2-%f0%9d%97%af/",
       "published": "2026-07-25T17:40:09Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Changes to Horsham Community FC and Horsham FC C.I.C. Boards",
+      "url": "https://www.horshamfc.co.uk/2026/07/25/horsham-boards-change/",
+      "published": "2026-07-25T17:35:12Z"
     },
     {
       "club": "Truro City",
@@ -616,6 +661,15 @@
       "title": "REACTION | Downes Upbeat After Solihull Home Defeat",
       "url": "https://herefordfc.co.uk/2026/07/reaction-downes-upbeat-after-solihull-home-defeat/",
       "published": "2026-07-25T17:30:40Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Kyle Kelly | Post Cardiff (H)",
+      "url": "https://www.fgr.co.uk/news/kyle-kelly-post-cardiff-h/",
+      "published": "2026-07-25T17:30:00Z"
     },
     {
       "club": "Eastleigh",
@@ -852,15 +906,6 @@
       "published": "2026-07-25T10:17:31Z"
     },
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Highlights | Southport v FC United Of Manchester",
-      "url": "https://southportfc.net/highlights-southport-v-fc-united-of-manchester/",
-      "published": "2026-07-25T10:09:47Z"
-    },
-    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -922,24 +967,6 @@
       "title": "Eastleigh FC renews partnership with Utilita",
       "url": "https://eastleighfc.com/2026/07/eastleigh-fc-renews-partnership-with-utilita/",
       "published": "2026-07-25T08:28:04Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Match Details | Warrington Town Away On Saturday",
-      "url": "https://southportfc.net/match-details-warrington-town-away-on-saturday/",
-      "published": "2026-07-25T08:03:43Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Southport 2 FC United Of Manchester 0",
-      "url": "https://southportfc.net/southport-2-fc-united-of-manchester-0/",
-      "published": "2026-07-25T08:00:14Z"
     },
     {
       "club": "Hereford",
@@ -1453,33 +1480,6 @@
       "title": "Junior Dixon departs",
       "url": "https://www.borehamwoodfootballclub.co.uk/junior-dixon-departs/",
       "published": "2026-07-24T09:24:15Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Match Day Information: Hartley Wintney (H)",
-      "url": "https://farnboroughfc.co.uk/2026/07/match-day-information-hartley-wintney-h/",
-      "published": "2026-07-24T09:00:52Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "AWAY DAY BLUES: ALTRINCHAM",
-      "url": "https://macclesfieldfc.com/latest-news/away-day-blues-altrincham/",
-      "published": "2026-07-24T09:00:34Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Ticket Information: FC Halifax Town (H)",
-      "url": "https://spennymoortownfc.co.uk/2026/07/24/ticket-information-fc-halifax-town-h/",
-      "published": "2026-07-24T08:31:54Z"
     }
   ]
 }
