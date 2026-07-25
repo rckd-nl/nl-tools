@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-25T21:14:02Z",
+  "generatedAt": "2026-07-25T22:12:38Z",
   "maxItems": 100,
   "sources": [
     {
@@ -70,18 +70,18 @@
     {
       "club": "FC Halifax Town",
       "domain": "fchalifaxtown.com",
-      "feed": "https://fchalifaxtown.com/feed/",
-      "ok": true,
-      "count": 1,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3809,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -446,10 +446,10 @@
     {
       "club": "Dover Athletic",
       "domain": "doverathletic.com",
-      "feed": "https://doverathletic.com/news/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Eastbourne Borough",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report | FGR 1-5 Cardiff City",
+      "url": "https://www.fgr.co.uk/news/match-report-fgr-1-5-cardiff-city-26/",
+      "published": "2026-07-26T08:00:00Z"
+    },
     {
       "club": "Tonbridge Angels",
       "code": "TON",
@@ -708,15 +717,6 @@
       "published": "2026-07-25T17:40:09Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Changes to Horsham Community FC and Horsham FC C.I.C. Boards",
-      "url": "https://www.horshamfc.co.uk/2026/07/25/horsham-boards-change/",
-      "published": "2026-07-25T17:35:12Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -742,6 +742,15 @@
       "title": "REACTION | Downes Upbeat After Solihull Home Defeat",
       "url": "https://herefordfc.co.uk/2026/07/reaction-downes-upbeat-after-solihull-home-defeat/",
       "published": "2026-07-25T17:30:40Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Kyle Kelly | Post Cardiff (H)",
+      "url": "https://www.fgr.co.uk/news/kyle-kelly-post-cardiff-h/",
+      "published": "2026-07-25T17:30:00Z"
     },
     {
       "club": "Eastleigh",
@@ -778,6 +787,15 @@
       "title": "MATCH REPORT: Woking 0-2 Reading",
       "url": "https://wokingfc.co.uk/07/25/match-report-woking-0-2-reading/",
       "published": "2026-07-25T17:00:59Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Robbie Savage | Post Cardiff (H)",
+      "url": "https://www.fgr.co.uk/news/robbie-savage-post-cardiff-h/",
+      "published": "2026-07-25T17:00:00Z"
     },
     {
       "club": "Yeovil Town",
@@ -1311,6 +1329,15 @@
       "published": "2026-07-24T15:49:55Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Gaffer On Mendy Leaving",
+      "url": "https://www.fgr.co.uk/news/rs-on-mendy/",
+      "published": "2026-07-24T15:45:00Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1327,6 +1354,15 @@
       "title": "John Rooney ahead of Altrincham clash",
       "url": "https://macclesfieldfc.com/latest-news/john-rooney-ahead-of-altrincham-clash/",
       "published": "2026-07-24T15:00:14Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Mendy Joins Hearts",
+      "url": "https://www.fgr.co.uk/news/mendy-to-hearts/",
+      "published": "2026-07-24T15:00:00Z"
     },
     {
       "club": "Torquay United",
@@ -1444,42 +1480,6 @@
       "title": "Alty TV Interview | Owen Evans",
       "url": "https://altrinchamfc.com/blogs/news/alty-tv-interview-owen-evans",
       "published": "2026-07-24T12:03:31Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "REPORT: EXETER WOMEN 3 – 1 UNITED WOMEN",
-      "url": "https://torquayunited.com/report-exeter-women-3-1-united-women/",
-      "published": "2026-07-24T12:01:33Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Gallery: Taunton Town 0 – 4 WsM AFC",
-      "url": "https://wsmafc.co.uk/gallery-taunton-town-away/",
-      "published": "2026-07-24T11:26:13Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "TRAINING GALLERY 23/07/26",
-      "url": "https://macclesfieldfc.com/latest-news/training-gallery-23-07-26/",
-      "published": "2026-07-24T11:00:47Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "TRAINING GALLERY 23/07/26",
-      "url": "https://macclesfieldfc.com/galleries/training-gallery-23-07-26-2/",
-      "published": "2026-07-24T11:00:19Z"
     }
   ]
 }
