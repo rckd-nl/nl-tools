@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-25T07:05:30Z",
+  "generatedAt": "2026-07-25T09:14:54Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,42 @@
   ],
   "items": [
     {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Club Statement: Jody Brown on Jermain Defoe exit",
+      "url": "https://wokingfc.co.uk/07/25/club-statement-jody-brown-on-jermain-defoe-exit/",
+      "published": "2026-07-25T09:00:13Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Eastleigh FC renews partnership with Utilita",
+      "url": "https://eastleighfc.com/2026/07/eastleigh-fc-renews-partnership-with-utilita/",
+      "published": "2026-07-25T08:28:04Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Match Details | Warrington Town Away On Saturday",
+      "url": "https://southportfc.net/match-details-warrington-town-away-on-saturday/",
+      "published": "2026-07-25T08:03:43Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Southport 2 FC United Of Manchester 0",
+      "url": "https://southportfc.net/southport-2-fc-united-of-manchester-0/",
+      "published": "2026-07-25T08:00:14Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -589,6 +625,15 @@
       "title": "PREVIEW | Hereford FC vs Solihull Moors",
       "url": "https://herefordfc.co.uk/2026/07/preview-hereford-fc-vs-solihull-moors/",
       "published": "2026-07-25T07:00:12Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Ashford United",
+      "url": "https://maidstoneunited.co.uk/07/25/key-info-ashford-united/",
+      "published": "2026-07-25T06:00:43Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -724,15 +769,6 @@
       "title": "Truro City vs Plymouth Argyle – Match Information",
       "url": "https://trurocity.co.uk/2026/07/truro-city-vs-plymouth-argyle-match-information/",
       "published": "2026-07-24T17:16:52Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Ashford United",
-      "url": "https://maidstoneunited.co.uk/07/24/key-info-ashford-united/",
-      "published": "2026-07-24T17:00:43Z"
     },
     {
       "club": "Chippenham Town",
@@ -1158,6 +1194,15 @@
       "published": "2026-07-23T18:01:16Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham FC Women trial opportunities",
+      "url": "https://www.horshamfc.co.uk/2026/07/23/55782/",
+      "published": "2026-07-23T17:50:55Z"
+    },
+    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -1435,51 +1480,6 @@
       "title": "The Shortmans – Mini Bus Sponsorship",
       "url": "https://www.borehamwoodfootballclub.co.uk/the-shortmans-mini-bus-sponsorship/",
       "published": "2026-07-23T09:42:04Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "It’s time to book up your Bath City FC match and ball sponsorships",
-      "url": "https://www.bathcityfc.com/its-time-to-book-up-your-bath-city-fc-match-and-ball-sponsorships/",
-      "published": "2026-07-23T09:39:30Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Archbishop of York visits York City Football Club Foundation",
-      "url": "https://yorkcityfootballclub.co.uk/archbishop-of-york-visits-york-city-football-club-foundation/",
-      "published": "2026-07-23T09:37:50Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "NEWS | Meet the Players Post-Solihull Friendly",
-      "url": "https://herefordfc.co.uk/2026/07/news-meet-the-players-post-solihull-friendly/",
-      "published": "2026-07-23T09:30:09Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Getting to know Rob Tuvey",
-      "url": "https://maidstoneunited.co.uk/07/23/getting-to-know-rob-tuvey/",
-      "published": "2026-07-23T09:20:49Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Dorking Wanderers F.C. and Surrey Football Association announce agreement on Meadowbank Stadium lease",
-      "url": "https://dwfc.co.uk/2026/07/mblease/",
-      "published": "2026-07-23T09:15:47Z"
     }
   ]
 }
