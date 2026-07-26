@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-26T15:35:39Z",
+  "generatedAt": "2026-07-26T16:38:31Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3809,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,42 @@
   ],
   "items": [
     {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Gallery | Clitheroe (H)",
+      "url": "https://curzon-ashton.co.uk/gallery-clitheroe-h/",
+      "published": "2026-07-26T16:25:41Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Ticket Details: Nantwich Town (A)",
+      "url": "https://chesterfc.com/07/26/ticket-details-nantwich-town-a/",
+      "published": "2026-07-26T16:11:19Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Catching up with Taylor Foran",
+      "url": "https://maidstoneunited.co.uk/07/26/catching-up-with-taylor-foran/",
+      "published": "2026-07-26T16:11:06Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "MATCH REPORT: ALTRINCHAM FC 2-5 MACCLESFIELD FC",
+      "url": "https://macclesfieldfc.com/latest-news/match-report-altrincham-fc-2-5-macclesfield-fc/",
+      "published": "2026-07-26T16:00:07Z"
+    },
+    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -589,15 +625,6 @@
       "title": "Gallery: Tottenham Hotspur U21s",
       "url": "https://hornchurchfc.com/gallery-tottenham-hotspur-u21s/",
       "published": "2026-07-26T15:25:05Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Ted Streeter – 90 not out",
-      "url": "https://www.horshamfc.co.uk/2026/07/26/ted-streeter-90-not-out/",
-      "published": "2026-07-26T14:00:49Z"
     },
     {
       "club": "Hereford",
@@ -681,15 +708,6 @@
       "published": "2026-07-26T11:00:41Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Sutton United v Horsham match report",
-      "url": "https://www.horshamfc.co.uk/2026/07/26/sutton-united-v-horsham-match-report/",
-      "published": "2026-07-26T11:00:15Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -760,15 +778,6 @@
       "title": "Gallery – Bishop’s Cleeve 1-2 Town",
       "url": "https://chippenhamtown.com/07/26/gallery-bishops-cleeve-1-2-town/",
       "published": "2026-07-26T08:30:15Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | FGR 1-5 Cardiff City",
-      "url": "https://www.fgr.co.uk/news/match-report-fgr-1-5-cardiff-city-26/",
-      "published": "2026-07-26T08:00:00Z"
     },
     {
       "club": "Dover Athletic",
@@ -933,15 +942,6 @@
       "published": "2026-07-25T17:40:09Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Changes to Horsham Community FC and Horsham FC C.I.C. Boards",
-      "url": "https://www.horshamfc.co.uk/2026/07/25/horsham-boards-change/",
-      "published": "2026-07-25T17:35:12Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -967,15 +967,6 @@
       "title": "REACTION | Downes Upbeat After Solihull Home Defeat",
       "url": "https://herefordfc.co.uk/2026/07/reaction-downes-upbeat-after-solihull-home-defeat/",
       "published": "2026-07-25T17:30:40Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Kyle Kelly | Post Cardiff (H)",
-      "url": "https://www.fgr.co.uk/news/kyle-kelly-post-cardiff-h/",
-      "published": "2026-07-25T17:30:00Z"
     },
     {
       "club": "Eastleigh",
@@ -1021,15 +1012,6 @@
       "title": "MATCH REPORT: Woking 0-2 Reading",
       "url": "https://wokingfc.co.uk/07/25/match-report-woking-0-2-reading/",
       "published": "2026-07-25T17:00:59Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage | Post Cardiff (H)",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-post-cardiff-h/",
-      "published": "2026-07-25T17:00:00Z"
     },
     {
       "club": "Yeovil Town",
@@ -1480,6 +1462,24 @@
       "title": "First Interview: Hassan Ayub",
       "url": "https://macclesfieldfc.com/latest-news/first-interview-hassan-ayub/",
       "published": "2026-07-24T16:30:45Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Ma’kel Campbell is a Blue!",
+      "url": "https://chesterfc.com/07/24/makel-campbell-is-a-blue/",
+      "published": "2026-07-24T16:30:17Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Craig Ross and Jake Hyde take interim charge of the first-team",
+      "url": "https://wokingfc.co.uk/07/24/craig-ross-and-jake-hyde-take-interim-charge-of-the-first-team/",
+      "published": "2026-07-24T16:14:01Z"
     }
   ]
 }
