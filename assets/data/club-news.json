@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-26T09:27:42Z",
+  "generatedAt": "2026-07-26T11:12:45Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -446,10 +446,10 @@
     {
       "club": "Dover Athletic",
       "domain": "doverathletic.com",
-      "feed": "https://doverathletic.com/news/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Eastbourne Borough",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,69 @@
   ],
   "items": [
     {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Injury Update | Emlyn Lewis",
+      "url": "https://wsmafc.co.uk/injury-update-emlyn-lewis/",
+      "published": "2026-07-26T11:00:41Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Jake Hicks Departs The Optima",
+      "url": "https://wsmafc.co.uk/jake-hicks-departs-the-optima/",
+      "published": "2026-07-26T10:35:57Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Inclusive Blues Meeting – 30th July",
+      "url": "https://chesterfc.com/07/26/inclusive-blues-meeting-30th-july/",
+      "published": "2026-07-26T10:05:56Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Bunmi Brace Helps Down Hamlet",
+      "url": "https://tonbridgeangels.co.uk/bunmi-brace-helps-down-hamlet/",
+      "published": "2026-07-26T09:57:04Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Ticket Information: Newcastle United U21s",
+      "url": "https://spennymoortownfc.co.uk/2026/07/26/ticket-information-newcastle-united-u21s-h/",
+      "published": "2026-07-26T09:54:11Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Gallery: Wigan Athletic (H)",
+      "url": "https://afcfylde.co.uk/news/2026/july/26/gallery--wigan-athletic--h-/",
+      "published": "2026-07-26T09:45:00Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Early Bird Season Ticket Offer Extended!",
+      "url": "https://afcfylde.co.uk/news/2026/july/26/early-bird-season-ticket-offer-extended--/",
+      "published": "2026-07-26T09:20:00Z"
+    },
+    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -598,15 +661,6 @@
       "title": "Gallery – Bishop’s Cleeve 1-2 Town",
       "url": "https://chippenhamtown.com/07/26/gallery-bishops-cleeve-1-2-town/",
       "published": "2026-07-26T08:30:15Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Report: Dover Athletic 1-0 Burgess Hill Town",
-      "url": "https://doverathletic.com/news/report-dover-athletic-1-0-burgess-hill-town/",
-      "published": "2026-07-26T06:46:54Z"
     },
     {
       "club": "Torquay United",
@@ -744,15 +798,6 @@
       "published": "2026-07-25T17:40:09Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Changes to Horsham Community FC and Horsham FC C.I.C. Boards",
-      "url": "https://www.horshamfc.co.uk/2026/07/25/horsham-boards-change/",
-      "published": "2026-07-25T17:35:12Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -805,6 +850,15 @@
       "title": "Hear From Sam Waller After Farnham Outing",
       "url": "https://rochdaleafc.co.uk/hear-from-sam-waller-after-farnham-outing/",
       "published": "2026-07-25T17:12:31Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Match Report: AFC Fylde 0-3 Wigan Athletic",
+      "url": "https://afcfylde.co.uk/news/2026/july/25/match-report--afc-fylde-0-3-wigan-athletic/",
+      "published": "2026-07-25T17:01:00Z"
     },
     {
       "club": "Woking",
@@ -1426,60 +1480,6 @@
       "title": "Alex Brown signs new one-year-deal!",
       "url": "https://chesterfc.com/07/24/alex-brown-signs-new-one-year-deal/",
       "published": "2026-07-24T13:30:13Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Moors Ready For Halifax Friendly Test",
-      "url": "https://spennymoortownfc.co.uk/2026/07/24/moors-ready-for-halifax-friendly-test/",
-      "published": "2026-07-24T13:11:39Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MATCH PREVIEW: ALTRINCHAM FC VS MACCLESFIELD FC",
-      "url": "https://macclesfieldfc.com/latest-news/match-preview-altrincham-fc-vs-macclesfield-fc/",
-      "published": "2026-07-24T13:00:42Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Hard Work Pays Off On Playing Surface",
-      "url": "https://spennymoortownfc.co.uk/2026/07/24/hard-work-pays-off-on-playing-surface/",
-      "published": "2026-07-24T12:58:24Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Trio earn first-year senior contracts!",
-      "url": "https://chesterfc.com/07/24/trio-earn-first-year-professional-contracts/",
-      "published": "2026-07-24T12:29:44Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "SIGNING | Youth Team Talent Tolley Joins Senior Squad",
-      "url": "https://herefordfc.co.uk/2026/07/signing-youth-team-talent-tolley-joins-senior-squad/",
-      "published": "2026-07-24T12:28:36Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Alty TV Interview | Owen Evans",
-      "url": "https://altrinchamfc.com/blogs/news/alty-tv-interview-owen-evans",
-      "published": "2026-07-24T12:03:31Z"
     }
   ]
 }
