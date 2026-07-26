@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-26T21:15:16Z",
+  "generatedAt": "2026-07-26T22:18:15Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.fgr.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Gateshead",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://harriers.co.uk/feed/",
+      "ok": true,
+      "count": 20,
+      "error": ""
     },
     {
       "club": "King's Lynn Town",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -985,6 +985,15 @@
       "title": "Inside Dale | Farnham Town (H)",
       "url": "https://rochdaleafc.co.uk/inside-dale-farnham-town-h/",
       "published": "2026-07-25T19:36:48Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Recap: Stratford 0-5 Harriers",
+      "url": "https://harriers.co.uk/news/2026/07/25/recap-stratford-0-5-harriers/",
+      "published": "2026-07-25T19:10:27Z"
     },
     {
       "club": "Curzon Ashton",
@@ -1471,15 +1480,6 @@
       "title": "Pools secure permanent return of Cameron John",
       "url": "https://www.hartlepoolunited.co.uk/pools-secure-permanent-return-of-cameron-john/",
       "published": "2026-07-24T17:57:29Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Plymouth Argyle (h) – All Tickets Issued",
-      "url": "https://trurocity.co.uk/2026/07/plymouth-argyle-h-all-tickets-issued/",
-      "published": "2026-07-24T17:24:56Z"
     }
   ]
 }
