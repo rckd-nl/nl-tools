@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-26T06:51:13Z",
+  "generatedAt": "2026-07-26T09:27:42Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3809,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -582,13 +582,22 @@
   ],
   "items": [
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | FGR 1-5 Cardiff City",
-      "url": "https://www.fgr.co.uk/news/match-report-fgr-1-5-cardiff-city-26/",
-      "published": "2026-07-26T08:00:00Z"
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Report: Moors 1 FC Halifax Town 3",
+      "url": "https://spennymoortownfc.co.uk/2026/07/26/report-moors-1-fc-halifax-town-3/",
+      "published": "2026-07-26T08:59:11Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Gallery – Bishop’s Cleeve 1-2 Town",
+      "url": "https://chippenhamtown.com/07/26/gallery-bishops-cleeve-1-2-town/",
+      "published": "2026-07-26T08:30:15Z"
     },
     {
       "club": "Dover Athletic",
@@ -771,15 +780,6 @@
       "published": "2026-07-25T17:30:40Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Kyle Kelly | Post Cardiff (H)",
-      "url": "https://www.fgr.co.uk/news/kyle-kelly-post-cardiff-h/",
-      "published": "2026-07-25T17:30:00Z"
-    },
-    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -814,15 +814,6 @@
       "title": "MATCH REPORT: Woking 0-2 Reading",
       "url": "https://wokingfc.co.uk/07/25/match-report-woking-0-2-reading/",
       "published": "2026-07-25T17:00:59Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage | Post Cardiff (H)",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-post-cardiff-h/",
-      "published": "2026-07-25T17:00:00Z"
     },
     {
       "club": "Yeovil Town",
@@ -1356,15 +1347,6 @@
       "published": "2026-07-24T15:49:55Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Gaffer On Mendy Leaving",
-      "url": "https://www.fgr.co.uk/news/rs-on-mendy/",
-      "published": "2026-07-24T15:45:00Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1381,15 +1363,6 @@
       "title": "John Rooney ahead of Altrincham clash",
       "url": "https://macclesfieldfc.com/latest-news/john-rooney-ahead-of-altrincham-clash/",
       "published": "2026-07-24T15:00:14Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Mendy Joins Hearts",
-      "url": "https://www.fgr.co.uk/news/mendy-to-hearts/",
-      "published": "2026-07-24T15:00:00Z"
     },
     {
       "club": "Torquay United",
@@ -1480,6 +1453,33 @@
       "title": "Hard Work Pays Off On Playing Surface",
       "url": "https://spennymoortownfc.co.uk/2026/07/24/hard-work-pays-off-on-playing-surface/",
       "published": "2026-07-24T12:58:24Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Trio earn first-year senior contracts!",
+      "url": "https://chesterfc.com/07/24/trio-earn-first-year-professional-contracts/",
+      "published": "2026-07-24T12:29:44Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "SIGNING | Youth Team Talent Tolley Joins Senior Squad",
+      "url": "https://herefordfc.co.uk/2026/07/signing-youth-team-talent-tolley-joins-senior-squad/",
+      "published": "2026-07-24T12:28:36Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Alty TV Interview | Owen Evans",
+      "url": "https://altrinchamfc.com/blogs/news/alty-tv-interview-owen-evans",
+      "published": "2026-07-24T12:03:31Z"
     }
   ]
 }
