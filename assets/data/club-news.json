@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-26T03:58:49Z",
+  "generatedAt": "2026-07-26T06:51:13Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -589,6 +589,15 @@
       "title": "Match Report | FGR 1-5 Cardiff City",
       "url": "https://www.fgr.co.uk/news/match-report-fgr-1-5-cardiff-city-26/",
       "published": "2026-07-26T08:00:00Z"
+    },
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Report: Dover Athletic 1-0 Burgess Hill Town",
+      "url": "https://doverathletic.com/news/report-dover-athletic-1-0-burgess-hill-town/",
+      "published": "2026-07-26T06:46:54Z"
     },
     {
       "club": "Torquay United",
@@ -724,6 +733,15 @@
       "title": "“𝗪𝗲 𝗹𝗼𝗼𝗸𝗲𝗱 𝗮 𝗹𝗶𝘁𝘁𝗹𝗲 𝗯𝗶𝘁 𝗼𝗳𝗳 𝗶𝘁” | Scott Rogers post – Exeter City (H)",
       "url": "https://wsmafc.co.uk/%f0%9d%97%aa%f0%9d%97%b2-%f0%9d%97%b9%f0%9d%97%bc%f0%9d%97%bc%f0%9d%97%b8%f0%9d%97%b2%f0%9d%97%b1-%f0%9d%97%ae-%f0%9d%97%b9%f0%9d%97%b6%f0%9d%98%81%f0%9d%98%81%f0%9d%97%b9%f0%9d%97%b2-%f0%9d%97%af/",
       "published": "2026-07-25T17:40:09Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Changes to Horsham Community FC and Horsham FC C.I.C. Boards",
+      "url": "https://www.horshamfc.co.uk/2026/07/25/horsham-boards-change/",
+      "published": "2026-07-25T17:35:12Z"
     },
     {
       "club": "Truro City",
@@ -1462,24 +1480,6 @@
       "title": "Hard Work Pays Off On Playing Surface",
       "url": "https://spennymoortownfc.co.uk/2026/07/24/hard-work-pays-off-on-playing-surface/",
       "published": "2026-07-24T12:58:24Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Trio earn first-year senior contracts!",
-      "url": "https://chesterfc.com/07/24/trio-earn-first-year-professional-contracts/",
-      "published": "2026-07-24T12:29:44Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "SIGNING | Youth Team Talent Tolley Joins Senior Squad",
-      "url": "https://herefordfc.co.uk/2026/07/signing-youth-team-talent-tolley-joins-senior-squad/",
-      "published": "2026-07-24T12:28:36Z"
     }
   ]
 }
