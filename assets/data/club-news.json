@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-27T19:57:41Z",
+  "generatedAt": "2026-07-27T21:32:13Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -706,6 +706,15 @@
       "title": "Boss excited for Aggborough bow",
       "url": "https://harriers.co.uk/news/2026/07/27/boss-excited-for-aggborough-bow/",
       "published": "2026-07-27T14:50:53Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Torquay Supporters’ Coach",
+      "url": "https://www.horshamfc.co.uk/2026/07/27/torquay-supporters-coach/",
+      "published": "2026-07-27T14:17:22Z"
     },
     {
       "club": "Boreham Wood",
@@ -1050,6 +1059,15 @@
       "published": "2026-07-26T17:50:20Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Hornettes accepted for Adobe Women’s FA Cup 2026-7",
+      "url": "https://www.horshamfc.co.uk/2026/07/26/hornettes-accepted-for-adobe-womens-fa-cup-2026-7/",
+      "published": "2026-07-26T17:01:00Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1091,7 +1109,7 @@
       "short": "Chester",
       "domain": "chesterfc.com",
       "title": "Ticket Details: Nantwich Town (A)",
-      "url": "https://chesterfc.com/07/26/ticket-details-nantwich-town-a/",
+      "url": "https://chesterfc.com/07/26/nantwich-town/",
       "published": "2026-07-26T16:11:19Z"
     },
     {
@@ -1120,6 +1138,15 @@
       "title": "Gallery: Tottenham Hotspur U21s",
       "url": "https://hornchurchfc.com/gallery-tottenham-hotspur-u21s/",
       "published": "2026-07-26T15:25:05Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Ted Streeter – 90 not out",
+      "url": "https://www.horshamfc.co.uk/2026/07/26/ted-streeter-90-not-out/",
+      "published": "2026-07-26T14:00:49Z"
     },
     {
       "club": "Hereford",
@@ -1174,6 +1201,15 @@
       "title": "Injury Update | Emlyn Lewis",
       "url": "https://wsmafc.co.uk/injury-update-emlyn-lewis/",
       "published": "2026-07-26T11:00:41Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Sutton United v Horsham match report",
+      "url": "https://www.horshamfc.co.uk/2026/07/26/sutton-united-v-horsham-match-report/",
+      "published": "2026-07-26T11:00:15Z"
     },
     {
       "club": "York City",
@@ -1428,6 +1464,15 @@
       "published": "2026-07-25T17:40:09Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Changes to Horsham Community FC and Horsham FC C.I.C. Boards",
+      "url": "https://www.horshamfc.co.uk/2026/07/25/horsham-boards-change/",
+      "published": "2026-07-25T17:35:12Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1435,51 +1480,6 @@
       "title": "Truro City 0 Plymouth Argyle 1 – Match Report",
       "url": "https://trurocity.co.uk/2026/07/truro-city-0-plymouth-argyle-1-match-report/",
       "published": "2026-07-25T17:33:18Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "REACTION | Downes Upbeat After Solihull Home Defeat",
-      "url": "https://herefordfc.co.uk/2026/07/reaction-downes-upbeat-after-solihull-home-defeat/",
-      "published": "2026-07-25T17:30:40Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Kyle Kelly | Post Cardiff (H)",
-      "url": "https://www.fgr.co.uk/news/kyle-kelly-post-cardiff-h/",
-      "published": "2026-07-25T17:30:00Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Interview: Matt Gray Post-Crawley Defeat",
-      "url": "https://eastleighfc.com/2026/07/interview-matt-gray-post-crawley-defeat/",
-      "published": "2026-07-25T17:25:24Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Macc take the derby day honours after Alty let early lead slip",
-      "url": "https://altrinchamfc.com/blogs/news/macclesfield-pre-season",
-      "published": "2026-07-25T17:23:45Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Hear From Sam Waller After Farnham Outing",
-      "url": "https://rochdaleafc.co.uk/hear-from-sam-waller-after-farnham-outing/",
-      "published": "2026-07-25T17:12:31Z"
     }
   ]
 }
