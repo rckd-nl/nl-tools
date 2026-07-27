@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-27T14:05:12Z",
+  "generatedAt": "2026-07-27T16:45:14Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,23 +81,23 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='fgr.co.uk', port=443): Read timed out. (read timeout=25)"
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
       "domain": "hartlepoolunited.co.uk",
-      "feed": "https://www.hartlepoolunited.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='hartlepoolunited.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Morecambe",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://harriers.co.uk/feed/",
+      "ok": true,
+      "count": 20,
+      "error": ""
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -582,6 +582,105 @@
   ],
   "items": [
     {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Match Preview | Peterborough United (H) | Tuesday 28th July",
+      "url": "https://yorkcityfootballclub.co.uk/match-preview-peterborough-united-h-tuesday-28th-july/",
+      "published": "2026-07-27T16:03:16Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Sherring’s Opening Club Interview",
+      "url": "https://rochdaleafc.co.uk/sherrings-opening-club-interview/",
+      "published": "2026-07-27T16:01:45Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "Inside Matchday: Altrincham vs Macclesfield",
+      "url": "https://macclesfieldfc.com/latest-news/inside-matchday-altrincham-vs-macclesfield/",
+      "published": "2026-07-27T16:00:01Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Dale Add Sam Sherring",
+      "url": "https://rochdaleafc.co.uk/dale-add-sam-sherring/",
+      "published": "2026-07-27T15:58:32Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Stones spend time at Prison Island",
+      "url": "https://maidstoneunited.co.uk/07/27/stones-spend-time-at-prison-island/",
+      "published": "2026-07-27T15:56:47Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "AWAY TICKETS | Farnham Town",
+      "url": "https://torquayunited.com/away-tickets-farnham-town/",
+      "published": "2026-07-27T15:55:25Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Brentwood Town",
+      "url": "https://maidstoneunited.co.uk/07/27/key-info-brentwood-town-2/",
+      "published": "2026-07-27T15:09:47Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "TICKET NEWS: MARINE (A)",
+      "url": "https://macclesfieldfc.com/latest-news/ticket-news-marine-a-2/",
+      "published": "2026-07-27T15:00:18Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Boss excited for Aggborough bow",
+      "url": "https://harriers.co.uk/news/2026/07/27/boss-excited-for-aggborough-bow/",
+      "published": "2026-07-27T14:50:53Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Torquay Supporters’ Coach",
+      "url": "https://www.horshamfc.co.uk/2026/07/27/torquay-supporters-coach/",
+      "published": "2026-07-27T14:17:22Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Match day guide: Dagenham & Redbridge (A)",
+      "url": "https://www.borehamwoodfootballclub.co.uk/match-day-guide-dagenham-redbridge-a/",
+      "published": "2026-07-27T14:10:19Z"
+    },
+    {
       "club": "Bath City",
       "code": "BAT",
       "short": "Bath",
@@ -751,6 +850,15 @@
       "title": "Stephenson Set For Spell On Sidelines",
       "url": "https://spennymoortownfc.co.uk/2026/07/27/stephenson-set-for-spell-on-sidelines/",
       "published": "2026-07-27T09:26:31Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Hornchurch tickets on sale",
+      "url": "https://harriers.co.uk/news/2026/07/27/hornchurch-tickets-on-sale/",
+      "published": "2026-07-27T09:10:50Z"
     },
     {
       "club": "Macclesfield",
@@ -1005,33 +1113,6 @@
       "published": "2026-07-26T13:00:38Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "IN PICTURES: ONE YEAR OF LUKE MATHESON",
-      "url": "https://macclesfieldfc.com/latest-news/in-pictures-one-year-of-luke-matheson-2/",
-      "published": "2026-07-26T13:00:37Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "First Words: Nathan Fisher",
-      "url": "https://www.hartlepoolunited.co.uk/first-words-nathan-fisher/",
-      "published": "2026-07-26T12:58:38Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Pools add goalkeeper Nathan Fisher",
-      "url": "https://www.hartlepoolunited.co.uk/pools-add-goalkeeper-nathan-fisher/",
-      "published": "2026-07-26T12:58:04Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1039,15 +1120,6 @@
       "title": "Post Match: Ashford United",
       "url": "https://maidstoneunited.co.uk/07/26/post-match-ashford-united/",
       "published": "2026-07-26T12:52:04Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "Adan George after Altrincham victory",
-      "url": "https://macclesfieldfc.com/latest-news/adan-george-after-altrincham-victory/",
-      "published": "2026-07-26T12:00:38Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1248,6 +1320,15 @@
       "published": "2026-07-25T19:36:48Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Recap: Stratford 0-5 Harriers",
+      "url": "https://harriers.co.uk/news/2026/07/25/recap-stratford-0-5-harriers/",
+      "published": "2026-07-25T19:10:27Z"
+    },
+    {
       "club": "Curzon Ashton",
       "code": "CUR",
       "short": "Curzon Ashton",
@@ -1255,6 +1336,24 @@
       "title": "Match report | Clitheroe (H)",
       "url": "https://curzon-ashton.co.uk/match-report-clitheroe-h/",
       "published": "2026-07-25T18:34:54Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "PSF | Warrington Town 2 Southport 3",
+      "url": "https://southportfc.net/psf-warrington-town-2-southport-3/",
+      "published": "2026-07-25T18:25:51Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Post Match | Neil After The 3-2 Pre-Season Win At Warrington Town",
+      "url": "https://southportfc.net/post-match-neil-after-the-3-2-pre-season-win-at-warrington-town/",
+      "published": "2026-07-25T18:15:51Z"
     },
     {
       "club": "Dorking Wanderers",
@@ -1381,105 +1480,6 @@
       "title": "Anthony Millerick Post Hartley Wintney (H)",
       "url": "https://farnboroughfc.co.uk/2026/07/anthony-millerick-post-hartley-wintney-h/",
       "published": "2026-07-25T16:51:18Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Report: Grecians beat Seagulls in penultimate friendly",
-      "url": "https://wsmafc.co.uk/exeter-report/",
-      "published": "2026-07-25T16:50:09Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Dale Held In Farnham Friendly",
-      "url": "https://rochdaleafc.co.uk/dale-held-in-farnham-friendly/",
-      "published": "2026-07-25T16:46:38Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Report: Eastleigh 0-1 Crawley Town",
-      "url": "https://eastleighfc.com/2026/07/report-eastleigh-0-1-crawley-town/",
-      "published": "2026-07-25T16:23:55Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Match Report: Ashford United",
-      "url": "https://maidstoneunited.co.uk/07/25/match-report-ashford-united/",
-      "published": "2026-07-25T15:57:19Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "CFC Community Trust Weekly Update",
-      "url": "https://chesterfc.com/07/25/cfc-community-trust-weekly-update-7/",
-      "published": "2026-07-25T15:09:15Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Jimmy Ball | Cardiff City U21s | Pre-Season 2026-27",
-      "url": "https://torquayunited.com/jimmy-ball-cardiff-city-u21s-pre-season-2026-27/",
-      "published": "2026-07-25T14:22:38Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Report | Dale Women 2-3 Farnham Town",
-      "url": "https://rochdaleafc.co.uk/report-dale-women-2-3-farnham-town/",
-      "published": "2026-07-25T13:13:09Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Match Report: Worthing FC Women 0-2 AFC Portchester Ladies",
-      "url": "https://worthingfc.com/2026/07/match-report-worthing-fc-women-0-2-afc-portchester-ladies/",
-      "published": "2026-07-25T13:04:35Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Welcome to Farnborough: Alex Walder",
-      "url": "https://farnboroughfc.co.uk/2026/07/welcome-to-farnborough-alex-walder/",
-      "published": "2026-07-25T13:00:51Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "REPORT: UNITED 5 – 0 CARDIFF U21S",
-      "url": "https://torquayunited.com/report-united-5-0-cardiff-u21s/",
-      "published": "2026-07-25T12:59:24Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "LOAN | Bulls Bring In Winger Roberts From Fleetwood",
-      "url": "https://herefordfc.co.uk/2026/07/loan-bulls-bring-in-winger-roberts-from-fleetwood/",
-      "published": "2026-07-25T12:00:59Z"
     }
   ]
 }
