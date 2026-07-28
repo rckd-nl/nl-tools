@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-28T16:25:52Z",
+  "generatedAt": "2026-07-28T18:07:23Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,18 +78,18 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3814,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://harriers.co.uk/feed/",
+      "ok": true,
+      "count": 20,
+      "error": ""
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -582,6 +582,60 @@
   ],
   "items": [
     {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Welcome Sonny Fish",
+      "url": "https://doverathletic.com/news/welcome-sonny-fish/",
+      "published": "2026-07-28T17:31:42Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "BRADBURY-ALLEN AGREES ADDITIONAL TERMS & TIGERS LOAN",
+      "url": "https://macclesfieldfc.com/latest-news/bradbury-allen-agrees-additional-terms-tigers-loan/",
+      "published": "2026-07-28T17:30:10Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "LOAN | Merrett Makes Bulls Move From Forest Green",
+      "url": "https://herefordfc.co.uk/2026/07/loan-merrett-makes-bulls-move-from-forest-green/",
+      "published": "2026-07-28T17:30:09Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Dale Move For Winger Silcott-Duberry",
+      "url": "https://rochdaleafc.co.uk/dale-move-for-winger-silcott-duberry/",
+      "published": "2026-07-28T17:29:08Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Ramell Carter | First Interview",
+      "url": "https://worthingfc.com/2026/07/ramell-carter-first-interview/",
+      "published": "2026-07-28T17:15:43Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Charles Clayden is a Dagger",
+      "url": "https://daggers.co.uk/charles-clayden-is-a-dagger/",
+      "published": "2026-07-28T17:13:20Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -643,6 +697,15 @@
       "title": "Pools announce digital partnership with Urban Zoo",
       "url": "https://www.hartlepoolunited.co.uk/pools-announce-digital-partnership-with-urban-zoo/",
       "published": "2026-07-28T14:29:02Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Southport Game Selected For TV Coverage",
+      "url": "https://southportfc.net/southport-game-selected-for-tv-coverage/",
+      "published": "2026-07-28T14:18:56Z"
     },
     {
       "club": "Torquay United",
@@ -715,15 +778,6 @@
       "title": "MATCH PREVIEW: TAMWORTH FC VS MACCLESFIELD FC",
       "url": "https://macclesfieldfc.com/latest-news/match-preview-tamworth-fc-vs-macclesfield-fc/",
       "published": "2026-07-28T13:00:17Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Kyle Kelly First Word",
-      "url": "https://www.fgr.co.uk/news/kyle-kelly-first-word/",
-      "published": "2026-07-28T13:00:00Z"
     },
     {
       "club": "Truro City",
@@ -915,15 +969,6 @@
       "published": "2026-07-28T10:00:34Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "August is Family Month at FGR",
-      "url": "https://www.fgr.co.uk/news/August-at-FGR/",
-      "published": "2026-07-28T10:00:00Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -969,24 +1014,6 @@
       "published": "2026-07-28T09:00:26Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Collect your Season Ticket now!",
-      "url": "https://www.fgr.co.uk/news/collect-2627-season-ticket/",
-      "published": "2026-07-28T09:00:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Info | Bristol City (H)",
-      "url": "https://www.fgr.co.uk/news/match-info-bristol-city/",
-      "published": "2026-07-28T09:00:00Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1003,6 +1030,15 @@
       "title": "Academy Granted Category Three Status",
       "url": "https://rochdaleafc.co.uk/academy-granted-category-three-status/",
       "published": "2026-07-28T08:58:06Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "PSF | Southport v Wigan Athletic Friday 7.45pm",
+      "url": "https://southportfc.net/psf-southport-v-wigan-athletic-friday-7-45pm/",
+      "published": "2026-07-28T07:32:35Z"
     },
     {
       "club": "Boreham Wood",
@@ -1113,6 +1149,15 @@
       "published": "2026-07-27T15:00:18Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Boss excited for Aggborough bow",
+      "url": "https://harriers.co.uk/news/2026/07/27/boss-excited-for-aggborough-bow/",
+      "published": "2026-07-27T14:50:53Z"
+    },
+    {
       "club": "Horsham",
       "code": "HRS",
       "short": "Horsham",
@@ -1138,15 +1183,6 @@
       "title": "Match Preview – Melksham Town (A) – Pre-Season Friendly",
       "url": "https://www.bathcityfc.com/match-preview-melksham-town-a-pre-season-friendly/",
       "published": "2026-07-27T14:00:46Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Away Travel on Sale Now for 2026!",
-      "url": "https://www.fgr.co.uk/news/away-travel-on-sale-now-for-2026/",
-      "published": "2026-07-27T14:00:00Z"
     },
     {
       "club": "Yeovil Town",
@@ -1266,15 +1302,6 @@
       "published": "2026-07-27T10:00:33Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "ACTION REPLAY: ALTRINCHAM",
-      "url": "https://macclesfieldfc.com/latest-news/action-replay-altrincham-2/",
-      "published": "2026-07-27T10:00:32Z"
-    },
-    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -1282,15 +1309,6 @@
       "title": "CTFC Club Shop to open on Saturday 1st August",
       "url": "https://chippenhamtown.com/07/27/ctfc-club-shop-to-open-on-saturday-1st-august/",
       "published": "2026-07-27T10:00:01Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Fan Engagement Day | Summer 2026",
-      "url": "https://www.fgr.co.uk/news/fan-engagement-day-summer-2026/",
-      "published": "2026-07-27T10:00:00Z"
     },
     {
       "club": "AFC Fylde",
@@ -1309,6 +1327,15 @@
       "title": "Stephenson Set For Spell On Sidelines",
       "url": "https://spennymoortownfc.co.uk/2026/07/27/stephenson-set-for-spell-on-sidelines/",
       "published": "2026-07-27T09:26:31Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Hornchurch tickets on sale",
+      "url": "https://harriers.co.uk/news/2026/07/27/hornchurch-tickets-on-sale/",
+      "published": "2026-07-27T09:10:50Z"
     },
     {
       "club": "Hornchurch",
@@ -1453,33 +1480,6 @@
       "title": "Report: Spurs U21s",
       "url": "https://hornchurchfc.com/report-spurs-u21s/",
       "published": "2026-07-26T17:50:20Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Hornettes accepted for Adobe Women’s FA Cup 2026-7",
-      "url": "https://www.horshamfc.co.uk/2026/07/26/hornettes-accepted-for-adobe-womens-fa-cup-2026-7/",
-      "published": "2026-07-26T17:01:00Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Hospitality: Coventry City U21s",
-      "url": "https://hornchurchfc.com/hospitality-coventry-city-u21s/",
-      "published": "2026-07-26T16:47:53Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Gallery | Clitheroe (H)",
-      "url": "https://curzon-ashton.co.uk/gallery-clitheroe-h/",
-      "published": "2026-07-26T16:25:41Z"
     }
   ]
 }
