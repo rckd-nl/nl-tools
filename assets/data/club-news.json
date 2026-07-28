@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-28T01:09:45Z",
+  "generatedAt": "2026-07-28T04:31:17Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3810,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -735,15 +735,6 @@
       "published": "2026-07-27T14:00:46Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Away Travel on Sale Now for 2026!",
-      "url": "https://www.fgr.co.uk/news/away-travel-on-sale-now-for-2026/",
-      "published": "2026-07-27T14:00:00Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -877,15 +868,6 @@
       "title": "CTFC Club Shop to open on Saturday 1st August",
       "url": "https://chippenhamtown.com/07/27/ctfc-club-shop-to-open-on-saturday-1st-august/",
       "published": "2026-07-27T10:00:01Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Fan Engagement Day | Summer 2026",
-      "url": "https://www.fgr.co.uk/news/fan-engagement-day-summer-2026/",
-      "published": "2026-07-27T10:00:00Z"
     },
     {
       "club": "AFC Fylde",
@@ -1293,15 +1275,6 @@
       "published": "2026-07-26T08:30:15Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | FGR 1-5 Cardiff City",
-      "url": "https://www.fgr.co.uk/news/match-report-fgr-1-5-cardiff-city-26/",
-      "published": "2026-07-26T08:00:00Z"
-    },
-    {
       "club": "Dover Athletic",
       "code": "DOV",
       "short": "Dover",
@@ -1480,6 +1453,33 @@
       "title": "Truro City 0 Plymouth Argyle 1 – Match Report",
       "url": "https://trurocity.co.uk/2026/07/truro-city-0-plymouth-argyle-1-match-report/",
       "published": "2026-07-25T17:33:18Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "REACTION | Downes Upbeat After Solihull Home Defeat",
+      "url": "https://herefordfc.co.uk/2026/07/reaction-downes-upbeat-after-solihull-home-defeat/",
+      "published": "2026-07-25T17:30:40Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Interview: Matt Gray Post-Crawley Defeat",
+      "url": "https://eastleighfc.com/2026/07/interview-matt-gray-post-crawley-defeat/",
+      "published": "2026-07-25T17:25:24Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Macc take the derby day honours after Alty let early lead slip",
+      "url": "https://altrinchamfc.com/blogs/news/macclesfield-pre-season",
+      "published": "2026-07-25T17:23:45Z"
     }
   ]
 }
