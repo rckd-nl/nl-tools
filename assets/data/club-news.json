@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-28T21:35:06Z",
+  "generatedAt": "2026-07-28T22:48:06Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3814,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -446,10 +446,10 @@
     {
       "club": "Dover Athletic",
       "domain": "doverathletic.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "feed": "https://doverathletic.com/news/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Eastbourne Borough",
@@ -582,6 +582,51 @@
   ],
   "items": [
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Match Report: Brentwood Town",
+      "url": "https://maidstoneunited.co.uk/07/28/match-report-brentwood-town/",
+      "published": "2026-07-28T22:24:18Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Donovan Wilson free-kick ensures Melksham Town pre-season draw",
+      "url": "https://www.bathcityfc.com/donovan-wilson-free-kick-ensures-melksham-town-pre-season-draw/",
+      "published": "2026-07-28T22:17:27Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Boateng docks at the Gallagher",
+      "url": "https://maidstoneunited.co.uk/07/28/boateng-docks-at-the-gallagher/",
+      "published": "2026-07-28T21:59:25Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Match Report | York City 1-2 Peterborough United",
+      "url": "https://yorkcityfootballclub.co.uk/match-report-york-city-1-2-peterborough-united/",
+      "published": "2026-07-28T21:51:56Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Nana Boateng is a Stone.",
+      "url": "https://maidstoneunited.co.uk/07/28/nana-boateng-is-a-stone/",
+      "published": "2026-07-28T21:50:23Z"
+    },
+    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -627,6 +672,15 @@
       "published": "2026-07-28T18:05:04Z"
     },
     {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Welcome Sonny Fish",
+      "url": "https://doverathletic.com/news/welcome-sonny-fish/",
+      "published": "2026-07-28T17:31:42Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -661,15 +715,6 @@
       "title": "Ramell Carter | First Interview",
       "url": "https://worthingfc.com/2026/07/ramell-carter-first-interview/",
       "published": "2026-07-28T17:15:43Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Charles Clayden is a Dagger",
-      "url": "https://daggers.co.uk/charles-clayden-is-a-dagger/",
-      "published": "2026-07-28T17:13:20Z"
     },
     {
       "club": "Macclesfield",
@@ -816,15 +861,6 @@
       "published": "2026-07-28T13:00:17Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Kyle Kelly First Word",
-      "url": "https://www.fgr.co.uk/news/kyle-kelly-first-word/",
-      "published": "2026-07-28T13:00:00Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -850,15 +886,6 @@
       "title": "Truro City Lottery – Weekly Winners 24/07/26",
       "url": "https://trurocity.co.uk/2026/07/truro-city-lottery-weekly-winners-24-07-26/",
       "published": "2026-07-28T12:47:49Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Supporters’ Club Coach Travel – August Away Fixtures",
-      "url": "https://daggers.co.uk/supporters-club-coach-travel-august-away-fixtures/",
-      "published": "2026-07-28T12:47:02Z"
     },
     {
       "club": "Radcliffe",
@@ -1005,15 +1032,6 @@
       "published": "2026-07-28T10:00:34Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "August is Family Month at FGR",
-      "url": "https://www.fgr.co.uk/news/August-at-FGR/",
-      "published": "2026-07-28T10:00:00Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1057,24 +1075,6 @@
       "title": "Cory Adjetey-Brew | First Interview",
       "url": "https://worthingfc.com/2026/07/cory-adjetey-brew-first-interview/",
       "published": "2026-07-28T09:00:26Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Collect your Season Ticket now!",
-      "url": "https://www.fgr.co.uk/news/collect-2627-season-ticket/",
-      "published": "2026-07-28T09:00:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Info | Bristol City (H)",
-      "url": "https://www.fgr.co.uk/news/match-info-bristol-city/",
-      "published": "2026-07-28T09:00:00Z"
     },
     {
       "club": "Southend United",
@@ -1239,15 +1239,6 @@
       "published": "2026-07-27T14:00:46Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Away Travel on Sale Now for 2026!",
-      "url": "https://www.fgr.co.uk/news/away-travel-on-sale-now-for-2026/",
-      "published": "2026-07-27T14:00:00Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1374,15 +1365,6 @@
       "published": "2026-07-27T10:00:01Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Fan Engagement Day | Summer 2026",
-      "url": "https://www.fgr.co.uk/news/fan-engagement-day-summer-2026/",
-      "published": "2026-07-27T10:00:00Z"
-    },
-    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -1480,6 +1462,24 @@
       "title": "Golden Letter Draw Results",
       "url": "https://marinefc.com/golden-letter-draw-results/",
       "published": "2026-07-26T20:48:00Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Gallery: WsM AFC 0 – 2 Exeter City",
+      "url": "https://wsmafc.co.uk/gallery-exeter-city-home/",
+      "published": "2026-07-26T20:00:48Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Taunton Town Friendly Cancelled",
+      "url": "https://trurocity.co.uk/2026/07/taunton-town-friendly-cancelled/",
+      "published": "2026-07-26T19:43:09Z"
     }
   ]
 }
