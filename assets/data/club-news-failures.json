@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-29T12:38:03Z",
+  "generatedAt": "2026-07-29T15:02:07Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -9,14 +9,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 403"
-    },
-    {
-      "club": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
     },
     {
       "club": "Boston United",
@@ -56,7 +48,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Morecambe",
