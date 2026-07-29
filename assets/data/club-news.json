@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-29T15:02:07Z",
+  "generatedAt": "2026-07-29T16:41:55Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,18 +78,18 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3815,
+      "error": ""
     },
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,60 @@
   ],
   "items": [
     {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Medical Update 29/07/26",
+      "url": "https://dwfc.co.uk/2026/07/medical-update-29-07-26/",
+      "published": "2026-07-29T16:15:08Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Home Tickets & Hospitality On Sale Friday",
+      "url": "https://southendunited.co.uk/news/2026/july/29/home-tickets---hospitality-on-sale-soon/",
+      "published": "2026-07-29T16:07:31Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "Inside Matchday: Tamworth vs Macclesfield",
+      "url": "https://macclesfieldfc.com/latest-news/inside-matchday-tamworth-vs-macclesfield/",
+      "published": "2026-07-29T16:00:57Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Win the Women’s & Girls Principal Partnership for the 2026/27 Season",
+      "url": "https://wsmafc.co.uk/womens-girls-principal-partner-2627/",
+      "published": "2026-07-29T16:00:13Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Swindon Town Update",
+      "url": "https://www.fgr.co.uk/news/stfc-psf-update/",
+      "published": "2026-07-29T16:00:00Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "First Interview: Reece Johnson joins the Spitfires on loan",
+      "url": "https://eastleighfc.com/2026/07/first-interview-reece-johnson-joins-the-spitfires-on-loan/",
+      "published": "2026-07-29T15:12:09Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -600,15 +654,6 @@
       "published": "2026-07-29T14:58:09Z"
     },
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Visiting Supporters Tickets For Hebburn Town Away",
-      "url": "https://southportfc.net/visiting-supporters-tickets-for-hebburn-town-away/",
-      "published": "2026-07-29T14:39:24Z"
-    },
-    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -616,15 +661,6 @@
       "title": "Official: Johnson joins the Spitfires on loan",
       "url": "https://eastleighfc.com/2026/07/official-johnson-joins-the-spitfires-on-loan/",
       "published": "2026-07-29T14:30:11Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "On the Road: Hornchurch",
-      "url": "https://harriers.co.uk/news/2026/07/29/on-the-road-hornchurch/",
-      "published": "2026-07-29T14:27:24Z"
     },
     {
       "club": "Macclesfield",
@@ -645,15 +681,6 @@
       "published": "2026-07-29T13:48:10Z"
     },
     {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Hospitality ranked among the best in non-league football",
-      "url": "https://harriers.co.uk/news/2026/07/29/hospitality-ranked-among-the-best-in-non-league-football/",
-      "published": "2026-07-29T13:46:39Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -670,15 +697,6 @@
       "title": "Tickets For Carabao Cup Prelim On Sale",
       "url": "https://rochdaleafc.co.uk/tickets-for-carabao-cup-prelim-on-sale/",
       "published": "2026-07-29T12:58:21Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Non League Paper",
-      "url": "https://southportfc.net/non-legaue-paper/",
-      "published": "2026-07-29T12:57:04Z"
     },
     {
       "club": "Enfield Town",
@@ -769,15 +787,6 @@
       "title": "New York Gate Opens at Twerton Park in Accessibility Milestone",
       "url": "https://www.bathcityfc.com/new-york-gate-opens-at-twerton-park-in-accessibility-milestone/",
       "published": "2026-07-29T10:30:33Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Boss: Lots to work on",
-      "url": "https://harriers.co.uk/news/2026/07/29/boss-lots-to-work-on/",
-      "published": "2026-07-29T10:03:20Z"
     },
     {
       "club": "Radcliffe",
@@ -996,15 +1005,6 @@
       "published": "2026-07-28T21:06:28Z"
     },
     {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Recap: Harriers 0-0 Alvechurch",
-      "url": "https://harriers.co.uk/news/2026/07/28/recap-harriers-alvechurch/",
-      "published": "2026-07-28T19:53:32Z"
-    },
-    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -1057,15 +1057,6 @@
       "title": "Ramell Carter | First Interview",
       "url": "https://worthingfc.com/2026/07/ramell-carter-first-interview/",
       "published": "2026-07-28T17:15:43Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Charles Clayden is a Dagger",
-      "url": "https://daggers.co.uk/charles-clayden-is-a-dagger/",
-      "published": "2026-07-28T17:13:20Z"
     },
     {
       "club": "Macclesfield",
@@ -1129,15 +1120,6 @@
       "title": "Pools announce digital partnership with Urban Zoo",
       "url": "https://www.hartlepoolunited.co.uk/pools-announce-digital-partnership-with-urban-zoo/",
       "published": "2026-07-28T14:29:02Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Southport Game Selected For TV Coverage",
-      "url": "https://southportfc.net/southport-game-selected-for-tv-coverage/",
-      "published": "2026-07-28T14:18:56Z"
     },
     {
       "club": "Torquay United",
@@ -1212,6 +1194,15 @@
       "published": "2026-07-28T13:00:17Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Kyle Kelly First Word",
+      "url": "https://www.fgr.co.uk/news/kyle-kelly-first-word/",
+      "published": "2026-07-28T13:00:00Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1237,15 +1228,6 @@
       "title": "Truro City Lottery – Weekly Winners 24/07/26",
       "url": "https://trurocity.co.uk/2026/07/truro-city-lottery-weekly-winners-24-07-26/",
       "published": "2026-07-28T12:47:49Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Supporters’ Club Coach Travel – August Away Fixtures",
-      "url": "https://daggers.co.uk/supporters-club-coach-travel-august-away-fixtures/",
-      "published": "2026-07-28T12:47:02Z"
     },
     {
       "club": "Radcliffe",
@@ -1401,6 +1383,15 @@
       "published": "2026-07-28T10:00:34Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "August is Family Month at FGR",
+      "url": "https://www.fgr.co.uk/news/August-at-FGR/",
+      "published": "2026-07-28T10:00:00Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1446,6 +1437,24 @@
       "published": "2026-07-28T09:00:26Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Collect your Season Ticket now!",
+      "url": "https://www.fgr.co.uk/news/collect-2627-season-ticket/",
+      "published": "2026-07-28T09:00:00Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Info | Bristol City (H)",
+      "url": "https://www.fgr.co.uk/news/match-info-bristol-city/",
+      "published": "2026-07-28T09:00:00Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1453,15 +1462,6 @@
       "title": "Roots Hall Stadium Food & Beverage Policy",
       "url": "https://southendunited.co.uk/news/2026/july/28/77e8b4a0-8a1d-11f1-a699-f1a5c3d86513/",
       "published": "2026-07-28T09:00:00Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "PSF | Southport v Wigan Athletic Friday 7.45pm",
-      "url": "https://southportfc.net/psf-southport-v-wigan-athletic-friday-7-45pm/",
-      "published": "2026-07-28T07:32:35Z"
     },
     {
       "club": "Boreham Wood",
