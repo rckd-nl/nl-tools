@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-29T04:33:12Z",
+  "generatedAt": "2026-07-29T07:36:44Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3814,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Report: Dover Athletic 2-2 Herne Bay",
+      "url": "https://doverathletic.com/news/report-dover-athletic-2-2-herne-bay/",
+      "published": "2026-07-29T07:34:31Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Match Report | Radcliffe 0-2 Bolton Wanderers XI",
+      "url": "https://radcliffefc.com/match-report-radcliffe-0-2-bolton-wanderers-xi/",
+      "published": "2026-07-29T06:00:52Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -879,15 +897,6 @@
       "published": "2026-07-28T13:00:17Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Kyle Kelly First Word",
-      "url": "https://www.fgr.co.uk/news/kyle-kelly-first-word/",
-      "published": "2026-07-28T13:00:00Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1077,15 +1086,6 @@
       "published": "2026-07-28T10:00:34Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "August is Family Month at FGR",
-      "url": "https://www.fgr.co.uk/news/August-at-FGR/",
-      "published": "2026-07-28T10:00:00Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1129,24 +1129,6 @@
       "title": "Cory Adjetey-Brew | First Interview",
       "url": "https://worthingfc.com/2026/07/cory-adjetey-brew-first-interview/",
       "published": "2026-07-28T09:00:26Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Collect your Season Ticket now!",
-      "url": "https://www.fgr.co.uk/news/collect-2627-season-ticket/",
-      "published": "2026-07-28T09:00:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Info | Bristol City (H)",
-      "url": "https://www.fgr.co.uk/news/match-info-bristol-city/",
-      "published": "2026-07-28T09:00:00Z"
     },
     {
       "club": "Southend United",
@@ -1320,15 +1302,6 @@
       "published": "2026-07-27T14:00:46Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Away Travel on Sale Now for 2026!",
-      "url": "https://www.fgr.co.uk/news/away-travel-on-sale-now-for-2026/",
-      "published": "2026-07-27T14:00:00Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1455,15 +1428,6 @@
       "published": "2026-07-27T10:00:01Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Fan Engagement Day | Summer 2026",
-      "url": "https://www.fgr.co.uk/news/fan-engagement-day-summer-2026/",
-      "published": "2026-07-27T10:00:00Z"
-    },
-    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -1480,6 +1444,42 @@
       "title": "Stephenson Set For Spell On Sidelines",
       "url": "https://spennymoortownfc.co.uk/2026/07/27/stephenson-set-for-spell-on-sidelines/",
       "published": "2026-07-27T09:26:31Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Hornchurch tickets on sale",
+      "url": "https://harriers.co.uk/news/2026/07/27/hornchurch-tickets-on-sale/",
+      "published": "2026-07-27T09:10:50Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Tickets: Kidderminster Harriers (H)",
+      "url": "https://hornchurchfc.com/tickets-kidderminster-harriers-h/",
+      "published": "2026-07-27T08:59:34Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Bognor Regis Friendly Cancelled",
+      "url": "https://eastleighfc.com/2026/07/bognor-regis-friendly-cancelled/",
+      "published": "2026-07-27T08:58:16Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Book Away Travel For Opener At Morecambe",
+      "url": "https://spennymoortownfc.co.uk/2026/07/27/book-away-travel-for-opener-at-morecambe/",
+      "published": "2026-07-27T08:48:19Z"
     }
   ]
 }
