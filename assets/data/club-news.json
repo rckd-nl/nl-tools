@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-29T01:13:11Z",
+  "generatedAt": "2026-07-29T04:33:12Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -987,6 +987,15 @@
       "published": "2026-07-28T11:30:44Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Women’s Open Training Tomorrow Night",
+      "url": "https://www.horshamfc.co.uk/2026/07/28/womens-open-training-tomorrow-night/",
+      "published": "2026-07-28T11:30:10Z"
+    },
+    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -1284,6 +1293,15 @@
       "published": "2026-07-27T14:50:53Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Torquay Supporters’ Coach",
+      "url": "https://www.horshamfc.co.uk/2026/07/27/torquay-supporters-coach/",
+      "published": "2026-07-27T14:17:22Z"
+    },
+    {
       "club": "Boreham Wood",
       "code": "BHW",
       "short": "Boreham Wood",
@@ -1462,24 +1480,6 @@
       "title": "Stephenson Set For Spell On Sidelines",
       "url": "https://spennymoortownfc.co.uk/2026/07/27/stephenson-set-for-spell-on-sidelines/",
       "published": "2026-07-27T09:26:31Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Hornchurch tickets on sale",
-      "url": "https://harriers.co.uk/news/2026/07/27/hornchurch-tickets-on-sale/",
-      "published": "2026-07-27T09:10:50Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Tickets: Kidderminster Harriers (H)",
-      "url": "https://hornchurchfc.com/tickets-kidderminster-harriers-h/",
-      "published": "2026-07-27T08:59:34Z"
     }
   ]
 }
