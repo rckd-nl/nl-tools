@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-30T01:04:59Z",
+  "generatedAt": "2026-07-30T04:22:40Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -708,15 +708,6 @@
       "published": "2026-07-29T16:59:11Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Report – Crystal Palace U21s",
-      "url": "https://www.horshamfc.co.uk/2026/07/29/match-report-crystal-palace-u21s/",
-      "published": "2026-07-29T16:47:05Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -753,15 +744,6 @@
       "published": "2026-07-29T16:00:00Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Fixture Change: Farnham Town Game Moved to Friday Night",
-      "url": "https://daggers.co.uk/fixture-change-farnham-town-game-moved-to-friday-night/",
-      "published": "2026-07-29T16:00:00Z"
-    },
-    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -769,15 +751,6 @@
       "title": "First Interview: Reece Johnson joins the Spitfires on loan",
       "url": "https://eastleighfc.com/2026/07/first-interview-reece-johnson-joins-the-spitfires-on-loan/",
       "published": "2026-07-29T15:12:09Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Tickets On Sale: South Shields (A)",
-      "url": "https://daggers.co.uk/tickets-on-sale-south-shields-a/",
-      "published": "2026-07-29T15:02:05Z"
     },
     {
       "club": "Worthing",
@@ -1257,15 +1230,6 @@
       "published": "2026-07-28T17:15:43Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Charles Clayden is a Dagger",
-      "url": "https://daggers.co.uk/charles-clayden-is-a-dagger/",
-      "published": "2026-07-28T17:13:20Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1446,15 +1410,6 @@
       "published": "2026-07-28T12:47:49Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Supporters’ Club Coach Travel – August Away Fixtures",
-      "url": "https://daggers.co.uk/supporters-club-coach-travel-august-away-fixtures/",
-      "published": "2026-07-28T12:47:02Z"
-    },
-    {
       "club": "Radcliffe",
       "code": "RAD",
       "short": "Radcliffe",
@@ -1480,6 +1435,51 @@
       "title": "Beard Departs to Pursue Opportunity Abroad",
       "url": "https://worthingfc.com/2026/07/beard-departs-to-pursue-opportunity-abroad/",
       "published": "2026-07-28T12:00:51Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Pre-Season Fixture Off Due to Illness",
+      "url": "https://chelmsfordcityfc.com/news/pre-season-fixture-postponed-due-to-illness/",
+      "published": "2026-07-28T12:00:00Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Chelsea XI pre-season friendly cancelled",
+      "url": "https://www.borehamwoodfootballclub.co.uk/chelsea-xi-pre-season-friendly-cancelled/",
+      "published": "2026-07-28T11:43:19Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Performance Centre Coaches Wanted",
+      "url": "https://ytfc.net/2026/07/performance-centre-coaches-wanted/",
+      "published": "2026-07-28T11:31:19Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Torquay United away match selected for DAZN",
+      "url": "https://wsmafc.co.uk/torquay-united-away-match-selected-for-dazn/",
+      "published": "2026-07-28T11:30:44Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Women's Player Sponsorship Packages Available Now",
+      "url": "https://afcfylde.co.uk/news/2026/july/28/women/",
+      "published": "2026-07-28T11:02:00Z"
     }
   ]
 }
