@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-30T04:22:40Z",
+  "generatedAt": "2026-07-30T07:22:56Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -706,6 +706,15 @@
       "title": "Club Statement: New Strategic Partnership Signals Exciting Future for Dover Athletic Football Club",
       "url": "https://doverathletic.com/news/club-statement-new-strategic-partnership-signals-exciting-future-for-dover-athletic-football-club/",
       "published": "2026-07-29T16:59:11Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Crystal Palace U21s",
+      "url": "https://www.horshamfc.co.uk/2026/07/29/match-report-crystal-palace-u21s/",
+      "published": "2026-07-29T16:47:05Z"
     },
     {
       "club": "Southend United",
@@ -1471,15 +1480,6 @@
       "title": "Torquay United away match selected for DAZN",
       "url": "https://wsmafc.co.uk/torquay-united-away-match-selected-for-dazn/",
       "published": "2026-07-28T11:30:44Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Women's Player Sponsorship Packages Available Now",
-      "url": "https://afcfylde.co.uk/news/2026/july/28/women/",
-      "published": "2026-07-28T11:02:00Z"
     }
   ]
 }
