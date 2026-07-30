@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-30T16:21:29Z",
+  "generatedAt": "2026-07-30T17:53:33Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -41,14 +41,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 202"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Morecambe",
@@ -203,6 +195,14 @@
       "error": "Feed returned 0 usable items"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "domain": "daggers.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
+    },
+    {
       "club": "Eastbourne Borough",
       "domain": "eastbourneborough.com",
       "feed": "",
@@ -240,7 +240,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Salisbury",
