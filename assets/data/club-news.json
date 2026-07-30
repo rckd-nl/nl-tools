@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-30T14:47:46Z",
+  "generatedAt": "2026-07-30T16:21:29Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3818,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -129,7 +129,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Southend United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7fdf7e927c90>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -329,7 +329,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Peterborough Sports",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7fdf7e98a650>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,87 @@
     }
   ],
   "items": [
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Grimsby and Tranmere fixtures selected for Sky Sports+ coverage",
+      "url": "https://yorkcityfootballclub.co.uk/grimsby-and-tranmere-fixtures-selected-for-sky-sports-coverage/",
+      "published": "2026-07-30T16:06:12Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Port Vale Trip To Be Broadcast Live",
+      "url": "https://rochdaleafc.co.uk/port-vale-trip-to-be-broadcast-live/",
+      "published": "2026-07-30T16:00:06Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Final pre-season encounter for the Robins",
+      "url": "https://altrinchamfc.com/blogs/news/final-pre-season-encounter-for-the-robins",
+      "published": "2026-07-30T15:51:32Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Ian Watson Previews Tranmere Tie",
+      "url": "https://rochdaleafc.co.uk/ian-watson-previews-tranmere-tie/",
+      "published": "2026-07-30T15:46:07Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Reds to Participate in 2026/27 National League Cup",
+      "url": "https://worthingfc.com/2026/07/reds-to-participate-in-2026-27-national-league-cup/",
+      "published": "2026-07-30T15:12:15Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "LIVE SPORT IN BAR TWENTY SEVEN",
+      "url": "https://macclesfieldfc.com/latest-news/live-sport-in-bar-twenty-seven-2/",
+      "published": "2026-07-30T15:00:51Z"
+    },
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "Marine Appoints Alf Mangor Johannessen to Board in New AMJ Gruppen Partnership",
+      "url": "https://marinefc.com/marine-appoints-alf-mangor-johannessen-to-board-in-new-amj-gruppen-partnership/",
+      "published": "2026-07-30T15:00:00Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "An invitation to Aspiring Designers!",
+      "url": "https://chesterfc.com/07/30/design/",
+      "published": "2026-07-30T14:59:56Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Angels Seek Investment To Match Ambition",
+      "url": "https://tonbridgeangels.co.uk/angels-seek-investment-to-match-ambition/",
+      "published": "2026-07-30T14:49:34Z"
+    },
     {
       "club": "Radcliffe",
       "code": "RAD",
@@ -679,6 +760,15 @@
       "title": "FINAL FIVE – 2026/27",
       "url": "https://macclesfieldfc.com/latest-news/final-five-2026-27/",
       "published": "2026-07-30T11:00:44Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Graham Farrell",
+      "url": "https://www.horshamfc.co.uk/2026/07/30/graham-farrell/",
+      "published": "2026-07-30T11:00:12Z"
     },
     {
       "club": "Chelmsford City",
@@ -789,24 +879,6 @@
       "published": "2026-07-30T08:00:42Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Post Bristol City",
-      "url": "https://www.fgr.co.uk/news/rs-post-bcfc/",
-      "published": "2026-07-29T22:00:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | FGR 3-2 Bristol City XI",
-      "url": "https://www.fgr.co.uk/news/match-rpeort-fgr-3-2-bristol-city-xi/",
-      "published": "2026-07-29T21:30:00Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -823,15 +895,6 @@
       "title": "Spencer Day Post Portsmouth (H)",
       "url": "https://farnboroughfc.co.uk/2026/07/spencer-day-post-portsmouth-h-2/",
       "published": "2026-07-29T21:00:40Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Emeka Obi post Bristol City XI (H)",
-      "url": "https://www.fgr.co.uk/news/emeka-obi-bristol-city-xi-h/",
-      "published": "2026-07-29T21:00:00Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -924,6 +987,15 @@
       "published": "2026-07-29T16:59:11Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Crystal Palace U21s",
+      "url": "https://www.horshamfc.co.uk/2026/07/29/match-report-crystal-palace-u21s/",
+      "published": "2026-07-29T16:47:05Z"
+    },
+    {
       "club": "Dorking Wanderers",
       "code": "DOR",
       "short": "Dorking",
@@ -958,15 +1030,6 @@
       "title": "Win the Women’s & Girls Principal Partnership for the 2026/27 Season",
       "url": "https://wsmafc.co.uk/womens-girls-principal-partner-2627/",
       "published": "2026-07-29T16:00:13Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Swindon Town Update",
-      "url": "https://www.fgr.co.uk/news/stfc-psf-update/",
-      "published": "2026-07-29T16:00:00Z"
     },
     {
       "club": "Dagenham & Redbridge",
@@ -1111,15 +1174,6 @@
       "title": "Wanderers Narrowly Beaten in South-East London",
       "url": "https://dwfc.co.uk/2026/07/wanderers-narrowly-beaten-in-south-east-london/",
       "published": "2026-07-29T12:14:24Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "Elliot Osborne after Tamworth draw",
-      "url": "https://macclesfieldfc.com/latest-news/elliot-osborne-after-tamworth-draw/",
-      "published": "2026-07-29T12:00:17Z"
     },
     {
       "club": "Torquay United",
@@ -1387,7 +1441,7 @@
       "code": "MSU",
       "short": "Maidstone",
       "domain": "maidstoneunited.co.uk",
-      "title": "Nana Boateng is a Stone.",
+      "title": "Nana Boateng is a Stone",
       "url": "https://maidstoneunited.co.uk/07/28/nana-boateng-is-a-stone/",
       "published": "2026-07-28T21:50:23Z"
     },
@@ -1426,60 +1480,6 @@
       "title": "Eastleigh FC is saddened to hear of the passing of Cassius Newton",
       "url": "https://eastleighfc.com/2026/07/eastleigh-fc-is-saddened-to-hear-of-the-passing-of-cassius-newton/",
       "published": "2026-07-28T18:42:57Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Chibueze joins on loan",
-      "url": "https://www.southshieldsfc.co.uk/chibueze-joins-on-loan/",
-      "published": "2026-07-28T17:42:10Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Welcome Sonny Fish",
-      "url": "https://doverathletic.com/news/welcome-sonny-fish/",
-      "published": "2026-07-28T17:31:42Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "LOAN | Merrett Makes Bulls Move From Forest Green",
-      "url": "https://herefordfc.co.uk/2026/07/loan-merrett-makes-bulls-move-from-forest-green/",
-      "published": "2026-07-28T17:30:09Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Dale Move For Winger Silcott-Duberry",
-      "url": "https://rochdaleafc.co.uk/dale-move-for-winger-silcott-duberry/",
-      "published": "2026-07-28T17:29:08Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Ramell Carter | First Interview",
-      "url": "https://worthingfc.com/2026/07/ramell-carter-first-interview/",
-      "published": "2026-07-28T17:15:43Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Charles Clayden is a Dagger",
-      "url": "https://daggers.co.uk/charles-clayden-is-a-dagger/",
-      "published": "2026-07-28T17:13:20Z"
     }
   ]
 }
