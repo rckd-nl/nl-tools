@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-30T07:22:56Z",
+  "generatedAt": "2026-07-30T10:08:39Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3818,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,22 +582,76 @@
   ],
   "items": [
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Post Bristol City",
-      "url": "https://www.fgr.co.uk/news/rs-post-bcfc/",
-      "published": "2026-07-29T22:00:00Z"
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Mackenzie Heaney Announces Retirement",
+      "url": "https://spennymoortownfc.co.uk/2026/07/30/mackenzie-heaney-announces-his-retirement/",
+      "published": "2026-07-30T10:05:22Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | FGR 3-2 Bristol City XI",
-      "url": "https://www.fgr.co.uk/news/match-rpeort-fgr-3-2-bristol-city-xi/",
-      "published": "2026-07-29T21:30:00Z"
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Mystery Gamedays joins Monkey Business",
+      "url": "https://www.hartlepoolunited.co.uk/mystery-gamedays-joins-monkey-business/",
+      "published": "2026-07-30T09:54:40Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "TICKET INFO | Eastleigh (A)",
+      "url": "https://gateshead-fc.com/ticket-info-eastleigh-a/",
+      "published": "2026-07-30T09:42:31Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Gallery | Irlam (A)",
+      "url": "https://curzon-ashton.co.uk/gallery-irlam-a/",
+      "published": "2026-07-30T09:14:05Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Report: Enfield Town (A)",
+      "url": "https://hornchurchfc.com/report-enfield-town-a/",
+      "published": "2026-07-30T09:13:43Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "ACTION REPLAY: TAMWORTH (A)",
+      "url": "https://macclesfieldfc.com/galleries/action-replay-tamworth-a/",
+      "published": "2026-07-30T09:00:47Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "ACTION REPLAY: TAMWORTH (A)",
+      "url": "https://macclesfieldfc.com/latest-news/action-replay-tamworth-a-2/",
+      "published": "2026-07-30T09:00:10Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Moors Ready To Welcome Young Magpies",
+      "url": "https://spennymoortownfc.co.uk/2026/07/30/moors-ready-to-welcome-young-magpies/",
+      "published": "2026-07-30T08:00:42Z"
     },
     {
       "club": "Farnborough",
@@ -607,15 +661,6 @@
       "title": "Spencer Day Post Portsmouth (H)",
       "url": "https://farnboroughfc.co.uk/2026/07/spencer-day-post-portsmouth-h-2/",
       "published": "2026-07-29T21:00:40Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Emeka Obi post Bristol City XI (H)",
-      "url": "https://www.fgr.co.uk/news/emeka-obi-bristol-city-xi-h/",
-      "published": "2026-07-29T21:00:00Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -717,6 +762,15 @@
       "published": "2026-07-29T16:47:05Z"
     },
     {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Medical Update 29/07/26",
+      "url": "https://dwfc.co.uk/2026/07/medical-update-29-07-26/",
+      "published": "2026-07-29T16:15:08Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -744,12 +798,12 @@
       "published": "2026-07-29T16:00:13Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Swindon Town Update",
-      "url": "https://www.fgr.co.uk/news/stfc-psf-update/",
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Fixture Change: Farnham Town Game Moved to Friday Night",
+      "url": "https://daggers.co.uk/fixture-change-farnham-town-game-moved-to-friday-night/",
       "published": "2026-07-29T16:00:00Z"
     },
     {
@@ -760,6 +814,15 @@
       "title": "First Interview: Reece Johnson joins the Spitfires on loan",
       "url": "https://eastleighfc.com/2026/07/first-interview-reece-johnson-joins-the-spitfires-on-loan/",
       "published": "2026-07-29T15:12:09Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Tickets On Sale: South Shields (A)",
+      "url": "https://daggers.co.uk/tickets-on-sale-south-shields-a/",
+      "published": "2026-07-29T15:02:05Z"
     },
     {
       "club": "Worthing",
@@ -1239,13 +1302,13 @@
       "published": "2026-07-28T17:15:43Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "FLASH KIT AND CLOTHING SALE",
-      "url": "https://macclesfieldfc.com/latest-news/end-of-season-kit-sale/",
-      "published": "2026-07-28T16:00:37Z"
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Charles Clayden is a Dagger",
+      "url": "https://daggers.co.uk/charles-clayden-is-a-dagger/",
+      "published": "2026-07-28T17:13:20Z"
     },
     {
       "club": "Southend United",
@@ -1374,24 +1437,6 @@
       "published": "2026-07-28T13:05:00Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MATCH PREVIEW: TAMWORTH FC VS MACCLESFIELD FC",
-      "url": "https://macclesfieldfc.com/latest-news/match-preview-tamworth-fc-vs-macclesfield-fc/",
-      "published": "2026-07-28T13:00:17Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Kyle Kelly First Word",
-      "url": "https://www.fgr.co.uk/news/kyle-kelly-first-word/",
-      "published": "2026-07-28T13:00:00Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1419,6 +1464,15 @@
       "published": "2026-07-28T12:47:49Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Supporters’ Club Coach Travel – August Away Fixtures",
+      "url": "https://daggers.co.uk/supporters-club-coach-travel-august-away-fixtures/",
+      "published": "2026-07-28T12:47:02Z"
+    },
+    {
       "club": "Radcliffe",
       "code": "RAD",
       "short": "Radcliffe",
@@ -1426,60 +1480,6 @@
       "title": "Match Preview | Bolton Wanderers XI (H)",
       "url": "https://radcliffefc.com/match-preview-bolton-wanderers-xi-h/",
       "published": "2026-07-28T12:28:40Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Ian Gallagher appointed Safety Officer",
-      "url": "https://chesterfc.com/07/28/ian-gallagher-appointed-safety-officer/",
-      "published": "2026-07-28T12:19:39Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Beard Departs to Pursue Opportunity Abroad",
-      "url": "https://worthingfc.com/2026/07/beard-departs-to-pursue-opportunity-abroad/",
-      "published": "2026-07-28T12:00:51Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Pre-Season Fixture Off Due to Illness",
-      "url": "https://chelmsfordcityfc.com/news/pre-season-fixture-postponed-due-to-illness/",
-      "published": "2026-07-28T12:00:00Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Chelsea XI pre-season friendly cancelled",
-      "url": "https://www.borehamwoodfootballclub.co.uk/chelsea-xi-pre-season-friendly-cancelled/",
-      "published": "2026-07-28T11:43:19Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Performance Centre Coaches Wanted",
-      "url": "https://ytfc.net/2026/07/performance-centre-coaches-wanted/",
-      "published": "2026-07-28T11:31:19Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Torquay United away match selected for DAZN",
-      "url": "https://wsmafc.co.uk/torquay-united-away-match-selected-for-dazn/",
-      "published": "2026-07-28T11:30:44Z"
     }
   ]
 }
