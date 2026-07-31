@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-31T16:26:20Z",
+  "generatedAt": "2026-07-31T18:12:36Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,96 @@
     }
   ],
   "items": [
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City Sign Lewis Colwell",
+      "url": "https://trurocity.co.uk/2026/07/truro-city-sign-lewis-colwell/",
+      "published": "2026-07-31T18:03:41Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "🎤 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 | Welcome to CTFC, Harvey Rees",
+      "url": "https://chippenhamtown.com/07/31/%f0%9f%8e%a4-%f0%9d%97%9c%f0%9d%97%bb%f0%9d%98%81%f0%9d%97%b2%f0%9d%97%bf%f0%9d%98%83%f0%9d%97%b6%f0%9d%97%b2%f0%9d%98%84-welcome-to-ctfc-harvey-rees/",
+      "published": "2026-07-31T18:00:40Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "PREVIEW | Bromsgrove Sporting vs Hereford FC",
+      "url": "https://herefordfc.co.uk/2026/07/preview-bromsgrove-sporting-vs-hereford-fc/",
+      "published": "2026-07-31T17:44:25Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "First Interview | Ellis Craven",
+      "url": "https://radcliffefc.com/first-interview-ellis-craven/",
+      "published": "2026-07-31T17:12:42Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Dan Ellison Joins Salisbury on Loan",
+      "url": "https://ytfc.net/2026/07/dan-ellison-joins-salisbury-on-loan/",
+      "published": "2026-07-31T17:00:53Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Harvey Rees signs for Chippenham Town",
+      "url": "https://chippenhamtown.com/07/31/harvey-rees-signs-for-chippenham-town/",
+      "published": "2026-07-31T17:00:40Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Layer 4 become new Hipkiss Stand sponsors in landmark three-year partnership!",
+      "url": "https://chesterfc.com/07/31/layer4/",
+      "published": "2026-07-31T17:00:39Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SILKMEN REVEAL 2026/27 DNA HOME KIT",
+      "url": "https://macclesfieldfc.com/latest-news/silkmen-reveal-2026-27-dna-home-kit/",
+      "published": "2026-07-31T17:00:27Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Craven Is The Latest Landing In M26",
+      "url": "https://radcliffefc.com/craven-is-the-latest-landing-in-m26/",
+      "published": "2026-07-31T17:00:08Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "First Words – Jack Nunn",
+      "url": "https://trurocity.co.uk/2026/07/first-words-jack-nunn/",
+      "published": "2026-07-31T16:50:33Z"
+    },
     {
       "club": "Truro City",
       "code": "TRU",
@@ -760,6 +850,15 @@
       "title": "Luke Norris joins Wealdstone on loan",
       "url": "https://www.borehamwoodfootballclub.co.uk/luke-norris-joins-wealdstone-on-loan/",
       "published": "2026-07-31T12:57:25Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Torquay Coach details",
+      "url": "https://www.horshamfc.co.uk/2026/07/31/torquay-coach-details/",
+      "published": "2026-07-31T12:49:51Z"
     },
     {
       "club": "Rochdale",
@@ -1257,15 +1356,6 @@
       "published": "2026-07-30T13:03:45Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "FLASH KIT AND CLOTHING SALE",
-      "url": "https://macclesfieldfc.com/latest-news/end-of-season-kit-sale/",
-      "published": "2026-07-30T13:00:37Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1300,6 +1390,15 @@
       "title": "Sign Up To Dale Player For 26/27",
       "url": "https://rochdaleafc.co.uk/sign-up-to-dale-player-for-26-27/",
       "published": "2026-07-30T11:49:13Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Graham Farrell",
+      "url": "https://www.horshamfc.co.uk/2026/07/30/graham-farrell/",
+      "published": "2026-07-30T11:00:12Z"
     },
     {
       "club": "Chelmsford City",
@@ -1381,105 +1480,6 @@
       "title": "Moors Ready To Welcome Young Magpies",
       "url": "https://spennymoortownfc.co.uk/2026/07/30/moors-ready-to-welcome-young-magpies/",
       "published": "2026-07-30T08:00:42Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Post Bristol City",
-      "url": "https://www.fgr.co.uk/news/rs-post-bcfc/",
-      "published": "2026-07-29T22:00:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | FGR 3-2 Bristol City XI",
-      "url": "https://www.fgr.co.uk/news/match-rpeort-fgr-3-2-bristol-city-xi/",
-      "published": "2026-07-29T21:30:00Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Jayden Moore | First Interview",
-      "url": "https://worthingfc.com/2026/07/jayden-moore-first-interview/",
-      "published": "2026-07-29T21:02:05Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Spencer Day Post Portsmouth (H)",
-      "url": "https://farnboroughfc.co.uk/2026/07/spencer-day-post-portsmouth-h-2/",
-      "published": "2026-07-29T21:00:40Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Emeka Obi post Bristol City XI (H)",
-      "url": "https://www.fgr.co.uk/news/emeka-obi-bristol-city-xi-h/",
-      "published": "2026-07-29T21:00:00Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Preview: Weston v Gloucester City",
-      "url": "https://wsmafc.co.uk/gloucester-city-preview/",
-      "published": "2026-07-29T20:45:46Z"
-    },
-    {
-      "club": "Chesham United",
-      "code": "CHU",
-      "short": "Chesham",
-      "domain": "cheshamunited.co.uk",
-      "title": "Defensive trio added to the Generals ranks ahead of season",
-      "url": "https://cheshamunited.co.uk/2026/07/defensive-trio-added-to-the-generals-ranks-ahead-of-season/",
-      "published": "2026-07-29T20:26:16Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Bolton Wanderers XI (H) Post-Match Reaction | Luke Partington",
-      "url": "https://radcliffefc.com/bolton-wanderers-xi-h-post-match-reaction-luke-partington/",
-      "published": "2026-07-29T19:59:51Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Bolton Wanderers XI (H) Post-Match Reaction | Bernard Morley",
-      "url": "https://radcliffefc.com/bolton-wanderers-xi-h-post-match-reaction-bernard-morley/",
-      "published": "2026-07-29T19:28:13Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "National League Lowdown: Forest Green Rovers",
-      "url": "https://worthingfc.com/2026/07/national-league-lowdown-forest-green-rovers/",
-      "published": "2026-07-29T18:58:54Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "NEWS | Bulls Name Brookes As Women’s Head Coach",
-      "url": "https://herefordfc.co.uk/2026/07/news-bulls-name-brookes-womens-head-coach/",
-      "published": "2026-07-29T17:00:44Z"
     }
   ]
 }
