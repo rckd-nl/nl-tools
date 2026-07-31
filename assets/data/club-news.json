@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-07-31T21:24:55Z",
+  "generatedAt": "2026-07-31T22:45:39Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,18 +78,18 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3818,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://harriers.co.uk/feed/",
+      "ok": true,
+      "count": 20,
+      "error": ""
     },
     {
       "club": "King's Lynn Town",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://www.southshieldsfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Final Score Southport 0 Wigan Athletic 0",
+      "url": "https://southportfc.net/final-score-southport-0-wigan-athletic-0/",
+      "published": "2026-07-31T21:44:48Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Charity Match Tickets Now On Sale",
+      "url": "https://southportfc.net/charity-match-tickets-now-on-sale/",
+      "published": "2026-07-31T21:20:56Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -733,6 +751,15 @@
       "title": "Truro City Sign Jack Nunn",
       "url": "https://trurocity.co.uk/2026/07/truro-city-sign-jack-nunn/",
       "published": "2026-07-31T16:19:19Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "SSFC Women prepare for Chester-le-Street Town",
+      "url": "https://www.southshieldsfc.co.uk/ssfc-women-prepare-for-chester-le-street-town-in-second-pre-season-friendly/",
+      "published": "2026-07-31T15:47:11Z"
     },
     {
       "club": "AFC Fylde",
@@ -1023,6 +1050,15 @@
       "published": "2026-07-31T10:54:26Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Prediction League 2026-27",
+      "url": "https://southportfc.net/prediction-league-2026-27/",
+      "published": "2026-07-31T10:48:53Z"
+    },
+    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -1068,6 +1104,15 @@
       "published": "2026-07-31T09:46:28Z"
     },
     {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Food and Football: Enjoy Durham Women vs Celtic at Mariners Park.",
+      "url": "https://www.southshieldsfc.co.uk/food-and-football-enjoy-durham-women-vs-celtic-at-mariners-park/",
+      "published": "2026-07-31T09:10:27Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1077,15 +1122,6 @@
       "published": "2026-07-31T09:00:24Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Info | Swindon Town XI",
-      "url": "https://www.fgr.co.uk/news/match-info-swindon-town-XI/",
-      "published": "2026-07-31T09:00:00Z"
-    },
-    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -1093,15 +1129,6 @@
       "title": "Moors Unveil New Match Hospitality Experience",
       "url": "https://spennymoortownfc.co.uk/2026/07/31/moors-unveil-new-match-hospitality-experience/",
       "published": "2026-07-31T08:33:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Sponsor a player for the 2026/2027 Season!",
-      "url": "https://www.fgr.co.uk/news/player-sponsor-2627/",
-      "published": "2026-07-31T08:30:00Z"
     },
     {
       "club": "Maidstone United",
@@ -1131,6 +1158,15 @@
       "published": "2026-07-31T08:00:28Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Matchday | Home v Wigan Athletic 7.45pm",
+      "url": "https://southportfc.net/matchday-home-v-wigan-athletic-7-45pm/",
+      "published": "2026-07-31T07:04:13Z"
+    },
+    {
       "club": "Boreham Wood",
       "code": "BHW",
       "short": "Boreham Wood",
@@ -1147,6 +1183,15 @@
       "title": "Report: Moors 3 Newcastle United U21s 3",
       "url": "https://spennymoortownfc.co.uk/2026/07/30/report-moors-3-newcastle-united-u21s-3/",
       "published": "2026-07-30T20:56:31Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Cam Ferguson Joins Bamber Bridge On Loan",
+      "url": "https://southportfc.net/cam-ferguson-joins-bamber-bridge-on-loan/",
+      "published": "2026-07-30T19:32:13Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1192,6 +1237,15 @@
       "title": "A Kit For Legends: Anniversary Shirt Released",
       "url": "https://southendunited.co.uk/news/2026/july/30/a-kit-for-legends--anniversary-shirt-released/",
       "published": "2026-07-30T18:06:00Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Kyle Ferguson joins Gateshead FC on two-year deal",
+      "url": "https://gateshead-fc.com/kyle-ferguson-joins-gateshead-fc-on-two-year-deal/",
+      "published": "2026-07-30T18:00:49Z"
     },
     {
       "club": "AFC Fylde",
@@ -1426,60 +1480,6 @@
       "title": "Mackenzie Heaney Announces Retirement",
       "url": "https://spennymoortownfc.co.uk/2026/07/30/mackenzie-heaney-announces-his-retirement/",
       "published": "2026-07-30T10:05:22Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Mystery Gamedays joins Monkey Business",
-      "url": "https://www.hartlepoolunited.co.uk/mystery-gamedays-joins-monkey-business/",
-      "published": "2026-07-30T09:54:40Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Gallery | Irlam (A)",
-      "url": "https://curzon-ashton.co.uk/gallery-irlam-a/",
-      "published": "2026-07-30T09:14:05Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Report: Enfield Town (A)",
-      "url": "https://hornchurchfc.com/report-enfield-town-a/",
-      "published": "2026-07-30T09:13:43Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Moors Ready To Welcome Young Magpies",
-      "url": "https://spennymoortownfc.co.uk/2026/07/30/moors-ready-to-welcome-young-magpies/",
-      "published": "2026-07-30T08:00:42Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Post Bristol City",
-      "url": "https://www.fgr.co.uk/news/rs-post-bcfc/",
-      "published": "2026-07-29T22:00:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | FGR 3-2 Bristol City XI",
-      "url": "https://www.fgr.co.uk/news/match-rpeort-fgr-3-2-bristol-city-xi/",
-      "published": "2026-07-29T21:30:00Z"
     }
   ]
 }
