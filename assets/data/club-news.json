@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-01T19:57:17Z",
+  "generatedAt": "2026-08-01T21:10:48Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Reaction | Mark Cooper reflects on the defeat to Spalding United",
+      "url": "https://chelmsfordcityfc.com/news/reaction-mark-cooper-reflects-on-the-defeat-to-spalding-united/",
+      "published": "2026-08-01T20:19:10Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Match Report | Halifax (H)",
+      "url": "https://curzon-ashton.co.uk/match-report-halifax-h/",
+      "published": "2026-08-01T20:17:32Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Match Report | Wanderers vs Charlton Athletic 01/08/26",
+      "url": "https://dwfc.co.uk/2026/08/match-report-wanderers-vs-charlton-athletic-01-08-26/",
+      "published": "2026-08-01T20:12:24Z"
+    },
     {
       "club": "Worthing",
       "code": "WOR",
@@ -996,6 +1023,15 @@
       "published": "2026-08-01T09:40:51Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Live Commentary South Shields",
+      "url": "https://daggers.co.uk/live-commentary-south-shields/",
+      "published": "2026-08-01T09:34:24Z"
+    },
+    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -1275,6 +1311,15 @@
       "published": "2026-07-31T17:00:08Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "250 Club July 2026 Prize Draw",
+      "url": "https://daggers.co.uk/250-club-july-2026-prize-draw/",
+      "published": "2026-07-31T16:56:50Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1435,51 +1480,6 @@
       "title": "Stones at home in Women’s FA Cup preliminary round",
       "url": "https://maidstoneunited.co.uk/07/31/stones-at-home-in-womens-fa-cup-preliminary-round/",
       "published": "2026-07-31T13:09:02Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MATCH PREVIEW: MACCLESFIELD FC VS FC UNITED OF MANCHESTER",
-      "url": "https://macclesfieldfc.com/latest-news/match-preview-macclesfield-fc-vs-fc-united-of-manchester/",
-      "published": "2026-07-31T13:00:26Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Match Preview: Coventry City (H)",
-      "url": "https://hornchurchfc.com/match-preview-coventry-city-h/",
-      "published": "2026-07-31T13:00:15Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Luke Norris joins Wealdstone on loan",
-      "url": "https://www.borehamwoodfootballclub.co.uk/luke-norris-joins-wealdstone-on-loan/",
-      "published": "2026-07-31T12:57:25Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Preview | Tranmere Rovers (A)",
-      "url": "https://rochdaleafc.co.uk/preview-tranmere-rovers-a/",
-      "published": "2026-07-31T12:49:30Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Match Preview vs Bury | Nicky Adams",
-      "url": "https://radcliffefc.com/match-preview-vs-bury-nicky-adams/",
-      "published": "2026-07-31T12:43:30Z"
     }
   ]
 }
