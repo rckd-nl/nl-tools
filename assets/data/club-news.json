@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-01T07:18:03Z",
+  "generatedAt": "2026-08-01T09:25:04Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,60 @@
     }
   ],
   "items": [
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Town Women’s Pre-Season Prorgramme",
+      "url": "https://chippenhamtown.com/08/01/town-womens-pre-season-prorgramme/",
+      "published": "2026-08-01T09:00:28Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Boro Launch New Third Kit",
+      "url": "https://farnboroughfc.co.uk/2026/08/boro-launch-new-third-kit/",
+      "published": "2026-08-01T09:00:23Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Harry Forster Is A Wanderer",
+      "url": "https://dwfc.co.uk/2026/08/harry-forster-is-a-wanderer/",
+      "published": "2026-08-01T08:15:11Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Match Preview | Bury (A)",
+      "url": "https://radcliffefc.com/match-preview-bury-a/",
+      "published": "2026-08-01T08:00:06Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Preview: Crewe Alexandra (H)",
+      "url": "https://chesterfc.com/08/01/preview-crewe-alexandra-h/",
+      "published": "2026-08-01T07:59:40Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Match Report | Altrincham 1-0 Manchester United U21",
+      "url": "https://altrinchamfc.com/blogs/news/match-report-altrincham-1-0-manchester-united-u21",
+      "published": "2026-08-01T07:36:20Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -976,6 +1030,15 @@
       "title": "Luke Norris joins Wealdstone on loan",
       "url": "https://www.borehamwoodfootballclub.co.uk/luke-norris-joins-wealdstone-on-loan/",
       "published": "2026-07-31T12:57:25Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Torquay Coach details",
+      "url": "https://www.horshamfc.co.uk/2026/07/31/torquay-coach-details/",
+      "published": "2026-07-31T12:49:51Z"
     },
     {
       "club": "Rochdale",
@@ -1417,69 +1480,6 @@
       "title": "Marine Appoints Alf Mangor Johannessen to Board in New AMJ Gruppen Partnership",
       "url": "https://marinefc.com/marine-appoints-alf-mangor-johannessen-to-board-in-new-amj-gruppen-partnership/",
       "published": "2026-07-30T15:00:00Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "An invitation to Aspiring Designers!",
-      "url": "https://chesterfc.com/07/30/design/",
-      "published": "2026-07-30T14:59:56Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Angels Seek Investment To Match Ambition",
-      "url": "https://tonbridgeangels.co.uk/angels-seek-investment-to-match-ambition/",
-      "published": "2026-07-30T14:49:34Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Vacancy | Sports Analyst Intern",
-      "url": "https://radcliffefc.com/vacancy-sports-analyst-intern/",
-      "published": "2026-07-30T14:03:33Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Campbell Darcy Signs For Spennymoor Town",
-      "url": "https://spennymoortownfc.co.uk/2026/07/30/campbell-darcy-signs-for-spennymoor-town/",
-      "published": "2026-07-30T13:56:29Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Plainmoor Pass Collection",
-      "url": "https://torquayunited.com/plainmoor-pass-collection/",
-      "published": "2026-07-30T13:19:49Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Ball and Programme Sponsorship available for the 2026/27 season!",
-      "url": "https://chesterfc.com/07/30/ball-and-programme-sponsorship-available-for-the-2026-27-season/",
-      "published": "2026-07-30T13:03:45Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "United Gearing Up For Final Pre-Season Test",
-      "url": "https://torquayunited.com/united-gearing-up-for-final-pre-season-test/",
-      "published": "2026-07-30T12:57:28Z"
     }
   ]
 }
