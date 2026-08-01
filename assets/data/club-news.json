@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-01T11:07:47Z",
+  "generatedAt": "2026-08-01T12:30:02Z",
   "maxItems": 100,
   "sources": [
     {
@@ -233,7 +233,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 503"
     },
     {
       "club": "Chester",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f94262b7a10>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f9426052a90>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "2026/27 SQUAD NUMBERS",
+      "url": "https://macclesfieldfc.com/latest-news/2026-27-squad-numbers/",
+      "published": "2026-08-01T12:00:08Z"
+    },
     {
       "club": "Woking",
       "code": "WOK",
@@ -679,6 +688,15 @@
       "title": "First Interview: Hawkins joins the Spitfires",
       "url": "https://eastleighfc.com/2026/08/first-interview-hawkins-joins-the-spitfires/",
       "published": "2026-08-01T09:40:51Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Live Commentary South Shields",
+      "url": "https://daggers.co.uk/live-commentary-south-shields/",
+      "published": "2026-08-01T09:34:24Z"
     },
     {
       "club": "Eastleigh",
@@ -960,6 +978,15 @@
       "published": "2026-07-31T17:00:08Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "250 Club July 2026 Prize Draw",
+      "url": "https://daggers.co.uk/250-club-july-2026-prize-draw/",
+      "published": "2026-07-31T16:56:50Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1149,15 +1176,6 @@
       "published": "2026-07-31T12:57:25Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Torquay Coach details",
-      "url": "https://www.horshamfc.co.uk/2026/07/31/torquay-coach-details/",
-      "published": "2026-07-31T12:49:51Z"
-    },
-    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -1338,15 +1356,6 @@
       "published": "2026-07-31T09:10:27Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "ON THIS DAY: 31ST JULY 2021",
-      "url": "https://macclesfieldfc.com/latest-news/on-this-day-31st-july-2021/",
-      "published": "2026-07-31T09:00:24Z"
-    },
-    {
       "club": "Forest Green Rovers",
       "code": "FGR",
       "short": "Forest Green",
@@ -1471,15 +1480,6 @@
       "title": "Chester FC Junior Summer Bash",
       "url": "https://chesterfc.com/07/30/chester-fc-junior-summer-bash/",
       "published": "2026-07-30T18:42:25Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "A Kit For Legends: Anniversary Shirt Released",
-      "url": "https://southendunited.co.uk/news/2026/july/30/a-kit-for-legends--anniversary-shirt-released/",
-      "published": "2026-07-30T18:06:00Z"
     }
   ]
 }
