@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-01T12:30:02Z",
+  "generatedAt": "2026-08-01T13:59:29Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3818,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -169,7 +169,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 503"
     },
     {
       "club": "Woking",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f94262b7a10>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -497,7 +497,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 503"
     },
     {
       "club": "Hornchurch",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f9426052a90>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Useful Final Away Workout",
+      "url": "https://etfc.london/useful-final-away-workout/",
+      "published": "2026-08-01T12:46:14Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Jack Sims Makes Southend Homecoming",
+      "url": "https://southendunited.co.uk/news/2026/august/01/jack-sims-makes-southend-homecoming/",
+      "published": "2026-08-01T12:43:22Z"
+    },
     {
       "club": "Macclesfield",
       "code": "MAC",
@@ -1176,6 +1194,15 @@
       "published": "2026-07-31T12:57:25Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Torquay Coach details",
+      "url": "https://www.horshamfc.co.uk/2026/07/31/torquay-coach-details/",
+      "published": "2026-07-31T12:49:51Z"
+    },
+    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -1356,15 +1383,6 @@
       "published": "2026-07-31T09:10:27Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Info | Swindon Town XI",
-      "url": "https://www.fgr.co.uk/news/match-info-swindon-town-XI/",
-      "published": "2026-07-31T09:00:00Z"
-    },
-    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -1372,15 +1390,6 @@
       "title": "Moors Unveil New Match Hospitality Experience",
       "url": "https://spennymoortownfc.co.uk/2026/07/31/moors-unveil-new-match-hospitality-experience/",
       "published": "2026-07-31T08:33:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Sponsor a player for the 2026/2027 Season!",
-      "url": "https://www.fgr.co.uk/news/player-sponsor-2627/",
-      "published": "2026-07-31T08:30:00Z"
     },
     {
       "club": "Maidstone United",
@@ -1471,15 +1480,6 @@
       "title": "COACH TRAVEL 26/27",
       "url": "https://marinefc.com/coach-travel-26-27/",
       "published": "2026-07-30T19:00:00Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Chester FC Junior Summer Bash",
-      "url": "https://chesterfc.com/07/30/chester-fc-junior-summer-bash/",
-      "published": "2026-07-30T18:42:25Z"
     }
   ]
 }
