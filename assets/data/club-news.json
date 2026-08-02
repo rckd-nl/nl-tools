@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-02T18:01:44Z",
+  "generatedAt": "2026-08-02T18:45:57Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7fdbb048c190>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -446,10 +446,10 @@
     {
       "club": "Dover Athletic",
       "domain": "doverathletic.com",
-      "feed": "https://doverathletic.com/news/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Eastbourne Borough",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7fdbb04b6ed0>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Injury Update | Josh Salmon",
+      "url": "https://wsmafc.co.uk/injury-update-josh-salmon/",
+      "published": "2026-08-02T18:15:36Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "TICKET NEWS: MARINE (A)",
+      "url": "https://macclesfieldfc.com/latest-news/ticket-news-marine-a-2/",
+      "published": "2026-08-02T18:00:18Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -861,15 +879,6 @@
       "published": "2026-08-01T19:01:30Z"
     },
     {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Report: Dover Athletic 1-1 Carshalton Athletic",
-      "url": "https://doverathletic.com/news/report-dover-athletic-1-1-carshalton-athletic/",
-      "published": "2026-08-01T18:33:33Z"
-    },
-    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -904,6 +913,15 @@
       "title": "Report: Chester 0-0 Crewe Alexandra",
       "url": "https://chesterfc.com/08/01/report-chester-0-0-crewe-alexandra/",
       "published": "2026-08-01T17:57:33Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Boro cruise to Ted Pearce Memorial Cup win in final City friendly",
+      "url": "https://www.bathcityfc.com/boro-cruise-to-ted-pearce-memorial-cup-win-in-final-city-friendly/",
+      "published": "2026-08-01T17:54:18Z"
     },
     {
       "club": "Maidstone United",
@@ -1462,24 +1480,6 @@
       "title": "250 Club July 2026 Prize Draw",
       "url": "https://daggers.co.uk/250-club-july-2026-prize-draw/",
       "published": "2026-07-31T16:56:50Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "First Words – Jack Nunn",
-      "url": "https://trurocity.co.uk/2026/07/first-words-jack-nunn/",
-      "published": "2026-07-31T16:50:33Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City Sign Jack Nunn",
-      "url": "https://trurocity.co.uk/2026/07/truro-city-sign-jack-nunn/",
-      "published": "2026-07-31T16:19:19Z"
     }
   ]
 }
