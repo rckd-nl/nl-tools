@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-02T21:13:05Z",
+  "generatedAt": "2026-08-02T22:13:38Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "August 200 Club Winners",
+      "url": "https://www.horshamfc.co.uk/2026/08/02/august-200-club-winners-8/",
+      "published": "2026-08-02T20:17:47Z"
+    },
     {
       "club": "Hornchurch",
       "code": "HOR",
@@ -688,6 +697,15 @@
       "title": "SILKMEN FAN CAM: FC UNITED (H)",
       "url": "https://macclesfieldfc.com/galleries/silkmen-fan-cam-fc-united-h/",
       "published": "2026-08-02T17:00:31Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Worthing FC",
+      "url": "https://www.horshamfc.co.uk/2026/08/02/match-report-worthing-fc/",
+      "published": "2026-08-02T16:16:35Z"
     },
     {
       "club": "Torquay United",
@@ -1462,24 +1480,6 @@
       "title": "REPORT: UNITED 2 – 1 EXETER",
       "url": "https://torquayunited.com/report-united-2-1-exeter/",
       "published": "2026-07-31T20:37:25Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "John Askey Pre-Plymouth Parkway (a)",
-      "url": "https://trurocity.co.uk/2026/07/john-askey-pre-plymouth-parkway-a/",
-      "published": "2026-07-31T20:33:03Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "INTERVIEW | Jordan Williamson on Stepping Up",
-      "url": "https://herefordfc.co.uk/2026/07/interview-jordan-williamson-on-stepping-up/",
-      "published": "2026-07-31T19:43:13Z"
     }
   ]
 }
