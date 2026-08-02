@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-02T09:05:54Z",
+  "generatedAt": "2026-08-02T11:01:28Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -41,14 +41,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 202"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
     },
     {
       "club": "Morecambe",
@@ -217,6 +209,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 403"
+    },
+    {
+      "club": "Enfield Town",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: HTTPSConnectionPool(host='enfieldtownfootballclub.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='enfieldtownfootballclub.co.uk', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     {
       "club": "Hampton & Richmond Borough",

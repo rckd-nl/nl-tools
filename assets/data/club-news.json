@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-02T09:05:54Z",
+  "generatedAt": "2026-08-02T11:01:28Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3820,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -470,10 +470,10 @@
     {
       "club": "Enfield Town",
       "domain": "enfieldtownfootballclub.co.uk",
-      "feed": "https://etfc.london/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: HTTPSConnectionPool(host='enfieldtownfootballclub.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='enfieldtownfootballclub.co.uk', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     {
       "club": "Farnborough",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "GALLERY | Bromsgrove Sporting 0-1 Hereford FC",
+      "url": "https://herefordfc.co.uk/2026/08/gallery-bromsgrove-sporting-0-1-hereford-fc/",
+      "published": "2026-08-02T10:47:53Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Post Gateshead (H): Rob Ramshaw",
+      "url": "https://spennymoortownfc.co.uk/2026/08/02/post-gateshead-h-rob-ramshaw/",
+      "published": "2026-08-02T10:37:35Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Post Gateshead (H): Tommy Miller",
+      "url": "https://spennymoortownfc.co.uk/2026/08/02/post-gateshead-h-tommy-miller/",
+      "published": "2026-08-02T10:20:59Z"
+    },
     {
       "club": "Torquay United",
       "code": "TOR",
@@ -726,6 +753,15 @@
       "published": "2026-08-01T18:09:50Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report | FGR 1-4 Swindon Town",
+      "url": "https://www.fgr.co.uk/news/match-report-psf-swindon/",
+      "published": "2026-08-01T18:00:00Z"
+    },
+    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -843,6 +879,15 @@
       "published": "2026-08-01T17:00:26Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Robbie Savage Post Swindon (H)",
+      "url": "https://www.fgr.co.uk/news/robbie-savage-post-swindon-h/",
+      "published": "2026-08-01T17:00:00Z"
+    },
+    {
       "club": "Farnborough",
       "code": "FAB",
       "short": "Farnborough",
@@ -922,15 +967,6 @@
       "title": "Match Highlights | Southport 0 Wigan Athletic 0",
       "url": "https://southportfc.net/match-highlights-southport-0-wigan-athletic-0/",
       "published": "2026-08-01T14:19:23Z"
-    },
-    {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "Useful Final Away Workout",
-      "url": "https://etfc.london/useful-final-away-workout/",
-      "published": "2026-08-01T12:46:14Z"
     },
     {
       "club": "Southend United",
@@ -1444,42 +1480,6 @@
       "title": "VERON PARNY SIGNS FOR THE SILKMEN",
       "url": "https://macclesfieldfc.com/latest-news/veron-parny-signs-for-the-silkmen/",
       "published": "2026-07-31T15:00:04Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Woking Football Club Remembers John Moore and David Hyde",
-      "url": "https://wokingfc.co.uk/07/31/woking-football-club-remembers-john-moore-and-david-hyde/",
-      "published": "2026-07-31T14:49:27Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Eastleigh FC Reveal 2026/27 Away Shirt",
-      "url": "https://eastleighfc.com/2026/07/eastleigh-fc-reveal-2026-27-away-shirt/",
-      "published": "2026-07-31T14:32:06Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "JOHN ROONEY PREVIEWS FC UNITED FRIENDLY",
-      "url": "https://macclesfieldfc.com/silkmen-tv/john-rooney-previews-fc-united-friendly/",
-      "published": "2026-07-31T14:30:09Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Chatham Town",
-      "url": "https://maidstoneunited.co.uk/07/31/key-info-chatham-town/",
-      "published": "2026-07-31T14:10:09Z"
     }
   ]
 }
