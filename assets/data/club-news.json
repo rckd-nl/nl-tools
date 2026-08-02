@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-02T16:42:57Z",
+  "generatedAt": "2026-08-02T18:01:44Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3820,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7fdbb048c190>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -446,10 +446,10 @@
     {
       "club": "Dover Athletic",
       "domain": "doverathletic.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "feed": "https://doverathletic.com/news/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Eastbourne Borough",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7fdbb04b6ed0>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,60 @@
     }
   ],
   "items": [
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Simon Panes Departs Academy Director Role",
+      "url": "https://wsmafc.co.uk/simon-panes-departs/",
+      "published": "2026-08-02T17:16:16Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Inside Preseason: Day 26",
+      "url": "https://maidstoneunited.co.uk/08/02/inside-preseason-day-26/",
+      "published": "2026-08-02T17:07:44Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Williams ruled out of season openers",
+      "url": "https://tonbridgeangels.co.uk/williams-ruled-out-of-season-openers/",
+      "published": "2026-08-02T17:02:23Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Match Day Information: Binfield (A)",
+      "url": "https://farnboroughfc.co.uk/2026/08/match-day-information-binfield-a/",
+      "published": "2026-08-02T17:00:56Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SILKMEN FAN CAM: FC UNITED (H)",
+      "url": "https://macclesfieldfc.com/latest-news/silkmen-fan-cam-fc-united-h-2/",
+      "published": "2026-08-02T17:00:33Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SILKMEN FAN CAM: FC UNITED (H)",
+      "url": "https://macclesfieldfc.com/galleries/silkmen-fan-cam-fc-united-h/",
+      "published": "2026-08-02T17:00:31Z"
+    },
     {
       "club": "Torquay United",
       "code": "TOR",
@@ -807,6 +861,15 @@
       "published": "2026-08-01T19:01:30Z"
     },
     {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Report: Dover Athletic 1-1 Carshalton Athletic",
+      "url": "https://doverathletic.com/news/report-dover-athletic-1-1-carshalton-athletic/",
+      "published": "2026-08-01T18:33:33Z"
+    },
+    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -823,6 +886,15 @@
       "title": "Match Report: Chatham Town",
       "url": "https://maidstoneunited.co.uk/08/01/match-report-chatham-town/",
       "published": "2026-08-01T18:09:50Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report | FGR 1-4 Swindon Town",
+      "url": "https://www.fgr.co.uk/news/match-report-psf-swindon/",
+      "published": "2026-08-01T18:00:00Z"
     },
     {
       "club": "Chester",
@@ -931,6 +1003,15 @@
       "title": "John Rooney after FC United of Manchester victory",
       "url": "https://macclesfieldfc.com/latest-news/john-rooney-after-fc-united-of-manchester-victory/",
       "published": "2026-08-01T17:00:26Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Robbie Savage Post Swindon (H)",
+      "url": "https://www.fgr.co.uk/news/robbie-savage-post-swindon-h/",
+      "published": "2026-08-01T17:00:00Z"
     },
     {
       "club": "Farnborough",
@@ -1311,6 +1392,15 @@
       "published": "2026-07-31T17:44:25Z"
     },
     {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "City drawn at home to Paulton Rovers in Women’s FA Cup",
+      "url": "https://www.bathcityfc.com/city-drawn-at-home-to-paulton-rovers-in-womens-fa-cup/",
+      "published": "2026-07-31T17:29:39Z"
+    },
+    {
       "club": "Radcliffe",
       "code": "RAD",
       "short": "Radcliffe",
@@ -1390,96 +1480,6 @@
       "title": "Truro City Sign Jack Nunn",
       "url": "https://trurocity.co.uk/2026/07/truro-city-sign-jack-nunn/",
       "published": "2026-07-31T16:19:19Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Kit of the Champions: Away Strip for 2026/27 Campaign",
-      "url": "https://afcfylde.co.uk/news/2026/july/31/kit-of-the-champions--away-strip-for-2026-27-campaign/",
-      "published": "2026-07-31T15:47:00Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "First Words – Jack Matthews",
-      "url": "https://trurocity.co.uk/2026/07/first-words-jack-matthews/",
-      "published": "2026-07-31T15:36:03Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "A catch up with Jack Bainbridge",
-      "url": "https://chesterfc.com/07/31/a-catch-up-with-jack-bainbridge/",
-      "published": "2026-07-31T15:35:17Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "FIRST INTERVIEW: VERON PARNY",
-      "url": "https://macclesfieldfc.com/silkmen-tv/first-interview-veron-parny/",
-      "published": "2026-07-31T15:30:49Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Introducing One Rebel – Worthing FC’s Official Membership",
-      "url": "https://worthingfc.com/2026/07/introducing-one-rebel-worthing-fcs-official-membership/",
-      "published": "2026-07-31T15:21:42Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Weston-super-Mare AFC Women Launch New FA Wildcats Sessions for Girls",
-      "url": "https://wsmafc.co.uk/weston-super-mare-afc-women-launch-new-fa-wildcats-sessions-for-girls/",
-      "published": "2026-07-31T15:09:45Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City Sign Jack Matthews",
-      "url": "https://trurocity.co.uk/2026/07/truro-city-sign-jack-matthews/",
-      "published": "2026-07-31T15:00:16Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "VERON PARNY SIGNS FOR THE SILKMEN",
-      "url": "https://macclesfieldfc.com/latest-news/veron-parny-signs-for-the-silkmen/",
-      "published": "2026-07-31T15:00:04Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Woking Football Club Remembers John Moore and David Hyde",
-      "url": "https://wokingfc.co.uk/07/31/woking-football-club-remembers-john-moore-and-david-hyde/",
-      "published": "2026-07-31T14:49:27Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Eastleigh FC Reveal 2026/27 Away Shirt",
-      "url": "https://eastleighfc.com/2026/07/eastleigh-fc-reveal-2026-27-away-shirt/",
-      "published": "2026-07-31T14:32:06Z"
     }
   ]
 }
