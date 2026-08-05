@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-05T07:28:20Z",
+  "generatedAt": "2026-08-05T10:33:14Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7fd68356f4d0>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "https://www.southshieldsfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7fd6834a4650>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,105 @@
     }
   ],
   "items": [
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Harry Shield | First Interview",
+      "url": "https://torquayunited.com/harry-shield-first-interview/",
+      "published": "2026-08-05T09:51:41Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City Podcast – Episode 1",
+      "url": "https://trurocity.co.uk/2026/08/truro-city-podcast-episode-1/",
+      "published": "2026-08-05T09:42:43Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Welcome, Dylan Thompson!",
+      "url": "https://etfc.london/welcome-dylan-thompson/",
+      "published": "2026-08-05T09:28:27Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Pre-season review",
+      "url": "https://maidstoneunited.co.uk/08/05/pre-season-review/",
+      "published": "2026-08-05T09:22:22Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Welcome, Shiloh Remy!",
+      "url": "https://etfc.london/welcome-shiloh-remy/",
+      "published": "2026-08-05T09:20:54Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Torquay United tickets on sale now",
+      "url": "https://wsmafc.co.uk/torquay-united-tickets-on-sale-now-2/",
+      "published": "2026-08-05T09:10:14Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Tickets on sale now for our trip to Southend United",
+      "url": "https://ytfc.net/2026/08/tickets-on-sale-now-for-our-trip-to-southend-united/",
+      "published": "2026-08-05T09:01:07Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Weston & Hampton Tickets Now On Sale",
+      "url": "https://torquayunited.com/weston-hampton-tickets-now-on-sale/",
+      "published": "2026-08-05T09:00:00Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Introducing The Minerva: Our 2026/27 Away Kit",
+      "url": "https://www.bathcityfc.com/introducing-the-minerva-our-2026-27-away-kit/",
+      "published": "2026-08-05T08:58:38Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Season Card Collections",
+      "url": "https://southendunited.co.uk/news/2026/august/05/season-card-collections/",
+      "published": "2026-08-05T08:57:30Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Season Ticket Cards ready for pick-up",
+      "url": "https://altrinchamfc.com/blogs/news/season-ticket-cards-ready-for-pick-up",
+      "published": "2026-08-05T07:57:34Z"
+    },
     {
       "club": "Rochdale",
       "code": "ROC",
@@ -699,15 +798,6 @@
       "published": "2026-08-04T15:30:54Z"
     },
     {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Harries ready for “real stuff”",
-      "url": "https://harriers.co.uk/news/2026/08/04/harries-ready-for-real-stuff/",
-      "published": "2026-08-04T15:30:24Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -751,15 +841,6 @@
       "title": "Thank You To Our Sponsors",
       "url": "https://tonbridgeangels.co.uk/thank-you-to-our-sponsors/",
       "published": "2026-08-04T14:28:25Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Corey Panter Departs",
-      "url": "https://daggers.co.uk/corey-panter-departs/",
-      "published": "2026-08-04T14:00:00Z"
     },
     {
       "club": "Bath City",
@@ -814,15 +895,6 @@
       "title": "Grab your free ticket for Wednesday's Fans' Forum",
       "url": "https://altrinchamfc.com/blogs/news/date-confirmed-for-first-fans-forum-of-2026-27",
       "published": "2026-08-04T11:45:22Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Torquay Coach Spaces Available",
-      "url": "https://www.horshamfc.co.uk/2026/08/04/torquay-coach-spaces-available/",
-      "published": "2026-08-04T11:39:20Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -904,15 +976,6 @@
       "title": "Next FREE networking event",
       "url": "https://chelmsfordcityfc.com/news/next-free-networking-event-4/",
       "published": "2026-08-04T10:14:49Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Ticket information: Scarborough & Morecambe",
-      "url": "https://www.southshieldsfc.co.uk/ticket-information-scarborough-morecambe/",
-      "published": "2026-08-04T09:55:22Z"
     },
     {
       "club": "Rochdale",
@@ -1131,15 +1194,6 @@
       "published": "2026-08-03T15:10:54Z"
     },
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Useful Links Ahead Of The New Season",
-      "url": "https://southportfc.net/useful-links-ahead-of-the-new-season/",
-      "published": "2026-08-03T15:05:12Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1156,15 +1210,6 @@
       "title": "Amazing Hospitality Offer For August",
       "url": "https://www.fgr.co.uk/news/amazing-hospitality-offer/",
       "published": "2026-08-03T15:00:00Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "ENLN 1 | Away At Hebburn Town Saturday August 8th 3pm",
-      "url": "https://southportfc.net/enln-1-away-at-hebburn-town-saturday-august-8th-3pm/",
-      "published": "2026-08-03T14:54:39Z"
     },
     {
       "club": "Hornchurch",
@@ -1248,15 +1293,6 @@
       "published": "2026-08-03T13:00:31Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "At Home with Horsham FC",
-      "url": "https://www.horshamfc.co.uk/2026/08/03/at-home-with-horsham-fc/",
-      "published": "2026-08-03T13:00:06Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1293,15 +1329,6 @@
       "published": "2026-08-03T12:40:31Z"
     },
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Thank you for a fantastic weekend!",
-      "url": "https://www.southshieldsfc.co.uk/thank-you-for-a-fantastic-weekend/",
-      "published": "2026-08-03T12:21:45Z"
-    },
-    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -1336,15 +1363,6 @@
       "title": "Angels Get Everywhere",
       "url": "https://tonbridgeangels.co.uk/angels-get-everywhere/",
       "published": "2026-08-03T11:00:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Tickets On Sale For League Opener At Dorking Wanderers",
-      "url": "https://daggers.co.uk/tickets-on-sale-for-league-opener-at-dorking-wanderers/",
-      "published": "2026-08-03T10:48:01Z"
     },
     {
       "club": "Woking",
@@ -1437,15 +1455,6 @@
       "published": "2026-08-03T09:00:42Z"
     },
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Andrew Morris departs SSFC",
-      "url": "https://www.southshieldsfc.co.uk/andrew-morris-departs-ssfc/",
-      "published": "2026-08-03T09:00:17Z"
-    },
-    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -1471,15 +1480,6 @@
       "title": "Hospitality: Kidderminster Harriers (H)",
       "url": "https://hornchurchfc.com/hospitality-kidderminster-harriers-h/",
       "published": "2026-08-03T08:44:38Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Bevins’ pre-season update",
-      "url": "https://harriers.co.uk/news/2026/08/03/bevins-pre-season-update/",
-      "published": "2026-08-03T08:00:13Z"
     }
   ]
 }
