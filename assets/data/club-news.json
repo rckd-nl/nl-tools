@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-05T16:56:20Z",
+  "generatedAt": "2026-08-05T18:52:57Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,18 +78,18 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3824,
+      "error": ""
     },
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "https://www.southshieldsfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,60 @@
   ],
   "items": [
     {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "“𝗜’𝗺 𝗱𝗲𝗹𝗶𝗴𝗵𝘁𝗲𝗱 𝘁𝗼 𝗯𝗲 𝗯𝗮𝗰𝗸” | Scot Bennett – The First Interview",
+      "url": "https://wsmafc.co.uk/%f0%9d%97%9c%f0%9d%97%ba-%f0%9d%97%b1%f0%9d%97%b2%f0%9d%97%b9%f0%9d%97%b6%f0%9d%97%b4%f0%9d%97%b5%f0%9d%98%81%f0%9d%97%b2%f0%9d%97%b1-%f0%9d%98%81%f0%9d%97%bc-%f0%9d%97%af%f0%9d%97%b2-%f0%9d%97%af/",
+      "published": "2026-08-05T18:45:04Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Scot Bennett signs on the dotted line",
+      "url": "https://wsmafc.co.uk/scot-bennett-signs/",
+      "published": "2026-08-05T18:00:25Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Chris Jones Appointed as Football Development Manager",
+      "url": "https://worthingfc.com/2026/08/chris-jones-appointed-as-football-development-officer/",
+      "published": "2026-08-05T17:59:31Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Adam Barton reflects on the Nash’s pre season",
+      "url": "https://curzon-ashton.co.uk/adam-barton-interview/",
+      "published": "2026-08-05T17:58:29Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Introducing… Junior Gulls!",
+      "url": "https://torquayunited.com/introducing-junior-gulls/",
+      "published": "2026-08-05T17:30:00Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Marley Rose signs for CTFC",
+      "url": "https://chippenhamtown.com/08/05/marley-rose-signs-for-ctfc/",
+      "published": "2026-08-05T17:00:32Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -616,15 +670,6 @@
       "title": "SILKMEN SELECTED FOR DAZN",
       "url": "https://macclesfieldfc.com/latest-news/silkmen-selected-for-dazn/",
       "published": "2026-08-05T16:00:34Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Dagenham & Redbridge FC Announce Formation Games as Official Back of Shorts Partner",
-      "url": "https://daggers.co.uk/dagenham-redbridge-fc-announce-formation-games-as-official-back-of-shorts-partner/",
-      "published": "2026-08-05T16:00:00Z"
     },
     {
       "club": "Truro City",
@@ -708,15 +753,6 @@
       "published": "2026-08-05T14:41:12Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Daggers Fan Spotlight: Matchday Programme Submission",
-      "url": "https://daggers.co.uk/daggers-fan-spotlight-matchday-programme-submission/",
-      "published": "2026-08-05T14:33:55Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -760,6 +796,15 @@
       "title": "Keeping Plainmoor Safe For All",
       "url": "https://torquayunited.com/keeping-plainmoor-safe-for-all/",
       "published": "2026-08-05T14:00:17Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Co-Working & Holiday Camps",
+      "url": "https://www.fgr.co.uk/news/bw-co-working-holiday-camp/",
+      "published": "2026-08-05T14:00:00Z"
     },
     {
       "club": "Marine",
@@ -807,6 +852,15 @@
       "published": "2026-08-05T12:00:47Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Partnership | Memorial Woodlands",
+      "url": "https://www.fgr.co.uk/news/partnership-memorial-woodlands-26/",
+      "published": "2026-08-05T12:00:00Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -832,24 +886,6 @@
       "title": "York Pullman away coach travel schedule confirmed for 2026/27 season",
       "url": "https://yorkcityfootballclub.co.uk/york-pullman-away-coach-travel-schedule-confirmed-for-2026-27-season/",
       "published": "2026-08-05T11:18:05Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Join Us For Our 2026/27 Kit Launch Party",
-      "url": "https://daggers.co.uk/join-us-for-our-2026-27-kit-launch-party/",
-      "published": "2026-08-05T11:10:20Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Richards added to squad",
-      "url": "https://harriers.co.uk/news/2026/08/05/richards-added-to-squad/",
-      "published": "2026-08-05T11:07:05Z"
     },
     {
       "club": "AFC Fylde",
@@ -922,15 +958,6 @@
       "title": "Welcome, Shiloh Remy!",
       "url": "https://etfc.london/welcome-shiloh-remy/",
       "published": "2026-08-05T09:20:54Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Watch Dorking Wanderers vs The Daggers Live on DAZN",
-      "url": "https://daggers.co.uk/watch-dorking-wanderers-vs-the-daggers-live-on-dazn/",
-      "published": "2026-08-05T09:20:03Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1122,15 +1149,6 @@
       "published": "2026-08-04T15:30:54Z"
     },
     {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Harries ready for “real stuff”",
-      "url": "https://harriers.co.uk/news/2026/08/04/harries-ready-for-real-stuff/",
-      "published": "2026-08-04T15:30:24Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1174,15 +1192,6 @@
       "title": "Thank You To Our Sponsors",
       "url": "https://tonbridgeangels.co.uk/thank-you-to-our-sponsors/",
       "published": "2026-08-04T14:28:25Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Corey Panter Departs",
-      "url": "https://daggers.co.uk/corey-panter-departs/",
-      "published": "2026-08-04T14:00:00Z"
     },
     {
       "club": "Bath City",
@@ -1309,15 +1318,6 @@
       "title": "Next FREE networking event",
       "url": "https://chelmsfordcityfc.com/news/next-free-networking-event-4/",
       "published": "2026-08-04T10:14:49Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Ticket information: Scarborough & Morecambe",
-      "url": "https://www.southshieldsfc.co.uk/ticket-information-scarborough-morecambe/",
-      "published": "2026-08-04T09:55:22Z"
     },
     {
       "club": "Rochdale",
