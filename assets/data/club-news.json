@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-05T18:52:57Z",
+  "generatedAt": "2026-08-05T20:42:06Z",
   "maxItems": 100,
   "sources": [
     {
@@ -38,10 +38,10 @@
     {
       "club": "Brackley Town",
       "domain": "brackleytownfc.com",
-      "feed": "pitchero:/news (scrape)",
+      "feed": "",
       "ok": false,
       "count": 0,
-      "error": "Pitchero scrape returned 0 usable items"
+      "error": "HTTP 403"
     },
     {
       "club": "Braintree Town",
@@ -57,7 +57,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 403"
     },
     {
       "club": "Eastleigh",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -586,6 +586,33 @@
       "code": "WSM",
       "short": "Weston-s-Mare",
       "domain": "wsmafc.co.uk",
+      "title": "Scot Bennett | What He Is Capable Of",
+      "url": "https://wsmafc.co.uk/scot-bennett-what-he-is-capable-of/",
+      "published": "2026-08-05T19:50:17Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Fitness Report 05/08/2026",
+      "url": "https://dwfc.co.uk/2026/08/fitness-report-05-08-2026/",
+      "published": "2026-08-05T19:19:41Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Boost The Budget Scheme Launched",
+      "url": "https://etfc.london/boost-the-budget-scheme-launched/",
+      "published": "2026-08-05T18:55:29Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
       "title": "“𝗜’𝗺 𝗱𝗲𝗹𝗶𝗴𝗵𝘁𝗲𝗱 𝘁𝗼 𝗯𝗲 𝗯𝗮𝗰𝗸” | Scot Bennett – The First Interview",
       "url": "https://wsmafc.co.uk/%f0%9d%97%9c%f0%9d%97%ba-%f0%9d%97%b1%f0%9d%97%b2%f0%9d%97%b9%f0%9d%97%b6%f0%9d%97%b4%f0%9d%97%b5%f0%9d%98%81%f0%9d%97%b2%f0%9d%97%b1-%f0%9d%98%81%f0%9d%97%bc-%f0%9d%97%af%f0%9d%97%b2-%f0%9d%97%af/",
       "published": "2026-08-05T18:45:04Z"
@@ -672,6 +699,15 @@
       "published": "2026-08-05T16:00:34Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Dagenham & Redbridge FC Announce Formation Games as Official Back of Shorts Partner",
+      "url": "https://daggers.co.uk/dagenham-redbridge-fc-announce-formation-games-as-official-back-of-shorts-partner/",
+      "published": "2026-08-05T16:00:00Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -751,6 +787,15 @@
       "title": "Bonnie-Jill Laflin is coming to the Neuven Stadium",
       "url": "https://radcliffefc.com/bonnie-jill-laflin-is-coming-to-the-neuven-stadium/",
       "published": "2026-08-05T14:41:12Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Daggers Fan Spotlight: Matchday Programme Submission",
+      "url": "https://daggers.co.uk/daggers-fan-spotlight-matchday-programme-submission/",
+      "published": "2026-08-05T14:33:55Z"
     },
     {
       "club": "Macclesfield",
@@ -888,6 +933,15 @@
       "published": "2026-08-05T11:18:05Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Join Us For Our 2026/27 Kit Launch Party",
+      "url": "https://daggers.co.uk/join-us-for-our-2026-27-kit-launch-party/",
+      "published": "2026-08-05T11:10:20Z"
+    },
+    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -958,6 +1012,15 @@
       "title": "Welcome, Shiloh Remy!",
       "url": "https://etfc.london/welcome-shiloh-remy/",
       "published": "2026-08-05T09:20:54Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Watch Dorking Wanderers vs The Daggers Live on DAZN",
+      "url": "https://daggers.co.uk/watch-dorking-wanderers-vs-the-daggers-live-on-dazn/",
+      "published": "2026-08-05T09:20:03Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1194,6 +1257,15 @@
       "published": "2026-08-04T14:28:25Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Corey Panter Departs",
+      "url": "https://daggers.co.uk/corey-panter-departs/",
+      "published": "2026-08-04T14:00:00Z"
+    },
+    {
       "club": "Bath City",
       "code": "BAT",
       "short": "Bath",
@@ -1408,78 +1480,6 @@
       "title": "National League Lowdown: Gateshead",
       "url": "https://worthingfc.com/2026/08/national-league-lowdown-gateshead/",
       "published": "2026-08-03T18:30:44Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "🐦 Welcome to CTFC, Kevin Williams | First Interview",
-      "url": "https://chippenhamtown.com/08/03/%f0%9f%90%a6-welcome-to-ctfc-kevin-williams-first-interview/",
-      "published": "2026-08-03T18:00:31Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Only Blue: August 2026 Update",
-      "url": "https://southendunited.co.uk/news/2026/august/03/only-blue--august-2026-update/",
-      "published": "2026-08-03T18:00:00Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "U23 fixtures released as new campaign beckons",
-      "url": "https://maidstoneunited.co.uk/08/03/u23-fixtures-released-as-new-campaign-beckons/",
-      "published": "2026-08-03T17:41:27Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Pre-Season Report: Worthing FC Women 4-3 Fleet Town Women",
-      "url": "https://worthingfc.com/2026/08/pre-season-report-worthing-fc-women-4-3-fleet-town-women/",
-      "published": "2026-08-03T17:33:45Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Kevin Williams is a Bluebird",
-      "url": "https://chippenhamtown.com/08/03/kevin-williams-is-a-bluebird/",
-      "published": "2026-08-03T17:00:15Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Radcliffe FC & Phoenix United Partnship Interview | Billy Quarmby & Bader Al-Akkad",
-      "url": "https://radcliffefc.com/radcliffe-fc-phoenix-united-partnship-interview-billy-quarmby-bader-al-akkad/",
-      "published": "2026-08-03T16:32:04Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Kyle McAdam Added To Shrimpers Ranks",
-      "url": "https://southendunited.co.uk/news/2026/august/03/kyle-mcadam-added-to-shrimpers-ranks/",
-      "published": "2026-08-03T16:30:00Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Radcliffe FC Ownership Group invests in Phoenix United",
-      "url": "https://radcliffefc.com/radcliffe-fc-ownership-group-invests-in-phoenix-united/",
-      "published": "2026-08-03T16:00:24Z"
     }
   ]
 }
