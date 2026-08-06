@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-05T23:33:33Z",
+  "generatedAt": "2026-08-06T01:08:14Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f8d72326350>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f8d71e4a110>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -604,7 +604,7 @@
       "code": "ENF",
       "short": "Enfield",
       "domain": "enfieldtownfootballclub.co.uk",
-      "title": "Boost The Budget Scheme Launched",
+      "title": "“Boost The Budget” Scheme Launched",
       "url": "https://etfc.london/boost-the-budget-scheme-launched/",
       "published": "2026-08-05T18:55:29Z"
     },
@@ -699,6 +699,15 @@
       "published": "2026-08-05T16:00:34Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Dagenham & Redbridge FC Announce Formation Games as Official Back of Shorts Partner",
+      "url": "https://daggers.co.uk/dagenham-redbridge-fc-announce-formation-games-as-official-back-of-shorts-partner/",
+      "published": "2026-08-05T16:00:00Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -778,6 +787,15 @@
       "title": "Bonnie-Jill Laflin is coming to the Neuven Stadium",
       "url": "https://radcliffefc.com/bonnie-jill-laflin-is-coming-to-the-neuven-stadium/",
       "published": "2026-08-05T14:41:12Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Daggers Fan Spotlight: Matchday Programme Submission",
+      "url": "https://daggers.co.uk/daggers-fan-spotlight-matchday-programme-submission/",
+      "published": "2026-08-05T14:33:55Z"
     },
     {
       "club": "Macclesfield",
@@ -915,6 +933,15 @@
       "published": "2026-08-05T11:18:05Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Join Us For Our 2026/27 Kit Launch Party",
+      "url": "https://daggers.co.uk/join-us-for-our-2026-27-kit-launch-party/",
+      "published": "2026-08-05T11:10:20Z"
+    },
+    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -994,6 +1021,15 @@
       "title": "Welcome, Shiloh Remy!",
       "url": "https://etfc.london/welcome-shiloh-remy/",
       "published": "2026-08-05T09:20:54Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Watch Dorking Wanderers vs The Daggers Live on DAZN",
+      "url": "https://daggers.co.uk/watch-dorking-wanderers-vs-the-daggers-live-on-dazn/",
+      "published": "2026-08-05T09:20:03Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1239,6 +1275,15 @@
       "published": "2026-08-04T14:28:25Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Corey Panter Departs",
+      "url": "https://daggers.co.uk/corey-panter-departs/",
+      "published": "2026-08-04T14:00:00Z"
+    },
+    {
       "club": "Bath City",
       "code": "BAT",
       "short": "Bath",
@@ -1435,51 +1480,6 @@
       "title": "Potter Pens Contract",
       "url": "https://marinefc.com/potter-pens-contract/",
       "published": "2026-08-03T19:44:05Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "INTERVIEW | Andy Williams Looks Back on Epic Career",
-      "url": "https://herefordfc.co.uk/2026/08/interview-andy-williams-looks-back-on-epic-career/",
-      "published": "2026-08-03T19:00:32Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Up Next: Billericay Town vs Dover Athletic",
-      "url": "https://doverathletic.com/news/up-next-billericay-town-vs-dover-athletic-2/",
-      "published": "2026-08-03T18:32:43Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "National League Lowdown: Gateshead",
-      "url": "https://worthingfc.com/2026/08/national-league-lowdown-gateshead/",
-      "published": "2026-08-03T18:30:44Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "🐦 Welcome to CTFC, Kevin Williams | First Interview",
-      "url": "https://chippenhamtown.com/08/03/%f0%9f%90%a6-welcome-to-ctfc-kevin-williams-first-interview/",
-      "published": "2026-08-03T18:00:31Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Only Blue: August 2026 Update",
-      "url": "https://southendunited.co.uk/news/2026/august/03/only-blue--august-2026-update/",
-      "published": "2026-08-03T18:00:00Z"
     }
   ]
 }
