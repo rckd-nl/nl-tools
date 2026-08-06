@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-06T04:46:22Z",
+  "generatedAt": "2026-08-06T07:27:52Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f8edd103010>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://harriers.co.uk/feed/",
+      "ok": true,
+      "count": 20,
+      "error": ""
     },
     {
       "club": "King's Lynn Town",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://www.southshieldsfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f8edd0d1190>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -942,6 +942,15 @@
       "published": "2026-08-05T11:10:20Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Richards added to squad",
+      "url": "https://harriers.co.uk/news/2026/08/05/richards-added-to-squad/",
+      "published": "2026-08-05T11:07:05Z"
+    },
+    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -949,6 +958,15 @@
       "title": "Max Fisher Signs Professional Deal",
       "url": "https://afcfylde.co.uk/news/2026/august/05/max-fisher-signs-professional-deal/",
       "published": "2026-08-05T11:00:00Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Lucas Rodrigues Update",
+      "url": "https://www.horshamfc.co.uk/2026/08/05/lucas-rodrigues-update/",
+      "published": "2026-08-05T10:50:15Z"
     },
     {
       "club": "Altrincham",
@@ -1212,6 +1230,15 @@
       "published": "2026-08-04T15:30:54Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Harries ready for “real stuff”",
+      "url": "https://harriers.co.uk/news/2026/08/04/harries-ready-for-real-stuff/",
+      "published": "2026-08-04T15:30:24Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1311,6 +1338,15 @@
       "published": "2026-08-04T12:02:49Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Torquay Coach Spaces Available",
+      "url": "https://www.horshamfc.co.uk/2026/08/04/torquay-coach-spaces-available/",
+      "published": "2026-08-04T11:39:20Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1392,6 +1428,15 @@
       "published": "2026-08-04T10:14:49Z"
     },
     {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Ticket information: Scarborough & Morecambe",
+      "url": "https://www.southshieldsfc.co.uk/ticket-information-scarborough-morecambe/",
+      "published": "2026-08-04T09:55:22Z"
+    },
+    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -1435,51 +1480,6 @@
       "title": "Player News – Owen Pritchard joins Mangotsfield United on loan",
       "url": "https://www.bathcityfc.com/player-news-owen-pritchard-joins-mangotsfield-united-on-loan/",
       "published": "2026-08-03T21:05:08Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Season Ticket sales end on Saturday 8 August!",
-      "url": "https://www.borehamwoodfootballclub.co.uk/season-ticket-sales-end-on-saturday-8-august/",
-      "published": "2026-08-03T19:44:20Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "Potter Pens Contract",
-      "url": "https://marinefc.com/potter-pens-contract/",
-      "published": "2026-08-03T19:44:05Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "INTERVIEW | Andy Williams Looks Back on Epic Career",
-      "url": "https://herefordfc.co.uk/2026/08/interview-andy-williams-looks-back-on-epic-career/",
-      "published": "2026-08-03T19:00:32Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Up Next: Billericay Town vs Dover Athletic",
-      "url": "https://doverathletic.com/news/up-next-billericay-town-vs-dover-athletic-2/",
-      "published": "2026-08-03T18:32:43Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "National League Lowdown: Gateshead",
-      "url": "https://worthingfc.com/2026/08/national-league-lowdown-gateshead/",
-      "published": "2026-08-03T18:30:44Z"
     }
   ]
 }
