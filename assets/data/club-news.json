@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-06T12:49:06Z",
+  "generatedAt": "2026-08-06T15:19:43Z",
   "maxItems": 100,
   "sources": [
     {
@@ -80,7 +80,7 @@
       "domain": "fgr.co.uk",
       "feed": "https://www.fgr.co.uk/news-rss.xml",
       "ok": true,
-      "count": 3826,
+      "count": 3827,
       "error": ""
     },
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f4642ccea50>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7fa1cfc58bd0>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f4642eda450>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7fa1cfe40e90>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,123 @@
     }
   ],
   "items": [
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Pre-Match Meals v Horsham",
+      "url": "https://torquayunited.com/pre-match-meals-at-plainmoor/",
+      "published": "2026-08-06T15:16:20Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "LIVE SPORT IN BAR TWENTY SEVEN",
+      "url": "https://macclesfieldfc.com/latest-news/live-sport-in-bar-twenty-seven-2/",
+      "published": "2026-08-06T15:00:51Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Paul Blackett named Vice Captain",
+      "url": "https://www.southshieldsfc.co.uk/paul-blackett-named-vice-captain/",
+      "published": "2026-08-06T15:00:32Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Dajaune Brown On Joining Dale On Loan",
+      "url": "https://rochdaleafc.co.uk/dajaune-brown-on-joining-dale-on-loan/",
+      "published": "2026-08-06T15:00:26Z"
+    },
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "Marine Travel Chief Becomes Second Non-Exec Director",
+      "url": "https://marinefc.com/marine-travel-chief-becomes-second-non-exec-director/",
+      "published": "2026-08-06T15:00:00Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Welcome To Dale, Dajaune Brown",
+      "url": "https://rochdaleafc.co.uk/dajaune-brown-signs-060826/",
+      "published": "2026-08-06T14:58:56Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Alty TV Pre-Match | Southend United",
+      "url": "https://altrinchamfc.com/blogs/news/alty-tv-pre-match-southend-united",
+      "published": "2026-08-06T14:52:31Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Harry Kite Joins Exeter City",
+      "url": "https://trurocity.co.uk/2026/08/harry-kite-joins-exeter-city/",
+      "published": "2026-08-06T14:37:16Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "McAllister pre Halifax (H)",
+      "url": "https://www.fgr.co.uk/news/mcallister-pre-halifax-h/",
+      "published": "2026-08-06T14:30:00Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Louie Derrick arrives on loan from Bristol City",
+      "url": "https://wsmafc.co.uk/derrick-signs/",
+      "published": "2026-08-06T14:00:10Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Chelmsford City V Ebbsfleet United",
+      "url": "https://chelmsfordcityfc.com/news/chelmsford-city-v-ebbsfleet-united/",
+      "published": "2026-08-06T13:06:51Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Farnborough",
+      "url": "https://maidstoneunited.co.uk/08/06/key-info-farnborough-3/",
+      "published": "2026-08-06T13:00:51Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Away Day Guide: Chorley (A)",
+      "url": "https://chesterfc.com/08/06/away-day-guide-chorley-a-2/",
+      "published": "2026-08-06T12:50:59Z"
+    },
     {
       "club": "Hornchurch",
       "code": "HOR",
@@ -715,15 +832,6 @@
       "title": "Join Our Community Meals Programme",
       "url": "https://spennymoortownfc.co.uk/2026/08/06/join-our-community-meals-programme-2/",
       "published": "2026-08-06T08:59:29Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Club Shop open tomorrow afternoon",
-      "url": "https://daggers.co.uk/club-shop-open-tomorrow-afternoon-4/",
-      "published": "2026-08-06T08:36:18Z"
     },
     {
       "club": "Rochdale",
@@ -897,15 +1005,6 @@
       "published": "2026-08-05T16:00:34Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Dagenham & Redbridge FC Announce Formation Games as Official Back of Shorts Partner",
-      "url": "https://daggers.co.uk/dagenham-redbridge-fc-announce-formation-games-as-official-back-of-shorts-partner/",
-      "published": "2026-08-05T16:00:00Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -985,15 +1084,6 @@
       "title": "Bonnie-Jill Laflin is coming to the Neuven Stadium",
       "url": "https://radcliffefc.com/bonnie-jill-laflin-is-coming-to-the-neuven-stadium/",
       "published": "2026-08-05T14:41:12Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Daggers Fan Spotlight: Matchday Programme Submission",
-      "url": "https://daggers.co.uk/daggers-fan-spotlight-matchday-programme-submission/",
-      "published": "2026-08-05T14:33:55Z"
     },
     {
       "club": "Macclesfield",
@@ -1122,15 +1212,6 @@
       "published": "2026-08-05T11:18:05Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Join Us For Our 2026/27 Kit Launch Party",
-      "url": "https://daggers.co.uk/join-us-for-our-2026-27-kit-launch-party/",
-      "published": "2026-08-05T11:10:20Z"
-    },
-    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -1212,15 +1293,6 @@
       "published": "2026-08-05T09:20:54Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Watch Dorking Wanderers vs The Daggers Live on DAZN",
-      "url": "https://daggers.co.uk/watch-dorking-wanderers-vs-the-daggers-live-on-dazn/",
-      "published": "2026-08-05T09:20:03Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1273,15 +1345,6 @@
       "title": "Season Ticket Cards ready for pick-up",
       "url": "https://altrinchamfc.com/blogs/news/season-ticket-cards-ready-for-pick-up",
       "published": "2026-08-05T07:57:34Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Farnborough",
-      "url": "https://maidstoneunited.co.uk/08/05/key-info-farnborough-3/",
-      "published": "2026-08-05T07:00:51Z"
     },
     {
       "club": "Rochdale",
@@ -1417,69 +1480,6 @@
       "title": "Harries ready for “real stuff”",
       "url": "https://harriers.co.uk/news/2026/08/04/harries-ready-for-real-stuff/",
       "published": "2026-08-04T15:30:24Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "NEWS | Your Herefordshire Named Club Shop Sponsor",
-      "url": "https://herefordfc.co.uk/2026/08/news-your-herefordshire-named-club-shop-sponsor/",
-      "published": "2026-08-04T15:05:59Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Alex Brown joins Lower Breck on loan",
-      "url": "https://chesterfc.com/08/04/alex-brown-joins-lower-breck-on-loan/",
-      "published": "2026-08-04T15:00:40Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "X2 RECRUIT EXTEND SILKMEN PARTNERSHIP DEAL",
-      "url": "https://macclesfieldfc.com/latest-news/x2-recruit-extend-silkmen-partnership-deal/",
-      "published": "2026-08-04T15:00:18Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Bilongo & Silcott-Duberry’s League Two Quiz",
-      "url": "https://rochdaleafc.co.uk/bilongo-silcott-duberrys-league-two-quiz/",
-      "published": "2026-08-04T14:47:56Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Thank You To Our Sponsors",
-      "url": "https://tonbridgeangels.co.uk/thank-you-to-our-sponsors/",
-      "published": "2026-08-04T14:28:25Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Corey Panter Departs",
-      "url": "https://daggers.co.uk/corey-panter-departs/",
-      "published": "2026-08-04T14:00:00Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Bath City Women 1st Team 2026/27 League fixtures revealed",
-      "url": "https://www.bathcityfc.com/bath-city-women-1st-team-2026-27-league-fixtures-revealed/",
-      "published": "2026-08-04T13:34:13Z"
     }
   ]
 }
