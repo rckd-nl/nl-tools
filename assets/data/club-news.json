@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-07T10:36:55Z",
+  "generatedAt": "2026-08-07T11:40:47Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,18 +78,18 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3829,
+      "error": ""
     },
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='gateshead-fc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='gateshead-fc.com', port=443) at 0x7f9ff36c4610>, 'Connection to gateshead-fc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Hartlepool United",
@@ -358,10 +358,10 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "https://www.southshieldsfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 521"
     },
     {
       "club": "Southport",
@@ -582,6 +582,132 @@
   ],
   "items": [
     {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Match Preview | Spalding United (H)",
+      "url": "https://radcliffefc.com/match-preview-spalding-united-h/",
+      "published": "2026-08-07T11:36:54Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City Sign Tom Dean",
+      "url": "https://trurocity.co.uk/2026/08/truro-city-sign-tom-dean/",
+      "published": "2026-08-07T11:32:51Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "A Letter to Poolies from Landon Smith",
+      "url": "https://www.hartlepoolunited.co.uk/a-letter-to-poolies-from-landon-smith/",
+      "published": "2026-08-07T11:30:19Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Jack Young Signs For Spennymoor",
+      "url": "https://spennymoortownfc.co.uk/2026/08/07/jack-young-signs-for-spennymoor/",
+      "published": "2026-08-07T11:27:55Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "NEWS | Chairman’s Well Wishes Ahead of Opener",
+      "url": "https://herefordfc.co.uk/2026/08/news-chairmans-well-wishes-ahead-of-opener/",
+      "published": "2026-08-07T11:24:53Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Preview | Mark Cooper on Hemel Hempstead Town",
+      "url": "https://chelmsfordcityfc.com/news/preview-mark-cooper-on-hemel-hempstead-town/",
+      "published": "2026-08-07T11:15:26Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Preview | Bradford City (A)",
+      "url": "https://rochdaleafc.co.uk/preview-bradford-city-a/",
+      "published": "2026-08-07T11:14:48Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "OPPOSITION UNPACKED: HORSHAM",
+      "url": "https://torquayunited.com/opposition-unpacked-horsham/",
+      "published": "2026-08-07T11:03:21Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Player News – James Morton, Harrison Minturn & Sev Streczen",
+      "url": "https://www.bathcityfc.com/player-news-james-morton-harrison-minturn-sev-streczen/",
+      "published": "2026-08-07T11:00:55Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Woking sign Jaiden Putman",
+      "url": "https://wokingfc.co.uk/08/07/woking-sign-jaiden-putman/",
+      "published": "2026-08-07T11:00:02Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "MATCH PREVIEW: MARINE AFC VS MACCLESFIELD FC",
+      "url": "https://macclesfieldfc.com/latest-news/match-preview-marine-afc-vs-macclesfield-fc-2/",
+      "published": "2026-08-07T11:00:02Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Info | Halifax Town (H)",
+      "url": "https://www.fgr.co.uk/news/match-info-halifax-h-2627/",
+      "published": "2026-08-07T11:00:00Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Preview | Halifax Town (H)",
+      "url": "https://www.fgr.co.uk/news/match-preview-halifax-town-2627-h/",
+      "published": "2026-08-07T11:00:00Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Squad numbers confirmed for 2026/27",
+      "url": "https://harriers.co.uk/news/2026/08/07/squad-numbers-confirmed-for-2026-27/",
+      "published": "2026-08-07T10:54:32Z"
+    },
+    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -607,6 +733,15 @@
       "title": "Graham Farrell – funeral details",
       "url": "https://www.horshamfc.co.uk/2026/08/07/graham-farrell-funeral-details/",
       "published": "2026-08-07T09:37:52Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Hospitality available for the first Home Game of 26/27",
+      "url": "https://spennymoortownfc.co.uk/2026/08/07/hospitality-available-for-the-first-home-game-of-26-27/",
+      "published": "2026-08-07T09:20:21Z"
     },
     {
       "club": "Southend United",
@@ -739,6 +874,15 @@
       "code": "ROC",
       "short": "Rochdale",
       "domain": "rochdaleafc.co.uk",
+      "title": "Gaffer On Injuries, Recruitment & More",
+      "url": "https://rochdaleafc.co.uk/gaffer-on-injuries-recruitment-more/",
+      "published": "2026-08-07T07:03:34Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
       "title": "Bradford Tickets On Sale Until 4pm Today",
       "url": "https://rochdaleafc.co.uk/tickets-for-carabao-cup-prelim-on-sale/",
       "published": "2026-08-07T06:57:00Z"
@@ -778,15 +922,6 @@
       "title": "Paul Hinshelwood | First Interview",
       "url": "https://worthingfc.com/2026/08/paul-hinshelwood-first-interview/",
       "published": "2026-08-06T20:13:54Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Gaffer On Injuries, Recruitment & More",
-      "url": "https://rochdaleafc.co.uk/gaffer-on-injuries-recruitment-more/",
-      "published": "2026-08-06T20:03:34Z"
     },
     {
       "club": "Truro City",
@@ -868,24 +1003,6 @@
       "title": "Official: Rankine joins the Spitfires on loan",
       "url": "https://eastleighfc.com/2026/08/official-rankine-joins-the-spitfires-on-loan/",
       "published": "2026-08-06T17:01:45Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Watch Along: Scarborough v South Shields FC",
-      "url": "https://www.southshieldsfc.co.uk/watch-along-scarborough-v-south-shields-fc/",
-      "published": "2026-08-06T17:00:14Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Rocco Coyle joins Gateshead FC on two-year deal",
-      "url": "https://gateshead-fc.com/rocco-coyle-joins-gateshead-fc-on-two-year-deal/",
-      "published": "2026-08-06T17:00:09Z"
     },
     {
       "club": "Torquay United",
@@ -1014,15 +1131,6 @@
       "published": "2026-08-06T15:00:51Z"
     },
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Paul Blackett named Vice Captain",
-      "url": "https://www.southshieldsfc.co.uk/paul-blackett-named-vice-captain/",
-      "published": "2026-08-06T15:00:32Z"
-    },
-    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -1066,6 +1174,15 @@
       "title": "Harry Kite Joins Exeter City",
       "url": "https://trurocity.co.uk/2026/08/harry-kite-joins-exeter-city/",
       "published": "2026-08-06T14:37:16Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "McAllister pre Halifax (H)",
+      "url": "https://www.fgr.co.uk/news/mcallister-pre-halifax-h/",
+      "published": "2026-08-06T14:30:00Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1113,6 +1230,15 @@
       "published": "2026-08-06T12:31:12Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Robbie Savage pre Halifax (H)",
+      "url": "https://www.fgr.co.uk/news/robbie-savage-pre-halifax-h/",
+      "published": "2026-08-06T12:15:00Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1140,15 +1266,6 @@
       "published": "2026-08-06T11:00:04Z"
     },
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Wolf Competitions Stadium to host Subway Players Cup League Phase",
-      "url": "https://www.southshieldsfc.co.uk/wolf-competitions-stadium-to-host-subway-players-cup-league-phase/",
-      "published": "2026-08-06T10:59:11Z"
-    },
-    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1167,13 +1284,13 @@
       "published": "2026-08-06T10:56:39Z"
     },
     {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Gateshead FC announce CS Removals as 2026/27 Centre Circle Sponsor",
-      "url": "https://gateshead-fc.com/gateshead-fc-announce-cs-removals-as-2026-27-centre-circle-sponsor/",
-      "published": "2026-08-06T10:25:30Z"
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Mabete Signs",
+      "url": "https://www.fgr.co.uk/news/mabete-signs/",
+      "published": "2026-08-06T10:00:00Z"
     },
     {
       "club": "Hornchurch",
@@ -1363,123 +1480,6 @@
       "title": "Live Stream: Carlisle United",
       "url": "https://worthingfc.com/2026/08/live-stream-carlisle-united/",
       "published": "2026-08-05T16:29:00Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "National League Cup Group Stage Fixtures & Ticket Prices Announced",
-      "url": "https://worthingfc.com/2026/08/national-league-cup-group-stage-fixtures-ticket-prices/",
-      "published": "2026-08-05T16:13:02Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Charlie Lennon Joins on Loan from Barnsley",
-      "url": "https://ytfc.net/2026/08/charlie-lennon-joins-on-loan-from-barnsley/",
-      "published": "2026-08-05T16:00:45Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SILKMEN SELECTED FOR DAZN",
-      "url": "https://macclesfieldfc.com/latest-news/silkmen-selected-for-dazn/",
-      "published": "2026-08-05T16:00:34Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "National League Cup Group Matches",
-      "url": "https://trurocity.co.uk/2026/08/national-league-cup-group-matches/",
-      "published": "2026-08-05T15:58:29Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "National League Cup Groups and Fixtures Confirmed",
-      "url": "https://wokingfc.co.uk/08/05/national-league-cup-groups-and-fixtures-confirmed/",
-      "published": "2026-08-05T15:58:19Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "National League Cup fixtures confirmed",
-      "url": "https://www.hartlepoolunited.co.uk/national-league-cup-fixtures-confirmed/",
-      "published": "2026-08-05T15:54:18Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Dolaghan Departs",
-      "url": "https://worthingfc.com/2026/08/dolaghan-departs/",
-      "published": "2026-08-05T15:30:49Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Integrity. Honesty. Loyalty.",
-      "url": "https://tonbridgeangels.co.uk/integrity-honesty-loyalty/",
-      "published": "2026-08-05T15:08:29Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Ben Jackson Signs Professional Deal",
-      "url": "https://afcfylde.co.uk/news/2026/august/05/ben-jackson-signs-professional-deal/",
-      "published": "2026-08-05T15:00:00Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "HIGHLIGHTS | Bromsgrove Sporting 0-1 Hereford FC",
-      "url": "https://herefordfc.co.uk/2026/08/highlights-bromsgrove-sporting-0-1-hereford-fc/",
-      "published": "2026-08-05T14:52:47Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Supporter Information ahead of the 2026/27 season",
-      "url": "https://eastleighfc.com/2026/08/supporter-information-ahead-of-the-2026-27-season/",
-      "published": "2026-08-05T14:42:37Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Bonnie-Jill Laflin is coming to the Neuven Stadium",
-      "url": "https://radcliffefc.com/bonnie-jill-laflin-is-coming-to-the-neuven-stadium/",
-      "published": "2026-08-05T14:41:12Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "CLUB UPDATE",
-      "url": "https://macclesfieldfc.com/latest-news/club-update-3/",
-      "published": "2026-08-05T14:28:27Z"
     }
   ]
 }
