@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-07T11:40:47Z",
+  "generatedAt": "2026-08-07T12:32:16Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -43,12 +43,12 @@
       "error": "HTTP 202"
     },
     {
-      "club": "Gateshead",
-      "domain": "gateshead-fc.com",
+      "club": "Forest Green Rovers",
+      "domain": "fgr.co.uk",
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='gateshead-fc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='gateshead-fc.com', port=443) at 0x7f9ff36c4610>, 'Connection to gateshead-fc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Morecambe",
@@ -185,14 +185,6 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
-    },
-    {
-      "club": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 521"
     },
     {
       "club": "Worksop Town",
