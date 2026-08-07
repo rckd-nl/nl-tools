@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-07T09:44:25Z",
+  "generatedAt": "2026-08-07T10:36:55Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3827,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Ground Regulations: aged 13 and Under-14s",
+      "url": "https://www.hartlepoolunited.co.uk/ground-regulations-aged-13-and-under-14s/",
+      "published": "2026-08-07T10:20:24Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "A Message From Rob Ramshaw",
+      "url": "https://spennymoortownfc.co.uk/2026/08/07/a-message-from-rob-ramshaw/",
+      "published": "2026-08-07T09:59:20Z"
+    },
     {
       "club": "Horsham",
       "code": "HRS",
@@ -1050,15 +1068,6 @@
       "published": "2026-08-06T14:37:16Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "McAllister pre Halifax (H)",
-      "url": "https://www.fgr.co.uk/news/mcallister-pre-halifax-h/",
-      "published": "2026-08-06T14:30:00Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1102,15 +1111,6 @@
       "title": "Smoke. No Joke",
       "url": "https://hornchurchfc.com/smoke-no-joke/",
       "published": "2026-08-06T12:31:12Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage pre Halifax (H)",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-pre-halifax-h/",
-      "published": "2026-08-06T12:15:00Z"
     },
     {
       "club": "Maidstone United",
@@ -1176,15 +1176,6 @@
       "published": "2026-08-06T10:25:30Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Mabete Signs",
-      "url": "https://www.fgr.co.uk/news/mabete-signs/",
-      "published": "2026-08-06T10:00:00Z"
-    },
-    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -1228,15 +1219,6 @@
       "title": "Join Our Community Meals Programme",
       "url": "https://spennymoortownfc.co.uk/2026/08/06/join-our-community-meals-programme-2/",
       "published": "2026-08-06T08:59:29Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Club Shop open tomorrow afternoon",
-      "url": "https://daggers.co.uk/club-shop-open-tomorrow-afternoon-4/",
-      "published": "2026-08-06T08:36:18Z"
     },
     {
       "club": "Rochdale",
@@ -1410,15 +1392,6 @@
       "published": "2026-08-05T16:00:34Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Dagenham & Redbridge FC Announce Formation Games as Official Back of Shorts Partner",
-      "url": "https://daggers.co.uk/dagenham-redbridge-fc-announce-formation-games-as-official-back-of-shorts-partner/",
-      "published": "2026-08-05T16:00:00Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1480,6 +1453,33 @@
       "title": "HIGHLIGHTS | Bromsgrove Sporting 0-1 Hereford FC",
       "url": "https://herefordfc.co.uk/2026/08/highlights-bromsgrove-sporting-0-1-hereford-fc/",
       "published": "2026-08-05T14:52:47Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Supporter Information ahead of the 2026/27 season",
+      "url": "https://eastleighfc.com/2026/08/supporter-information-ahead-of-the-2026-27-season/",
+      "published": "2026-08-05T14:42:37Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Bonnie-Jill Laflin is coming to the Neuven Stadium",
+      "url": "https://radcliffefc.com/bonnie-jill-laflin-is-coming-to-the-neuven-stadium/",
+      "published": "2026-08-05T14:41:12Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "CLUB UPDATE",
+      "url": "https://macclesfieldfc.com/latest-news/club-update-3/",
+      "published": "2026-08-05T14:28:27Z"
     }
   ]
 }
