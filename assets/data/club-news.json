@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-07T21:59:05Z",
+  "generatedAt": "2026-08-07T22:57:59Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3830,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -586,6 +586,15 @@
       "code": "HER",
       "short": "Hereford",
       "domain": "herefordfc.co.uk",
+      "title": "NEWS | Hudson and Kandola to Lead the Bulls in 2026/27",
+      "url": "https://herefordfc.co.uk/2026/08/news-hudson-and-kandola-to-lead-the-bulls-in-2026-27/",
+      "published": "2026-08-07T22:25:09Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
       "title": "INTERVIEW | Harrison Iwunze on his Hereford Move",
       "url": "https://herefordfc.co.uk/2026/08/interview-harrison-iwunze-on-his-hereford-move/",
       "published": "2026-08-07T21:22:33Z"
@@ -679,6 +688,15 @@
       "title": "Murray returns to The Optima, Hewlett & Taylor head out on loan",
       "url": "https://wsmafc.co.uk/murray-hewlett-taylor/",
       "published": "2026-08-07T18:00:21Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Marquez heads out on loan",
+      "url": "https://www.fgr.co.uk/news/marquez-heads-out-on-loan/",
+      "published": "2026-08-07T18:00:00Z"
     },
     {
       "club": "Marine",
@@ -1392,6 +1410,24 @@
       "published": "2026-08-07T11:00:02Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Info | Halifax Town (H)",
+      "url": "https://www.fgr.co.uk/news/match-info-halifax-h-2627/",
+      "published": "2026-08-07T11:00:00Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Preview | Halifax Town (H)",
+      "url": "https://www.fgr.co.uk/news/match-preview-halifax-town-2627-h/",
+      "published": "2026-08-07T11:00:00Z"
+    },
+    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -1399,15 +1435,6 @@
       "title": "Squad numbers confirmed for 2026/27",
       "url": "https://harriers.co.uk/news/2026/08/07/squad-numbers-confirmed-for-2026-27/",
       "published": "2026-08-07T10:54:32Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Brunel Shipping Renews Partnership with Dagenham & Redbridge FC",
-      "url": "https://daggers.co.uk/brunel-shipping-renews-partnership-with-dagenham-redbridge-fc/",
-      "published": "2026-08-07T10:48:56Z"
     },
     {
       "club": "Macclesfield",
@@ -1453,33 +1480,6 @@
       "title": "Hospitality available for the first Home Game of 26/27",
       "url": "https://spennymoortownfc.co.uk/2026/08/07/hospitality-available-for-the-first-home-game-of-26-27/",
       "published": "2026-08-07T09:20:21Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Preview: Altrincham (A)",
-      "url": "https://southendunited.co.uk/news/2026/august/07/preview--altrincham--a-/",
-      "published": "2026-08-07T09:18:53Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Alty TV Player Interview | Tom Crawford",
-      "url": "https://altrinchamfc.com/blogs/news/alty-tv-player-interview-tom-crawford-1",
-      "published": "2026-08-07T09:13:02Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Opening Day is nearly upon us",
-      "url": "https://altrinchamfc.com/blogs/news/opening-day-is-nearly-upon-us",
-      "published": "2026-08-07T09:12:36Z"
     }
   ]
 }
