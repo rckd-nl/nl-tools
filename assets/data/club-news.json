@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-07T19:17:04Z",
+  "generatedAt": "2026-08-07T20:03:10Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,42 @@
     }
   ],
   "items": [
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Match Preview: Kidderminster",
+      "url": "https://hornchurchfc.com/match-preview-kidderminster/",
+      "published": "2026-08-07T20:02:18Z"
+    },
+    {
+      "club": "Chesham United",
+      "code": "CHU",
+      "short": "Chesham",
+      "domain": "cheshamunited.co.uk",
+      "title": "Notes from the Chair – 7th August 2026",
+      "url": "https://cheshamunited.co.uk/2026/08/notes-from-the-chair-7th-august-2026/",
+      "published": "2026-08-07T19:49:48Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Interview: Daryl (Pre-Kidderminster)",
+      "url": "https://hornchurchfc.com/interview-daryl-pre-kidderminster/",
+      "published": "2026-08-07T19:49:21Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "INTERVIEW | Downes Talks Tustin, Iwunze & Buxton",
+      "url": "https://herefordfc.co.uk/2026/08/interview-downes-talks-tustin-iwunze-buxton/",
+      "published": "2026-08-07T19:30:40Z"
+    },
     {
       "club": "Truro City",
       "code": "TRU",
@@ -1383,15 +1419,6 @@
       "published": "2026-08-07T10:54:32Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Brunel Shipping Renews Partnership with Dagenham & Redbridge FC",
-      "url": "https://daggers.co.uk/brunel-shipping-renews-partnership-with-dagenham-redbridge-fc/",
-      "published": "2026-08-07T10:48:56Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1417,15 +1444,6 @@
       "title": "A Message From Rob Ramshaw",
       "url": "https://spennymoortownfc.co.uk/2026/08/07/a-message-from-rob-ramshaw/",
       "published": "2026-08-07T09:59:20Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Graham Farrell – funeral details",
-      "url": "https://www.horshamfc.co.uk/2026/08/07/graham-farrell-funeral-details/",
-      "published": "2026-08-07T09:37:52Z"
     },
     {
       "club": "Spennymoor Town",
@@ -1462,24 +1480,6 @@
       "title": "Opening Day is nearly upon us",
       "url": "https://altrinchamfc.com/blogs/news/opening-day-is-nearly-upon-us",
       "published": "2026-08-07T09:12:36Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Chairman’s notes: Tamworth (H)",
-      "url": "https://www.borehamwoodfootballclub.co.uk/chairmans-notes-tamworth-h-2/",
-      "published": "2026-08-07T09:08:07Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "AWAY DAY BLUES: MARINE AFC",
-      "url": "https://macclesfieldfc.com/latest-news/away-day-blues-marine-afc/",
-      "published": "2026-08-07T09:00:09Z"
     }
   ]
 }
