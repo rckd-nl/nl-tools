@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-07T14:02:41Z",
+  "generatedAt": "2026-08-07T15:12:49Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -582,6 +582,114 @@
   ],
   "items": [
     {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "First Interview: Josh Jeffries joins the Spitfires",
+      "url": "https://eastleighfc.com/2026/08/first-interview-josh-jeffries-joins-the-spitfires/",
+      "published": "2026-08-07T15:00:22Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "John Rooney ahead of Marine season opener",
+      "url": "https://macclesfieldfc.com/latest-news/john-rooney-ahead-of-marine-season-opener/",
+      "published": "2026-08-07T15:00:04Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "The Season Starts On Saturday!",
+      "url": "https://torquayunited.com/the-season-starts-on-saturday-2/",
+      "published": "2026-08-07T15:00:00Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Welcome to Chester FC, Ben Lomax!",
+      "url": "https://chesterfc.com/08/07/welcome-to-chester-fc-ben-lomax/",
+      "published": "2026-08-07T14:59:02Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Friday Interview",
+      "url": "https://maidstoneunited.co.uk/08/07/friday-interview-3/",
+      "published": "2026-08-07T14:57:06Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Match Preview (H) Dagenham & Redbridge 08/08/26",
+      "url": "https://dwfc.co.uk/2026/08/match-preview-h-dagenham-redbridge-08-08-26/",
+      "published": "2026-08-07T14:37:41Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Goalie Andy Firth joins the Robins",
+      "url": "https://altrinchamfc.com/blogs/news/goalie-andy-firth-joins-the-robins",
+      "published": "2026-08-07T14:28:18Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Academy scholars for 2026/27 announced",
+      "url": "https://yorkcityfootballclub.co.uk/academy-scholars-for-2026-27-announced/",
+      "published": "2026-08-07T14:07:14Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City Sign Max Kinsey",
+      "url": "https://trurocity.co.uk/2026/08/truro-city-sign-max-kinsey/",
+      "published": "2026-08-07T14:06:25Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Official: Dobson-Ventura joins the Spitfires on loan",
+      "url": "https://eastleighfc.com/2026/08/official-dobson-ventura-joins-the-spitfires-on-loan/",
+      "published": "2026-08-07T14:00:59Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Farnborough",
+      "url": "https://maidstoneunited.co.uk/08/07/key-info-farnborough-3/",
+      "published": "2026-08-07T14:00:51Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Match Preview | Alfreton Town (H)",
+      "url": "https://curzon-ashton.co.uk/match-preview-alfreton-town-h-3/",
+      "published": "2026-08-07T14:00:45Z"
+    },
+    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -607,15 +715,6 @@
       "title": "Jake Forster-Caskey appointed Club Captain for upcoming campaign",
       "url": "https://wokingfc.co.uk/08/07/jake-forster-caskey-appointed-club-captain-for-upcoming-campaign/",
       "published": "2026-08-07T13:56:18Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Match Preview | Alfreton Town (H)",
-      "url": "https://curzon-ashton.co.uk/match-preview-alfreton-town-h-3/",
-      "published": "2026-08-07T13:55:45Z"
     },
     {
       "club": "South Shields",
@@ -940,15 +1039,6 @@
       "title": "A Message From Rob Ramshaw",
       "url": "https://spennymoortownfc.co.uk/2026/08/07/a-message-from-rob-ramshaw/",
       "published": "2026-08-07T09:59:20Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Graham Farrell – funeral details",
-      "url": "https://www.horshamfc.co.uk/2026/08/07/graham-farrell-funeral-details/",
-      "published": "2026-08-07T09:37:52Z"
     },
     {
       "club": "Spennymoor Town",
@@ -1284,15 +1374,6 @@
       "published": "2026-08-06T16:31:12Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Preview – Torquay United",
-      "url": "https://www.horshamfc.co.uk/2026/08/06/match-preview-torquay-united/",
-      "published": "2026-08-06T16:30:51Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1399,87 +1480,6 @@
       "title": "Dajaune Brown On Joining Dale On Loan",
       "url": "https://rochdaleafc.co.uk/dajaune-brown-on-joining-dale-on-loan/",
       "published": "2026-08-06T14:55:26Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Alty TV Pre-Match | Southend United",
-      "url": "https://altrinchamfc.com/blogs/news/alty-tv-pre-match-southend-united",
-      "published": "2026-08-06T14:52:31Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "National League Advert: DAZN",
-      "url": "https://maidstoneunited.co.uk/08/06/national-league-advert-dazn/",
-      "published": "2026-08-06T14:39:24Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Harry Kite Joins Exeter City",
-      "url": "https://trurocity.co.uk/2026/08/harry-kite-joins-exeter-city/",
-      "published": "2026-08-06T14:37:16Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "McAllister pre Halifax (H)",
-      "url": "https://www.fgr.co.uk/news/mcallister-pre-halifax-h/",
-      "published": "2026-08-06T14:30:00Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Louie Derrick arrives on loan from Bristol City",
-      "url": "https://wsmafc.co.uk/derrick-signs/",
-      "published": "2026-08-06T14:00:10Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Chelmsford City V Ebbsfleet United",
-      "url": "https://chelmsfordcityfc.com/news/chelmsford-city-v-ebbsfleet-united/",
-      "published": "2026-08-06T13:06:51Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Farnborough",
-      "url": "https://maidstoneunited.co.uk/08/06/key-info-farnborough-3/",
-      "published": "2026-08-06T13:00:51Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Away Day Guide: Chorley (A)",
-      "url": "https://chesterfc.com/08/06/away-day-guide-chorley-a-2/",
-      "published": "2026-08-06T12:50:59Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Smoke. No Joke",
-      "url": "https://hornchurchfc.com/smoke-no-joke/",
-      "published": "2026-08-06T12:31:12Z"
     }
   ]
 }
