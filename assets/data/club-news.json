@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-08T09:58:02Z",
+  "generatedAt": "2026-08-08T11:08:35Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f1c04641510>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -470,10 +470,10 @@
     {
       "club": "Enfield Town",
       "domain": "enfieldtownfootballclub.co.uk",
-      "feed": "https://etfc.london/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "SSLError: HTTPSConnectionPool(host='enfieldtownfootballclub.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1016)')))"
     },
     {
       "club": "Farnborough",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f1c044b6b50>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,51 @@
     }
   ],
   "items": [
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Welcome Back, Frankie Edwards!",
+      "url": "https://hornchurchfc.com/welcome-back-frankie-edwards/",
+      "published": "2026-08-08T11:00:35Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Preview: Chorley (A)",
+      "url": "https://chesterfc.com/08/08/preview-chorley/",
+      "published": "2026-08-08T10:29:15Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Live Commentary: Morecambe (A)",
+      "url": "https://spennymoortownfc.co.uk/2026/08/08/live-commentary-morecambe-a/",
+      "published": "2026-08-08T10:05:36Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "TIC Health become our Training Kit Partner for the 2026/27 season!",
+      "url": "https://chesterfc.com/08/08/tichealth/",
+      "published": "2026-08-08T10:00:21Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Today’s The Day!",
+      "url": "https://torquayunited.com/todays-the-day/",
+      "published": "2026-08-08T09:59:01Z"
+    },
     {
       "club": "Eastleigh",
       "code": "EAS",
@@ -1230,15 +1275,6 @@
       "published": "2026-08-07T13:10:01Z"
     },
     {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "We’re up and running!",
-      "url": "https://etfc.london/were-up-and-running/",
-      "published": "2026-08-07T13:06:06Z"
-    },
-    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -1383,15 +1419,6 @@
       "published": "2026-08-07T11:14:48Z"
     },
     {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "OPPOSITION UNPACKED: HORSHAM",
-      "url": "https://torquayunited.com/opposition-unpacked-horsham/",
-      "published": "2026-08-07T11:03:21Z"
-    },
-    {
       "club": "Bath City",
       "code": "BAT",
       "short": "Bath",
@@ -1417,15 +1444,6 @@
       "title": "MATCH PREVIEW: MARINE AFC VS MACCLESFIELD FC",
       "url": "https://macclesfieldfc.com/latest-news/match-preview-marine-afc-vs-macclesfield-fc-2/",
       "published": "2026-08-07T11:00:02Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Brunel Shipping Renews Partnership with Dagenham & Redbridge FC",
-      "url": "https://daggers.co.uk/brunel-shipping-renews-partnership-with-dagenham-redbridge-fc/",
-      "published": "2026-08-07T10:48:56Z"
     },
     {
       "club": "Macclesfield",
@@ -1462,24 +1480,6 @@
       "title": "Hospitality available for the first Home Game of 26/27",
       "url": "https://spennymoortownfc.co.uk/2026/08/07/hospitality-available-for-the-first-home-game-of-26-27/",
       "published": "2026-08-07T09:20:21Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Preview: Altrincham (A)",
-      "url": "https://southendunited.co.uk/news/2026/august/07/preview--altrincham--a-/",
-      "published": "2026-08-07T09:18:53Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Alty TV Player Interview | Tom Crawford",
-      "url": "https://altrinchamfc.com/blogs/news/alty-tv-player-interview-tom-crawford-1",
-      "published": "2026-08-07T09:13:02Z"
     }
   ]
 }
