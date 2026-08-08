@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-08T14:51:28Z",
+  "generatedAt": "2026-08-08T15:47:36Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Report: WsM AFC vs Chesham United",
+      "url": "https://wsmafc.co.uk/report-wsm-afc-vs-chesham-united/",
+      "published": "2026-08-08T15:34:56Z"
+    },
     {
       "club": "Farnborough",
       "code": "FAB",
@@ -1471,15 +1480,6 @@
       "title": "Love makes Glassboys switch",
       "url": "https://harriers.co.uk/news/2026/08/07/love-makes-glassboys-switch/",
       "published": "2026-08-07T12:00:31Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "GOALKEEPER RIVA ADDED TO THE RANKS",
-      "url": "https://macclesfieldfc.com/latest-news/goalkeeper-riva-added-to-the-ranks/",
-      "published": "2026-08-07T12:00:07Z"
     }
   ]
 }
