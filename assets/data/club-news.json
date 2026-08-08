@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-07T23:50:20Z",
+  "generatedAt": "2026-08-08T02:23:14Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -937,7 +937,7 @@
       "code": "TOR",
       "short": "Torquay",
       "domain": "torquayunited.com",
-      "title": "Tomorrow At Plainmoor | Horsham",
+      "title": "Match Day At Plainmoor | Horsham",
       "url": "https://torquayunited.com/today-at-plainmoor-exeter-city/",
       "published": "2026-08-07T16:00:00Z"
     },
@@ -1473,13 +1473,13 @@
       "published": "2026-08-07T09:59:20Z"
     },
     {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Hospitality available for the first Home Game of 26/27",
-      "url": "https://spennymoortownfc.co.uk/2026/08/07/hospitality-available-for-the-first-home-game-of-26-27/",
-      "published": "2026-08-07T09:20:21Z"
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Graham Farrell – funeral details",
+      "url": "https://www.horshamfc.co.uk/2026/08/07/graham-farrell-funeral-details/",
+      "published": "2026-08-07T09:37:52Z"
     }
   ]
 }
