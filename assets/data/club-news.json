@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-08T15:47:36Z",
+  "generatedAt": "2026-08-08T16:07:59Z",
   "maxItems": 100,
   "sources": [
     {
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,11 +582,29 @@
   ],
   "items": [
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Dale Exit Carabao Cup",
+      "url": "https://rochdaleafc.co.uk/report-bradford-city-away-080826/",
+      "published": "2026-08-08T16:03:38Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Match Report: Farnborough",
+      "url": "https://maidstoneunited.co.uk/08/08/match-report-farnborough-3/",
+      "published": "2026-08-08T16:02:24Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
       "domain": "wsmafc.co.uk",
-      "title": "Report: WsM AFC vs Chesham United",
+      "title": "Report: Seagulls kick league season off with three points",
       "url": "https://wsmafc.co.uk/report-wsm-afc-vs-chesham-united/",
       "published": "2026-08-08T15:34:56Z"
     },
@@ -1462,24 +1480,6 @@
       "title": "INTERVIEW | Harry Tustin on Returning to Hereford",
       "url": "https://herefordfc.co.uk/2026/08/interview-harry-tustin-on-returning-to-hereford/",
       "published": "2026-08-07T12:23:43Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Bullas Pledges ‘Blood and Sweat’ for Angels’ Cause",
-      "url": "https://tonbridgeangels.co.uk/bullas-pledges-blood-and-sweat-for-angels-cause/",
-      "published": "2026-08-07T12:00:49Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Love makes Glassboys switch",
-      "url": "https://harriers.co.uk/news/2026/08/07/love-makes-glassboys-switch/",
-      "published": "2026-08-07T12:00:31Z"
     }
   ]
 }
