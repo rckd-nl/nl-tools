@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-09T14:03:26Z",
+  "generatedAt": "2026-08-09T14:54:59Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Post-Chorley: Phil Parkinson",
+      "url": "https://chesterfc.com/08/09/post-chorley-phil-parkinson/",
+      "published": "2026-08-09T14:36:36Z"
+    },
     {
       "club": "Macclesfield",
       "code": "MAC",
@@ -744,6 +753,15 @@
       "published": "2026-08-09T09:37:17Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Torquay United",
+      "url": "https://www.horshamfc.co.uk/2026/08/09/match-report-torquay-united-3/",
+      "published": "2026-08-09T09:36:19Z"
+    },
+    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -778,6 +796,15 @@
       "title": "City in Action – Sholing (A) – Southern League Premier South",
       "url": "https://www.bathcityfc.com/city-in-action-sholing-a-southern-league-premier-south/",
       "published": "2026-08-09T08:33:20Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "💬 Mike Williamson reflects on opening day win over Scarborough!",
+      "url": "https://www.southshieldsfc.co.uk/%f0%9f%92%ac-mike-williamson-reflects-on-opening-day-win-over-scarborough/",
+      "published": "2026-08-09T08:26:24Z"
     },
     {
       "club": "Bath City",
@@ -1453,33 +1480,6 @@
       "title": "Match Preview: Carlisle United (A)",
       "url": "https://worthingfc.com/2026/08/match-preview-carlisle-united-a/",
       "published": "2026-08-08T08:06:14Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "Marine Partners with Colbier",
-      "url": "https://marinefc.com/marine-partners-with-colbier/",
-      "published": "2026-08-08T07:00:00Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "“Put Your Fan Hat On”: Ball’s Rallying Cry to the Yellow Army",
-      "url": "https://torquayunited.com/put-your-fan-hat-on-balls-rallying-cry-to-the-yellow-army/",
-      "published": "2026-08-08T07:00:00Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "HFCSA Newsletter: August 26",
-      "url": "https://hornchurchfc.com/hfcsa-newsletter-august-26/",
-      "published": "2026-08-08T06:28:10Z"
     }
   ]
 }
