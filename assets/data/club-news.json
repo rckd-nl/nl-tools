@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-09T06:30:42Z",
+  "generatedAt": "2026-08-09T07:43:14Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Watch Scott Bartlett’s Sholing post-match interview",
+      "url": "https://www.bathcityfc.com/watch-scott-bartletts-sholing-post-match-interview/",
+      "published": "2026-08-09T07:23:29Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "🎤 𝗣𝗼𝘀𝘁-𝗠𝗮𝘁𝗰𝗵 | Gary Horgan on our 2-0 defeat at Uxbridge.",
+      "url": "https://chippenhamtown.com/08/09/%f0%9f%8e%a4-%f0%9d%97%a3%f0%9d%97%bc%f0%9d%98%80%f0%9d%98%81-%f0%9d%97%a0%f0%9d%97%ae%f0%9d%98%81%f0%9d%97%b0%f0%9d%97%b5-gary-horgan-on-our-2-0-defeat-at-uxbridge/",
+      "published": "2026-08-09T07:00:45Z"
+    },
     {
       "club": "Maidstone United",
       "code": "MSU",
@@ -1462,24 +1480,6 @@
       "title": "LOAN | Striker Iwunze Arrives From Notts County",
       "url": "https://herefordfc.co.uk/2026/08/loan-striker-iwunze-arrives-from-notts-county/",
       "published": "2026-08-07T17:00:51Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Nelson Sanca joins Town",
-      "url": "https://chippenhamtown.com/08/07/nelson-sanca-joins-town/",
-      "published": "2026-08-07T17:00:11Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "Marine Secure Jack Barrett on Loan from Blackburn Rovers",
-      "url": "https://marinefc.com/marine-secure-jack-barrett-on-loan-from-blackburn-rovers/",
-      "published": "2026-08-07T17:00:00Z"
     }
   ]
 }
