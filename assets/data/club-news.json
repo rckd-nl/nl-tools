@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-09T15:49:51Z",
+  "generatedAt": "2026-08-09T16:58:08Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3834,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "SSFC Women dealt harsh lesson in Norton Ladies defeat",
+      "url": "https://www.southshieldsfc.co.uk/ssfc-women-dealt-harsh-lesson-in-norton-ladies-defeat/",
+      "published": "2026-08-09T16:43:30Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Highlights | Hemel Hempstead 1-1 Chelmsford City |",
+      "url": "https://chelmsfordcityfc.com/news/highlights-hemel-hempstead-1-1-chelmsford-city/",
+      "published": "2026-08-09T16:40:50Z"
+    },
+    {
       "club": "Marine",
       "code": "MAR",
       "short": "Marine",
@@ -607,6 +625,15 @@
       "title": "Alty TV Highlights | Alty 1 Southend 3",
       "url": "https://altrinchamfc.com/blogs/news/alty-tv-highlights-alty-1-southend-utd-3",
       "published": "2026-08-09T15:42:09Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "U23s counting down to the new season",
+      "url": "https://maidstoneunited.co.uk/08/09/u23s-counting-down-to-the-new-season/",
+      "published": "2026-08-09T15:00:58Z"
     },
     {
       "club": "Macclesfield",
@@ -762,15 +789,6 @@
       "published": "2026-08-09T11:08:27Z"
     },
     {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "U23s counting down to the new season",
-      "url": "https://maidstoneunited.co.uk/08/09/u23s-counting-down-to-the-new-season/",
-      "published": "2026-08-09T11:00:58Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -805,15 +823,6 @@
       "title": "Match report: Pools 2-0 Barrow",
       "url": "https://www.hartlepoolunited.co.uk/match-report-pools-2-0-barrow/",
       "published": "2026-08-09T09:37:17Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Report – Torquay United",
-      "url": "https://www.horshamfc.co.uk/2026/08/09/match-report-torquay-united-3/",
-      "published": "2026-08-09T09:36:19Z"
     },
     {
       "club": "Yeovil Town",
@@ -940,15 +949,6 @@
       "title": "Gallery: WsM AFC 3 – 0 Chesham",
       "url": "https://wsmafc.co.uk/gallery-chesham-home-2627/",
       "published": "2026-08-08T20:00:59Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Highlights | Halifax Town (H)",
-      "url": "https://www.fgr.co.uk/news/match-highlight-halifax-town-h-2627/",
-      "published": "2026-08-08T20:00:00Z"
     },
     {
       "club": "Kidderminster Harriers",
@@ -1086,15 +1086,6 @@
       "published": "2026-08-08T18:33:17Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Filozofe Mabete Post Halifax Town (H)",
-      "url": "https://www.fgr.co.uk/news/filozofe-mabete-post-halifax-town-h/",
-      "published": "2026-08-08T18:30:00Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1149,15 +1140,6 @@
       "published": "2026-08-08T18:00:29Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | FGR 3-2 Halifax Town",
-      "url": "https://www.fgr.co.uk/news/match-report-fgr-3-2-halifax-town/",
-      "published": "2026-08-08T18:00:00Z"
-    },
-    {
       "club": "Dagenham & Redbridge",
       "code": "DAG",
       "short": "Dag & Red",
@@ -1174,15 +1156,6 @@
       "title": "Adam Barton Post Match Interview | Alfreton (H)",
       "url": "https://curzon-ashton.co.uk/adam-barton-alfreton-h/",
       "published": "2026-08-08T17:58:43Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage Post Halifax Town (H)",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-post-halifax-town-h-2627/",
-      "published": "2026-08-08T17:45:00Z"
     },
     {
       "club": "Torquay United",
@@ -1480,6 +1453,33 @@
       "title": "City drawn at home to Wincanton Town in Francis Hillier Premier Cup",
       "url": "https://www.bathcityfc.com/city-drawn-at-home-to-wincanton-town-in-francis-hillier-premier-cup/",
       "published": "2026-08-08T09:10:46Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "The 2026/27 Squad Numbers",
+      "url": "https://altrinchamfc.com/blogs/news/the-2026-27-squad-numbers",
+      "published": "2026-08-08T09:02:45Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Preview- Uxbridge vs Chippenham Town",
+      "url": "https://chippenhamtown.com/08/08/preview-uxbridge-vs-chippenham-town/",
+      "published": "2026-08-08T09:00:38Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Westcott: “This football club has had its heart broken – but it hasn’t lost its heart”",
+      "url": "https://torquayunited.com/westcott-this-football-club-has-had-its-heart-broken-but-it-hasnt-lost-its-heart/",
+      "published": "2026-08-08T09:00:00Z"
     }
   ]
 }
