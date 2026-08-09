@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-09T13:19:18Z",
+  "generatedAt": "2026-08-09T14:03:26Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3834,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,51 @@
     }
   ],
   "items": [
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "Fin Shrimpton after victory over Marine",
+      "url": "https://macclesfieldfc.com/latest-news/fin-shrimpton-after-victory-over-marine/",
+      "published": "2026-08-09T14:00:34Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Club Statement: Match Programmes",
+      "url": "https://trurocity.co.uk/2026/08/club-statement-match-programmes/",
+      "published": "2026-08-09T13:53:20Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Post Match | Neil After The 3-1 Defeat At Hebburn",
+      "url": "https://southportfc.net/post-match-neil-after-the-3-1-defeat-at-hebburn/",
+      "published": "2026-08-09T13:50:49Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Tyler Harvey Post Maidenhead United (h)",
+      "url": "https://trurocity.co.uk/2026/08/tyler-harvey-post-maidenhead-united-h/",
+      "published": "2026-08-09T13:24:24Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Stewart Yetton Post Maidenhead United (h)",
+      "url": "https://trurocity.co.uk/2026/08/stewart-yetton-post-maidenhead-united-h/",
+      "published": "2026-08-09T13:22:14Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -699,15 +744,6 @@
       "published": "2026-08-09T09:37:17Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Report – Torquay United",
-      "url": "https://www.horshamfc.co.uk/2026/08/09/match-report-torquay-united-3/",
-      "published": "2026-08-09T09:36:19Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -823,6 +859,15 @@
       "title": "Gallery: WsM AFC 3 – 0 Chesham",
       "url": "https://wsmafc.co.uk/gallery-chesham-home-2627/",
       "published": "2026-08-08T20:00:59Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Highlights | Halifax Town (H)",
+      "url": "https://www.fgr.co.uk/news/match-highlight-halifax-town-h-2627/",
+      "published": "2026-08-08T20:00:00Z"
     },
     {
       "club": "Kidderminster Harriers",
@@ -960,6 +1005,15 @@
       "published": "2026-08-08T18:33:17Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Filozofe Mabete Post Halifax Town (H)",
+      "url": "https://www.fgr.co.uk/news/filozofe-mabete-post-halifax-town-h/",
+      "published": "2026-08-08T18:30:00Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1014,6 +1068,15 @@
       "published": "2026-08-08T18:00:29Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report | FGR 3-2 Halifax Town",
+      "url": "https://www.fgr.co.uk/news/match-report-fgr-3-2-halifax-town/",
+      "published": "2026-08-08T18:00:00Z"
+    },
+    {
       "club": "Dagenham & Redbridge",
       "code": "DAG",
       "short": "Dag & Red",
@@ -1030,6 +1093,15 @@
       "title": "Adam Barton Post Match Interview | Alfreton (H)",
       "url": "https://curzon-ashton.co.uk/adam-barton-alfreton-h/",
       "published": "2026-08-08T17:58:43Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Robbie Savage Post Halifax Town (H)",
+      "url": "https://www.fgr.co.uk/news/robbie-savage-post-halifax-town-h-2627/",
+      "published": "2026-08-08T17:45:00Z"
     },
     {
       "club": "Torquay United",
@@ -1408,78 +1480,6 @@
       "title": "HFCSA Newsletter: August 26",
       "url": "https://hornchurchfc.com/hfcsa-newsletter-august-26/",
       "published": "2026-08-08T06:28:10Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Farnborough",
-      "url": "https://maidstoneunited.co.uk/08/08/key-info-farnborough-3/",
-      "published": "2026-08-08T06:00:51Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Around the ground: food and drink",
-      "url": "https://maidstoneunited.co.uk/08/08/around-the-ground-food-and-drink/",
-      "published": "2026-08-08T05:00:07Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Chester FC Squad: 2026/27",
-      "url": "https://chesterfc.com/08/08/chester-fc-squad-2026-27/",
-      "published": "2026-08-07T23:19:26Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "NEWS | Hudson and Kandola to Lead the Bulls in 2026/27",
-      "url": "https://herefordfc.co.uk/2026/08/news-hudson-and-kandola-to-lead-the-bulls-in-2026-27/",
-      "published": "2026-08-07T22:25:09Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "INTERVIEW | Harrison Iwunze on his Hereford Move",
-      "url": "https://herefordfc.co.uk/2026/08/interview-harrison-iwunze-on-his-hereford-move/",
-      "published": "2026-08-07T21:22:33Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Match Preview: Kidderminster",
-      "url": "https://hornchurchfc.com/match-preview-kidderminster/",
-      "published": "2026-08-07T20:02:18Z"
-    },
-    {
-      "club": "Chesham United",
-      "code": "CHU",
-      "short": "Chesham",
-      "domain": "cheshamunited.co.uk",
-      "title": "Notes from the Chair – 7th August 2026",
-      "url": "https://cheshamunited.co.uk/2026/08/notes-from-the-chair-7th-august-2026/",
-      "published": "2026-08-07T19:49:48Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Interview: Daryl (Pre-Kidderminster)",
-      "url": "https://hornchurchfc.com/interview-daryl-pre-kidderminster/",
-      "published": "2026-08-07T19:49:21Z"
     }
   ]
 }
