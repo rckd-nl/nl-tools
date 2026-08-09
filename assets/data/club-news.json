@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-09T02:31:58Z",
+  "generatedAt": "2026-08-09T04:07:51Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -616,6 +616,24 @@
       "title": "Ruthless Angels Flatten Iron",
       "url": "https://tonbridgeangels.co.uk/ruthless-angels-flatten-iron/",
       "published": "2026-08-08T20:26:37Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "HIGHLIGHTS | Scarborough Athletic FC 0-1 South Shields FC | Enterprise National League North",
+      "url": "https://www.southshieldsfc.co.uk/highlights-scarborough-athletic-fc-0-1-south-shields-fc-enterprise-national-league-north/",
+      "published": "2026-08-08T20:13:31Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "GOALS | Scarborough Athletic FC 0-1 South Shields FC | Enterprise National League North",
+      "url": "https://www.southshieldsfc.co.uk/goals-scarborough-athletic-fc-0-1-south-shields-fc-enterprise-national-league-north/",
+      "published": "2026-08-08T20:10:39Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -841,6 +859,15 @@
       "title": "Match Report | FGR 3-2 Halifax Town",
       "url": "https://www.fgr.co.uk/news/match-report-fgr-3-2-halifax-town/",
       "published": "2026-08-08T18:00:00Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "26/27 Match Report: Dorking (A)",
+      "url": "https://daggers.co.uk/26-27-match-report-dorking-a/",
+      "published": "2026-08-08T17:58:59Z"
     },
     {
       "club": "Curzon Ashton",
@@ -1453,33 +1480,6 @@
       "title": "Marine Secure Jack Barrett on Loan from Blackburn Rovers",
       "url": "https://marinefc.com/marine-secure-jack-barrett-on-loan-from-blackburn-rovers/",
       "published": "2026-08-07T17:00:00Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Programme Prospects",
-      "url": "https://torquayunited.com/programme-prospects/",
-      "published": "2026-08-07T17:00:00Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "U18s Match Preview | Preston North End U18s | Saturday 8th August",
-      "url": "https://yorkcityfootballclub.co.uk/u18s-match-preview-preston-north-end-u18s-saturday-8th-august/",
-      "published": "2026-08-07T16:49:36Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Saturday: Hornchurch v Harriers",
-      "url": "https://harriers.co.uk/news/2026/08/07/saturday-hornchurch-v-harriers/",
-      "published": "2026-08-07T16:48:03Z"
     }
   ]
 }
