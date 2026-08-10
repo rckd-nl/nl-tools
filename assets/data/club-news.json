@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-10T16:26:58Z",
+  "generatedAt": "2026-08-10T17:10:40Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f338e98a450>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f338cf172d0>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,69 @@
     }
   ],
   "items": [
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Moors Lounge Welcomes Star Guests for August Fixtures",
+      "url": "https://spennymoortownfc.co.uk/2026/08/10/moors-lounge-welcomes-star-guests-for-august-fixtures/",
+      "published": "2026-08-10T17:02:46Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Hospitality: Norwich City & Woking",
+      "url": "https://hornchurchfc.com/hospitality-norwich-city-woking/",
+      "published": "2026-08-10T16:59:40Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Lee Clark praises the fighting spirit, intensity and quality",
+      "url": "https://www.hartlepoolunited.co.uk/lee-clark-praised-the-fighting-spirit-intensity-and-quality/",
+      "published": "2026-08-10T16:58:04Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Cross ready to lead Pools into National League Cup Opener",
+      "url": "https://www.hartlepoolunited.co.uk/cross-ready-to-lead-pools-into-national-league-cup-opener/",
+      "published": "2026-08-10T16:51:25Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Season Card Collections Update",
+      "url": "https://southendunited.co.uk/news/2026/august/10/season-card-collections-update/",
+      "published": "2026-08-10T16:40:39Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Match Preview | Bury FC (A)",
+      "url": "https://curzon-ashton.co.uk/match-preview-bury-fc-a/",
+      "published": "2026-08-10T16:23:27Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Ticket Details | Rotherham United (A)",
+      "url": "https://yorkcityfootballclub.co.uk/ticket-details-rotherham-united-a/",
+      "published": "2026-08-10T16:22:47Z"
+    },
     {
       "club": "Worthing",
       "code": "WOR",
@@ -1005,6 +1068,15 @@
       "published": "2026-08-09T17:00:22Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Triple signing for the Hornets",
+      "url": "https://www.horshamfc.co.uk/2026/08/09/triple-signing-for-the-hornets/",
+      "published": "2026-08-09T16:52:58Z"
+    },
+    {
       "club": "South Shields",
       "code": "SSH",
       "short": "South Shields",
@@ -1248,6 +1320,15 @@
       "published": "2026-08-09T09:37:17Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Torquay United",
+      "url": "https://www.horshamfc.co.uk/2026/08/09/match-report-torquay-united-3/",
+      "published": "2026-08-09T09:36:19Z"
+    },
+    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1399,87 +1480,6 @@
       "title": "“𝗪𝗲 𝘄𝗲𝗿𝗲 𝘃𝗲𝗿𝘆, 𝘃𝗲𝗿𝘆 𝗴𝗼𝗼𝗱” | Dan Martin post – Chesham United (H) | 8.8.26",
       "url": "https://wsmafc.co.uk/%f0%9d%97%aa%f0%9d%97%b2-%f0%9d%98%84%f0%9d%97%b2%f0%9d%97%bf%f0%9d%97%b2-%f0%9d%98%83%f0%9d%97%b2%f0%9d%97%bf%f0%9d%98%86-%f0%9d%98%83%f0%9d%97%b2%f0%9d%97%bf%f0%9d%98%86-%f0%9d%97%b4%f0%9d%97%bc/",
       "published": "2026-08-08T19:40:25Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Match Report: AFC Fylde 2-2 Wealdstone",
-      "url": "https://afcfylde.co.uk/news/2026/august/08/match-report--afc-fylde-2-2-wealdstone/",
-      "published": "2026-08-08T19:38:00Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Spalding United (H) Post-Match Reaction | Bernard Morley",
-      "url": "https://radcliffefc.com/spalding-united-h-post-match-reaction-bernard-morley/",
-      "published": "2026-08-08T19:36:19Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Coleman De-Graft: “We fought ’til the end and got the job done.” | Carlisle Reaction",
-      "url": "https://worthingfc.com/2026/08/coleman-de-graft-we-fought-til-the-end-and-got-the-job-done-carlisle-reaction/",
-      "published": "2026-08-08T19:30:04Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Late Parsons strike secures opening day win for Romans",
-      "url": "https://www.bathcityfc.com/late-parsons-strike-secures-opening-day-win-for-romans/",
-      "published": "2026-08-08T19:18:00Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Recap: Hornchurch 3-0 Harriers",
-      "url": "https://harriers.co.uk/news/2026/08/08/recap-hornchurch-3-0-harriers/",
-      "published": "2026-08-08T19:16:35Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Interview: Harry Sidwell Post-Gateshead Win",
-      "url": "https://eastleighfc.com/2026/08/interview-harry-sidwell-post-gateshead-win/",
-      "published": "2026-08-08T19:12:07Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Report: Seagulls kick league season off with three points",
-      "url": "https://wsmafc.co.uk/report-chesham-home-2627/",
-      "published": "2026-08-08T19:00:56Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Spencer Day Post Maidstone United (A)",
-      "url": "https://farnboroughfc.co.uk/2026/08/spencer-day-post-maidstone-united-a-4/",
-      "published": "2026-08-08T19:00:00Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Harvey Roberts Post Match Interview | Alfreton (H)",
-      "url": "https://curzon-ashton.co.uk/harvey-roberts-alfreton-h/",
-      "published": "2026-08-08T18:55:37Z"
     }
   ]
 }
