@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-10T18:19:08Z",
+  "generatedAt": "2026-08-10T19:18:53Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f8cf8f40110>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f8cf9043090>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "NEWS | Hereford FC Golf Day Another Ace Experience",
+      "url": "https://herefordfc.co.uk/2026/08/news-hereford-fc-golf-day-another-ace-experience/",
+      "published": "2026-08-10T18:55:39Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Season Ticket Collection this Saturday",
+      "url": "https://www.horshamfc.co.uk/2026/08/10/season-ticket-collection-this-saturday/",
+      "published": "2026-08-10T18:47:06Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -1077,6 +1095,15 @@
       "published": "2026-08-09T17:00:22Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Triple signing for the Hornets",
+      "url": "https://www.horshamfc.co.uk/2026/08/09/triple-signing-for-the-hornets/",
+      "published": "2026-08-09T16:52:58Z"
+    },
+    {
       "club": "South Shields",
       "code": "SSH",
       "short": "South Shields",
@@ -1320,6 +1347,15 @@
       "published": "2026-08-09T09:37:17Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Torquay United",
+      "url": "https://www.horshamfc.co.uk/2026/08/09/match-report-torquay-united-3/",
+      "published": "2026-08-09T09:36:19Z"
+    },
+    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1444,42 +1480,6 @@
       "title": "Match Highlights | Halifax Town (H)",
       "url": "https://www.fgr.co.uk/news/match-highlight-halifax-town-h-2627/",
       "published": "2026-08-08T20:00:00Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Wotton’s ‘back to work’ charge",
-      "url": "https://harriers.co.uk/news/2026/08/08/wottons-back-to-work-charge/",
-      "published": "2026-08-08T19:56:42Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "REACTION | Downes on Last-Gasp Buxton Defeat",
-      "url": "https://herefordfc.co.uk/2026/08/reaction-downes-on-last-gasp-buxton-defeat/",
-      "published": "2026-08-08T19:50:43Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "“𝗪𝗲 𝘄𝗲𝗿𝗲 𝘃𝗲𝗿𝘆, 𝘃𝗲𝗿𝘆 𝗴𝗼𝗼𝗱” | Dan Martin post – Chesham United (H) | 8.8.26",
-      "url": "https://wsmafc.co.uk/%f0%9d%97%aa%f0%9d%97%b2-%f0%9d%98%84%f0%9d%97%b2%f0%9d%97%bf%f0%9d%97%b2-%f0%9d%98%83%f0%9d%97%b2%f0%9d%97%bf%f0%9d%98%86-%f0%9d%98%83%f0%9d%97%b2%f0%9d%97%bf%f0%9d%98%86-%f0%9d%97%b4%f0%9d%97%bc/",
-      "published": "2026-08-08T19:40:25Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Match Report: AFC Fylde 2-2 Wealdstone",
-      "url": "https://afcfylde.co.uk/news/2026/august/08/match-report--afc-fylde-2-2-wealdstone/",
-      "published": "2026-08-08T19:38:00Z"
     }
   ]
 }
