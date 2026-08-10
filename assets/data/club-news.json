@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-10T10:18:11Z",
+  "generatedAt": "2026-08-10T11:37:24Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f546f8a3dd0>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7fec9b8f9710>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f546f77c8d0>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7fec9b761610>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,60 @@
     }
   ],
   "items": [
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Programme goes digital",
+      "url": "https://harriers.co.uk/news/2026/08/10/programme-goes-digital/",
+      "published": "2026-08-10T11:22:10Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Gallery | Alfreton (H)",
+      "url": "https://curzon-ashton.co.uk/gallery-alfreton-h/",
+      "published": "2026-08-10T11:14:19Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Colchester Away On Sale",
+      "url": "https://rochdaleafc.co.uk/colchester-away-on-sale/",
+      "published": "2026-08-10T11:09:20Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Away Travel: Walton & Hersham",
+      "url": "https://maidstoneunited.co.uk/08/10/away-travel-walton-hersham/",
+      "published": "2026-08-10T11:00:58Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Klargester Named Official PRE Stand Sponsor",
+      "url": "https://farnboroughfc.co.uk/2026/08/klargester-named-official-pre-stand-sponsor/",
+      "published": "2026-08-10T11:00:41Z"
+    },
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "Matchday Feedback",
+      "url": "https://marinefc.com/matchday-feedback/",
+      "published": "2026-08-10T10:38:30Z"
+    },
     {
       "club": "Woking",
       "code": "WOK",
@@ -778,6 +832,15 @@
       "title": "Marine 0-1 Macclesfield",
       "url": "https://marinefc.com/marine-0-1-macclesfield/",
       "published": "2026-08-09T18:49:48Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "ACCESS ALL AREAS | Carlisle United 2-3 Worthing FC",
+      "url": "https://worthingfc.com/2026/08/access-all-areas-carlisle-united-2-3-worthing-fc/",
+      "published": "2026-08-09T18:00:33Z"
     },
     {
       "club": "Radcliffe",
@@ -1176,15 +1239,6 @@
       "published": "2026-08-08T20:13:31Z"
     },
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "GOALS | Scarborough Athletic FC 0-1 South Shields FC | Enterprise National League North",
-      "url": "https://www.southshieldsfc.co.uk/goals-scarborough-athletic-fc-0-1-south-shields-fc-enterprise-national-league-north/",
-      "published": "2026-08-08T20:10:39Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1426,60 +1480,6 @@
       "title": "Robbie Savage Post Halifax Town (H)",
       "url": "https://www.fgr.co.uk/news/robbie-savage-post-halifax-town-h-2627/",
       "published": "2026-08-08T17:45:00Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Jimmy Ball | Horsham (H) | Post-Match",
-      "url": "https://torquayunited.com/jimmy-ball-horsham-h-post-match-2/",
-      "published": "2026-08-08T17:44:30Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Match Report: Carlisle United 2-3 Worthing FC",
-      "url": "https://worthingfc.com/2026/08/match-report-carlisle-united-2-3-worthing-fc/",
-      "published": "2026-08-08T17:34:53Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "U18s Match Report | Preston North End U18s 0-0 York City U18s",
-      "url": "https://yorkcityfootballclub.co.uk/u18s-match-report-preston-north-end-u18s-0-0-york-city-u18s/",
-      "published": "2026-08-08T17:33:15Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "“𝗪𝗲 𝗻𝗲𝗲𝗱𝗲𝗱 𝗲𝗻𝗲𝗿𝗴𝘆 𝗮𝗹𝗹 𝗼𝘃𝗲𝗿 𝘁𝗵𝗲 𝗽𝗶𝘁𝗰𝗵” | Scott Rogers post – Chesham United (H)",
-      "url": "https://wsmafc.co.uk/%f0%9d%97%aa%f0%9d%97%b2-%f0%9d%97%bb%f0%9d%97%b2%f0%9d%97%b2%f0%9d%97%b1%f0%9d%97%b2%f0%9d%97%b1-%f0%9d%97%b2%f0%9d%97%bb%f0%9d%97%b2%f0%9d%97%bf%f0%9d%97%b4%f0%9d%98%86-%f0%9d%97%ae%f0%9d%97%b9/",
-      "published": "2026-08-08T17:30:37Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City 2 Maidenhead United 0 – Match Report",
-      "url": "https://trurocity.co.uk/2026/08/truro-city-2-maidenhead-united-0-match-report/",
-      "published": "2026-08-08T17:27:50Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Report: Chorley 1-2 Chester",
-      "url": "https://chesterfc.com/08/08/report-chorley-x-x-chester/",
-      "published": "2026-08-08T17:18:52Z"
     }
   ]
 }
