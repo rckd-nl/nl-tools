@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-11T19:48:18Z",
+  "generatedAt": "2026-08-11T20:30:21Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3835,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -586,6 +586,24 @@
       "code": "TRU",
       "short": "Truro",
       "domain": "trurocity.co.uk",
+      "title": "Truro City Lottery – Weekly Winners 07/08/26",
+      "url": "https://trurocity.co.uk/2026/08/truro-city-lottery-weekly-winners-07-08-26/",
+      "published": "2026-08-11T20:01:30Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Club Statement: Temporary embargo",
+      "url": "https://altrinchamfc.com/blogs/news/club-statement-temporary-embargo",
+      "published": "2026-08-11T19:56:42Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
       "title": "Truro City Podcast – Episode 2",
       "url": "https://trurocity.co.uk/2026/08/truro-city-podcast-episode-2/",
       "published": "2026-08-11T18:22:39Z"
@@ -607,15 +625,6 @@
       "title": "Luke Duffy speaks on three years at the Leasing.com Stadium",
       "url": "https://macclesfieldfc.com/latest-news/luke-duffy-speaks-on-three-years-at-the-leasing-com-stadium/",
       "published": "2026-08-11T18:00:56Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Ministry of Anthems play the Clubhouse!",
-      "url": "https://www.horshamfc.co.uk/2026/08/11/ministry-of-anthems-play-the-clubhouse/",
-      "published": "2026-08-11T18:00:00Z"
     },
     {
       "club": "Tonbridge Angels",
@@ -652,6 +661,15 @@
       "title": "Southend United Community Foundation Day",
       "url": "https://southendunited.co.uk/news/2026/august/11/southend-united-community-foundation-day/",
       "published": "2026-08-11T16:22:00Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Supporters’ Club Coach Travel – Walton & Hersham and Truro City",
+      "url": "https://daggers.co.uk/supporters-club-coach-travel-walton-hersham-and-truro-city/",
+      "published": "2026-08-11T16:09:50Z"
     },
     {
       "club": "Torquay United",
@@ -708,6 +726,15 @@
       "published": "2026-08-11T14:00:34Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Board Room Dress Code – 2026/27 Season",
+      "url": "https://daggers.co.uk/board-room-dress-code-2026-27-season/",
+      "published": "2026-08-11T13:51:22Z"
+    },
+    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -744,15 +771,6 @@
       "published": "2026-08-11T13:00:09Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Salisbury Tickets on sale",
-      "url": "https://www.horshamfc.co.uk/2026/08/11/salisbury-tickets-on-sale/",
-      "published": "2026-08-11T12:05:27Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -769,15 +787,6 @@
       "title": "DUFFY’S THREE YEARS WITH THE SILKMEN",
       "url": "https://macclesfieldfc.com/latest-news/duffys-three-years-with-the-silkmen/",
       "published": "2026-08-11T11:00:24Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Rovers Reloaded",
-      "url": "https://www.fgr.co.uk/news/rovers-reloaded/",
-      "published": "2026-08-11T11:00:00Z"
     },
     {
       "club": "Maidstone United",
@@ -886,15 +895,6 @@
       "title": "NEWS | Hereford FC Golf Day Another Ace Experience",
       "url": "https://herefordfc.co.uk/2026/08/news-hereford-fc-golf-day-another-ace-experience/",
       "published": "2026-08-10T18:55:39Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Season Ticket Collection this Saturday",
-      "url": "https://www.horshamfc.co.uk/2026/08/10/season-ticket-collection-this-saturday/",
-      "published": "2026-08-10T18:47:06Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1176,6 +1176,15 @@
       "published": "2026-08-10T09:14:08Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Friday Night Football v Farnham Town",
+      "url": "https://daggers.co.uk/friday-night-football-v-farnham-town/",
+      "published": "2026-08-10T09:07:56Z"
+    },
+    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -1210,15 +1219,6 @@
       "title": "Highlights: Kidderminster Harriers (H)",
       "url": "https://hornchurchfc.com/highlights-kidderminster-harriers-h/",
       "published": "2026-08-10T08:22:23Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Tickets & Travel | Worthing (A)",
-      "url": "https://www.fgr.co.uk/news/tickets-and-travel-worthing-a/",
-      "published": "2026-08-10T08:00:00Z"
     },
     {
       "club": "Dover Athletic",
@@ -1401,15 +1401,6 @@
       "published": "2026-08-09T17:00:22Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Triple signing for the Hornets",
-      "url": "https://www.horshamfc.co.uk/2026/08/09/triple-signing-for-the-hornets/",
-      "published": "2026-08-09T16:52:58Z"
-    },
-    {
       "club": "South Shields",
       "code": "SSH",
       "short": "South Shields",
@@ -1480,6 +1471,15 @@
       "title": "Highlights | Curzon Ashton 1-0 Alfreton",
       "url": "https://curzon-ashton.co.uk/highlights-vs-alfreton/",
       "published": "2026-08-09T14:55:52Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Post-Chorley: Phil Parkinson",
+      "url": "https://chesterfc.com/08/09/post-chorley-phil-parkinson/",
+      "published": "2026-08-09T14:36:36Z"
     }
   ]
 }
