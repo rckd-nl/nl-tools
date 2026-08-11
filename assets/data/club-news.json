@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-11T16:39:16Z",
+  "generatedAt": "2026-08-11T17:43:27Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,18 +78,18 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3835,
+      "error": ""
     },
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "https://www.southshieldsfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SILKMEN SET TO MOTOR WITH JIGSAW FINANCE ON BOARD",
+      "url": "https://macclesfieldfc.com/latest-news/silkmen-set-to-motor-with-jigsaw-finance-on-board/",
+      "published": "2026-08-11T17:00:25Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "OUR 3RD KIT WITH YOUR NAME!",
+      "url": "https://chelmsfordcityfc.com/news/our-3rd-kit-with-your-name/",
+      "published": "2026-08-11T16:38:28Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -708,6 +726,15 @@
       "published": "2026-08-11T11:00:24Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Rovers Reloaded",
+      "url": "https://www.fgr.co.uk/news/rovers-reloaded/",
+      "published": "2026-08-11T11:00:00Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -760,15 +787,6 @@
       "title": "Post Match Reaction: Joe Kizzi",
       "url": "https://hornchurchfc.com/post-match-reaction-joe-kizzi/",
       "published": "2026-08-11T08:50:53Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Adam Shaw departs role at SSFC",
-      "url": "https://www.southshieldsfc.co.uk/adam-shaw-departs-role-at-ssfc/",
-      "published": "2026-08-11T07:59:50Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -960,24 +978,6 @@
       "published": "2026-08-10T13:52:22Z"
     },
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Three Game Package Matchday Hospitality Available",
-      "url": "https://southportfc.net/three-game-package-matchday-hospitality-available/",
-      "published": "2026-08-10T13:43:11Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Home v Buxton Saturday 3pm",
-      "url": "https://southportfc.net/home-v-buxton-saturday-3pm/",
-      "published": "2026-08-10T13:36:25Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1003,15 +1003,6 @@
       "title": "Statistical Review: Scunthorpe United 1-1 Yeovil Town",
       "url": "https://ytfc.net/2026/08/statistical-review-scunthorpe-united-1-1-yeovil-town/",
       "published": "2026-08-10T11:23:31Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Programme goes digital",
-      "url": "https://harriers.co.uk/news/2026/08/10/programme-goes-digital/",
-      "published": "2026-08-10T11:22:10Z"
     },
     {
       "club": "Curzon Ashton",
@@ -1138,6 +1129,15 @@
       "title": "Highlights: Kidderminster Harriers (H)",
       "url": "https://hornchurchfc.com/highlights-kidderminster-harriers-h/",
       "published": "2026-08-10T08:22:23Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Tickets & Travel | Worthing (A)",
+      "url": "https://www.fgr.co.uk/news/tickets-and-travel-worthing-a/",
+      "published": "2026-08-10T08:00:00Z"
     },
     {
       "club": "Dover Athletic",
@@ -1329,15 +1329,6 @@
       "published": "2026-08-09T16:52:58Z"
     },
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "SSFC Women dealt harsh lesson in Norton Ladies defeat",
-      "url": "https://www.southshieldsfc.co.uk/ssfc-women-dealt-harsh-lesson-in-norton-ladies-defeat/",
-      "published": "2026-08-09T16:43:30Z"
-    },
-    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -1428,15 +1419,6 @@
       "published": "2026-08-09T13:53:20Z"
     },
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Post Match | Neil After The 3-1 Defeat At Hebburn",
-      "url": "https://southportfc.net/post-match-neil-after-the-3-1-defeat-at-hebburn/",
-      "published": "2026-08-09T13:50:49Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1473,13 +1455,31 @@
       "published": "2026-08-09T13:09:25Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "Highlights: Marine AFC 0-1 Macclesfield FC",
-      "url": "https://macclesfieldfc.com/latest-news/highlights-marine-afc-0-1-macclesfield-fc/",
-      "published": "2026-08-09T13:00:13Z"
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Hot Take: Farnborough (H)",
+      "url": "https://maidstoneunited.co.uk/08/09/hot-take-farnborough-h-2/",
+      "published": "2026-08-09T12:52:53Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Town Off To A Flier",
+      "url": "https://etfc.london/town-off-to-a-flier/",
+      "published": "2026-08-09T12:44:40Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Gallery: Farnborough",
+      "url": "https://maidstoneunited.co.uk/08/09/gallery-farnborough-3/",
+      "published": "2026-08-09T12:20:31Z"
     }
   ]
 }
