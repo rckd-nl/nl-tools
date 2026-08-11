@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-11T11:59:10Z",
+  "generatedAt": "2026-08-11T13:44:59Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,42 @@
     }
   ],
   "items": [
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Fans Forum To Take Place In September",
+      "url": "https://rochdaleafc.co.uk/fans-forum-to-take-place-in-september/",
+      "published": "2026-08-11T13:06:20Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "IN PICTURES: THREE YEARS OF LUKE DUFFY",
+      "url": "https://macclesfieldfc.com/galleries/in-pictures-three-years-of-luke-duffy/",
+      "published": "2026-08-11T13:00:11Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Preview – Chippenham Town vs Yate",
+      "url": "https://chippenhamtown.com/08/11/preview-chippenham-town-vs-yate/",
+      "published": "2026-08-11T13:00:09Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Salisbury Tickets on sale",
+      "url": "https://www.horshamfc.co.uk/2026/08/11/salisbury-tickets-on-sale/",
+      "published": "2026-08-11T12:05:27Z"
+    },
     {
       "club": "Torquay United",
       "code": "TOR",
@@ -717,6 +753,15 @@
       "published": "2026-08-10T18:55:39Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Season Ticket Collection this Saturday",
+      "url": "https://www.horshamfc.co.uk/2026/08/10/season-ticket-collection-this-saturday/",
+      "published": "2026-08-10T18:47:06Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -838,7 +883,7 @@
       "code": "BHW",
       "short": "Boreham Wood",
       "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Ticket Information: Halifax Town (A)",
+      "title": "Ticket Information: FC Halifax Town (A)",
       "url": "https://www.borehamwoodfootballclub.co.uk/ticket-information-halifax-town-a/",
       "published": "2026-08-10T14:37:19Z"
     },
@@ -1230,6 +1275,15 @@
       "published": "2026-08-09T17:00:22Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Triple signing for the Hornets",
+      "url": "https://www.horshamfc.co.uk/2026/08/09/triple-signing-for-the-hornets/",
+      "published": "2026-08-09T16:52:58Z"
+    },
+    {
       "club": "South Shields",
       "code": "SSH",
       "short": "South Shields",
@@ -1426,60 +1480,6 @@
       "title": "Ticket information | Bury (A)",
       "url": "https://curzon-ashton.co.uk/ticket-information-bury-a/",
       "published": "2026-08-09T11:08:27Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "REACTION | Kandola Comments on Buxton Reverse",
-      "url": "https://herefordfc.co.uk/2026/08/reaction-kandola-comments-on-buxton-reverse/",
-      "published": "2026-08-09T10:10:12Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Report: Kidderminster Harriers (H)",
-      "url": "https://hornchurchfc.com/report-kidderminster-harriers-h/",
-      "published": "2026-08-09T10:08:15Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Highlights: Eastleigh 2-1 Gateshead",
-      "url": "https://eastleighfc.com/2026/08/highlights-eastleigh-2-1-gateshead/",
-      "published": "2026-08-09T10:04:07Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Match report: Pools 2-0 Barrow",
-      "url": "https://www.hartlepoolunited.co.uk/match-report-pools-2-0-barrow/",
-      "published": "2026-08-09T09:37:17Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Match Report: Scunthorpe United 1-1 Yeovil Town",
-      "url": "https://ytfc.net/2026/08/match-report-scunthorpe-united-1-1-yeovil-town/",
-      "published": "2026-08-09T09:35:24Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Letter to the shareholders of Bath City Football Club from Andrew Stalbow",
-      "url": "https://www.bathcityfc.com/letter-to-the-shareholders-of-bath-city-football-club-from-andrew-stalbow/",
-      "published": "2026-08-09T08:58:17Z"
     }
   ]
 }
