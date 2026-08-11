@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-11T06:38:45Z",
+  "generatedAt": "2026-08-11T07:57:52Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -625,6 +625,15 @@
       "title": "NEWS | Hereford FC Golf Day Another Ace Experience",
       "url": "https://herefordfc.co.uk/2026/08/news-hereford-fc-golf-day-another-ace-experience/",
       "published": "2026-08-10T18:55:39Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Season Ticket Collection this Saturday",
+      "url": "https://www.horshamfc.co.uk/2026/08/10/season-ticket-collection-this-saturday/",
+      "published": "2026-08-10T18:47:06Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1131,6 +1140,15 @@
       "published": "2026-08-09T17:00:22Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Triple signing for the Hornets",
+      "url": "https://www.horshamfc.co.uk/2026/08/09/triple-signing-for-the-hornets/",
+      "published": "2026-08-09T16:52:58Z"
+    },
+    {
       "club": "South Shields",
       "code": "SSH",
       "short": "South Shields",
@@ -1374,6 +1392,15 @@
       "published": "2026-08-09T09:37:17Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Torquay United",
+      "url": "https://www.horshamfc.co.uk/2026/08/09/match-report-torquay-united-3/",
+      "published": "2026-08-09T09:36:19Z"
+    },
+    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1453,33 +1480,6 @@
       "title": "Match Report | Alfreton (H)",
       "url": "https://curzon-ashton.co.uk/match-report-alfreton-h/",
       "published": "2026-08-08T20:44:40Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Ruthless Angels Flatten Iron",
-      "url": "https://tonbridgeangels.co.uk/ruthless-angels-flatten-iron/",
-      "published": "2026-08-08T20:26:37Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "HIGHLIGHTS | Scarborough Athletic FC 0-1 South Shields FC | Enterprise National League North",
-      "url": "https://www.southshieldsfc.co.uk/highlights-scarborough-athletic-fc-0-1-south-shields-fc-enterprise-national-league-north/",
-      "published": "2026-08-08T20:13:31Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "GOALS | Scarborough Athletic FC 0-1 South Shields FC | Enterprise National League North",
-      "url": "https://www.southshieldsfc.co.uk/goals-scarborough-athletic-fc-0-1-south-shields-fc-enterprise-national-league-north/",
-      "published": "2026-08-08T20:10:39Z"
     }
   ]
 }
