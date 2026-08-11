@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-11T04:11:18Z",
+  "generatedAt": "2026-08-11T05:26:16Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,15 +81,15 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "King's Lynn Town",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "https://www.southshieldsfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -771,24 +771,6 @@
       "published": "2026-08-10T13:52:22Z"
     },
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Three Game Package Matchday Hospitality Available",
-      "url": "https://southportfc.net/three-game-package-matchday-hospitality-available/",
-      "published": "2026-08-10T13:43:11Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Home v Buxton Saturday 3pm",
-      "url": "https://southportfc.net/home-v-buxton-saturday-3pm/",
-      "published": "2026-08-10T13:36:25Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -814,15 +796,6 @@
       "title": "Statistical Review: Scunthorpe United 1-1 Yeovil Town",
       "url": "https://ytfc.net/2026/08/statistical-review-scunthorpe-united-1-1-yeovil-town/",
       "published": "2026-08-10T11:23:31Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Programme goes digital",
-      "url": "https://harriers.co.uk/news/2026/08/10/programme-goes-digital/",
-      "published": "2026-08-10T11:22:10Z"
     },
     {
       "club": "Curzon Ashton",
@@ -913,15 +886,6 @@
       "title": "Next Match – Plymouth Parkway (H) – Southern League Premier South",
       "url": "https://www.bathcityfc.com/next-match-plymouth-parkway-h-southern-league-premier-south/",
       "published": "2026-08-10T09:14:08Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Friday Night Football v Farnham Town",
-      "url": "https://daggers.co.uk/friday-night-football-v-farnham-town/",
-      "published": "2026-08-10T09:07:56Z"
     },
     {
       "club": "Chelmsford City",
@@ -1140,15 +1104,6 @@
       "published": "2026-08-09T16:52:58Z"
     },
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "SSFC Women dealt harsh lesson in Norton Ladies defeat",
-      "url": "https://www.southshieldsfc.co.uk/ssfc-women-dealt-harsh-lesson-in-norton-ladies-defeat/",
-      "published": "2026-08-09T16:43:30Z"
-    },
-    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -1246,15 +1201,6 @@
       "title": "Club Statement: Match Programmes",
       "url": "https://trurocity.co.uk/2026/08/club-statement-match-programmes/",
       "published": "2026-08-09T13:53:20Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Post Match | Neil After The 3-1 Defeat At Hebburn",
-      "url": "https://southportfc.net/post-match-neil-after-the-3-1-defeat-at-hebburn/",
-      "published": "2026-08-09T13:50:49Z"
     },
     {
       "club": "Truro City",
@@ -1428,15 +1374,6 @@
       "published": "2026-08-09T08:33:20Z"
     },
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "💬 Mike Williamson reflects on opening day win over Scarborough!",
-      "url": "https://www.southshieldsfc.co.uk/%f0%9f%92%ac-mike-williamson-reflects-on-opening-day-win-over-scarborough/",
-      "published": "2026-08-09T08:26:24Z"
-    },
-    {
       "club": "Bath City",
       "code": "BAT",
       "short": "Bath",
@@ -1455,15 +1392,6 @@
       "published": "2026-08-09T07:00:45Z"
     },
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "South Shields win in opening day visit to Scarborough",
-      "url": "https://www.southshieldsfc.co.uk/south-shields-win-in-opening-day-visit-to-scarborough/",
-      "published": "2026-08-08T21:41:31Z"
-    },
-    {
       "club": "Curzon Ashton",
       "code": "CUR",
       "short": "Curzon Ashton",
@@ -1480,6 +1408,78 @@
       "title": "Ruthless Angels Flatten Iron",
       "url": "https://tonbridgeangels.co.uk/ruthless-angels-flatten-iron/",
       "published": "2026-08-08T20:26:37Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Gallery: WsM AFC 3 – 0 Chesham",
+      "url": "https://wsmafc.co.uk/gallery-chesham-home-2627/",
+      "published": "2026-08-08T20:00:59Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "REACTION | Downes on Last-Gasp Buxton Defeat",
+      "url": "https://herefordfc.co.uk/2026/08/reaction-downes-on-last-gasp-buxton-defeat/",
+      "published": "2026-08-08T19:50:43Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "“𝗪𝗲 𝘄𝗲𝗿𝗲 𝘃𝗲𝗿𝘆, 𝘃𝗲𝗿𝘆 𝗴𝗼𝗼𝗱” | Dan Martin post – Chesham United (H) | 8.8.26",
+      "url": "https://wsmafc.co.uk/%f0%9d%97%aa%f0%9d%97%b2-%f0%9d%98%84%f0%9d%97%b2%f0%9d%97%bf%f0%9d%97%b2-%f0%9d%98%83%f0%9d%97%b2%f0%9d%97%bf%f0%9d%98%86-%f0%9d%98%83%f0%9d%97%b2%f0%9d%97%bf%f0%9d%98%86-%f0%9d%97%b4%f0%9d%97%bc/",
+      "published": "2026-08-08T19:40:25Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Match Report: AFC Fylde 2-2 Wealdstone",
+      "url": "https://afcfylde.co.uk/news/2026/august/08/match-report--afc-fylde-2-2-wealdstone/",
+      "published": "2026-08-08T19:38:00Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Spalding United (H) Post-Match Reaction | Bernard Morley",
+      "url": "https://radcliffefc.com/spalding-united-h-post-match-reaction-bernard-morley/",
+      "published": "2026-08-08T19:36:19Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Coleman De-Graft: “We fought ’til the end and got the job done.” | Carlisle Reaction",
+      "url": "https://worthingfc.com/2026/08/coleman-de-graft-we-fought-til-the-end-and-got-the-job-done-carlisle-reaction/",
+      "published": "2026-08-08T19:30:04Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Late Parsons strike secures opening day win for Romans",
+      "url": "https://www.bathcityfc.com/late-parsons-strike-secures-opening-day-win-for-romans/",
+      "published": "2026-08-08T19:18:00Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Interview: Harry Sidwell Post-Gateshead Win",
+      "url": "https://eastleighfc.com/2026/08/interview-harry-sidwell-post-gateshead-win/",
+      "published": "2026-08-08T19:12:07Z"
     }
   ]
 }
