@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-12T20:25:37Z",
+  "generatedAt": "2026-08-12T21:32:23Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 445"
+      "error": "HTTP 403"
     },
     {
       "club": "AFC Totton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City vs Maidenhead United – Match Gallery",
+      "url": "https://trurocity.co.uk/2026/08/truro-city-vs-maidenhead-united-match-gallery/",
+      "published": "2026-08-12T21:19:19Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Loan Watch: Green scores and assists on Slimbridge debut, Johnson gets minutes for Exmouth",
+      "url": "https://wsmafc.co.uk/loan-watch-tues-11th-weds-12th-aug/",
+      "published": "2026-08-12T20:46:09Z"
+    },
     {
       "club": "Bath City",
       "code": "BAT",
@@ -1050,15 +1068,6 @@
       "published": "2026-08-11T18:00:56Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Ministry of Anthems play the Clubhouse!",
-      "url": "https://www.horshamfc.co.uk/2026/08/11/ministry-of-anthems-play-the-clubhouse/",
-      "published": "2026-08-11T18:00:00Z"
-    },
-    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1183,15 +1192,6 @@
       "title": "Preview – Chippenham Town vs Yate",
       "url": "https://chippenhamtown.com/08/11/preview-chippenham-town-vs-yate/",
       "published": "2026-08-11T13:00:09Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Salisbury Tickets on sale",
-      "url": "https://www.horshamfc.co.uk/2026/08/11/salisbury-tickets-on-sale/",
-      "published": "2026-08-11T12:05:27Z"
     },
     {
       "club": "Torquay United",
@@ -1327,15 +1327,6 @@
       "title": "NEWS | Hereford FC Golf Day Another Ace Experience",
       "url": "https://herefordfc.co.uk/2026/08/news-hereford-fc-golf-day-another-ace-experience/",
       "published": "2026-08-10T18:55:39Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Season Ticket Collection this Saturday",
-      "url": "https://www.horshamfc.co.uk/2026/08/10/season-ticket-collection-this-saturday/",
-      "published": "2026-08-10T18:47:06Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1480,6 +1471,15 @@
       "title": "Home v Buxton Saturday 3pm",
       "url": "https://southportfc.net/home-v-buxton-saturday-3pm/",
       "published": "2026-08-10T13:36:25Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "AWAY TICKETS | Tonbridge Angels",
+      "url": "https://torquayunited.com/away-tickets-tonbridge-angels-3/",
+      "published": "2026-08-10T13:19:42Z"
     }
   ]
 }
