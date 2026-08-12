@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-12T18:23:11Z",
+  "generatedAt": "2026-08-12T19:22:00Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7fcf680435d0>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7fcf680f9e10>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "City in Action – Plymouth Parkway (H) – Southern League Premier South",
+      "url": "https://www.bathcityfc.com/city-in-action-plymouth-parkway-h-southern-league-premier-south/",
+      "published": "2026-08-12T18:49:17Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Watch Scott Bartlett’s Plymouth Parkway post-match interview",
+      "url": "https://www.bathcityfc.com/watch-scott-bartletts-plymouth-parkway-post-match-interview/",
+      "published": "2026-08-12T18:20:38Z"
+    },
     {
       "club": "Worthing",
       "code": "WOR",
@@ -1462,24 +1480,6 @@
       "title": "Home v Buxton Saturday 3pm",
       "url": "https://southportfc.net/home-v-buxton-saturday-3pm/",
       "published": "2026-08-10T13:36:25Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "AWAY TICKETS | Tonbridge Angels",
-      "url": "https://torquayunited.com/away-tickets-tonbridge-angels-3/",
-      "published": "2026-08-10T13:19:42Z"
-    },
-    {
-      "club": "Chesham United",
-      "code": "CHU",
-      "short": "Chesham",
-      "domain": "cheshamunited.co.uk",
-      "title": "Generals defeated on the opening day at the seaside",
-      "url": "https://cheshamunited.co.uk/2026/08/generals-defeated-on-the-opening-day-at-the-seaside/",
-      "published": "2026-08-10T12:17:02Z"
     }
   ]
 }
