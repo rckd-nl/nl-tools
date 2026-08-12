@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-12T05:18:14Z",
+  "generatedAt": "2026-08-12T06:44:09Z",
   "maxItems": 100,
   "sources": [
     {
@@ -129,7 +129,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Southend United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7fe9294c37d0>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -329,7 +329,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Peterborough Sports",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7fe9294a31d0>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
