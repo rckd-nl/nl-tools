@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-12T16:27:12Z",
+  "generatedAt": "2026-08-12T17:27:54Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f8f279152d0>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f7efbc5d490>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "https://www.southshieldsfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f8f27720510>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f7efbe8ccd0>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,42 @@
     }
   ],
   "items": [
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Ludmila De Sousa is a Red!",
+      "url": "https://worthingfc.com/2026/08/ludmila-de-sousa-is-a-red/",
+      "published": "2026-08-12T17:19:06Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "JB GASS AGREE EXTENSIVE PARTNERSHIP WITH SILKMEN",
+      "url": "https://macclesfieldfc.com/latest-news/jb-gass-agree-extensive-partnership-with-silkmen/",
+      "published": "2026-08-12T17:00:31Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Barrow fixture to be shown at the club",
+      "url": "https://hornchurchfc.com/barrow-fixture-to-be-shown-at-the-club/",
+      "published": "2026-08-12T16:31:47Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "United for the Community Movement Fund – Project Overview",
+      "url": "https://www.hartlepoolunited.co.uk/united-for-the-community-movement-fund-report-august-2026/",
+      "published": "2026-08-12T16:30:59Z"
+    },
     {
       "club": "Worthing",
       "code": "WOR",
@@ -726,15 +762,6 @@
       "published": "2026-08-12T13:13:52Z"
     },
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "SSFC Women look forward to Hartlepool United challenge",
-      "url": "https://www.southshieldsfc.co.uk/ssfc-women-look-forward-to-hartlepool-united-challenge/",
-      "published": "2026-08-12T13:00:18Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -762,15 +789,6 @@
       "published": "2026-08-12T12:42:45Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "AWAY DAY GUIDE: WALTON & HERSHAM",
-      "url": "https://daggers.co.uk/away-day-guide-walton-hersham/",
-      "published": "2026-08-12T12:23:43Z"
-    },
-    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -778,15 +796,6 @@
       "title": "Persimmon Homes named Official South Stand Partner",
       "url": "https://www.hartlepoolunited.co.uk/persimmon-homes-named-official-south-stand-partner/",
       "published": "2026-08-12T12:10:50Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Alex Lankshear joins Gateshead FC on one-year deal",
-      "url": "https://gateshead-fc.com/alex-lankshear-joins-gateshead-fc/",
-      "published": "2026-08-12T12:00:43Z"
     },
     {
       "club": "Macclesfield",
@@ -852,15 +861,6 @@
       "published": "2026-08-12T10:19:19Z"
     },
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Matchday Hospitality Packages: Chorley (H)",
-      "url": "https://www.southshieldsfc.co.uk/matchday-hospitality-packages-chorley-h/",
-      "published": "2026-08-12T09:58:05Z"
-    },
-    {
       "club": "Forest Green Rovers",
       "code": "FGR",
       "short": "Forest Green",
@@ -886,15 +886,6 @@
       "title": "Temporary Embargo lifted",
       "url": "https://altrinchamfc.com/blogs/news/temporary-embargo-lifted",
       "published": "2026-08-12T09:15:25Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Adam Desbois joins Carlisle United for undisclosed fee",
-      "url": "https://gateshead-fc.com/adam-desbois-joins-carlisle-united-for-undisclosed-fee/",
-      "published": "2026-08-12T09:00:30Z"
     },
     {
       "club": "AFC Fylde",
@@ -1041,15 +1032,6 @@
       "published": "2026-08-11T16:22:00Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Supporters’ Club Coach Travel – Walton & Hersham and Truro City",
-      "url": "https://daggers.co.uk/supporters-club-coach-travel-walton-hersham-and-truro-city/",
-      "published": "2026-08-11T16:09:50Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1104,15 +1086,6 @@
       "published": "2026-08-11T14:00:34Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Board Room Dress Code – 2026/27 Season",
-      "url": "https://daggers.co.uk/board-room-dress-code-2026-27-season/",
-      "published": "2026-08-11T13:51:22Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1156,15 +1129,6 @@
       "title": "Fan Survey 2026 | We Want To Hear From You!",
       "url": "https://torquayunited.com/fan-survey-2026-we-want-to-hear-from-you/",
       "published": "2026-08-11T11:30:00Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "DUFFY’S THREE YEARS WITH THE SILKMEN",
-      "url": "https://macclesfieldfc.com/latest-news/duffys-three-years-with-the-silkmen/",
-      "published": "2026-08-11T11:00:24Z"
     },
     {
       "club": "Forest Green Rovers",
@@ -1228,15 +1192,6 @@
       "title": "Post Match Reaction: Joe Kizzi",
       "url": "https://hornchurchfc.com/post-match-reaction-joe-kizzi/",
       "published": "2026-08-11T08:50:53Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Adam Shaw departs role at SSFC",
-      "url": "https://www.southshieldsfc.co.uk/adam-shaw-departs-role-at-ssfc/",
-      "published": "2026-08-11T07:59:50Z"
     },
     {
       "club": "Rochdale",
@@ -1419,24 +1374,6 @@
       "published": "2026-08-10T13:52:22Z"
     },
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Three Game Package Matchday Hospitality Available",
-      "url": "https://southportfc.net/three-game-package-matchday-hospitality-available/",
-      "published": "2026-08-10T13:43:11Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Home v Buxton Saturday 3pm",
-      "url": "https://southportfc.net/home-v-buxton-saturday-3pm/",
-      "published": "2026-08-10T13:36:25Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1480,6 +1417,69 @@
       "title": "Colchester Away On Sale",
       "url": "https://rochdaleafc.co.uk/colchester-away-on-sale/",
       "published": "2026-08-10T11:09:20Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Away Travel: Walton & Hersham",
+      "url": "https://maidstoneunited.co.uk/08/10/away-travel-walton-hersham/",
+      "published": "2026-08-10T11:00:58Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Klargester Named Official PRE Stand Sponsor",
+      "url": "https://farnboroughfc.co.uk/2026/08/klargester-named-official-pre-stand-sponsor/",
+      "published": "2026-08-10T11:00:41Z"
+    },
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "Matchday Feedback",
+      "url": "https://marinefc.com/matchday-feedback/",
+      "published": "2026-08-10T10:38:30Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Academy Bulletin: ’26/27 Season: Week One",
+      "url": "https://wokingfc.co.uk/08/10/academy-bulletin-26-27-season-week-one/",
+      "published": "2026-08-10T09:54:10Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Club Statement",
+      "url": "https://etfc.london/club-statement-fan-behaviour/",
+      "published": "2026-08-10T09:48:10Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "REPORT: CARDIFF 3 – 3 UNITED WOMEN",
+      "url": "https://torquayunited.com/report-cardiff-3-3-united-women/",
+      "published": "2026-08-10T09:21:56Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Gallery: Altrincham (A)",
+      "url": "https://southendunited.co.uk/news/2026/august/10/gallery--altrincham--a-/",
+      "published": "2026-08-10T09:17:42Z"
     }
   ]
 }
