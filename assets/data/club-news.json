@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-12T19:22:00Z",
+  "generatedAt": "2026-08-12T20:25:37Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 445"
     },
     {
       "club": "AFC Totton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -816,15 +816,6 @@
       "published": "2026-08-12T12:42:45Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "AWAY DAY GUIDE: WALTON & HERSHAM",
-      "url": "https://daggers.co.uk/away-day-guide-walton-hersham/",
-      "published": "2026-08-12T12:23:43Z"
-    },
-    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -1059,6 +1050,15 @@
       "published": "2026-08-11T18:00:56Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Ministry of Anthems play the Clubhouse!",
+      "url": "https://www.horshamfc.co.uk/2026/08/11/ministry-of-anthems-play-the-clubhouse/",
+      "published": "2026-08-11T18:00:00Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1093,15 +1093,6 @@
       "title": "Southend United Community Foundation Day",
       "url": "https://southendunited.co.uk/news/2026/august/11/southend-united-community-foundation-day/",
       "published": "2026-08-11T16:22:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Supporters’ Club Coach Travel – Walton & Hersham and Truro City",
-      "url": "https://daggers.co.uk/supporters-club-coach-travel-walton-hersham-and-truro-city/",
-      "published": "2026-08-11T16:09:50Z"
     },
     {
       "club": "Torquay United",
@@ -1158,15 +1149,6 @@
       "published": "2026-08-11T14:00:34Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Board Room Dress Code – 2026/27 Season",
-      "url": "https://daggers.co.uk/board-room-dress-code-2026-27-season/",
-      "published": "2026-08-11T13:51:22Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1201,6 +1183,15 @@
       "title": "Preview – Chippenham Town vs Yate",
       "url": "https://chippenhamtown.com/08/11/preview-chippenham-town-vs-yate/",
       "published": "2026-08-11T13:00:09Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Salisbury Tickets on sale",
+      "url": "https://www.horshamfc.co.uk/2026/08/11/salisbury-tickets-on-sale/",
+      "published": "2026-08-11T12:05:27Z"
     },
     {
       "club": "Torquay United",
@@ -1336,6 +1327,15 @@
       "title": "NEWS | Hereford FC Golf Day Another Ace Experience",
       "url": "https://herefordfc.co.uk/2026/08/news-hereford-fc-golf-day-another-ace-experience/",
       "published": "2026-08-10T18:55:39Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Season Ticket Collection this Saturday",
+      "url": "https://www.horshamfc.co.uk/2026/08/10/season-ticket-collection-this-saturday/",
+      "published": "2026-08-10T18:47:06Z"
     },
     {
       "club": "Weston-super-Mare",
