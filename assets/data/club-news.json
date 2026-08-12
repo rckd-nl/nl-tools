@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-12T11:33:45Z",
+  "generatedAt": "2026-08-12T12:34:37Z",
   "maxItems": 100,
   "sources": [
     {
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 502"
     },
     {
       "club": "AFC Totton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Persimmon Homes named Official South Stand Partner",
+      "url": "https://www.hartlepoolunited.co.uk/persimmon-homes-named-official-south-stand-partner/",
+      "published": "2026-08-12T12:10:50Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Alex Lankshear joins Gateshead FC on one-year deal",
+      "url": "https://gateshead-fc.com/alex-lankshear-joins-gateshead-fc/",
+      "published": "2026-08-12T12:00:43Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "PLAYED FOR BOTH: TUNDE OWOLABI",
+      "url": "https://macclesfieldfc.com/latest-news/played-for-both-tunde-owolabi/",
+      "published": "2026-08-12T12:00:17Z"
+    },
     {
       "club": "Hartlepool United",
       "code": "HAR",
@@ -652,6 +679,15 @@
       "title": "Partnership | TLT",
       "url": "https://www.fgr.co.uk/news/partnership-tlt-26/",
       "published": "2026-08-12T09:30:00Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "AFC Fylde Link up with Warden Construction for Volunteers Weekend",
+      "url": "https://afcfylde.co.uk/news/2026/august/12/afc-fylde-link-up-with-warden-construction-for-volunteers-weekend/",
+      "published": "2026-08-12T09:22:00Z"
     },
     {
       "club": "Altrincham",
@@ -816,15 +852,6 @@
       "published": "2026-08-11T16:22:00Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Supporters’ Club Coach Travel – Walton & Hersham and Truro City",
-      "url": "https://daggers.co.uk/supporters-club-coach-travel-walton-hersham-and-truro-city/",
-      "published": "2026-08-11T16:09:50Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -877,15 +904,6 @@
       "title": "Owen Johnson joins Exmouth Town on dual-registration",
       "url": "https://wsmafc.co.uk/owen-johnson-exmouth/",
       "published": "2026-08-11T14:00:34Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Board Room Dress Code – 2026/27 Season",
-      "url": "https://daggers.co.uk/board-room-dress-code-2026-27-season/",
-      "published": "2026-08-11T13:51:22Z"
     },
     {
       "club": "Chester",
@@ -1338,15 +1356,6 @@
       "published": "2026-08-10T09:14:08Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Friday Night Football v Farnham Town",
-      "url": "https://daggers.co.uk/friday-night-football-v-farnham-town/",
-      "published": "2026-08-10T09:07:56Z"
-    },
-    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -1471,15 +1480,6 @@
       "title": "Gallery – Uxbridge 8th August 2026",
       "url": "https://chippenhamtown.com/08/09/uxbridge-08th-august-2026/",
       "published": "2026-08-09T21:11:39Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "Golden Letter Draw Results",
-      "url": "https://marinefc.com/golden-letter-draw-results/",
-      "published": "2026-08-09T20:48:00Z"
     }
   ]
 }
