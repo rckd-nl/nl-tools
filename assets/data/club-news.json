@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-12T15:17:12Z",
+  "generatedAt": "2026-08-12T16:27:12Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f8f279152d0>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f8f27720510>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,42 @@
     }
   ],
   "items": [
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "National League Lowdown: Hartlepool United",
+      "url": "https://worthingfc.com/2026/08/national-league-lowdown-hartlepool-united/",
+      "published": "2026-08-12T16:13:14Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Sam Murray Signs For Spennymoor",
+      "url": "https://spennymoortownfc.co.uk/2026/08/12/sam-murray-signs-for-spennymoor/",
+      "published": "2026-08-12T16:04:38Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Cross backs young Pools group to learn from Middlesbrough test",
+      "url": "https://www.hartlepoolunited.co.uk/cross-backs-young-pools-group-to-learn-from-middlesbrough-test/",
+      "published": "2026-08-12T16:00:28Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Adam Barton Post Match Interview | Bury (A)",
+      "url": "https://curzon-ashton.co.uk/adam-barton-bury-a/",
+      "published": "2026-08-12T15:55:19Z"
+    },
     {
       "club": "Macclesfield",
       "code": "MAC",
@@ -724,6 +760,15 @@
       "title": "Medical Update 12/08/2026",
       "url": "https://dwfc.co.uk/2026/08/medical-update-12-08-2026/",
       "published": "2026-08-12T12:42:45Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "AWAY DAY GUIDE: WALTON & HERSHAM",
+      "url": "https://daggers.co.uk/away-day-guide-walton-hersham/",
+      "published": "2026-08-12T12:23:43Z"
     },
     {
       "club": "Hartlepool United",
@@ -960,15 +1005,6 @@
       "published": "2026-08-11T18:00:56Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Ministry of Anthems play the Clubhouse!",
-      "url": "https://www.horshamfc.co.uk/2026/08/11/ministry-of-anthems-play-the-clubhouse/",
-      "published": "2026-08-11T18:00:00Z"
-    },
-    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1003,6 +1039,15 @@
       "title": "Southend United Community Foundation Day",
       "url": "https://southendunited.co.uk/news/2026/august/11/southend-united-community-foundation-day/",
       "published": "2026-08-11T16:22:00Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Supporters’ Club Coach Travel – Walton & Hersham and Truro City",
+      "url": "https://daggers.co.uk/supporters-club-coach-travel-walton-hersham-and-truro-city/",
+      "published": "2026-08-11T16:09:50Z"
     },
     {
       "club": "Torquay United",
@@ -1059,6 +1104,15 @@
       "published": "2026-08-11T14:00:34Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Board Room Dress Code – 2026/27 Season",
+      "url": "https://daggers.co.uk/board-room-dress-code-2026-27-season/",
+      "published": "2026-08-11T13:51:22Z"
+    },
+    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1093,15 +1147,6 @@
       "title": "Preview – Chippenham Town vs Yate",
       "url": "https://chippenhamtown.com/08/11/preview-chippenham-town-vs-yate/",
       "published": "2026-08-11T13:00:09Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Salisbury Tickets on sale",
-      "url": "https://www.horshamfc.co.uk/2026/08/11/salisbury-tickets-on-sale/",
-      "published": "2026-08-11T12:05:27Z"
     },
     {
       "club": "Torquay United",
@@ -1246,15 +1291,6 @@
       "title": "NEWS | Hereford FC Golf Day Another Ace Experience",
       "url": "https://herefordfc.co.uk/2026/08/news-hereford-fc-golf-day-another-ace-experience/",
       "published": "2026-08-10T18:55:39Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Season Ticket Collection this Saturday",
-      "url": "https://www.horshamfc.co.uk/2026/08/10/season-ticket-collection-this-saturday/",
-      "published": "2026-08-10T18:47:06Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1444,42 +1480,6 @@
       "title": "Colchester Away On Sale",
       "url": "https://rochdaleafc.co.uk/colchester-away-on-sale/",
       "published": "2026-08-10T11:09:20Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Away Travel: Walton & Hersham",
-      "url": "https://maidstoneunited.co.uk/08/10/away-travel-walton-hersham/",
-      "published": "2026-08-10T11:00:58Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Klargester Named Official PRE Stand Sponsor",
-      "url": "https://farnboroughfc.co.uk/2026/08/klargester-named-official-pre-stand-sponsor/",
-      "published": "2026-08-10T11:00:41Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "Matchday Feedback",
-      "url": "https://marinefc.com/matchday-feedback/",
-      "published": "2026-08-10T10:38:30Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Academy Bulletin: ’26/27 Season: Week One",
-      "url": "https://wokingfc.co.uk/08/10/academy-bulletin-26-27-season-week-one/",
-      "published": "2026-08-10T09:54:10Z"
     }
   ]
 }
