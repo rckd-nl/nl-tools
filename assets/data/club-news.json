@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-12T12:34:37Z",
+  "generatedAt": "2026-08-12T14:09:05Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -278,10 +278,10 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "https://harriers.co.uk/feed/",
-      "ok": true,
-      "count": 20,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "King's Lynn Town",
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 502"
+      "error": "HTTP 403"
     },
     {
       "club": "AFC Totton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,78 @@
     }
   ],
   "items": [
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "VACANCY: MEDIA AND MARKETING EXECUTIVE",
+      "url": "https://macclesfieldfc.com/latest-news/vacancy-media-and-marketing-executive/",
+      "published": "2026-08-12T14:00:00Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Pools Launch Junior Poolies Membership for 2026/27",
+      "url": "https://www.hartlepoolunited.co.uk/pools-launch-junior-poolies-membership-for-2026-27/",
+      "published": "2026-08-12T13:58:59Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Supporter Survey – Thank you for your feedback!",
+      "url": "https://chesterfc.com/08/12/supporter-survey-thank-you-for-your-feedback/",
+      "published": "2026-08-12T13:28:39Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Pools hosts Armed Forces Covenant signing ceremony",
+      "url": "https://www.hartlepoolunited.co.uk/pools-hosts-armed-forces-covenant-signing-ceremony/",
+      "published": "2026-08-12T13:13:52Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "SSFC Women look forward to Hartlepool United challenge",
+      "url": "https://www.southshieldsfc.co.uk/ssfc-women-look-forward-to-hartlepool-united-challenge/",
+      "published": "2026-08-12T13:00:18Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Retro Gulls Returns On August 27th!",
+      "url": "https://torquayunited.com/retro-gulls-returns-today-3/",
+      "published": "2026-08-12T13:00:00Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Bluebird Care Rochdale Sponsor Added Time",
+      "url": "https://rochdaleafc.co.uk/bluebird-care-rochdale-sponsor-added-time/",
+      "published": "2026-08-12T12:46:04Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Medical Update 12/08/2026",
+      "url": "https://dwfc.co.uk/2026/08/medical-update-12-08-2026/",
+      "published": "2026-08-12T12:42:45Z"
+    },
     {
       "club": "Hartlepool United",
       "code": "HAR",
@@ -816,6 +888,15 @@
       "published": "2026-08-11T18:00:56Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Ministry of Anthems play the Clubhouse!",
+      "url": "https://www.horshamfc.co.uk/2026/08/11/ministry-of-anthems-play-the-clubhouse/",
+      "published": "2026-08-11T18:00:00Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -940,6 +1021,15 @@
       "title": "Preview – Chippenham Town vs Yate",
       "url": "https://chippenhamtown.com/08/11/preview-chippenham-town-vs-yate/",
       "published": "2026-08-11T13:00:09Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Salisbury Tickets on sale",
+      "url": "https://www.horshamfc.co.uk/2026/08/11/salisbury-tickets-on-sale/",
+      "published": "2026-08-11T12:05:27Z"
     },
     {
       "club": "Torquay United",
@@ -1075,6 +1165,15 @@
       "title": "NEWS | Hereford FC Golf Day Another Ace Experience",
       "url": "https://herefordfc.co.uk/2026/08/news-hereford-fc-golf-day-another-ace-experience/",
       "published": "2026-08-10T18:55:39Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Season Ticket Collection this Saturday",
+      "url": "https://www.horshamfc.co.uk/2026/08/10/season-ticket-collection-this-saturday/",
+      "published": "2026-08-10T18:47:06Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1257,15 +1356,6 @@
       "published": "2026-08-10T11:23:31Z"
     },
     {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Programme goes digital",
-      "url": "https://harriers.co.uk/news/2026/08/10/programme-goes-digital/",
-      "published": "2026-08-10T11:22:10Z"
-    },
-    {
       "club": "Curzon Ashton",
       "code": "CUR",
       "short": "Curzon Ashton",
@@ -1374,15 +1464,6 @@
       "published": "2026-08-10T08:39:05Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "ACTION REPLAY: MARINE AFC (A)",
-      "url": "https://macclesfieldfc.com/galleries/action-replay-marine-afc-a/",
-      "published": "2026-08-10T08:30:43Z"
-    },
-    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -1399,87 +1480,6 @@
       "title": "Tickets & Travel | Worthing (A)",
       "url": "https://www.fgr.co.uk/news/tickets-and-travel-worthing-a/",
       "published": "2026-08-10T08:00:00Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Up Next: Dover Athletic vs Slough Town",
-      "url": "https://doverathletic.com/news/up-next-dover-athletic-vs-slough-town-3/",
-      "published": "2026-08-10T07:49:01Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Ticket Information: Merthyr Town FC (H)",
-      "url": "https://spennymoortownfc.co.uk/2026/08/10/ticket-information-merthyr-town-fc-h/",
-      "published": "2026-08-10T07:44:48Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Gallery: Kidderminster Harriers (H)",
-      "url": "https://hornchurchfc.com/gallery-kidderminster-harriers-h/",
-      "published": "2026-08-10T07:07:26Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Ticket and Travel Details: Tamworth & Woking (A)",
-      "url": "https://afcfylde.co.uk/news/2026/august/10/ticket-and-travel-details--tamworth---woking--a-/",
-      "published": "2026-08-10T06:47:00Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Match Gallery: Wealdstone (H)",
-      "url": "https://afcfylde.co.uk/news/2026/august/10/match-gallery--wealdstone--h-/",
-      "published": "2026-08-10T06:36:00Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Tickets On Sale For Home Opener",
-      "url": "https://rochdaleafc.co.uk/tickets-crawley-town-home-220826/",
-      "published": "2026-08-10T04:31:59Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "This week at Gallagher Stadium (w/c 9/8/26)",
-      "url": "https://maidstoneunited.co.uk/08/10/this-week-at-gallagher-stadium-w-c-9-8-26/",
-      "published": "2026-08-09T23:01:37Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Sutton United ticket and travel info",
-      "url": "https://altrinchamfc.com/blogs/news/sutton-united-ticket-and-travel-info",
-      "published": "2026-08-09T21:31:39Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Gallery – Uxbridge 8th August 2026",
-      "url": "https://chippenhamtown.com/08/09/uxbridge-08th-august-2026/",
-      "published": "2026-08-09T21:11:39Z"
     }
   ]
 }
