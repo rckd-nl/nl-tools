@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-13T03:18:57Z",
+  "generatedAt": "2026-08-13T05:11:51Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -1068,6 +1068,15 @@
       "published": "2026-08-11T18:00:56Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Ministry of Anthems play the Clubhouse!",
+      "url": "https://www.horshamfc.co.uk/2026/08/11/ministry-of-anthems-play-the-clubhouse/",
+      "published": "2026-08-11T18:00:00Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1194,6 +1203,15 @@
       "published": "2026-08-11T13:00:09Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Salisbury Tickets on sale",
+      "url": "https://www.horshamfc.co.uk/2026/08/11/salisbury-tickets-on-sale/",
+      "published": "2026-08-11T12:05:27Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1318,6 +1336,15 @@
       "title": "NEWS | Hereford FC Golf Day Another Ace Experience",
       "url": "https://herefordfc.co.uk/2026/08/news-hereford-fc-golf-day-another-ace-experience/",
       "published": "2026-08-10T18:55:39Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Season Ticket Collection this Saturday",
+      "url": "https://www.horshamfc.co.uk/2026/08/10/season-ticket-collection-this-saturday/",
+      "published": "2026-08-10T18:47:06Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1453,33 +1480,6 @@
       "title": "Three Game Package Matchday Hospitality Available",
       "url": "https://southportfc.net/three-game-package-matchday-hospitality-available/",
       "published": "2026-08-10T13:43:11Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Home v Buxton Saturday 3pm",
-      "url": "https://southportfc.net/home-v-buxton-saturday-3pm/",
-      "published": "2026-08-10T13:36:25Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "AWAY TICKETS | Tonbridge Angels",
-      "url": "https://torquayunited.com/away-tickets-tonbridge-angels-3/",
-      "published": "2026-08-10T13:19:42Z"
-    },
-    {
-      "club": "Chesham United",
-      "code": "CHU",
-      "short": "Chesham",
-      "domain": "cheshamunited.co.uk",
-      "title": "Generals defeated on the opening day at the seaside",
-      "url": "https://cheshamunited.co.uk/2026/08/generals-defeated-on-the-opening-day-at-the-seaside/",
-      "published": "2026-08-10T12:17:02Z"
     }
   ]
 }
