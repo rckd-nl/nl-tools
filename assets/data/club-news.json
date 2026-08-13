@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-13T12:49:16Z",
+  "generatedAt": "2026-08-13T14:13:01Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f463434e290>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 445"
     },
     {
       "club": "AFC Totton",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f463452b790>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,60 @@
     }
   ],
   "items": [
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Jimmy Ball | Ahead of the Game | Tonbridge Angels (A)",
+      "url": "https://torquayunited.com/jimmy-ball-ahead-of-the-game-tonbridge-angels-a/",
+      "published": "2026-08-13T14:11:37Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Ian Watson On Newport County Opener",
+      "url": "https://rochdaleafc.co.uk/ian-watson-on-newport-county-opener/",
+      "published": "2026-08-13T14:04:55Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Weston Tickets Now On Sale!",
+      "url": "https://torquayunited.com/weston-tickets-now-on-sale/",
+      "published": "2026-08-13T13:51:07Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Ticket Information: Leeds United U21 (H)",
+      "url": "https://www.borehamwoodfootballclub.co.uk/ticket-information-leeds-united-u21-h/",
+      "published": "2026-08-13T13:20:18Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "1899 CLUB | One Day To Go!",
+      "url": "https://torquayunited.com/1899-club-one-day-to-go/",
+      "published": "2026-08-13T13:19:58Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Match Ball Opportunities At Plainmoor",
+      "url": "https://torquayunited.com/match-ball-opportunities-at-plainmoor/",
+      "published": "2026-08-13T13:13:31Z"
+    },
     {
       "club": "Eastleigh",
       "code": "EAS",
@@ -1284,15 +1338,6 @@
       "published": "2026-08-11T16:09:50Z"
     },
     {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "United Women Add Duo",
-      "url": "https://torquayunited.com/united-women-add-duo/",
-      "published": "2026-08-11T16:06:02Z"
-    },
-    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1374,15 +1419,6 @@
       "published": "2026-08-11T13:00:09Z"
     },
     {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Fan Survey 2026 | We Want To Hear From You!",
-      "url": "https://torquayunited.com/fan-survey-2026-we-want-to-hear-from-you/",
-      "published": "2026-08-11T11:30:00Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1444,42 +1480,6 @@
       "title": "Adam Shaw departs role at SSFC",
       "url": "https://www.southshieldsfc.co.uk/adam-shaw-departs-role-at-ssfc/",
       "published": "2026-08-11T07:59:50Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Job Vacancies",
-      "url": "https://rochdaleafc.co.uk/job-vacancies-040826/",
-      "published": "2026-08-11T07:58:38Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Inside Weston – S2 EP1: Vs Chesham United (H)",
-      "url": "https://wsmafc.co.uk/inside-weston-s2-ep1-vs-chesham-united-h/",
-      "published": "2026-08-10T20:20:56Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Sophie Richards Becomes Worthing FC Women’s Latest Recruit",
-      "url": "https://worthingfc.com/2026/08/sophie-richards-announced-as-worthing-fc-womens-latest-recruit/",
-      "published": "2026-08-10T20:04:00Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Angels supporter Ollie earns England call-up",
-      "url": "https://tonbridgeangels.co.uk/angels-supporter-ollie-earns-england-call-up/",
-      "published": "2026-08-10T19:40:41Z"
     }
   ]
 }
