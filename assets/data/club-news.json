@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-13T08:22:14Z",
+  "generatedAt": "2026-08-13T09:35:59Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f2de3229a90>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 445"
+      "error": "HTTP 403"
     },
     {
       "club": "AFC Totton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f2de3530550>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "TICKET NEWS: DARLINGTON (A)",
+      "url": "https://macclesfieldfc.com/latest-news/ticket-news-darlington-a-3/",
+      "published": "2026-08-13T09:00:36Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Matchday Information",
+      "url": "https://chelmsfordcityfc.com/news/matchday-information/",
+      "published": "2026-08-13T08:30:20Z"
+    },
+    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -589,6 +607,15 @@
       "title": "Tickets: Norwich City PL2",
       "url": "https://hornchurchfc.com/tickets-norwich-city-pl2/",
       "published": "2026-08-13T07:15:22Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Gallery – Yate Town",
+      "url": "https://chippenhamtown.com/08/13/yate-town-11th-august-2026/",
+      "published": "2026-08-13T07:00:56Z"
     },
     {
       "club": "Truro City",
@@ -609,13 +636,13 @@
       "published": "2026-08-13T06:52:00Z"
     },
     {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Yate Town 11th August 2026",
-      "url": "https://chippenhamtown.com/08/12/yate-town-11th-august-2026/",
-      "published": "2026-08-12T22:16:56Z"
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Mascot Packages for 2026-27",
+      "url": "https://www.horshamfc.co.uk/2026/08/13/mascot-packages-for-2026-27/",
+      "published": "2026-08-13T06:45:28Z"
     },
     {
       "club": "Truro City",
@@ -1113,6 +1140,15 @@
       "published": "2026-08-11T18:00:56Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Ministry of Anthems play the Clubhouse!",
+      "url": "https://www.horshamfc.co.uk/2026/08/11/ministry-of-anthems-play-the-clubhouse/",
+      "published": "2026-08-11T18:00:00Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1239,15 +1275,6 @@
       "published": "2026-08-11T13:06:20Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "IN PICTURES: THREE YEARS OF LUKE DUFFY",
-      "url": "https://macclesfieldfc.com/galleries/in-pictures-three-years-of-luke-duffy/",
-      "published": "2026-08-11T13:00:11Z"
-    },
-    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -1255,6 +1282,15 @@
       "title": "Preview – Chippenham Town vs Yate",
       "url": "https://chippenhamtown.com/08/11/preview-chippenham-town-vs-yate/",
       "published": "2026-08-11T13:00:09Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Salisbury Tickets on sale",
+      "url": "https://www.horshamfc.co.uk/2026/08/11/salisbury-tickets-on-sale/",
+      "published": "2026-08-11T12:05:27Z"
     },
     {
       "club": "Torquay United",
@@ -1392,6 +1428,15 @@
       "published": "2026-08-10T18:55:39Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Season Ticket Collection this Saturday",
+      "url": "https://www.horshamfc.co.uk/2026/08/10/season-ticket-collection-this-saturday/",
+      "published": "2026-08-10T18:47:06Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1435,51 +1480,6 @@
       "title": "Cross ready to lead Pools into National League Cup Opener",
       "url": "https://www.hartlepoolunited.co.uk/cross-ready-to-lead-pools-into-national-league-cup-opener/",
       "published": "2026-08-10T16:51:25Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Season Card Collections Update",
-      "url": "https://southendunited.co.uk/news/2026/august/10/season-card-collections-update/",
-      "published": "2026-08-10T16:40:39Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Match Preview | Bury FC (A)",
-      "url": "https://curzon-ashton.co.uk/match-preview-bury-fc-a/",
-      "published": "2026-08-10T16:23:27Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Ticket Details | Rotherham United (A)",
-      "url": "https://yorkcityfootballclub.co.uk/ticket-details-rotherham-united-a/",
-      "published": "2026-08-10T16:22:47Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Match Sponsor: Flooring Products Direct",
-      "url": "https://worthingfc.com/2026/08/match-sponsor-flooring-products-direct-3/",
-      "published": "2026-08-10T16:21:24Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Maya Pritchard Joins Worthing FC Women",
-      "url": "https://worthingfc.com/2026/08/maya-pritchard-joins-worthing-fc-women/",
-      "published": "2026-08-10T15:30:46Z"
     }
   ]
 }
