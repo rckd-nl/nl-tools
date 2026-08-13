@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-13T22:40:36Z",
+  "generatedAt": "2026-08-13T23:27:50Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f480ac43850>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f480aa57750>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -1005,6 +1005,15 @@
       "published": "2026-08-13T11:15:31Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Preview – Salisbury",
+      "url": "https://www.horshamfc.co.uk/2026/08/13/match-preview-salisbury/",
+      "published": "2026-08-13T11:00:15Z"
+    },
+    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -1120,6 +1129,15 @@
       "title": "Match Preview: Tamworth (A)",
       "url": "https://afcfylde.co.uk/news/2026/august/13/match-preview--tamworth--a-/",
       "published": "2026-08-13T06:52:00Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Mascot Packages for 2026-27",
+      "url": "https://www.horshamfc.co.uk/2026/08/13/mascot-packages-for-2026-27/",
+      "published": "2026-08-13T06:45:28Z"
     },
     {
       "club": "Truro City",
@@ -1374,6 +1392,15 @@
       "published": "2026-08-12T12:42:45Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "AWAY DAY GUIDE: WALTON & HERSHAM",
+      "url": "https://daggers.co.uk/away-day-guide-walton-hersham/",
+      "published": "2026-08-12T12:23:43Z"
+    },
+    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -1453,33 +1480,6 @@
       "title": "BAR TWENTY SEVEN UPDATE",
       "url": "https://macclesfieldfc.com/latest-news/bar-twenty-seven-update/",
       "published": "2026-08-12T10:19:19Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Matchday Hospitality Packages: Chorley (H)",
-      "url": "https://www.southshieldsfc.co.uk/matchday-hospitality-packages-chorley-h/",
-      "published": "2026-08-12T09:58:05Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Partnership | TLT",
-      "url": "https://www.fgr.co.uk/news/partnership-tlt-26/",
-      "published": "2026-08-12T09:30:00Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "AFC Fylde Link up with Warden Construction for Volunteers Weekend",
-      "url": "https://afcfylde.co.uk/news/2026/august/12/afc-fylde-link-up-with-warden-construction-for-volunteers-weekend/",
-      "published": "2026-08-12T09:22:00Z"
     }
   ]
 }
