@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-13T15:17:37Z",
+  "generatedAt": "2026-08-13T16:27:44Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f4a7f8a9190>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f4a7f78da50>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,87 @@
     }
   ],
   "items": [
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Ticket News: Chelmsford City (a)",
+      "url": "https://trurocity.co.uk/2026/08/ticket-news-chelmsford-city-a/",
+      "published": "2026-08-13T16:05:21Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Match Preview | Emley AFC (A)",
+      "url": "https://curzon-ashton.co.uk/match-preview-emley-afc-a/",
+      "published": "2026-08-13T16:04:17Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Sofia Harding Signs for the Reds",
+      "url": "https://worthingfc.com/2026/08/sofia-harding-signs-for-the-reds/",
+      "published": "2026-08-13T16:00:57Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "New Coffee Corner opens Saturday",
+      "url": "https://farnboroughfc.co.uk/2026/08/new-coffee-corner-opens-saturday/",
+      "published": "2026-08-13T16:00:41Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Match Preview: Aldershot Town v Hartlepool United",
+      "url": "https://www.hartlepoolunited.co.uk/match-preview-aldershot-town-v-hartlepool-united/",
+      "published": "2026-08-13T15:55:28Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Club Statement: Aldershot Town Fixture and South Stand Update",
+      "url": "https://eastleighfc.com/2026/08/club-statement-aldershot-town-fixture-and-south-stand-update/",
+      "published": "2026-08-13T15:51:13Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Pre-Match: Kieron Dyer Looks Ahead To Hosting Scunthorpe United",
+      "url": "https://southendunited.co.uk/news/2026/august/13/pre-match--kieron-dyer-looks-ahead-to-hosting-scunthorpe-united/",
+      "published": "2026-08-13T15:44:31Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Crucial Environmental Activates Dugouts Sponsorship",
+      "url": "https://worthingfc.com/2026/08/crucial-environmental-activates-dugouts-sponsorships/",
+      "published": "2026-08-13T15:38:25Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City vs Maidenhead United – Mascot Gallery",
+      "url": "https://trurocity.co.uk/2026/08/truro-city-vs-maidenhead-united-mascot-gallery/",
+      "published": "2026-08-13T15:31:28Z"
+    },
     {
       "club": "Rochdale",
       "code": "ROC",
@@ -832,6 +913,15 @@
       "title": "Club Statement: Transfer Embargo",
       "url": "https://hornchurchfc.com/club-statement-transfer-embargo/",
       "published": "2026-08-13T10:00:12Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Walton & Hersham",
+      "url": "https://maidstoneunited.co.uk/08/13/key-info-walton-hersham/",
+      "published": "2026-08-13T10:00:05Z"
     },
     {
       "club": "Macclesfield",
@@ -1140,15 +1230,6 @@
       "published": "2026-08-12T12:42:45Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "AWAY DAY GUIDE: WALTON & HERSHAM",
-      "url": "https://daggers.co.uk/away-day-guide-walton-hersham/",
-      "published": "2026-08-12T12:23:43Z"
-    },
-    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -1399,87 +1480,6 @@
       "title": "SILKMEN SET TO MOTOR WITH JIGSAW FINANCE ON BOARD",
       "url": "https://macclesfieldfc.com/latest-news/silkmen-set-to-motor-with-jigsaw-finance-on-board/",
       "published": "2026-08-11T17:00:25Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "OUR 3RD KIT WITH YOUR NAME!",
-      "url": "https://chelmsfordcityfc.com/news/our-3rd-kit-with-your-name/",
-      "published": "2026-08-11T16:38:28Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Southend United Community Foundation Day",
-      "url": "https://southendunited.co.uk/news/2026/august/11/southend-united-community-foundation-day/",
-      "published": "2026-08-11T16:22:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Supporters’ Club Coach Travel – Walton & Hersham and Truro City",
-      "url": "https://daggers.co.uk/supporters-club-coach-travel-walton-hersham-and-truro-city/",
-      "published": "2026-08-11T16:09:50Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "New National League Regulation – U14 Admission",
-      "url": "https://tonbridgeangels.co.uk/new-national-league-regulation/",
-      "published": "2026-08-11T16:00:00Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Southend United Enter Next Wave Championship",
-      "url": "https://southendunited.co.uk/news/2026/august/11/southend-united-u23s-enter/",
-      "published": "2026-08-11T15:09:00Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "HIGHLIGHTS | Buxton FC 2-1 Hereford FC",
-      "url": "https://herefordfc.co.uk/2026/08/highlights-buxton-fc-2-1-hereford-fc/",
-      "published": "2026-08-11T14:14:54Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Owen Johnson joins Exmouth Town on dual-registration",
-      "url": "https://wsmafc.co.uk/owen-johnson-exmouth/",
-      "published": "2026-08-11T14:00:34Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Board Room Dress Code – 2026/27 Season",
-      "url": "https://daggers.co.uk/board-room-dress-code-2026-27-season/",
-      "published": "2026-08-11T13:51:22Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Ticket Details: Darlington (A)",
-      "url": "https://chesterfc.com/08/11/ticket-details-darlington-a-2/",
-      "published": "2026-08-11T13:44:02Z"
     }
   ]
 }
