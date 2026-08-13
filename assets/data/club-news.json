@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-13T21:31:56Z",
+  "generatedAt": "2026-08-13T22:40:36Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f480ac43850>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 445"
+      "error": "HTTP 403"
     },
     {
       "club": "AFC Totton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f480aa57750>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "SSFC Women witness 14-goal thriller vs Hartlepool United",
+      "url": "https://www.southshieldsfc.co.uk/ssfc-women-witness-14-goal-thriller-vs-hartlepool-united/",
+      "published": "2026-08-13T22:11:35Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Gallery | Bury (A)",
+      "url": "https://curzon-ashton.co.uk/gallery-bury-a/",
+      "published": "2026-08-13T22:00:19Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -987,15 +1005,6 @@
       "published": "2026-08-13T11:15:31Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Preview – Salisbury",
-      "url": "https://www.horshamfc.co.uk/2026/08/13/match-preview-salisbury/",
-      "published": "2026-08-13T11:00:15Z"
-    },
-    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -1111,15 +1120,6 @@
       "title": "Match Preview: Tamworth (A)",
       "url": "https://afcfylde.co.uk/news/2026/august/13/match-preview--tamworth--a-/",
       "published": "2026-08-13T06:52:00Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Mascot Packages for 2026-27",
-      "url": "https://www.horshamfc.co.uk/2026/08/13/mascot-packages-for-2026-27/",
-      "published": "2026-08-13T06:45:28Z"
     },
     {
       "club": "Truro City",
@@ -1374,15 +1374,6 @@
       "published": "2026-08-12T12:42:45Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "AWAY DAY GUIDE: WALTON & HERSHAM",
-      "url": "https://daggers.co.uk/away-day-guide-walton-hersham/",
-      "published": "2026-08-12T12:23:43Z"
-    },
-    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -1480,6 +1471,15 @@
       "title": "Partnership | TLT",
       "url": "https://www.fgr.co.uk/news/partnership-tlt-26/",
       "published": "2026-08-12T09:30:00Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "AFC Fylde Link up with Warden Construction for Volunteers Weekend",
+      "url": "https://afcfylde.co.uk/news/2026/august/12/afc-fylde-link-up-with-warden-construction-for-volunteers-weekend/",
+      "published": "2026-08-12T09:22:00Z"
     }
   ]
 }
