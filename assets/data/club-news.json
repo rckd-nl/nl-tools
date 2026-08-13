@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-13T06:48:09Z",
+  "generatedAt": "2026-08-13T08:22:14Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f2de3229a90>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 445"
     },
     {
       "club": "AFC Totton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f2de3530550>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Tickets: Norwich City PL2",
+      "url": "https://hornchurchfc.com/tickets-norwich-city-pl2/",
+      "published": "2026-08-13T07:15:22Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City vs Maidenhead United – Commercial Gallery",
+      "url": "https://trurocity.co.uk/2026/08/truro-city-vs-maidenhead-united-commercial-gallery/",
+      "published": "2026-08-13T06:59:31Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Match Preview: Tamworth (A)",
+      "url": "https://afcfylde.co.uk/news/2026/august/13/match-preview--tamworth--a-/",
+      "published": "2026-08-13T06:52:00Z"
+    },
     {
       "club": "Chippenham Town",
       "code": "CHI",
@@ -841,6 +868,15 @@
       "title": "Medical Update 12/08/2026",
       "url": "https://dwfc.co.uk/2026/08/medical-update-12-08-2026/",
       "published": "2026-08-12T12:42:45Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "AWAY DAY GUIDE: WALTON & HERSHAM",
+      "url": "https://daggers.co.uk/away-day-guide-walton-hersham/",
+      "published": "2026-08-12T12:23:43Z"
     },
     {
       "club": "Hartlepool United",
@@ -1113,6 +1149,15 @@
       "published": "2026-08-11T16:22:00Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Supporters’ Club Coach Travel – Walton & Hersham and Truro City",
+      "url": "https://daggers.co.uk/supporters-club-coach-travel-walton-hersham-and-truro-city/",
+      "published": "2026-08-11T16:09:50Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1165,6 +1210,15 @@
       "title": "Owen Johnson joins Exmouth Town on dual-registration",
       "url": "https://wsmafc.co.uk/owen-johnson-exmouth/",
       "published": "2026-08-11T14:00:34Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Board Room Dress Code – 2026/27 Season",
+      "url": "https://daggers.co.uk/board-room-dress-code-2026-27-season/",
+      "published": "2026-08-11T13:51:22Z"
     },
     {
       "club": "Chester",
@@ -1426,60 +1480,6 @@
       "title": "Maya Pritchard Joins Worthing FC Women",
       "url": "https://worthingfc.com/2026/08/maya-pritchard-joins-worthing-fc-women/",
       "published": "2026-08-10T15:30:46Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "James Watts-Barciela joins the Seagulls",
-      "url": "https://wsmafc.co.uk/jwb-signs/",
-      "published": "2026-08-10T15:30:10Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Tickets on sale now for our trip to Barrow AFC",
-      "url": "https://ytfc.net/2026/08/tickets-on-sale-now-for-our-trip-to-barrow-afc/",
-      "published": "2026-08-10T15:09:33Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Ticket Information: FC Halifax Town (A)",
-      "url": "https://www.borehamwoodfootballclub.co.uk/ticket-information-halifax-town-a/",
-      "published": "2026-08-10T14:37:19Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Meet the Businesses Backing Bath City in 2026/27",
-      "url": "https://www.bathcityfc.com/meet-the-businesses-backing-bath-city-in-2026-27/",
-      "published": "2026-08-10T13:52:22Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Three Game Package Matchday Hospitality Available",
-      "url": "https://southportfc.net/three-game-package-matchday-hospitality-available/",
-      "published": "2026-08-10T13:43:11Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Home v Buxton Saturday 3pm",
-      "url": "https://southportfc.net/home-v-buxton-saturday-3pm/",
-      "published": "2026-08-10T13:36:25Z"
     }
   ]
 }
