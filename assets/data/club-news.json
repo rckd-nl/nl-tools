@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-13T00:46:51Z",
+  "generatedAt": "2026-08-13T03:18:57Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,18 +78,18 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3836,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://www.southshieldsfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -807,6 +807,15 @@
       "published": "2026-08-12T13:13:52Z"
     },
     {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "SSFC Women look forward to Hartlepool United challenge",
+      "url": "https://www.southshieldsfc.co.uk/ssfc-women-look-forward-to-hartlepool-united-challenge/",
+      "published": "2026-08-12T13:00:18Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -834,15 +843,6 @@
       "published": "2026-08-12T12:42:45Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "AWAY DAY GUIDE: WALTON & HERSHAM",
-      "url": "https://daggers.co.uk/away-day-guide-walton-hersham/",
-      "published": "2026-08-12T12:23:43Z"
-    },
-    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -850,6 +850,15 @@
       "title": "Persimmon Homes named Official South Stand Partner",
       "url": "https://www.hartlepoolunited.co.uk/persimmon-homes-named-official-south-stand-partner/",
       "published": "2026-08-12T12:10:50Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Alex Lankshear joins Gateshead FC on one-year deal",
+      "url": "https://gateshead-fc.com/alex-lankshear-joins-gateshead-fc/",
+      "published": "2026-08-12T12:00:43Z"
     },
     {
       "club": "Macclesfield",
@@ -915,13 +924,13 @@
       "published": "2026-08-12T10:19:19Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Partnership | TLT",
-      "url": "https://www.fgr.co.uk/news/partnership-tlt-26/",
-      "published": "2026-08-12T09:30:00Z"
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Matchday Hospitality Packages: Chorley (H)",
+      "url": "https://www.southshieldsfc.co.uk/matchday-hospitality-packages-chorley-h/",
+      "published": "2026-08-12T09:58:05Z"
     },
     {
       "club": "AFC Fylde",
@@ -940,6 +949,15 @@
       "title": "Temporary Embargo lifted",
       "url": "https://altrinchamfc.com/blogs/news/temporary-embargo-lifted",
       "published": "2026-08-12T09:15:25Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Adam Desbois joins Carlisle United for undisclosed fee",
+      "url": "https://gateshead-fc.com/adam-desbois-joins-carlisle-united-for-undisclosed-fee/",
+      "published": "2026-08-12T09:00:30Z"
     },
     {
       "club": "AFC Fylde",
@@ -1086,15 +1104,6 @@
       "published": "2026-08-11T16:22:00Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Supporters’ Club Coach Travel – Walton & Hersham and Truro City",
-      "url": "https://daggers.co.uk/supporters-club-coach-travel-walton-hersham-and-truro-city/",
-      "published": "2026-08-11T16:09:50Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1149,15 +1158,6 @@
       "published": "2026-08-11T14:00:34Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Board Room Dress Code – 2026/27 Season",
-      "url": "https://daggers.co.uk/board-room-dress-code-2026-27-season/",
-      "published": "2026-08-11T13:51:22Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1201,15 +1201,6 @@
       "title": "Fan Survey 2026 | We Want To Hear From You!",
       "url": "https://torquayunited.com/fan-survey-2026-we-want-to-hear-from-you/",
       "published": "2026-08-11T11:30:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Rovers Reloaded",
-      "url": "https://www.fgr.co.uk/news/rovers-reloaded/",
-      "published": "2026-08-11T11:00:00Z"
     },
     {
       "club": "Maidstone United",
@@ -1264,6 +1255,15 @@
       "title": "Post Match Reaction: Joe Kizzi",
       "url": "https://hornchurchfc.com/post-match-reaction-joe-kizzi/",
       "published": "2026-08-11T08:50:53Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Adam Shaw departs role at SSFC",
+      "url": "https://www.southshieldsfc.co.uk/adam-shaw-departs-role-at-ssfc/",
+      "published": "2026-08-11T07:59:50Z"
     },
     {
       "club": "Rochdale",
@@ -1446,6 +1446,24 @@
       "published": "2026-08-10T13:52:22Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Three Game Package Matchday Hospitality Available",
+      "url": "https://southportfc.net/three-game-package-matchday-hospitality-available/",
+      "published": "2026-08-10T13:43:11Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Home v Buxton Saturday 3pm",
+      "url": "https://southportfc.net/home-v-buxton-saturday-3pm/",
+      "published": "2026-08-10T13:36:25Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1462,24 +1480,6 @@
       "title": "Generals defeated on the opening day at the seaside",
       "url": "https://cheshamunited.co.uk/2026/08/generals-defeated-on-the-opening-day-at-the-seaside/",
       "published": "2026-08-10T12:17:02Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Statistical Review: Scunthorpe United 1-1 Yeovil Town",
-      "url": "https://ytfc.net/2026/08/statistical-review-scunthorpe-united-1-1-yeovil-town/",
-      "published": "2026-08-10T11:23:31Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Gallery | Alfreton (H)",
-      "url": "https://curzon-ashton.co.uk/gallery-alfreton-h/",
-      "published": "2026-08-10T11:14:19Z"
     }
   ]
 }
