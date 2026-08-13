@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-13T05:11:51Z",
+  "generatedAt": "2026-08-13T06:48:09Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3836,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -933,6 +933,15 @@
       "published": "2026-08-12T09:58:05Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Partnership | TLT",
+      "url": "https://www.fgr.co.uk/news/partnership-tlt-26/",
+      "published": "2026-08-12T09:30:00Z"
+    },
+    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -1068,15 +1077,6 @@
       "published": "2026-08-11T18:00:56Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Ministry of Anthems play the Clubhouse!",
-      "url": "https://www.horshamfc.co.uk/2026/08/11/ministry-of-anthems-play-the-clubhouse/",
-      "published": "2026-08-11T18:00:00Z"
-    },
-    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -1203,15 +1203,6 @@
       "published": "2026-08-11T13:00:09Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Salisbury Tickets on sale",
-      "url": "https://www.horshamfc.co.uk/2026/08/11/salisbury-tickets-on-sale/",
-      "published": "2026-08-11T12:05:27Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1219,6 +1210,15 @@
       "title": "Fan Survey 2026 | We Want To Hear From You!",
       "url": "https://torquayunited.com/fan-survey-2026-we-want-to-hear-from-you/",
       "published": "2026-08-11T11:30:00Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Rovers Reloaded",
+      "url": "https://www.fgr.co.uk/news/rovers-reloaded/",
+      "published": "2026-08-11T11:00:00Z"
     },
     {
       "club": "Maidstone United",
@@ -1336,15 +1336,6 @@
       "title": "NEWS | Hereford FC Golf Day Another Ace Experience",
       "url": "https://herefordfc.co.uk/2026/08/news-hereford-fc-golf-day-another-ace-experience/",
       "published": "2026-08-10T18:55:39Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Season Ticket Collection this Saturday",
-      "url": "https://www.horshamfc.co.uk/2026/08/10/season-ticket-collection-this-saturday/",
-      "published": "2026-08-10T18:47:06Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1480,6 +1471,15 @@
       "title": "Three Game Package Matchday Hospitality Available",
       "url": "https://southportfc.net/three-game-package-matchday-hospitality-available/",
       "published": "2026-08-10T13:43:11Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Home v Buxton Saturday 3pm",
+      "url": "https://southportfc.net/home-v-buxton-saturday-3pm/",
+      "published": "2026-08-10T13:36:25Z"
     }
   ]
 }
