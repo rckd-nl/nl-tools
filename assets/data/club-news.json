@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-14T12:31:40Z",
+  "generatedAt": "2026-08-14T14:06:50Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3839,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,96 @@
     }
   ],
   "items": [
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Reuben Lopata-White joins Alty on loan",
+      "url": "https://altrinchamfc.com/blogs/news/reuben-lopata-white-joins-alty-on-loan",
+      "published": "2026-08-14T13:59:08Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "How to vote for the proposed takeover deal",
+      "url": "https://www.bathcityfc.com/how-to-vote-for-the-proposed-takeover-deal/",
+      "published": "2026-08-14T13:54:22Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "The Friday Interview",
+      "url": "https://maidstoneunited.co.uk/08/14/the-friday-interview-3/",
+      "published": "2026-08-14T13:51:47Z"
+    },
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Tonbridge Angels – Hospitality Package",
+      "url": "https://doverathletic.com/news/tonbridge-angels-hospitality-package/",
+      "published": "2026-08-14T13:48:02Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Match Preview: Matt Gray looks ahead to Kidderminster (A)",
+      "url": "https://eastleighfc.com/2026/08/match-preview-matt-gray-looks-ahead-to-kidderminster-a/",
+      "published": "2026-08-14T13:35:09Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Ball: Horsham Game – Plenty to Build On",
+      "url": "https://torquayunited.com/ball-horsham-game-plenty-to-build-on/",
+      "published": "2026-08-14T13:30:00Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Match Preview: Barrow AFC (A)",
+      "url": "https://hornchurchfc.com/match-preview-barrow-afc-a/",
+      "published": "2026-08-14T13:22:24Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "MATCH PREVIEW: MACCLESFIELD FC VS RADCLIFFE FC",
+      "url": "https://macclesfieldfc.com/latest-news/match-preview-macclesfield-fc-vs-radcliffe-fc/",
+      "published": "2026-08-14T13:00:14Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Preview | Newport County (A)",
+      "url": "https://rochdaleafc.co.uk/preview-newport-county-a/",
+      "published": "2026-08-14T12:44:21Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Gallery: Training ahead of Kidderminster Harriers (A)",
+      "url": "https://eastleighfc.com/2026/08/gallery-training-ahead-of-kidderminster-harriers-a/",
+      "published": "2026-08-14T12:33:39Z"
+    },
     {
       "club": "Altrincham",
       "code": "ALT",
@@ -694,6 +784,15 @@
       "code": "ROC",
       "short": "Rochdale",
       "domain": "rochdaleafc.co.uk",
+      "title": "Adeeko Arrives At Dale",
+      "url": "https://rochdaleafc.co.uk/adeeko-arrives-at-dale/",
+      "published": "2026-08-14T10:38:38Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
       "title": "An Opening Interview With Baba Adeeko",
       "url": "https://rochdaleafc.co.uk/an-opening-interview-with-baba-adeeko/",
       "published": "2026-08-14T10:30:48Z"
@@ -706,15 +805,6 @@
       "title": "AWAY TICKETS | Tonbridge Angels",
       "url": "https://torquayunited.com/away-tickets-tonbridge-angels-3/",
       "published": "2026-08-14T10:30:00Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Adeeko Arrives At Dale",
-      "url": "https://rochdaleafc.co.uk/adeeko-arrives-at-dale/",
-      "published": "2026-08-14T10:28:38Z"
     },
     {
       "club": "Bath City",
@@ -780,15 +870,6 @@
       "published": "2026-08-14T09:00:22Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Preview | Worthing (A)",
-      "url": "https://www.fgr.co.uk/news/match-preview-worthing-a/",
-      "published": "2026-08-14T09:00:00Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -832,6 +913,24 @@
       "title": "Torquay United Match Preview",
       "url": "https://tonbridgeangels.co.uk/torquay-united-match-preview/",
       "published": "2026-08-14T08:00:00Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Youth Team Travel To Doncaster",
+      "url": "https://rochdaleafc.co.uk/youth-team-travel-to-doncaster/",
+      "published": "2026-08-14T07:42:20Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Hornets in town tomorrow!",
+      "url": "https://www.horshamfc.co.uk/2026/08/14/hornets-in-town-tomorrow/",
+      "published": "2026-08-14T07:24:27Z"
     },
     {
       "club": "Farnborough",
@@ -1167,15 +1266,6 @@
       "published": "2026-08-13T14:04:55Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Conteh Out On Loan",
-      "url": "https://www.fgr.co.uk/news/conteh-out-on-loan/",
-      "published": "2026-08-13T13:55:00Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1212,15 +1302,6 @@
       "published": "2026-08-13T13:13:31Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Ticket Office Update",
-      "url": "https://www.fgr.co.uk/news/ticket-office-update-2627/",
-      "published": "2026-08-13T12:30:00Z"
-    },
-    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -1228,15 +1309,6 @@
       "title": "Eastleigh Football Club partners with Starfish AP Ltd",
       "url": "https://eastleighfc.com/2026/08/eastleigh-football-club-partners-with-starfish-ap-ltd/",
       "published": "2026-08-13T12:15:18Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage Pre Worthing | (A)",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-pre-worthing-a-2627/",
-      "published": "2026-08-13T12:00:00Z"
     },
     {
       "club": "Woking",
@@ -1291,6 +1363,15 @@
       "title": "Our Annual Book of Remembrance Fixture is this Saturday",
       "url": "https://chesterfc.com/08/13/our-annual-book-of-remembrance-fixture-is-this-saturday/",
       "published": "2026-08-13T11:15:31Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Preview – Salisbury",
+      "url": "https://www.horshamfc.co.uk/2026/08/13/match-preview-salisbury/",
+      "published": "2026-08-13T11:00:15Z"
     },
     {
       "club": "Woking",
@@ -1399,87 +1480,6 @@
       "title": "Truro City vs Maidenhead United – Commercial Gallery",
       "url": "https://trurocity.co.uk/2026/08/truro-city-vs-maidenhead-united-commercial-gallery/",
       "published": "2026-08-13T06:59:31Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Match Preview: Tamworth (A)",
-      "url": "https://afcfylde.co.uk/news/2026/august/13/match-preview--tamworth--a-/",
-      "published": "2026-08-13T06:52:00Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City vs Maidenhead United – Match Gallery",
-      "url": "https://trurocity.co.uk/2026/08/truro-city-vs-maidenhead-united-match-gallery/",
-      "published": "2026-08-12T21:19:19Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Loan Watch: Green scores and assists on Slimbridge debut, Johnson gets minutes for Exmouth",
-      "url": "https://wsmafc.co.uk/loan-watch-tues-11th-weds-12th-aug/",
-      "published": "2026-08-12T20:46:09Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "City in Action – Plymouth Parkway (H) – Southern League Premier South",
-      "url": "https://www.bathcityfc.com/city-in-action-plymouth-parkway-h-southern-league-premier-south/",
-      "published": "2026-08-12T18:49:17Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Watch Scott Bartlett’s Plymouth Parkway post-match interview",
-      "url": "https://www.bathcityfc.com/watch-scott-bartletts-plymouth-parkway-post-match-interview/",
-      "published": "2026-08-12T18:20:38Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Ludmila De Sousa is a Red!",
-      "url": "https://worthingfc.com/2026/08/ludmila-de-sousa-is-a-red/",
-      "published": "2026-08-12T17:19:06Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "JB GASS AGREE EXTENSIVE PARTNERSHIP WITH SILKMEN",
-      "url": "https://macclesfieldfc.com/latest-news/jb-gass-agree-extensive-partnership-with-silkmen/",
-      "published": "2026-08-12T17:00:31Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Barrow fixture to be shown at the club",
-      "url": "https://hornchurchfc.com/barrow-fixture-to-be-shown-at-the-club/",
-      "published": "2026-08-12T16:31:47Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "United for the Community Movement Fund – Project Overview",
-      "url": "https://www.hartlepoolunited.co.uk/united-for-the-community-movement-fund-report-august-2026/",
-      "published": "2026-08-12T16:30:59Z"
     }
   ]
 }
