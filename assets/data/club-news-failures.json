@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-14T09:31:41Z",
+  "generatedAt": "2026-08-14T10:42:19Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -43,14 +43,6 @@
       "error": "HTTP 202"
     },
     {
-      "club": "Forest Green Rovers",
-      "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
-    },
-    {
       "club": "Morecambe",
       "domain": "morecambefc.com",
       "feed": "https://morecambefc.com/news/feed/",
@@ -64,7 +56,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='scunthorpe-united.co.uk', port=443): Read timed out. (read timeout=25)"
+      "error": "HTTP 404"
     },
     {
       "club": "Solihull Moors",
