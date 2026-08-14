@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-14T20:02:09Z",
+  "generatedAt": "2026-08-14T20:48:24Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -43,12 +43,12 @@
       "error": "HTTP 202"
     },
     {
-      "club": "Forest Green Rovers",
-      "domain": "fgr.co.uk",
+      "club": "Gateshead",
+      "domain": "gateshead-fc.com",
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 415"
     },
     {
       "club": "Morecambe",
@@ -195,12 +195,28 @@
       "error": "HTTP 404"
     },
     {
+      "club": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
+    },
+    {
+      "club": "Southport",
+      "domain": "southportfc.net",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
+    },
+    {
       "club": "Worksop Town",
       "domain": "worksoptownfc.co.uk",
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 445"
     },
     {
       "club": "AFC Totton",
@@ -209,6 +225,14 @@
       "ok": false,
       "count": 0,
       "error": "Feed returned 0 usable items"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "domain": "daggers.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Eastbourne Borough",
