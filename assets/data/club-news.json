@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-14T05:19:49Z",
+  "generatedAt": "2026-08-14T06:44:55Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,18 +78,18 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3838,
+      "error": ""
     },
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7fe5e99498d0>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "https://www.southshieldsfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7fe5e98ee090>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,13 +582,22 @@
   ],
   "items": [
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "SSFC Women witness 14-goal thriller vs Hartlepool United",
-      "url": "https://www.southshieldsfc.co.uk/ssfc-women-witness-14-goal-thriller-vs-hartlepool-united/",
-      "published": "2026-08-13T22:11:35Z"
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Spencer Day Pre Hemel Hempstead Town (H)",
+      "url": "https://farnboroughfc.co.uk/2026/08/spencer-day-pre-hemel-hempstead-town-h-2/",
+      "published": "2026-08-14T06:00:31Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Away Days – Chelmsford City",
+      "url": "https://trurocity.co.uk/2026/08/away-days-chelmsford-city-2/",
+      "published": "2026-08-14T05:49:29Z"
     },
     {
       "club": "Curzon Ashton",
@@ -625,15 +634,6 @@
       "title": "Match Preview: Walton and Hersham",
       "url": "https://maidstoneunited.co.uk/08/13/match-preview-walton-and-hersham/",
       "published": "2026-08-13T20:04:11Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Michael Spellman joins Gateshead FC",
-      "url": "https://gateshead-fc.com/michael-spellman-joins-gateshead-fc/",
-      "published": "2026-08-13T19:00:59Z"
     },
     {
       "club": "Radcliffe",
@@ -706,15 +706,6 @@
       "title": "Transfer Embargo Lifted",
       "url": "https://afcfylde.co.uk/news/2026/august/13/transfer-embargo-lifted/",
       "published": "2026-08-13T16:39:00Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Gateshead FC confirm Rooney’s for Recycling as 2026/27 away shirt sponsor",
-      "url": "https://gateshead-fc.com/gateshead-fc-confirm-rooneys-for-recycling-as-2026-27-away-shirt-sponsor/",
-      "published": "2026-08-13T16:30:13Z"
     },
     {
       "club": "Hartlepool United",
@@ -879,6 +870,15 @@
       "published": "2026-08-13T14:04:55Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Conteh Out On Loan",
+      "url": "https://www.fgr.co.uk/news/conteh-out-on-loan/",
+      "published": "2026-08-13T13:55:00Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -915,6 +915,15 @@
       "published": "2026-08-13T13:13:31Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Ticket Office Update",
+      "url": "https://www.fgr.co.uk/news/ticket-office-update-2627/",
+      "published": "2026-08-13T12:30:00Z"
+    },
+    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -922,6 +931,15 @@
       "title": "Eastleigh Football Club partners with Starfish AP Ltd",
       "url": "https://eastleighfc.com/2026/08/eastleigh-football-club-partners-with-starfish-ap-ltd/",
       "published": "2026-08-13T12:15:18Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Robbie Savage Pre Worthing | (A)",
+      "url": "https://www.fgr.co.uk/news/robbie-savage-pre-worthing-a-2627/",
+      "published": "2026-08-13T12:00:00Z"
     },
     {
       "club": "Woking",
@@ -976,6 +994,15 @@
       "title": "Our Annual Book of Remembrance Fixture is this Saturday",
       "url": "https://chesterfc.com/08/13/our-annual-book-of-remembrance-fixture-is-this-saturday/",
       "published": "2026-08-13T11:15:31Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Preview – Salisbury",
+      "url": "https://www.horshamfc.co.uk/2026/08/13/match-preview-salisbury/",
+      "published": "2026-08-13T11:00:15Z"
     },
     {
       "club": "Woking",
@@ -1093,6 +1120,15 @@
       "title": "Match Preview: Tamworth (A)",
       "url": "https://afcfylde.co.uk/news/2026/august/13/match-preview--tamworth--a-/",
       "published": "2026-08-13T06:52:00Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Mascot Packages for 2026-27",
+      "url": "https://www.horshamfc.co.uk/2026/08/13/mascot-packages-for-2026-27/",
+      "published": "2026-08-13T06:45:28Z"
     },
     {
       "club": "Truro City",
@@ -1311,15 +1347,6 @@
       "published": "2026-08-12T13:13:52Z"
     },
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "SSFC Women look forward to Hartlepool United challenge",
-      "url": "https://www.southshieldsfc.co.uk/ssfc-women-look-forward-to-hartlepool-united-challenge/",
-      "published": "2026-08-12T13:00:18Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1363,15 +1390,6 @@
       "title": "Persimmon Homes named Official South Stand Partner",
       "url": "https://www.hartlepoolunited.co.uk/persimmon-homes-named-official-south-stand-partner/",
       "published": "2026-08-12T12:10:50Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Alex Lankshear joins Gateshead FC on one-year deal",
-      "url": "https://gateshead-fc.com/alex-lankshear-joins-gateshead-fc/",
-      "published": "2026-08-12T12:00:43Z"
     },
     {
       "club": "Macclesfield",
@@ -1437,13 +1455,13 @@
       "published": "2026-08-12T10:19:19Z"
     },
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Matchday Hospitality Packages: Chorley (H)",
-      "url": "https://www.southshieldsfc.co.uk/matchday-hospitality-packages-chorley-h/",
-      "published": "2026-08-12T09:58:05Z"
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Partnership | TLT",
+      "url": "https://www.fgr.co.uk/news/partnership-tlt-26/",
+      "published": "2026-08-12T09:30:00Z"
     },
     {
       "club": "AFC Fylde",
@@ -1462,24 +1480,6 @@
       "title": "Temporary Embargo lifted",
       "url": "https://altrinchamfc.com/blogs/news/temporary-embargo-lifted",
       "published": "2026-08-12T09:15:25Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Adam Desbois joins Carlisle United for undisclosed fee",
-      "url": "https://gateshead-fc.com/adam-desbois-joins-carlisle-united-for-undisclosed-fee/",
-      "published": "2026-08-12T09:00:30Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Club Statement: Temporary Embargo",
-      "url": "https://afcfylde.co.uk/news/2026/august/12/club-statement--temporary-embargo/",
-      "published": "2026-08-12T08:21:28Z"
     }
   ]
 }
