@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-14T08:18:30Z",
+  "generatedAt": "2026-08-14T09:31:41Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3838,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -121,7 +121,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ReadTimeout: HTTPSConnectionPool(host='scunthorpe-united.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Solihull Moors",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f36672fb810>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f366737dc90>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,60 @@
   ],
   "items": [
     {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Ball Preparing Gulls for ‘Very Tough’ Tonbridge Test",
+      "url": "https://torquayunited.com/ball-preparing-gulls-for-very-tough-tonbridge-test/",
+      "published": "2026-08-14T09:16:26Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "MUFC Women: Catching up with Tori Campbell",
+      "url": "https://maidstoneunited.co.uk/08/14/mufc-women-catching-up-with-tori-campbell/",
+      "published": "2026-08-14T09:04:10Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Match Day Information: Hemel Hempstead Town (H)",
+      "url": "https://farnboroughfc.co.uk/2026/08/match-day-information-hemel-hempstead-town-h-2/",
+      "published": "2026-08-14T09:00:52Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "LUIS LACEY’S YEAR LONG STAY",
+      "url": "https://macclesfieldfc.com/latest-news/luis-laceys-year-long-stay/",
+      "published": "2026-08-14T09:00:22Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Cheshire Senior Cup First Round Draw",
+      "url": "https://chesterfc.com/08/14/cheshire-senior-cup-first-round-draw/",
+      "published": "2026-08-14T08:32:57Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Ticket Resale Live For Scunthorpe United Visit",
+      "url": "https://southendunited.co.uk/news/2026/august/14/ticket-resale-live-for-scunthorpe-united-visit/",
+      "published": "2026-08-14T08:32:33Z"
+    },
+    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -607,6 +661,15 @@
       "title": "Torquay United Match Preview",
       "url": "https://tonbridgeangels.co.uk/torquay-united-match-preview/",
       "published": "2026-08-14T08:00:00Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Hornets in town tomorrow!",
+      "url": "https://www.horshamfc.co.uk/2026/08/14/hornets-in-town-tomorrow/",
+      "published": "2026-08-14T07:24:27Z"
     },
     {
       "club": "Farnborough",
@@ -942,15 +1005,6 @@
       "published": "2026-08-13T14:04:55Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Conteh Out On Loan",
-      "url": "https://www.fgr.co.uk/news/conteh-out-on-loan/",
-      "published": "2026-08-13T13:55:00Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -987,15 +1041,6 @@
       "published": "2026-08-13T13:13:31Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Ticket Office Update",
-      "url": "https://www.fgr.co.uk/news/ticket-office-update-2627/",
-      "published": "2026-08-13T12:30:00Z"
-    },
-    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -1003,15 +1048,6 @@
       "title": "Eastleigh Football Club partners with Starfish AP Ltd",
       "url": "https://eastleighfc.com/2026/08/eastleigh-football-club-partners-with-starfish-ap-ltd/",
       "published": "2026-08-13T12:15:18Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage Pre Worthing | (A)",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-pre-worthing-a-2627/",
-      "published": "2026-08-13T12:00:00Z"
     },
     {
       "club": "Woking",
@@ -1066,6 +1102,15 @@
       "title": "Our Annual Book of Remembrance Fixture is this Saturday",
       "url": "https://chesterfc.com/08/13/our-annual-book-of-remembrance-fixture-is-this-saturday/",
       "published": "2026-08-13T11:15:31Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Preview – Salisbury",
+      "url": "https://www.horshamfc.co.uk/2026/08/13/match-preview-salisbury/",
+      "published": "2026-08-13T11:00:15Z"
     },
     {
       "club": "Woking",
@@ -1183,6 +1228,15 @@
       "title": "Match Preview: Tamworth (A)",
       "url": "https://afcfylde.co.uk/news/2026/august/13/match-preview--tamworth--a-/",
       "published": "2026-08-13T06:52:00Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Mascot Packages for 2026-27",
+      "url": "https://www.horshamfc.co.uk/2026/08/13/mascot-packages-for-2026-27/",
+      "published": "2026-08-13T06:45:28Z"
     },
     {
       "club": "Truro City",
@@ -1426,60 +1480,6 @@
       "title": "Bluebird Care Rochdale Sponsor Added Time",
       "url": "https://rochdaleafc.co.uk/bluebird-care-rochdale-sponsor-added-time/",
       "published": "2026-08-12T12:46:04Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Medical Update 12/08/2026",
-      "url": "https://dwfc.co.uk/2026/08/medical-update-12-08-2026/",
-      "published": "2026-08-12T12:42:45Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "AWAY DAY GUIDE: WALTON & HERSHAM",
-      "url": "https://daggers.co.uk/away-day-guide-walton-hersham/",
-      "published": "2026-08-12T12:23:43Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Persimmon Homes named Official South Stand Partner",
-      "url": "https://www.hartlepoolunited.co.uk/persimmon-homes-named-official-south-stand-partner/",
-      "published": "2026-08-12T12:10:50Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Alex Lankshear joins Gateshead FC on one-year deal",
-      "url": "https://gateshead-fc.com/alex-lankshear-joins-gateshead-fc/",
-      "published": "2026-08-12T12:00:43Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "PLAYED FOR BOTH: TUNDE OWOLABI",
-      "url": "https://macclesfieldfc.com/latest-news/played-for-both-tunde-owolabi/",
-      "published": "2026-08-12T12:00:17Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Virtual Swing joins Monkey Business",
-      "url": "https://www.hartlepoolunited.co.uk/virtual-swing-joins-monkey-business/",
-      "published": "2026-08-12T11:25:03Z"
     }
   ]
 }
