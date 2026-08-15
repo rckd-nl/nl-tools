@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-15T09:43:10Z",
+  "generatedAt": "2026-08-15T10:07:08Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3839,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='fgr.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Gateshead",
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 445"
+      "error": "HTTP 403"
     },
     {
       "club": "AFC Totton",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "STEPIEN UP! Stones land Alex on loan",
+      "url": "https://maidstoneunited.co.uk/08/15/stepien-up-stones-land-alex-on-loan/",
+      "published": "2026-08-15T09:55:28Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Preview: King’s Lynn Town (H)",
+      "url": "https://chesterfc.com/08/15/preview-kings-lynn-town-h-2/",
+      "published": "2026-08-15T09:44:07Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Match Preview: Halifax Women (H)",
+      "url": "https://afcfylde.co.uk/news/2026/august/15/match-preview--halifax-women--h-/",
+      "published": "2026-08-15T09:40:00Z"
+    },
     {
       "club": "Eastleigh",
       "code": "EAS",
@@ -1248,15 +1275,6 @@
       "published": "2026-08-14T09:00:22Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Preview | Worthing (A)",
-      "url": "https://www.fgr.co.uk/news/match-preview-worthing-a/",
-      "published": "2026-08-14T09:00:00Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1462,24 +1480,6 @@
       "title": "U18s REPORT | Hereford FC 1-3 Malvern Town",
       "url": "https://herefordfc.co.uk/2026/08/u18s-report-hereford-fc-1-3-malvern-town/",
       "published": "2026-08-13T17:29:55Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Yeovil Town Football Club Announces Board Changes",
-      "url": "https://ytfc.net/2026/08/yeovil-town-football-club-announces-board-changes/",
-      "published": "2026-08-13T17:29:17Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Transfer Embargo Lifted",
-      "url": "https://afcfylde.co.uk/news/2026/august/13/transfer-embargo-lifted/",
-      "published": "2026-08-13T16:39:00Z"
     }
   ]
 }
