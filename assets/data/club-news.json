@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-15T10:07:08Z",
+  "generatedAt": "2026-08-15T10:40:44Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='fgr.co.uk', port=443): Read timed out. (read timeout=25)"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3839,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 445"
     },
     {
       "club": "AFC Totton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Match Report | Emley (A)",
+      "url": "https://curzon-ashton.co.uk/match-report-emley-a/",
+      "published": "2026-08-15T10:34:53Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Match Preview | Macclesfield (A)",
+      "url": "https://radcliffefc.com/match-preview-macclesfield-a-2/",
+      "published": "2026-08-15T10:31:43Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Quick word with Alex Stepien-Iwumene",
+      "url": "https://maidstoneunited.co.uk/08/15/quick-word-with-alex-stepien-iwumene/",
+      "published": "2026-08-15T10:05:20Z"
+    },
     {
       "club": "Maidstone United",
       "code": "MSU",
@@ -1275,6 +1302,15 @@
       "published": "2026-08-14T09:00:22Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Preview | Worthing (A)",
+      "url": "https://www.fgr.co.uk/news/match-preview-worthing-a/",
+      "published": "2026-08-14T09:00:00Z"
+    },
+    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1336,15 +1372,6 @@
       "title": "Youth Team Travel To Doncaster",
       "url": "https://rochdaleafc.co.uk/youth-team-travel-to-doncaster/",
       "published": "2026-08-14T07:42:20Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Hornets in town tomorrow!",
-      "url": "https://www.horshamfc.co.uk/2026/08/14/hornets-in-town-tomorrow/",
-      "published": "2026-08-14T07:24:27Z"
     },
     {
       "club": "Farnborough",
@@ -1453,33 +1480,6 @@
       "title": "The 2026/27 Away Shirt Is Now Live",
       "url": "https://wokingfc.co.uk/08/13/the-2026-27-away-shirt-is-now-live/",
       "published": "2026-08-13T18:43:18Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "U18s Match Preview | Morecambe U18s (A) | Saturday 15th August",
-      "url": "https://yorkcityfootballclub.co.uk/u18s-match-preview-morecambe-u18s-a-saturday-15th-august/",
-      "published": "2026-08-13T17:54:25Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Dawid Is A Wanderer!",
-      "url": "https://dwfc.co.uk/2026/08/dawid-is-a-wanderer/",
-      "published": "2026-08-13T17:30:58Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "U18s REPORT | Hereford FC 1-3 Malvern Town",
-      "url": "https://herefordfc.co.uk/2026/08/u18s-report-hereford-fc-1-3-malvern-town/",
-      "published": "2026-08-13T17:29:55Z"
     }
   ]
 }
