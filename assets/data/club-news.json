@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-15T16:56:21Z",
+  "generatedAt": "2026-08-15T17:16:11Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,18 +78,18 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3839,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f199a597550>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7fb785424250>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://www.southshieldsfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f1998b18290>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7fb785363d50>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Post Match: Walton & Hersham",
+      "url": "https://maidstoneunited.co.uk/08/15/post-match-walton-hersham/",
+      "published": "2026-08-15T17:10:56Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Report: Chester 2-0 King’s Lynn Town",
+      "url": "https://chesterfc.com/08/15/report-chester-2-0-kings-lynn-town/",
+      "published": "2026-08-15T16:55:32Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Interview: Matt Gray Post-Kidderminster Defeat",
+      "url": "https://eastleighfc.com/2026/08/interview-matt-gray-post-kidderminster-defeat/",
+      "published": "2026-08-15T16:54:38Z"
+    },
+    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -598,6 +625,15 @@
       "title": "Weston Tickets Now On Sale!",
       "url": "https://torquayunited.com/weston-tickets-now-on-sale/",
       "published": "2026-08-15T16:44:51Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Chelmsford City 0 Truro City 0 – Match Report",
+      "url": "https://trurocity.co.uk/2026/08/chelmsford-city-0-truro-city-0-match-report-2/",
+      "published": "2026-08-15T16:42:43Z"
     },
     {
       "club": "Chelmsford City",
@@ -807,6 +843,15 @@
       "published": "2026-08-15T07:32:01Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Matchday 2 | Home v Buxton 3pm",
+      "url": "https://southportfc.net/matchday-2-home-v-buxton-3pm/",
+      "published": "2026-08-15T07:27:54Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -850,6 +895,24 @@
       "title": "Match Preview: Worthing FC vs Forest Green Rovers",
       "url": "https://worthingfc.com/2026/08/match-preview-worthing-fc-vs-forest-green-rovers/",
       "published": "2026-08-14T20:06:32Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Keon Lewis-Burgess joins Gateshead FC on loan",
+      "url": "https://gateshead-fc.com/keon-lewis-burgess-joins-gateshead-fc-on-loan/",
+      "published": "2026-08-14T19:00:29Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Will Anderson signs for Shields",
+      "url": "https://www.southshieldsfc.co.uk/will-anderson-signs-for-shields/",
+      "published": "2026-08-14T19:00:03Z"
     },
     {
       "club": "Chesham United",
@@ -906,6 +969,15 @@
       "published": "2026-08-14T17:14:18Z"
     },
     {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Match Information: Scarborough (H)",
+      "url": "https://www.southshieldsfc.co.uk/match-information-scarborough-h/",
+      "published": "2026-08-14T17:12:04Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -922,6 +994,15 @@
       "title": "Harry Hogg is a Bluebird",
       "url": "https://chippenhamtown.com/08/14/harry-hogg-is-a-bluebird/",
       "published": "2026-08-14T17:00:47Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "💬 “We’ve got to focus on ourselves” MIKE WILLIAMSON PRE-MATCH CHORLEY (H)",
+      "url": "https://www.southshieldsfc.co.uk/%f0%9f%92%ac-weve-got-to-focus-on-ourselves-mike-williamson-pre-match-chorley-h/",
+      "published": "2026-08-14T17:00:06Z"
     },
     {
       "club": "Torquay United",
@@ -1399,87 +1480,6 @@
       "title": "MUFC Women: Catching up with Tori Campbell",
       "url": "https://maidstoneunited.co.uk/08/14/mufc-women-catching-up-with-tori-campbell/",
       "published": "2026-08-14T09:04:10Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Match Day Information: Hemel Hempstead Town (H)",
-      "url": "https://farnboroughfc.co.uk/2026/08/match-day-information-hemel-hempstead-town-h-2/",
-      "published": "2026-08-14T09:00:52Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "LUIS LACEY’S YEAR LONG STAY",
-      "url": "https://macclesfieldfc.com/latest-news/luis-laceys-year-long-stay/",
-      "published": "2026-08-14T09:00:22Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Preview | Worthing (A)",
-      "url": "https://www.fgr.co.uk/news/match-preview-worthing-a/",
-      "published": "2026-08-14T09:00:00Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Cheshire Senior Cup First Round Draw",
-      "url": "https://chesterfc.com/08/14/cheshire-senior-cup-first-round-draw/",
-      "published": "2026-08-14T08:32:57Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Ticket Resale Live For Scunthorpe United Visit",
-      "url": "https://southendunited.co.uk/news/2026/august/14/ticket-resale-live-for-scunthorpe-united-visit/",
-      "published": "2026-08-14T08:32:33Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "KSI, DAZN and Dagenham & Redbridge Announce Landmark Broadcast Partnership to Redefine Non-League Football Coverage",
-      "url": "https://daggers.co.uk/ksi-dazn-and-dagenham-redbridge-announce-landmark-broadcast-partnership-to-redefine-non-league-football-coverage/",
-      "published": "2026-08-14T08:30:00Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Introducing: Bluebirds Weekend Pontoon",
-      "url": "https://chippenhamtown.com/08/14/introducing-bluebirds-weekend-pontoon/",
-      "published": "2026-08-14T08:00:26Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Signing: Harvey Broad Joins the Coasters",
-      "url": "https://afcfylde.co.uk/news/2026/august/14/signing--harvey-broad-joins-the-coasters/",
-      "published": "2026-08-14T08:00:00Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Torquay United Match Preview",
-      "url": "https://tonbridgeangels.co.uk/torquay-united-match-preview/",
-      "published": "2026-08-14T08:00:00Z"
     }
   ]
 }
