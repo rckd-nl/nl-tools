@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-15T10:40:44Z",
+  "generatedAt": "2026-08-15T11:02:16Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3839,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 445"
+      "error": "HTTP 403"
     },
     {
       "club": "AFC Totton",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "INTERVIEW | Kandola Keen to Make Home a Fortress",
+      "url": "https://herefordfc.co.uk/2026/08/interview-kandola-keen-to-make-home-a-fortress/",
+      "published": "2026-08-15T11:00:09Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Steve Laker: “𝗜 𝗿𝗲𝗮𝗹𝗹𝘆 𝗱𝗼 𝗮𝗽𝗽𝗿𝗲𝗰𝗶𝗮𝘁𝗲 𝗲𝘃𝗲𝗿𝘆 𝘀𝗶𝗻𝗴𝗹𝗲 𝗯𝗶𝘁 𝗼𝗳 𝘀𝘂𝗽𝗽𝗼𝗿𝘁”",
+      "url": "https://wsmafc.co.uk/steve-laker-bucket-collection/",
+      "published": "2026-08-15T11:00:04Z"
+    },
     {
       "club": "Curzon Ashton",
       "code": "CUR",
@@ -1302,15 +1320,6 @@
       "published": "2026-08-14T09:00:22Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Preview | Worthing (A)",
-      "url": "https://www.fgr.co.uk/news/match-preview-worthing-a/",
-      "published": "2026-08-14T09:00:00Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1471,15 +1480,6 @@
       "title": "BULLSCAST | Buxton Agony & Bitemo Controversy EP.26",
       "url": "https://herefordfc.co.uk/2026/08/bullscast-buxton-agony-bitemo-controversy-ep-26/",
       "published": "2026-08-13T18:55:50Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "The 2026/27 Away Shirt Is Now Live",
-      "url": "https://wokingfc.co.uk/08/13/the-2026-27-away-shirt-is-now-live/",
-      "published": "2026-08-13T18:43:18Z"
     }
   ]
 }
