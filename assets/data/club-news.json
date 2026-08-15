@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-15T09:07:21Z",
+  "generatedAt": "2026-08-15T09:43:10Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 445"
     },
     {
       "club": "AFC Totton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -1320,6 +1320,15 @@
       "published": "2026-08-14T07:42:20Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Hornets in town tomorrow!",
+      "url": "https://www.horshamfc.co.uk/2026/08/14/hornets-in-town-tomorrow/",
+      "published": "2026-08-14T07:24:27Z"
+    },
+    {
       "club": "Farnborough",
       "code": "FAB",
       "short": "Farnborough",
@@ -1471,15 +1480,6 @@
       "title": "Transfer Embargo Lifted",
       "url": "https://afcfylde.co.uk/news/2026/august/13/transfer-embargo-lifted/",
       "published": "2026-08-13T16:39:00Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Gateshead FC confirm Rooney’s for Recycling as 2026/27 away shirt sponsor",
-      "url": "https://gateshead-fc.com/gateshead-fc-confirm-rooneys-for-recycling-as-2026-27-away-shirt-sponsor/",
-      "published": "2026-08-13T16:30:13Z"
     }
   ]
 }
