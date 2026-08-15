@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-15T14:02:45Z",
+  "generatedAt": "2026-08-15T14:54:45Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -43,12 +43,12 @@
       "error": "HTTP 202"
     },
     {
-      "club": "Gateshead",
-      "domain": "gateshead-fc.com",
+      "club": "Forest Green Rovers",
+      "domain": "fgr.co.uk",
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 415"
+      "error": "HTTP 404"
     },
     {
       "club": "Morecambe",
@@ -128,7 +128,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7fb29c748090>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Darlington",
@@ -195,28 +195,12 @@
       "error": "HTTP 404"
     },
     {
-      "club": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
-    },
-    {
-      "club": "Southport",
-      "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
-    },
-    {
       "club": "Worksop Town",
       "domain": "worksoptownfc.co.uk",
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 445"
     },
     {
       "club": "AFC Totton",
@@ -259,12 +243,20 @@
       "error": "HTTP 404"
     },
     {
+      "club": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7fb29c74a5d0>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+    },
+    {
       "club": "Maidenhead United",
       "domain": "maidenheadunitedfc.org",
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Salisbury",
