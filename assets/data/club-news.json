@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-15T13:01:24Z",
+  "generatedAt": "2026-08-15T13:47:19Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 445"
+      "error": "HTTP 403"
     },
     {
       "club": "AFC Totton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Dale Suffer Opening Day Defeat",
+      "url": "https://rochdaleafc.co.uk/report-newport-away-150826/",
+      "published": "2026-08-15T13:23:47Z"
+    },
     {
       "club": "Hereford",
       "code": "HER",
@@ -1428,6 +1437,15 @@
       "published": "2026-08-14T07:42:20Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Hornets in town tomorrow!",
+      "url": "https://www.horshamfc.co.uk/2026/08/14/hornets-in-town-tomorrow/",
+      "published": "2026-08-14T07:24:27Z"
+    },
+    {
       "club": "Farnborough",
       "code": "FAB",
       "short": "Farnborough",
@@ -1462,24 +1480,6 @@
       "title": "SSFC Women witness 14-goal thriller vs Hartlepool United",
       "url": "https://www.southshieldsfc.co.uk/ssfc-women-witness-14-goal-thriller-vs-hartlepool-united/",
       "published": "2026-08-13T22:11:35Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Gallery | Bury (A)",
-      "url": "https://curzon-ashton.co.uk/gallery-bury-a/",
-      "published": "2026-08-13T22:00:19Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Preview: Weston v Hampton & Richmond Borough",
-      "url": "https://wsmafc.co.uk/preview-hampton-home-2627/",
-      "published": "2026-08-13T20:15:01Z"
     }
   ]
 }
