@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-15T02:05:12Z",
+  "generatedAt": "2026-08-15T03:22:04Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7fc3485f0810>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f7ee537c710>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://www.southshieldsfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7fc34861e5d0>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f7ee703ef90>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -618,6 +618,24 @@
       "published": "2026-08-14T20:06:32Z"
     },
     {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Keon Lewis-Burgess joins Gateshead FC on loan",
+      "url": "https://gateshead-fc.com/keon-lewis-burgess-joins-gateshead-fc-on-loan/",
+      "published": "2026-08-14T19:00:29Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Will Anderson signs for Shields",
+      "url": "https://www.southshieldsfc.co.uk/will-anderson-signs-for-shields/",
+      "published": "2026-08-14T19:00:03Z"
+    },
+    {
       "club": "Chesham United",
       "code": "CHU",
       "short": "Chesham",
@@ -672,6 +690,15 @@
       "published": "2026-08-14T17:14:18Z"
     },
     {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Match Information: Scarborough (H)",
+      "url": "https://www.southshieldsfc.co.uk/match-information-scarborough-h/",
+      "published": "2026-08-14T17:12:04Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -688,6 +715,15 @@
       "title": "Harry Hogg is a Bluebird",
       "url": "https://chippenhamtown.com/08/14/harry-hogg-is-a-bluebird/",
       "published": "2026-08-14T17:00:47Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "💬 “We’ve got to focus on ourselves” MIKE WILLIAMSON PRE-MATCH CHORLEY (H)",
+      "url": "https://www.southshieldsfc.co.uk/%f0%9f%92%ac-weve-got-to-focus-on-ourselves-mike-williamson-pre-match-chorley-h/",
+      "published": "2026-08-14T17:00:06Z"
     },
     {
       "club": "Torquay United",
@@ -1257,6 +1293,15 @@
       "published": "2026-08-14T06:00:31Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Season Ticket Holders PDF Programme",
+      "url": "https://southportfc.net/season-ticket-holders-pdf-programme/",
+      "published": "2026-08-14T06:00:02Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1273,6 +1318,15 @@
       "title": "Advance Newport Tickets On Sale Until 4pm Today",
       "url": "https://rochdaleafc.co.uk/tickets-on-sale-for-newport-opener/",
       "published": "2026-08-14T04:58:09Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "SSFC Women witness 14-goal thriller vs Hartlepool United",
+      "url": "https://www.southshieldsfc.co.uk/ssfc-women-witness-14-goal-thriller-vs-hartlepool-united/",
+      "published": "2026-08-13T22:11:35Z"
     },
     {
       "club": "Curzon Ashton",
@@ -1309,6 +1363,15 @@
       "title": "Match Preview: Walton and Hersham",
       "url": "https://maidstoneunited.co.uk/08/13/match-preview-walton-and-hersham/",
       "published": "2026-08-13T20:04:11Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Michael Spellman joins Gateshead FC",
+      "url": "https://gateshead-fc.com/michael-spellman-joins-gateshead-fc/",
+      "published": "2026-08-13T19:00:59Z"
     },
     {
       "club": "Radcliffe",
@@ -1383,6 +1446,15 @@
       "published": "2026-08-13T16:39:00Z"
     },
     {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Gateshead FC confirm Rooney’s for Recycling as 2026/27 away shirt sponsor",
+      "url": "https://gateshead-fc.com/gateshead-fc-confirm-rooneys-for-recycling-as-2026-27-away-shirt-sponsor/",
+      "published": "2026-08-13T16:30:13Z"
+    },
+    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -1408,78 +1480,6 @@
       "title": "Match Preview | Emley AFC (A)",
       "url": "https://curzon-ashton.co.uk/match-preview-emley-afc-a/",
       "published": "2026-08-13T16:04:17Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Sofia Harding Signs for the Reds",
-      "url": "https://worthingfc.com/2026/08/sofia-harding-signs-for-the-reds/",
-      "published": "2026-08-13T16:00:57Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "New Coffee Corner opens Saturday",
-      "url": "https://farnboroughfc.co.uk/2026/08/new-coffee-corner-opens-saturday/",
-      "published": "2026-08-13T16:00:41Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Match Preview: Aldershot Town v Hartlepool United",
-      "url": "https://www.hartlepoolunited.co.uk/match-preview-aldershot-town-v-hartlepool-united/",
-      "published": "2026-08-13T15:55:28Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Club Statement: Aldershot Town Fixture and South Stand Update",
-      "url": "https://eastleighfc.com/2026/08/club-statement-aldershot-town-fixture-and-south-stand-update/",
-      "published": "2026-08-13T15:51:13Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Pre-Match: Kieron Dyer Looks Ahead To Hosting Scunthorpe United",
-      "url": "https://southendunited.co.uk/news/2026/august/13/pre-match--kieron-dyer-looks-ahead-to-hosting-scunthorpe-united/",
-      "published": "2026-08-13T15:44:31Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Crucial Environmental Activates Dugouts Sponsorship",
-      "url": "https://worthingfc.com/2026/08/crucial-environmental-activates-dugouts-sponsorships/",
-      "published": "2026-08-13T15:38:25Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City vs Maidenhead United – Mascot Gallery",
-      "url": "https://trurocity.co.uk/2026/08/truro-city-vs-maidenhead-united-mascot-gallery/",
-      "published": "2026-08-13T15:31:28Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Introducing Rochdale AFC Netball",
-      "url": "https://rochdaleafc.co.uk/introducing-rochdale-afc-netball/",
-      "published": "2026-08-13T15:01:03Z"
     }
   ]
 }
