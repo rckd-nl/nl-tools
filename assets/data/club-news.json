@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-15T08:05:09Z",
+  "generatedAt": "2026-08-15T08:48:27Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 445"
+      "error": "HTTP 403"
     },
     {
       "club": "AFC Totton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -1311,6 +1311,15 @@
       "published": "2026-08-14T07:42:20Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Hornets in town tomorrow!",
+      "url": "https://www.horshamfc.co.uk/2026/08/14/hornets-in-town-tomorrow/",
+      "published": "2026-08-14T07:24:27Z"
+    },
+    {
       "club": "Farnborough",
       "code": "FAB",
       "short": "Farnborough",
@@ -1471,15 +1480,6 @@
       "title": "Gateshead FC confirm Rooney’s for Recycling as 2026/27 away shirt sponsor",
       "url": "https://gateshead-fc.com/gateshead-fc-confirm-rooneys-for-recycling-as-2026-27-away-shirt-sponsor/",
       "published": "2026-08-13T16:30:13Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Pools and MEYBA unveil 2026/27 Away Kit",
-      "url": "https://www.hartlepoolunited.co.uk/pools-and-meyba-unveil-2026-27-away-kit/",
-      "published": "2026-08-13T16:30:03Z"
     }
   ]
 }
