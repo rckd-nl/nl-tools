@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-15T17:50:46Z",
+  "generatedAt": "2026-08-15T18:00:55Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3839,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f878298f610>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f87829e7850>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Match Report: Worthing FC 1-2 Forest Green Rovers",
+      "url": "https://worthingfc.com/2026/08/match-report-worthing-fc-1-2-forest-green-rovers/",
+      "published": "2026-08-15T17:51:28Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -591,6 +600,15 @@
       "published": "2026-08-15T17:47:39Z"
     },
     {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Post-Match: Josh Popoola Reviews Scunthorpe United Win",
+      "url": "https://southendunited.co.uk/news/2026/august/15/post-match--josh-popoola-reviews-scunthorpe-united-win/",
+      "published": "2026-08-15T17:44:35Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -598,6 +616,15 @@
       "title": "Post Match: Walton & Hersham",
       "url": "https://maidstoneunited.co.uk/08/15/post-match-walton-hersham-2/",
       "published": "2026-08-15T17:43:20Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Post-Match: Kieron Dyer Assesses Scunthorpe Victory",
+      "url": "https://southendunited.co.uk/news/2026/august/15/post-match--kieron-dyer-assesses-scunthorpe-victory/",
+      "published": "2026-08-15T17:41:41Z"
     },
     {
       "club": "Southport",
@@ -1453,33 +1480,6 @@
       "title": "IN PHOTOS: ONE YEAR OF LUIS LACEY",
       "url": "https://macclesfieldfc.com/galleries/in-photos-one-year-of-luis-lacey/",
       "published": "2026-08-14T11:00:47Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Bluebirds Dream Draw Week 51",
-      "url": "https://chippenhamtown.com/08/14/bluebirds-dream-draw-week-51/",
-      "published": "2026-08-14T11:00:32Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Next Match – Hanworth Villa (H) – Southern League Premier South",
-      "url": "https://www.bathcityfc.com/next-match-hanworth-villa-h-southern-league-premier-south/",
-      "published": "2026-08-14T11:00:18Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "IN PHOTOS: ONE YEAR OF LUIS LACEY",
-      "url": "https://macclesfieldfc.com/latest-news/in-photos-one-year-of-luis-lacey-2/",
-      "published": "2026-08-14T11:00:11Z"
     }
   ]
 }
