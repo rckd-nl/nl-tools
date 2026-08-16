@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-16T21:14:53Z",
+  "generatedAt": "2026-08-16T21:37:46Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f497ddaf890>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 445"
+      "error": "HTTP 403"
     },
     {
       "club": "AFC Totton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f497e08f090>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -814,6 +814,15 @@
       "title": "Match Highlights Southport v Buxton",
       "url": "https://southportfc.net/match-highlights-southport-v-buxton/",
       "published": "2026-08-16T11:16:29Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham 0 Salisbury 0",
+      "url": "https://www.horshamfc.co.uk/2026/08/16/horsham-0-salisbury-0/",
+      "published": "2026-08-16T11:00:11Z"
     },
     {
       "club": "Enfield Town",
@@ -1471,15 +1480,6 @@
       "title": "Match Preview | Macclesfield (A)",
       "url": "https://radcliffefc.com/match-preview-macclesfield-a-2/",
       "published": "2026-08-15T10:31:43Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Quick word with Alex Stepien-Iwumene",
-      "url": "https://maidstoneunited.co.uk/08/15/quick-word-with-alex-stepien-iwumene/",
-      "published": "2026-08-15T10:05:20Z"
     }
   ]
 }
