@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-16T12:14:05Z",
+  "generatedAt": "2026-08-16T13:04:09Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f157a620f50>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f157a34c610>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Folkestone Invicta",
+      "url": "https://maidstoneunited.co.uk/08/16/key-info-folkestone-invicta-2/",
+      "published": "2026-08-16T13:00:45Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -607,6 +616,15 @@
       "title": "Churchill Fire & Security Continue Stones Partnership",
       "url": "https://maidstoneunited.co.uk/08/16/churchill-fire-security-continue-stones-partnership/",
       "published": "2026-08-16T11:31:30Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Back The Team At Saturday’s Home Opener",
+      "url": "https://rochdaleafc.co.uk/tickets-crawley-town-home-220826/",
+      "published": "2026-08-16T11:22:59Z"
     },
     {
       "club": "Southport",
@@ -715,6 +733,15 @@
       "title": "Highlights: Tonbridge Angels (A)",
       "url": "https://torquayunited.com/highlights-tonbridge-angels-a-3/",
       "published": "2026-08-16T02:14:21Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "This week at Gallagher Stadium (w/c 16/8/26)",
+      "url": "https://maidstoneunited.co.uk/08/16/this-week-at-gallagher-stadium-w-c-16-8-26/",
+      "published": "2026-08-15T23:01:38Z"
     },
     {
       "club": "Eastleigh",
@@ -1158,15 +1185,6 @@
       "published": "2026-08-15T13:23:47Z"
     },
     {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Tickets On Sale For Home Opener",
-      "url": "https://rochdaleafc.co.uk/tickets-crawley-town-home-220826/",
-      "published": "2026-08-15T13:22:59Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1291,15 +1309,6 @@
       "title": "Matchday 2 | Home v Buxton 3pm",
       "url": "https://southportfc.net/matchday-2-home-v-buxton-3pm/",
       "published": "2026-08-15T07:27:54Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Walton & Hersham",
-      "url": "https://maidstoneunited.co.uk/08/15/key-info-walton-hersham/",
-      "published": "2026-08-15T07:00:05Z"
     },
     {
       "club": "Hereford",
@@ -1471,15 +1480,6 @@
       "title": "Match Preview vs Macclesfield | Steve Halford",
       "url": "https://radcliffefc.com/match-preview-vs-macclesfield-steve-halford/",
       "published": "2026-08-14T16:07:57Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Matchday Guide: Forest Green Rovers",
-      "url": "https://worthingfc.com/2026/08/matchday-guide-forest-green-rovers-2/",
-      "published": "2026-08-14T16:01:13Z"
     }
   ]
 }
