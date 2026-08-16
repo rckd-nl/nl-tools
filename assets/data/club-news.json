@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-16T19:56:50Z",
+  "generatedAt": "2026-08-16T20:39:28Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Behind the Seals: King’s Lynn Town (H)",
+      "url": "https://chesterfc.com/08/16/behind-the-seals-kings-lynn-town-h/",
+      "published": "2026-08-16T20:06:22Z"
+    },
     {
       "club": "Torquay United",
       "code": "TOR",
@@ -789,15 +798,6 @@
       "published": "2026-08-16T11:16:29Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham 0 Salisbury 0",
-      "url": "https://www.horshamfc.co.uk/2026/08/16/horsham-0-salisbury-0/",
-      "published": "2026-08-16T11:00:11Z"
-    },
-    {
       "club": "Enfield Town",
       "code": "ENF",
       "short": "Enfield",
@@ -877,6 +877,15 @@
       "title": "Up Next: Dover Athletic vs Tonbridge Angels",
       "url": "https://doverathletic.com/news/up-next-dover-athletic-vs-tonbridge-angels-3/",
       "published": "2026-08-16T08:38:55Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Live Football at the Daggers: Sunday 16 August",
+      "url": "https://daggers.co.uk/live-football-at-the-daggers-sunday-16-august/",
+      "published": "2026-08-16T08:08:09Z"
     },
     {
       "club": "Chippenham Town",
@@ -1471,15 +1480,6 @@
       "title": "Match Preview: Halifax Women (H)",
       "url": "https://afcfylde.co.uk/news/2026/august/15/match-preview--halifax-women--h-/",
       "published": "2026-08-15T09:40:00Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Preview: Kidderminster Harriers vs Eastleigh",
-      "url": "https://eastleighfc.com/2026/08/preview-kidderminster-harriers-vs-eastleigh/",
-      "published": "2026-08-15T07:32:01Z"
     }
   ]
 }
