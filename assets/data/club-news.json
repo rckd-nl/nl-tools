@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-15T23:37:49Z",
+  "generatedAt": "2026-08-16T00:13:40Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f6cb6ccd450>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f6cb6f2f750>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "REPORT | Hereford FC 1-0 Marine AFC",
+      "url": "https://herefordfc.co.uk/2026/08/report-hereford-fc-1-0-marine-afc/",
+      "published": "2026-08-15T23:44:10Z"
+    },
     {
       "club": "Eastleigh",
       "code": "EAS",
@@ -1471,15 +1480,6 @@
       "title": "“𝗜𝘁’𝘀 𝗮𝗯𝗼𝘂𝘁 𝗯𝘂𝗶𝗹𝗱𝗶𝗻𝗴 𝗺𝗼𝗺𝗲𝗻𝘁𝘂𝗺” | Gary Warren pre – Hampton & Richmond (H)",
       "url": "https://wsmafc.co.uk/%f0%9d%97%9c%f0%9d%98%81%f0%9d%98%80-%f0%9d%97%ae%f0%9d%97%af%f0%9d%97%bc%f0%9d%98%82%f0%9d%98%81-%f0%9d%97%af%f0%9d%98%82%f0%9d%97%b6%f0%9d%97%b9%f0%9d%97%b1%f0%9d%97%b6%f0%9d%97%bb%f0%9d%97%b4/",
       "published": "2026-08-14T14:20:18Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Pre Match Interview: Barrow (A)",
-      "url": "https://hornchurchfc.com/pre-match-interview-barrow-a/",
-      "published": "2026-08-14T14:07:15Z"
     }
   ]
 }
