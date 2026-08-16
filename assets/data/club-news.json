@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-16T17:59:21Z",
+  "generatedAt": "2026-08-16T18:50:29Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3842,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -161,7 +161,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "SSLError: HTTPSConnectionPool(host='trurocity.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))"
+      "error": "SSLError: HTTPSConnectionPool(host='trurocity.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'trurocity.co.uk'. (_ssl.c:1016)\")))"
     },
     {
       "club": "Wealdstone",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Cordon: “We need to be more ready, be more aggressive” | Bromley Reaction",
+      "url": "https://worthingfc.com/2026/08/cordon-we-need-to-be-more-ready-be-more-aggressive-bromley-reaction/",
+      "published": "2026-08-16T18:30:36Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "U18s Match Report: Morecambe U18s 2-1 York City U18s",
+      "url": "https://yorkcityfootballclub.co.uk/u18s-match-report-morecambe-u18s-2-1-york-city-u18s/",
+      "published": "2026-08-16T18:20:37Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Highlights | Macclesfield 2-1 Radcliffe",
+      "url": "https://radcliffefc.com/highlights-macclesfield-2-1-radcliffe-2/",
+      "published": "2026-08-16T18:06:27Z"
+    },
+    {
       "club": "Bath City",
       "code": "BAT",
       "short": "Bath",
@@ -625,6 +652,15 @@
       "title": "Next Match | Away At Hednesford Town Tuesday 7.45pm",
       "url": "https://southportfc.net/next-match-away-at-hednesford-town-tuesday-7-45pm/",
       "published": "2026-08-16T16:33:32Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Match Report: AFC Fylde Women 3-1 Halifax Women",
+      "url": "https://afcfylde.co.uk/news/2026/august/16/match-report--afc-fylde-women-3-1-halifax-women/",
+      "published": "2026-08-16T16:17:00Z"
     },
     {
       "club": "Maidstone United",
@@ -735,6 +771,15 @@
       "published": "2026-08-16T11:16:29Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham 0 Salisbury 0",
+      "url": "https://www.horshamfc.co.uk/2026/08/16/horsham-0-salisbury-0/",
+      "published": "2026-08-16T11:00:11Z"
+    },
+    {
       "club": "Enfield Town",
       "code": "ENF",
       "short": "Enfield",
@@ -814,15 +859,6 @@
       "title": "Up Next: Dover Athletic vs Tonbridge Angels",
       "url": "https://doverathletic.com/news/up-next-dover-athletic-vs-tonbridge-angels-3/",
       "published": "2026-08-16T08:38:55Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Live Football at the Daggers: Sunday 16 August",
-      "url": "https://daggers.co.uk/live-football-at-the-daggers-sunday-16-august/",
-      "published": "2026-08-16T08:08:09Z"
     },
     {
       "club": "Chippenham Town",
@@ -978,24 +1014,6 @@
       "published": "2026-08-15T19:11:48Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage post Worthing",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-post-worthing-2627/",
-      "published": "2026-08-15T19:00:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Josh Osude post Worthing (A)",
-      "url": "https://www.fgr.co.uk/news/josh-osude-post-worthing-a/",
-      "published": "2026-08-15T19:00:00Z"
-    },
-    {
       "club": "South Shields",
       "code": "SSH",
       "short": "South Shields",
@@ -1030,15 +1048,6 @@
       "title": "🎤 𝗣𝗼𝘀𝘁-𝗠𝗮𝘁𝗰𝗵 | Matt Coupe on our win against Plymouth Parkway",
       "url": "https://chippenhamtown.com/08/15/%f0%9f%8e%a4-%f0%9d%97%a3%f0%9d%97%bc%f0%9d%98%80%f0%9d%98%81-%f0%9d%97%a0%f0%9d%97%ae%f0%9d%98%81%f0%9d%97%b0%f0%9d%97%b5-gary-horgan-on-our-2-0-defeat-at-uxbridge-2/",
       "published": "2026-08-15T18:30:03Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | Worthing 1-2 FGR",
-      "url": "https://www.fgr.co.uk/news/match-report-worthing1-1-2fgr-2627/",
-      "published": "2026-08-15T18:30:00Z"
     },
     {
       "club": "Torquay United",
@@ -1471,15 +1480,6 @@
       "title": "Match Preview: Worthing FC vs Forest Green Rovers",
       "url": "https://worthingfc.com/2026/08/match-preview-worthing-fc-vs-forest-green-rovers/",
       "published": "2026-08-14T20:06:32Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Keon Lewis-Burgess joins Gateshead FC on loan",
-      "url": "https://gateshead-fc.com/keon-lewis-burgess-joins-gateshead-fc-on-loan/",
-      "published": "2026-08-14T19:00:29Z"
     }
   ]
 }
