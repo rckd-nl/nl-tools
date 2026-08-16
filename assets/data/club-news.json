@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-16T14:09:05Z",
+  "generatedAt": "2026-08-16T14:42:36Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "MATCH HIGHLIGHTS: WsM AFC 3 – 0 Hampton & Richmond",
+      "url": "https://wsmafc.co.uk/match-highlights-wsm-afc-3-0-hampton-richmond/",
+      "published": "2026-08-16T14:30:06Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "GALLERY | Hereford FC 1-0 Marine AFC",
+      "url": "https://herefordfc.co.uk/2026/08/gallery-hereford-fc-1-0-marine-afc/",
+      "published": "2026-08-16T14:12:49Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -634,6 +652,15 @@
       "title": "Back The Team At Saturday’s Home Opener",
       "url": "https://rochdaleafc.co.uk/tickets-crawley-town-home-220826/",
       "published": "2026-08-16T11:22:59Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham 0 Salisbury 0",
+      "url": "https://www.horshamfc.co.uk/2026/08/16/horsham-0-salisbury-0/",
+      "published": "2026-08-16T11:00:11Z"
     },
     {
       "club": "Enfield Town",
@@ -715,15 +742,6 @@
       "title": "Up Next: Dover Athletic vs Tonbridge Angels",
       "url": "https://doverathletic.com/news/up-next-dover-athletic-vs-tonbridge-angels-3/",
       "published": "2026-08-16T08:38:55Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Live Football at the Daggers: Sunday 16 August",
-      "url": "https://daggers.co.uk/live-football-at-the-daggers-sunday-16-august/",
-      "published": "2026-08-16T08:08:09Z"
     },
     {
       "club": "Chippenham Town",
@@ -1428,15 +1446,6 @@
       "published": "2026-08-14T16:01:13Z"
     },
     {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "Downes: Sing Your Hearts Out Before Home Kick-Off",
-      "url": "https://herefordfc.co.uk/2026/08/downes-sing-your-hearts-out-before-home-kick-off/",
-      "published": "2026-08-14T16:00:56Z"
-    },
-    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -1471,15 +1480,6 @@
       "title": "Access All Areas: Preparing our our trip to Kidderminster",
       "url": "https://eastleighfc.com/2026/08/access-all-areas-preparing-our-our-trip-to-kidderminster/",
       "published": "2026-08-14T15:10:05Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Match Preview | Bristol Rovers (H) | Saturday 15th August",
-      "url": "https://yorkcityfootballclub.co.uk/match-preview-bristol-rovers-h-saturday-15th-august/",
-      "published": "2026-08-14T15:01:37Z"
     }
   ]
 }
