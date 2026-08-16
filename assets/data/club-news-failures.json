@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-16T23:01:24Z",
+  "generatedAt": "2026-08-16T23:37:56Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -41,6 +41,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 202"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "domain": "fgr.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.fgr.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Morecambe",
