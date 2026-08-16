@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-16T18:50:29Z",
+  "generatedAt": "2026-08-16T19:36:02Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3842,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -161,7 +161,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "SSLError: HTTPSConnectionPool(host='trurocity.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'trurocity.co.uk'. (_ssl.c:1016)\")))"
+      "error": "SSLError: HTTPSConnectionPool(host='trurocity.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))"
     },
     {
       "club": "Wealdstone",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Toby Savin, Kian Jenkins, Matt Jay | Tonbridge Angels (A)",
+      "url": "https://torquayunited.com/toby-savin-kian-jenkins-matt-jay-tonbridge-angels-a/",
+      "published": "2026-08-16T19:25:08Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Highlights | Chelmsford City 0-0 Truro City |",
+      "url": "https://chelmsfordcityfc.com/news/highlights-chelmsford-city-0-0-truro-city/",
+      "published": "2026-08-16T19:06:13Z"
+    },
     {
       "club": "Worthing",
       "code": "WOR",
@@ -861,6 +879,15 @@
       "published": "2026-08-16T08:38:55Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Live Football at the Daggers: Sunday 16 August",
+      "url": "https://daggers.co.uk/live-football-at-the-daggers-sunday-16-august/",
+      "published": "2026-08-16T08:08:09Z"
+    },
+    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -1014,6 +1041,24 @@
       "published": "2026-08-15T19:11:48Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Robbie Savage post Worthing",
+      "url": "https://www.fgr.co.uk/news/robbie-savage-post-worthing-2627/",
+      "published": "2026-08-15T19:00:00Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Josh Osude post Worthing (A)",
+      "url": "https://www.fgr.co.uk/news/josh-osude-post-worthing-a/",
+      "published": "2026-08-15T19:00:00Z"
+    },
+    {
       "club": "South Shields",
       "code": "SSH",
       "short": "South Shields",
@@ -1048,6 +1093,15 @@
       "title": "🎤 𝗣𝗼𝘀𝘁-𝗠𝗮𝘁𝗰𝗵 | Matt Coupe on our win against Plymouth Parkway",
       "url": "https://chippenhamtown.com/08/15/%f0%9f%8e%a4-%f0%9d%97%a3%f0%9d%97%bc%f0%9d%98%80%f0%9d%98%81-%f0%9d%97%a0%f0%9d%97%ae%f0%9d%98%81%f0%9d%97%b0%f0%9d%97%b5-gary-horgan-on-our-2-0-defeat-at-uxbridge-2/",
       "published": "2026-08-15T18:30:03Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report | Worthing 1-2 FGR",
+      "url": "https://www.fgr.co.uk/news/match-report-worthing1-1-2fgr-2627/",
+      "published": "2026-08-15T18:30:00Z"
     },
     {
       "club": "Torquay United",
@@ -1426,60 +1480,6 @@
       "title": "Match Preview: Halifax Women (H)",
       "url": "https://afcfylde.co.uk/news/2026/august/15/match-preview--halifax-women--h-/",
       "published": "2026-08-15T09:40:00Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Preview: Kidderminster Harriers vs Eastleigh",
-      "url": "https://eastleighfc.com/2026/08/preview-kidderminster-harriers-vs-eastleigh/",
-      "published": "2026-08-15T07:32:01Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Matchday 2 | Home v Buxton 3pm",
-      "url": "https://southportfc.net/matchday-2-home-v-buxton-3pm/",
-      "published": "2026-08-15T07:27:54Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "PROGRAMME | Hereford FC vs Marine AFC",
-      "url": "https://herefordfc.co.uk/2026/08/programme-hereford-fc-vs-marine-afc-3/",
-      "published": "2026-08-14T23:00:48Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "PREVIEW | Hereford FC vs Marine AFC",
-      "url": "https://herefordfc.co.uk/2026/08/preview-hereford-fc-vs-marine-afc-2/",
-      "published": "2026-08-14T20:35:12Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "NEWS | Medical Room Move Among Off-Season Upgrades",
-      "url": "https://herefordfc.co.uk/2026/08/news-medical-room-move-among-off-season-upgrades/",
-      "published": "2026-08-14T20:30:37Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Match Preview: Worthing FC vs Forest Green Rovers",
-      "url": "https://worthingfc.com/2026/08/match-preview-worthing-fc-vs-forest-green-rovers/",
-      "published": "2026-08-14T20:06:32Z"
     }
   ]
 }
