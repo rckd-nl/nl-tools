@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-16T19:36:02Z",
+  "generatedAt": "2026-08-16T19:56:50Z",
   "maxItems": 100,
   "sources": [
     {
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -877,15 +877,6 @@
       "title": "Up Next: Dover Athletic vs Tonbridge Angels",
       "url": "https://doverathletic.com/news/up-next-dover-athletic-vs-tonbridge-angels-3/",
       "published": "2026-08-16T08:38:55Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Live Football at the Daggers: Sunday 16 August",
-      "url": "https://daggers.co.uk/live-football-at-the-daggers-sunday-16-august/",
-      "published": "2026-08-16T08:08:09Z"
     },
     {
       "club": "Chippenham Town",
@@ -1480,6 +1471,15 @@
       "title": "Match Preview: Halifax Women (H)",
       "url": "https://afcfylde.co.uk/news/2026/august/15/match-preview--halifax-women--h-/",
       "published": "2026-08-15T09:40:00Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Preview: Kidderminster Harriers vs Eastleigh",
+      "url": "https://eastleighfc.com/2026/08/preview-kidderminster-harriers-vs-eastleigh/",
+      "published": "2026-08-15T07:32:01Z"
     }
   ]
 }
