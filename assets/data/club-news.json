@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-16T20:39:28Z",
+  "generatedAt": "2026-08-16T21:14:53Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f497ddaf890>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 445"
     },
     {
       "club": "AFC Totton",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f497e08f090>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "Golden Letter Draw Results",
+      "url": "https://marinefc.com/golden-letter-draw-results/",
+      "published": "2026-08-16T20:48:00Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Loan Watch: Murray dazzles in another Taunton victory",
+      "url": "https://wsmafc.co.uk/loan-watch-sat-15th-aug-26/",
+      "published": "2026-08-16T20:40:13Z"
+    },
     {
       "club": "Chester",
       "code": "CHE",
@@ -1462,24 +1480,6 @@
       "title": "Quick word with Alex Stepien-Iwumene",
       "url": "https://maidstoneunited.co.uk/08/15/quick-word-with-alex-stepien-iwumene/",
       "published": "2026-08-15T10:05:20Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Preview: King’s Lynn Town (H)",
-      "url": "https://chesterfc.com/08/15/preview-kings-lynn-town-h-2/",
-      "published": "2026-08-15T09:44:07Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Match Preview: Halifax Women (H)",
-      "url": "https://afcfylde.co.uk/news/2026/august/15/match-preview--halifax-women--h-/",
-      "published": "2026-08-15T09:40:00Z"
     }
   ]
 }
