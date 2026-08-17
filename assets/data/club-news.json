@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-17T02:10:53Z",
+  "generatedAt": "2026-08-17T03:15:33Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f845e458f50>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 445"
+      "error": "HTTP 403"
     },
     {
       "club": "AFC Totton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f845e48cd10>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -823,6 +823,15 @@
       "title": "Match Highlights Southport v Buxton",
       "url": "https://southportfc.net/match-highlights-southport-v-buxton/",
       "published": "2026-08-16T11:16:29Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham 0 Salisbury 0",
+      "url": "https://www.horshamfc.co.uk/2026/08/16/horsham-0-salisbury-0/",
+      "published": "2026-08-16T11:00:11Z"
     },
     {
       "club": "Enfield Town",
@@ -1471,15 +1480,6 @@
       "title": "INTERVIEW | Kandola Keen to Make Home a Fortress",
       "url": "https://herefordfc.co.uk/2026/08/interview-kandola-keen-to-make-home-a-fortress/",
       "published": "2026-08-15T11:00:09Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Steve Laker: “𝗜 𝗿𝗲𝗮𝗹𝗹𝘆 𝗱𝗼 𝗮𝗽𝗽𝗿𝗲𝗰𝗶𝗮𝘁𝗲 𝗲𝘃𝗲𝗿𝘆 𝘀𝗶𝗻𝗴𝗹𝗲 𝗯𝗶𝘁 𝗼𝗳 𝘀𝘂𝗽𝗽𝗼𝗿𝘁”",
-      "url": "https://wsmafc.co.uk/steve-laker-bucket-collection/",
-      "published": "2026-08-15T11:00:04Z"
     }
   ]
 }
