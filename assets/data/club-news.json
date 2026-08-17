@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-17T19:00:19Z",
+  "generatedAt": "2026-08-17T19:44:59Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://www.southshieldsfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 445"
+      "error": "HTTP 403"
     },
     {
       "club": "AFC Totton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Clubhouse at The Optima Stadium closed tomorrow",
+      "url": "https://wsmafc.co.uk/clubhouse-at-the-optima-stadium-closed-tomorrow/",
+      "published": "2026-08-17T19:35:44Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Academy Bulletin: ’26/27 Season: Week Two",
+      "url": "https://wokingfc.co.uk/08/17/academy-bulletin-26-27-season-week-two/",
+      "published": "2026-08-17T19:24:47Z"
+    },
     {
       "club": "Torquay United",
       "code": "TOR",
@@ -789,6 +807,15 @@
       "published": "2026-08-17T13:26:58Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "CARR & COBB SIGN ON AS OFFICIAL LEGAL PARTNER OF HORSHAM FC",
+      "url": "https://www.horshamfc.co.uk/2026/08/17/carr-cobb-sign-on-as-official-legal-partner-of-horsham-fc/",
+      "published": "2026-08-17T13:21:39Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -843,6 +870,24 @@
       "published": "2026-08-17T11:25:44Z"
     },
     {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Match Preview: Morecambe (A)",
+      "url": "https://www.southshieldsfc.co.uk/match_preview_morecambe_a/",
+      "published": "2026-08-17T10:55:26Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Preview – Hampton & Richmond Borough",
+      "url": "https://www.horshamfc.co.uk/2026/08/17/match-preview-hampton-richmond-borough-3/",
+      "published": "2026-08-17T10:50:51Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -859,6 +904,15 @@
       "title": "Tickets: Woking (H)",
       "url": "https://hornchurchfc.com/tickets-woking-h/",
       "published": "2026-08-17T10:20:19Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "FEATURE | Martin Smith on coaching & playing from the frontlines",
+      "url": "https://gateshead-fc.com/feature-martin-smith-on-coaching-playing-from-the-frontlines/",
+      "published": "2026-08-17T10:19:30Z"
     },
     {
       "club": "Hornchurch",
@@ -1113,6 +1167,15 @@
       "published": "2026-08-16T16:45:00Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Next Match | Away At Hednesford Town Tuesday 7.45pm",
+      "url": "https://southportfc.net/next-match-away-at-hednesford-town-tuesday-7-45pm/",
+      "published": "2026-08-16T16:33:32Z"
+    },
+    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -1210,6 +1273,24 @@
       "title": "Back The Team At Saturday’s Home Opener",
       "url": "https://rochdaleafc.co.uk/tickets-crawley-town-home-220826/",
       "published": "2026-08-16T11:22:59Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Match Highlights Southport v Buxton",
+      "url": "https://southportfc.net/match-highlights-southport-v-buxton/",
+      "published": "2026-08-16T11:16:29Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham 0 Salisbury 0",
+      "url": "https://www.horshamfc.co.uk/2026/08/16/horsham-0-salisbury-0/",
+      "published": "2026-08-16T11:00:11Z"
     },
     {
       "club": "Enfield Town",
@@ -1383,6 +1464,15 @@
       "published": "2026-08-15T20:40:49Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Post Match | Neil After The 1-1 Draw With Buxton",
+      "url": "https://southportfc.net/post-match-neil-after-the-1-1-draw-with-buxton/",
+      "published": "2026-08-15T20:32:41Z"
+    },
+    {
       "club": "Radcliffe",
       "code": "RAD",
       "short": "Radcliffe",
@@ -1390,96 +1480,6 @@
       "title": "Macclesfield (A) Post-Match Reaction | Brad Jackson",
       "url": "https://radcliffefc.com/macclesfield-a-post-match-reaction-brad-jackson/",
       "published": "2026-08-15T20:14:09Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Macclesfield (A) Post-Match Reaction | Bernard Morley",
-      "url": "https://radcliffefc.com/macclesfield-a-post-match-reaction-bernard-morley/",
-      "published": "2026-08-15T20:02:32Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Report: Seagulls make it two from two at The Optima",
-      "url": "https://wsmafc.co.uk/report-hampton-home-2627/",
-      "published": "2026-08-15T19:45:35Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Match Report | Maidenhead United 0-0 Dorking Wanderers 15/08/26",
-      "url": "https://dwfc.co.uk/2026/08/match-report-maidenhead-united-0-0-dorking-wanderers-15-08-26/",
-      "published": "2026-08-15T19:11:48Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Post-King’s Lynn Town: Phil Parkinson",
-      "url": "https://chesterfc.com/08/15/post-kings-lynn-town-phil-parkinson/",
-      "published": "2026-08-15T19:00:10Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage post Worthing",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-post-worthing-2627/",
-      "published": "2026-08-15T19:00:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Josh Osude post Worthing (A)",
-      "url": "https://www.fgr.co.uk/news/josh-osude-post-worthing-a/",
-      "published": "2026-08-15T19:00:00Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Key Action: King’s Lynn Town (H)",
-      "url": "https://chesterfc.com/08/15/key-action-kings-lynn-town-h/",
-      "published": "2026-08-15T18:53:19Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "🎤 𝗣𝗼𝘀𝘁-𝗠𝗮𝘁𝗰𝗵 | Matt Coupe on our win against Plymouth Parkway",
-      "url": "https://chippenhamtown.com/08/15/%f0%9f%8e%a4-%f0%9d%97%a3%f0%9d%97%bc%f0%9d%98%80%f0%9d%98%81-%f0%9d%97%a0%f0%9d%97%ae%f0%9d%98%81%f0%9d%97%b0%f0%9d%97%b5-gary-horgan-on-our-2-0-defeat-at-uxbridge-2/",
-      "published": "2026-08-15T18:30:03Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | Worthing 1-2 FGR",
-      "url": "https://www.fgr.co.uk/news/match-report-worthing1-1-2fgr-2627/",
-      "published": "2026-08-15T18:30:00Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Jimmy Ball | Tonbridge Angels (A) | Post Match",
-      "url": "https://torquayunited.com/jimmy-ball-tonbridge-angels-a-post-match-2/",
-      "published": "2026-08-15T18:21:21Z"
     }
   ]
 }
