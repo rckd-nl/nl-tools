@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-17T10:02:50Z",
+  "generatedAt": "2026-08-17T10:51:14Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,11 +582,56 @@
   ],
   "items": [
     {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Walking Football Success Story",
+      "url": "https://tonbridgeangels.co.uk/walking-football-success-story/",
+      "published": "2026-08-17T10:24:32Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Tickets: Woking (H)",
+      "url": "https://hornchurchfc.com/tickets-woking-h/",
+      "published": "2026-08-17T10:20:19Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "FEATURE | Martin Smith on coaching & playing from the frontlines",
+      "url": "https://gateshead-fc.com/feature-martin-smith-on-coaching-playing-from-the-frontlines/",
+      "published": "2026-08-17T10:19:30Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Gallery: Barrow AFC (A)",
+      "url": "https://hornchurchfc.com/gallery-barrow-afc-a/",
+      "published": "2026-08-17T10:03:37Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Tickets on sale now for our trip to Aldershot Town",
+      "url": "https://ytfc.net/2026/08/tickets-on-sale-now-for-our-trip-to-aldershot-town/",
+      "published": "2026-08-17T10:03:20Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
       "domain": "maidstoneunited.co.uk",
-      "title": "MUFC Women – Post match Actonians Res",
+      "title": "MUFC Women Post Match: Actonians Res",
       "url": "https://maidstoneunited.co.uk/08/17/mufc-women-post-match-actonians-res/",
       "published": "2026-08-17T10:01:30Z"
     },
@@ -598,6 +643,15 @@
       "title": "Ticket Info: Scarborough (A)",
       "url": "https://spennymoortownfc.co.uk/2026/08/17/ticket-info-scarborough-a/",
       "published": "2026-08-17T09:48:07Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Gallery: Walton & Hersham",
+      "url": "https://maidstoneunited.co.uk/08/17/gallery-walton-hersham/",
+      "published": "2026-08-17T09:45:06Z"
     },
     {
       "club": "Macclesfield",
@@ -625,6 +679,15 @@
       "title": "New Pitch Perimeter Rules for 2026/27",
       "url": "https://chesterfc.com/08/17/new-pitch-perimeter-rules-for-2026-27/",
       "published": "2026-08-17T09:21:12Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "50/50 Result: Farnham Town",
+      "url": "https://daggers.co.uk/50-50-result-farnham-town/",
+      "published": "2026-08-17T09:03:23Z"
     },
     {
       "club": "Hornchurch",
@@ -897,6 +960,15 @@
       "published": "2026-08-16T11:16:29Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham 0 Salisbury 0",
+      "url": "https://www.horshamfc.co.uk/2026/08/16/horsham-0-salisbury-0/",
+      "published": "2026-08-16T11:00:11Z"
+    },
+    {
       "club": "Enfield Town",
       "code": "ENF",
       "short": "Enfield",
@@ -976,6 +1048,15 @@
       "title": "Up Next: Dover Athletic vs Tonbridge Angels",
       "url": "https://doverathletic.com/news/up-next-dover-athletic-vs-tonbridge-angels-3/",
       "published": "2026-08-16T08:38:55Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Live Football at the Daggers: Sunday 16 August",
+      "url": "https://daggers.co.uk/live-football-at-the-daggers-sunday-16-august/",
+      "published": "2026-08-16T08:08:09Z"
     },
     {
       "club": "Chippenham Town",
@@ -1302,15 +1383,6 @@
       "published": "2026-08-15T17:14:00Z"
     },
     {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Post Match: Walton & Hersham",
-      "url": "https://maidstoneunited.co.uk/08/15/post-match-walton-hersham/",
-      "published": "2026-08-15T17:10:56Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1408,78 +1480,6 @@
       "title": "REPORT: TONBRIDGE 1 – 2 UNITED",
       "url": "https://torquayunited.com/report-tonbridge-1-2-united-2/",
       "published": "2026-08-15T16:31:52Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Match Report | Macclesfield 2-1 Radcliffe",
-      "url": "https://radcliffefc.com/match-report-macclesfield-2-1-radcliffe-2/",
-      "published": "2026-08-15T16:30:31Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Alty fall to narrow defeat at Sutton",
-      "url": "https://altrinchamfc.com/blogs/news/sutton-united-2026-27-away",
-      "published": "2026-08-15T16:15:45Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Report: Kidderminster Harriers 1-0 Eastleigh",
-      "url": "https://eastleighfc.com/2026/08/report-kidderminster-harriers-1-0-eastleigh/",
-      "published": "2026-08-15T16:12:43Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Report: Southend United 1-0 Scunthorpe United",
-      "url": "https://southendunited.co.uk/news/2026/august/15/report--southend-united-1-0-scunthorpe-united/",
-      "published": "2026-08-15T16:06:50Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Ian Watson’s Reaction To Newport Defeat",
-      "url": "https://rochdaleafc.co.uk/ian-watsons-reaction-to-newport-defeat/",
-      "published": "2026-08-15T14:09:18Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Dale Suffer Opening Day Defeat",
-      "url": "https://rochdaleafc.co.uk/report-newport-away-150826/",
-      "published": "2026-08-15T13:23:47Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "NEWS | Bitemo Suspended After Unsuccessful Appeal",
-      "url": "https://herefordfc.co.uk/2026/08/news-bitemo-suspended-after-unsuccessful-appeal/",
-      "published": "2026-08-15T12:50:30Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Welcome Jacob Roddy",
-      "url": "https://doverathletic.com/news/welcome-jacob-roddy/",
-      "published": "2026-08-15T12:07:56Z"
     }
   ]
 }
