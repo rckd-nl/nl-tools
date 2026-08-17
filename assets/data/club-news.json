@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-17T17:04:05Z",
+  "generatedAt": "2026-08-17T17:10:49Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7fb1aa969950>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 445"
+      "error": "HTTP 403"
     },
     {
       "club": "AFC Totton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7fb1aa540f50>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -726,6 +726,15 @@
       "published": "2026-08-17T13:26:58Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "CARR & COBB SIGN ON AS OFFICIAL LEGAL PARTNER OF HORSHAM FC",
+      "url": "https://www.horshamfc.co.uk/2026/08/17/carr-cobb-sign-on-as-official-legal-partner-of-horsham-fc/",
+      "published": "2026-08-17T13:21:39Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -787,6 +796,15 @@
       "title": "Match Preview: Morecambe (A)",
       "url": "https://www.southshieldsfc.co.uk/match_preview_morecambe_a/",
       "published": "2026-08-17T10:55:26Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Preview – Hampton & Richmond Borough",
+      "url": "https://www.horshamfc.co.uk/2026/08/17/match-preview-hampton-richmond-borough-3/",
+      "published": "2026-08-17T10:50:51Z"
     },
     {
       "club": "Tonbridge Angels",
@@ -1176,6 +1194,15 @@
       "published": "2026-08-16T11:16:29Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham 0 Salisbury 0",
+      "url": "https://www.horshamfc.co.uk/2026/08/16/horsham-0-salisbury-0/",
+      "published": "2026-08-16T11:00:11Z"
+    },
+    {
       "club": "Enfield Town",
       "code": "ENF",
       "short": "Enfield",
@@ -1453,33 +1480,6 @@
       "title": "🎤 𝗣𝗼𝘀𝘁-𝗠𝗮𝘁𝗰𝗵 | Matt Coupe on our win against Plymouth Parkway",
       "url": "https://chippenhamtown.com/08/15/%f0%9f%8e%a4-%f0%9d%97%a3%f0%9d%97%bc%f0%9d%98%80%f0%9d%98%81-%f0%9d%97%a0%f0%9d%97%ae%f0%9d%98%81%f0%9d%97%b0%f0%9d%97%b5-gary-horgan-on-our-2-0-defeat-at-uxbridge-2/",
       "published": "2026-08-15T18:30:03Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Jimmy Ball | Tonbridge Angels (A) | Post Match",
-      "url": "https://torquayunited.com/jimmy-ball-tonbridge-angels-a-post-match-2/",
-      "published": "2026-08-15T18:21:21Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "REACTION | Downes Discusses Marine Victory",
-      "url": "https://herefordfc.co.uk/2026/08/reaction-downes-discusses-marine-victory/",
-      "published": "2026-08-15T18:07:11Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Match Report: Worthing FC 1-2 Forest Green Rovers",
-      "url": "https://worthingfc.com/2026/08/match-report-worthing-fc-1-2-forest-green-rovers/",
-      "published": "2026-08-15T17:51:28Z"
     }
   ]
 }
