@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-17T09:02:41Z",
+  "generatedAt": "2026-08-17T10:02:50Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,51 @@
     }
   ],
   "items": [
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "MUFC Women – Post match Actonians Res",
+      "url": "https://maidstoneunited.co.uk/08/17/mufc-women-post-match-actonians-res/",
+      "published": "2026-08-17T10:01:30Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Ticket Info: Scarborough (A)",
+      "url": "https://spennymoortownfc.co.uk/2026/08/17/ticket-info-scarborough-a/",
+      "published": "2026-08-17T09:48:07Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "ACTION REPLAY: RADCLIFFE (H)",
+      "url": "https://macclesfieldfc.com/latest-news/action-replay-radcliffe-h-2/",
+      "published": "2026-08-17T09:30:33Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "ACTION REPLAY: RADCLIFFE (H)",
+      "url": "https://macclesfieldfc.com/galleries/action-replay-radcliffe-h/",
+      "published": "2026-08-17T09:25:32Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "New Pitch Perimeter Rules for 2026/27",
+      "url": "https://chesterfc.com/08/17/new-pitch-perimeter-rules-for-2026-27/",
+      "published": "2026-08-17T09:21:12Z"
+    },
     {
       "club": "Hornchurch",
       "code": "HOR",
@@ -829,7 +874,7 @@
       "code": "MSU",
       "short": "Maidstone",
       "domain": "maidstoneunited.co.uk",
-      "title": "Churchill Fire & Security Continue Stones Partnership",
+      "title": "Churchill Fire & Security continue Stones partnership",
       "url": "https://maidstoneunited.co.uk/08/16/churchill-fire-security-continue-stones-partnership/",
       "published": "2026-08-16T11:31:30Z"
     },
@@ -850,15 +895,6 @@
       "title": "Match Highlights Southport v Buxton",
       "url": "https://southportfc.net/match-highlights-southport-v-buxton/",
       "published": "2026-08-16T11:16:29Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham 0 Salisbury 0",
-      "url": "https://www.horshamfc.co.uk/2026/08/16/horsham-0-salisbury-0/",
-      "published": "2026-08-16T11:00:11Z"
     },
     {
       "club": "Enfield Town",
@@ -940,15 +976,6 @@
       "title": "Up Next: Dover Athletic vs Tonbridge Angels",
       "url": "https://doverathletic.com/news/up-next-dover-athletic-vs-tonbridge-angels-3/",
       "published": "2026-08-16T08:38:55Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Live Football at the Daggers: Sunday 16 August",
-      "url": "https://daggers.co.uk/live-football-at-the-daggers-sunday-16-august/",
-      "published": "2026-08-16T08:08:09Z"
     },
     {
       "club": "Chippenham Town",
@@ -1453,33 +1480,6 @@
       "title": "Welcome Jacob Roddy",
       "url": "https://doverathletic.com/news/welcome-jacob-roddy/",
       "published": "2026-08-15T12:07:56Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Callum Wood on co-commentary for Seagulls Radio this afternoon",
-      "url": "https://wsmafc.co.uk/callum-wood-on-co-commentary-for-seagulls-radio-this-afternoon/",
-      "published": "2026-08-15T12:00:00Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Adam Barton Post Match Interview | Emley (A)",
-      "url": "https://curzon-ashton.co.uk/adam-interview-emley-a/",
-      "published": "2026-08-15T11:55:27Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "INTERVIEW | Kandola Keen to Make Home a Fortress",
-      "url": "https://herefordfc.co.uk/2026/08/interview-kandola-keen-to-make-home-a-fortress/",
-      "published": "2026-08-15T11:00:09Z"
     }
   ]
 }
