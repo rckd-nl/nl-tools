@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-17T15:42:15Z",
+  "generatedAt": "2026-08-17T16:15:34Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3844,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f8a04f08f10>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 445"
+      "error": "HTTP 403"
     },
     {
       "club": "AFC Totton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f8a0329b210>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "“𝗜𝘁’𝘀 𝗮 𝗴𝗮𝗺𝗲 𝗲𝘃𝗲𝗿𝘆𝗼𝗻𝗲 𝗹𝗼𝗼𝗸𝘀 𝗳𝗼𝗿𝘄𝗮𝗿𝗱 𝘁𝗼” | Scott Rogers pre – Torquay United (A)",
+      "url": "https://wsmafc.co.uk/%f0%9d%97%9c%f0%9d%98%81%f0%9d%98%80-%f0%9d%97%ae-%f0%9d%97%b4%f0%9d%97%ae%f0%9d%97%ba%f0%9d%97%b2-%f0%9d%97%b2%f0%9d%98%83%f0%9d%97%b2%f0%9d%97%bf%f0%9d%98%86%f0%9d%97%bc%f0%9d%97%bb%f0%9d%97%b2/",
+      "published": "2026-08-17T16:05:32Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Dover Athletic Match Preview",
+      "url": "https://tonbridgeangels.co.uk/dover-athletic-match-preview/",
+      "published": "2026-08-17T16:00:00Z"
+    },
     {
       "club": "Yeovil Town",
       "code": "YEO",
@@ -663,15 +681,6 @@
       "published": "2026-08-17T13:26:58Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "CARR & COBB SIGN ON AS OFFICIAL LEGAL PARTNER OF HORSHAM FC",
-      "url": "https://www.horshamfc.co.uk/2026/08/17/carr-cobb-sign-on-as-official-legal-partner-of-horsham-fc/",
-      "published": "2026-08-17T13:21:39Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -733,15 +742,6 @@
       "title": "Match Preview: Morecambe (A)",
       "url": "https://www.southshieldsfc.co.uk/match_preview_morecambe_a/",
       "published": "2026-08-17T10:55:26Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Preview – Hampton & Richmond Borough",
-      "url": "https://www.horshamfc.co.uk/2026/08/17/match-preview-hampton-richmond-borough-3/",
-      "published": "2026-08-17T10:50:51Z"
     },
     {
       "club": "Tonbridge Angels",
@@ -816,6 +816,15 @@
       "published": "2026-08-17T09:45:06Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Tickets & Travel | Fylde (A)",
+      "url": "https://www.fgr.co.uk/news/ticktes-and-travel-fylde-a/",
+      "published": "2026-08-17T09:45:00Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -850,6 +859,15 @@
       "title": "GALLERY 2 | Hereford FC 1-0 Marine AFC",
       "url": "https://herefordfc.co.uk/2026/08/gallery-2-hereford-fc-1-0-marine-afc/",
       "published": "2026-08-17T09:00:01Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Highlights | Worthing (A)",
+      "url": "https://www.fgr.co.uk/news/match-highlights-worthing-a /",
+      "published": "2026-08-17T09:00:00Z"
     },
     {
       "club": "Hornchurch",
@@ -1131,15 +1149,6 @@
       "published": "2026-08-16T11:16:29Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham 0 Salisbury 0",
-      "url": "https://www.horshamfc.co.uk/2026/08/16/horsham-0-salisbury-0/",
-      "published": "2026-08-16T11:00:11Z"
-    },
-    {
       "club": "Enfield Town",
       "code": "ENF",
       "short": "Enfield",
@@ -1383,6 +1392,24 @@
       "published": "2026-08-15T19:00:10Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Robbie Savage post Worthing",
+      "url": "https://www.fgr.co.uk/news/robbie-savage-post-worthing-2627/",
+      "published": "2026-08-15T19:00:00Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Josh Osude post Worthing (A)",
+      "url": "https://www.fgr.co.uk/news/josh-osude-post-worthing-a/",
+      "published": "2026-08-15T19:00:00Z"
+    },
+    {
       "club": "South Shields",
       "code": "SSH",
       "short": "South Shields",
@@ -1419,6 +1446,15 @@
       "published": "2026-08-15T18:30:03Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report | Worthing 1-2 FGR",
+      "url": "https://www.fgr.co.uk/news/match-report-worthing1-1-2fgr-2627/",
+      "published": "2026-08-15T18:30:00Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1444,42 +1480,6 @@
       "title": "Match Report: Worthing FC 1-2 Forest Green Rovers",
       "url": "https://worthingfc.com/2026/08/match-report-worthing-fc-1-2-forest-green-rovers/",
       "published": "2026-08-15T17:51:28Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "“𝗗𝗲𝗳𝗲𝗻𝗱𝗶𝗻𝗴 𝘀𝘁𝗮𝗿𝘁𝘀 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗳𝗿𝗼𝗻𝘁” | Scott Rogers post – Hampton & Richmond (H)",
-      "url": "https://wsmafc.co.uk/%f0%9d%97%97%f0%9d%97%b2%f0%9d%97%b3%f0%9d%97%b2%f0%9d%97%bb%f0%9d%97%b1%f0%9d%97%b6%f0%9d%97%bb%f0%9d%97%b4-%f0%9d%98%80%f0%9d%98%81%f0%9d%97%ae%f0%9d%97%bf%f0%9d%98%81%f0%9d%98%80-%f0%9d%97%b3/",
-      "published": "2026-08-15T17:47:39Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Post-Match: Josh Popoola Reviews Scunthorpe United Win",
-      "url": "https://southendunited.co.uk/news/2026/august/15/post-match--josh-popoola-reviews-scunthorpe-united-win/",
-      "published": "2026-08-15T17:44:35Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "💬 “Really spirited” MIKE WILLIAMSON POST MATCH CHORLEY (H)",
-      "url": "https://www.southshieldsfc.co.uk/%f0%9f%92%ac-really-spirited-mike-williamson-post-match-chorley-h/",
-      "published": "2026-08-15T17:42:22Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Post-Match: Kieron Dyer Assesses Scunthorpe Victory",
-      "url": "https://southendunited.co.uk/news/2026/august/15/post-match--kieron-dyer-assesses-scunthorpe-victory/",
-      "published": "2026-08-15T17:41:41Z"
     }
   ]
 }
