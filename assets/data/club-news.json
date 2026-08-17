@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-17T08:04:52Z",
+  "generatedAt": "2026-08-17T09:02:41Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3842,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,42 @@
     }
   ],
   "items": [
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Highlights: Barrow AFC (A)",
+      "url": "https://hornchurchfc.com/highlights-barrow-afc-a/",
+      "published": "2026-08-17T08:50:25Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Report: Barrow AFC (A)",
+      "url": "https://hornchurchfc.com/report-barrow-afc-a/",
+      "published": "2026-08-17T08:48:33Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Folkestone Invicta Away Tickets Now Live",
+      "url": "https://chelmsfordcityfc.com/news/folkestone-invicta-away-tickets-now-live/",
+      "published": "2026-08-17T08:23:59Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Folkestone Invicta",
+      "url": "https://maidstoneunited.co.uk/08/17/key-info-folkestone-invicta-2/",
+      "published": "2026-08-17T07:00:45Z"
+    },
     {
       "club": "Chippenham Town",
       "code": "CHI",
@@ -771,15 +807,6 @@
       "published": "2026-08-16T14:00:45Z"
     },
     {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Folkestone Invicta",
-      "url": "https://maidstoneunited.co.uk/08/16/key-info-folkestone-invicta-2/",
-      "published": "2026-08-16T13:00:45Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -823,6 +850,15 @@
       "title": "Match Highlights Southport v Buxton",
       "url": "https://southportfc.net/match-highlights-southport-v-buxton/",
       "published": "2026-08-16T11:16:29Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham 0 Salisbury 0",
+      "url": "https://www.horshamfc.co.uk/2026/08/16/horsham-0-salisbury-0/",
+      "published": "2026-08-16T11:00:11Z"
     },
     {
       "club": "Enfield Town",
@@ -1068,24 +1104,6 @@
       "published": "2026-08-15T19:11:48Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage post Worthing",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-post-worthing-2627/",
-      "published": "2026-08-15T19:00:00Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Josh Osude post Worthing (A)",
-      "url": "https://www.fgr.co.uk/news/josh-osude-post-worthing-a/",
-      "published": "2026-08-15T19:00:00Z"
-    },
-    {
       "club": "South Shields",
       "code": "SSH",
       "short": "South Shields",
@@ -1120,15 +1138,6 @@
       "title": "🎤 𝗣𝗼𝘀𝘁-𝗠𝗮𝘁𝗰𝗵 | Matt Coupe on our win against Plymouth Parkway",
       "url": "https://chippenhamtown.com/08/15/%f0%9f%8e%a4-%f0%9d%97%a3%f0%9d%97%bc%f0%9d%98%80%f0%9d%98%81-%f0%9d%97%a0%f0%9d%97%ae%f0%9d%98%81%f0%9d%97%b0%f0%9d%97%b5-gary-horgan-on-our-2-0-defeat-at-uxbridge-2/",
       "published": "2026-08-15T18:30:03Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | Worthing 1-2 FGR",
-      "url": "https://www.fgr.co.uk/news/match-report-worthing1-1-2fgr-2627/",
-      "published": "2026-08-15T18:30:00Z"
     },
     {
       "club": "Torquay United",
@@ -1471,15 +1480,6 @@
       "title": "INTERVIEW | Kandola Keen to Make Home a Fortress",
       "url": "https://herefordfc.co.uk/2026/08/interview-kandola-keen-to-make-home-a-fortress/",
       "published": "2026-08-15T11:00:09Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Steve Laker: “𝗜 𝗿𝗲𝗮𝗹𝗹𝘆 𝗱𝗼 𝗮𝗽𝗽𝗿𝗲𝗰𝗶𝗮𝘁𝗲 𝗲𝘃𝗲𝗿𝘆 𝘀𝗶𝗻𝗴𝗹𝗲 𝗯𝗶𝘁 𝗼𝗳 𝘀𝘂𝗽𝗽𝗼𝗿𝘁”",
-      "url": "https://wsmafc.co.uk/steve-laker-bucket-collection/",
-      "published": "2026-08-15T11:00:04Z"
     }
   ]
 }
