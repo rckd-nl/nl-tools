@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-18T21:54:06Z",
+  "generatedAt": "2026-08-18T22:01:06Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f5c3a964390>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://www.southshieldsfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f5c3a9e3510>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Report: Dover Athletic 0-1 Tonbridge Angels",
+      "url": "https://doverathletic.com/news/report-dover-athletic-0-1-tonbridge-angels/",
+      "published": "2026-08-18T21:53:26Z"
+    },
     {
       "club": "Dorking Wanderers",
       "code": "DOR",
@@ -733,6 +742,15 @@
       "title": "Key info: Folkestone Invicta",
       "url": "https://maidstoneunited.co.uk/08/18/key-info-folkestone-invicta-2/",
       "published": "2026-08-18T17:00:45Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham Women recruiting at Open Training this Wednesday",
+      "url": "https://www.horshamfc.co.uk/2026/08/18/horsham-women-recruiting-at-open-training-this-wednesday/",
+      "published": "2026-08-18T16:50:28Z"
     },
     {
       "club": "Hereford",
@@ -1041,6 +1059,15 @@
       "published": "2026-08-18T09:00:51Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Lancashire Challenge Trophy",
+      "url": "https://southportfc.net/lancashire-challenge-trophy/",
+      "published": "2026-08-18T09:00:27Z"
+    },
+    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -1111,6 +1138,15 @@
       "title": "Youth Team Begin Cup Campaign",
       "url": "https://rochdaleafc.co.uk/youth-team-begin-cup-campaign/",
       "published": "2026-08-18T07:30:57Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "TONBRIDGE ANGELS U18 4 HORSHAM U18 4",
+      "url": "https://www.horshamfc.co.uk/2026/08/18/tonbridge-angels-u18-4-horsham-u18-4/",
+      "published": "2026-08-17T23:31:19Z"
     },
     {
       "club": "York City",
@@ -1365,6 +1401,15 @@
       "published": "2026-08-17T13:26:58Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "CARR & COBB SIGN ON AS OFFICIAL LEGAL PARTNER OF HORSHAM FC",
+      "url": "https://www.horshamfc.co.uk/2026/08/17/carr-cobb-sign-on-as-official-legal-partner-of-horsham-fc/",
+      "published": "2026-08-17T13:21:39Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1428,58 +1473,13 @@
       "published": "2026-08-17T11:25:44Z"
     },
     {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Walking Football Success Story",
-      "url": "https://tonbridgeangels.co.uk/walking-football-success-story/",
-      "published": "2026-08-17T10:24:32Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Tickets: Woking (H)",
-      "url": "https://hornchurchfc.com/tickets-woking-h/",
-      "published": "2026-08-17T10:20:19Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Gallery: Barrow AFC (A)",
-      "url": "https://hornchurchfc.com/gallery-barrow-afc-a/",
-      "published": "2026-08-17T10:03:37Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Tickets on sale now for our trip to Aldershot Town",
-      "url": "https://ytfc.net/2026/08/tickets-on-sale-now-for-our-trip-to-aldershot-town/",
-      "published": "2026-08-17T10:03:20Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "MUFC Women Post Match: Actonians Res",
-      "url": "https://maidstoneunited.co.uk/08/17/mufc-women-post-match-actonians-res/",
-      "published": "2026-08-17T10:01:30Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Ticket Info: Scarborough (A)",
-      "url": "https://spennymoortownfc.co.uk/2026/08/17/ticket-info-scarborough-a/",
-      "published": "2026-08-17T09:48:07Z"
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Match Preview: Morecambe (A)",
+      "url": "https://www.southshieldsfc.co.uk/match_preview_morecambe_a/",
+      "published": "2026-08-17T10:55:26Z"
     }
   ]
 }
