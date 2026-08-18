@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-18T14:04:21Z",
+  "generatedAt": "2026-08-18T14:55:00Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='fgr.co.uk', port=443): Read timed out. (read timeout=25)"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3845,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "Updated Ground Regulations",
+      "url": "https://marinefc.com/updated-ground-regulations/",
+      "published": "2026-08-18T14:24:27Z"
+    },
     {
       "club": "Torquay United",
       "code": "TOR",
@@ -679,6 +688,15 @@
       "title": "Union Golf Road offers free under-12 coach travel",
       "url": "https://altrinchamfc.com/blogs/news/union-golf-road-offers-free-under-12-coach-travel",
       "published": "2026-08-18T12:33:02Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Partnership | Smyths Toys",
+      "url": "https://www.fgr.co.uk/news/smyths-toys-2627/",
+      "published": "2026-08-18T12:30:00Z"
     },
     {
       "club": "Chester",
@@ -897,6 +915,15 @@
       "published": "2026-08-18T08:47:12Z"
     },
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "FA Cup football returns to the Gallagher",
+      "url": "https://maidstoneunited.co.uk/08/18/fa-cup-football-returns-to-the-gallagher/",
+      "published": "2026-08-18T08:37:45Z"
+    },
+    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -933,15 +960,6 @@
       "published": "2026-08-18T07:30:57Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "TONBRIDGE ANGELS U18 4 HORSHAM U18 4",
-      "url": "https://www.horshamfc.co.uk/2026/08/18/tonbridge-angels-u18-4-horsham-u18-4/",
-      "published": "2026-08-17T23:31:19Z"
-    },
-    {
       "club": "York City",
       "code": "YOR",
       "short": "York",
@@ -949,15 +967,6 @@
       "title": "U18s Match Preview | Lincoln City U18s (A) | Wednesday 19th August",
       "url": "https://yorkcityfootballclub.co.uk/u18s-match-preview-lincoln-city-u18s-a-wednesday-19th-august/",
       "published": "2026-08-17T23:02:07Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Watch the Daggers Live from the Clubhouse",
-      "url": "https://daggers.co.uk/watch-the-daggers-live-from-the-clubhouse/",
-      "published": "2026-08-17T20:07:29Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1194,15 +1203,6 @@
       "published": "2026-08-17T13:26:58Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "CARR & COBB SIGN ON AS OFFICIAL LEGAL PARTNER OF HORSHAM FC",
-      "url": "https://www.horshamfc.co.uk/2026/08/17/carr-cobb-sign-on-as-official-legal-partner-of-horsham-fc/",
-      "published": "2026-08-17T13:21:39Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1219,15 +1219,6 @@
       "title": "Your Matchday Guide: Norwich City PL2",
       "url": "https://hornchurchfc.com/your-matchday-guide-norwich-city-pl2/",
       "published": "2026-08-17T12:57:15Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "26/27 Match Preview: Walton & Hersham (A)",
-      "url": "https://daggers.co.uk/26-27-match-preview-walton-hersham-a/",
-      "published": "2026-08-17T12:45:08Z"
     },
     {
       "club": "Boreham Wood",
@@ -1273,15 +1264,6 @@
       "title": "Match Preview: Morecambe (A)",
       "url": "https://www.southshieldsfc.co.uk/match_preview_morecambe_a/",
       "published": "2026-08-17T10:55:26Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Preview – Hampton & Richmond Borough",
-      "url": "https://www.horshamfc.co.uk/2026/08/17/match-preview-hampton-richmond-borough-3/",
-      "published": "2026-08-17T10:50:51Z"
     },
     {
       "club": "Tonbridge Angels",
@@ -1356,6 +1338,15 @@
       "published": "2026-08-17T09:45:06Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Tickets & Travel | Fylde (A)",
+      "url": "https://www.fgr.co.uk/news/ticktes-and-travel-fylde-a/",
+      "published": "2026-08-17T09:45:00Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1383,15 +1374,6 @@
       "published": "2026-08-17T09:21:12Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "50/50 Result: Farnham Town",
-      "url": "https://daggers.co.uk/50-50-result-farnham-town/",
-      "published": "2026-08-17T09:03:23Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1399,6 +1381,15 @@
       "title": "GALLERY 2 | Hereford FC 1-0 Marine AFC",
       "url": "https://herefordfc.co.uk/2026/08/gallery-2-hereford-fc-1-0-marine-afc/",
       "published": "2026-08-17T09:00:01Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Highlights | Worthing (A)",
+      "url": "https://www.fgr.co.uk/news/match-highlights-worthing-a /",
+      "published": "2026-08-17T09:00:00Z"
     },
     {
       "club": "Hornchurch",
@@ -1480,6 +1471,15 @@
       "title": "Behind the Seals: King’s Lynn Town (H)",
       "url": "https://chesterfc.com/08/16/behind-the-seals-kings-lynn-town-h/",
       "published": "2026-08-16T20:06:22Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Toby Savin, Kian Jenkins, Matt Jay | Tonbridge Angels (A)",
+      "url": "https://torquayunited.com/toby-savin-kian-jenkins-matt-jay-tonbridge-angels-a/",
+      "published": "2026-08-16T19:25:08Z"
     }
   ]
 }
