@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-18T08:10:08Z",
+  "generatedAt": "2026-08-18T08:58:31Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7fc62e367a50>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7fc62df564d0>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Introducing Dale St Kitchen",
+      "url": "https://rochdaleafc.co.uk/dale-st-kitchen-0826/",
+      "published": "2026-08-18T08:55:03Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Ticket Information: Oxford City (H)",
+      "url": "https://spennymoortownfc.co.uk/2026/08/18/ticket-information-oxford-city-h-3/",
+      "published": "2026-08-18T08:49:33Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Match Preview: Norwich City PL2",
+      "url": "https://hornchurchfc.com/match-preview-norwich-city-pl2/",
+      "published": "2026-08-18T08:05:39Z"
+    },
     {
       "club": "Hornchurch",
       "code": "HOR",
@@ -1453,33 +1480,6 @@
       "title": "Post Match | Neil After The 1-1 Draw With Buxton",
       "url": "https://southportfc.net/post-match-neil-after-the-1-1-draw-with-buxton/",
       "published": "2026-08-15T20:32:41Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Macclesfield (A) Post-Match Reaction | Brad Jackson",
-      "url": "https://radcliffefc.com/macclesfield-a-post-match-reaction-brad-jackson/",
-      "published": "2026-08-15T20:14:09Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Macclesfield (A) Post-Match Reaction | Bernard Morley",
-      "url": "https://radcliffefc.com/macclesfield-a-post-match-reaction-bernard-morley/",
-      "published": "2026-08-15T20:02:32Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "HIGHLIGHTS | South Shields FC 2-1 Chorley FC | Enterprise National League North",
-      "url": "https://www.southshieldsfc.co.uk/highlights-south-shields-fc-2-1-chorley-fc-enterprise-national-league-north/",
-      "published": "2026-08-15T19:56:51Z"
     }
   ]
 }
