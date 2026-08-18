@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-17T23:38:27Z",
+  "generatedAt": "2026-08-18T00:03:52Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3844,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,15 +582,6 @@
   ],
   "items": [
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "TONBRIDGE ANGELS U18 4 HORSHAM U18 4",
-      "url": "https://www.horshamfc.co.uk/2026/08/18/tonbridge-angels-u18-4-horsham-u18-4/",
-      "published": "2026-08-17T23:31:19Z"
-    },
-    {
       "club": "York City",
       "code": "YOR",
       "short": "York",
@@ -598,15 +589,6 @@
       "title": "U18s Match Preview | Lincoln City U18s (A) | Wednesday 19th August",
       "url": "https://yorkcityfootballclub.co.uk/u18s-match-preview-lincoln-city-u18s-a-wednesday-19th-august/",
       "published": "2026-08-17T23:02:07Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Watch the Daggers Live from the Clubhouse",
-      "url": "https://daggers.co.uk/watch-the-daggers-live-from-the-clubhouse/",
-      "published": "2026-08-17T20:07:29Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -834,15 +816,6 @@
       "published": "2026-08-17T13:26:58Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "CARR & COBB SIGN ON AS OFFICIAL LEGAL PARTNER OF HORSHAM FC",
-      "url": "https://www.horshamfc.co.uk/2026/08/17/carr-cobb-sign-on-as-official-legal-partner-of-horsham-fc/",
-      "published": "2026-08-17T13:21:39Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -859,15 +832,6 @@
       "title": "Your Matchday Guide: Norwich City PL2",
       "url": "https://hornchurchfc.com/your-matchday-guide-norwich-city-pl2/",
       "published": "2026-08-17T12:57:15Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "26/27 Match Preview: Walton & Hersham (A)",
-      "url": "https://daggers.co.uk/26-27-match-preview-walton-hersham-a/",
-      "published": "2026-08-17T12:45:08Z"
     },
     {
       "club": "Boreham Wood",
@@ -913,15 +877,6 @@
       "title": "Match Preview: Morecambe (A)",
       "url": "https://www.southshieldsfc.co.uk/match_preview_morecambe_a/",
       "published": "2026-08-17T10:55:26Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Preview – Hampton & Richmond Borough",
-      "url": "https://www.horshamfc.co.uk/2026/08/17/match-preview-hampton-richmond-borough-3/",
-      "published": "2026-08-17T10:50:51Z"
     },
     {
       "club": "Tonbridge Angels",
@@ -996,15 +951,6 @@
       "published": "2026-08-17T09:45:06Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Tickets & Travel | Fylde (A)",
-      "url": "https://www.fgr.co.uk/news/ticktes-and-travel-fylde-a/",
-      "published": "2026-08-17T09:45:00Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1032,15 +978,6 @@
       "published": "2026-08-17T09:21:12Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "50/50 Result: Farnham Town",
-      "url": "https://daggers.co.uk/50-50-result-farnham-town/",
-      "published": "2026-08-17T09:03:23Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1048,15 +985,6 @@
       "title": "GALLERY 2 | Hereford FC 1-0 Marine AFC",
       "url": "https://herefordfc.co.uk/2026/08/gallery-2-hereford-fc-1-0-marine-afc/",
       "published": "2026-08-17T09:00:01Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Highlights | Worthing (A)",
-      "url": "https://www.fgr.co.uk/news/match-highlights-worthing-a /",
-      "published": "2026-08-17T09:00:00Z"
     },
     {
       "club": "Hornchurch",
@@ -1329,15 +1257,6 @@
       "published": "2026-08-16T11:16:29Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham 0 Salisbury 0",
-      "url": "https://www.horshamfc.co.uk/2026/08/16/horsham-0-salisbury-0/",
-      "published": "2026-08-16T11:00:11Z"
-    },
-    {
       "club": "Enfield Town",
       "code": "ENF",
       "short": "Enfield",
@@ -1419,15 +1338,6 @@
       "published": "2026-08-16T08:38:55Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Live Football at the Daggers: Sunday 16 August",
-      "url": "https://daggers.co.uk/live-football-at-the-daggers-sunday-16-august/",
-      "published": "2026-08-16T08:08:09Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1480,6 +1390,96 @@
       "title": "Worthing FC 1-2 Forest Green Rovers | Match Highlights",
       "url": "https://worthingfc.com/2026/08/worthing-fc-1-2-forest-green-rovers-match-highlights/",
       "published": "2026-08-15T21:20:03Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Wonder Save Denies Angels Point",
+      "url": "https://tonbridgeangels.co.uk/wonder-save-denies-angels-point/",
+      "published": "2026-08-15T21:15:30Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "“𝗜 𝗱𝗼𝗻’𝘁 𝘀𝗰𝗼𝗿𝗲 𝗺𝗮𝗻𝘆 𝗻𝗼𝘄” | Scot Bennett post – Hampton & Richmond (H)",
+      "url": "https://wsmafc.co.uk/%f0%9d%97%9c-%f0%9d%97%b1%f0%9d%97%bc%f0%9d%97%bb%f0%9d%98%81-%f0%9d%98%80%f0%9d%97%b0%f0%9d%97%bc%f0%9d%97%bf%f0%9d%97%b2-%f0%9d%97%ba%f0%9d%97%ae%f0%9d%97%bb%f0%9d%98%86-%f0%9d%97%bb%f0%9d%97%bc/",
+      "published": "2026-08-15T21:00:05Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Match Report: Yeovil Town 1-1 Carlisle United",
+      "url": "https://ytfc.net/2026/08/match-report-yeovil-town-1-1-carlisle-united-2/",
+      "published": "2026-08-15T20:52:53Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Gallery: WsM AFC 3 – 0 Hampton & Richmond",
+      "url": "https://wsmafc.co.uk/gallery-hampton-home-2627/",
+      "published": "2026-08-15T20:40:49Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Post Match | Neil After The 1-1 Draw With Buxton",
+      "url": "https://southportfc.net/post-match-neil-after-the-1-1-draw-with-buxton/",
+      "published": "2026-08-15T20:32:41Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Macclesfield (A) Post-Match Reaction | Brad Jackson",
+      "url": "https://radcliffefc.com/macclesfield-a-post-match-reaction-brad-jackson/",
+      "published": "2026-08-15T20:14:09Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Macclesfield (A) Post-Match Reaction | Bernard Morley",
+      "url": "https://radcliffefc.com/macclesfield-a-post-match-reaction-bernard-morley/",
+      "published": "2026-08-15T20:02:32Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "HIGHLIGHTS | South Shields FC 2-1 Chorley FC | Enterprise National League North",
+      "url": "https://www.southshieldsfc.co.uk/highlights-south-shields-fc-2-1-chorley-fc-enterprise-national-league-north/",
+      "published": "2026-08-15T19:56:51Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Report: Seagulls make it two from two at The Optima",
+      "url": "https://wsmafc.co.uk/report-hampton-home-2627/",
+      "published": "2026-08-15T19:45:35Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "GOALS | South Shields FC 2-1 Chorley FC | Enterprise National League North",
+      "url": "https://www.southshieldsfc.co.uk/goals-south-shields-fc-2-1-chorley-fc-enterprise-national-league-north/",
+      "published": "2026-08-15T19:40:40Z"
     }
   ]
 }
