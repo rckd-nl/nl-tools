@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-18T02:06:04Z",
+  "generatedAt": "2026-08-18T03:24:56Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7ff2ef1ec850>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7fae53cac590>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "https://www.southshieldsfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7ff2eefff450>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7fae53e525d0>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -589,6 +589,15 @@
       "title": "U18s Match Preview | Lincoln City U18s (A) | Wednesday 19th August",
       "url": "https://yorkcityfootballclub.co.uk/u18s-match-preview-lincoln-city-u18s-a-wednesday-19th-august/",
       "published": "2026-08-17T23:02:07Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Watch the Daggers Live from the Clubhouse",
+      "url": "https://daggers.co.uk/watch-the-daggers-live-from-the-clubhouse/",
+      "published": "2026-08-17T20:07:29Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -834,6 +843,15 @@
       "published": "2026-08-17T12:57:15Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "26/27 Match Preview: Walton & Hersham (A)",
+      "url": "https://daggers.co.uk/26-27-match-preview-walton-hersham-a/",
+      "published": "2026-08-17T12:45:08Z"
+    },
+    {
       "club": "Boreham Wood",
       "code": "BHW",
       "short": "Boreham Wood",
@@ -870,15 +888,6 @@
       "published": "2026-08-17T11:25:44Z"
     },
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Match Preview: Morecambe (A)",
-      "url": "https://www.southshieldsfc.co.uk/match_preview_morecambe_a/",
-      "published": "2026-08-17T10:55:26Z"
-    },
-    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -895,15 +904,6 @@
       "title": "Tickets: Woking (H)",
       "url": "https://hornchurchfc.com/tickets-woking-h/",
       "published": "2026-08-17T10:20:19Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "FEATURE | Martin Smith on coaching & playing from the frontlines",
-      "url": "https://gateshead-fc.com/feature-martin-smith-on-coaching-playing-from-the-frontlines/",
-      "published": "2026-08-17T10:19:30Z"
     },
     {
       "club": "Hornchurch",
@@ -985,6 +985,15 @@
       "title": "New Pitch Perimeter Rules for 2026/27",
       "url": "https://chesterfc.com/08/17/new-pitch-perimeter-rules-for-2026-27/",
       "published": "2026-08-17T09:21:12Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "50/50 Result: Farnham Town",
+      "url": "https://daggers.co.uk/50-50-result-farnham-town/",
+      "published": "2026-08-17T09:03:23Z"
     },
     {
       "club": "Hereford",
@@ -1158,15 +1167,6 @@
       "published": "2026-08-16T16:45:00Z"
     },
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Next Match | Away At Hednesford Town Tuesday 7.45pm",
-      "url": "https://southportfc.net/next-match-away-at-hednesford-town-tuesday-7-45pm/",
-      "published": "2026-08-16T16:33:32Z"
-    },
-    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -1266,15 +1266,6 @@
       "published": "2026-08-16T11:22:59Z"
     },
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Match Highlights Southport v Buxton",
-      "url": "https://southportfc.net/match-highlights-southport-v-buxton/",
-      "published": "2026-08-16T11:16:29Z"
-    },
-    {
       "club": "Enfield Town",
       "code": "ENF",
       "short": "Enfield",
@@ -1354,6 +1345,15 @@
       "title": "Up Next: Dover Athletic vs Tonbridge Angels",
       "url": "https://doverathletic.com/news/up-next-dover-athletic-vs-tonbridge-angels-3/",
       "published": "2026-08-16T08:38:55Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Live Football at the Daggers: Sunday 16 August",
+      "url": "https://daggers.co.uk/live-football-at-the-daggers-sunday-16-august/",
+      "published": "2026-08-16T08:08:09Z"
     },
     {
       "club": "Maidstone United",
@@ -1446,15 +1446,6 @@
       "published": "2026-08-15T20:40:49Z"
     },
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Post Match | Neil After The 1-1 Draw With Buxton",
-      "url": "https://southportfc.net/post-match-neil-after-the-1-1-draw-with-buxton/",
-      "published": "2026-08-15T20:32:41Z"
-    },
-    {
       "club": "Radcliffe",
       "code": "RAD",
       "short": "Radcliffe",
@@ -1473,13 +1464,22 @@
       "published": "2026-08-15T20:02:32Z"
     },
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "HIGHLIGHTS | South Shields FC 2-1 Chorley FC | Enterprise National League North",
-      "url": "https://www.southshieldsfc.co.uk/highlights-south-shields-fc-2-1-chorley-fc-enterprise-national-league-north/",
-      "published": "2026-08-15T19:56:51Z"
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Report: Seagulls make it two from two at The Optima",
+      "url": "https://wsmafc.co.uk/report-hampton-home-2627/",
+      "published": "2026-08-15T19:45:35Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Match Report | Maidenhead United 0-0 Dorking Wanderers 15/08/26",
+      "url": "https://dwfc.co.uk/2026/08/match-report-maidenhead-united-0-0-dorking-wanderers-15-08-26/",
+      "published": "2026-08-15T19:11:48Z"
     }
   ]
 }
