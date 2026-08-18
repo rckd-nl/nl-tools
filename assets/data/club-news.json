@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-18T10:48:54Z",
+  "generatedAt": "2026-08-18T11:12:23Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3844,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "PROGRAMME | Hereford FC vs Radcliffe FC",
+      "url": "https://herefordfc.co.uk/2026/08/programme-hereford-fc-vs-radcliffe-fc-2/",
+      "published": "2026-08-18T11:00:57Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Matchworn Anniversary Shirts Available Via Auction",
+      "url": "https://southendunited.co.uk/news/2026/august/18/matchworn/",
+      "published": "2026-08-18T10:46:46Z"
+    },
     {
       "club": "Macclesfield",
       "code": "MAC",
@@ -1140,15 +1158,6 @@
       "published": "2026-08-17T09:45:06Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Tickets & Travel | Fylde (A)",
-      "url": "https://www.fgr.co.uk/news/ticktes-and-travel-fylde-a/",
-      "published": "2026-08-17T09:45:00Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1192,15 +1201,6 @@
       "title": "GALLERY 2 | Hereford FC 1-0 Marine AFC",
       "url": "https://herefordfc.co.uk/2026/08/gallery-2-hereford-fc-1-0-marine-afc/",
       "published": "2026-08-17T09:00:01Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Highlights | Worthing (A)",
-      "url": "https://www.fgr.co.uk/news/match-highlights-worthing-a /",
-      "published": "2026-08-17T09:00:00Z"
     },
     {
       "club": "Hornchurch",
