@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-18T04:00:47Z",
+  "generatedAt": "2026-08-18T04:54:53Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -48,7 +48,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Morecambe",
@@ -209,14 +209,6 @@
       "ok": false,
       "count": 0,
       "error": "Feed returned 0 usable items"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
     },
     {
       "club": "Eastbourne Borough",

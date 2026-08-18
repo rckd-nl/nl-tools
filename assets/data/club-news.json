@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-18T04:00:47Z",
+  "generatedAt": "2026-08-18T04:54:53Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -598,6 +598,15 @@
       "title": "U18s Match Preview | Lincoln City U18s (A) | Wednesday 19th August",
       "url": "https://yorkcityfootballclub.co.uk/u18s-match-preview-lincoln-city-u18s-a-wednesday-19th-august/",
       "published": "2026-08-17T23:02:07Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Watch the Daggers Live from the Clubhouse",
+      "url": "https://daggers.co.uk/watch-the-daggers-live-from-the-clubhouse/",
+      "published": "2026-08-17T20:07:29Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -852,6 +861,15 @@
       "published": "2026-08-17T12:57:15Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "26/27 Match Preview: Walton & Hersham (A)",
+      "url": "https://daggers.co.uk/26-27-match-preview-walton-hersham-a/",
+      "published": "2026-08-17T12:45:08Z"
+    },
+    {
       "club": "Boreham Wood",
       "code": "BHW",
       "short": "Boreham Wood",
@@ -1003,6 +1021,15 @@
       "title": "New Pitch Perimeter Rules for 2026/27",
       "url": "https://chesterfc.com/08/17/new-pitch-perimeter-rules-for-2026-27/",
       "published": "2026-08-17T09:21:12Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "50/50 Result: Farnham Town",
+      "url": "https://daggers.co.uk/50-50-result-farnham-town/",
+      "published": "2026-08-17T09:03:23Z"
     },
     {
       "club": "Hereford",
@@ -1374,6 +1401,15 @@
       "published": "2026-08-16T08:38:55Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Live Football at the Daggers: Sunday 16 August",
+      "url": "https://daggers.co.uk/live-football-at-the-daggers-sunday-16-august/",
+      "published": "2026-08-16T08:08:09Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1444,42 +1480,6 @@
       "title": "“𝗜 𝗱𝗼𝗻’𝘁 𝘀𝗰𝗼𝗿𝗲 𝗺𝗮𝗻𝘆 𝗻𝗼𝘄” | Scot Bennett post – Hampton & Richmond (H)",
       "url": "https://wsmafc.co.uk/%f0%9d%97%9c-%f0%9d%97%b1%f0%9d%97%bc%f0%9d%97%bb%f0%9d%98%81-%f0%9d%98%80%f0%9d%97%b0%f0%9d%97%bc%f0%9d%97%bf%f0%9d%97%b2-%f0%9d%97%ba%f0%9d%97%ae%f0%9d%97%bb%f0%9d%98%86-%f0%9d%97%bb%f0%9d%97%bc/",
       "published": "2026-08-15T21:00:05Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Match Report: Yeovil Town 1-1 Carlisle United",
-      "url": "https://ytfc.net/2026/08/match-report-yeovil-town-1-1-carlisle-united-2/",
-      "published": "2026-08-15T20:52:53Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Gallery: WsM AFC 3 – 0 Hampton & Richmond",
-      "url": "https://wsmafc.co.uk/gallery-hampton-home-2627/",
-      "published": "2026-08-15T20:40:49Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Post Match | Neil After The 1-1 Draw With Buxton",
-      "url": "https://southportfc.net/post-match-neil-after-the-1-1-draw-with-buxton/",
-      "published": "2026-08-15T20:32:41Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Macclesfield (A) Post-Match Reaction | Brad Jackson",
-      "url": "https://radcliffefc.com/macclesfield-a-post-match-reaction-brad-jackson/",
-      "published": "2026-08-15T20:14:09Z"
     }
   ]
 }
