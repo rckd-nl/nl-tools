@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-18T20:42:23Z",
+  "generatedAt": "2026-08-18T21:16:45Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7fd77cd14d10>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7fd77e788b10>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,42 @@
     }
   ],
   "items": [
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City 2 Southampton 1 – Match Report",
+      "url": "https://trurocity.co.uk/2026/08/truro-city-2-southampton-1-match-report/",
+      "published": "2026-08-18T20:57:02Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "REPORT: UNITED 0 – 0 WESTON",
+      "url": "https://torquayunited.com/report-united-0-0-weston/",
+      "published": "2026-08-18T20:47:36Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Match Report: Folkestone Invicta",
+      "url": "https://maidstoneunited.co.uk/08/18/match-report-folkestone-invicta-2/",
+      "published": "2026-08-18T20:47:35Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Dover Athletic 0-1 Tonbridge Angels",
+      "url": "https://tonbridgeangels.co.uk/dover-athletic-0-1-tonbridge-angels/",
+      "published": "2026-08-18T20:43:05Z"
+    },
     {
       "club": "York City",
       "code": "YOR",
@@ -670,15 +706,6 @@
       "title": "Key info: Folkestone Invicta",
       "url": "https://maidstoneunited.co.uk/08/18/key-info-folkestone-invicta-2/",
       "published": "2026-08-18T17:00:45Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham Women recruiting at Open Training this Wednesday",
-      "url": "https://www.horshamfc.co.uk/2026/08/18/horsham-women-recruiting-at-open-training-this-wednesday/",
-      "published": "2026-08-18T16:50:28Z"
     },
     {
       "club": "Hereford",
@@ -1068,15 +1095,6 @@
       "published": "2026-08-18T07:30:57Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "TONBRIDGE ANGELS U18 4 HORSHAM U18 4",
-      "url": "https://www.horshamfc.co.uk/2026/08/18/tonbridge-angels-u18-4-horsham-u18-4/",
-      "published": "2026-08-17T23:31:19Z"
-    },
-    {
       "club": "York City",
       "code": "YOR",
       "short": "York",
@@ -1329,15 +1347,6 @@
       "published": "2026-08-17T13:26:58Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "CARR & COBB SIGN ON AS OFFICIAL LEGAL PARTNER OF HORSHAM FC",
-      "url": "https://www.horshamfc.co.uk/2026/08/17/carr-cobb-sign-on-as-official-legal-partner-of-horsham-fc/",
-      "published": "2026-08-17T13:21:39Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1408,15 +1417,6 @@
       "title": "Match Preview: Morecambe (A)",
       "url": "https://www.southshieldsfc.co.uk/match_preview_morecambe_a/",
       "published": "2026-08-17T10:55:26Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Preview – Hampton & Richmond Borough",
-      "url": "https://www.horshamfc.co.uk/2026/08/17/match-preview-hampton-richmond-borough-3/",
-      "published": "2026-08-17T10:50:51Z"
     },
     {
       "club": "Tonbridge Angels",
