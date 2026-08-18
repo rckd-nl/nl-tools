@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-18T13:10:53Z",
+  "generatedAt": "2026-08-18T14:04:21Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -48,7 +48,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "ReadTimeout: HTTPSConnectionPool(host='fgr.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Morecambe",
