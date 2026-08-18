@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-18T11:12:23Z",
+  "generatedAt": "2026-08-18T11:41:59Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3844,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Women Playing At COA On Sunday",
+      "url": "https://rochdaleafc.co.uk/women-playing-at-coa-on-sunday/",
+      "published": "2026-08-18T11:37:44Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Folkestone Invicta",
+      "url": "https://maidstoneunited.co.uk/08/18/key-info-folkestone-invicta-2/",
+      "published": "2026-08-18T11:30:45Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Chloe Checks In",
+      "url": "https://maidstoneunited.co.uk/08/18/chloe-checks-in/",
+      "published": "2026-08-18T11:00:59Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -787,15 +814,6 @@
       "title": "Quay Points | Tonbridge Angels (A) | Performance Breakdown",
       "url": "https://torquayunited.com/quay-points-tonbridge-angels-a-performance-breakdown/",
       "published": "2026-08-17T18:42:51Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Folkestone Invicta",
-      "url": "https://maidstoneunited.co.uk/08/17/key-info-folkestone-invicta-2/",
-      "published": "2026-08-17T18:00:45Z"
     },
     {
       "club": "Worthing",
@@ -1158,6 +1176,15 @@
       "published": "2026-08-17T09:45:06Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Tickets & Travel | Fylde (A)",
+      "url": "https://www.fgr.co.uk/news/ticktes-and-travel-fylde-a/",
+      "published": "2026-08-17T09:45:00Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1201,6 +1228,15 @@
       "title": "GALLERY 2 | Hereford FC 1-0 Marine AFC",
       "url": "https://herefordfc.co.uk/2026/08/gallery-2-hereford-fc-1-0-marine-afc/",
       "published": "2026-08-17T09:00:01Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Highlights | Worthing (A)",
+      "url": "https://www.fgr.co.uk/news/match-highlights-worthing-a /",
+      "published": "2026-08-17T09:00:00Z"
     },
     {
       "club": "Hornchurch",
@@ -1444,42 +1480,6 @@
       "title": "Torquay United x Mission Motorsport",
       "url": "https://torquayunited.com/torquay-united-x-mission-motorsport/",
       "published": "2026-08-16T12:00:00Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Tickets and travel details for Boston United",
-      "url": "https://altrinchamfc.com/blogs/news/tickets-and-travel-details-for-boston-united",
-      "published": "2026-08-16T11:55:04Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Churchill Fire & Security continue Stones partnership",
-      "url": "https://maidstoneunited.co.uk/08/16/churchill-fire-security-continue-stones-partnership/",
-      "published": "2026-08-16T11:31:30Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Match Highlights Southport v Buxton",
-      "url": "https://southportfc.net/match-highlights-southport-v-buxton/",
-      "published": "2026-08-16T11:16:29Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham 0 Salisbury 0",
-      "url": "https://www.horshamfc.co.uk/2026/08/16/horsham-0-salisbury-0/",
-      "published": "2026-08-16T11:00:11Z"
     }
   ]
 }
