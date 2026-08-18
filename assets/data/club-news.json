@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-18T15:49:14Z",
+  "generatedAt": "2026-08-18T16:07:41Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -978,6 +978,15 @@
       "published": "2026-08-18T07:30:57Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "TONBRIDGE ANGELS U18 4 HORSHAM U18 4",
+      "url": "https://www.horshamfc.co.uk/2026/08/18/tonbridge-angels-u18-4-horsham-u18-4/",
+      "published": "2026-08-17T23:31:19Z"
+    },
+    {
       "club": "York City",
       "code": "YOR",
       "short": "York",
@@ -1230,6 +1239,15 @@
       "published": "2026-08-17T13:26:58Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "CARR & COBB SIGN ON AS OFFICIAL LEGAL PARTNER OF HORSHAM FC",
+      "url": "https://www.horshamfc.co.uk/2026/08/17/carr-cobb-sign-on-as-official-legal-partner-of-horsham-fc/",
+      "published": "2026-08-17T13:21:39Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1300,6 +1318,15 @@
       "title": "Match Preview: Morecambe (A)",
       "url": "https://www.southshieldsfc.co.uk/match_preview_morecambe_a/",
       "published": "2026-08-17T10:55:26Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Preview – Hampton & Richmond Borough",
+      "url": "https://www.horshamfc.co.uk/2026/08/17/match-preview-hampton-richmond-borough-3/",
+      "published": "2026-08-17T10:50:51Z"
     },
     {
       "club": "Tonbridge Angels",
@@ -1453,33 +1480,6 @@
       "title": "Report: Barrow AFC (A)",
       "url": "https://hornchurchfc.com/report-barrow-afc-a/",
       "published": "2026-08-17T08:48:33Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Folkestone Invicta Away Tickets Now Live",
-      "url": "https://chelmsfordcityfc.com/news/folkestone-invicta-away-tickets-now-live/",
-      "published": "2026-08-17T08:23:59Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Dale Begin Season With Five-Star Victory",
-      "url": "https://rochdaleafc.co.uk/dale-begin-season-with-five-star-victory/",
-      "published": "2026-08-17T06:56:00Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Defeat At Doncaster",
-      "url": "https://rochdaleafc.co.uk/defeat-at-doncaster-150826/",
-      "published": "2026-08-17T01:30:17Z"
     }
   ]
 }
