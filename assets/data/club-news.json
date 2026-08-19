@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-19T14:55:58Z",
+  "generatedAt": "2026-08-19T15:48:55Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -1014,6 +1014,15 @@
       "published": "2026-08-19T08:00:30Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Hampton & Richmond Borough",
+      "url": "https://www.horshamfc.co.uk/2026/08/19/match-report-hampton-richmond-borough-3/",
+      "published": "2026-08-19T07:55:03Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1257,6 +1266,15 @@
       "published": "2026-08-18T17:00:45Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham Women recruiting at Open Training this Wednesday",
+      "url": "https://www.horshamfc.co.uk/2026/08/18/horsham-women-recruiting-at-open-training-this-wednesday/",
+      "published": "2026-08-18T16:50:28Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1462,24 +1480,6 @@
       "title": "Extra Tickets | Rotherham United (A)",
       "url": "https://yorkcityfootballclub.co.uk/extra-tickets-rotherham-united-a/",
       "published": "2026-08-18T11:43:18Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Women Playing At COA On Sunday",
-      "url": "https://rochdaleafc.co.uk/women-playing-at-coa-on-sunday/",
-      "published": "2026-08-18T11:37:44Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Chloe checks in",
-      "url": "https://maidstoneunited.co.uk/08/18/chloe-checks-in/",
-      "published": "2026-08-18T11:00:59Z"
     }
   ]
 }
