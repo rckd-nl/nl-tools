@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-19T20:05:41Z",
+  "generatedAt": "2026-08-19T20:49:28Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -780,15 +780,6 @@
       "published": "2026-08-19T12:40:31Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Saturday Football v Torquay United",
-      "url": "https://daggers.co.uk/saturday-football-v-torquay-united/",
-      "published": "2026-08-19T12:37:14Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -823,15 +814,6 @@
       "title": "Worthing FC 1-2 West Ham United U21s | Match Highlights",
       "url": "https://worthingfc.com/2026/08/worthing-fc-1-2-west-ham-united-u21s-match-highlights/",
       "published": "2026-08-19T12:01:17Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "26/27 Match Report: Walton & Hersham (A)",
-      "url": "https://daggers.co.uk/26-27-match-report-walton-hersham-a/",
-      "published": "2026-08-19T12:00:53Z"
     },
     {
       "club": "Radcliffe",
@@ -1480,6 +1462,24 @@
       "title": "MATCH PREVIEW: SPALDING UNITED VS MACCLESFIELD FC",
       "url": "https://macclesfieldfc.com/latest-news/match-preview-spalding-united-vs-macclesfield-fc/",
       "published": "2026-08-18T13:00:31Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Tickets and travel details for Boston United",
+      "url": "https://altrinchamfc.com/blogs/news/tickets-and-travel-details-for-boston-united",
+      "published": "2026-08-18T12:45:13Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City Podcast – Episode 3",
+      "url": "https://trurocity.co.uk/2026/08/truro-city-podcast-episode-3/",
+      "published": "2026-08-18T12:41:44Z"
     }
   ]
 }
