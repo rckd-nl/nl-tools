@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-19T08:19:33Z",
+  "generatedAt": "2026-08-19T09:19:27Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7ff30a159f90>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7ff30847e250>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,51 @@
     }
   ],
   "items": [
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "EFL Trophy Fixtures Confirmed",
+      "url": "https://rochdaleafc.co.uk/efl-trophy-fixtures-confirmed/",
+      "published": "2026-08-19T09:00:40Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Club Statement: Mark Hammond",
+      "url": "https://hornchurchfc.com/club-statement-mark-hammond/",
+      "published": "2026-08-19T09:00:37Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Jordan Dyer Suffers ACL injury",
+      "url": "https://torquayunited.com/jordan-dyer-suffers-acl-injury/",
+      "published": "2026-08-19T08:57:18Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "York City partner with Specsavers York & Vangarde",
+      "url": "https://yorkcityfootballclub.co.uk/york-city-partner-with-specsavers-york-vangarde/",
+      "published": "2026-08-19T08:56:31Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "John Rooney after Spalding point",
+      "url": "https://macclesfieldfc.com/latest-news/john-rooney-after-spalding-point/",
+      "published": "2026-08-19T08:53:08Z"
+    },
     {
       "club": "Torquay United",
       "code": "TOR",
@@ -708,6 +753,15 @@
       "published": "2026-08-18T21:15:27Z"
     },
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Hot Take: Folkestone Invicta (H)",
+      "url": "https://maidstoneunited.co.uk/08/18/hot-take-folkestone-invicta-h/",
+      "published": "2026-08-18T21:15:04Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -739,7 +793,7 @@
       "code": "TON",
       "short": "Tonbridge",
       "domain": "tonbridgeangels.co.uk",
-      "title": "Dover Athletic 0-1 Tonbridge Angels",
+      "title": "Angels Edge Past Ten-Man Dover",
       "url": "https://tonbridgeangels.co.uk/dover-athletic-0-1-tonbridge-angels/",
       "published": "2026-08-18T20:43:05Z"
     },
@@ -1410,15 +1464,6 @@
       "published": "2026-08-17T15:33:36Z"
     },
     {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Match Preview: Folkestone Invicta",
-      "url": "https://maidstoneunited.co.uk/08/17/match-preview-folkestone-invicta-2/",
-      "published": "2026-08-17T15:26:24Z"
-    },
-    {
       "club": "Curzon Ashton",
       "code": "CUR",
       "short": "Curzon Ashton",
@@ -1435,51 +1480,6 @@
       "title": "WOMENS FIRST TEAM OPPONENTS CONFIRMED",
       "url": "https://macclesfieldfc.com/latest-news/womens-first-team-opponents-confirmed/",
       "published": "2026-08-17T15:00:22Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Welcome to Farnborough: Dajon Golding",
-      "url": "https://farnboroughfc.co.uk/2026/08/welcome-to-farnborough-dajon-golding/",
-      "published": "2026-08-17T15:00:13Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Away Day Guide: Darlington (A)",
-      "url": "https://chesterfc.com/08/17/darlington-a/",
-      "published": "2026-08-17T15:00:04Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Preview: Torquay United v Weston",
-      "url": "https://wsmafc.co.uk/torquay-away-2627-preview/",
-      "published": "2026-08-17T14:00:21Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Flooring Products Direct Become the Reds’ Official National League Cup Partner",
-      "url": "https://worthingfc.com/2026/08/flooring-products-direct-become-the-reds-official-national-league-cup-partner/",
-      "published": "2026-08-17T13:26:58Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "REACTION | Match-winner Iwunze on Sinking Marine",
-      "url": "https://herefordfc.co.uk/2026/08/reaction-match-winner-iwunze-on-sinking-marine/",
-      "published": "2026-08-17T13:03:42Z"
     }
   ]
 }
