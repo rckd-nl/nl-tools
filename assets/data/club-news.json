@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-19T19:42:13Z",
+  "generatedAt": "2026-08-19T20:05:41Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3847,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Ticket Details: Hereford (A)",
+      "url": "https://chesterfc.com/08/19/hereford-a-2/",
+      "published": "2026-08-19T20:00:39Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Behind the Seals: Darlington (A)",
+      "url": "https://chesterfc.com/08/19/behind-the-seals-darlington-a/",
+      "published": "2026-08-19T19:47:57Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -699,15 +717,6 @@
       "published": "2026-08-19T13:55:39Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Picnic in the Park",
-      "url": "https://www.fgr.co.uk/news/picnic-in-the-park/",
-      "published": "2026-08-19T13:50:00Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -771,6 +780,15 @@
       "published": "2026-08-19T12:40:31Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Saturday Football v Torquay United",
+      "url": "https://daggers.co.uk/saturday-football-v-torquay-united/",
+      "published": "2026-08-19T12:37:14Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -805,6 +823,15 @@
       "title": "Worthing FC 1-2 West Ham United U21s | Match Highlights",
       "url": "https://worthingfc.com/2026/08/worthing-fc-1-2-west-ham-united-u21s-match-highlights/",
       "published": "2026-08-19T12:01:17Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "26/27 Match Report: Walton & Hersham (A)",
+      "url": "https://daggers.co.uk/26-27-match-report-walton-hersham-a/",
+      "published": "2026-08-19T12:00:53Z"
     },
     {
       "club": "Radcliffe",
@@ -888,15 +915,6 @@
       "published": "2026-08-19T11:23:48Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Partnership | ReeceR Group",
-      "url": "https://www.fgr.co.uk/news/partnership-reccer-group-2627/",
-      "published": "2026-08-19T11:00:00Z"
-    },
-    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -976,15 +994,6 @@
       "title": "GALLERY | Hereford FC 3-0 Radcliffe FC",
       "url": "https://herefordfc.co.uk/2026/08/gallery-hereford-fc-3-0-radcliffe-fc/",
       "published": "2026-08-19T10:17:07Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Youth Group Ticket Offer",
-      "url": "https://www.fgr.co.uk/news/north-stand-ticket-offer/",
-      "published": "2026-08-19T10:15:00Z"
     },
     {
       "club": "Hornchurch",
@@ -1471,15 +1480,6 @@
       "title": "MATCH PREVIEW: SPALDING UNITED VS MACCLESFIELD FC",
       "url": "https://macclesfieldfc.com/latest-news/match-preview-spalding-united-vs-macclesfield-fc/",
       "published": "2026-08-18T13:00:31Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Tickets and travel details for Boston United",
-      "url": "https://altrinchamfc.com/blogs/news/tickets-and-travel-details-for-boston-united",
-      "published": "2026-08-18T12:45:13Z"
     }
   ]
 }
