@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-19T13:24:43Z",
+  "generatedAt": "2026-08-19T14:02:19Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3846,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f91cc65a710>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f91ca9bf390>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Highlights: Folkestone Invicta",
+      "url": "https://maidstoneunited.co.uk/08/19/highlights-folkestone-invicta-2/",
+      "published": "2026-08-19T13:55:39Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Max Kinsey Post Southampton (h)",
+      "url": "https://trurocity.co.uk/2026/08/max-kinsey-post-southampton-h/",
+      "published": "2026-08-19T13:30:55Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Business Club Directory for 2026/27",
+      "url": "https://altrinchamfc.com/blogs/news/business-club-directory",
+      "published": "2026-08-19T13:27:41Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -589,15 +616,6 @@
       "title": "“𝗧𝗵𝗲 𝗹𝗮𝗱𝘀 𝘄𝗲𝗿𝗲 𝗱𝗶𝗳𝗳𝗲𝗿𝗲𝗻𝘁 𝗰𝗹𝗮𝘀𝘀” | Max Harris post – Torquay United (A)",
       "url": "https://wsmafc.co.uk/%f0%9d%97%a7%f0%9d%97%b5%f0%9d%97%b2-%f0%9d%97%b9%f0%9d%97%ae%f0%9d%97%b1%f0%9d%98%80-%f0%9d%98%84%f0%9d%97%b2%f0%9d%97%bf%f0%9d%97%b2-%f0%9d%97%b1%f0%9d%97%b6%f0%9d%97%b3%f0%9d%97%b3%f0%9d%97%b2/",
       "published": "2026-08-19T13:00:19Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "REPORT | Hereford FC 3-0 Radcliffe FC",
-      "url": "https://herefordfc.co.uk/2026/08/report-hereford-fc-3-0-radcliffe-fc/",
-      "published": "2026-08-19T12:59:28Z"
     },
     {
       "club": "Hornchurch",
@@ -744,15 +762,6 @@
       "published": "2026-08-19T11:23:48Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Partnership | ReeceR Group",
-      "url": "https://www.fgr.co.uk/news/partnership-reccer-group-2627/",
-      "published": "2026-08-19T11:00:00Z"
-    },
-    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -834,15 +843,6 @@
       "published": "2026-08-19T10:17:07Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Youth Group Ticket Offer",
-      "url": "https://www.fgr.co.uk/news/north-stand-ticket-offer/",
-      "published": "2026-08-19T10:15:00Z"
-    },
-    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -886,6 +886,15 @@
       "title": "Club Statement: Mark Hammond",
       "url": "https://hornchurchfc.com/club-statement-mark-hammond/",
       "published": "2026-08-19T09:00:37Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "REPORT | Hereford FC 3-0 Radcliffe FC",
+      "url": "https://herefordfc.co.uk/2026/08/report-hereford-fc-3-0-radcliffe-fc/",
+      "published": "2026-08-19T09:00:28Z"
     },
     {
       "club": "Torquay United",
@@ -940,6 +949,15 @@
       "title": "Bath City Women Need You in FA Cup opener this weekend",
       "url": "https://www.bathcityfc.com/bath-city-women-need-you-in-fa-cup-opener-this-weekend/",
       "published": "2026-08-19T08:00:34Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Hampton & Richmond Borough",
+      "url": "https://www.horshamfc.co.uk/2026/08/19/match-report-hampton-richmond-borough-3/",
+      "published": "2026-08-19T07:55:03Z"
     },
     {
       "club": "Maidstone United",
@@ -1185,6 +1203,15 @@
       "published": "2026-08-18T17:00:45Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham Women recruiting at Open Training this Wednesday",
+      "url": "https://www.horshamfc.co.uk/2026/08/18/horsham-women-recruiting-at-open-training-this-wednesday/",
+      "published": "2026-08-18T16:50:28Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1309,15 +1336,6 @@
       "title": "Union Golf Road offers free under-12 coach travel",
       "url": "https://altrinchamfc.com/blogs/news/union-golf-road-offers-free-under-12-coach-travel",
       "published": "2026-08-18T12:33:02Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Partnership | Smyths Toys",
-      "url": "https://www.fgr.co.uk/news/smyths-toys-2627/",
-      "published": "2026-08-18T12:30:00Z"
     },
     {
       "club": "Chester",
@@ -1462,24 +1480,6 @@
       "title": "Meet Tonight’s Community Champion!",
       "url": "https://torquayunited.com/meet-tonights-community-champion/",
       "published": "2026-08-18T10:00:00Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Snapdragons Nursery sponsor the Player of the Match trophy",
-      "url": "https://www.bathcityfc.com/snapdragons-nursery-sponsor-the-player-of-the-match-trophy/",
-      "published": "2026-08-18T09:53:35Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Sponsorship and Hospitality available for Spalding United (H)",
-      "url": "https://chesterfc.com/08/18/spalding-h/",
-      "published": "2026-08-18T09:39:12Z"
     }
   ]
 }
