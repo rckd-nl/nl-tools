@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-19T09:52:52Z",
+  "generatedAt": "2026-08-19T10:48:09Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "REACTION | Downes After Defiant Radcliffe Victory",
+      "url": "https://herefordfc.co.uk/2026/08/reaction-downes-after-defiant-radcliffe-victory/",
+      "published": "2026-08-19T10:33:19Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "The Pyramid joins the Wood family",
+      "url": "https://www.borehamwoodfootballclub.co.uk/the-pyramid-joins-the-wood-family/",
+      "published": "2026-08-19T10:18:19Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "GALLERY | Hereford FC 3-0 Radcliffe FC",
+      "url": "https://herefordfc.co.uk/2026/08/gallery-hereford-fc-3-0-radcliffe-fc/",
+      "published": "2026-08-19T10:17:07Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -645,6 +672,15 @@
       "published": "2026-08-19T08:53:08Z"
     },
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "FA Cup football returns to the Gallagher",
+      "url": "https://maidstoneunited.co.uk/08/19/fa-cup-football-returns-to-the-gallagher/",
+      "published": "2026-08-19T08:37:45Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -661,6 +697,15 @@
       "title": "Bath City Women Need You in FA Cup opener this weekend",
       "url": "https://www.bathcityfc.com/bath-city-women-need-you-in-fa-cup-opener-this-weekend/",
       "published": "2026-08-19T08:00:34Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Hampton & Richmond Borough",
+      "url": "https://www.horshamfc.co.uk/2026/08/19/match-report-hampton-richmond-borough-3/",
+      "published": "2026-08-19T07:55:03Z"
     },
     {
       "club": "Maidstone United",
@@ -904,6 +949,15 @@
       "title": "Key info: Folkestone Invicta",
       "url": "https://maidstoneunited.co.uk/08/18/key-info-folkestone-invicta-2/",
       "published": "2026-08-18T17:00:45Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham Women recruiting at Open Training this Wednesday",
+      "url": "https://www.horshamfc.co.uk/2026/08/18/horsham-women-recruiting-at-open-training-this-wednesday/",
+      "published": "2026-08-18T16:50:28Z"
     },
     {
       "club": "Hereford",
@@ -1257,15 +1311,6 @@
       "published": "2026-08-18T08:47:12Z"
     },
     {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "FA Cup football returns to the Gallagher",
-      "url": "https://maidstoneunited.co.uk/08/18/fa-cup-football-returns-to-the-gallagher/",
-      "published": "2026-08-18T08:37:45Z"
-    },
-    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -1300,6 +1345,15 @@
       "title": "Youth Team Begin Cup Campaign",
       "url": "https://rochdaleafc.co.uk/youth-team-begin-cup-campaign/",
       "published": "2026-08-18T07:30:57Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "TONBRIDGE ANGELS U18 4 HORSHAM U18 4",
+      "url": "https://www.horshamfc.co.uk/2026/08/18/tonbridge-angels-u18-4-horsham-u18-4/",
+      "published": "2026-08-17T23:31:19Z"
     },
     {
       "club": "York City",
@@ -1426,60 +1480,6 @@
       "title": "Fan Zone Set for Huge Weston Matchday",
       "url": "https://torquayunited.com/fan-zone-set-for-huge-weston-matchday/",
       "published": "2026-08-17T16:37:19Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Match Preview: Leeds United U21 (H)",
-      "url": "https://www.borehamwoodfootballclub.co.uk/match-preview-leeds-united-u21-h/",
-      "published": "2026-08-17T16:27:42Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "“𝗜𝘁’𝘀 𝗮 𝗴𝗮𝗺𝗲 𝗲𝘃𝗲𝗿𝘆𝗼𝗻𝗲 𝗹𝗼𝗼𝗸𝘀 𝗳𝗼𝗿𝘄𝗮𝗿𝗱 𝘁𝗼” | Scott Rogers pre – Torquay United (A)",
-      "url": "https://wsmafc.co.uk/%f0%9d%97%9c%f0%9d%98%81%f0%9d%98%80-%f0%9d%97%ae-%f0%9d%97%b4%f0%9d%97%ae%f0%9d%97%ba%f0%9d%97%b2-%f0%9d%97%b2%f0%9d%98%83%f0%9d%97%b2%f0%9d%97%bf%f0%9d%98%86%f0%9d%97%bc%f0%9d%97%bb%f0%9d%97%b2/",
-      "published": "2026-08-17T16:05:32Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Billy Davies joins Runcorn Town on loan",
-      "url": "https://chesterfc.com/08/17/billy-davies-joins-runcorn-town-on-loan/",
-      "published": "2026-08-17T16:00:35Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Dover Athletic Match Preview",
-      "url": "https://tonbridgeangels.co.uk/dover-athletic-match-preview/",
-      "published": "2026-08-17T16:00:00Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "JSL Window Cleaning Services Announced As Southend United's New Family Enclosure Partner",
-      "url": "https://southendunited.co.uk/news/2026/august/17/jsl-window-cleaning-services-announced-as-southend-united-s-new-family-enclosure-partner-/",
-      "published": "2026-08-17T15:46:46Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Statistical Review: Yeovil Town 1-1 Carlisle United",
-      "url": "https://ytfc.net/2026/08/statistical-review-yeovil-town-1-1-carlisle-united/",
-      "published": "2026-08-17T15:33:36Z"
     }
   ]
 }
