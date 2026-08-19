@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-19T20:49:28Z",
+  "generatedAt": "2026-08-19T21:08:44Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3847,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -717,6 +717,15 @@
       "published": "2026-08-19T13:55:39Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Picnic in the Park",
+      "url": "https://www.fgr.co.uk/news/picnic-in-the-park/",
+      "published": "2026-08-19T13:50:00Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -897,6 +906,15 @@
       "published": "2026-08-19T11:23:48Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Partnership | ReeceR Group",
+      "url": "https://www.fgr.co.uk/news/partnership-reccer-group-2627/",
+      "published": "2026-08-19T11:00:00Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -976,6 +994,15 @@
       "title": "GALLERY | Hereford FC 3-0 Radcliffe FC",
       "url": "https://herefordfc.co.uk/2026/08/gallery-hereford-fc-3-0-radcliffe-fc/",
       "published": "2026-08-19T10:17:07Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Youth Group Ticket Offer",
+      "url": "https://www.fgr.co.uk/news/north-stand-ticket-offer/",
+      "published": "2026-08-19T10:15:00Z"
     },
     {
       "club": "Hornchurch",
@@ -1453,33 +1480,6 @@
       "title": "Match Preview | Hereford (A)",
       "url": "https://radcliffefc.com/match-preview-hereford-a-3/",
       "published": "2026-08-18T13:05:42Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MATCH PREVIEW: SPALDING UNITED VS MACCLESFIELD FC",
-      "url": "https://macclesfieldfc.com/latest-news/match-preview-spalding-united-vs-macclesfield-fc/",
-      "published": "2026-08-18T13:00:31Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Tickets and travel details for Boston United",
-      "url": "https://altrinchamfc.com/blogs/news/tickets-and-travel-details-for-boston-united",
-      "published": "2026-08-18T12:45:13Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City Podcast – Episode 3",
-      "url": "https://trurocity.co.uk/2026/08/truro-city-podcast-episode-3/",
-      "published": "2026-08-18T12:41:44Z"
     }
   ]
 }
