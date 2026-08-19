@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-19T18:56:14Z",
+  "generatedAt": "2026-08-19T19:42:13Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City vs Southampton – Match Highlights",
+      "url": "https://trurocity.co.uk/2026/08/truro-city-vs-southampton-match-highlights/",
+      "published": "2026-08-19T19:13:38Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -762,15 +771,6 @@
       "published": "2026-08-19T12:40:31Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Saturday Football v Torquay United",
-      "url": "https://daggers.co.uk/saturday-football-v-torquay-united/",
-      "published": "2026-08-19T12:37:14Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -805,15 +805,6 @@
       "title": "Worthing FC 1-2 West Ham United U21s | Match Highlights",
       "url": "https://worthingfc.com/2026/08/worthing-fc-1-2-west-ham-united-u21s-match-highlights/",
       "published": "2026-08-19T12:01:17Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "26/27 Match Report: Walton & Hersham (A)",
-      "url": "https://daggers.co.uk/26-27-match-report-walton-hersham-a/",
-      "published": "2026-08-19T12:00:53Z"
     },
     {
       "club": "Radcliffe",
@@ -1122,6 +1113,15 @@
       "published": "2026-08-19T08:00:30Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Hampton & Richmond Borough",
+      "url": "https://www.horshamfc.co.uk/2026/08/19/match-report-hampton-richmond-borough-3/",
+      "published": "2026-08-19T07:55:03Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1365,6 +1365,15 @@
       "published": "2026-08-18T17:00:45Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham Women recruiting at Open Training this Wednesday",
+      "url": "https://www.horshamfc.co.uk/2026/08/18/horsham-women-recruiting-at-open-training-this-wednesday/",
+      "published": "2026-08-18T16:50:28Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1471,15 +1480,6 @@
       "title": "Tickets and travel details for Boston United",
       "url": "https://altrinchamfc.com/blogs/news/tickets-and-travel-details-for-boston-united",
       "published": "2026-08-18T12:45:13Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City Podcast – Episode 3",
-      "url": "https://trurocity.co.uk/2026/08/truro-city-podcast-episode-3/",
-      "published": "2026-08-18T12:41:44Z"
     }
   ]
 }
