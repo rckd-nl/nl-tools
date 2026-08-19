@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-19T17:42:29Z",
+  "generatedAt": "2026-08-19T18:15:27Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f5af6b53150>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://www.southshieldsfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f5af6a1be50>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Season Ticket and Match Ticket Category Reminder",
+      "url": "https://wsmafc.co.uk/st-mt-reminder/",
+      "published": "2026-08-19T18:00:14Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Steve Halford and Luke Clark depart Radcliffe",
+      "url": "https://radcliffefc.com/steve-halford-and-luke-clark-depart-radcliffe/",
+      "published": "2026-08-19T17:56:44Z"
+    },
     {
       "club": "Spennymoor Town",
       "code": "SPE",
@@ -753,6 +771,15 @@
       "published": "2026-08-19T12:20:27Z"
     },
     {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "SSFC Women make short trip to Boldon CA Ladies",
+      "url": "https://www.southshieldsfc.co.uk/ssfc-women-make-short-trip-to-boldon-ca-ladies/",
+      "published": "2026-08-19T12:09:05Z"
+    },
+    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -787,6 +814,15 @@
       "title": "Post-Darlington: Phil Parkinson",
       "url": "https://chesterfc.com/08/19/post-darlington-phil-parkinson/",
       "published": "2026-08-19T11:58:36Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "HIGHLIGHTS | Morecambe FC 0-1 South Shields FC | Enterprise National League North",
+      "url": "https://www.southshieldsfc.co.uk/highlights-morecambe-fc-0-1-south-shields-fc-enterprise-national-league-north/",
+      "published": "2026-08-19T11:54:48Z"
     },
     {
       "club": "Hartlepool United",
@@ -897,6 +933,15 @@
       "published": "2026-08-19T10:54:03Z"
     },
     {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Cedwyn Scott scores late winner for South Shields in Morecambe",
+      "url": "https://www.southshieldsfc.co.uk/cedwyn-scott-scores-late-winner-for-south-shields-in-morecambe/",
+      "published": "2026-08-19T10:53:08Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -949,6 +994,15 @@
       "title": "John Askey Post Southampton (h)",
       "url": "https://trurocity.co.uk/2026/08/john-askey-post-southampton-h-2/",
       "published": "2026-08-19T09:48:44Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "GOALS | Morecambe FC 0-1 South Shields FC | Enterprise National League North",
+      "url": "https://www.southshieldsfc.co.uk/goals-morecambe-fc-0-1-south-shields-fc-enterprise-national-league-north/",
+      "published": "2026-08-19T09:34:44Z"
     },
     {
       "club": "Hornchurch",
@@ -1041,13 +1095,13 @@
       "published": "2026-08-19T08:00:34Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Report – Hampton & Richmond Borough",
-      "url": "https://www.horshamfc.co.uk/2026/08/19/match-report-hampton-richmond-borough-3/",
-      "published": "2026-08-19T07:55:03Z"
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "💬 “Excellent to a man” MIKE WILLIAMSON POST MATCH MORECAMBE (A)",
+      "url": "https://www.southshieldsfc.co.uk/%f0%9f%92%ac-excellent-to-a-man-mike-williamson-post-match-morecambe-a/",
+      "published": "2026-08-19T08:00:30Z"
     },
     {
       "club": "Maidstone United",
@@ -1057,6 +1111,24 @@
       "title": "Key info: Dorking Wanderers",
       "url": "https://maidstoneunited.co.uk/08/19/key-info-dorking-wanderers-3/",
       "published": "2026-08-19T07:00:06Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "HEDNESFORD TOWN 2 SOUTHPORT 2",
+      "url": "https://southportfc.net/hednesford-town-2-southport-2/",
+      "published": "2026-08-19T05:26:22Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "NEXT MATCH | Home v Bedford Town Saturday August 22nd Kick Off 3pm",
+      "url": "https://southportfc.net/next-match-home-v-bedford-town-saturday-august-22nd-kick-off-3pm/",
+      "published": "2026-08-19T05:00:50Z"
     },
     {
       "club": "Maidstone United",
@@ -1275,15 +1347,6 @@
       "published": "2026-08-18T17:00:45Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham Women recruiting at Open Training this Wednesday",
-      "url": "https://www.horshamfc.co.uk/2026/08/18/horsham-women-recruiting-at-open-training-this-wednesday/",
-      "published": "2026-08-18T16:50:28Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1417,69 +1480,6 @@
       "title": "Partnership | Smyths Toys",
       "url": "https://www.fgr.co.uk/news/smyths-toys-2627/",
       "published": "2026-08-18T12:30:00Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Preview: Darlington (A)",
-      "url": "https://chesterfc.com/08/18/preview-darlington-a/",
-      "published": "2026-08-18T12:29:53Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "National League Cup Match Preview: Worthing FC vs West Ham United U21s",
-      "url": "https://worthingfc.com/2026/08/national-league-cup-match-preview-worthing-fc-vs-west-ham-united-u21s/",
-      "published": "2026-08-18T12:19:46Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City Lottery – Weekly Winners 14/08/26",
-      "url": "https://trurocity.co.uk/2026/08/truro-city-lottery-weekly-winners-14-08-26/",
-      "published": "2026-08-18T12:16:39Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Stewart Yetton Pre-Southampton (h)",
-      "url": "https://trurocity.co.uk/2026/08/stewart-yetton-pre-southampton-h/",
-      "published": "2026-08-18T12:01:36Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Sunrise Technologies Named Main Partner For 2026/27 Season",
-      "url": "https://southendunited.co.uk/news/2026/august/18/sunrise-technologies-named-main-partner-for-2026-27-season/",
-      "published": "2026-08-18T12:00:02Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Chelmsford City vs Truro City – Match Gallery",
-      "url": "https://trurocity.co.uk/2026/08/chelmsford-city-vs-truro-city-match-gallery/",
-      "published": "2026-08-18T11:54:27Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "ON THIS DAY: 18TH AUGUST 1994",
-      "url": "https://macclesfieldfc.com/latest-news/on-this-day-18th-august-1994/",
-      "published": "2026-08-18T11:52:08Z"
     }
   ]
 }
