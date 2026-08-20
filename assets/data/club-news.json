@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-20T07:44:01Z",
+  "generatedAt": "2026-08-20T08:21:42Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f4fc8f436d0>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f4fc8ddcfd0>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -550,10 +550,10 @@
     {
       "club": "Tonbridge Angels",
       "domain": "tonbridgeangels.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 500"
+      "feed": "https://tonbridgeangels.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Torquay United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Post Match | Neil & Sol",
+      "url": "https://southportfc.net/post-match-neil-sol/",
+      "published": "2026-08-20T07:38:58Z"
+    },
     {
       "club": "Truro City",
       "code": "TRU",
@@ -816,15 +825,6 @@
       "published": "2026-08-19T12:40:31Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Saturday Football v Torquay United",
-      "url": "https://daggers.co.uk/saturday-football-v-torquay-united/",
-      "published": "2026-08-19T12:37:14Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -859,15 +859,6 @@
       "title": "Worthing FC 1-2 West Ham United U21s | Match Highlights",
       "url": "https://worthingfc.com/2026/08/worthing-fc-1-2-west-ham-united-u21s-match-highlights/",
       "published": "2026-08-19T12:01:17Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "26/27 Match Report: Walton & Hersham (A)",
-      "url": "https://daggers.co.uk/26-27-match-report-walton-hersham-a/",
-      "published": "2026-08-19T12:00:53Z"
     },
     {
       "club": "Radcliffe",
@@ -957,6 +948,15 @@
       "domain": "fgr.co.uk",
       "title": "Partnership | ReeceR Group",
       "url": "https://www.fgr.co.uk/news/partnership-reccer-group-2627/",
+      "published": "2026-08-19T11:00:00Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "From Scooby Doo to an Angels Wedding",
+      "url": "https://tonbridgeangels.co.uk/from-scooby-doo-to-an-angels-wedding/",
       "published": "2026-08-19T11:00:00Z"
     },
     {
@@ -1167,6 +1167,15 @@
       "published": "2026-08-19T08:00:30Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Hampton & Richmond Borough",
+      "url": "https://www.horshamfc.co.uk/2026/08/19/match-report-hampton-richmond-borough-3/",
+      "published": "2026-08-19T07:55:03Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1320,6 +1329,15 @@
       "published": "2026-08-18T20:47:35Z"
     },
     {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Angels Edge Past Ten-Man Dover",
+      "url": "https://tonbridgeangels.co.uk/dover-athletic-0-1-tonbridge-angels/",
+      "published": "2026-08-18T20:43:05Z"
+    },
+    {
       "club": "York City",
       "code": "YOR",
       "short": "York",
@@ -1410,6 +1428,15 @@
       "published": "2026-08-18T17:00:45Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham Women recruiting at Open Training this Wednesday",
+      "url": "https://www.horshamfc.co.uk/2026/08/18/horsham-women-recruiting-at-open-training-this-wednesday/",
+      "published": "2026-08-18T16:50:28Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1453,33 +1480,6 @@
       "title": "2be Consultancy Continue As Goal Of The Month Partner For 2026/27",
       "url": "https://southendunited.co.uk/news/2026/august/18/2be-consultancy-continue-as-goal-of-the-month-partner-for-2026-27/",
       "published": "2026-08-18T13:41:38Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Yeovil Town and Westland Sports Football Club rekindle partnership",
-      "url": "https://ytfc.net/2026/08/yeovil-town-and-westland-sports-football-club-rekindle-partnership/",
-      "published": "2026-08-18T13:38:43Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City vs Southampton – Match Preview",
-      "url": "https://trurocity.co.uk/2026/08/truro-city-vs-southampton-match-preview/",
-      "published": "2026-08-18T13:33:18Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Ladies: Southend 1-0 Hertford Town",
-      "url": "https://southendunited.co.uk/news/2026/august/18/ladies--southend-united-1-0-hertford-town/",
-      "published": "2026-08-18T13:26:23Z"
     }
   ]
 }
