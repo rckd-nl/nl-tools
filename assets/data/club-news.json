@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-20T09:20:43Z",
+  "generatedAt": "2026-08-20T10:08:35Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,42 @@
   ],
   "items": [
     {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "TICKET INFO | Yeovil Town (A)",
+      "url": "https://gateshead-fc.com/ticket-info-yeovil-town-a/",
+      "published": "2026-08-20T10:02:48Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Clark calls for same mentality at Sutton",
+      "url": "https://www.hartlepoolunited.co.uk/clark-calls-for-same-mentality-at-sutton/",
+      "published": "2026-08-20T10:00:17Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Brad Simpson's Events Named as Southend United's New Hospitality Catering Partner",
+      "url": "https://southendunited.co.uk/news/2026/august/20/brad-simpson-s-events-named-as-southend-united-s-new-hospitality-catering-partner/",
+      "published": "2026-08-20T09:30:10Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Inviting Applications: Club Doctor",
+      "url": "https://chesterfc.com/08/20/clubdoctor/",
+      "published": "2026-08-20T09:27:37Z"
+    },
+    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -625,15 +661,6 @@
       "title": "Become A Friend Of Daisy The Dragon!",
       "url": "https://rochdaleafc.co.uk/become-a-friend-of-daisy-the-dragon/",
       "published": "2026-08-20T08:27:27Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Club Shop Open this Afternoon",
-      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-49/",
-      "published": "2026-08-20T08:24:38Z"
     },
     {
       "club": "Maidstone United",
@@ -897,15 +924,6 @@
       "published": "2026-08-19T12:40:31Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Saturday Football v Torquay United",
-      "url": "https://daggers.co.uk/saturday-football-v-torquay-united/",
-      "published": "2026-08-19T12:37:14Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -940,15 +958,6 @@
       "title": "Worthing FC 1-2 West Ham United U21s | Match Highlights",
       "url": "https://worthingfc.com/2026/08/worthing-fc-1-2-west-ham-united-u21s-match-highlights/",
       "published": "2026-08-19T12:01:17Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "26/27 Match Report: Walton & Hersham (A)",
-      "url": "https://daggers.co.uk/26-27-match-report-walton-hersham-a/",
-      "published": "2026-08-19T12:00:53Z"
     },
     {
       "club": "Radcliffe",
@@ -1257,6 +1266,15 @@
       "published": "2026-08-19T08:00:30Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Hampton & Richmond Borough",
+      "url": "https://www.horshamfc.co.uk/2026/08/19/match-report-hampton-richmond-borough-3/",
+      "published": "2026-08-19T07:55:03Z"
+    },
+    {
       "club": "Southport",
       "code": "SPT",
       "short": "Southport",
@@ -1462,24 +1480,6 @@
       "title": "Frank & Debra’s First Visit To Meadowbank",
       "url": "https://dwfc.co.uk/2026/08/frank-debras-first-visit-to-meadowbank/",
       "published": "2026-08-18T18:00:26Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "INTERVIEW | Iwunze Loving Life After Marine Winner",
-      "url": "https://herefordfc.co.uk/2026/08/interview-iwunze-loving-life-after-marine-winner/",
-      "published": "2026-08-18T17:54:04Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Welcome to Woking Anthony Georgiou",
-      "url": "https://wokingfc.co.uk/08/18/welcome-to-woking-anthony-georgiou/",
-      "published": "2026-08-18T17:30:33Z"
     }
   ]
 }
