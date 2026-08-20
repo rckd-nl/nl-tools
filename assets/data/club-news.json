@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-20T18:07:56Z",
+  "generatedAt": "2026-08-20T19:01:32Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "2026/27 Third Kit: Culture Never Washes Away",
+      "url": "https://southendunited.co.uk/news/2026/august/20/2026-27-third-kit--/",
+      "published": "2026-08-20T18:06:00Z"
+    },
     {
       "club": "Curzon Ashton",
       "code": "CUR",
@@ -931,15 +940,6 @@
       "title": "SILKMEN PARTNER WITH SINFIELD’S LEGACY LOCKER",
       "url": "https://macclesfieldfc.com/latest-news/silkmen-partner-with-sinfields-legacy-locker/",
       "published": "2026-08-20T11:00:04Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "A MESSAGE FROM THE FARRELL FAMILY",
-      "url": "https://www.horshamfc.co.uk/2026/08/20/a-message-from-the-farrell-family/",
-      "published": "2026-08-20T10:50:06Z"
     },
     {
       "club": "Southend United",
