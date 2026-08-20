@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-20T11:45:27Z",
+  "generatedAt": "2026-08-20T12:05:10Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -634,6 +634,15 @@
       "title": "SILKMEN PARTNER WITH SINFIELD’S LEGACY LOCKER",
       "url": "https://macclesfieldfc.com/latest-news/silkmen-partner-with-sinfields-legacy-locker/",
       "published": "2026-08-20T11:00:04Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "A MESSAGE FROM THE FARRELL FAMILY",
+      "url": "https://www.horshamfc.co.uk/2026/08/20/a-message-from-the-farrell-family/",
+      "published": "2026-08-20T10:50:06Z"
     },
     {
       "club": "Southend United",
@@ -1347,6 +1356,15 @@
       "published": "2026-08-19T08:00:30Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Hampton & Richmond Borough",
+      "url": "https://www.horshamfc.co.uk/2026/08/19/match-report-hampton-richmond-borough-3/",
+      "published": "2026-08-19T07:55:03Z"
+    },
+    {
       "club": "Southport",
       "code": "SPT",
       "short": "Southport",
@@ -1462,24 +1480,6 @@
       "title": "Match Report | Hereford 3-0 Radcliffe",
       "url": "https://radcliffefc.com/match-report-hereford-3-0-radcliffe/",
       "published": "2026-08-18T21:00:11Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City 2 Southampton 1 – Match Report",
-      "url": "https://trurocity.co.uk/2026/08/truro-city-2-southampton-1-match-report/",
-      "published": "2026-08-18T20:57:02Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "REPORT: UNITED 0 – 0 WESTON",
-      "url": "https://torquayunited.com/report-united-0-0-weston/",
-      "published": "2026-08-18T20:47:36Z"
     }
   ]
 }
