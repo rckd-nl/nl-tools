@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-20T00:01:45Z",
+  "generatedAt": "2026-08-20T01:54:46Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -1122,6 +1122,15 @@
       "published": "2026-08-19T08:00:30Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Hampton & Richmond Borough",
+      "url": "https://www.horshamfc.co.uk/2026/08/19/match-report-hampton-richmond-borough-3/",
+      "published": "2026-08-19T07:55:03Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1237,6 +1246,15 @@
       "title": "Hot Take: Folkestone Invicta (H)",
       "url": "https://maidstoneunited.co.uk/08/18/hot-take-folkestone-invicta-h/",
       "published": "2026-08-18T21:15:04Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Match Report | Hereford 3-0 Radcliffe",
+      "url": "https://radcliffefc.com/match-report-hereford-3-0-radcliffe/",
+      "published": "2026-08-18T21:00:11Z"
     },
     {
       "club": "Truro City",
@@ -1365,6 +1383,15 @@
       "published": "2026-08-18T17:00:45Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham Women recruiting at Open Training this Wednesday",
+      "url": "https://www.horshamfc.co.uk/2026/08/18/horsham-women-recruiting-at-open-training-this-wednesday/",
+      "published": "2026-08-18T16:50:28Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1453,33 +1480,6 @@
       "title": "Match Preview | Hereford (A)",
       "url": "https://radcliffefc.com/match-preview-hereford-a-3/",
       "published": "2026-08-18T13:05:42Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MATCH PREVIEW: SPALDING UNITED VS MACCLESFIELD FC",
-      "url": "https://macclesfieldfc.com/latest-news/match-preview-spalding-united-vs-macclesfield-fc/",
-      "published": "2026-08-18T13:00:31Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Tickets and travel details for Boston United",
-      "url": "https://altrinchamfc.com/blogs/news/tickets-and-travel-details-for-boston-united",
-      "published": "2026-08-18T12:45:13Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City Podcast – Episode 3",
-      "url": "https://trurocity.co.uk/2026/08/truro-city-podcast-episode-3/",
-      "published": "2026-08-18T12:41:44Z"
     }
   ]
 }
