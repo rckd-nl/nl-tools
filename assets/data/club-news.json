@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-20T23:01:17Z",
+  "generatedAt": "2026-08-20T23:08:48Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,18 +78,18 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3849,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f87e0ce0590>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://www.southshieldsfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f87e2b86cd0>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "SSFC Women earn 4-0 win in penultimate friendly at Boldon",
+      "url": "https://www.southshieldsfc.co.uk/ssfc-women-earn-4-0-win-in-penultimate-friendly-at-boldon/",
+      "published": "2026-08-20T22:53:25Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Club Shop Open Friday 11am to 6pm",
+      "url": "https://southportfc.net/club-shop-open-friday-11am-to-6pm/",
+      "published": "2026-08-20T19:32:55Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -598,6 +616,15 @@
       "title": "Tyler Frost Post Chesham United (H)",
       "url": "https://farnboroughfc.co.uk/2026/08/tyler-frost-post-chesham-united-h/",
       "published": "2026-08-20T19:00:35Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "BRAINTREE TOWN V HORSHAM – MATCH PREVIEW",
+      "url": "https://www.horshamfc.co.uk/2026/08/20/braintree-town-v-horsham-match-preview/",
+      "published": "2026-08-20T18:14:50Z"
     },
     {
       "club": "Southend United",
@@ -670,6 +697,15 @@
       "title": "View From The Boardroom: Carlisle United",
       "url": "https://ytfc.net/2026/08/view-from-the-boardroom-carlisle-united/",
       "published": "2026-08-20T16:02:52Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "David Eguaibor joins Gateshead FC",
+      "url": "https://gateshead-fc.com/david-eguaibor-joins-gateshead-fc/",
+      "published": "2026-08-20T16:00:58Z"
     },
     {
       "club": "Maidstone United",
@@ -796,15 +832,6 @@
       "title": "Book Now For United Women v Ascot On Sunday",
       "url": "https://torquayunited.com/book-now-for-united-women-v-ascot-on-sunday/",
       "published": "2026-08-20T13:51:39Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Info | Boreham Wood (H)",
-      "url": "https://www.fgr.co.uk/news/match-info-boreham-wood-h-2627/",
-      "published": "2026-08-20T13:30:00Z"
     },
     {
       "club": "Curzon Ashton",
@@ -951,6 +978,15 @@
       "published": "2026-08-20T11:00:04Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "A MESSAGE FROM THE FARRELL FAMILY",
+      "url": "https://www.horshamfc.co.uk/2026/08/20/a-message-from-the-farrell-family/",
+      "published": "2026-08-20T10:50:06Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -976,6 +1012,15 @@
       "title": "Stones Pod: The week that was",
       "url": "https://maidstoneunited.co.uk/08/20/stones-pod-the-week-that-was/",
       "published": "2026-08-20T10:31:09Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "TICKET INFO | Yeovil Town (A)",
+      "url": "https://gateshead-fc.com/ticket-info-yeovil-town-a/",
+      "published": "2026-08-20T10:02:48Z"
     },
     {
       "club": "Hartlepool United",
@@ -1023,15 +1068,6 @@
       "published": "2026-08-20T09:00:57Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Preview | Boreham Wood (H)",
-      "url": "https://www.fgr.co.uk/news/match-preview-boreham-wood-h-2627/",
-      "published": "2026-08-20T09:00:00Z"
-    },
-    {
       "club": "York City",
       "code": "YOR",
       "short": "York",
@@ -1066,6 +1102,15 @@
       "title": "Key info: Dorking Wanderers",
       "url": "https://maidstoneunited.co.uk/08/20/key-info-dorking-wanderers-3/",
       "published": "2026-08-20T08:00:06Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Post Match | Neil & Sol",
+      "url": "https://southportfc.net/post-match-neil-sol/",
+      "published": "2026-08-20T07:38:58Z"
     },
     {
       "club": "Rochdale",
@@ -1239,15 +1284,6 @@
       "published": "2026-08-19T13:55:39Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Picnic in the Park",
-      "url": "https://www.fgr.co.uk/news/picnic-in-the-park/",
-      "published": "2026-08-19T13:50:00Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1329,6 +1365,15 @@
       "published": "2026-08-19T12:20:27Z"
     },
     {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "SSFC Women make short trip to Boldon CA Ladies",
+      "url": "https://www.southshieldsfc.co.uk/ssfc-women-make-short-trip-to-boldon-ca-ladies/",
+      "published": "2026-08-19T12:09:05Z"
+    },
+    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -1372,6 +1417,15 @@
       "title": "Post-Darlington: Phil Parkinson",
       "url": "https://chesterfc.com/08/19/post-darlington-phil-parkinson/",
       "published": "2026-08-19T11:58:36Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "HIGHLIGHTS | Morecambe FC 0-1 South Shields FC | Enterprise National League North",
+      "url": "https://www.southshieldsfc.co.uk/highlights-morecambe-fc-0-1-south-shields-fc-enterprise-national-league-north/",
+      "published": "2026-08-19T11:54:48Z"
     },
     {
       "club": "Hartlepool United",
@@ -1426,60 +1480,6 @@
       "title": "Medical Update 19/08/26",
       "url": "https://dwfc.co.uk/2026/08/medical-update-19-08-26/",
       "published": "2026-08-19T11:23:48Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Partnership | ReeceR Group",
-      "url": "https://www.fgr.co.uk/news/partnership-reccer-group-2627/",
-      "published": "2026-08-19T11:00:00Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "From Scooby Doo to an Angels Wedding",
-      "url": "https://tonbridgeangels.co.uk/from-scooby-doo-to-an-angels-wedding/",
-      "published": "2026-08-19T11:00:00Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Up Next: Weston-super-Mare vs Dover Athletic",
-      "url": "https://doverathletic.com/news/up-next-weston-super-mare-vs-dover-athletic-3/",
-      "published": "2026-08-19T10:59:37Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Ticket & Travel Details | Crewe Alexandra (A)",
-      "url": "https://yorkcityfootballclub.co.uk/ticket-travel-details-crewe-alexandra-a/",
-      "published": "2026-08-19T10:59:26Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Ticket & Travel Details | Cheltenham Town (A)",
-      "url": "https://yorkcityfootballclub.co.uk/ticket-travel-details-cheltenham-town-a/",
-      "published": "2026-08-19T10:59:14Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "REACTION | Tustin Talks 10-Man Triumph Over Radcliffe",
-      "url": "https://herefordfc.co.uk/2026/08/reaction-tustin-talks-10-man-triumph-over-radcliffe/",
-      "published": "2026-08-19T10:54:03Z"
     }
   ]
 }
