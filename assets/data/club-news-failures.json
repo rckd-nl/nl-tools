@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-20T04:57:30Z",
+  "generatedAt": "2026-08-20T05:48:59Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -43,14 +43,6 @@
       "error": "HTTP 202"
     },
     {
-      "club": "Forest Green Rovers",
-      "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
-    },
-    {
       "club": "Morecambe",
       "domain": "morecambefc.com",
       "feed": "https://morecambefc.com/news/feed/",
@@ -72,7 +64,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Sutton United",
@@ -176,7 +168,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Peterborough Sports",
