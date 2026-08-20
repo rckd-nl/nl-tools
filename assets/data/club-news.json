@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-20T04:00:51Z",
+  "generatedAt": "2026-08-20T04:57:30Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3847,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -550,10 +550,10 @@
     {
       "club": "Tonbridge Angels",
       "domain": "tonbridgeangels.co.uk",
-      "feed": "https://tonbridgeangels.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 500"
     },
     {
       "club": "Torquay United",
@@ -733,15 +733,6 @@
       "title": "Highlights: Folkestone Invicta",
       "url": "https://maidstoneunited.co.uk/08/19/highlights-folkestone-invicta-2/",
       "published": "2026-08-19T13:55:39Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Picnic in the Park",
-      "url": "https://www.fgr.co.uk/news/picnic-in-the-park/",
-      "published": "2026-08-19T13:50:00Z"
     },
     {
       "club": "Truro City",
@@ -942,24 +933,6 @@
       "published": "2026-08-19T11:23:48Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Partnership | ReeceR Group",
-      "url": "https://www.fgr.co.uk/news/partnership-reccer-group-2627/",
-      "published": "2026-08-19T11:00:00Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "From Scooby Doo to an Angels Wedding",
-      "url": "https://tonbridgeangels.co.uk/from-scooby-doo-to-an-angels-wedding/",
-      "published": "2026-08-19T11:00:00Z"
-    },
-    {
       "club": "Dover Athletic",
       "code": "DOV",
       "short": "Dover",
@@ -1030,15 +1003,6 @@
       "title": "GALLERY | Hereford FC 3-0 Radcliffe FC",
       "url": "https://herefordfc.co.uk/2026/08/gallery-hereford-fc-3-0-radcliffe-fc/",
       "published": "2026-08-19T10:17:07Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Youth Group Ticket Offer",
-      "url": "https://www.fgr.co.uk/news/north-stand-ticket-offer/",
-      "published": "2026-08-19T10:15:00Z"
     },
     {
       "club": "Hornchurch",
@@ -1329,15 +1293,6 @@
       "published": "2026-08-18T20:47:35Z"
     },
     {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Angels Edge Past Ten-Man Dover",
-      "url": "https://tonbridgeangels.co.uk/dover-athletic-0-1-tonbridge-angels/",
-      "published": "2026-08-18T20:43:05Z"
-    },
-    {
       "club": "York City",
       "code": "YOR",
       "short": "York",
@@ -1480,6 +1435,51 @@
       "title": "2be Consultancy Continue As Goal Of The Month Partner For 2026/27",
       "url": "https://southendunited.co.uk/news/2026/august/18/2be-consultancy-continue-as-goal-of-the-month-partner-for-2026-27/",
       "published": "2026-08-18T13:41:38Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Yeovil Town and Westland Sports Football Club rekindle partnership",
+      "url": "https://ytfc.net/2026/08/yeovil-town-and-westland-sports-football-club-rekindle-partnership/",
+      "published": "2026-08-18T13:38:43Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City vs Southampton – Match Preview",
+      "url": "https://trurocity.co.uk/2026/08/truro-city-vs-southampton-match-preview/",
+      "published": "2026-08-18T13:33:18Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Ladies: Southend 1-0 Hertford Town",
+      "url": "https://southendunited.co.uk/news/2026/august/18/ladies--southend-united-1-0-hertford-town/",
+      "published": "2026-08-18T13:26:23Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City vs Southampton – Match Information",
+      "url": "https://trurocity.co.uk/2026/08/16921/",
+      "published": "2026-08-18T13:16:07Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Match Preview | Hereford (A)",
+      "url": "https://radcliffefc.com/match-preview-hereford-a-3/",
+      "published": "2026-08-18T13:05:42Z"
     }
   ]
 }
