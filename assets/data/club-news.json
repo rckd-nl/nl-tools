@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-21T18:07:42Z",
+  "generatedAt": "2026-08-21T18:59:00Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Match Preview: Worthing FC vs Wealdstone",
+      "url": "https://worthingfc.com/2026/08/match-preview-worthing-fc-vs-wealdstone/",
+      "published": "2026-08-21T18:46:41Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Supporters Society and Club vote overwhelmingly in favour of sale of Club to new investors.",
+      "url": "https://www.bathcityfc.com/supporters-vote-overwhelmingly-in-favour-of-sale-of-club-to-new-investors/",
+      "published": "2026-08-21T18:28:34Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Preview: Spalding United (H)",
+      "url": "https://chesterfc.com/08/21/preview-spalding-united-h/",
+      "published": "2026-08-21T18:10:48Z"
+    },
     {
       "club": "Chester",
       "code": "CHE",
@@ -1248,15 +1275,6 @@
       "published": "2026-08-20T19:00:35Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "BRAINTREE TOWN V HORSHAM – MATCH PREVIEW",
-      "url": "https://www.horshamfc.co.uk/2026/08/20/braintree-town-v-horsham-match-preview/",
-      "published": "2026-08-20T18:14:50Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1462,24 +1480,6 @@
       "title": "LIVE SPORT IN BAR TWENTY SEVEN",
       "url": "https://macclesfieldfc.com/latest-news/live-sport-in-bar-twenty-seven-2/",
       "published": "2026-08-20T15:00:51Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "AWAY MATCH UNPACKED: DAGENHAM & REDBRIDGE",
-      "url": "https://torquayunited.com/away-match-unpacked-dagenham-redbridge/",
-      "published": "2026-08-20T14:48:04Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Match Highlights: Torquay United 0 – 0 WsM AFC",
-      "url": "https://wsmafc.co.uk/match-highlights-torquay-united-0-0-wsm-afc/",
-      "published": "2026-08-20T14:00:00Z"
     }
   ]
 }
