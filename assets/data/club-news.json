@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-21T09:01:56Z",
+  "generatedAt": "2026-08-21T09:57:23Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3849,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,42 @@
     }
   ],
   "items": [
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Preview: Solihull Moors (A)",
+      "url": "https://southendunited.co.uk/news/2026/august/21/preview--solihull-moors--a-/",
+      "published": "2026-08-21T09:26:00Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Pools Women announce Cicor as Official Team Partner",
+      "url": "https://www.hartlepoolunited.co.uk/pools-women-announce-cicor-as-official-team-partner/",
+      "published": "2026-08-21T09:18:42Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "TICKET NEWS: DARLINGTON (A)",
+      "url": "https://macclesfieldfc.com/latest-news/ticket-news-darlington-a-3/",
+      "published": "2026-08-21T09:00:36Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Miley determined to build on positive start",
+      "url": "https://www.hartlepoolunited.co.uk/miley-determined-to-build-on-positive-start/",
+      "published": "2026-08-21T09:00:08Z"
+    },
     {
       "club": "Woking",
       "code": "WOK",
@@ -706,15 +742,6 @@
       "title": "Tyler Frost Post Chesham United (H)",
       "url": "https://farnboroughfc.co.uk/2026/08/tyler-frost-post-chesham-united-h/",
       "published": "2026-08-20T19:00:35Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "BRAINTREE TOWN V HORSHAM – MATCH PREVIEW",
-      "url": "https://www.horshamfc.co.uk/2026/08/20/braintree-town-v-horsham-match-preview/",
-      "published": "2026-08-20T18:14:50Z"
     },
     {
       "club": "Southend United",
@@ -933,15 +960,6 @@
       "published": "2026-08-20T13:51:39Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Info | Boreham Wood (H)",
-      "url": "https://www.fgr.co.uk/news/match-info-boreham-wood-h-2627/",
-      "published": "2026-08-20T13:30:00Z"
-    },
-    {
       "club": "Curzon Ashton",
       "code": "CUR",
       "short": "Curzon Ashton",
@@ -1086,15 +1104,6 @@
       "published": "2026-08-20T11:00:04Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "A MESSAGE FROM THE FARRELL FAMILY",
-      "url": "https://www.horshamfc.co.uk/2026/08/20/a-message-from-the-farrell-family/",
-      "published": "2026-08-20T10:50:06Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1176,15 +1185,6 @@
       "published": "2026-08-20T09:00:57Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Preview | Boreham Wood (H)",
-      "url": "https://www.fgr.co.uk/news/match-preview-boreham-wood-h-2627/",
-      "published": "2026-08-20T09:00:00Z"
-    },
-    {
       "club": "York City",
       "code": "YOR",
       "short": "York",
@@ -1201,15 +1201,6 @@
       "title": "Become A Friend Of Daisy The Dragon!",
       "url": "https://rochdaleafc.co.uk/become-a-friend-of-daisy-the-dragon/",
       "published": "2026-08-20T08:27:27Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Club Shop Open this Afternoon",
-      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-49/",
-      "published": "2026-08-20T08:24:38Z"
     },
     {
       "club": "Maidstone United",
@@ -1401,15 +1392,6 @@
       "published": "2026-08-19T13:55:39Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Picnic in the Park",
-      "url": "https://www.fgr.co.uk/news/picnic-in-the-park/",
-      "published": "2026-08-19T13:50:00Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1473,13 +1455,31 @@
       "published": "2026-08-19T12:40:31Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Saturday Football v Torquay United",
-      "url": "https://daggers.co.uk/saturday-football-v-torquay-united/",
-      "published": "2026-08-19T12:37:14Z"
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Report: Seagulls hold hosts to point at Plainmoor",
+      "url": "https://wsmafc.co.uk/report-torquay-away-2627/",
+      "published": "2026-08-19T12:20:27Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "SSFC Women make short trip to Boldon CA Ladies",
+      "url": "https://www.southshieldsfc.co.uk/ssfc-women-make-short-trip-to-boldon-ca-ladies/",
+      "published": "2026-08-19T12:09:05Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Upcoming Coach Travel",
+      "url": "https://hornchurchfc.com/upcoming-coach-travel/",
+      "published": "2026-08-19T12:04:36Z"
     }
   ]
 }
