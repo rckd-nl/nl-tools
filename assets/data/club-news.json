@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-21T14:58:00Z",
+  "generatedAt": "2026-08-21T15:50:23Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,18 +78,18 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3851,
+      "error": ""
     },
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://www.southshieldsfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Farnborough to host Reading U21 fixtures",
+      "url": "https://farnboroughfc.co.uk/2026/08/farnborough-to-host-reading-u21-fixtures/",
+      "published": "2026-08-21T15:00:50Z"
+    },
+    {
       "club": "Curzon Ashton",
       "code": "CUR",
       "short": "Curzon Ashton",
@@ -715,6 +724,15 @@
       "title": "U23s Update: Post Sheppey United",
       "url": "https://maidstoneunited.co.uk/08/21/u23s-update-post-sheppey-united/",
       "published": "2026-08-21T12:12:06Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Ethan Ross on Boreham Wood",
+      "url": "https://www.fgr.co.uk/news/ethan-ross-boreham-wood/",
+      "published": "2026-08-21T12:00:00Z"
     },
     {
       "club": "Torquay United",
@@ -879,6 +897,15 @@
       "published": "2026-08-21T10:00:14Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Klukowski Pre Boreham Wood",
+      "url": "https://www.fgr.co.uk/news/yan-klukowski-boreham-wood/",
+      "published": "2026-08-21T10:00:00Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1014,6 +1041,15 @@
       "published": "2026-08-21T06:38:59Z"
     },
     {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "South Shields take on Merthyr Town at home",
+      "url": "https://www.southshieldsfc.co.uk/south-shields-take-on-merthyr-town-at-home/",
+      "published": "2026-08-21T06:30:53Z"
+    },
+    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -1030,6 +1066,24 @@
       "title": "Matchday Guide For Our Home Opener",
       "url": "https://rochdaleafc.co.uk/matchday-guide-for-our-home-opener/",
       "published": "2026-08-21T02:48:49Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "SSFC Women earn 4-0 win in penultimate friendly at Boldon",
+      "url": "https://www.southshieldsfc.co.uk/ssfc-women-earn-4-0-win-in-penultimate-friendly-at-boldon/",
+      "published": "2026-08-20T22:53:25Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Club Shop Open Friday 11am to 6pm",
+      "url": "https://southportfc.net/club-shop-open-friday-11am-to-6pm/",
+      "published": "2026-08-20T19:32:55Z"
     },
     {
       "club": "Maidstone United",
@@ -1158,6 +1212,15 @@
       "published": "2026-08-20T16:02:52Z"
     },
     {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "David Eguaibor joins Gateshead FC",
+      "url": "https://gateshead-fc.com/david-eguaibor-joins-gateshead-fc/",
+      "published": "2026-08-20T16:00:58Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1273,6 +1336,15 @@
       "title": "Book Now For United Women v Ascot On Sunday",
       "url": "https://torquayunited.com/book-now-for-united-women-v-ascot-on-sunday/",
       "published": "2026-08-20T13:51:39Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Info | Boreham Wood (H)",
+      "url": "https://www.fgr.co.uk/news/match-info-boreham-wood-h-2627/",
+      "published": "2026-08-20T13:30:00Z"
     },
     {
       "club": "Curzon Ashton",
@@ -1408,78 +1480,6 @@
       "title": "SILKMEN PARTNER WITH SINFIELD’S LEGACY LOCKER",
       "url": "https://macclesfieldfc.com/latest-news/silkmen-partner-with-sinfields-legacy-locker/",
       "published": "2026-08-20T11:00:04Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Ticketing Information: Eastleigh (A)",
-      "url": "https://southendunited.co.uk/news/2026/august/20/ticketing-information--eastleigh--a-/",
-      "published": "2026-08-20T10:49:57Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Ticket Information: Boston United (H)",
-      "url": "https://www.borehamwoodfootballclub.co.uk/ticket-information-boston-united-h/",
-      "published": "2026-08-20T10:32:04Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Stones Pod: The week that was",
-      "url": "https://maidstoneunited.co.uk/08/20/stones-pod-the-week-that-was/",
-      "published": "2026-08-20T10:31:09Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Clark calls for same mentality at Sutton",
-      "url": "https://www.hartlepoolunited.co.uk/clark-calls-for-same-mentality-at-sutton/",
-      "published": "2026-08-20T10:00:17Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Brad Simpson's Events Named as Southend United's New Hospitality Catering Partner",
-      "url": "https://southendunited.co.uk/news/2026/august/20/brad-simpson-s-events-named-as-southend-united-s-new-hospitality-catering-partner/",
-      "published": "2026-08-20T09:30:10Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Inviting Applications: Club Doctor",
-      "url": "https://chesterfc.com/08/20/clubdoctor/",
-      "published": "2026-08-20T09:27:37Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Senior Blues Meeting Recap: August 2026",
-      "url": "https://chesterfc.com/08/20/senior-blues-meeting-recap-august-2026/",
-      "published": "2026-08-20T09:16:43Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "ACTION REPLAY: SPALDING UNITED (A)",
-      "url": "https://macclesfieldfc.com/galleries/action-replay-spalding-united-a/",
-      "published": "2026-08-20T09:00:57Z"
     }
   ]
 }
