@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-21T05:50:33Z",
+  "generatedAt": "2026-08-21T07:10:10Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Highlights: Norwich City PL2",
+      "url": "https://hornchurchfc.com/highlights-norwich-city-pl2/",
+      "published": "2026-08-21T06:41:54Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Preview: Carlisle United (A)",
+      "url": "https://hornchurchfc.com/preview-carlisle-united-a/",
+      "published": "2026-08-21T06:38:59Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "South Shields take on Merthyr Town at home",
+      "url": "https://www.southshieldsfc.co.uk/south-shields-take-on-merthyr-town-at-home/",
+      "published": "2026-08-21T06:30:53Z"
+    },
+    {
       "club": "South Shields",
       "code": "SSH",
       "short": "South Shields",
@@ -616,6 +643,15 @@
       "title": "Tyler Frost Post Chesham United (H)",
       "url": "https://farnboroughfc.co.uk/2026/08/tyler-frost-post-chesham-united-h/",
       "published": "2026-08-20T19:00:35Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "BRAINTREE TOWN V HORSHAM – MATCH PREVIEW",
+      "url": "https://www.horshamfc.co.uk/2026/08/20/braintree-town-v-horsham-match-preview/",
+      "published": "2026-08-20T18:14:50Z"
     },
     {
       "club": "Southend United",
@@ -976,6 +1012,15 @@
       "title": "SILKMEN PARTNER WITH SINFIELD’S LEGACY LOCKER",
       "url": "https://macclesfieldfc.com/latest-news/silkmen-partner-with-sinfields-legacy-locker/",
       "published": "2026-08-20T11:00:04Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "A MESSAGE FROM THE FARRELL FAMILY",
+      "url": "https://www.horshamfc.co.uk/2026/08/20/a-message-from-the-farrell-family/",
+      "published": "2026-08-20T10:50:06Z"
     },
     {
       "club": "Southend United",
@@ -1435,51 +1480,6 @@
       "title": "HIGHLIGHTS | Morecambe FC 0-1 South Shields FC | Enterprise National League North",
       "url": "https://www.southshieldsfc.co.uk/highlights-morecambe-fc-0-1-south-shields-fc-enterprise-national-league-north/",
       "published": "2026-08-19T11:54:48Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Match preview: Pools travel to Sutton United",
-      "url": "https://www.hartlepoolunited.co.uk/match-preview-pools-travel-to-sutton-united/",
-      "published": "2026-08-19T11:42:35Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Gallery: Torquay United 0-0 WsM AFC",
-      "url": "https://wsmafc.co.uk/gallery-torquay-away-2627/",
-      "published": "2026-08-19T11:42:30Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "EFL Trophy Fixtures Confirmed",
-      "url": "https://rochdaleafc.co.uk/efl-trophy-fixtures-confirmed/",
-      "published": "2026-08-19T11:40:40Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Women Take On Bury On Wednesday Evening",
-      "url": "https://rochdaleafc.co.uk/women-take-on-bury-on-wednesday-evening/",
-      "published": "2026-08-19T11:36:26Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "Marine 0-2 Chorley",
-      "url": "https://marinefc.com/marine-0-2-chorley/",
-      "published": "2026-08-19T11:29:39Z"
     }
   ]
 }
