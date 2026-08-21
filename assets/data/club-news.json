@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-21T18:59:00Z",
+  "generatedAt": "2026-08-21T19:39:53Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "HIGHLIGHTS | Hereford FC 3-0 Radcliffe FC",
+      "url": "https://herefordfc.co.uk/2026/08/highlights-hereford-fc-3-0-radcliffe-fc/",
+      "published": "2026-08-21T19:10:52Z"
+    },
     {
       "club": "Worthing",
       "code": "WOR",
@@ -1275,6 +1284,15 @@
       "published": "2026-08-20T19:00:35Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "BRAINTREE TOWN V HORSHAM – MATCH PREVIEW",
+      "url": "https://www.horshamfc.co.uk/2026/08/20/braintree-town-v-horsham-match-preview/",
+      "published": "2026-08-20T18:14:50Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1462,24 +1480,6 @@
       "title": "Captain Nat Lowe fires Alty Women to opening day victory",
       "url": "https://altrinchamfc.com/blogs/news/stockport-county-women-development-vs-altrincham-fc-women",
       "published": "2026-08-20T15:12:57Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "1899 Club | August Winners Announced!",
-      "url": "https://torquayunited.com/1899-club-august-winners-announced-2/",
-      "published": "2026-08-20T15:00:56Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "LIVE SPORT IN BAR TWENTY SEVEN",
-      "url": "https://macclesfieldfc.com/latest-news/live-sport-in-bar-twenty-seven-2/",
-      "published": "2026-08-20T15:00:51Z"
     }
   ]
 }
