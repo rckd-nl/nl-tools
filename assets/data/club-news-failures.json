@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-20T23:42:13Z",
+  "generatedAt": "2026-08-21T00:03:02Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -41,6 +41,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 202"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "domain": "fgr.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Morecambe",
@@ -240,7 +248,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Salisbury",
