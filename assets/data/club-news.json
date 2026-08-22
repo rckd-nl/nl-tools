@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-22T18:51:15Z",
+  "generatedAt": "2026-08-22T19:51:36Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7fc8a364d210>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7fc8a2c54ad0>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -582,13 +582,67 @@
   ],
   "items": [
     {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Parsons on target again but City have to settle for ‘Stoke draw",
+      "url": "https://www.bathcityfc.com/parsons-on-target-again-but-city-have-to-settle-for-stoke-draw/",
+      "published": "2026-08-22T19:41:57Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Angels Tamed By Tinners",
+      "url": "https://tonbridgeangels.co.uk/angels-tamed-by-tinners/",
+      "published": "2026-08-22T19:41:26Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Joel Amado Post Match Interview | Guiseley (H)",
+      "url": "https://curzon-ashton.co.uk/joel-amado-post-match-interview-guiseley-h/",
+      "published": "2026-08-22T19:40:47Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Adam Barton Post Match Interview | Guiseley (H)",
+      "url": "https://curzon-ashton.co.uk/adam-barton-post-match-guiseley-h/",
+      "published": "2026-08-22T19:35:14Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
       "domain": "wsmafc.co.uk",
-      "title": "Gallery: WsM AFC 2 – 3 Dover Athletic",
-      "url": "https://wsmafc.co.uk/gallery-wsm-afc-2-3-dover-athletic/",
-      "published": "2026-08-22T18:50:55Z"
+      "title": "Report: Seagulls defeated for first time this campaign",
+      "url": "https://wsmafc.co.uk/report-dover-home-2627/",
+      "published": "2026-08-22T19:00:19Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Report: Chichester 4-0 Town",
+      "url": "https://chippenhamtown.com/08/22/report-chichester-4-0-town/",
+      "published": "2026-08-22T19:00:12Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Get Set For United Women v Ascot On Sunday!",
+      "url": "https://torquayunited.com/get-set-for-united-women-v-ascot-on-sunday/",
+      "published": "2026-08-22T19:00:00Z"
     },
     {
       "club": "Dorking Wanderers",
@@ -724,6 +778,24 @@
       "title": "Watson On Home Defeat",
       "url": "https://rochdaleafc.co.uk/watson-on-home-defeat/",
       "published": "2026-08-22T17:15:17Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Women Playing At COA On Sunday",
+      "url": "https://rochdaleafc.co.uk/women-playing-at-coa-on-sunday/",
+      "published": "2026-08-22T17:14:44Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Francis Positive Despite Defeat",
+      "url": "https://rochdaleafc.co.uk/francis-positive-despite-defeat/",
+      "published": "2026-08-22T17:13:46Z"
     },
     {
       "club": "Chester",
@@ -1408,78 +1480,6 @@
       "title": "Matchday Guide: Spalding United (H)",
       "url": "https://chesterfc.com/08/21/matchday-guide-spalding-united-h/",
       "published": "2026-08-21T11:21:14Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Inside Weston S2 EP2: Vs Torquay United (A)",
-      "url": "https://wsmafc.co.uk/inside-weston-s2-ep2-vs-torquay-united-a/",
-      "published": "2026-08-21T11:15:31Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Match Preview | Rotherham United (A) | Saturday 22nd August",
-      "url": "https://yorkcityfootballclub.co.uk/match-preview-rotherham-united-a-saturday-22nd-august/",
-      "published": "2026-08-21T11:11:17Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Hinsh: “We’re still transitioning into the league, but we have to learn quickly.” Wealdstone Preview",
-      "url": "https://worthingfc.com/2026/08/hinsh-were-still-transitioning-into-the-league-but-we-have-to-learn-quickly-wealdstone-preview/",
-      "published": "2026-08-21T11:08:17Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MATCH PREVIEW: MACCLESFIELD FC VS BRACKLEY TOWN",
-      "url": "https://macclesfieldfc.com/latest-news/match-preview-macclesfield-fc-vs-brackley-town/",
-      "published": "2026-08-21T11:00:48Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Jack Witchard joins CTFC on loan",
-      "url": "https://chippenhamtown.com/08/21/jack-witchard-joins-ctfc-on-loan/",
-      "published": "2026-08-21T11:00:39Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "AWAY TICKETS | Dagenham & Redbridge",
-      "url": "https://torquayunited.com/away-tickets-dagenham-redbridge-2/",
-      "published": "2026-08-21T10:50:21Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Preview: Weston v Dover Athletic",
-      "url": "https://wsmafc.co.uk/preview-dover-home-2627/",
-      "published": "2026-08-21T10:30:13Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "MUFC Women: Annie White’s FA Cup",
-      "url": "https://maidstoneunited.co.uk/08/21/mufc-women-annie-whites-fa-cup/",
-      "published": "2026-08-21T10:27:40Z"
     }
   ]
 }
