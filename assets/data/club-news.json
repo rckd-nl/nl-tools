@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-22T15:59:45Z",
+  "generatedAt": "2026-08-22T16:43:53Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3853,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,51 @@
   ],
   "items": [
     {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Tonbridge Angels 0 Truro City 2 – Match Report",
+      "url": "https://trurocity.co.uk/2026/08/tonbridge-angels-0-truro-city-2-match-report/",
+      "published": "2026-08-22T16:33:52Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Spencer Day Post Maidenhead United (A)",
+      "url": "https://farnboroughfc.co.uk/2026/08/spencer-day-post-maidenhead-united-a-2/",
+      "published": "2026-08-22T16:25:22Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Alty TV Post-Match | Boston 1 Alty 0",
+      "url": "https://altrinchamfc.com/blogs/news/alty-tv-post-match-boston-1-alty-0",
+      "published": "2026-08-22T16:19:09Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Dale Defeated At Home",
+      "url": "https://rochdaleafc.co.uk/report-crawley-town-home-220826/",
+      "published": "2026-08-22T16:01:55Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Post-Match: Kieron Dyer Assesses Solihull Moors Victory",
+      "url": "https://southendunited.co.uk/news/2026/august/22/post-match--kieron-dyer-assesses-solihull-moors-victory/",
+      "published": "2026-08-22T15:59:06Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -600,13 +645,22 @@
       "published": "2026-08-22T15:53:38Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | FGR 0-3 Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/match-report-fgr-0-3-boreham-wood/",
-      "published": "2026-08-22T15:30:00Z"
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Match Report: Woking 3-2 AFC Fylde",
+      "url": "https://afcfylde.co.uk/news/2026/august/22/match-report-woking-3-2-afc-fylde/",
+      "published": "2026-08-22T15:14:00Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Adjetey-Brew: “I want to do the best I can for this club” | Wealdstone Reaction",
+      "url": "https://worthingfc.com/2026/08/adjetey-brew-i-want-to-do-the-best-i-can-for-this-club-wealdstone-reaction/",
+      "published": "2026-08-22T15:00:16Z"
     },
     {
       "club": "Eastleigh",
@@ -616,15 +670,6 @@
       "title": "Interview: Matt Gray Post-Scunthorpe Win",
       "url": "https://eastleighfc.com/2026/08/interview-matt-gray-post-scunthorpe-win/",
       "published": "2026-08-22T14:59:37Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage Post Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-post-boreham-wood2627/",
-      "published": "2026-08-22T14:50:00Z"
     },
     {
       "club": "Woking",
@@ -643,6 +688,15 @@
       "title": "Match Report: Worthing FC 1-0 Wealdstone FC",
       "url": "https://worthingfc.com/2026/08/match-report-worthing-fc-1-0-wealdstone-fc/",
       "published": "2026-08-22T14:15:51Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Hinshelwood: “To keep a clean sheet was massive” | Wealdstone Reaction",
+      "url": "https://worthingfc.com/2026/08/hinshelwood-to-keep-a-clean-sheet-was-massive-wealdstone-reaction/",
+      "published": "2026-08-22T14:14:04Z"
     },
     {
       "club": "Dorking Wanderers",
@@ -1086,15 +1140,6 @@
       "published": "2026-08-21T12:12:06Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Ethan Ross on Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/ethan-ross-boreham-wood/",
-      "published": "2026-08-21T12:00:00Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1255,15 +1300,6 @@
       "title": "Taylor: I’m really excited for it",
       "url": "https://farnboroughfc.co.uk/2026/08/taylor-im-really-excited-for-it/",
       "published": "2026-08-21T10:00:14Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Klukowski Pre Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/yan-klukowski-boreham-wood/",
-      "published": "2026-08-21T10:00:00Z"
     },
     {
       "club": "Truro City",
@@ -1444,42 +1480,6 @@
       "title": "SSFC Women earn 4-0 win in penultimate friendly at Boldon",
       "url": "https://www.southshieldsfc.co.uk/ssfc-women-earn-4-0-win-in-penultimate-friendly-at-boldon/",
       "published": "2026-08-20T22:53:25Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Club Shop Open Friday 11am to 6pm",
-      "url": "https://southportfc.net/club-shop-open-friday-11am-to-6pm/",
-      "published": "2026-08-20T19:32:55Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Match Preview: Dorking Wanderers",
-      "url": "https://maidstoneunited.co.uk/08/20/match-preview-dorking-wanderers-3/",
-      "published": "2026-08-20T19:15:49Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Tyler Frost Post Chesham United (H)",
-      "url": "https://farnboroughfc.co.uk/2026/08/tyler-frost-post-chesham-united-h/",
-      "published": "2026-08-20T19:00:35Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "2026/27 Third Kit: Culture Never Washes Away",
-      "url": "https://southendunited.co.uk/news/2026/august/20/2026-27-third-kit--/",
-      "published": "2026-08-20T18:06:00Z"
     }
   ]
 }
