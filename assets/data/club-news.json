@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-22T11:39:47Z",
+  "generatedAt": "2026-08-22T12:00:37Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3851,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -969,6 +969,15 @@
       "published": "2026-08-21T12:12:06Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Ethan Ross on Boreham Wood",
+      "url": "https://www.fgr.co.uk/news/ethan-ross-boreham-wood/",
+      "published": "2026-08-21T12:00:00Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1129,6 +1138,15 @@
       "title": "Taylor: I’m really excited for it",
       "url": "https://farnboroughfc.co.uk/2026/08/taylor-im-really-excited-for-it/",
       "published": "2026-08-21T10:00:14Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Klukowski Pre Boreham Wood",
+      "url": "https://www.fgr.co.uk/news/yan-klukowski-boreham-wood/",
+      "published": "2026-08-21T10:00:00Z"
     },
     {
       "club": "Truro City",
@@ -1338,6 +1356,15 @@
       "published": "2026-08-20T19:00:35Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "BRAINTREE TOWN V HORSHAM – MATCH PREVIEW",
+      "url": "https://www.horshamfc.co.uk/2026/08/20/braintree-town-v-horsham-match-preview/",
+      "published": "2026-08-20T18:14:50Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1453,33 +1480,6 @@
       "title": "David Eguaibor joins Gateshead FC",
       "url": "https://gateshead-fc.com/david-eguaibor-joins-gateshead-fc/",
       "published": "2026-08-20T16:00:58Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Freedom Leisure and the Stones team up again",
-      "url": "https://maidstoneunited.co.uk/08/20/freedom-leisure-and-the-stones-team-up-again/",
-      "published": "2026-08-20T15:55:15Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Solihull Moors Match To Be Shown At The Blue Eagle",
-      "url": "https://southendunited.co.uk/news/2026/august/20/solihull-moors-match-to-be-shown-at-the-blue-eagle/",
-      "published": "2026-08-20T15:44:48Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Welcome to the Stones, Milly Penfold",
-      "url": "https://maidstoneunited.co.uk/08/20/welcome-to-the-stones-milly-penfold/",
-      "published": "2026-08-20T15:33:28Z"
     }
   ]
 }
