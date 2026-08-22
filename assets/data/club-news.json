@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-22T18:16:58Z",
+  "generatedAt": "2026-08-22T18:51:15Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f7d109b4cd0>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f7d108ea6d0>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Gallery: WsM AFC 2 – 3 Dover Athletic",
+      "url": "https://wsmafc.co.uk/gallery-wsm-afc-2-3-dover-athletic/",
+      "published": "2026-08-22T18:50:55Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Match Report | Maidstone United (H) 22/08/26",
+      "url": "https://dwfc.co.uk/2026/08/match-report-maidstone-united-h-22-08-26/",
+      "published": "2026-08-22T18:38:34Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Post Match: Dorking",
+      "url": "https://maidstoneunited.co.uk/08/22/post-match-dorking-2/",
+      "published": "2026-08-22T18:25:10Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -598,6 +625,15 @@
       "title": "Jimmy Ball | Dagenham & Redbridge (A) | Post-Match",
       "url": "https://torquayunited.com/jimmy-ball-dagenham-redbridge-a-post-match-2/",
       "published": "2026-08-22T18:10:41Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Dan Dodds to miss ‘weeks rather than months’",
+      "url": "https://www.southshieldsfc.co.uk/dan-dodds-to-miss-weeks-rather-than-months/",
+      "published": "2026-08-22T18:08:22Z"
     },
     {
       "club": "South Shields",
@@ -705,6 +741,15 @@
       "domain": "fgr.co.uk",
       "title": "Match Highlights | Boreham Wood (H)",
       "url": "https://www.fgr.co.uk/news/match-highlights-boreham-wood-h-2627/",
+      "published": "2026-08-22T17:00:00Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Match Preview: York FC Ladies (A)",
+      "url": "https://afcfylde.co.uk/news/2026/august/22/match-preview-york-women-A-/",
       "published": "2026-08-22T17:00:00Z"
     },
     {
@@ -1435,51 +1480,6 @@
       "title": "MUFC Women: Annie White’s FA Cup",
       "url": "https://maidstoneunited.co.uk/08/21/mufc-women-annie-whites-fa-cup/",
       "published": "2026-08-21T10:27:40Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City vs Southampton – Mascots Gallery",
-      "url": "https://trurocity.co.uk/2026/08/truro-city-vs-southampton-mascots-gallery/",
-      "published": "2026-08-21T10:26:18Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "An Open Letter to Glovers Supporters",
-      "url": "https://ytfc.net/2026/08/an-open-letter-to-glovers-supporters/",
-      "published": "2026-08-21T10:23:38Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Preview | Mark Cooper gives his thoughts ahead of Folkestone Invicta on Saturday.",
-      "url": "https://chelmsfordcityfc.com/news/preview-mark-cooper-gives-his-thoughts-ahead-of-folkestone-invicta-on-saturday/",
-      "published": "2026-08-21T10:07:29Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City vs Southampton – Commercial Gallery",
-      "url": "https://trurocity.co.uk/2026/08/truro-city-vs-southampton-commercial-gallery/",
-      "published": "2026-08-21T10:05:38Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Taylor: I’m really excited for it",
-      "url": "https://farnboroughfc.co.uk/2026/08/taylor-im-really-excited-for-it/",
-      "published": "2026-08-21T10:00:14Z"
     }
   ]
 }
