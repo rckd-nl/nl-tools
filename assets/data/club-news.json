@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-22T23:15:50Z",
+  "generatedAt": "2026-08-22T23:38:37Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3854,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7ff908804a90>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7ff9088d5350>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Post-Spalding United: Phil Parkinson",
+      "url": "https://chesterfc.com/08/23/post-spalding-united-phil-parkinson/",
+      "published": "2026-08-22T23:12:37Z"
+    },
     {
       "club": "York City",
       "code": "YOR",
@@ -861,15 +870,6 @@
       "published": "2026-08-22T17:03:30Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Highlights | Boreham Wood (H)",
-      "url": "https://www.fgr.co.uk/news/match-highlights-boreham-wood-h-2627/",
-      "published": "2026-08-22T17:00:00Z"
-    },
-    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -969,15 +969,6 @@
       "published": "2026-08-22T15:53:38Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | FGR 0-3 Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/match-report-fgr-0-3-boreham-wood/",
-      "published": "2026-08-22T15:30:00Z"
-    },
-    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -1003,15 +994,6 @@
       "title": "Interview: Matt Gray Post-Scunthorpe Win",
       "url": "https://eastleighfc.com/2026/08/interview-matt-gray-post-scunthorpe-win/",
       "published": "2026-08-22T14:59:37Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage Post Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-post-boreham-wood2627/",
-      "published": "2026-08-22T14:50:00Z"
     },
     {
       "club": "Woking",
@@ -1480,6 +1462,24 @@
       "title": "John Askey Pre-Tonbridge Angels (a)",
       "url": "https://trurocity.co.uk/2026/08/john-askey-pre-tonbridge-angels-a/",
       "published": "2026-08-21T12:15:19Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "U23s Update: Post Sheppey United",
+      "url": "https://maidstoneunited.co.uk/08/21/u23s-update-post-sheppey-united/",
+      "published": "2026-08-21T12:12:06Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Perks Looks Ahead To Ascot Clash",
+      "url": "https://torquayunited.com/perks-looks-ahead-to-ascot-clash/",
+      "published": "2026-08-21T11:59:24Z"
     }
   ]
 }
