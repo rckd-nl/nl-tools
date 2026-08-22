@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-22T14:03:34Z",
+  "generatedAt": "2026-08-22T14:39:47Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3851,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "MATCH REPORT: WOKING 3 – 2 AFC FYLDE",
+      "url": "https://wokingfc.co.uk/08/22/match-report-woking-3-2-afc-fylde/",
+      "published": "2026-08-22T14:21:36Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Match Report: Worthing FC 1-0 Wealdstone FC",
+      "url": "https://worthingfc.com/2026/08/match-report-worthing-fc-1-0-wealdstone-fc/",
+      "published": "2026-08-22T14:15:51Z"
+    },
     {
       "club": "Dorking Wanderers",
       "code": "DOR",
@@ -1023,6 +1041,15 @@
       "published": "2026-08-21T12:12:06Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Ethan Ross on Boreham Wood",
+      "url": "https://www.fgr.co.uk/news/ethan-ross-boreham-wood/",
+      "published": "2026-08-21T12:00:00Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1183,6 +1210,15 @@
       "title": "Taylor: I’m really excited for it",
       "url": "https://farnboroughfc.co.uk/2026/08/taylor-im-really-excited-for-it/",
       "published": "2026-08-21T10:00:14Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Klukowski Pre Boreham Wood",
+      "url": "https://www.fgr.co.uk/news/yan-klukowski-boreham-wood/",
+      "published": "2026-08-21T10:00:00Z"
     },
     {
       "club": "Truro City",
@@ -1392,15 +1428,6 @@
       "published": "2026-08-20T19:00:35Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "BRAINTREE TOWN V HORSHAM – MATCH PREVIEW",
-      "url": "https://www.horshamfc.co.uk/2026/08/20/braintree-town-v-horsham-match-preview/",
-      "published": "2026-08-20T18:14:50Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1453,33 +1480,6 @@
       "title": "Women Continue 100% Start With Away Win",
       "url": "https://rochdaleafc.co.uk/women-continue-100-start-with-away-win/",
       "published": "2026-08-20T17:57:00Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Marc White’s Weekly Update",
-      "url": "https://dwfc.co.uk/2026/08/marc-whites-weekly-update-4/",
-      "published": "2026-08-20T17:36:33Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "TUFC x Buckland Athletic | United In The Game",
-      "url": "https://torquayunited.com/tufc-x-buckland-athletic-united-in-the-game/",
-      "published": "2026-08-20T17:09:33Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Ticket Information: Worthing (A)",
-      "url": "https://www.borehamwoodfootballclub.co.uk/ticket-information-worthing-a-2/",
-      "published": "2026-08-20T17:06:29Z"
     }
   ]
 }
