@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-22T13:47:26Z",
+  "generatedAt": "2026-08-22T14:03:34Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3851,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Maidstone United (H) | Marc White’s Pre-Match Interview",
+      "url": "https://dwfc.co.uk/2026/08/maidstone-united-h-marc-whites-pre-match-interview/",
+      "published": "2026-08-22T13:54:47Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Report: Eastleigh 3-2 Scunthorpe United",
+      "url": "https://eastleighfc.com/2026/08/report-eastleigh-3-2-scunthorpe-united/",
+      "published": "2026-08-22T13:48:41Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Report: Solihull Moors 1-3 Southend",
+      "url": "https://southendunited.co.uk/news/2026/august/22/report--solihull-moors-1-3-southend/",
+      "published": "2026-08-22T13:48:20Z"
+    },
     {
       "club": "Altrincham",
       "code": "ALT",
@@ -996,15 +1023,6 @@
       "published": "2026-08-21T12:12:06Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Ethan Ross on Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/ethan-ross-boreham-wood/",
-      "published": "2026-08-21T12:00:00Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1165,15 +1183,6 @@
       "title": "Taylor: I’m really excited for it",
       "url": "https://farnboroughfc.co.uk/2026/08/taylor-im-really-excited-for-it/",
       "published": "2026-08-21T10:00:14Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Klukowski Pre Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/yan-klukowski-boreham-wood/",
-      "published": "2026-08-21T10:00:00Z"
     },
     {
       "club": "Truro City",
@@ -1471,15 +1480,6 @@
       "title": "Ticket Information: Worthing (A)",
       "url": "https://www.borehamwoodfootballclub.co.uk/ticket-information-worthing-a-2/",
       "published": "2026-08-20T17:06:29Z"
-    },
-    {
-      "club": "Marine",
-      "code": "MAR",
-      "short": "Marine",
-      "domain": "marinefc.com",
-      "title": "Adam Thomas Departs Marine",
-      "url": "https://marinefc.com/adam-thomas-departs-marine/",
-      "published": "2026-08-20T16:59:00Z"
     }
   ]
 }
