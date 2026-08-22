@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-22T22:01:18Z",
+  "generatedAt": "2026-08-22T22:40:36Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://www.southshieldsfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -609,6 +609,15 @@
       "published": "2026-08-22T21:00:21Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Post Match With Luke Burgess & Neil Danns",
+      "url": "https://southportfc.net/post-match-with-luke-burgess-neil-danns/",
+      "published": "2026-08-22T20:58:09Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -726,6 +735,24 @@
       "published": "2026-08-22T18:10:41Z"
     },
     {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Dan Dodds to miss ‘weeks rather than months’",
+      "url": "https://www.southshieldsfc.co.uk/dan-dodds-to-miss-weeks-rather-than-months/",
+      "published": "2026-08-22T18:08:22Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "10 men South Shields held to 1-1 draw against Merthyr Town",
+      "url": "https://www.southshieldsfc.co.uk/10-men-south-shields-held-to-1-1-draw-against-merthyr-town/",
+      "published": "2026-08-22T17:59:08Z"
+    },
+    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -769,6 +796,15 @@
       "title": "Rest in peace, Quevin Castro",
       "url": "https://chippenhamtown.com/08/22/rest-in-peace-quevin-castro/",
       "published": "2026-08-22T17:30:38Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Southport 4 Bedford Town 1",
+      "url": "https://southportfc.net/southport-4-bedford-town-1/",
+      "published": "2026-08-22T17:30:11Z"
     },
     {
       "club": "Maidstone United",
@@ -1032,6 +1068,15 @@
       "published": "2026-08-22T12:45:24Z"
     },
     {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Bluebirds Dream Draw Week 52",
+      "url": "https://chippenhamtown.com/08/22/bluebirds-dream-draw-week-51-2/",
+      "published": "2026-08-22T11:00:35Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1039,6 +1084,15 @@
       "title": "Club Statement",
       "url": "https://torquayunited.com/club-statement-7/",
       "published": "2026-08-22T10:47:22Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Keaton Ward joins Barrow",
+      "url": "https://gateshead-fc.com/keaton-ward-joins-barrow/",
+      "published": "2026-08-22T10:30:43Z"
     },
     {
       "club": "Rochdale",
@@ -1057,6 +1111,33 @@
       "title": "Preview: Eastleigh vs Scunthorpe United",
       "url": "https://eastleighfc.com/2026/08/preview-eastleigh-vs-scunthorpe-united/",
       "published": "2026-08-22T08:25:14Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "It’s Matchday!",
+      "url": "https://southportfc.net/its-matchday/",
+      "published": "2026-08-22T08:02:28Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "The Southport Football Club Mascot Experience",
+      "url": "https://southportfc.net/the-southport-football-club-mascot-experience/",
+      "published": "2026-08-22T07:53:28Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "AN EVENING WITH JOHN ALDRIDGE",
+      "url": "https://southportfc.net/an-evening-with-john-aldridge/",
+      "published": "2026-08-22T07:50:50Z"
     },
     {
       "club": "Hereford",
@@ -1399,87 +1480,6 @@
       "title": "U18s Match Preview | Lincoln City U18s (A) | Saturday 22nd August",
       "url": "https://yorkcityfootballclub.co.uk/u18s-match-preview-lincoln-city-u18s-a-saturday-22nd-august/",
       "published": "2026-08-21T11:46:34Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Match Preview vs Morecambe | Nicky Adams",
-      "url": "https://radcliffefc.com/match-preview-vs-morecambe-nicky-adams/",
-      "published": "2026-08-21T11:42:09Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Lincolnshire calling on Saturday",
-      "url": "https://altrinchamfc.com/blogs/news/lincolnshire-calling-on-saturday",
-      "published": "2026-08-21T11:33:59Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Matchday Guide: Spalding United (H)",
-      "url": "https://chesterfc.com/08/21/matchday-guide-spalding-united-h/",
-      "published": "2026-08-21T11:21:14Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Inside Weston S2 EP2: Vs Torquay United (A)",
-      "url": "https://wsmafc.co.uk/inside-weston-s2-ep2-vs-torquay-united-a/",
-      "published": "2026-08-21T11:15:31Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Match Preview | Rotherham United (A) | Saturday 22nd August",
-      "url": "https://yorkcityfootballclub.co.uk/match-preview-rotherham-united-a-saturday-22nd-august/",
-      "published": "2026-08-21T11:11:17Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Hinsh: “We’re still transitioning into the league, but we have to learn quickly.” Wealdstone Preview",
-      "url": "https://worthingfc.com/2026/08/hinsh-were-still-transitioning-into-the-league-but-we-have-to-learn-quickly-wealdstone-preview/",
-      "published": "2026-08-21T11:08:17Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MATCH PREVIEW: MACCLESFIELD FC VS BRACKLEY TOWN",
-      "url": "https://macclesfieldfc.com/latest-news/match-preview-macclesfield-fc-vs-brackley-town/",
-      "published": "2026-08-21T11:00:48Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Jack Witchard joins CTFC on loan",
-      "url": "https://chippenhamtown.com/08/21/jack-witchard-joins-ctfc-on-loan/",
-      "published": "2026-08-21T11:00:39Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "AWAY TICKETS | Dagenham & Redbridge",
-      "url": "https://torquayunited.com/away-tickets-dagenham-redbridge-2/",
-      "published": "2026-08-21T10:50:21Z"
     }
   ]
 }
