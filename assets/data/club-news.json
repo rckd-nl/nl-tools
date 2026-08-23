@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-23T21:41:34Z",
+  "generatedAt": "2026-08-23T22:03:25Z",
   "maxItems": 100,
   "sources": [
     {
@@ -110,10 +110,10 @@
     {
       "club": "Rochdale",
       "domain": "rochdaleafc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "feed": "https://rochdaleafc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Scunthorpe United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -310,10 +310,10 @@
     {
       "club": "Marine",
       "domain": "marinefc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "feed": "https://marinefc.com/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Merthyr Town",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -636,6 +636,15 @@
       "published": "2026-08-23T18:50:26Z"
     },
     {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "King’s Lynn Town 1-4 Marine",
+      "url": "https://marinefc.com/kings-lynn-town-1-4-marine/",
+      "published": "2026-08-23T18:15:13Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -690,6 +699,15 @@
       "published": "2026-08-23T15:39:30Z"
     },
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Women Win At Crown Oil Arena",
+      "url": "https://rochdaleafc.co.uk/report-women-accrington-230826/",
+      "published": "2026-08-23T15:30:40Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -706,6 +724,15 @@
       "title": "REPORT: UNITED WOMEN 6 – 0 ASCOT UNITED",
       "url": "https://torquayunited.com/report-united-women-6-0-ascot-united/",
       "published": "2026-08-23T14:55:11Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Stick With Us – Watson",
+      "url": "https://rochdaleafc.co.uk/stick-with-us-watson/",
+      "published": "2026-08-23T14:33:08Z"
     },
     {
       "club": "Bath City",
@@ -769,15 +796,6 @@
       "title": "Highlights: Spalding United (H)",
       "url": "https://chesterfc.com/08/23/highlights-spalding-united-h/",
       "published": "2026-08-23T12:38:28Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "26/27 Match Report: Torquay United (H)",
-      "url": "https://daggers.co.uk/26-27-match-report-torquay-united-h/",
-      "published": "2026-08-23T12:16:16Z"
     },
     {
       "club": "Bath City",
@@ -870,6 +888,15 @@
       "published": "2026-08-23T08:44:48Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Braintree Town 1 Horsham 2 – Match report",
+      "url": "https://www.horshamfc.co.uk/2026/08/23/braintree-town-1-horsham-2-match-report/",
+      "published": "2026-08-23T08:21:18Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -879,6 +906,15 @@
       "published": "2026-08-23T07:51:13Z"
     },
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Bowlee Planning Application Submitted",
+      "url": "https://rochdaleafc.co.uk/bowlee-planning-application-submitted/",
+      "published": "2026-08-23T07:32:57Z"
+    },
+    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -886,6 +922,15 @@
       "title": "🎤 𝗣𝗼𝘀𝘁-𝗠𝗮𝘁𝗰𝗵 | Gary Horgan on our 4-0 defeat at Chichester",
       "url": "https://chippenhamtown.com/08/23/%f0%9f%8e%a4-%f0%9d%97%a3%f0%9d%97%bc%f0%9d%98%80%f0%9d%98%81-%f0%9d%97%a0%f0%9d%97%ae%f0%9d%98%81%f0%9d%97%b0%f0%9d%97%b5-gary-horgan-on-our-4-0-defeat-at-chichester/",
       "published": "2026-08-23T06:30:26Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Women Playing At COA On Sunday",
+      "url": "https://rochdaleafc.co.uk/women-playing-at-coa-on-sunday/",
+      "published": "2026-08-23T06:14:44Z"
     },
     {
       "club": "Southport",
@@ -904,6 +949,15 @@
       "title": "Wood You Believe It? Megan Joins the Stones",
       "url": "https://maidstoneunited.co.uk/08/23/wood-you-believe-it-megan-joins-the-stones/",
       "published": "2026-08-23T05:28:50Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Colchester Tickets On Sale",
+      "url": "https://rochdaleafc.co.uk/colchester-away-on-sale/",
+      "published": "2026-08-23T01:09:20Z"
     },
     {
       "club": "Chester",
@@ -1203,6 +1257,24 @@
       "published": "2026-08-22T17:15:35Z"
     },
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Watson On Home Defeat",
+      "url": "https://rochdaleafc.co.uk/watson-on-home-defeat/",
+      "published": "2026-08-22T17:15:17Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Francis Positive Despite Defeat",
+      "url": "https://rochdaleafc.co.uk/francis-positive-despite-defeat/",
+      "published": "2026-08-22T17:13:46Z"
+    },
+    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1282,6 +1354,15 @@
       "title": "Alty TV Post-Match | Boston 1 Alty 0",
       "url": "https://altrinchamfc.com/blogs/news/alty-tv-post-match-boston-1-alty-0",
       "published": "2026-08-22T16:19:09Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Dale Defeated At Home",
+      "url": "https://rochdaleafc.co.uk/report-crawley-town-home-220826/",
+      "published": "2026-08-22T16:01:55Z"
     },
     {
       "club": "Southend United",
@@ -1399,87 +1480,6 @@
       "title": "Report: Eastleigh 3-2 Scunthorpe United",
       "url": "https://eastleighfc.com/2026/08/report-eastleigh-3-2-scunthorpe-united/",
       "published": "2026-08-22T13:48:41Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Report: Solihull Moors 1-3 Southend",
-      "url": "https://southendunited.co.uk/news/2026/august/22/report--solihull-moors-1-3-southend/",
-      "published": "2026-08-22T13:48:20Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Alty suffer narrow defeat at Boston United",
-      "url": "https://altrinchamfc.com/blogs/news/boston-united-away-2026-27",
-      "published": "2026-08-22T13:25:41Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Welcome Corie Andrews",
-      "url": "https://doverathletic.com/news/welcome-corie-andrews/",
-      "published": "2026-08-22T12:47:09Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Bluebirds Dream Draw Week 52",
-      "url": "https://chippenhamtown.com/08/22/bluebirds-dream-draw-week-51-2/",
-      "published": "2026-08-22T11:00:35Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Club Statement",
-      "url": "https://torquayunited.com/club-statement-7/",
-      "published": "2026-08-22T10:47:22Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Keaton Ward joins Barrow",
-      "url": "https://gateshead-fc.com/keaton-ward-joins-barrow/",
-      "published": "2026-08-22T10:30:43Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Preview: Eastleigh vs Scunthorpe United",
-      "url": "https://eastleighfc.com/2026/08/preview-eastleigh-vs-scunthorpe-united/",
-      "published": "2026-08-22T08:25:14Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "It’s Matchday!",
-      "url": "https://southportfc.net/its-matchday/",
-      "published": "2026-08-22T08:02:28Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "The Southport Football Club Mascot Experience",
-      "url": "https://southportfc.net/the-southport-football-club-mascot-experience/",
-      "published": "2026-08-22T07:53:28Z"
     }
   ]
 }
