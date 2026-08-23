@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-23T19:39:40Z",
+  "generatedAt": "2026-08-23T20:01:24Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Highlights | Folkestone Invicta 1-1 Chelmsford City |",
+      "url": "https://chelmsfordcityfc.com/news/highlights-folkestone-invicta-1-1-chelmsford-city/",
+      "published": "2026-08-23T19:59:06Z"
+    },
     {
       "club": "Marine",
       "code": "MAR",
@@ -832,6 +841,15 @@
       "title": "Highlights: Dagenham & Redbridge (A) | 2026-27 National League South",
       "url": "https://torquayunited.com/highlights-dagenham-redbridge-a-2026-27-national-league-south/",
       "published": "2026-08-23T08:44:48Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Braintree Town 1 Horsham 2 – Match report",
+      "url": "https://www.horshamfc.co.uk/2026/08/23/braintree-town-1-horsham-2-match-report/",
+      "published": "2026-08-23T08:21:18Z"
     },
     {
       "club": "Altrincham",
@@ -1462,24 +1480,6 @@
       "title": "Club Statement",
       "url": "https://torquayunited.com/club-statement-7/",
       "published": "2026-08-22T10:47:22Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Keaton Ward joins Barrow",
-      "url": "https://gateshead-fc.com/keaton-ward-joins-barrow/",
-      "published": "2026-08-22T10:30:43Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Preview: Eastleigh vs Scunthorpe United",
-      "url": "https://eastleighfc.com/2026/08/preview-eastleigh-vs-scunthorpe-united/",
-      "published": "2026-08-22T08:25:14Z"
     }
   ]
 }
