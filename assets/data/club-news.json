@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-23T13:05:18Z",
+  "generatedAt": "2026-08-23T13:51:20Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3854,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -342,10 +342,10 @@
     {
       "club": "Radcliffe",
       "domain": "radcliffefc.com",
-      "feed": "https://radcliffefc.com/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: HTTPSConnectionPool(host='radcliffefc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='radcliffefc.com', port=443): Failed to resolve 'radcliffefc.com' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     {
       "club": "Scarborough Athletic",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "GALLERY | Worksop Town 0-3 Hereford FC",
+      "url": "https://herefordfc.co.uk/2026/08/gallery-worksop-town-0-3-hereford-fc/",
+      "published": "2026-08-23T13:45:36Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -607,6 +616,15 @@
       "title": "Highlights: Spalding United (H)",
       "url": "https://chesterfc.com/08/23/highlights-spalding-united-h/",
       "published": "2026-08-23T12:38:28Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "26/27 Match Report: Torquay United (H)",
+      "url": "https://daggers.co.uk/26-27-match-report-torquay-united-h/",
+      "published": "2026-08-23T12:16:16Z"
     },
     {
       "club": "Bath City",
@@ -760,24 +778,6 @@
       "title": "Wood You Believe It? Megan Joins the Stones",
       "url": "https://maidstoneunited.co.uk/08/23/wood-you-believe-it-megan-joins-the-stones/",
       "published": "2026-08-23T05:28:50Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Morecambe (H) Post-Match Reaction | Joe Pritchard",
-      "url": "https://radcliffefc.com/morecambe-h-post-match-reaction-joe-pritchard/",
-      "published": "2026-08-23T02:09:10Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Morecambe (H) Post-Match Reaction | Nicky Adams",
-      "url": "https://radcliffefc.com/morecambe-h-post-match-reaction-nicky-adams/",
-      "published": "2026-08-23T02:07:49Z"
     },
     {
       "club": "Rochdale",
@@ -1113,6 +1113,15 @@
       "published": "2026-08-22T17:03:30Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Highlights | Boreham Wood (H)",
+      "url": "https://www.fgr.co.uk/news/match-highlights-boreham-wood-h-2627/",
+      "published": "2026-08-22T17:00:00Z"
+    },
+    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -1212,6 +1221,15 @@
       "published": "2026-08-22T15:53:38Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report | FGR 0-3 Boreham Wood",
+      "url": "https://www.fgr.co.uk/news/match-report-fgr-0-3-boreham-wood/",
+      "published": "2026-08-22T15:30:00Z"
+    },
+    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -1237,6 +1255,15 @@
       "title": "Interview: Matt Gray Post-Scunthorpe Win",
       "url": "https://eastleighfc.com/2026/08/interview-matt-gray-post-scunthorpe-win/",
       "published": "2026-08-22T14:59:37Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Robbie Savage Post Boreham Wood",
+      "url": "https://www.fgr.co.uk/news/robbie-savage-post-boreham-wood2627/",
+      "published": "2026-08-22T14:50:00Z"
     },
     {
       "club": "Woking",
@@ -1309,15 +1336,6 @@
       "title": "Welcome Corie Andrews",
       "url": "https://doverathletic.com/news/welcome-corie-andrews/",
       "published": "2026-08-22T12:47:09Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Duo Sign On The Dotted Line",
-      "url": "https://radcliffefc.com/duo-sign-on-the-dotted-line/",
-      "published": "2026-08-22T12:45:24Z"
     },
     {
       "club": "Chippenham Town",
@@ -1462,24 +1480,6 @@
       "title": "FULL RANGE OF REPLICA KITS AVAILABLE IN THE CLUB SHOP",
       "url": "https://macclesfieldfc.com/latest-news/full-range-of-replica-kits-available-in-the-club-shop/",
       "published": "2026-08-21T17:30:22Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "The Friday Interview",
-      "url": "https://maidstoneunited.co.uk/08/21/the-friday-interview-4/",
-      "published": "2026-08-21T17:01:30Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SAM HEATHCOTE LOOKS AHEAD TO BRACKLEY TEST",
-      "url": "https://macclesfieldfc.com/silkmen-tv/sam-heathcote-looks-ahead-to-brackley-test/",
-      "published": "2026-08-21T17:00:47Z"
     }
   ]
 }
