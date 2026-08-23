@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-23T15:06:29Z",
+  "generatedAt": "2026-08-23T15:42:05Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     {
       "club": "Maidstone United",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Coach Travel: Bedford Town (A)",
+      "url": "https://spennymoortownfc.co.uk/2026/08/23/coach-travel-bedford-town-a/",
+      "published": "2026-08-23T15:39:30Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Women Win At Crown Oil Arena",
+      "url": "https://rochdaleafc.co.uk/report-women-accrington-230826/",
+      "published": "2026-08-23T15:30:40Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "MATCH REPORT: MACCLESFIELD FC 2-1 BRACKLEY TOWN",
+      "url": "https://macclesfieldfc.com/latest-news/match-report-macclesfield-fc-2-1-brackley-town/",
+      "published": "2026-08-23T15:30:10Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -589,6 +616,15 @@
       "title": "REPORT: UNITED WOMEN 6 – 0 ASCOT UNITED",
       "url": "https://torquayunited.com/report-united-women-6-0-ascot-united/",
       "published": "2026-08-23T14:55:11Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Stick With Us – Watson",
+      "url": "https://rochdaleafc.co.uk/stick-with-us-watson/",
+      "published": "2026-08-23T14:33:08Z"
     },
     {
       "club": "Truro City",
@@ -643,6 +679,15 @@
       "title": "Highlights: Spalding United (H)",
       "url": "https://chesterfc.com/08/23/highlights-spalding-united-h/",
       "published": "2026-08-23T12:38:28Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "26/27 Match Report: Torquay United (H)",
+      "url": "https://daggers.co.uk/26-27-match-report-torquay-united-h/",
+      "published": "2026-08-23T12:16:16Z"
     },
     {
       "club": "Bath City",
@@ -735,6 +780,15 @@
       "published": "2026-08-23T08:44:48Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Braintree Town 1 Horsham 2 – Match report",
+      "url": "https://www.horshamfc.co.uk/2026/08/23/braintree-town-1-horsham-2-match-report/",
+      "published": "2026-08-23T08:21:18Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -742,6 +796,15 @@
       "title": "Alty TV Away Shorts | Boston 1 Alty 0",
       "url": "https://altrinchamfc.com/blogs/news/alty-tv-away-shorts-boston-utd-1-alty-0",
       "published": "2026-08-23T07:51:13Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Bowlee Planning Application Submitted",
+      "url": "https://rochdaleafc.co.uk/bowlee-planning-application-submitted/",
+      "published": "2026-08-23T07:32:57Z"
     },
     {
       "club": "Chippenham Town",
@@ -760,15 +823,6 @@
       "title": "Women Playing At COA On Sunday",
       "url": "https://rochdaleafc.co.uk/women-playing-at-coa-on-sunday/",
       "published": "2026-08-23T06:14:44Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Bowlee Planning Application Submitted",
-      "url": "https://rochdaleafc.co.uk/bowlee-planning-application-submitted/",
-      "published": "2026-08-23T05:32:57Z"
     },
     {
       "club": "Southport",
@@ -1426,60 +1480,6 @@
       "title": "HIGHLIGHTS | Hereford FC 3-0 Radcliffe FC",
       "url": "https://herefordfc.co.uk/2026/08/highlights-hereford-fc-3-0-radcliffe-fc/",
       "published": "2026-08-21T19:10:52Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Match Preview: Worthing FC vs Wealdstone",
-      "url": "https://worthingfc.com/2026/08/match-preview-worthing-fc-vs-wealdstone/",
-      "published": "2026-08-21T18:46:41Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Supporters Society and Club vote overwhelmingly in favour of sale of Club to new investors.",
-      "url": "https://www.bathcityfc.com/supporters-vote-overwhelmingly-in-favour-of-sale-of-club-to-new-investors/",
-      "published": "2026-08-21T18:28:34Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Preview: Spalding United (H)",
-      "url": "https://chesterfc.com/08/21/preview-spalding-united-h/",
-      "published": "2026-08-21T18:10:48Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Dale Loan Kane",
-      "url": "https://rochdaleafc.co.uk/dale-loan-kane-taylor-210826/",
-      "published": "2026-08-21T17:58:40Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Pre-Spalding United: Neil Sorvel",
-      "url": "https://chesterfc.com/08/21/pre-spalding-united-neil-sorvel/",
-      "published": "2026-08-21T17:53:23Z"
-    },
-    {
-      "club": "Chesham United",
-      "code": "CHU",
-      "short": "Chesham",
-      "domain": "cheshamunited.co.uk",
-      "title": "Notes from the Chair – 21st August 2026",
-      "url": "https://cheshamunited.co.uk/2026/08/notes-from-the-chair-21st-august-2026/",
-      "published": "2026-08-21T17:47:50Z"
     }
   ]
 }
