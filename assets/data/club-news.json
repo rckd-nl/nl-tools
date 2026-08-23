@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-23T16:17:44Z",
+  "generatedAt": "2026-08-23T16:49:12Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7fa416214c50>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7fa416283290>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -778,6 +778,15 @@
       "title": "Highlights: Dagenham & Redbridge (A) | 2026-27 National League South",
       "url": "https://torquayunited.com/highlights-dagenham-redbridge-a-2026-27-national-league-south/",
       "published": "2026-08-23T08:44:48Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Braintree Town 1 Horsham 2 – Match report",
+      "url": "https://www.horshamfc.co.uk/2026/08/23/braintree-town-1-horsham-2-match-report/",
+      "published": "2026-08-23T08:21:18Z"
     },
     {
       "club": "Altrincham",
@@ -1471,15 +1480,6 @@
       "title": "HIGHLIGHTS | Hereford FC 3-0 Radcliffe FC",
       "url": "https://herefordfc.co.uk/2026/08/highlights-hereford-fc-3-0-radcliffe-fc/",
       "published": "2026-08-21T19:10:52Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Match Preview: Worthing FC vs Wealdstone",
-      "url": "https://worthingfc.com/2026/08/match-preview-worthing-fc-vs-wealdstone/",
-      "published": "2026-08-21T18:46:41Z"
     }
   ]
 }
