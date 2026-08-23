@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-23T18:02:15Z",
+  "generatedAt": "2026-08-23T18:53:16Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -588,7 +588,7 @@
       "domain": "marinefc.com",
       "title": "King’s Lynn Town 1-4 Marine",
       "url": "https://marinefc.com/kings-lynn-town-1-4-marine/",
-      "published": "2026-08-23T17:56:01Z"
+      "published": "2026-08-23T18:15:13Z"
     },
     {
       "club": "Maidstone United",
@@ -841,6 +841,15 @@
       "title": "Highlights: Dagenham & Redbridge (A) | 2026-27 National League South",
       "url": "https://torquayunited.com/highlights-dagenham-redbridge-a-2026-27-national-league-south/",
       "published": "2026-08-23T08:44:48Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Braintree Town 1 Horsham 2 – Match report",
+      "url": "https://www.horshamfc.co.uk/2026/08/23/braintree-town-1-horsham-2-match-report/",
+      "published": "2026-08-23T08:21:18Z"
     },
     {
       "club": "Altrincham",
@@ -1471,15 +1480,6 @@
       "title": "Club Statement",
       "url": "https://torquayunited.com/club-statement-7/",
       "published": "2026-08-22T10:47:22Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Keaton Ward joins Barrow",
-      "url": "https://gateshead-fc.com/keaton-ward-joins-barrow/",
-      "published": "2026-08-22T10:30:43Z"
     }
   ]
 }
