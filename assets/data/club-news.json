@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-23T12:00:43Z",
+  "generatedAt": "2026-08-23T13:05:18Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3854,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,42 @@
   ],
   "items": [
     {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Tonbridge Angels vs Truro City – Match Highlights",
+      "url": "https://trurocity.co.uk/2026/08/tonbridge-angels-vs-truro-city-match-highlights/",
+      "published": "2026-08-23T13:00:06Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Match Report | Guiseley (H)",
+      "url": "https://curzon-ashton.co.uk/match-report-guiseley-h/",
+      "published": "2026-08-23T12:42:13Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Highlights: Spalding United (H)",
+      "url": "https://chesterfc.com/08/23/highlights-spalding-united-h/",
+      "published": "2026-08-23T12:38:28Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Watch manager Scott Bartlett’s Basingstoke post-match interview",
+      "url": "https://www.bathcityfc.com/watch-manager-scott-bartletts-basingstoke-post-match-interview/",
+      "published": "2026-08-23T12:01:34Z"
+    },
+    {
       "club": "Enfield Town",
       "code": "ENF",
       "short": "Enfield",
@@ -600,6 +636,15 @@
       "published": "2026-08-23T11:28:51Z"
     },
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Women’s FA Cup",
+      "url": "https://maidstoneunited.co.uk/08/23/key-info-womens-fa-cup/",
+      "published": "2026-08-23T11:00:57Z"
+    },
+    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -607,6 +652,15 @@
       "title": "Gallery: Chichester City vs Chippenham Town",
       "url": "https://chippenhamtown.com/08/23/gallery-chichester-city-vs-chippenham-town/",
       "published": "2026-08-23T11:00:43Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Gallery: Dorking Wanderers",
+      "url": "https://maidstoneunited.co.uk/08/23/gallery-dorking-wanderers-3/",
+      "published": "2026-08-23T10:00:26Z"
     },
     {
       "club": "Eastleigh",
@@ -661,15 +715,6 @@
       "title": "Alty TV Away Shorts | Boston 1 Alty 0",
       "url": "https://altrinchamfc.com/blogs/news/alty-tv-away-shorts-boston-utd-1-alty-0",
       "published": "2026-08-23T07:51:13Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Women’s FA Cup",
-      "url": "https://maidstoneunited.co.uk/08/23/key-info-womens-fa-cup/",
-      "published": "2026-08-23T07:26:57Z"
     },
     {
       "club": "Chippenham Town",
@@ -751,6 +796,15 @@
       "title": "Post-Spalding United: Phil Parkinson",
       "url": "https://chesterfc.com/08/23/post-spalding-united-phil-parkinson/",
       "published": "2026-08-22T23:12:37Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "This week at Gallagher Stadium (w/c 23/8/26)",
+      "url": "https://maidstoneunited.co.uk/08/23/this-week-at-gallagher-stadium-w-c-23-8-26/",
+      "published": "2026-08-22T23:01:10Z"
     },
     {
       "club": "York City",
@@ -1059,15 +1113,6 @@
       "published": "2026-08-22T17:03:30Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Highlights | Boreham Wood (H)",
-      "url": "https://www.fgr.co.uk/news/match-highlights-boreham-wood-h-2627/",
-      "published": "2026-08-22T17:00:00Z"
-    },
-    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -1167,15 +1212,6 @@
       "published": "2026-08-22T15:53:38Z"
     },
     {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Report | FGR 0-3 Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/match-report-fgr-0-3-boreham-wood/",
-      "published": "2026-08-22T15:30:00Z"
-    },
-    {
       "club": "AFC Fylde",
       "code": "FYL",
       "short": "Fylde",
@@ -1201,15 +1237,6 @@
       "title": "Interview: Matt Gray Post-Scunthorpe Win",
       "url": "https://eastleighfc.com/2026/08/interview-matt-gray-post-scunthorpe-win/",
       "published": "2026-08-22T14:59:37Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Robbie Savage Post Boreham Wood",
-      "url": "https://www.fgr.co.uk/news/robbie-savage-post-boreham-wood2627/",
-      "published": "2026-08-22T14:50:00Z"
     },
     {
       "club": "Woking",
@@ -1453,33 +1480,6 @@
       "title": "SAM HEATHCOTE LOOKS AHEAD TO BRACKLEY TEST",
       "url": "https://macclesfieldfc.com/silkmen-tv/sam-heathcote-looks-ahead-to-brackley-test/",
       "published": "2026-08-21T17:00:47Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Match Preview | Morecambe (H)",
-      "url": "https://radcliffefc.com/match-preview-morecambe-h/",
-      "published": "2026-08-21T16:59:52Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "The Unlikely Duo Spearheading A New Era",
-      "url": "https://tonbridgeangels.co.uk/the-unlikely-duo-spearheading-a-new-era/",
-      "published": "2026-08-21T16:27:58Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Kash Odiase joins on loan!",
-      "url": "https://chelmsfordcityfc.com/news/kash-odiase-joins-on-loan/",
-      "published": "2026-08-21T16:25:00Z"
     }
   ]
 }
