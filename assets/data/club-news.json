@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-23T18:53:16Z",
+  "generatedAt": "2026-08-23T19:39:40Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -744,15 +744,6 @@
       "published": "2026-08-23T12:38:28Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "26/27 Match Report: Torquay United (H)",
-      "url": "https://daggers.co.uk/26-27-match-report-torquay-united-h/",
-      "published": "2026-08-23T12:16:16Z"
-    },
-    {
       "club": "Bath City",
       "code": "BAT",
       "short": "Bath",
@@ -841,15 +832,6 @@
       "title": "Highlights: Dagenham & Redbridge (A) | 2026-27 National League South",
       "url": "https://torquayunited.com/highlights-dagenham-redbridge-a-2026-27-national-league-south/",
       "published": "2026-08-23T08:44:48Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Braintree Town 1 Horsham 2 – Match report",
-      "url": "https://www.horshamfc.co.uk/2026/08/23/braintree-town-1-horsham-2-match-report/",
-      "published": "2026-08-23T08:21:18Z"
     },
     {
       "club": "Altrincham",
@@ -1480,6 +1462,24 @@
       "title": "Club Statement",
       "url": "https://torquayunited.com/club-statement-7/",
       "published": "2026-08-22T10:47:22Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "Keaton Ward joins Barrow",
+      "url": "https://gateshead-fc.com/keaton-ward-joins-barrow/",
+      "published": "2026-08-22T10:30:43Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Preview: Eastleigh vs Scunthorpe United",
+      "url": "https://eastleighfc.com/2026/08/preview-eastleigh-vs-scunthorpe-united/",
+      "published": "2026-08-22T08:25:14Z"
     }
   ]
 }
