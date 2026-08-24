@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-24T16:59:10Z",
+  "generatedAt": "2026-08-24T17:49:36Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,18 +78,18 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3856,
+      "error": ""
     },
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://www.southshieldsfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,42 @@
     }
   ],
   "items": [
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Season Ticket Holder Appreciation Matchday",
+      "url": "https://www.fgr.co.uk/news/season-ticket-holder-appreciation-matchday/",
+      "published": "2026-08-24T18:00:00Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Sonny Finch joins Grimsby Town",
+      "url": "https://www.southshieldsfc.co.uk/sonny-finch-joins-grimsby-town/",
+      "published": "2026-08-24T17:28:25Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Alfie Cunningham Joins Lancaster City On Loan",
+      "url": "https://southportfc.net/alfie-cunningham-joins-lancaster-city-on-loan/",
+      "published": "2026-08-24T17:17:22Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "MACC IN BLACK",
+      "url": "https://macclesfieldfc.com/latest-news/macc-in-black/",
+      "published": "2026-08-24T17:00:41Z"
+    },
     {
       "club": "Spennymoor Town",
       "code": "SPE",
@@ -670,6 +706,15 @@
       "title": "Ticket & Travel Information: Tamworth (A)",
       "url": "https://worthingfc.com/2026/08/ticket-travel-information-tamworth/",
       "published": "2026-08-24T14:09:13Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Partnership | Rubies In The Rubble",
+      "url": "https://www.fgr.co.uk/news/partnership-rubies-2627/",
+      "published": "2026-08-24T14:00:00Z"
     },
     {
       "club": "Torquay United",
@@ -940,6 +985,15 @@
       "title": "Reaction | Leo Sery reflects on his first league goal in our draw away to Folkestone Invicta.",
       "url": "https://chelmsfordcityfc.com/news/reaction-leo-sery-reflects-on-his-first-league-goal-in-our-draw-away-to-folkestone-invicta/",
       "published": "2026-08-23T20:20:30Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Walking Footballers Victorious In Chadderton.",
+      "url": "https://southportfc.net/walking-footballers-victorious-in-chadderton/",
+      "published": "2026-08-23T20:06:04Z"
     },
     {
       "club": "Chelmsford City",
@@ -1248,15 +1302,6 @@
       "published": "2026-08-23T08:44:48Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Braintree Town 1 Horsham 2 – Match report",
-      "url": "https://www.horshamfc.co.uk/2026/08/23/braintree-town-1-horsham-2-match-report/",
-      "published": "2026-08-23T08:21:18Z"
-    },
-    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1291,6 +1336,15 @@
       "title": "Women Playing At COA On Sunday",
       "url": "https://rochdaleafc.co.uk/women-playing-at-coa-on-sunday/",
       "published": "2026-08-23T06:14:44Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Highlights | Southport v Bedford Town",
+      "url": "https://southportfc.net/highlights-southport-v-bedford-town/",
+      "published": "2026-08-23T05:30:37Z"
     },
     {
       "club": "Maidstone United",
@@ -1374,6 +1428,15 @@
       "published": "2026-08-22T21:00:21Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Post Match With Luke Burgess & Neil Danns",
+      "url": "https://southportfc.net/post-match-with-luke-burgess-neil-danns/",
+      "published": "2026-08-22T20:58:09Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1417,69 +1480,6 @@
       "title": "Joel Amado Post Match Interview | Guiseley (H)",
       "url": "https://curzon-ashton.co.uk/joel-amado-post-match-interview-guiseley-h/",
       "published": "2026-08-22T19:40:47Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Adam Barton Post Match Interview | Guiseley (H)",
-      "url": "https://curzon-ashton.co.uk/adam-barton-post-match-guiseley-h/",
-      "published": "2026-08-22T19:35:14Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Report: Seagulls defeated for first time this campaign",
-      "url": "https://wsmafc.co.uk/report-dover-home-2627/",
-      "published": "2026-08-22T19:00:19Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Report: Chichester 4-0 Town",
-      "url": "https://chippenhamtown.com/08/22/report-chichester-4-0-town/",
-      "published": "2026-08-22T19:00:12Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Match Report | Maidstone United (H) 22/08/26",
-      "url": "https://dwfc.co.uk/2026/08/match-report-maidstone-united-h-22-08-26/",
-      "published": "2026-08-22T18:38:34Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Match Report: Yeovil Town 3-0 Gateshead",
-      "url": "https://ytfc.net/2026/08/match-report-yeovil-town-3-0-gateshead/",
-      "published": "2026-08-22T17:54:33Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "☄️ Carter STUNNER earns Reds Three Points | Worthing FC 1-0 Wealdstone FC | Match Highlights",
-      "url": "https://worthingfc.com/2026/08/%e2%98%84%ef%b8%8f-carter-stunner-earns-reds-three-points-worthing-fc-1-0-wealdstone-fc-match-highlights/",
-      "published": "2026-08-22T17:52:27Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Report: Moors 1 Oxford City 4",
-      "url": "https://spennymoortownfc.co.uk/2026/08/22/report-moors-1-oxford-city-1-2/",
-      "published": "2026-08-22T17:44:08Z"
     }
   ]
 }
