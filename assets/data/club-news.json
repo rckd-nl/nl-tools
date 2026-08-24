@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-24T12:12:10Z",
+  "generatedAt": "2026-08-24T13:22:43Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3854,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -193,7 +193,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "SSLError: HTTPSConnectionPool(host='yorkcityfootballclubstore.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'yorkcityfootballclubstore.co.uk'. (_ssl.c:1016)\")))"
+      "error": "HTTP 526"
     },
     {
       "club": "AFC Fylde",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -345,7 +345,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='radcliffefc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='radcliffefc.com', port=443) at 0x7ff2870d9ed0>, 'Connection to radcliffefc.com timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='radcliffefc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='radcliffefc.com', port=443) at 0x7f449566e2d0>, 'Connection to radcliffefc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Scarborough Athletic",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Pre-Match Meals v Hampton & Richmond",
+      "url": "https://torquayunited.com/pre-match-meals-v-hampton-richmond/",
+      "published": "2026-08-24T13:10:59Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Town Handed Away Cup Draw",
+      "url": "https://etfc.london/town-handed-away-cup-draw/",
+      "published": "2026-08-24T13:08:07Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "ACTION REPLAY: BRACKLEY TOWN (H)",
+      "url": "https://macclesfieldfc.com/galleries/action-replay-brackley-town-h/",
+      "published": "2026-08-24T13:00:13Z"
+    },
+    {
       "club": "Bath City",
       "code": "BAT",
       "short": "Bath",
@@ -625,6 +652,15 @@
       "title": "Match Preview | Warrington Town (A)",
       "url": "https://curzon-ashton.co.uk/match-preview-warrington-town-a-2/",
       "published": "2026-08-24T11:40:29Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "EVENT | Tickets On Sale for Evening with Andy Williams",
+      "url": "https://herefordfc.co.uk/2026/08/event-tickets-on-sale-for-evening-with-andy-williams/",
+      "published": "2026-08-24T11:30:51Z"
     },
     {
       "club": "AFC Fylde",
@@ -787,6 +823,15 @@
       "title": "Behind the Seals: Spalding United (H)",
       "url": "https://chesterfc.com/08/24/behind-the-seals-spalding-united-h/",
       "published": "2026-08-24T06:18:23Z"
+    },
+    {
+      "club": "Marine",
+      "code": "MAR",
+      "short": "Marine",
+      "domain": "marinefc.com",
+      "title": "Golden Letter Draw Results",
+      "url": "https://marinefc.com/golden-letter-draw-results/",
+      "published": "2026-08-23T20:48:00Z"
     },
     {
       "club": "Woking",
@@ -996,6 +1041,15 @@
       "published": "2026-08-23T13:00:06Z"
     },
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Youth Team Edged Out In 7-Goal Thriller",
+      "url": "https://rochdaleafc.co.uk/youth-team-edged-out-in-7-goal-thriller/",
+      "published": "2026-08-23T12:43:05Z"
+    },
+    {
       "club": "Curzon Ashton",
       "code": "CUR",
       "short": "Curzon Ashton",
@@ -1086,6 +1140,15 @@
       "published": "2026-08-23T09:07:34Z"
     },
     {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Highlights: Chichester City vs Chippenham Town",
+      "url": "https://chippenhamtown.com/08/23/highlights-chichester-city-vs-chippenham-town/",
+      "published": "2026-08-23T09:00:16Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1102,15 +1165,6 @@
       "title": "Highlights: Dagenham & Redbridge (A) | 2026-27 National League South",
       "url": "https://torquayunited.com/highlights-dagenham-redbridge-a-2026-27-national-league-south/",
       "published": "2026-08-23T08:44:48Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Braintree Town 1 Horsham 2 – Match report",
-      "url": "https://www.horshamfc.co.uk/2026/08/23/braintree-town-1-horsham-2-match-report/",
-      "published": "2026-08-23T08:21:18Z"
     },
     {
       "club": "Altrincham",
@@ -1426,60 +1480,6 @@
       "title": "Southport 4 Bedford Town 1",
       "url": "https://southportfc.net/southport-4-bedford-town-1/",
       "published": "2026-08-22T17:30:11Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "John Rooney after Brackley Town victory",
-      "url": "https://macclesfieldfc.com/latest-news/john-rooney-after-brackley-town-victory/",
-      "published": "2026-08-22T17:15:35Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Watson On Home Defeat",
-      "url": "https://rochdaleafc.co.uk/watson-on-home-defeat/",
-      "published": "2026-08-22T17:15:17Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Francis Positive Despite Defeat",
-      "url": "https://rochdaleafc.co.uk/francis-positive-despite-defeat/",
-      "published": "2026-08-22T17:13:46Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Report: Chester 1-0 Spalding United",
-      "url": "https://chesterfc.com/08/22/report-chester-1-0-spalding-united/",
-      "published": "2026-08-22T17:03:30Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Highlights | Boreham Wood (H)",
-      "url": "https://www.fgr.co.uk/news/match-highlights-boreham-wood-h-2627/",
-      "published": "2026-08-22T17:00:00Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Match Preview: York FC Ladies (A)",
-      "url": "https://afcfylde.co.uk/news/2026/august/22/match-preview-york-women-A-/",
-      "published": "2026-08-22T17:00:00Z"
     }
   ]
 }
