@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-24T13:22:43Z",
+  "generatedAt": "2026-08-24T14:08:49Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.fgr.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Gateshead",
@@ -190,10 +190,10 @@
     {
       "club": "York City",
       "domain": "yorkcityfootballclub.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 526"
+      "feed": "https://yorkcityfootballclubstore.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "AFC Fylde",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -342,10 +342,10 @@
     {
       "club": "Radcliffe",
       "domain": "radcliffefc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='radcliffefc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='radcliffefc.com', port=443) at 0x7f449566e2d0>, 'Connection to radcliffefc.com timed out. (connect timeout=25)'))"
+      "feed": "https://radcliffefc.com/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Scarborough Athletic",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -586,6 +586,15 @@
       "code": "TOR",
       "short": "Torquay",
       "domain": "torquayunited.com",
+      "title": "Hampton Tickets Now On Sale!",
+      "url": "https://torquayunited.com/hampton-tickets-now-on-sale/",
+      "published": "2026-08-24T13:55:21Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
       "title": "Pre-Match Meals v Hampton & Richmond",
       "url": "https://torquayunited.com/pre-match-meals-v-hampton-richmond/",
       "published": "2026-08-24T13:10:59Z"
@@ -625,15 +634,6 @@
       "title": "Town to play Havant & Waterlooville in FA Cup",
       "url": "https://chippenhamtown.com/08/24/town-to-play-havant-waterlooville-in-fa-cup/",
       "published": "2026-08-24T12:03:42Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "AWAY DAY GUIDE: Truro City",
-      "url": "https://daggers.co.uk/away-day-guide-truro-city/",
-      "published": "2026-08-24T11:48:52Z"
     },
     {
       "club": "Torquay United",
@@ -708,6 +708,15 @@
       "published": "2026-08-24T10:54:16Z"
     },
     {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Ollie Pearce to visit city centre store opening.",
+      "url": "https://yorkcityfootballclubstore.co.uk/ollie-pearce-to-visit-city-centre-store-opening/",
+      "published": "2026-08-24T10:51:33Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -778,15 +787,6 @@
       "title": "Key info: Salisbury",
       "url": "https://maidstoneunited.co.uk/08/24/key-info-salisbury-3/",
       "published": "2026-08-24T09:00:26Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "50/50 Prize Winner: Torquay",
-      "url": "https://daggers.co.uk/50-50-prize-winner-torquay/",
-      "published": "2026-08-24T08:32:43Z"
     },
     {
       "club": "Farnborough",
@@ -1068,15 +1068,6 @@
       "published": "2026-08-23T12:38:28Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "26/27 Match Report: Torquay United (H)",
-      "url": "https://daggers.co.uk/26-27-match-report-torquay-united-h/",
-      "published": "2026-08-23T12:16:16Z"
-    },
-    {
       "club": "Bath City",
       "code": "BAT",
       "short": "Bath",
@@ -1093,6 +1084,15 @@
       "title": "Town Up To Second With Statement Win",
       "url": "https://etfc.london/town-up-to-second-with-statement-win/",
       "published": "2026-08-23T11:35:25Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Match Report | Rotherham United 1-1 York City",
+      "url": "https://yorkcityfootballclubstore.co.uk/match-report-rotherham-united-1-1-york-city/",
+      "published": "2026-08-23T11:28:51Z"
     },
     {
       "club": "Maidstone United",
@@ -1167,6 +1167,15 @@
       "published": "2026-08-23T08:44:48Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Braintree Town 1 Horsham 2 – Match report",
+      "url": "https://www.horshamfc.co.uk/2026/08/23/braintree-town-1-horsham-2-match-report/",
+      "published": "2026-08-23T08:21:18Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1221,6 +1230,24 @@
       "published": "2026-08-23T05:28:50Z"
     },
     {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Morecambe (H) Post-Match Reaction | Joe Pritchard",
+      "url": "https://radcliffefc.com/morecambe-h-post-match-reaction-joe-pritchard/",
+      "published": "2026-08-23T02:09:10Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Morecambe (H) Post-Match Reaction | Nicky Adams",
+      "url": "https://radcliffefc.com/morecambe-h-post-match-reaction-nicky-adams/",
+      "published": "2026-08-23T02:07:49Z"
+    },
+    {
       "club": "Rochdale",
       "code": "ROC",
       "short": "Rochdale",
@@ -1246,6 +1273,15 @@
       "title": "This week at Gallagher Stadium (w/c 23/8/26)",
       "url": "https://maidstoneunited.co.uk/08/23/this-week-at-gallagher-stadium-w-c-23-8-26/",
       "published": "2026-08-22T23:01:10Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "U18s Match Report | Lincoln City U18s 3-2 York City U18s",
+      "url": "https://yorkcityfootballclubstore.co.uk/u18s-match-report-lincoln-city-u18s-3-2-york-city-u18s/",
+      "published": "2026-08-22T21:24:40Z"
     },
     {
       "club": "Maidstone United",
@@ -1444,42 +1480,6 @@
       "title": "Report: Moors 1 Oxford City 4",
       "url": "https://spennymoortownfc.co.uk/2026/08/22/report-moors-1-oxford-city-1-2/",
       "published": "2026-08-22T17:44:08Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "REPORT | Worksop Town 0-3 Hereford FC",
-      "url": "https://herefordfc.co.uk/2026/08/report-worksop-town-0-3-hereford-fc/",
-      "published": "2026-08-22T17:30:46Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "“𝗜𝘁 𝘄𝗮𝘀 𝗳𝗹𝗮𝘁 𝘁𝗼𝗱𝗮𝘆” | Scott Rogers post – Dover Athletic (H)",
-      "url": "https://wsmafc.co.uk/%f0%9d%97%9c%f0%9d%98%81-%f0%9d%98%84%f0%9d%97%ae%f0%9d%98%80-%f0%9d%97%b3%f0%9d%97%b9%f0%9d%97%ae%f0%9d%98%81-%f0%9d%98%81%f0%9d%97%bc%f0%9d%97%b1%f0%9d%97%ae%f0%9d%98%86-scott-rogers-post-do/",
-      "published": "2026-08-22T17:30:42Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Rest in peace, Quevin Castro",
-      "url": "https://chippenhamtown.com/08/22/rest-in-peace-quevin-castro/",
-      "published": "2026-08-22T17:30:38Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Southport 4 Bedford Town 1",
-      "url": "https://southportfc.net/southport-4-bedford-town-1/",
-      "published": "2026-08-22T17:30:11Z"
     }
   ]
 }
