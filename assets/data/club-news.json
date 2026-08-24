@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-24T11:54:08Z",
+  "generatedAt": "2026-08-24T12:12:10Z",
   "maxItems": 100,
   "sources": [
     {
@@ -345,7 +345,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='radcliffefc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='radcliffefc.com', port=443) at 0x7f294eb3bbd0>, 'Connection to radcliffefc.com timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='radcliffefc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='radcliffefc.com', port=443) at 0x7ff2870d9ed0>, 'Connection to radcliffefc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Scarborough Athletic",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "FA Cup 1st Qualifying Round Draw News",
+      "url": "https://www.bathcityfc.com/fa-cup-1st-qualifying-round-draw-news/",
+      "published": "2026-08-24T12:06:33Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Town to play Havant & Waterlooville in FA Cup",
+      "url": "https://chippenhamtown.com/08/24/town-to-play-havant-waterlooville-in-fa-cup/",
+      "published": "2026-08-24T12:03:42Z"
+    },
+    {
       "club": "Dagenham & Redbridge",
       "code": "DAG",
       "short": "Dag & Red",
@@ -607,6 +625,15 @@
       "title": "Match Preview | Warrington Town (A)",
       "url": "https://curzon-ashton.co.uk/match-preview-warrington-town-a-2/",
       "published": "2026-08-24T11:40:29Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "The FSL Gold Jackpot Hits £2,650!",
+      "url": "https://afcfylde.co.uk/news/2026/august/24/the-fsl-gold-jackpot-hits--2650-/",
+      "published": "2026-08-24T11:30:00Z"
     },
     {
       "club": "Maidstone United",
@@ -1453,33 +1480,6 @@
       "title": "Match Preview: York FC Ladies (A)",
       "url": "https://afcfylde.co.uk/news/2026/august/22/match-preview-york-women-A-/",
       "published": "2026-08-22T17:00:00Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Report: Folkestone Invicta 1-1 Chelmsford City",
-      "url": "https://chelmsfordcityfc.com/news/report-folkestone-invicta-1-1-chelmsford-city/",
-      "published": "2026-08-22T16:59:13Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "John Askey Post Tonbridge Angels (a)",
-      "url": "https://trurocity.co.uk/2026/08/john-askey-post-tonbridge-angels-a-2/",
-      "published": "2026-08-22T16:58:06Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Report: Weston-super-Mare 2-3 Dover Athletic",
-      "url": "https://doverathletic.com/news/report-weston-super-mare-2-3-dover-athletic/",
-      "published": "2026-08-22T16:53:33Z"
     }
   ]
 }
