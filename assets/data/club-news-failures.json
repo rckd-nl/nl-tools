@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-24T10:28:58Z",
+  "generatedAt": "2026-08-24T11:17:48Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -48,7 +48,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Morecambe",
@@ -97,6 +97,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "York City",
+      "domain": "yorkcityfootballclub.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "SSLError: HTTPSConnectionPool(host='yorkcityfootballclubstore.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'yorkcityfootballclubstore.co.uk'. (_ssl.c:1016)\")))"
     },
     {
       "club": "AFC Telford United",
@@ -192,7 +200,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: HTTPSConnectionPool(host='radcliffefc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='radcliffefc.com', port=443): Failed to resolve 'radcliffefc.com' ([Errno -3] Temporary failure in name resolution)\"))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='radcliffefc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='radcliffefc.com', port=443) at 0x7fa1fb0f7fd0>, 'Connection to radcliffefc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Scarborough Athletic",
@@ -217,6 +225,14 @@
       "ok": false,
       "count": 0,
       "error": "Feed returned 0 usable items"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "domain": "daggers.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Eastbourne Borough",

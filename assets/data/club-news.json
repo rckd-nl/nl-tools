@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-24T10:28:58Z",
+  "generatedAt": "2026-08-24T11:17:48Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "club": "Gateshead",
@@ -190,10 +190,10 @@
     {
       "club": "York City",
       "domain": "yorkcityfootballclub.co.uk",
-      "feed": "https://yorkcityfootballclub.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "SSLError: HTTPSConnectionPool(host='yorkcityfootballclubstore.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'yorkcityfootballclubstore.co.uk'. (_ssl.c:1016)\")))"
     },
     {
       "club": "AFC Fylde",
@@ -345,7 +345,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: HTTPSConnectionPool(host='radcliffefc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='radcliffefc.com', port=443): Failed to resolve 'radcliffefc.com' ([Errno -3] Temporary failure in name resolution)\"))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='radcliffefc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='radcliffefc.com', port=443) at 0x7fa1fb0f7fd0>, 'Connection to radcliffefc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Scarborough Athletic",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "MUFC Women: Post Match Hastings United",
+      "url": "https://maidstoneunited.co.uk/08/24/mufc-women-post-match-hastings-united/",
+      "published": "2026-08-24T11:12:26Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Gallery | Guiseley AFC (H)",
+      "url": "https://curzon-ashton.co.uk/gallery-guiseley-afc-h/",
+      "published": "2026-08-24T10:54:16Z"
+    },
+    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -609,6 +627,15 @@
       "published": "2026-08-24T10:09:39Z"
     },
     {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Open Training Session On Tuesday",
+      "url": "https://rochdaleafc.co.uk/open-training-session-confirmed/",
+      "published": "2026-08-24T09:47:15Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -634,15 +661,6 @@
       "title": "Key info: Salisbury",
       "url": "https://maidstoneunited.co.uk/08/24/key-info-salisbury-3/",
       "published": "2026-08-24T09:00:26Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "50/50 Prize Winner: Torquay",
-      "url": "https://daggers.co.uk/50-50-prize-winner-torquay/",
-      "published": "2026-08-24T08:32:43Z"
     },
     {
       "club": "Farnborough",
@@ -906,15 +924,6 @@
       "published": "2026-08-23T12:38:28Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "26/27 Match Report: Torquay United (H)",
-      "url": "https://daggers.co.uk/26-27-match-report-torquay-united-h/",
-      "published": "2026-08-23T12:16:16Z"
-    },
-    {
       "club": "Bath City",
       "code": "BAT",
       "short": "Bath",
@@ -931,15 +940,6 @@
       "title": "Town Up To Second With Statement Win",
       "url": "https://etfc.london/town-up-to-second-with-statement-win/",
       "published": "2026-08-23T11:35:25Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Match Report | Rotherham United 1-1 York City",
-      "url": "https://yorkcityfootballclub.co.uk/match-report-rotherham-united-1-1-york-city/",
-      "published": "2026-08-23T11:28:51Z"
     },
     {
       "club": "Maidstone United",
@@ -1095,15 +1095,6 @@
       "published": "2026-08-22T23:01:10Z"
     },
     {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "U18s Match Report | Lincoln City U18s 3-2 York City U18s",
-      "url": "https://yorkcityfootballclub.co.uk/u18s-match-report-lincoln-city-u18s-3-2-york-city-u18s/",
-      "published": "2026-08-22T21:24:40Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1237,15 +1228,6 @@
       "title": "Match Report | Maidstone United (H) 22/08/26",
       "url": "https://dwfc.co.uk/2026/08/match-report-maidstone-united-h-22-08-26/",
       "published": "2026-08-22T18:38:34Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Post Match: Dorking",
-      "url": "https://maidstoneunited.co.uk/08/22/post-match-dorking-2/",
-      "published": "2026-08-22T18:25:10Z"
     },
     {
       "club": "Torquay United",
@@ -1480,6 +1462,24 @@
       "title": "Post-Match: Oli Coker Reflects On Solihull Win",
       "url": "https://southendunited.co.uk/news/2026/august/22/post-match--oli-coker-reflects-on-solihull-win/",
       "published": "2026-08-22T15:53:38Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Match Report: Woking 3-2 AFC Fylde",
+      "url": "https://afcfylde.co.uk/news/2026/august/22/match-report-woking-3-2-afc-fylde/",
+      "published": "2026-08-22T15:14:00Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Adjetey-Brew: “I want to do the best I can for this club” | Wealdstone Reaction",
+      "url": "https://worthingfc.com/2026/08/adjetey-brew-i-want-to-do-the-best-i-can-for-this-club-wealdstone-reaction/",
+      "published": "2026-08-22T15:00:16Z"
     }
   ]
 }
