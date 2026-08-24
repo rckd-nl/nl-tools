@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-24T15:16:49Z",
+  "generatedAt": "2026-08-24T15:58:23Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3856,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f32d176cc90>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f32d153b750>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,33 @@
   ],
   "items": [
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Season Ticket Holder Appreciation Matchday",
+      "url": "https://www.fgr.co.uk/news/season-ticket-holder-appreciation-matchday/",
+      "published": "2026-08-24T18:00:00Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Kent Youth League Preview",
+      "url": "https://tonbridgeangels.co.uk/kent-youth-league-preview-3/",
+      "published": "2026-08-24T15:26:58Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Pan Disability Football creating opportunities",
+      "url": "https://tonbridgeangels.co.uk/pan-disability-football-creating-opportunities/",
+      "published": "2026-08-24T15:19:04Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -634,6 +661,15 @@
       "title": "Ticket & Travel Information: Tamworth (A)",
       "url": "https://worthingfc.com/2026/08/ticket-travel-information-tamworth/",
       "published": "2026-08-24T14:09:13Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Partnership | Rubies In The Rubble",
+      "url": "https://www.fgr.co.uk/news/partnership-rubies-2627/",
+      "published": "2026-08-24T14:00:00Z"
     },
     {
       "club": "Torquay United",
@@ -1221,6 +1257,15 @@
       "published": "2026-08-23T08:44:48Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Braintree Town 1 Horsham 2 – Match report",
+      "url": "https://www.horshamfc.co.uk/2026/08/23/braintree-town-1-horsham-2-match-report/",
+      "published": "2026-08-23T08:21:18Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1435,51 +1480,6 @@
       "title": "HIGHLIGHTS | South Shields FC 1-1 Merthyr Town FC | Enterprise National League North",
       "url": "https://www.southshieldsfc.co.uk/highlights-south-shields-fc-1-1-merthyr-town-fc-enterprise-national-league-north/",
       "published": "2026-08-22T18:53:10Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "GOALS | South Shields FC 1-1 Merthyr Town FC | Enterprise National League North",
-      "url": "https://www.southshieldsfc.co.uk/goals-south-shields-fc-1-1-merthyr-town-fc-enterprise-national-league-north/",
-      "published": "2026-08-22T18:38:59Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Match Report | Maidstone United (H) 22/08/26",
-      "url": "https://dwfc.co.uk/2026/08/match-report-maidstone-united-h-22-08-26/",
-      "published": "2026-08-22T18:38:34Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Dan Dodds to miss ‘weeks rather than months’",
-      "url": "https://www.southshieldsfc.co.uk/dan-dodds-to-miss-weeks-rather-than-months/",
-      "published": "2026-08-22T18:08:22Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "10 men South Shields held to 1-1 draw against Merthyr Town",
-      "url": "https://www.southshieldsfc.co.uk/10-men-south-shields-held-to-1-1-draw-against-merthyr-town/",
-      "published": "2026-08-22T17:59:08Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Match Report: Yeovil Town 3-0 Gateshead",
-      "url": "https://ytfc.net/2026/08/match-report-yeovil-town-3-0-gateshead/",
-      "published": "2026-08-22T17:54:33Z"
     }
   ]
 }
