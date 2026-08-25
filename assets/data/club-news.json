@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-25T09:02:42Z",
+  "generatedAt": "2026-08-25T09:56:10Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "https://www.fgr.co.uk/news-rss.xml",
-      "ok": true,
-      "count": 3856,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Live Stream: Tamworth FC vs Worthing FC",
+      "url": "https://worthingfc.com/2026/08/live-stream-tamworth-fc-vs-worthing-fc/",
+      "published": "2026-08-25T09:35:29Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "York City partner with Pepe’s Piri Piri.",
+      "url": "https://yorkcityfootballclubstore.co.uk/york-city-partner-with-pepes-piri-piri/",
+      "published": "2026-08-25T09:24:35Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "ACADEMY TALENT ID EVENT",
+      "url": "https://macclesfieldfc.com/latest-news/junior-academy-talent-id-events/",
+      "published": "2026-08-25T09:00:31Z"
+    },
     {
       "club": "Maidstone United",
       "code": "MSU",
@@ -661,15 +688,6 @@
       "title": "City in Action – Paulton Rovers Ladies (H) – Women’s FA Cup Preliminary Round",
       "url": "https://www.bathcityfc.com/city-in-action-paulton-rovers-ladies-h-womens-fa-cup-preliminary-round/",
       "published": "2026-08-24T18:37:53Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Season Ticket Holder Appreciation Matchday",
-      "url": "https://www.fgr.co.uk/news/season-ticket-holder-appreciation-matchday/",
-      "published": "2026-08-24T18:00:00Z"
     },
     {
       "club": "South Shields",
@@ -787,15 +805,6 @@
       "title": "Ticket & Travel Information: Tamworth (A)",
       "url": "https://worthingfc.com/2026/08/ticket-travel-information-tamworth/",
       "published": "2026-08-24T14:09:13Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Partnership | Rubies In The Rubble",
-      "url": "https://www.fgr.co.uk/news/partnership-rubies-2627/",
-      "published": "2026-08-24T14:00:00Z"
     },
     {
       "club": "Torquay United",
@@ -1374,6 +1383,15 @@
       "published": "2026-08-23T08:44:48Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Braintree Town 1 Horsham 2 – Match report",
+      "url": "https://www.horshamfc.co.uk/2026/08/23/braintree-town-1-horsham-2-match-report/",
+      "published": "2026-08-23T08:21:18Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1462,24 +1480,6 @@
       "title": "This week at Gallagher Stadium (w/c 23/8/26)",
       "url": "https://maidstoneunited.co.uk/08/23/this-week-at-gallagher-stadium-w-c-23-8-26/",
       "published": "2026-08-22T23:01:10Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "U18s Match Report | Lincoln City U18s 3-2 York City U18s",
-      "url": "https://yorkcityfootballclubstore.co.uk/u18s-match-report-lincoln-city-u18s-3-2-york-city-u18s/",
-      "published": "2026-08-22T21:24:40Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "“𝗙𝗿𝗼𝗺 𝗮 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹 𝘃𝗶𝗲𝘄, 𝗶𝘁’𝘀 𝗯𝗲𝗲𝗻 𝗮 𝗯𝗶𝘁 𝗳𝗿𝘂𝘀𝘁𝗿𝗮𝘁𝗶𝗻𝗴” | Louis Britton post – Dover Athletic (H)",
-      "url": "https://wsmafc.co.uk/%f0%9d%97%99%f0%9d%97%bf%f0%9d%97%bc%f0%9d%97%ba-%f0%9d%97%ae-%f0%9d%97%bd%f0%9d%97%b2%f0%9d%97%bf%f0%9d%98%80%f0%9d%97%bc%f0%9d%97%bb%f0%9d%97%ae%f0%9d%97%b9-%f0%9d%98%83%f0%9d%97%b6%f0%9d%97%b2/",
-      "published": "2026-08-22T21:00:21Z"
     }
   ]
 }
