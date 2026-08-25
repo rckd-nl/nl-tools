@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-25T06:09:13Z",
+  "generatedAt": "2026-08-25T07:14:14Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.fgr.co.uk', port=443): Read timed out. (read timeout=25)"
+      "error": "HTTP 404"
     },
     {
       "club": "Gateshead",
@@ -121,7 +121,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 503"
+      "error": "HTTP 404"
     },
     {
       "club": "Solihull Moors",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f6143e1c350>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f6143f32310>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Next Match | Away At Scarborough Athletic Saturday 29th 3pm",
+      "url": "https://southportfc.net/next-match-away-at-scarborough-athletic-saturday-29th-3pm/",
+      "published": "2026-08-25T06:56:54Z"
+    },
     {
       "club": "Worthing",
       "code": "WOR",
@@ -1320,6 +1329,15 @@
       "published": "2026-08-23T08:44:48Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Braintree Town 1 Horsham 2 – Match report",
+      "url": "https://www.horshamfc.co.uk/2026/08/23/braintree-town-1-horsham-2-match-report/",
+      "published": "2026-08-23T08:21:18Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1462,24 +1480,6 @@
       "title": "REACTION | Downes After Convincing Worksop Win",
       "url": "https://herefordfc.co.uk/2026/08/reaction-downes-after-convincing-worksop-win/",
       "published": "2026-08-22T20:49:39Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Gallery: WsM AFC 2 – 3 Dover Athletic",
-      "url": "https://wsmafc.co.uk/gallery-dover-home-2627/",
-      "published": "2026-08-22T20:00:55Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Parsons on target again but City have to settle for ‘Stoke draw",
-      "url": "https://www.bathcityfc.com/parsons-on-target-again-but-city-have-to-settle-for-stoke-draw/",
-      "published": "2026-08-22T19:41:57Z"
     }
   ]
 }
