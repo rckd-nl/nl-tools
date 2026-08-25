@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-25T10:53:02Z",
+  "generatedAt": "2026-08-25T11:50:31Z",
   "maxItems": 100,
   "sources": [
     {
@@ -81,7 +81,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "ReadTimeout: HTTPSConnectionPool(host='fgr.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Gateshead",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "MATCHDAY ACTIVITIES 2026–27",
+      "url": "https://daggers.co.uk/matchday-activities-2026-27/",
+      "published": "2026-08-25T11:48:04Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Folkestone & Dorking Tickets Now On Sale",
+      "url": "https://torquayunited.com/folkestone-dorking-tickets-now-on-sale/",
+      "published": "2026-08-25T11:37:46Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "AN INVITATION TO OUR SEPTEMBER BUSINESS NETWORKING EVENT",
+      "url": "https://macclesfieldfc.com/latest-news/an-invitation-to-our-september-business-networking-event/",
+      "published": "2026-08-25T11:00:42Z"
+    },
     {
       "club": "Torquay United",
       "code": "TOR",
@@ -807,6 +834,15 @@
       "published": "2026-08-24T15:10:20Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Daggers Community Trust Golf Day 2026",
+      "url": "https://daggers.co.uk/daggers-community-trust-golf-day-2026/",
+      "published": "2026-08-24T15:02:03Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -895,6 +931,15 @@
       "title": "Town to play Havant & Waterlooville in FA Cup",
       "url": "https://chippenhamtown.com/08/24/town-to-play-havant-waterlooville-in-fa-cup/",
       "published": "2026-08-24T12:03:42Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "AWAY DAY GUIDE: Truro City",
+      "url": "https://daggers.co.uk/away-day-guide-truro-city/",
+      "published": "2026-08-24T11:48:52Z"
     },
     {
       "club": "Torquay United",
@@ -1014,15 +1059,6 @@
       "published": "2026-08-24T10:09:39Z"
     },
     {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Summer Fans Forum On Tuesday",
-      "url": "https://torquayunited.com/summer-fans-forum-on-tuesday/",
-      "published": "2026-08-24T09:41:46Z"
-    },
-    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1039,6 +1075,15 @@
       "title": "Key info: Salisbury",
       "url": "https://maidstoneunited.co.uk/08/24/key-info-salisbury-3/",
       "published": "2026-08-24T09:00:26Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "50/50 Prize Winner: Torquay",
+      "url": "https://daggers.co.uk/50-50-prize-winner-torquay/",
+      "published": "2026-08-24T08:32:43Z"
     },
     {
       "club": "Farnborough",
@@ -1311,6 +1356,15 @@
       "published": "2026-08-23T12:38:28Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "26/27 Match Report: Torquay United (H)",
+      "url": "https://daggers.co.uk/26-27-match-report-torquay-united-h/",
+      "published": "2026-08-23T12:16:16Z"
+    },
+    {
       "club": "Bath City",
       "code": "BAT",
       "short": "Bath",
@@ -1426,60 +1480,6 @@
       "title": "🎤 𝗣𝗼𝘀𝘁-𝗠𝗮𝘁𝗰𝗵 | Gary Horgan on our 4-0 defeat at Chichester",
       "url": "https://chippenhamtown.com/08/23/%f0%9f%8e%a4-%f0%9d%97%a3%f0%9d%97%bc%f0%9d%98%80%f0%9d%98%81-%f0%9d%97%a0%f0%9d%97%ae%f0%9d%98%81%f0%9d%97%b0%f0%9d%97%b5-gary-horgan-on-our-4-0-defeat-at-chichester/",
       "published": "2026-08-23T06:30:26Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Women Playing At COA On Sunday",
-      "url": "https://rochdaleafc.co.uk/women-playing-at-coa-on-sunday/",
-      "published": "2026-08-23T06:14:44Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Highlights | Southport v Bedford Town",
-      "url": "https://southportfc.net/highlights-southport-v-bedford-town/",
-      "published": "2026-08-23T05:30:37Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Wood You Believe It? Megan Joins the Stones",
-      "url": "https://maidstoneunited.co.uk/08/23/wood-you-believe-it-megan-joins-the-stones/",
-      "published": "2026-08-23T05:28:50Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Morecambe (H) Post-Match Reaction | Joe Pritchard",
-      "url": "https://radcliffefc.com/morecambe-h-post-match-reaction-joe-pritchard/",
-      "published": "2026-08-23T02:09:10Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Morecambe (H) Post-Match Reaction | Nicky Adams",
-      "url": "https://radcliffefc.com/morecambe-h-post-match-reaction-nicky-adams/",
-      "published": "2026-08-23T02:07:49Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Post-Spalding United: Phil Parkinson",
-      "url": "https://chesterfc.com/08/23/post-spalding-united-phil-parkinson/",
-      "published": "2026-08-22T23:12:37Z"
     }
   ]
 }
