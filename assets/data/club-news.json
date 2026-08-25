@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-25T12:06:47Z",
+  "generatedAt": "2026-08-25T13:14:12Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,69 @@
     }
   ],
   "items": [
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Tickets: Forest Green Rovers (H)",
+      "url": "https://hornchurchfc.com/tickets-forest-green-rovers-h/",
+      "published": "2026-08-25T13:02:57Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "MUFC Women: Highlights vs Hastings",
+      "url": "https://maidstoneunited.co.uk/08/25/mufc-women-highlights-vs-hastings/",
+      "published": "2026-08-25T12:57:31Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Southend United Achieve Bronze Award In Fan Engagement Index",
+      "url": "https://southendunited.co.uk/news/2026/august/25/southend-united-achieve-bronze-award-in-fan-engagement-index/",
+      "published": "2026-08-25T12:18:31Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Match day guide: Boston United (H)",
+      "url": "https://www.borehamwoodfootballclub.co.uk/match-day-guide-boston-united-h/",
+      "published": "2026-08-25T12:15:45Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Isthmian Youth Football League Three Bridges 0 Horsham 2",
+      "url": "https://www.horshamfc.co.uk/2026/08/25/isthmian-youth-football-league-three-bridges-0-horsham-2/",
+      "published": "2026-08-25T12:10:48Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "TICKET INFO | Harrogate Town (A)",
+      "url": "https://gateshead-fc.com/ticket-info-harrogate-town-a/",
+      "published": "2026-08-25T12:04:37Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "MATCHDAY ACTIVITIES 2026–27",
+      "url": "https://daggers.co.uk/matchday-activities-2026-27/",
+      "published": "2026-08-25T11:48:04Z"
+    },
     {
       "club": "Torquay United",
       "code": "TOR",
@@ -679,15 +742,6 @@
       "title": "Next Match | Away At Scarborough Athletic Saturday 29th 3pm",
       "url": "https://southportfc.net/next-match-away-at-scarborough-athletic-saturday-29th-3pm/",
       "published": "2026-08-25T06:56:54Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Open Training Session On Tuesday",
-      "url": "https://rochdaleafc.co.uk/open-training-session-confirmed/",
-      "published": "2026-08-25T06:47:15Z"
     },
     {
       "club": "Rochdale",
@@ -834,6 +888,15 @@
       "published": "2026-08-24T15:10:20Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Daggers Community Trust Golf Day 2026",
+      "url": "https://daggers.co.uk/daggers-community-trust-golf-day-2026/",
+      "published": "2026-08-24T15:02:03Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -933,6 +996,15 @@
       "published": "2026-08-24T12:03:42Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "AWAY DAY GUIDE: Truro City",
+      "url": "https://daggers.co.uk/away-day-guide-truro-city/",
+      "published": "2026-08-24T11:48:52Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -982,7 +1054,7 @@
       "code": "SOU",
       "short": "Southend",
       "domain": "southendunited.co.uk",
-      "title": "Ticket Information: Carlisle (A)",
+      "title": "Tickets: Carlisle (A)",
       "url": "https://southendunited.co.uk/news/2026/august/24/ticket-information--carlisle--a-/",
       "published": "2026-08-24T11:08:03Z"
     },
@@ -1068,6 +1140,15 @@
       "published": "2026-08-24T09:00:26Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "50/50 Prize Winner: Torquay",
+      "url": "https://daggers.co.uk/50-50-prize-winner-torquay/",
+      "published": "2026-08-24T08:32:43Z"
+    },
+    {
       "club": "Farnborough",
       "code": "FAB",
       "short": "Farnborough",
@@ -1093,6 +1174,15 @@
       "title": "Gallery: Hastings United Women",
       "url": "https://maidstoneunited.co.uk/08/24/gallery-hastings-united-women/",
       "published": "2026-08-24T07:30:49Z"
+    },
+    {
+      "club": "Rochdale",
+      "code": "ROC",
+      "short": "Rochdale",
+      "domain": "rochdaleafc.co.uk",
+      "title": "Open Training Session On Tuesday",
+      "url": "https://rochdaleafc.co.uk/open-training-session-confirmed/",
+      "published": "2026-08-24T06:47:15Z"
     },
     {
       "club": "Chester",
@@ -1338,6 +1428,15 @@
       "published": "2026-08-23T12:38:28Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "26/27 Match Report: Torquay United (H)",
+      "url": "https://daggers.co.uk/26-27-match-report-torquay-united-h/",
+      "published": "2026-08-23T12:16:16Z"
+    },
+    {
       "club": "Bath City",
       "code": "BAT",
       "short": "Bath",
@@ -1381,105 +1480,6 @@
       "title": "Gallery: Chichester City vs Chippenham Town",
       "url": "https://chippenhamtown.com/08/23/gallery-chichester-city-vs-chippenham-town/",
       "published": "2026-08-23T11:00:43Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Gallery: Dorking Wanderers",
-      "url": "https://maidstoneunited.co.uk/08/23/gallery-dorking-wanderers-3/",
-      "published": "2026-08-23T10:00:26Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Highlights: Eastleigh 3-2 Scunthorpe",
-      "url": "https://eastleighfc.com/2026/08/highlights-eastleigh-3-2-scunthorpe/",
-      "published": "2026-08-23T09:42:16Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Up Next: Dover Athletic vs Braintree Town",
-      "url": "https://doverathletic.com/news/up-next-dover-athletic-vs-braintree-town/",
-      "published": "2026-08-23T09:07:34Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Highlights: Chichester City vs Chippenham Town",
-      "url": "https://chippenhamtown.com/08/23/highlights-chichester-city-vs-chippenham-town/",
-      "published": "2026-08-23T09:00:16Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Alty TV Away Shorts | Boston 1 Alty 0",
-      "url": "https://altrinchamfc.com/blogs/news/alty-tv-away-shorts-boston-utd-1-alty-0",
-      "published": "2026-08-23T07:51:13Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Bowlee Planning Application Submitted",
-      "url": "https://rochdaleafc.co.uk/bowlee-planning-application-submitted/",
-      "published": "2026-08-23T07:32:57Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "🎤 𝗣𝗼𝘀𝘁-𝗠𝗮𝘁𝗰𝗵 | Gary Horgan on our 4-0 defeat at Chichester",
-      "url": "https://chippenhamtown.com/08/23/%f0%9f%8e%a4-%f0%9d%97%a3%f0%9d%97%bc%f0%9d%98%80%f0%9d%98%81-%f0%9d%97%a0%f0%9d%97%ae%f0%9d%98%81%f0%9d%97%b0%f0%9d%97%b5-gary-horgan-on-our-4-0-defeat-at-chichester/",
-      "published": "2026-08-23T06:30:26Z"
-    },
-    {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Women Playing At COA On Sunday",
-      "url": "https://rochdaleafc.co.uk/women-playing-at-coa-on-sunday/",
-      "published": "2026-08-23T06:14:44Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Highlights | Southport v Bedford Town",
-      "url": "https://southportfc.net/highlights-southport-v-bedford-town/",
-      "published": "2026-08-23T05:30:37Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Wood You Believe It? Megan Joins the Stones",
-      "url": "https://maidstoneunited.co.uk/08/23/wood-you-believe-it-megan-joins-the-stones/",
-      "published": "2026-08-23T05:28:50Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Morecambe (H) Post-Match Reaction | Joe Pritchard",
-      "url": "https://radcliffefc.com/morecambe-h-post-match-reaction-joe-pritchard/",
-      "published": "2026-08-23T02:09:10Z"
     }
   ]
 }
