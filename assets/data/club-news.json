@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-26T07:11:26Z",
+  "generatedAt": "2026-08-26T08:01:10Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3858,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -589,6 +589,15 @@
       "title": "Family tickets available for this Monday’s match",
       "url": "https://southportfc.net/family-tickets-available-for-this-mondays-match/",
       "published": "2026-08-26T07:06:47Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Salisbury",
+      "url": "https://maidstoneunited.co.uk/08/26/key-info-salisbury-3/",
+      "published": "2026-08-26T07:00:26Z"
     },
     {
       "club": "Curzon Ashton",
@@ -753,6 +762,15 @@
       "published": "2026-08-25T14:01:28Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Partnership | Sportsrooms",
+      "url": "https://www.fgr.co.uk/news/partnership-sportsroom-2627/",
+      "published": "2026-08-25T14:00:00Z"
+    },
+    {
       "club": "Boreham Wood",
       "code": "BHW",
       "short": "Boreham Wood",
@@ -760,6 +778,15 @@
       "title": "Tom White signs new contract",
       "url": "https://www.borehamwoodfootballclub.co.uk/tom-white-signs-new-contract/",
       "published": "2026-08-25T13:57:39Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "FGR Community | Building Circles",
+      "url": "https://www.fgr.co.uk/news/fgr-community-building-circles/",
+      "published": "2026-08-25T13:30:00Z"
     },
     {
       "club": "Chelmsford City",
@@ -814,15 +841,6 @@
       "title": "Match day guide: Boston United (H)",
       "url": "https://www.borehamwoodfootballclub.co.uk/match-day-guide-boston-united-h/",
       "published": "2026-08-25T12:15:45Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Isthmian Youth Football League Three Bridges 0 Horsham 2",
-      "url": "https://www.horshamfc.co.uk/2026/08/25/isthmian-youth-football-league-three-bridges-0-horsham-2/",
-      "published": "2026-08-25T12:10:48Z"
     },
     {
       "club": "Gateshead",
@@ -987,6 +1005,15 @@
       "published": "2026-08-24T18:37:53Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Season Ticket Holder Appreciation Matchday",
+      "url": "https://www.fgr.co.uk/news/season-ticket-holder-appreciation-matchday/",
+      "published": "2026-08-24T18:00:00Z"
+    },
+    {
       "club": "South Shields",
       "code": "SSH",
       "short": "South Shields",
@@ -1111,6 +1138,15 @@
       "title": "Ticket & Travel Information: Tamworth (A)",
       "url": "https://worthingfc.com/2026/08/ticket-travel-information-tamworth/",
       "published": "2026-08-24T14:09:13Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Partnership | Rubies In The Rubble",
+      "url": "https://www.fgr.co.uk/news/partnership-rubies-2627/",
+      "published": "2026-08-24T14:00:00Z"
     },
     {
       "club": "Torquay United",
@@ -1293,15 +1329,6 @@
       "published": "2026-08-24T09:30:58Z"
     },
     {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Salisbury",
-      "url": "https://maidstoneunited.co.uk/08/24/key-info-salisbury-3/",
-      "published": "2026-08-24T09:00:26Z"
-    },
-    {
       "club": "Dagenham & Redbridge",
       "code": "DAG",
       "short": "Dag & Red",
@@ -1453,33 +1480,6 @@
       "title": "Gallery: Worthing FC 1-0 Wealdstone",
       "url": "https://worthingfc.com/2026/08/gallery-worthing-fc-1-0-wealdstone/",
       "published": "2026-08-23T17:26:08Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Second half comeback secures maiden Women’s FA Cup win for City",
-      "url": "https://www.bathcityfc.com/second-half-comeback-secures-maiden-womens-fa-cup-win-for-city/",
-      "published": "2026-08-23T17:14:09Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SILKMEN FAN CAM: BRACKLEY TOWN (H)",
-      "url": "https://macclesfieldfc.com/galleries/silkmen-fan-cam-brackley-town-h/",
-      "published": "2026-08-23T17:00:28Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Loan Watch: Green scores in FA Cup draw for Slimbridge, Johnson stars for Exmouth",
-      "url": "https://wsmafc.co.uk/loan-watch-22-8-26/",
-      "published": "2026-08-23T16:51:20Z"
     }
   ]
 }
