@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-26T00:04:41Z",
+  "generatedAt": "2026-08-26T02:14:23Z",
   "maxItems": 100,
   "sources": [
     {
@@ -121,7 +121,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 503"
     },
     {
       "club": "Solihull Moors",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f1877e2fe50>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f1877faeb90>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -823,15 +823,6 @@
       "title": "Match day guide: Boston United (H)",
       "url": "https://www.borehamwoodfootballclub.co.uk/match-day-guide-boston-united-h/",
       "published": "2026-08-25T12:15:45Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Isthmian Youth Football League Three Bridges 0 Horsham 2",
-      "url": "https://www.horshamfc.co.uk/2026/08/25/isthmian-youth-football-league-three-bridges-0-horsham-2/",
-      "published": "2026-08-25T12:10:48Z"
     },
     {
       "club": "Gateshead",
@@ -1480,6 +1471,15 @@
       "title": "Gallery: Worthing FC 1-0 Wealdstone",
       "url": "https://worthingfc.com/2026/08/gallery-worthing-fc-1-0-wealdstone/",
       "published": "2026-08-23T17:26:08Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Second half comeback secures maiden Women’s FA Cup win for City",
+      "url": "https://www.bathcityfc.com/second-half-comeback-secures-maiden-womens-fa-cup-win-for-city/",
+      "published": "2026-08-23T17:14:09Z"
     }
   ]
 }
