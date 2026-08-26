@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-26T15:55:16Z",
+  "generatedAt": "2026-08-26T17:02:24Z",
   "maxItems": 100,
   "sources": [
     {
@@ -80,7 +80,7 @@
       "domain": "fgr.co.uk",
       "feed": "https://www.fgr.co.uk/news-rss.xml",
       "ok": true,
-      "count": 3860,
+      "count": 3861,
       "error": ""
     },
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,51 @@
     }
   ],
   "items": [
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Remembering Quevin Castro",
+      "url": "https://chippenhamtown.com/08/26/remembering-quevin-castro/",
+      "published": "2026-08-26T17:00:35Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Commercial Opportunities 2026/27",
+      "url": "https://etfc.london/commercial-opportunities-2026-27/",
+      "published": "2026-08-26T16:31:04Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Gaffer talks Fylde And A Signing",
+      "url": "https://www.fgr.co.uk/news/rs-pre-fylde-sass/",
+      "published": "2026-08-26T16:00:00Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Gallery | Jovan Malcolm's first training session",
+      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/august/26/gallery--/",
+      "published": "2026-08-26T15:30:00Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Ebbsfleet match postponed",
+      "url": "https://www.horshamfc.co.uk/2026/08/26/ebbsfleet-match-postponed/",
+      "published": "2026-08-26T15:29:11Z"
+    },
     {
       "club": "Eastleigh",
       "code": "EAS",
@@ -1027,7 +1072,7 @@
       "code": "DOR",
       "short": "Dorking",
       "domain": "dorkingwanderers.com",
-      "title": "Vacancy | Marketing Assistant",
+      "title": "Vacancy | Marketing Executive / Assistant",
       "url": "https://dwfc.co.uk/2026/08/vacancy-marketing-assistant/",
       "published": "2026-08-25T19:30:55Z"
     },
@@ -1257,6 +1302,15 @@
       "published": "2026-08-25T12:15:45Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Isthmian Youth Football League Three Bridges 0 Horsham 2",
+      "url": "https://www.horshamfc.co.uk/2026/08/25/isthmian-youth-football-league-three-bridges-0-horsham-2/",
+      "published": "2026-08-25T12:10:48Z"
+    },
+    {
       "club": "Gateshead",
       "code": "GAT",
       "short": "Gateshead",
@@ -1426,60 +1480,6 @@
       "title": "Sonny Finch joins Grimsby Town",
       "url": "https://www.southshieldsfc.co.uk/sonny-finch-joins-grimsby-town/",
       "published": "2026-08-24T17:28:25Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Alfie Cunningham Joins Lancaster City On Loan",
-      "url": "https://southportfc.net/alfie-cunningham-joins-lancaster-city-on-loan/",
-      "published": "2026-08-24T17:17:22Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MACC IN BLACK",
-      "url": "https://macclesfieldfc.com/latest-news/macc-in-black/",
-      "published": "2026-08-24T17:00:41Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Moors Ladies Sign Midfielder",
-      "url": "https://spennymoortownfc.co.uk/2026/08/24/moors-ladies-sign-midfielder/",
-      "published": "2026-08-24T16:37:31Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Shrimps Overcome Robins in the Women’s FA Cup",
-      "url": "https://altrinchamfc.com/blogs/news/morecambe-fc-women-vs-altrincham-fc-women",
-      "published": "2026-08-24T16:17:49Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Kent Youth League Preview",
-      "url": "https://tonbridgeangels.co.uk/kent-youth-league-preview-3/",
-      "published": "2026-08-24T15:26:58Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Pan Disability Football creating opportunities",
-      "url": "https://tonbridgeangels.co.uk/pan-disability-football-creating-opportunities/",
-      "published": "2026-08-24T15:19:04Z"
     }
   ]
 }
