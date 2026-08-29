@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-29T21:47:56Z",
+  "generatedAt": "2026-08-29T23:41:20Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3867,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "This week at Gallagher Stadium (w/c 30/8/26)",
+      "url": "https://maidstoneunited.co.uk/08/30/this-week-at-gallagher-stadium-w-c-30-8-26/",
+      "published": "2026-08-29T23:01:04Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Post-Hereford: Phil Parkinson",
+      "url": "https://chesterfc.com/08/29/post-hereford-phil-parkinson/",
+      "published": "2026-08-29T22:12:42Z"
+    },
+    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -589,6 +607,15 @@
       "title": "🎤 𝗣𝗼𝘀𝘁-𝗠𝗮𝘁𝗰𝗵 | Gary Horgan on our defeat against Berkhamsted",
       "url": "https://chippenhamtown.com/08/29/%f0%9f%8e%a4-%f0%9d%97%a3%f0%9d%97%bc%f0%9d%98%80%f0%9d%98%81-%f0%9d%97%a0%f0%9d%97%ae%f0%9d%98%81%f0%9d%97%b0%f0%9d%97%b5-gary-horgan-on-our-defeat-against-berkhamsted/",
       "published": "2026-08-29T21:18:24Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Match Report | York City 2-1 Exeter City",
+      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/august/29/-match-report---york-city-2-1-exeter-city/",
+      "published": "2026-08-29T20:55:49Z"
     },
     {
       "club": "Altrincham",
@@ -1032,15 +1059,6 @@
       "published": "2026-08-29T11:00:23Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Lucas Pattenden",
-      "url": "https://www.horshamfc.co.uk/2026/08/29/lucas-pattenden-leaves/",
-      "published": "2026-08-29T09:54:05Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1158,6 +1176,15 @@
       "published": "2026-08-28T22:45:29Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report | AFC Fylde 2-0 FGR",
+      "url": "https://www.fgr.co.uk/news/fylde-a-match-report-2627/",
+      "published": "2026-08-28T22:45:00Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1192,6 +1219,15 @@
       "title": "Interview: Matt Gray Post-Hartlepool Win",
       "url": "https://eastleighfc.com/2026/08/interview-matt-gray-post-hartlepool-win/",
       "published": "2026-08-28T22:13:19Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Robbie Savage Post Fylde",
+      "url": "https://www.fgr.co.uk/news/robbie-savage-post-fylde/",
+      "published": "2026-08-28T22:00:00Z"
     },
     {
       "club": "Woking",
@@ -1444,42 +1480,6 @@
       "title": "John Askey Pre-Dagenham & Redbridge (h)",
       "url": "https://trurocity.co.uk/2026/08/john-askey-pre-dagenham-redbridge-h/",
       "published": "2026-08-28T14:12:33Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City vs Dagenham & Redbridge – Match Preview",
-      "url": "https://trurocity.co.uk/2026/08/truro-city-vs-dagenham-redbridge-match-preview/",
-      "published": "2026-08-28T14:03:44Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Preview: Town vs Berkhamsted",
-      "url": "https://chippenhamtown.com/08/28/preview-town-vs-berkhamstead/",
-      "published": "2026-08-28T14:00:06Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City vs Dagenham & Redbridge Match Information",
-      "url": "https://trurocity.co.uk/2026/08/truro-city-vs-dagenham-redbridge-match-information/",
-      "published": "2026-08-28T13:58:49Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Hospitality – Maidenhead United",
-      "url": "https://doverathletic.com/news/hospitality-maidenhead-united/",
-      "published": "2026-08-28T13:47:36Z"
     }
   ]
 }
