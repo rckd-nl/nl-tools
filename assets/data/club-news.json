@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-29T23:41:20Z",
+  "generatedAt": "2026-08-30T01:43:21Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -521,7 +521,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Maidstone United",
@@ -1059,6 +1059,15 @@
       "published": "2026-08-29T11:00:23Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Lucas Pattenden",
+      "url": "https://www.horshamfc.co.uk/2026/08/29/lucas-pattenden-leaves/",
+      "published": "2026-08-29T09:54:05Z"
+    },
+    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1471,15 +1480,6 @@
       "title": "SILKMEN CONFIRM THE CONTINUATION OF “SPECIAL” ARIGHI BIANCHI PARTNERSHIP",
       "url": "https://macclesfieldfc.com/latest-news/silkmen-confirm-the-continuation-of-special-arighi-bianchi-partnership/",
       "published": "2026-08-28T14:30:00Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "John Askey Pre-Dagenham & Redbridge (h)",
-      "url": "https://trurocity.co.uk/2026/08/john-askey-pre-dagenham-redbridge-h/",
-      "published": "2026-08-28T14:12:33Z"
     }
   ]
 }
