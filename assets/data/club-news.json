@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-31T01:40:14Z",
+  "generatedAt": "2026-08-31T07:45:13Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -1194,6 +1194,15 @@
       "published": "2026-08-30T09:08:27Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham v Farnham Town – match report",
+      "url": "https://www.horshamfc.co.uk/2026/08/30/horsham-v-farnham-town-match-report/",
+      "published": "2026-08-30T08:48:40Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1471,15 +1480,6 @@
       "title": "Post Match: Salisbury (H)",
       "url": "https://maidstoneunited.co.uk/08/29/post-match-salisbury-h/",
       "published": "2026-08-29T17:45:54Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Match Report | Walton & Hersham 1-4 Dorking Wanderers | 29/08/26",
-      "url": "https://dwfc.co.uk/2026/08/match-report-walton-hersham-1-4-dorking-wanderers-29-08-26/",
-      "published": "2026-08-29T17:38:02Z"
     }
   ]
 }
