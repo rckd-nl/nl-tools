@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-08-31T21:09:18Z",
+  "generatedAt": "2026-09-01T00:41:30Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,51 @@
   ],
   "items": [
     {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "REACTION | Downes Analyses Southport Success",
+      "url": "https://herefordfc.co.uk/2026/09/reaction-downes-analyses-southport-success/",
+      "published": "2026-08-31T23:21:04Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Match Report: Yeovil Town 3-2 Tamworth",
+      "url": "https://ytfc.net/2026/09/match-report-yeovil-town-3-2-tamworth/",
+      "published": "2026-08-31T23:04:21Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Highlights: Eastleigh 1-1 Aldershot Town",
+      "url": "https://eastleighfc.com/2026/08/highlights-eastleigh-1-1-aldershot-town/",
+      "published": "2026-08-31T22:19:15Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Post Match | Neil After Hereford Defeat",
+      "url": "https://southportfc.net/post-match-neil-after-hereford-defeat/",
+      "published": "2026-08-31T21:12:17Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Worthing FC 2-3 Boreham Wood | Match Highlights",
+      "url": "https://worthingfc.com/2026/08/worthing-fc-2-3-boreham-wood-match-highlights/",
+      "published": "2026-08-31T21:12:11Z"
+    },
+    {
       "club": "Curzon Ashton",
       "code": "CUR",
       "short": "Curzon Ashton",
@@ -589,6 +634,15 @@
       "title": "Brad Holmes Post Match Interview | Ashton United (H)",
       "url": "https://curzon-ashton.co.uk/brad-holmes-post-ashton-united-h/",
       "published": "2026-08-31T21:01:45Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Spencer Day Post Braintree Town (A)",
+      "url": "https://farnboroughfc.co.uk/2026/08/spencer-day-post-braintree-town-a-4/",
+      "published": "2026-08-31T21:00:22Z"
     },
     {
       "club": "Hartlepool United",
@@ -614,8 +668,17 @@
       "short": "Curzon Ashton",
       "domain": "curzon-ashton.co.uk",
       "title": "Adam Barton Post Match Interview | Ashton United (H)",
-      "url": "https://curzon-ashton.co.uk/adam-barton-post-match-interview-ashton-united-h/",
+      "url": "https://curzon-ashton.co.uk/adam-barton-post-ashton-united-h/",
       "published": "2026-08-31T20:50:34Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Match Report: Solihull Moors 1-3 AFC Fylde",
+      "url": "https://afcfylde.co.uk/news/2026/august/31/match-report--solihull-moors-1-3-afc-fylde/",
+      "published": "2026-08-31T20:45:00Z"
     },
     {
       "club": "Curzon Ashton",
@@ -778,6 +841,15 @@
       "title": "Mariners denied third clean sheet in Spalding United draw",
       "url": "https://www.southshieldsfc.co.uk/mariners-denied-third-clean-sheet-in-spalding-united-draw/",
       "published": "2026-08-31T18:02:58Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Colbran: “We need to reflect, stay together and keep pushing.” | Boreham Wood Reaction",
+      "url": "https://worthingfc.com/2026/08/colbran-we-need-to-reflect-stay-together-and-keep-pushing-boreham-wood-reaction/",
+      "published": "2026-08-31T17:51:37Z"
     },
     {
       "club": "Chippenham Town",
@@ -1162,7 +1234,7 @@
       "code": "CHI",
       "short": "Chippenham",
       "domain": "chippenhamtown.com",
-      "title": "Berkhamsted 29th August 2026",
+      "title": "Gallery: Berkhamsted",
       "url": "https://chippenhamtown.com/08/30/berkhamsted-29th-august-2026/",
       "published": "2026-08-30T21:52:08Z"
     },
@@ -1408,78 +1480,6 @@
       "title": "Merrick calls for Pools to carry belief into Halifax",
       "url": "https://www.hartlepoolunited.co.uk/merrick-calls-for-pools-to-carry-belief-into-halifax/",
       "published": "2026-08-30T16:11:54Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Next Match – Frome Town (A) – Southern League Premier South",
-      "url": "https://www.bathcityfc.com/next-match-frome-town-h-southern-league-premier-south/",
-      "published": "2026-08-30T16:00:59Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Highlights: Farnborough 0 Hemel Hempstead Town 2",
-      "url": "https://farnboroughfc.co.uk/2026/08/highlights-farnborough-0-hemel-hempstead-town-2/",
-      "published": "2026-08-30T16:00:14Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Club Offices/Shop Closed Bank Holiday Monday",
-      "url": "https://torquayunited.com/club-offices-shop-closed-bank-holiday-monday/",
-      "published": "2026-08-30T16:00:00Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Information for Supporters – Abandoned Brackley Town Fixture",
-      "url": "https://www.southshieldsfc.co.uk/information-for-supporters-abandoned-brackley-town-fixture/",
-      "published": "2026-08-30T15:48:07Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Clark calls on Pools to turn courage into Halifax response",
-      "url": "https://www.hartlepoolunited.co.uk/clark-calls-on-pools-to-turn-courage-into-halifax-response/",
-      "published": "2026-08-30T15:42:25Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Highlights: Salisbury",
-      "url": "https://maidstoneunited.co.uk/08/30/highlights-salisbury-2/",
-      "published": "2026-08-30T15:38:40Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "MUFC Women Match Report: D Hamlet Res",
-      "url": "https://maidstoneunited.co.uk/08/30/mufc-women-match-report-d-hamlet-res/",
-      "published": "2026-08-30T14:47:57Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Gallery | Cleethorpes Town F.C. (A)",
-      "url": "https://curzon-ashton.co.uk/gallery-cleethorpes-town-f-c-a/",
-      "published": "2026-08-30T14:17:35Z"
     }
   ]
 }
