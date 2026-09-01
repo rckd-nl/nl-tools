@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-01T21:24:52Z",
+  "generatedAt": "2026-09-01T23:36:58Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,18 +78,18 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3876,
+      "error": ""
     },
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://gateshead-fc.com/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Hartlepool United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://www.southshieldsfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 415"
+      "feed": "https://southportfc.net/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Spennymoor Town",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,42 @@
     }
   ],
   "items": [
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Dorking Wanderers Matchday and Ticket Information",
+      "url": "https://chelmsfordcityfc.com/news/dorking-wanderers-matchday-and-ticket-information/",
+      "published": "2026-09-01T22:33:35Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "MATCH REPORT | Pools suffer narrow defeat",
+      "url": "https://www.hartlepoolunited.co.uk/match-report-pools-suffer-narrow-defeat/",
+      "published": "2026-09-01T21:48:05Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Ticket Information: Horsham (A)",
+      "url": "https://daggers.co.uk/ticket-information-horsham-a-2/",
+      "published": "2026-09-01T21:39:07Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Woking sign John Marquis",
+      "url": "https://wokingfc.co.uk/09/01/woking-sign-john-marquis/",
+      "published": "2026-09-01T21:29:13Z"
+    },
     {
       "club": "Chippenham Town",
       "code": "CHI",
@@ -654,6 +690,15 @@
       "published": "2026-09-01T17:00:38Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "September 200 Club winners",
+      "url": "https://www.horshamfc.co.uk/2026/09/01/september-200-club-winners-7/",
+      "published": "2026-09-01T16:43:25Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -688,6 +733,15 @@
       "title": "Player Recruitment: Weston-super-Mare AFC Girls Academy",
       "url": "https://wsmafc.co.uk/player-recruitment-girls-academy/",
       "published": "2026-09-01T15:25:44Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Youth Group Ticket Offer",
+      "url": "https://www.fgr.co.uk/news/north-stand-ticket-offer/",
+      "published": "2026-09-01T15:15:00Z"
     },
     {
       "club": "Spennymoor Town",
@@ -769,6 +823,15 @@
       "title": "Adan George after Hebburn Town victory",
       "url": "https://macclesfieldfc.com/latest-news/adan-george-after-hebburn-town-victory/",
       "published": "2026-09-01T14:00:05Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Tickets & Travel | Hornchurch (A)",
+      "url": "https://www.fgr.co.uk/news/tickets-and-travel-hornchurch-a/",
+      "published": "2026-09-01T14:00:00Z"
     },
     {
       "club": "Hereford",
@@ -924,6 +987,15 @@
       "published": "2026-09-01T10:45:42Z"
     },
     {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Legg: SSFC Women co-captaincy “a massive honour”",
+      "url": "https://www.southshieldsfc.co.uk/legg-ssfc-women-co-captaincy-a-massive-honour/",
+      "published": "2026-09-01T10:06:44Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1041,6 +1113,15 @@
       "published": "2026-09-01T06:30:03Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "August Player Of The Month Voting Now Open",
+      "url": "https://southportfc.net/august-player-of-the-month-voting-now-open/",
+      "published": "2026-09-01T06:00:21Z"
+    },
+    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -1086,6 +1167,15 @@
       "published": "2026-08-31T22:19:15Z"
     },
     {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Post Match | Neil After Hereford Defeat",
+      "url": "https://southportfc.net/post-match-neil-after-hereford-defeat/",
+      "published": "2026-08-31T21:12:17Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1120,6 +1210,15 @@
       "title": "StackUp Digital joins Monkey Business",
       "url": "https://www.hartlepoolunited.co.uk/stackup-digital-joins-monkey-business/",
       "published": "2026-08-31T20:59:26Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Spalding United Away Saturday September 5th",
+      "url": "https://southportfc.net/spalding-united-away-saturday-september-5th/",
+      "published": "2026-08-31T20:54:08Z"
     },
     {
       "club": "Curzon Ashton",
@@ -1203,6 +1302,15 @@
       "published": "2026-08-31T20:01:22Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Highlights | Altrincham (H)",
+      "url": "https://www.fgr.co.uk/news/match-highlights-altrincham-h-2627/",
+      "published": "2026-08-31T20:00:00Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -1257,6 +1365,15 @@
       "published": "2026-08-31T19:00:31Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Report | FGR 1-2 Altrincham",
+      "url": "https://www.fgr.co.uk/news/match-report-fgr-1-2-altrincham-2627/",
+      "published": "2026-08-31T18:46:00Z"
+    },
+    {
       "club": "Bath City",
       "code": "BAT",
       "short": "Bath",
@@ -1275,6 +1392,24 @@
       "published": "2026-08-31T18:26:59Z"
     },
     {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "HIGHLIGHTS | South Shields FC 1-1 Spalding United FC | Enterprise National League North",
+      "url": "https://www.southshieldsfc.co.uk/highlights-south-shields-fc-1-1-spalding-united-fc-enterprise-national-league-north/",
+      "published": "2026-08-31T18:19:26Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "GOALS | South Shields FC 1-1 Spalding United FC | Enterprise National League North",
+      "url": "https://www.southshieldsfc.co.uk/goals-south-shields-fc-1-1-spalding-united-fc-enterprise-national-league-north/",
+      "published": "2026-08-31T18:16:12Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1282,6 +1417,15 @@
       "title": "Matt Worthington & Dom Bernard | Farnham Town (A) | Post-Match",
       "url": "https://torquayunited.com/matt-worthington-dom-bernard-farnham-town-a-post-match/",
       "published": "2026-08-31T18:14:58Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Mariners denied third clean sheet in Spalding United draw",
+      "url": "https://www.southshieldsfc.co.uk/mariners-denied-third-clean-sheet-in-spalding-united-draw/",
+      "published": "2026-08-31T18:02:58Z"
     },
     {
       "club": "Worthing",
@@ -1311,6 +1455,15 @@
       "published": "2026-08-31T17:42:25Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Jayden Clarke Post Altrincham (H)",
+      "url": "https://www.fgr.co.uk/news/jayden-clarke-post-altrincham-h-2627/",
+      "published": "2026-08-31T17:40:00Z"
+    },
+    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -1327,159 +1480,6 @@
       "title": "Match Report: Worthing FC 2-3 Boreham Wood",
       "url": "https://worthingfc.com/2026/08/match-report-worthing-fc-2-3-boreham-wood/",
       "published": "2026-08-31T17:32:32Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "John Rooney after Hebburn Town victory",
-      "url": "https://macclesfieldfc.com/latest-news/john-rooney-after-hebburn-town-victory/",
-      "published": "2026-08-31T17:30:37Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Post-Match: Kieron Dyer Gives His Thoughts On Woking Point",
-      "url": "https://southendunited.co.uk/news/2026/august/31/post-match--kieron-dyer-gives-his-thoughts-on-woking-point-/",
-      "published": "2026-08-31T17:23:33Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Report: Moors 1 Hednesford Town 1",
-      "url": "https://spennymoortownfc.co.uk/2026/08/31/report-moors-1-hednesford-town-1/",
-      "published": "2026-08-31T17:22:33Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Alty TV Post-Match | Forest Green 1 Alty 2",
-      "url": "https://altrinchamfc.com/blogs/news/alty-tv-post-match-forest-green-rovers-1-alty-2",
-      "published": "2026-08-31T17:22:20Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Craig Ross on our point against Southend",
-      "url": "https://wokingfc.co.uk/08/31/craig-ross-on-our-point-against-southend/",
-      "published": "2026-08-31T17:12:31Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Match Report | Dorking Wanderers 1-0 Truro City | 31/08/26",
-      "url": "https://dwfc.co.uk/2026/08/match-report-dorking-wanderers-1-0-truro-city-31-08-26/",
-      "published": "2026-08-31T17:12:31Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Report: Chester 0-1 Morecambe",
-      "url": "https://chesterfc.com/08/31/report-chester-0-1-morecambe/",
-      "published": "2026-08-31T17:11:20Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Report: Woking 1-1 Southend",
-      "url": "https://southendunited.co.uk/news/2026/august/31/report--woking-1-1-southend/",
-      "published": "2026-08-31T17:05:30Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "“𝗪𝗲 𝗻𝗲𝗲𝗱 𝘁𝗼 𝘀𝘁𝗮𝗿𝘁 𝗳𝗮𝘀𝘁𝗲𝗿, 𝗾𝘂𝗶𝗰𝗸𝗲𝗿, 𝗺𝗼𝗿𝗲 𝗲𝗻𝗲𝗿𝗴𝗲𝘁𝗶𝗰” | Scott Rogers post – Chelmsford City (H)",
-      "url": "https://wsmafc.co.uk/%f0%9d%97%aa%f0%9d%97%b2-%f0%9d%97%bb%f0%9d%97%b2%f0%9d%97%b2%f0%9d%97%b1-%f0%9d%98%81%f0%9d%97%bc-%f0%9d%98%80%f0%9d%98%81%f0%9d%97%ae%f0%9d%97%bf%f0%9d%98%81-%f0%9d%97%b3%f0%9d%97%ae%f0%9d%98%80/",
-      "published": "2026-08-31T17:05:05Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Hinshelwood: “There is lots for us to work on.” | Boreham Wood Reaction",
-      "url": "https://worthingfc.com/2026/08/hinshelwood-there-is-lots-for-us-to-work-on-boreham-wood-reaction/",
-      "published": "2026-08-31T16:59:47Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "John Askey Post Dorking Wanderers (a)",
-      "url": "https://trurocity.co.uk/2026/08/john-askey-post-dorking-wanderers-a/",
-      "published": "2026-08-31T16:59:11Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Dorking Wanderers 1 Truro City 0 – Match Report",
-      "url": "https://trurocity.co.uk/2026/08/dorking-wanderers-1-truro-city-0-match-report/",
-      "published": "2026-08-31T16:40:22Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "MATCH REPORT: WOKING 1 – 1 SOUTHEND UNITED",
-      "url": "https://wokingfc.co.uk/08/31/match-report-woking-1-1-southend-united/",
-      "published": "2026-08-31T16:36:57Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "REPORT: FARNHAM 2 – 0 UNITED",
-      "url": "https://torquayunited.com/report-farnham-2-0-united/",
-      "published": "2026-08-31T16:35:10Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Report: Chesham United 2-2 Dover Athletic",
-      "url": "https://doverathletic.com/news/report-chesham-united-2-2-dover-athletic/",
-      "published": "2026-08-31T16:25:35Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Report: Eastleigh 1-1 Aldershot Town",
-      "url": "https://eastleighfc.com/2026/08/report-eastleigh-1-1-aldershot-town/",
-      "published": "2026-08-31T16:20:13Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Kahrel strikes late to down Forest Green in their own backyard",
-      "url": "https://altrinchamfc.com/blogs/news/fgr-away-2026-27",
-      "published": "2026-08-31T16:08:43Z"
     }
   ]
 }
