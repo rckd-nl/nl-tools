@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-02T01:28:18Z",
+  "generatedAt": "2026-09-02T06:28:49Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Dorking Wanderers vs Truro City – Match Highlights",
+      "url": "https://trurocity.co.uk/2026/09/dorking-wanderers-vs-truro-city-match-highlights/",
+      "published": "2026-09-02T06:17:53Z"
+    },
+    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -598,6 +607,15 @@
       "title": "MATCH REPORT | Pools suffer narrow defeat",
       "url": "https://www.hartlepoolunited.co.uk/match-report-pools-suffer-narrow-defeat/",
       "published": "2026-09-01T21:48:05Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Ticket Information: Horsham (A)",
+      "url": "https://daggers.co.uk/ticket-information-horsham-a-2/",
+      "published": "2026-09-01T21:39:07Z"
     },
     {
       "club": "Woking",
@@ -688,15 +706,6 @@
       "title": "SILKMEN FAN CAM: HEBBURN TOWN (H)",
       "url": "https://macclesfieldfc.com/galleries/silkmen-fan-cam-hebburn-town-h/",
       "published": "2026-09-01T17:00:38Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "September 200 Club winners",
-      "url": "https://www.horshamfc.co.uk/2026/09/01/september-200-club-winners-7/",
-      "published": "2026-09-01T16:43:25Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -940,6 +949,15 @@
       "title": "IN LOVING MEMORY OF BILL MILLIGAN (1936 – 2026)",
       "url": "https://macclesfieldfc.com/latest-news/in-loving-memory-of-bill-milligan-1936-2026/",
       "published": "2026-09-01T11:48:53Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "26/27 Match Report: Slough Town (H)",
+      "url": "https://daggers.co.uk/26-27-match-report-slough-town-h/",
+      "published": "2026-09-01T11:37:13Z"
     },
     {
       "club": "Worthing",
@@ -1462,24 +1480,6 @@
       "title": "Report: Weston-super-Mare 1-1 Chelmsford City",
       "url": "https://chelmsfordcityfc.com/news/report-weston-super-mare-1-1-chelmsford-city/",
       "published": "2026-08-31T17:35:00Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Match Report: Worthing FC 2-3 Boreham Wood",
-      "url": "https://worthingfc.com/2026/08/match-report-worthing-fc-2-3-boreham-wood/",
-      "published": "2026-08-31T17:32:32Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "John Rooney after Hebburn Town victory",
-      "url": "https://macclesfieldfc.com/latest-news/john-rooney-after-hebburn-town-victory/",
-      "published": "2026-08-31T17:30:37Z"
     }
   ]
 }
