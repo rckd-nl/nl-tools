@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-03T17:18:02Z",
+  "generatedAt": "2026-09-03T19:55:36Z",
   "maxItems": 100,
   "sources": [
     {
@@ -206,10 +206,10 @@
     {
       "club": "AFC Telford United",
       "domain": "telfordunited.com",
-      "feed": "https://telfordunited.com/news/feed",
-      "ok": false,
-      "count": 0,
-      "error": "Feed returned 0 usable items"
+      "feed": "https://telfordunited.com/feed",
+      "ok": true,
+      "count": 50,
+      "error": ""
     },
     {
       "club": "Alfreton Town",
@@ -278,26 +278,26 @@
     {
       "club": "Kidderminster Harriers",
       "domain": "harriers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://harriers.co.uk/feed",
+      "ok": true,
+      "count": 50,
+      "error": ""
     },
     {
       "club": "King's Lynn Town",
       "domain": "kltown.co.uk",
-      "feed": "https://kltown.co.uk/news/feed",
-      "ok": false,
-      "count": 0,
-      "error": "Feed returned 0 usable items"
+      "feed": "https://kltown.co.uk/feed",
+      "ok": true,
+      "count": 50,
+      "error": ""
     },
     {
       "club": "Leamington",
       "domain": "leamingtonfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://leamingtonfc.co.uk/feed",
+      "ok": true,
+      "count": 50,
+      "error": ""
     },
     {
       "club": "Macclesfield",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,105 @@
   ],
   "items": [
     {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "John Marquis’ first interview as a Woking player",
+      "url": "https://wokingfc.co.uk/09/03/john-marquis-first-interview-as-a-woking-player/",
+      "published": "2026-09-03T19:40:25Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham v Dagenham & Redbridge – Match Preview",
+      "url": "https://www.horshamfc.co.uk/2026/09/03/horsham-v-dagenham-redbridge-match-preview/",
+      "published": "2026-09-03T19:38:23Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Clark calls for ruthless response against Woking",
+      "url": "https://www.hartlepoolunited.co.uk/clark-calls-for-ruthless-response-against-woking/",
+      "published": "2026-09-03T18:46:05Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Maidstone United Quiz Night",
+      "url": "https://maidstoneunited.co.uk/09/03/maidstone-utd-quiz-night/",
+      "published": "2026-09-03T18:30:22Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "McNally highlights unity ahead of Woking test",
+      "url": "https://www.hartlepoolunited.co.uk/mcnally-highlights-unity-ahead-of-woking-test/",
+      "published": "2026-09-03T18:25:27Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Let’s Make It A ‘Super September’!",
+      "url": "https://torquayunited.com/lets-make-it-a-super-september/",
+      "published": "2026-09-03T18:04:46Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Ted Curd Returns on Season-Long Loan",
+      "url": "https://www.borehamwoodfootballclub.co.uk/ted-curd-returns-on-season-long-loan/",
+      "published": "2026-09-03T17:59:31Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "August 2026 Cards Trust Player of the Month",
+      "url": "https://wokingfc.co.uk/09/03/august-2026-cards-trust-player-of-the-month/",
+      "published": "2026-09-03T17:50:21Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Away Information | Bedford Town",
+      "url": "https://radcliffefc.com/away-information-bedford-town-2/",
+      "published": "2026-09-03T17:23:25Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Match Preview: Weston-super-Mare",
+      "url": "https://maidstoneunited.co.uk/09/03/match-preview-weston-super-mare-3/",
+      "published": "2026-09-03T17:22:42Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Signing: Luke Butterfield joins the Coasters",
+      "url": "https://afcfylde.co.uk/news/2026/september/03/signing-Butterfield-joins-the-Coasters/",
+      "published": "2026-09-03T16:33:00Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -600,13 +699,13 @@
       "published": "2026-09-03T16:00:00Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Daggers Community Trust Golf Day 2026",
-      "url": "https://daggers.co.uk/daggers-community-trust-golf-day-2026/",
-      "published": "2026-09-03T15:39:13Z"
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Four exciting events coming to The Aggborough Suite",
+      "url": "https://harriers.co.uk/news/2026/09/03/four-exciting-events-coming-to-the-aggborough-suite",
+      "published": "2026-09-03T15:36:03Z"
     },
     {
       "club": "Maidstone United",
@@ -616,6 +715,24 @@
       "title": "Ticket Information: Tonbridge Angels vs. Maidstone United",
       "url": "https://maidstoneunited.co.uk/09/03/ticket-information-tonbridge-angels-vs-maidstone-united/",
       "published": "2026-09-03T15:30:02Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "WATCH: Paul Wotton pre Wealdstone",
+      "url": "https://harriers.co.uk/news/2026/09/03/watch-paul-wotton-pre-wealdstone",
+      "published": "2026-09-03T15:15:53Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "WATCH: Luey Giles interview",
+      "url": "https://harriers.co.uk/news/2026/09/03/watch-luey-giles-interview",
+      "published": "2026-09-03T15:13:11Z"
     },
     {
       "club": "Macclesfield",
@@ -643,6 +760,15 @@
       "title": "We go for three wins on the spin",
       "url": "https://altrinchamfc.com/blogs/news/we-go-for-three-wins-on-the-spin",
       "published": "2026-09-03T14:24:03Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Luey Giles arrives",
+      "url": "https://harriers.co.uk/news/2026/09/03/luey-giles-arrives",
+      "published": "2026-09-03T14:00:08Z"
     },
     {
       "club": "Forest Green Rovers",
@@ -780,15 +906,6 @@
       "published": "2026-09-03T11:30:01Z"
     },
     {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Match Preview: Weston-super-Mare",
-      "url": "https://maidstoneunited.co.uk/09/03/match-preview-weston-super-mare-3/",
-      "published": "2026-09-03T11:25:42Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -852,24 +969,6 @@
       "published": "2026-09-03T09:50:55Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Tickets On Sale for Tuesday’s Dover Clash",
-      "url": "https://daggers.co.uk/tickets-on-sale-for-tuesdays-dover-clash/",
-      "published": "2026-09-03T09:42:22Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "250 Club August 2026 Prize Draw",
-      "url": "https://daggers.co.uk/250-club-august-2026-prize-draw/",
-      "published": "2026-09-03T09:13:24Z"
-    },
-    {
       "club": "Gateshead",
       "code": "GAT",
       "short": "Gateshead",
@@ -897,6 +996,15 @@
       "published": "2026-09-03T09:00:00Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "David McDermott 1988-2026",
+      "url": "https://harriers.co.uk/news/2026/09/03/david-mcdermott-1988-2026",
+      "published": "2026-09-03T08:59:53Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -913,6 +1021,15 @@
       "title": "REPORT | Hereford FC 1-1 Dudley Town",
       "url": "https://herefordfc.co.uk/2026/09/report-hereford-fc-1-1-dudley-town/",
       "published": "2026-09-03T07:00:35Z"
+    },
+    {
+      "club": "Leamington",
+      "code": "LEA",
+      "short": "Leamington",
+      "domain": "leamingtonfc.co.uk",
+      "title": "Match Arrangements: Ilkeston Town",
+      "url": "https://leamingtonfc.co.uk/news/2026/09/03/match-arrangements-ilkeston-town",
+      "published": "2026-09-03T06:50:00Z"
     },
     {
       "club": "Southport",
@@ -1041,6 +1158,15 @@
       "published": "2026-09-02T15:57:06Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "On the Road: Wealdstone",
+      "url": "https://harriers.co.uk/news/2026/09/02/on-the-road-wealdstone",
+      "published": "2026-09-02T15:41:00Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1048,6 +1174,15 @@
       "title": "Dreyer Joins Harrogate Town",
       "url": "https://torquayunited.com/dreyer-joins-harrogate-town/",
       "published": "2026-09-02T15:00:00Z"
+    },
+    {
+      "club": "AFC Telford United",
+      "code": "TEL",
+      "short": "Telford",
+      "domain": "telfordunited.com",
+      "title": "Scarborough Athletic (A): Supporter Information",
+      "url": "https://telfordunited.com/news/2026/09/02/scarborough-athletic-a-supporter-information",
+      "published": "2026-09-02T14:04:59Z"
     },
     {
       "club": "Macclesfield",
@@ -1156,24 +1291,6 @@
       "title": "Dagenham & Redbridge match selected for live coverage on DAZN",
       "url": "https://wsmafc.co.uk/dagenham-redbridge-match-selected-for-live-coverage-on-dazn/",
       "published": "2026-09-02T11:20:46Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Vote for your August Player of the Month!",
-      "url": "https://daggers.co.uk/vote-for-your-august-player-of-the-month-2/",
-      "published": "2026-09-02T11:13:40Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Vote for your August ‘Inner London Cleaning’ GOTM",
-      "url": "https://daggers.co.uk/vote-for-your-august-inner-london-cleaning-gotm/",
-      "published": "2026-09-02T11:10:37Z"
     },
     {
       "club": "Southend United",
@@ -1363,123 +1480,6 @@
       "title": "Gallery: Boston United (A)",
       "url": "https://hornchurchfc.com/gallery-boston-united-a/",
       "published": "2026-09-02T07:59:48Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Latest Ticket Information",
-      "url": "https://www.southshieldsfc.co.uk/latest-ticket-information/",
-      "published": "2026-09-02T07:29:47Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Weston-super-Mare",
-      "url": "https://maidstoneunited.co.uk/09/02/key-info-weston-super-mare-2/",
-      "published": "2026-09-02T07:00:56Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Dorking Wanderers vs Truro City – Match Highlights",
-      "url": "https://trurocity.co.uk/2026/09/dorking-wanderers-vs-truro-city-match-highlights/",
-      "published": "2026-09-02T06:17:53Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Dorking Wanderers Matchday and Ticket Information",
-      "url": "https://chelmsfordcityfc.com/news/dorking-wanderers-matchday-and-ticket-information/",
-      "published": "2026-09-01T22:33:35Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Gallery – Cinderford",
-      "url": "https://chippenhamtown.com/09/01/cinderford-town-fa-youth-cup-1st-september-2026/",
-      "published": "2026-09-01T22:00:00Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "MATCH REPORT | Pools suffer narrow defeat",
-      "url": "https://www.hartlepoolunited.co.uk/match-report-pools-suffer-narrow-defeat/",
-      "published": "2026-09-01T21:48:05Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Ticket Information: Horsham (A)",
-      "url": "https://daggers.co.uk/ticket-information-horsham-a-2/",
-      "published": "2026-09-01T21:39:07Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Woking sign John Marquis",
-      "url": "https://wokingfc.co.uk/09/01/woking-sign-john-marquis/",
-      "published": "2026-09-01T21:29:13Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Report: Chippenham 6-2 Cinderford",
-      "url": "https://chippenhamtown.com/09/01/report-chippenham-6-2-cinderford/",
-      "published": "2026-09-01T21:04:54Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Loan Watch: Murray and Taylor face off, Johnson comes out on top in Devon Derby",
-      "url": "https://wsmafc.co.uk/loan-watch-31-08-26/",
-      "published": "2026-09-01T20:45:28Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Match Report | Cheltenham Town 3-2 York City",
-      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/september/01/match-report---cheltenham-town-3-2-york-city/",
-      "published": "2026-09-01T20:42:33Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "City in Action – Frome Town (A) – Southern League Premier South",
-      "url": "https://www.bathcityfc.com/city-in-action-frome-town-a-southern-league-premier-south/",
-      "published": "2026-09-01T20:19:40Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Welcome to Chester FC, Joe Boggan!",
-      "url": "https://chesterfc.com/09/01/welcome-to-chester-fc-joe-boggan/",
-      "published": "2026-09-01T19:30:23Z"
     }
   ]
 }
