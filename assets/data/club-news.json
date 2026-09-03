@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-03T19:55:36Z",
+  "generatedAt": "2026-09-03T22:37:22Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "AFC Telford United",
+      "code": "TEL",
+      "short": "Telford",
+      "domain": "telfordunited.com",
+      "title": "Scarborough Athletic (A): Match Preview",
+      "url": "https://telfordunited.com/news/2026/09/03/scarborough-athletic-a-match-preview",
+      "published": "2026-09-03T20:51:38Z"
+    },
+    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -589,15 +598,6 @@
       "title": "John Marquis’ first interview as a Woking player",
       "url": "https://wokingfc.co.uk/09/03/john-marquis-first-interview-as-a-woking-player/",
       "published": "2026-09-03T19:40:25Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham v Dagenham & Redbridge – Match Preview",
-      "url": "https://www.horshamfc.co.uk/2026/09/03/horsham-v-dagenham-redbridge-match-preview/",
-      "published": "2026-09-03T19:38:23Z"
     },
     {
       "club": "Hartlepool United",
@@ -697,6 +697,15 @@
       "title": "U18s Match Preview | Shrewsbury Town U18s (A) | Saturday 5th September",
       "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/september/03/u18s-match-preview-shrewsbury-u18-a-sat-5-sep/",
       "published": "2026-09-03T16:00:00Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Daggers Community Trust Golf Day 2026",
+      "url": "https://daggers.co.uk/daggers-community-trust-golf-day-2026/",
+      "published": "2026-09-03T15:39:13Z"
     },
     {
       "club": "Kidderminster Harriers",
@@ -969,6 +978,24 @@
       "published": "2026-09-03T09:50:55Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Tickets On Sale for Tuesday’s Dover Clash",
+      "url": "https://daggers.co.uk/tickets-on-sale-for-tuesdays-dover-clash/",
+      "published": "2026-09-03T09:42:22Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "250 Club August 2026 Prize Draw",
+      "url": "https://daggers.co.uk/250-club-august-2026-prize-draw/",
+      "published": "2026-09-03T09:13:24Z"
+    },
+    {
       "club": "Gateshead",
       "code": "GAT",
       "short": "Gateshead",
@@ -1149,15 +1176,6 @@
       "published": "2026-09-02T16:00:00Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Lucas Rodrigues",
-      "url": "https://www.horshamfc.co.uk/2026/09/02/lucas-rodrigues/",
-      "published": "2026-09-02T15:57:06Z"
-    },
-    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -1291,6 +1309,24 @@
       "title": "Dagenham & Redbridge match selected for live coverage on DAZN",
       "url": "https://wsmafc.co.uk/dagenham-redbridge-match-selected-for-live-coverage-on-dazn/",
       "published": "2026-09-02T11:20:46Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Vote for your August Player of the Month!",
+      "url": "https://daggers.co.uk/vote-for-your-august-player-of-the-month-2/",
+      "published": "2026-09-02T11:13:40Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Vote for your August ‘Inner London Cleaning’ GOTM",
+      "url": "https://daggers.co.uk/vote-for-your-august-inner-london-cleaning-gotm/",
+      "published": "2026-09-02T11:10:37Z"
     },
     {
       "club": "Southend United",
@@ -1444,42 +1480,6 @@
       "title": "🏆 Through in the FA Youth Cup! | Highlights vs Cinderford Town",
       "url": "https://chippenhamtown.com/09/02/%f0%9f%8f%86-through-in-the-fa-youth-cup-highlights-vs-cinderford-town/",
       "published": "2026-09-02T08:30:26Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Tommy Miller Resigns As First Team Manager",
-      "url": "https://spennymoortownfc.co.uk/2026/09/02/tommy-miller-resigns-as-first-team-manager/",
-      "published": "2026-09-02T08:28:07Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "Match Report: AFC Fylde Women 5-0 Durham Cestria (H)",
-      "url": "https://afcfylde.co.uk/news/2026/september/02/match-report--afc-fylde-women-Durham-Cestria/",
-      "published": "2026-09-02T08:00:00Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Experience Matchday In The Cove This Weekend",
-      "url": "https://torquayunited.com/experience-matchday-in-the-cove-this-weekend/",
-      "published": "2026-09-02T08:00:00Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Gallery: Boston United (A)",
-      "url": "https://hornchurchfc.com/gallery-boston-united-a/",
-      "published": "2026-09-02T07:59:48Z"
     }
   ]
 }
