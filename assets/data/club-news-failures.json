@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-03T13:38:34Z",
+  "generatedAt": "2026-09-03T17:18:02Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -105,6 +105,14 @@
       "ok": false,
       "count": 0,
       "error": "Feed returned 0 usable items"
+    },
+    {
+      "club": "Alfreton Town",
+      "domain": "alfretontownfootballclub.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "SSLError: HTTPSConnectionPool(host='alfretontownfootballclub.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1016)')))"
     },
     {
       "club": "Bedford Town",

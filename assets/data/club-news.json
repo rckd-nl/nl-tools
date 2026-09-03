@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-03T13:38:34Z",
+  "generatedAt": "2026-09-03T17:18:02Z",
   "maxItems": 100,
   "sources": [
     {
@@ -80,7 +80,7 @@
       "domain": "fgr.co.uk",
       "feed": "https://www.fgr.co.uk/news-rss.xml",
       "ok": true,
-      "count": 3878,
+      "count": 3879,
       "error": ""
     },
     {
@@ -214,10 +214,10 @@
     {
       "club": "Alfreton Town",
       "domain": "alfretontownfootballclub.com",
-      "feed": "https://alfretontownfootballclub.com/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "SSLError: HTTPSConnectionPool(host='alfretontownfootballclub.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1016)')))"
     },
     {
       "club": "Bedford Town",
@@ -581,6 +581,105 @@
     }
   ],
   "items": [
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Shrimpers Recruit Zavier Massiah-Edwards",
+      "url": "https://southendunited.co.uk/news/2026/september/03/shrimpers-recruit-zavier-massiah-edwards/",
+      "published": "2026-09-03T16:00:00Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "U18s Match Preview | Shrewsbury Town U18s (A) | Saturday 5th September",
+      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/september/03/u18s-match-preview-shrewsbury-u18-a-sat-5-sep/",
+      "published": "2026-09-03T16:00:00Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Daggers Community Trust Golf Day 2026",
+      "url": "https://daggers.co.uk/daggers-community-trust-golf-day-2026/",
+      "published": "2026-09-03T15:39:13Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Ticket Information: Tonbridge Angels vs. Maidstone United",
+      "url": "https://maidstoneunited.co.uk/09/03/ticket-information-tonbridge-angels-vs-maidstone-united/",
+      "published": "2026-09-03T15:30:02Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "LIVE SPORT IN BAR TWENTY SEVEN",
+      "url": "https://macclesfieldfc.com/latest-news/live-sport-in-bar-twenty-seven-2/",
+      "published": "2026-09-03T15:00:51Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Preview: Maidstone United v Weston",
+      "url": "https://wsmafc.co.uk/preview-maidstone-away-2627/",
+      "published": "2026-09-03T14:30:02Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "We go for three wins on the spin",
+      "url": "https://altrinchamfc.com/blogs/news/we-go-for-three-wins-on-the-spin",
+      "published": "2026-09-03T14:24:03Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Robbie Savage Pre Hornchurch (A)",
+      "url": "https://www.fgr.co.uk/news/robbie-savage-pre-hornchurch-a/",
+      "published": "2026-09-03T14:00:00Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Paddy McLaughlin enjoying new role helping academy players bridge the gap",
+      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/september/03/paddy-mclaughlin-on-his-role-as-pdp-transition-coach/",
+      "published": "2026-09-03T14:00:00Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Chairman’s notes: Carlisle United (H)",
+      "url": "https://www.borehamwoodfootballclub.co.uk/chairmans-notes-carlisle-united-h-2/",
+      "published": "2026-09-03T13:56:53Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Jimmy Ball | Folkestone Invicta (H) | Press Call",
+      "url": "https://torquayunited.com/jimmy-ball-folkestone-invicta-h-press-call/",
+      "published": "2026-09-03T13:56:05Z"
+    },
     {
       "club": "Macclesfield",
       "code": "MAC",
@@ -1381,105 +1480,6 @@
       "title": "Welcome to Chester FC, Joe Boggan!",
       "url": "https://chesterfc.com/09/01/welcome-to-chester-fc-joe-boggan/",
       "published": "2026-09-01T19:30:23Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "ACCESS ALL AREAS | Worthing FC 2-3 Boreham Wood",
-      "url": "https://worthingfc.com/2026/09/access-all-areas-worthing-fc-2-3-boreham-wood/",
-      "published": "2026-09-01T19:00:13Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "TICKET NEWS: MERTHYR TOWN",
-      "url": "https://macclesfieldfc.com/latest-news/ticket-news-merthyr-town/",
-      "published": "2026-09-01T18:00:50Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "TEAM NEWS | Five changes ahead of Halifax",
-      "url": "https://www.hartlepoolunited.co.uk/team-news-five-changes-ahead-of-halifax/",
-      "published": "2026-09-01T17:44:03Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Watch Scott Bartlett’s Frome Town post-match interview",
-      "url": "https://www.bathcityfc.com/watch-scott-bartletts-frome-town-post-match-interview/",
-      "published": "2026-09-01T17:20:42Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SILKMEN FAN CAM: HEBBURN TOWN (H)",
-      "url": "https://macclesfieldfc.com/galleries/silkmen-fan-cam-hebburn-town-h/",
-      "published": "2026-09-01T17:00:38Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Coming Up At The Blue Eagle: September 2026",
-      "url": "https://southendunited.co.uk/news/2026/september/01/coming-up-at-the-blue-eagle--september-2026/",
-      "published": "2026-09-01T16:43:41Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "September 200 Club winners",
-      "url": "https://www.horshamfc.co.uk/2026/09/01/september-200-club-winners-7/",
-      "published": "2026-09-01T16:43:25Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Supporters Information | Maidstone United (A)",
-      "url": "https://wsmafc.co.uk/supporters-information-maidstone-united-a/",
-      "published": "2026-09-01T16:05:49Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Highlights: Morecambe (H)",
-      "url": "https://chesterfc.com/09/01/highlights-morecambe-h/",
-      "published": "2026-09-01T15:49:56Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Player Recruitment: Weston-super-Mare AFC Girls Academy",
-      "url": "https://wsmafc.co.uk/player-recruitment-girls-academy/",
-      "published": "2026-09-01T15:25:44Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Youth Group Ticket Offer",
-      "url": "https://www.fgr.co.uk/news/north-stand-ticket-offer/",
-      "published": "2026-09-01T15:15:00Z"
     }
   ]
 }
