@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-03T04:41:10Z",
+  "generatedAt": "2026-09-03T09:28:30Z",
   "maxItems": 100,
   "sources": [
     {
@@ -78,10 +78,10 @@
     {
       "club": "Forest Green Rovers",
       "domain": "fgr.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
+      "feed": "https://www.fgr.co.uk/news-rss.xml",
+      "ok": true,
+      "count": 3878,
+      "error": ""
     },
     {
       "club": "Gateshead",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7fbae969d890>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
+      "feed": "https://daggers.co.uk/news/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7fbae9432c10>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,51 @@
     }
   ],
   "items": [
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "COACH TRAVEL: MERTHYR TOWN",
+      "url": "https://macclesfieldfc.com/latest-news/coach-travel-merthyr-town-2/",
+      "published": "2026-09-03T09:00:02Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "NEWS | Cowell Stands Down as Head Of Women’s Football",
+      "url": "https://herefordfc.co.uk/2026/09/news-cowell-stands-down-as-head-of-womens-football/",
+      "published": "2026-09-03T08:55:55Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "REPORT | Hereford FC 1-1 Dudley Town",
+      "url": "https://herefordfc.co.uk/2026/09/report-hereford-fc-1-1-dudley-town/",
+      "published": "2026-09-03T07:00:35Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Highlights | Southport 0 Hereford 1",
+      "url": "https://southportfc.net/highlights-southport-0-hereford-1/",
+      "published": "2026-09-03T06:40:28Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Season Ticket Holders Fans Forum Thursday September 17th",
+      "url": "https://southportfc.net/season-ticket-holders-fans-forum-thursday-september-17th/",
+      "published": "2026-09-03T06:36:58Z"
+    },
     {
       "club": "York City",
       "code": "YOR",
@@ -681,15 +726,6 @@
       "published": "2026-09-02T16:00:00Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Lucas Rodrigues",
-      "url": "https://www.horshamfc.co.uk/2026/09/02/lucas-rodrigues/",
-      "published": "2026-09-02T15:57:06Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -787,6 +823,15 @@
       "title": "Flan O’Briens sponsor the Player of the Month trophy for season 2026/27",
       "url": "https://www.bathcityfc.com/flan-obriens-sponsor-the-player-of-the-month-trophy-for-season-2026-27/",
       "published": "2026-09-02T11:55:56Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Carlisle Tickets & Travel",
+      "url": "https://www.fgr.co.uk/news/carlisle-tickets-and-travel-2627/",
+      "published": "2026-09-02T11:30:00Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -904,6 +949,15 @@
       "title": "REACTION | Sheron looking for immediate response",
       "url": "https://www.hartlepoolunited.co.uk/reaction-sheron-looking-for-immediate-response/",
       "published": "2026-09-02T09:24:06Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Minute's applause for Martin Anns",
+      "url": "https://www.fgr.co.uk/news/minutes-applause-for-martin-anns/",
+      "published": "2026-09-02T09:00:00Z"
     },
     {
       "club": "Southend United",
@@ -1167,15 +1221,6 @@
       "published": "2026-09-01T16:43:41Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "September 200 Club winners",
-      "url": "https://www.horshamfc.co.uk/2026/09/01/september-200-club-winners-7/",
-      "published": "2026-09-01T16:43:25Z"
-    },
-    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1210,6 +1255,15 @@
       "title": "Player Recruitment: Weston-super-Mare AFC Girls Academy",
       "url": "https://wsmafc.co.uk/player-recruitment-girls-academy/",
       "published": "2026-09-01T15:25:44Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Youth Group Ticket Offer",
+      "url": "https://www.fgr.co.uk/news/north-stand-ticket-offer/",
+      "published": "2026-09-01T15:15:00Z"
     },
     {
       "club": "Spennymoor Town",
@@ -1293,6 +1347,15 @@
       "published": "2026-09-01T14:00:05Z"
     },
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Tickets & Travel | Hornchurch (A)",
+      "url": "https://www.fgr.co.uk/news/tickets-and-travel-hornchurch-a/",
+      "published": "2026-09-01T14:00:00Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1336,15 +1399,6 @@
       "title": "GALLERY | Southport FC 0-1 Hereford FC",
       "url": "https://herefordfc.co.uk/2026/09/gallery-southport-fc-0-1-hereford-fc/",
       "published": "2026-09-01T12:39:09Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "AN INVITATION TO OUR SEPTEMBER BUSINESS NETWORKING MEETING",
-      "url": "https://macclesfieldfc.com/latest-news/an-invitation-to-our-september-business-networking-meeting/",
-      "published": "2026-09-01T12:32:33Z"
     },
     {
       "club": "Chester",
@@ -1426,60 +1480,6 @@
       "title": "Darlington (H) Post-Match Reaction | Josh Seary",
       "url": "https://radcliffefc.com/darlington-h-post-match-reaction-josh-seary/",
       "published": "2026-09-01T10:54:37Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Gallery: Hampton & Richmond",
-      "url": "https://maidstoneunited.co.uk/09/01/gallery-hampton-richmond-2/",
-      "published": "2026-09-01T10:45:42Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Legg: SSFC Women co-captaincy “a massive honour”",
-      "url": "https://www.southshieldsfc.co.uk/legg-ssfc-women-co-captaincy-a-massive-honour/",
-      "published": "2026-09-01T10:06:44Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "September away ticket and travel details",
-      "url": "https://altrinchamfc.com/blogs/news/september-away-ticket-details",
-      "published": "2026-09-01T09:57:02Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Ticket Details: Hebburn Town (A)",
-      "url": "https://chesterfc.com/09/01/hebburn-a/",
-      "published": "2026-09-01T09:39:24Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Ladies: Chelmsford City 2-0 Southend",
-      "url": "https://southendunited.co.uk/news/2026/september/01/ladies--chelmsford-city-2-0-southend/",
-      "published": "2026-09-01T09:38:37Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Post-Morecambe: Phil Parkinson",
-      "url": "https://chesterfc.com/09/01/post-morecambe-phil-parkinson/",
-      "published": "2026-09-01T09:28:32Z"
     }
   ]
 }
