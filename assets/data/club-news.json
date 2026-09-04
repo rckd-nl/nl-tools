@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-04T05:09:26Z",
+  "generatedAt": "2026-09-04T09:40:41Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,105 @@
   ],
   "items": [
     {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Season Ticket Holder Appreciation Matchday",
+      "url": "https://www.fgr.co.uk/news/season-ticket-holder-appreciation-matchday/",
+      "published": "2026-09-04T18:00:00Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Match Preview: Carlisle United (H)",
+      "url": "https://www.borehamwoodfootballclub.co.uk/match-preview-carlisle-united-h-2/",
+      "published": "2026-09-04T09:34:34Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Saturday: Wealdstone v Harriers",
+      "url": "https://harriers.co.uk/news/2026/09/04/saturday-wealdstone-v-harriers",
+      "published": "2026-09-04T09:12:40Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "AWAY DAY BLUES: MERTHYR TOWN",
+      "url": "https://macclesfieldfc.com/latest-news/away-day-blues-merthyr-town-2/",
+      "published": "2026-09-04T09:00:43Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Boro selected for DAZN coverage",
+      "url": "https://farnboroughfc.co.uk/2026/09/boro-selected-for-dazn-coverage/",
+      "published": "2026-09-04T09:00:29Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Shields selected for broadcast live on DAZN",
+      "url": "https://www.southshieldsfc.co.uk/shields-selected-for-broadcast-live-on-dazn/",
+      "published": "2026-09-04T09:00:17Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Book Your Folkestone Tickets Now!",
+      "url": "https://torquayunited.com/book-your-hampton-tickets-now/",
+      "published": "2026-09-04T08:44:49Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "AHEAD OF THE GAME: HARTLEPOOL (A)",
+      "url": "https://wokingfc.co.uk/09/04/ahead-of-the-game-hartlepool-a/",
+      "published": "2026-09-04T08:00:25Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Next Match – Weymouth (H) – FA Cup 1st Qualifying Round",
+      "url": "https://www.bathcityfc.com/next-match-weymouth-h-fa-cup-1st-qualifying-round/",
+      "published": "2026-09-04T08:00:18Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Match Preview: Worthing (H)",
+      "url": "https://afcfylde.co.uk/news/2026/september/04/match-preview--worthing--h-/",
+      "published": "2026-09-04T07:00:00Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Spencer Day Pre Tonbridge Angels (H)",
+      "url": "https://farnboroughfc.co.uk/2026/09/spencer-day-pre-tonbridge-angels-h/",
+      "published": "2026-09-04T06:00:26Z"
+    },
+    {
       "club": "AFC Telford United",
       "code": "TEL",
       "short": "Telford",
@@ -598,6 +697,15 @@
       "title": "John Marquis’ first interview as a Woking player",
       "url": "https://wokingfc.co.uk/09/03/john-marquis-first-interview-as-a-woking-player/",
       "published": "2026-09-03T19:40:25Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham v Dagenham & Redbridge – Match Preview",
+      "url": "https://www.horshamfc.co.uk/2026/09/03/horsham-v-dagenham-redbridge-match-preview/",
+      "published": "2026-09-03T19:38:23Z"
     },
     {
       "club": "Hartlepool United",
@@ -1176,6 +1284,15 @@
       "published": "2026-09-02T16:00:00Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Lucas Rodrigues",
+      "url": "https://www.horshamfc.co.uk/2026/09/02/lucas-rodrigues/",
+      "published": "2026-09-02T15:57:06Z"
+    },
+    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -1363,123 +1480,6 @@
       "title": "Torquay United Strengthens Partnership with Brixham Trawler Agents for 2026/27 Season",
       "url": "https://torquayunited.com/torquay-united-strengthens-partnership-with-brixham-trawler-agents-for-2026-27-season/",
       "published": "2026-09-02T11:00:00Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Medical Update | 02/09/26",
-      "url": "https://dwfc.co.uk/2026/09/medical-update-02-09-26/",
-      "published": "2026-09-02T10:59:48Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "United for the Community aim to support local ex-servicemen, women, and their families",
-      "url": "https://www.hartlepoolunited.co.uk/united-for-the-community-aim-to-support-local-ex-servicemen-women-and-their-families/",
-      "published": "2026-09-02T10:26:40Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Nathan Sheron becomes Her Game Too advocate",
-      "url": "https://www.hartlepoolunited.co.uk/nathan-sheron-becomes-her-game-too-advocate/",
-      "published": "2026-09-02T09:44:12Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Your Matchday Guide: Forest Green Rovers",
-      "url": "https://hornchurchfc.com/your-matchday-guide-forest-green-rovers/",
-      "published": "2026-09-02T09:43:24Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Inside: Forever Yellow — Why We Joined",
-      "url": "https://torquayunited.com/inside-forever-yellow-why-we-joined/",
-      "published": "2026-09-02T09:30:00Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "REACTION | Sheron looking for immediate response",
-      "url": "https://www.hartlepoolunited.co.uk/reaction-sheron-looking-for-immediate-response/",
-      "published": "2026-09-02T09:24:06Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Minute's applause for Martin Anns",
-      "url": "https://www.fgr.co.uk/news/minutes-applause-for-martin-anns/",
-      "published": "2026-09-02T09:00:00Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "A-Plus Security Extends Partnership With Southend United Community Foundation",
-      "url": "https://southendunited.co.uk/news/2026/september/02/a-plus-security-extends-partnership-with-southend-united-community-foundation-/",
-      "published": "2026-09-02T09:00:00Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Kemall Wilson signs first professional contract",
-      "url": "https://wokingfc.co.uk/09/02/kemall-wilson-signs-first-professional-contract/",
-      "published": "2026-09-02T08:57:34Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "First Team Manager Vacancy",
-      "url": "https://spennymoortownfc.co.uk/2026/09/02/first-team-manager-vacancy/",
-      "published": "2026-09-02T08:57:25Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Tickets on sale now for our trip to Kidderminster Harriers",
-      "url": "https://ytfc.net/2026/09/tickets-on-sale-now-for-our-trip-to-kidderminster-harriers/",
-      "published": "2026-09-02T08:49:28Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Club Confirm Interim Arrangements",
-      "url": "https://spennymoortownfc.co.uk/2026/09/02/club-confirm-interim-arrangements/",
-      "published": "2026-09-02T08:43:20Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "🏆 Through in the FA Youth Cup! | Highlights vs Cinderford Town",
-      "url": "https://chippenhamtown.com/09/02/%f0%9f%8f%86-through-in-the-fa-youth-cup-highlights-vs-cinderford-town/",
-      "published": "2026-09-02T08:30:26Z"
     }
   ]
 }
