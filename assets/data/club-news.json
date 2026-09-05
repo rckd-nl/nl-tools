@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-05T19:34:57Z",
+  "generatedAt": "2026-09-05T21:46:17Z",
   "maxItems": 100,
   "sources": [
     {
@@ -80,7 +80,7 @@
       "domain": "fgr.co.uk",
       "feed": "https://www.fgr.co.uk/news-rss.xml",
       "ok": true,
-      "count": 3884,
+      "count": 3886,
       "error": ""
     },
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,13 +582,112 @@
   ],
   "items": [
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Highlights: Weston-super-Mare",
+      "url": "https://maidstoneunited.co.uk/09/05/highlights-weston-super-mare-2/",
+      "published": "2026-09-05T21:24:44Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "🎤 𝗣𝗼𝘀𝘁-𝗠𝗮𝘁𝗰𝗵 | Gary Horgan on our 1-1 draw with Havant & waterlooville in the Emirates FA Cup",
+      "url": "https://chippenhamtown.com/09/05/%f0%9f%8e%a4-%f0%9d%97%a3%f0%9d%97%bc%f0%9d%98%80%f0%9d%98%81-%f0%9d%97%a0%f0%9d%97%ae%f0%9d%98%81%f0%9d%97%b0%f0%9d%97%b5-gary-horgan-on-our-1-1-draw-with-havant-waterlooville-in-the-emirates-fa/",
+      "published": "2026-09-05T21:00:27Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "“𝗧𝗵𝗲𝘆 𝗸𝗻𝗲𝘄 𝘁𝗵𝗲 𝗹𝗮𝗱𝘀 𝗹𝗲𝗳𝘁 𝗲𝘃𝗲𝗿𝘆𝘁𝗵𝗶𝗻𝗴 𝗼𝘂𝘁 𝘁𝗵𝗲𝗿𝗲” | Scott Rogers post – Maidstone United (A)",
+      "url": "https://wsmafc.co.uk/%f0%9d%97%a7%f0%9d%97%b5%f0%9d%97%b2%f0%9d%98%86-%f0%9d%97%b8%f0%9d%97%bb%f0%9d%97%b2%f0%9d%98%84-%f0%9d%98%81%f0%9d%97%b5%f0%9d%97%b2-%f0%9d%97%b9%f0%9d%97%ae%f0%9d%97%b1%f0%9d%98%80-%f0%9d%97%b9/",
+      "published": "2026-09-05T20:50:10Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Report: Seagulls defeated on the road by Maidstone",
+      "url": "https://wsmafc.co.uk/report-maidstone-away-2627/",
+      "published": "2026-09-05T20:30:58Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Post Match | Mark Duffy After Spalding Away",
+      "url": "https://southportfc.net/post-match-mark-duffy-after-spalding-away/",
+      "published": "2026-09-05T20:05:07Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Reaction | Adam Crowther’s verdict on our 1-1 draw to Salisbury.",
+      "url": "https://chelmsfordcityfc.com/news/reaction-adam-crowthers-verdict-on-our-1-1-draw-to-salisbury/",
+      "published": "2026-09-05T20:04:57Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Match Highlights | Hornchurch (A)",
+      "url": "https://www.fgr.co.uk/news/match-highlights-hornchurch-a/",
+      "published": "2026-09-05T20:00:00Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Reaction | Mark Cooper, reflects on our 1-1 draw to Salisbury.",
+      "url": "https://chelmsfordcityfc.com/news/reaction-mark-cooper-reflects-on-our-1-1-draw-to-salisbury/",
+      "published": "2026-09-05T19:58:47Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
       "domain": "wsmafc.co.uk",
       "title": "Gallery: Maidstone United 1 – 0 WsM AFC",
-      "url": "https://wsmafc.co.uk/gallery-maidstone-united-1-0-wsm-afc/",
-      "published": "2026-09-05T19:34:45Z"
+      "url": "https://wsmafc.co.uk/gallery-maidstone-home-2627/",
+      "published": "2026-09-05T19:55:45Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "John Askey Post Chesham United (h)",
+      "url": "https://trurocity.co.uk/2026/09/john-askey-post-chesham-united-h-3/",
+      "published": "2026-09-05T19:47:05Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Billericay Town (A) | Marc White’s Post-Match Interview",
+      "url": "https://dwfc.co.uk/2026/09/billericay-town-a-marc-whites-post-match-interview/",
+      "published": "2026-09-05T19:36:23Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Match Report | Bradford Park Avenue (H)",
+      "url": "https://curzon-ashton.co.uk/match-report-bradford-park-avenue-h/",
+      "published": "2026-09-05T19:32:05Z"
     },
     {
       "club": "Radcliffe",
@@ -627,6 +726,24 @@
       "published": "2026-09-05T19:10:37Z"
     },
     {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Spencer Day Post Tonbridge Angels (H)",
+      "url": "https://farnboroughfc.co.uk/2026/09/spencer-day-post-tonbridge-angels-h-5/",
+      "published": "2026-09-05T19:00:07Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Freddie Sass on Hornchurch win",
+      "url": "https://www.fgr.co.uk/news/freddie-sass-on-hornchurch-win/",
+      "published": "2026-09-05T19:00:00Z"
+    },
+    {
       "club": "Southport",
       "code": "SPT",
       "short": "Southport",
@@ -658,7 +775,7 @@
       "code": "CHI",
       "short": "Chippenham",
       "domain": "chippenhamtown.com",
-      "title": "Fixture Confirmed: Havant vs Chippenham Town F.C",
+      "title": "Fixture Confirmed: Havant & Waterlooville vs Chippenham Town",
       "url": "https://chippenhamtown.com/09/05/fixture-confirmed-havant-vs-chippenham-town-f-c/",
       "published": "2026-09-05T18:19:10Z"
     },
@@ -769,15 +886,6 @@
       "title": "Report: Hereford 2 Moors 1",
       "url": "https://spennymoortownfc.co.uk/2026/09/05/report-hereford-2-moors-1-2/",
       "published": "2026-09-05T17:37:57Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "26/27 Match Report: Horsham (A)",
-      "url": "https://daggers.co.uk/26-27-match-report-horsham-a/",
-      "published": "2026-09-05T17:33:42Z"
     },
     {
       "club": "Maidstone United",
@@ -1372,114 +1480,6 @@
       "title": "The Wood swoop for Jay Bird",
       "url": "https://www.borehamwoodfootballclub.co.uk/the-wood-swoop-for-jay-bird/",
       "published": "2026-09-04T15:59:03Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "The Friday Interview: Rob Tuvey",
-      "url": "https://maidstoneunited.co.uk/09/04/the-friday-interview-rob-tuvey/",
-      "published": "2026-09-04T15:53:09Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "PREVIEW | Hereford FC vs Spennymoor Town",
-      "url": "https://herefordfc.co.uk/2026/09/preview-hereford-fc-vs-spennymoor-town-2/",
-      "published": "2026-09-04T15:50:56Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Rob Ramshaw Golf Day and Charity Auction",
-      "url": "https://spennymoortownfc.co.uk/2026/09/04/rob-ramshaw-golf-day-charity-auction-prizes/",
-      "published": "2026-09-04T15:27:11Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Women’s FA Cup First Qualifying Round",
-      "url": "https://maidstoneunited.co.uk/09/04/key-info-womens-fa-cup-first-qualifying-round/",
-      "published": "2026-09-04T15:13:48Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "John Rooney pre Merthyr Town",
-      "url": "https://macclesfieldfc.com/latest-news/john-rooney-pre-merthyr-town/",
-      "published": "2026-09-04T15:00:03Z"
-    },
-    {
-      "club": "King's Lynn Town",
-      "code": "KLT",
-      "short": "King's Lynn",
-      "domain": "kltown.co.uk",
-      "title": "LOAN SIGNING: Layton Love",
-      "url": "https://kltown.co.uk/news/2026/09/04/loan-signing-layton-love",
-      "published": "2026-09-04T14:59:39Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Preview: Altrincham vs Eastleigh",
-      "url": "https://eastleighfc.com/2026/09/preview-altrincham-vs-eastleigh-2/",
-      "published": "2026-09-04T14:52:45Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Alty TV Interview | Kane Hemmings",
-      "url": "https://altrinchamfc.com/blogs/news/alty-tv-interview-kane-hemmings",
-      "published": "2026-09-04T14:51:20Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City vs Chesham United – Match Information",
-      "url": "https://trurocity.co.uk/2026/09/truro-city-vs-chesham-united-match-information/",
-      "published": "2026-09-04T14:29:08Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Match Preview | Crewe Alexandra (A) | Saturday 5th September",
-      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/september/04/match-preview---crewe-alexandra--a----saturday-5th-september/",
-      "published": "2026-09-04T14:23:37Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City vs Chesham United – Match Preview",
-      "url": "https://trurocity.co.uk/2026/09/truro-city-vs-chesham-united-match-preview/",
-      "published": "2026-09-04T14:20:09Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Match Preview vs Bedford Town | Paul Oakes",
-      "url": "https://radcliffefc.com/match-preview-vs-bedford-town-paul-oakes/",
-      "published": "2026-09-04T14:19:45Z"
     }
   ]
 }

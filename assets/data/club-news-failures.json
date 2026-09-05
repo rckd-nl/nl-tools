@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-05T19:34:57Z",
+  "generatedAt": "2026-09-05T21:46:17Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -128,7 +128,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Darlington",
@@ -195,6 +195,14 @@
       "error": "Feed returned 0 usable items"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "domain": "daggers.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
+    },
+    {
       "club": "Eastbourne Borough",
       "domain": "eastbourneborough.com",
       "feed": "",
@@ -225,6 +233,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
