@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-06T06:33:14Z",
+  "generatedAt": "2026-09-06T11:25:05Z",
   "maxItems": 100,
   "sources": [
     {
@@ -129,7 +129,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Southend United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -329,7 +329,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Peterborough Sports",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,141 @@
     }
   ],
   "items": [
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Towners start FA cup campaign with a convincing away victory!",
+      "url": "https://etfc.london/towners-start-fa-cup-campaign-with-a-convincing-away-victory/",
+      "published": "2026-09-06T10:10:20Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Match Report: AFC Fylde 2-2 Worthing (H)",
+      "url": "https://afcfylde.co.uk/news/2026/september/06/match-report--afc-fylde-2-2-worthing--h-/",
+      "published": "2026-09-06T09:53:00Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "City in Action – Weymouth (H) – FA Cup 1st Qualifying Round",
+      "url": "https://www.bathcityfc.com/city-in-action-weymouth-h-fa-cup-1st-qualifying-round/",
+      "published": "2026-09-06T09:44:07Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Dagenham and Redbridge",
+      "url": "https://www.horshamfc.co.uk/2026/09/06/match-report-dagenham-and-redbridge/",
+      "published": "2026-09-06T09:24:46Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Shields score in first minute to secure Hednesford Town win",
+      "url": "https://www.southshieldsfc.co.uk/shields-score-in-first-minute-to-secure-hednesford-town-win/",
+      "published": "2026-09-06T09:10:33Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Highlights: Wealdstone 1-4 Harriers",
+      "url": "https://harriers.co.uk/news/2026/09/06/highlights-wealdstone-1-4-harriers",
+      "published": "2026-09-06T09:07:17Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Watch Scott Bartlett’s Wemouth FA Cup post-match interview",
+      "url": "https://www.bathcityfc.com/watch-scott-bartletts-wemouth-fa-cup-post-match-interview/",
+      "published": "2026-09-06T09:06:24Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "GAME OFF: NANTWICH TOWN WOMENS DEV SQUAD VS MACCLESFIELD FC WOMEN",
+      "url": "https://macclesfieldfc.com/latest-news/game-off-nantwich-town-womens-dev-squad-vs-macclesfield-fc-women/",
+      "published": "2026-09-06T09:00:09Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Watch Maidenhead v United LIVE @ Boots & Laces!",
+      "url": "https://torquayunited.com/watch-maidenhead-v-united-live-boots-laces/",
+      "published": "2026-09-06T09:00:00Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "NEWS | HUST to Invest in U18s and Women’s Teams",
+      "url": "https://herefordfc.co.uk/2026/09/news-hust-to-invest-in-u18s-and-womens-teams/",
+      "published": "2026-09-06T08:55:45Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Recap: Wealdstone 1-4 Harriers",
+      "url": "https://harriers.co.uk/news/2026/09/06/recap-wealdstone-1-4-harriers",
+      "published": "2026-09-06T08:54:00Z"
+    },
+    {
+      "club": "King's Lynn Town",
+      "code": "KLT",
+      "short": "King's Lynn",
+      "domain": "kltown.co.uk",
+      "title": "Match Report- Darlington (A)",
+      "url": "https://kltown.co.uk/news/2026/09/06/match-report-darlington-a",
+      "published": "2026-09-06T08:41:45Z"
+    },
+    {
+      "club": "King's Lynn Town",
+      "code": "KLT",
+      "short": "King's Lynn",
+      "domain": "kltown.co.uk",
+      "title": "An update from the Gaffer.",
+      "url": "https://kltown.co.uk/news/2026/09/06/an-update-from-the-gaffer",
+      "published": "2026-09-06T08:04:48Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Tonbridge Angels",
+      "url": "https://maidstoneunited.co.uk/09/06/key-info-tonbridge-angels-3/",
+      "published": "2026-09-06T08:00:48Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "🤝 We go again in the FA Cup | Highlights vs Havant & Waterlooville",
+      "url": "https://chippenhamtown.com/09/06/%f0%9f%a4%9d-we-go-again-in-the-fa-cup-highlights-vs-havant-waterlooville/",
+      "published": "2026-09-06T07:30:10Z"
+    },
     {
       "club": "Torquay United",
       "code": "TOR",
@@ -931,6 +1066,15 @@
       "title": "Report: Hereford 2 Moors 1",
       "url": "https://spennymoortownfc.co.uk/2026/09/05/report-hereford-2-moors-1-2/",
       "published": "2026-09-05T17:37:57Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "26/27 Match Report: Horsham (A)",
+      "url": "https://daggers.co.uk/26-27-match-report-horsham-a/",
+      "published": "2026-09-05T17:33:42Z"
     },
     {
       "club": "Maidstone United",
@@ -1336,150 +1480,6 @@
       "title": "Rose is a Red!",
       "url": "https://worthingfc.com/2026/09/rose-is-a-red/",
       "published": "2026-09-04T19:09:48Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Episode #61 of The Seals Podcast has arrived!",
-      "url": "https://chesterfc.com/09/04/episode-61-of-the-seals-podcast-has-arrived/",
-      "published": "2026-09-04T18:40:48Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Pre-Hebburn Town: Neil Sorvel",
-      "url": "https://chesterfc.com/09/04/pre-hebburn-town-neil-sorvel/",
-      "published": "2026-09-04T18:09:03Z"
-    },
-    {
-      "club": "King's Lynn Town",
-      "code": "KLT",
-      "short": "King's Lynn",
-      "domain": "kltown.co.uk",
-      "title": "Support Kings Lynn Town FC and Be in With a Chance of Winning £25,000 Every Month",
-      "url": "https://kltown.co.uk/news/2026/09/04/support-kings-lynn-town-fc-and-be-in-with-a-chance-of-winning-25-000-every-month",
-      "published": "2026-09-04T18:02:00Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "DAZN and the National League confirm more selections",
-      "url": "https://maidstoneunited.co.uk/09/04/dazn-and-the-national-league-confirm-more-selections/",
-      "published": "2026-09-04T18:00:35Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Fernandes heads to Gosport",
-      "url": "https://farnboroughfc.co.uk/2026/09/fernandes-heads-to-gosport/",
-      "published": "2026-09-04T18:00:15Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Matchday Schedule Vs Salisbury",
-      "url": "https://chelmsfordcityfc.com/news/matchday-schedule-vs-salisbury/",
-      "published": "2026-09-04T18:00:00Z"
-    },
-    {
-      "club": "Chesham United",
-      "code": "CHU",
-      "short": "Chesham",
-      "domain": "cheshamunited.co.uk",
-      "title": "Notes from the Chair – 4th September 2026",
-      "url": "https://cheshamunited.co.uk/2026/09/notes-from-the-chair-4th-september-2026/",
-      "published": "2026-09-04T17:59:03Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Jake Oram Signs For Moors",
-      "url": "https://spennymoortownfc.co.uk/2026/09/04/jake-oram-signs-for-moors/",
-      "published": "2026-09-04T17:58:50Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Shields make the trip to Hednesford",
-      "url": "https://www.southshieldsfc.co.uk/shields-make-the-trip-to-hednesford/",
-      "published": "2026-09-04T17:56:57Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Match Preview | Bedford Town (A)",
-      "url": "https://radcliffefc.com/match-preview-bedford-town-a-2/",
-      "published": "2026-09-04T17:32:57Z"
-    },
-    {
-      "club": "AFC Telford United",
-      "code": "TEL",
-      "short": "Telford",
-      "domain": "telfordunited.com",
-      "title": "Kian Ryley Joins the Bucks on Loan",
-      "url": "https://telfordunited.com/news/2026/09/04/kian-ryley-joins-the-bucks-on-loan",
-      "published": "2026-09-04T17:26:40Z"
-    },
-    {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "Welcome Back, Olly Davis!",
-      "url": "https://etfc.london/welcome-back-olly-davis/",
-      "published": "2026-09-04T17:19:27Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Jordy Hiwula joins Gateshead FC",
-      "url": "https://gateshead-fc.com/jordy-hiwula-joins-gateshead-fc/",
-      "published": "2026-09-04T17:00:56Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Jack Kenny joins Hyde United on loan",
-      "url": "https://chesterfc.com/09/04/jack-kenny-joins-hyde-united-on-loan/",
-      "published": "2026-09-04T17:00:32Z"
-    },
-    {
-      "club": "AFC Telford United",
-      "code": "TEL",
-      "short": "Telford",
-      "domain": "telfordunited.com",
-      "title": "Bucks Agree Terms With Mal Benning",
-      "url": "https://telfordunited.com/news/2026/09/04/bucks-agree-terms-with-mal-benning",
-      "published": "2026-09-04T16:47:19Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Nuffield Health Player of the Month: August Voting Now Open",
-      "url": "https://ytfc.net/2026/09/nuffield-health-player-of-the-month-august-voting-now-open/",
-      "published": "2026-09-04T16:35:37Z"
     }
   ]
 }
