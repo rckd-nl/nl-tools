@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-06T19:33:50Z",
+  "generatedAt": "2026-09-06T21:46:02Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Richards: “I’ve played in goal before, but not at this level!” | Millwall Lionesses Reaction",
+      "url": "https://worthingfc.com/2026/09/richards-ive-played-in-goal-before-but-not-at-this-level-millwall-lionesses-reaction/",
+      "published": "2026-09-06T19:58:56Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -589,6 +598,24 @@
       "title": "Loan Watch: Green nets for FA Cup progression, Oliver makes return for Thornbury",
       "url": "https://wsmafc.co.uk/loan-watch-050926/",
       "published": "2026-09-06T19:30:11Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Preview – Folkestone Invicta",
+      "url": "https://www.horshamfc.co.uk/2026/09/06/match-preview-folkestone-invicta/",
+      "published": "2026-09-06T19:25:46Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Cordon: “Our quality was better, we played with more confidence” | Millwall Lionesses Reaction",
+      "url": "https://worthingfc.com/2026/09/cordon-our-quality-was-better-we-played-with-more-confidence-millwall-lionesses-reaction/",
+      "published": "2026-09-06T19:01:36Z"
     },
     {
       "club": "Chippenham Town",
@@ -769,6 +796,15 @@
       "title": "City in Action – Weymouth (H) – FA Cup 1st Qualifying Round",
       "url": "https://www.bathcityfc.com/city-in-action-weymouth-h-fa-cup-1st-qualifying-round/",
       "published": "2026-09-06T09:44:07Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Report – Dagenham and Redbridge",
+      "url": "https://www.horshamfc.co.uk/2026/09/06/match-report-dagenham-and-redbridge/",
+      "published": "2026-09-06T09:24:46Z"
     },
     {
       "club": "South Shields",
@@ -1444,42 +1480,6 @@
       "title": "TEAM NEWS | Hartlepool United vs Woking",
       "url": "https://www.hartlepoolunited.co.uk/team-news-hartlepool-united-vs-woking/",
       "published": "2026-09-05T12:56:12Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Loan Update from The Optima Stadium",
-      "url": "https://wsmafc.co.uk/loan-update-september-26/",
-      "published": "2026-09-05T12:00:49Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "McMahon-Brown Makes Temporary Switch To The Neuven Stadium",
-      "url": "https://radcliffefc.com/mcmahon-brown-makes-temporary-switch-to-the-neuven-stadium/",
-      "published": "2026-09-05T11:54:55Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Alty TV Highlights | Alty 2 Eastleigh 1",
-      "url": "https://altrinchamfc.com/blogs/news/alty-tv-highlights-alty-2-eastleigh-1",
-      "published": "2026-09-05T11:35:30Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Seagulls Radio available for visit to Maidstone United",
-      "url": "https://wsmafc.co.uk/seagulls-radio-available-for-visit-to-maidstone-united/",
-      "published": "2026-09-05T11:20:08Z"
     }
   ]
 }
