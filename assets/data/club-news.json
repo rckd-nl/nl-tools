@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-05T23:23:29Z",
+  "generatedAt": "2026-09-06T01:23:25Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Highlights: Folkestone Invicta (H)",
+      "url": "https://torquayunited.com/highlights-folkestone-invicta-h/",
+      "published": "2026-09-05T23:55:29Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -598,6 +607,15 @@
       "title": "Match Report: Southend United 3-2 Yeovil Town",
       "url": "https://ytfc.net/2026/09/match-report-southend-united-3-2-yeovil-town/",
       "published": "2026-09-05T22:03:45Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "WATCH: Wotton's Wealdstone verdict",
+      "url": "https://harriers.co.uk/news/2026/09/05/watch-wotton-s-wealdstone-verdict",
+      "published": "2026-09-05T21:26:00Z"
     },
     {
       "club": "Maidstone United",
@@ -1462,24 +1480,6 @@
       "title": "Nuffield Health Player of the Month: August Voting Now Open",
       "url": "https://ytfc.net/2026/09/nuffield-health-player-of-the-month-august-voting-now-open/",
       "published": "2026-09-04T16:35:37Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Harrison Holgate joins Gateshead FC",
-      "url": "https://gateshead-fc.com/harrison-holgate-joins-gateshead-fc/",
-      "published": "2026-09-04T16:30:16Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Hinshelwood: “It’ll be a really good advert for the National League” | AFC Fylde Preview",
-      "url": "https://worthingfc.com/2026/09/hinshelwood-itll-be-a-really-good-advert-for-the-national-league-afc-fylde-preview/",
-      "published": "2026-09-04T16:30:02Z"
     }
   ]
 }
