@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-06T11:25:05Z",
+  "generatedAt": "2026-09-06T14:27:19Z",
   "maxItems": 100,
   "sources": [
     {
@@ -129,7 +129,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Southend United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -329,7 +329,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Peterborough Sports",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,60 @@
   ],
   "items": [
     {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "Sam Heathcote after Merthyr Town defeat",
+      "url": "https://macclesfieldfc.com/latest-news/sam-heathcote-after-merthyr-town-defeat/",
+      "published": "2026-09-06T14:00:50Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Voting open for August Player & Goal of the Month",
+      "url": "https://wsmafc.co.uk/voting-open-for-august-player-goal-of-the-month/",
+      "published": "2026-09-06T14:00:21Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Neil Danns Stands Down.",
+      "url": "https://southportfc.net/neil-danns-stands-down/",
+      "published": "2026-09-06T13:25:38Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Clark delighted with response against Woking",
+      "url": "https://www.hartlepoolunited.co.uk/clark-delighted-with-response-against-woking/",
+      "published": "2026-09-06T13:03:03Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "GALLERY | Hereford FC 2-1 Spennymoor Town",
+      "url": "https://herefordfc.co.uk/2026/09/gallery-hereford-fc-2-1-spennymoor-town/",
+      "published": "2026-09-06T13:02:44Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Gallery | Bradford Park Avenue (H)",
+      "url": "https://curzon-ashton.co.uk/gallery-bradford-park-avenue-h/",
+      "published": "2026-09-06T12:25:00Z"
+    },
+    {
       "club": "Enfield Town",
       "code": "ENF",
       "short": "Enfield",
@@ -607,15 +661,6 @@
       "title": "City in Action – Weymouth (H) – FA Cup 1st Qualifying Round",
       "url": "https://www.bathcityfc.com/city-in-action-weymouth-h-fa-cup-1st-qualifying-round/",
       "published": "2026-09-06T09:44:07Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Report – Dagenham and Redbridge",
-      "url": "https://www.horshamfc.co.uk/2026/09/06/match-report-dagenham-and-redbridge/",
-      "published": "2026-09-06T09:24:46Z"
     },
     {
       "club": "South Shields",
@@ -1435,51 +1480,6 @@
       "title": "Interview: Matt Gray Post-Altrincham Defeat",
       "url": "https://eastleighfc.com/2026/09/interview-matt-gray-post-altrincham-defeat/",
       "published": "2026-09-04T21:36:55Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Report: Altrincham 2-1 Eastleigh",
-      "url": "https://eastleighfc.com/2026/09/report-altrincham-2-1-eastleigh/",
-      "published": "2026-09-04T21:30:22Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Gallery: August in pictures",
-      "url": "https://wsmafc.co.uk/gallery-aug26/",
-      "published": "2026-09-04T20:55:38Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "PROGRAMME | Hereford FC vs Spennymoor Town",
-      "url": "https://herefordfc.co.uk/2026/09/programme-hereford-fc-vs-spennymoor-town-2/",
-      "published": "2026-09-04T19:54:19Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Nuffield Health Goal of the Month: August Voting Now Open",
-      "url": "https://ytfc.net/2026/09/nuffield-health-goal-of-the-month-august-voting-now-open/",
-      "published": "2026-09-04T19:10:32Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Rose is a Red!",
-      "url": "https://worthingfc.com/2026/09/rose-is-a-red/",
-      "published": "2026-09-04T19:09:48Z"
     }
   ]
 }
