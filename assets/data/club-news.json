@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-06T21:46:02Z",
+  "generatedAt": "2026-09-06T23:27:29Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f6c7b225210>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f6c7afb8fd0>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -598,15 +598,6 @@
       "title": "Loan Watch: Green nets for FA Cup progression, Oliver makes return for Thornbury",
       "url": "https://wsmafc.co.uk/loan-watch-050926/",
       "published": "2026-09-06T19:30:11Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Preview – Folkestone Invicta",
-      "url": "https://www.horshamfc.co.uk/2026/09/06/match-preview-folkestone-invicta/",
-      "published": "2026-09-06T19:25:46Z"
     },
     {
       "club": "Worthing",
@@ -771,6 +762,15 @@
       "published": "2026-09-06T12:25:00Z"
     },
     {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Gallery: Havant & Waterlooville",
+      "url": "https://chippenhamtown.com/09/06/havant-waterlooville-5th-september-2026/",
+      "published": "2026-09-06T11:00:21Z"
+    },
+    {
       "club": "Enfield Town",
       "code": "ENF",
       "short": "Enfield",
@@ -796,15 +796,6 @@
       "title": "City in Action – Weymouth (H) – FA Cup 1st Qualifying Round",
       "url": "https://www.bathcityfc.com/city-in-action-weymouth-h-fa-cup-1st-qualifying-round/",
       "published": "2026-09-06T09:44:07Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Report – Dagenham and Redbridge",
-      "url": "https://www.horshamfc.co.uk/2026/09/06/match-report-dagenham-and-redbridge/",
-      "published": "2026-09-06T09:24:46Z"
     },
     {
       "club": "South Shields",
@@ -1480,6 +1471,15 @@
       "title": "TEAM NEWS | Hartlepool United vs Woking",
       "url": "https://www.hartlepoolunited.co.uk/team-news-hartlepool-united-vs-woking/",
       "published": "2026-09-05T12:56:12Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Loan Update from The Optima Stadium",
+      "url": "https://wsmafc.co.uk/loan-update-september-26/",
+      "published": "2026-09-05T12:00:49Z"
     }
   ]
 }
