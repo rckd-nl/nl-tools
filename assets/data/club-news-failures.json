@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-08T20:20:51Z",
+  "generatedAt": "2026-09-08T23:08:32Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -41,6 +41,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 202"
+    },
+    {
+      "club": "Hartlepool United",
+      "domain": "hartlepoolunited.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectionError: HTTPSConnectionPool(host='hartlepoolunited.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='hartlepoolunited.co.uk', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     {
       "club": "Morecambe",
@@ -128,7 +136,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Darlington",
@@ -225,6 +233,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
