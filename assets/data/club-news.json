@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-09T15:20:44Z",
+  "generatedAt": "2026-09-09T18:54:09Z",
   "maxItems": 100,
   "sources": [
     {
@@ -214,10 +214,10 @@
     {
       "club": "Alfreton Town",
       "domain": "alfretontownfootballclub.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 500"
+      "feed": "https://alfretontownfootballclub.com/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Bedford Town",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,105 @@
   ],
   "items": [
     {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Seweryn Streczen wins the August Player of the Month",
+      "url": "https://www.bathcityfc.com/seweryn-streczen-wins-the-august-player-of-the-month/",
+      "published": "2026-09-09T18:51:31Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Highlights | Radcliffe 5-1 Hebburn Town",
+      "url": "https://radcliffefc.com/highlights-radcliffe-5-1-hebburn-town/",
+      "published": "2026-09-09T18:45:44Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Origin People & Culture join Monkey Business",
+      "url": "https://www.hartlepoolunited.co.uk/origin-people-culture-join-monkey-business/",
+      "published": "2026-09-09T17:55:19Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Match Sponsorship, Hospitality & Matchday Experience available for Wimborne match",
+      "url": "https://wsmafc.co.uk/match-sponsorship-hospitality-matchday-experience-available-for-wimborne-match/",
+      "published": "2026-09-09T17:30:09Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "/Alt Angle: Tonbridge Angels (A)",
+      "url": "https://maidstoneunited.co.uk/09/09/alt-angle-tonbridge-angels-a/",
+      "published": "2026-09-09T17:20:49Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SILKMEN FAN CAM: SCARBOROUGH ATHLETIC (H)",
+      "url": "https://macclesfieldfc.com/galleries/silkmen-fan-cam-scarborough-athletic-h-2/",
+      "published": "2026-09-09T17:00:45Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Meet The Chairman: A Q&A With Brad Groves",
+      "url": "https://spennymoortownfc.co.uk/2026/09/09/meet-the-chairman-a-qa-with-brad-groves/",
+      "published": "2026-09-09T16:38:24Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "GALLERY 2 | Harborough Town 0-3 Hereford FC",
+      "url": "https://herefordfc.co.uk/2026/09/gallery-2-harborough-town-0-3-hereford-fc/",
+      "published": "2026-09-09T16:20:46Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "MANCHESTER DERBY IN BAR TWENTY SEVEN",
+      "url": "https://macclesfieldfc.com/latest-news/manchester-derby-in-bar-twenty-seven/",
+      "published": "2026-09-09T16:00:36Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Chairman's Update with Mark Luby",
+      "url": "https://altrinchamfc.com/blogs/news/chairmans-update-with-mark-luby-1",
+      "published": "2026-09-09T15:50:14Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Development Centre Returns for the 2026/27 season",
+      "url": "https://worthingfc.com/2026/09/development-centre-returns-for-the-2026-27-season/",
+      "published": "2026-09-09T15:30:52Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -645,6 +744,15 @@
       "published": "2026-09-09T14:20:08Z"
     },
     {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Ticket Details | Chesterfield (A)",
+      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/september/09/ticket-details---chesterfield--a-/",
+      "published": "2026-09-09T14:14:49Z"
+    },
+    {
       "club": "Dover Athletic",
       "code": "DOV",
       "short": "Dover",
@@ -652,15 +760,6 @@
       "title": "Ticket Information: Dover Athletic v Folkestone Invicta – Emirates FA Cup",
       "url": "https://doverathletic.com/news/ticket-information-dover-athletic-v-folkestone-invicta-emirates-fa-cup/",
       "published": "2026-09-09T14:14:49Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Chairman's Update with Mark Luby",
-      "url": "https://altrinchamfc.com/blogs/news/chairmans-update-with-mark-luby-1",
-      "published": "2026-09-09T14:05:10Z"
     },
     {
       "club": "Macclesfield",
@@ -715,6 +814,15 @@
       "title": "Highlights: Merthyr Town (H)",
       "url": "https://chesterfc.com/09/09/highlights-merthyr-town-h/",
       "published": "2026-09-09T13:19:26Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Folkestone Invicta 1 Horsham 1 – Match report",
+      "url": "https://www.horshamfc.co.uk/2026/09/09/folkestone-invicta-1-horsham-1-match-report/",
+      "published": "2026-09-09T13:19:08Z"
     },
     {
       "club": "Yeovil Town",
@@ -1372,114 +1480,6 @@
       "title": "Keon Lewis-Burgess named as Christophe Duchamp August Player of the Month",
       "url": "https://gateshead-fc.com/keon-lewis-burgess-named-as-christophe-duchamp-august-player-of-the-month/",
       "published": "2026-09-08T15:39:57Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Archie Tamplin has been voted the August Player of the Month!",
-      "url": "https://daggers.co.uk/archie-tamplin-has-been-voted-the-august-player-of-the-month/",
-      "published": "2026-09-08T15:30:00Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "New tunnel artwork installed at the Deva courtesy of Wallpen UK!",
-      "url": "https://chesterfc.com/09/08/new-tunnel-artwork-installed-at-the-deva-courtesy-of-wallpen-uk/",
-      "published": "2026-09-08T15:26:23Z"
-    },
-    {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "Billy Wins August’s Manager of the Month",
-      "url": "https://etfc.london/billy-wins-augusts-manager-of-the-month/",
-      "published": "2026-09-08T15:25:06Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "First Interview: Charlie Waller",
-      "url": "https://worthingfc.com/2026/09/first-interview-charlie-waller/",
-      "published": "2026-09-08T15:17:12Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "COASTERS CONSIDERED FINALISTS FOR FOOTBALL CONTENT AWARDS",
-      "url": "https://afcfylde.co.uk/news/2026/september/08/coasters-considered-finalists-at-football-content-awards/",
-      "published": "2026-09-08T15:11:55Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "LAST TIME AT THE LEASING.COM STADIUM AGAINST SCARBOROUGH",
-      "url": "https://macclesfieldfc.com/latest-news/last-time-at-the-leasing-com-stadium-against-scarborough/",
-      "published": "2026-09-08T15:00:40Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Goalkeeper Douglass Lukjanciks Joins On Loan From Everton",
-      "url": "https://southportfc.net/goalkeeper-douglass-lukjanciks-joins-on-loan-from-everton/",
-      "published": "2026-09-08T15:00:30Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Season Ticket Holder Appreciation Matchday",
-      "url": "https://www.fgr.co.uk/news/season-ticket-holder-appreciation-matchday/",
-      "published": "2026-09-08T15:00:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Kayden Wins ‘Inner London Cleaning’ August Goal Of The Month",
-      "url": "https://daggers.co.uk/kayden-wins-inner-london-cleaning-august-goal-of-the-month/",
-      "published": "2026-09-08T15:00:00Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Waller Arrives on Loan from MK Dons",
-      "url": "https://worthingfc.com/2026/09/waller-arrives-on-loan-from-mk-dons/",
-      "published": "2026-09-08T14:31:46Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Guest Credits now LIVE!",
-      "url": "https://harriers.co.uk/news/2026/09/08/guest-credits-now-live",
-      "published": "2026-09-08T14:00:57Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Seagulls Radio available for visit of AFC Totton",
-      "url": "https://wsmafc.co.uk/seagulls-radio-available-for-visit-of-afc-totton/",
-      "published": "2026-09-08T14:00:36Z"
     }
   ]
 }
