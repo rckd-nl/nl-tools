@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-08T23:08:32Z",
+  "generatedAt": "2026-09-09T01:16:54Z",
   "maxItems": 100,
   "sources": [
     {
@@ -94,10 +94,10 @@
     {
       "club": "Hartlepool United",
       "domain": "hartlepoolunited.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ConnectionError: HTTPSConnectionPool(host='hartlepoolunited.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='hartlepoolunited.co.uk', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "feed": "https://www.hartlepoolunited.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Morecambe",
@@ -582,6 +582,42 @@
   ],
   "items": [
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Highlights: Tonbridge Angels",
+      "url": "https://maidstoneunited.co.uk/09/09/highlights-tonbridge-angels-2/",
+      "published": "2026-09-09T00:46:58Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Match Report | Radcliffe 5-1 Hebburn Town",
+      "url": "https://radcliffefc.com/match-report-radcliffe-5-1-hebburn-town/",
+      "published": "2026-09-09T00:45:23Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Oludare Olufunwa On Debut | Maidenhead United (A)",
+      "url": "https://torquayunited.com/oludare-olufunwa-on-debut-maidenhead-united-a/",
+      "published": "2026-09-08T23:29:31Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Sucker Punch Downs Unlucky Angels",
+      "url": "https://tonbridgeangels.co.uk/sucker-punch-downs-unlucky-angels/",
+      "published": "2026-09-08T23:14:17Z"
+    },
+    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -726,6 +762,15 @@
       "published": "2026-09-08T21:22:06Z"
     },
     {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Hinshelwood: “We want to now turn good performances into wins” | Norwich City U21s Reaction",
+      "url": "https://worthingfc.com/2026/09/hinshelwood-we-want-to-now-turn-good-performances-into-wins-norwich-city-u21s-reaction/",
+      "published": "2026-09-08T21:21:20Z"
+    },
+    {
       "club": "Eastleigh",
       "code": "EAS",
       "short": "Eastleigh",
@@ -780,6 +825,15 @@
       "published": "2026-09-08T20:40:10Z"
     },
     {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "MATCH REPORT | Young Pools suffer narrow defeat in the National League Cup",
+      "url": "https://www.hartlepoolunited.co.uk/match-report-young-pools-suffer-narrow-defeat-in-the-national-league-cup/",
+      "published": "2026-09-08T20:23:28Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -796,6 +850,15 @@
       "title": "Chelmsford City (H) | Marc White’s Pre-Match Interview",
       "url": "https://dwfc.co.uk/2026/09/chelmsford-city-h-marc-whites-pre-match-interview/",
       "published": "2026-09-08T18:19:14Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "TEAM NEWS | Pools team to face the Toffees",
+      "url": "https://www.hartlepoolunited.co.uk/team-news-pools-team-to-face-the-toffees/",
+      "published": "2026-09-08T16:58:49Z"
     },
     {
       "club": "Worthing",
@@ -1320,15 +1383,6 @@
       "published": "2026-09-07T16:30:14Z"
     },
     {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "ACCESS ALL AREAS | AFC Fylde 2-2 Worthing FC",
-      "url": "https://worthingfc.com/2026/09/access-all-areas-afc-fylde-2-2-worthing-fc/",
-      "published": "2026-09-07T16:30:03Z"
-    },
-    {
       "club": "Radcliffe",
       "code": "RAD",
       "short": "Radcliffe",
@@ -1426,60 +1480,6 @@
       "title": "Match Guide- Hednesford Town (H)",
       "url": "https://kltown.co.uk/news/2026/09/07/match-guide-hednesford-town-h",
       "published": "2026-09-07T14:28:28Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Ladies: Southend 4-2 Wormley Rovers",
-      "url": "https://southendunited.co.uk/news/2026/september/07/ladies--southend-4-2-wormley-rovers/",
-      "published": "2026-09-07T14:12:37Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Women’s FA Cup Second Qualifying Round Draw",
-      "url": "https://maidstoneunited.co.uk/09/07/womens-fa-cup-second-qualifying-round-draw/",
-      "published": "2026-09-07T14:00:59Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "BUSINESS NETWORKING EVENT – 15TH SEPTEMBER",
-      "url": "https://macclesfieldfc.com/latest-news/business-networking-event-15th-september/",
-      "published": "2026-09-07T14:00:25Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "The Emirates FA Cup – Second Round Qualifying",
-      "url": "https://farnboroughfc.co.uk/2026/09/the-emirates-fa-cup-second-round-qualifying-5/",
-      "published": "2026-09-07T14:00:22Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Ticket Update | West Stand Gateshead (H)",
-      "url": "https://www.fgr.co.uk/news/ticket-update-west-stand-gateshead/",
-      "published": "2026-09-07T14:00:00Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Gulls Make Double Swoop For Argyle Duo",
-      "url": "https://torquayunited.com/gulls-make-double-swoop-for-argyle-duo/",
-      "published": "2026-09-07T14:00:00Z"
     }
   ]
 }
