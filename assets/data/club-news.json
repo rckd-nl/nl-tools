@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-09T01:16:54Z",
+  "generatedAt": "2026-09-09T06:03:23Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Report: Brad’s brace helps Seagulls to win over Totton",
+      "url": "https://wsmafc.co.uk/report-totton-home-2627/",
+      "published": "2026-09-09T06:00:10Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Highlights: Maidenhead United (A) | 2026-27 National League South",
+      "url": "https://torquayunited.com/highlights-maidenhead-united-a-2026-27-national-league-south/",
+      "published": "2026-09-09T03:15:51Z"
+    },
     {
       "club": "Maidstone United",
       "code": "MSU",
@@ -670,15 +688,6 @@
       "title": "Post-Merthyr Town: Phil Parkinson",
       "url": "https://chesterfc.com/09/08/post-merthyr-town-phil-parkinson/",
       "published": "2026-09-08T22:12:30Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Gallery: WsM AFC 3 – 1 AFC Totton",
-      "url": "https://wsmafc.co.uk/gallery-wsm-afc-3-1-afc-totton/",
-      "published": "2026-09-08T22:10:42Z"
     },
     {
       "club": "Chester",
@@ -814,15 +823,6 @@
       "title": "Cray away in Emirates FA Cup",
       "url": "https://maidstoneunited.co.uk/09/08/cray-away-in-emirates-fa-cup/",
       "published": "2026-09-08T20:45:17Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Report: Brad’s brace helps Seagulls to win over Totton",
-      "url": "https://wsmafc.co.uk/report-brads-brace-helps-seagulls-to-win-over-totton/",
-      "published": "2026-09-08T20:40:10Z"
     },
     {
       "club": "Hartlepool United",
@@ -1093,6 +1093,15 @@
       "title": "Ticket Details: Yeovil (A)",
       "url": "https://afcfylde.co.uk/news/2026/september/08/ticket-details-yeovil-a/",
       "published": "2026-09-08T13:00:00Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham U18 3 Worthing U18 1 – Match report",
+      "url": "https://www.horshamfc.co.uk/2026/09/08/horsham-u18-3-worthing-u18-1-match-report/",
+      "published": "2026-09-08T12:52:56Z"
     },
     {
       "club": "South Shields",
@@ -1455,6 +1464,15 @@
       "published": "2026-09-07T15:15:20Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Hornets draw Swans in FA Cup",
+      "url": "https://www.horshamfc.co.uk/2026/09/07/hornets-draw-swans-in-fa-cup/",
+      "published": "2026-09-07T15:11:29Z"
+    },
+    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -1462,24 +1480,6 @@
       "title": "Preview: Ipswich Town PL2",
       "url": "https://hornchurchfc.com/preview-ipswich-town-pl2/",
       "published": "2026-09-07T14:56:12Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Statistical Review: Southend United 3-2 Yeovil Town",
-      "url": "https://ytfc.net/2026/09/statistical-review-southend-united-3-2-yeovil-town/",
-      "published": "2026-09-07T14:47:06Z"
-    },
-    {
-      "club": "King's Lynn Town",
-      "code": "KLT",
-      "short": "King's Lynn",
-      "domain": "kltown.co.uk",
-      "title": "Match Guide- Hednesford Town (H)",
-      "url": "https://kltown.co.uk/news/2026/09/07/match-guide-hednesford-town-h",
-      "published": "2026-09-07T14:28:28Z"
     }
   ]
 }
