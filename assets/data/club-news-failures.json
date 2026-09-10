@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-10T16:27:09Z",
+  "generatedAt": "2026-09-10T19:19:34Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -89,14 +89,6 @@
       "ok": false,
       "count": 0,
       "error": "SSLError: HTTPSConnectionPool(host='tamworthfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'tamworthfc.co.uk'. (_ssl.c:1016)\")))"
-    },
-    {
-      "club": "Wealdstone",
-      "domain": "wealdstone-fc.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 404"
     },
     {
       "club": "Bedford Town",
