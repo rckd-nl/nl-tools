@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-10T19:19:34Z",
+  "generatedAt": "2026-09-10T21:56:00Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -825,6 +825,15 @@
       "published": "2026-09-10T12:41:52Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Match Preview – Chesham United",
+      "url": "https://www.horshamfc.co.uk/2026/09/10/match-preview-chesham-united-2/",
+      "published": "2026-09-10T12:40:33Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1066,6 +1075,15 @@
       "title": "Loan Watch: Johnson’s Exmouth cause Cup upset, Thompson’s Mangotsfield knocked out",
       "url": "https://wsmafc.co.uk/loan-watch-johnsons-exmouth-cause-cup-upset-thompsons-mangotsfield-knocked-out/",
       "published": "2026-09-09T21:00:23Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Youth teams round-up, 6 September",
+      "url": "https://www.horshamfc.co.uk/2026/09/09/youth-teams-round-up/",
+      "published": "2026-09-09T20:30:26Z"
     },
     {
       "club": "Bath City",
@@ -1338,6 +1356,15 @@
       "published": "2026-09-09T13:19:26Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Folkestone Invicta 1 Horsham 1 – Match report",
+      "url": "https://www.horshamfc.co.uk/2026/09/09/folkestone-invicta-1-horsham-1-match-report/",
+      "published": "2026-09-09T13:19:08Z"
+    },
+    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1453,33 +1480,6 @@
       "title": "Craig Ross on victory against Southampton in the National League Cup",
       "url": "https://wokingfc.co.uk/09/09/craig-ross-on-victory-against-southampton-in-the-national-league-cup/",
       "published": "2026-09-09T10:40:45Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Exclusive Interview: Jody Brown",
-      "url": "https://wokingfc.co.uk/09/09/exclusive-interview-jody-brown/",
-      "published": "2026-09-09T10:37:33Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "HIGHLIGHTS | South Shields FC 2-1 Marine AFC | Enterprise National League North",
-      "url": "https://www.southshieldsfc.co.uk/highlights-south-shields-fc-2-1-marine-afc-enterprise-national-league-north/",
-      "published": "2026-09-09T10:33:54Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "GOALS | South Shields FC 2-1 Marine AFC | Enterprise National League North",
-      "url": "https://www.southshieldsfc.co.uk/goals-south-shields-fc-2-1-marine-afc-enterprise-national-league-north/",
-      "published": "2026-09-09T10:33:50Z"
     }
   ]
 }
