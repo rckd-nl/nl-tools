@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-10T01:30:17Z",
+  "generatedAt": "2026-09-10T06:41:15Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City Unveil Milestone Project",
+      "url": "https://trurocity.co.uk/2026/09/truro-city-unveil-milestone-project/",
+      "published": "2026-09-10T05:58:50Z"
+    },
+    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -598,6 +607,15 @@
       "title": "Loan Watch: Johnson’s Exmouth cause Cup upset, Thompson’s Mangotsfield knocked out",
       "url": "https://wsmafc.co.uk/loan-watch-johnsons-exmouth-cause-cup-upset-thompsons-mangotsfield-knocked-out/",
       "published": "2026-09-09T21:00:23Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Youth teams round-up, 6 September",
+      "url": "https://www.horshamfc.co.uk/2026/09/09/youth-teams-round-up/",
+      "published": "2026-09-09T20:30:26Z"
     },
     {
       "club": "Bath City",
@@ -832,6 +850,15 @@
       "title": "Highlights: Merthyr Town (H)",
       "url": "https://chesterfc.com/09/09/highlights-merthyr-town-h/",
       "published": "2026-09-09T13:19:26Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Folkestone Invicta 1 Horsham 1 – Match report",
+      "url": "https://www.horshamfc.co.uk/2026/09/09/folkestone-invicta-1-horsham-1-match-report/",
+      "published": "2026-09-09T13:19:08Z"
     },
     {
       "club": "Yeovil Town",
@@ -1453,33 +1480,6 @@
       "title": "Chelmsford City (H) | Marc White’s Pre-Match Interview",
       "url": "https://dwfc.co.uk/2026/09/chelmsford-city-h-marc-whites-pre-match-interview/",
       "published": "2026-09-08T18:19:14Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "TEAM NEWS | Pools team to face the Toffees",
-      "url": "https://www.hartlepoolunited.co.uk/team-news-pools-team-to-face-the-toffees/",
-      "published": "2026-09-08T16:58:49Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Match Report: Worthing FC 3-2 Millwall Lionesses",
-      "url": "https://worthingfc.com/2026/09/match-report-worthing-fc-3-2-millwall-lionesses/",
-      "published": "2026-09-08T16:00:31Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "United Youngster Signs On Loan",
-      "url": "https://radcliffefc.com/united-youngster-signs-on-loan/",
-      "published": "2026-09-08T15:54:22Z"
     }
   ]
 }
