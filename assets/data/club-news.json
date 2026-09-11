@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-11T04:40:19Z",
+  "generatedAt": "2026-09-11T09:12:08Z",
   "maxItems": 100,
   "sources": [
     {
@@ -14,10 +14,10 @@
     {
       "club": "Altrincham",
       "domain": "altrinchamfc.com",
-      "feed": "https://altrinchamfc.com/blogs/news.atom",
-      "ok": true,
-      "count": 30,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "club": "Boreham Wood",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,123 @@
     }
   ],
   "items": [
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Young Striker Pens Temporary Move With The Boro",
+      "url": "https://radcliffefc.com/young-striker-pens-temporary-move-with-the-boro/",
+      "published": "2026-09-11T08:54:42Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "AHEAD OF THE GAME: ALTRINCHAM",
+      "url": "https://wokingfc.co.uk/09/11/ahead-of-the-game-altrincham/",
+      "published": "2026-09-11T08:51:32Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "MATCH PREVIEW | Pools travel to Kidderminster",
+      "url": "https://www.hartlepoolunited.co.uk/match-preview-pools-travel-to-kidderminster/",
+      "published": "2026-09-11T08:45:44Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Sheron determined to build momentum at Kidderminster",
+      "url": "https://www.hartlepoolunited.co.uk/sheron-determined-to-build-momentum-at-kidderminster/",
+      "published": "2026-09-11T08:31:05Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Tickets on sale for FA Cup qualifier",
+      "url": "https://maidstoneunited.co.uk/09/11/tickets-on-sale-for-fa-cup-qualifier/",
+      "published": "2026-09-11T08:30:29Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Clark calls for clinical edge at Kidderminster",
+      "url": "https://www.hartlepoolunited.co.uk/clark-calls-for-clinical-edge-at-kidderminster/",
+      "published": "2026-09-11T08:22:27Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Korkers link up with the Stones for another sizzling season",
+      "url": "https://maidstoneunited.co.uk/09/11/korkers-link-up-with-the-stones-for-another-sizzling-season/",
+      "published": "2026-09-11T08:17:56Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Announcing the “Sandgrounders Memory Cafe”",
+      "url": "https://southportfc.net/announcing-the-sandgrounders-memory-cafe/",
+      "published": "2026-09-11T08:01:48Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Next Match – Chippenham Town (H) – Southern League Premier South",
+      "url": "https://www.bathcityfc.com/next-match-chippenham-town-h-southern-league-premier-south/",
+      "published": "2026-09-11T08:00:58Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Highlights: Farnborough 0 Tonbridge Angels 4",
+      "url": "https://farnboroughfc.co.uk/2026/09/highlights-farnborough-0-tonbridge-angels-4/",
+      "published": "2026-09-11T08:00:51Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Highlights | Dorking Wanderers 3-3 Chelmsford City |",
+      "url": "https://chelmsfordcityfc.com/news/highlights-dorking-wanderers-3-3-chelmsford-city/",
+      "published": "2026-09-11T07:49:12Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "John Askey Pre-Walton & Hersham (h)",
+      "url": "https://trurocity.co.uk/2026/09/john-askey-pre-walton-hersham-h/",
+      "published": "2026-09-11T06:57:25Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Preview: FC Halifax Town (A)",
+      "url": "https://hornchurchfc.com/preview-fc-halifax-town-a/",
+      "published": "2026-09-11T06:12:11Z"
+    },
     {
       "club": "Truro City",
       "code": "TRU",
@@ -834,15 +951,6 @@
       "published": "2026-09-10T12:41:52Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Match Preview – Chesham United",
-      "url": "https://www.horshamfc.co.uk/2026/09/10/match-preview-chesham-united-2/",
-      "published": "2026-09-10T12:40:33Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -895,15 +1003,6 @@
       "title": "It's time to bring back the 1996/97 shirts.",
       "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/september/10/it-s-time-to-bring-back-the-home-and-third-shirts/",
       "published": "2026-09-10T11:14:00Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Tickets on sale for FA Cup qualifier",
-      "url": "https://maidstoneunited.co.uk/09/10/tickets-on-sale-for-fa-cup-qualifier/",
-      "published": "2026-09-10T11:00:29Z"
     },
     {
       "club": "Worthing",
@@ -1086,15 +1185,6 @@
       "published": "2026-09-09T21:00:23Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Youth teams round-up, 6 September",
-      "url": "https://www.horshamfc.co.uk/2026/09/09/youth-teams-round-up/",
-      "published": "2026-09-09T20:30:26Z"
-    },
-    {
       "club": "Bath City",
       "code": "BAT",
       "short": "Bath",
@@ -1201,15 +1291,6 @@
       "title": "MANCHESTER DERBY IN BAR TWENTY SEVEN",
       "url": "https://macclesfieldfc.com/latest-news/manchester-derby-in-bar-twenty-seven/",
       "published": "2026-09-09T16:00:36Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Chairman's Update with Mark Luby",
-      "url": "https://altrinchamfc.com/blogs/news/chairmans-update-with-mark-luby-1",
-      "published": "2026-09-09T15:50:14Z"
     },
     {
       "club": "Worthing",
@@ -1365,15 +1446,6 @@
       "published": "2026-09-09T13:19:26Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Folkestone Invicta 1 Horsham 1 – Match report",
-      "url": "https://www.horshamfc.co.uk/2026/09/09/folkestone-invicta-1-horsham-1-match-report/",
-      "published": "2026-09-09T13:19:08Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1408,78 +1480,6 @@
       "title": "Gallery: Havant Replay",
       "url": "https://chippenhamtown.com/09/09/gallery-havant-replay/",
       "published": "2026-09-09T12:00:15Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Our Position On Palestine",
-      "url": "https://www.fgr.co.uk/news/fgr-position-on-palestine/",
-      "published": "2026-09-09T12:00:00Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Wimborne Town to visit the Seagulls on Saturday 19th September",
-      "url": "https://wsmafc.co.uk/wimborne-town-to-visit-the-seagulls-on-saturday-19th-september/",
-      "published": "2026-09-09T11:30:57Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Worthing FC 0-0 (4-5 PENS) Norwich City U21s | Match Highlights",
-      "url": "https://worthingfc.com/2026/09/worthing-fc-0-0-4-5-pens-norwich-city-u21s-match-highlights/",
-      "published": "2026-09-09T11:15:00Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "REACTION | Cox on Opening Bulls Account at Harborough",
-      "url": "https://herefordfc.co.uk/2026/09/reaction-cox-on-opening-bulls-account-at-harborough/",
-      "published": "2026-09-09T11:13:50Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Inside: Forever Yellow — What Do Members Get?",
-      "url": "https://torquayunited.com/inside-forever-yellow-what-do-members-get/",
-      "published": "2026-09-09T11:07:55Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Highlights: Ipswich Town PL2",
-      "url": "https://hornchurchfc.com/highlights-ipswich-town-pl2/",
-      "published": "2026-09-09T11:07:50Z"
-    },
-    {
-      "club": "Wealdstone",
-      "code": "WEA",
-      "short": "Wealdstone",
-      "domain": "wealdstone-fc.com",
-      "title": "REPORT: Wealdstone 6-0 Stoke City U21s",
-      "url": "https://www.wealdstonefc.com/report-wealdstone-6-0-stoke-city-u21s/",
-      "published": "2026-09-09T10:50:50Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Timmy Akinola on his Man of the Match performance against Southampton",
-      "url": "https://wokingfc.co.uk/09/09/timmy-akinola-on-his-man-of-the-match-performance-against-southampton/",
-      "published": "2026-09-09T10:44:29Z"
     }
   ]
 }
