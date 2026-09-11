@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-11T19:52:16Z",
+  "generatedAt": "2026-09-11T22:02:57Z",
   "maxItems": 100,
   "sources": [
     {
@@ -70,10 +70,10 @@
     {
       "club": "FC Halifax Town",
       "domain": "fchalifaxtown.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 503"
+      "feed": "https://fchalifaxtown.com/feed/",
+      "ok": true,
+      "count": 1,
+      "error": ""
     },
     {
       "club": "Forest Green Rovers",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "MATCH REPORT | Defeat at Kidderminster",
+      "url": "https://www.hartlepoolunited.co.uk/match-report-defeat-at-kidderminster/",
+      "published": "2026-09-11T21:46:04Z"
+    },
     {
       "club": "South Shields",
       "code": "SSH",
@@ -780,6 +789,15 @@
       "published": "2026-09-11T15:58:38Z"
     },
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "WATCH: Hartlepool post-match",
+      "url": "https://harriers.co.uk/news/2026/09/11/watch-hartlepool-post-match",
+      "published": "2026-09-11T15:52:33Z"
+    },
+    {
       "club": "King's Lynn Town",
       "code": "KLT",
       "short": "King's Lynn",
@@ -811,7 +829,7 @@
       "code": "TOR",
       "short": "Torquay",
       "domain": "torquayunited.com",
-      "title": "Tomorrow At Plainmoor | Dorking Wanderers",
+      "title": "Match Day At Plainmoor | Dorking Wanderers",
       "url": "https://torquayunited.com/tomorrow-at-plainmoor-dorking-wanderers-2/",
       "published": "2026-09-11T15:13:45Z"
     },
@@ -1462,24 +1480,6 @@
       "title": "Freddie Issaka joins Gateshead FC",
       "url": "https://gateshead-fc.com/freddie-issaka-joins-gateshead-fc/",
       "published": "2026-09-10T16:00:56Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SILKMEN UNVEIL ELECTROSERV AS OFFICIAL WOMEN’S FIRST TEAM SHIRT SPONSOR",
-      "url": "https://macclesfieldfc.com/latest-news/silkmen-unveil-electroserv-as-official-womens-first-team-shirt-sponsor/",
-      "published": "2026-09-10T16:00:55Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Show your colours and celebrate the New Era",
-      "url": "https://www.bathcityfc.com/show-your-colours-and-celebrate-the-new-era/",
-      "published": "2026-09-10T16:00:18Z"
     }
   ]
 }
