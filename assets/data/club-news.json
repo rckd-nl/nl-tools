@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-12T05:06:21Z",
+  "generatedAt": "2026-09-12T09:22:27Z",
   "maxItems": 100,
   "sources": [
     {
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Highlights: Harriers 2-0 Hartlepool United",
+      "url": "https://harriers.co.uk/news/2026/09/12/highlights-harriers-2-0-hartlepool-united",
+      "published": "2026-09-12T09:01:58Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Braintree Town",
+      "url": "https://maidstoneunited.co.uk/09/12/key-info-braintree-town/",
+      "published": "2026-09-12T08:30:55Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Wotton hails squad work-rate",
+      "url": "https://harriers.co.uk/news/2026/09/12/wotton-hails-squad-work-rate",
+      "published": "2026-09-12T08:19:21Z"
+    },
     {
       "club": "Hartlepool United",
       "code": "HAR",
@@ -888,15 +915,6 @@
       "published": "2026-09-11T14:59:38Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "26/27 Match Preview: Weston-super-Mare (A)",
-      "url": "https://daggers.co.uk/26-27-match-preview-weston-super-mare/",
-      "published": "2026-09-11T14:59:05Z"
-    },
-    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -931,15 +949,6 @@
       "title": "NEWS | James and Phillips Agree Contract Extensions",
       "url": "https://herefordfc.co.uk/2026/09/news-james-and-phillips-agree-contract-extensions/",
       "published": "2026-09-11T14:02:51Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Braintree Town",
-      "url": "https://maidstoneunited.co.uk/09/11/key-info-braintree-town/",
-      "published": "2026-09-11T14:00:55Z"
     },
     {
       "club": "Chippenham Town",
@@ -1471,15 +1480,6 @@
       "title": "Injury Update – With Club Sports Therapist Joe Whittaker",
       "url": "https://trurocity.co.uk/2026/09/injury-update-with-club-sports-therapist-joe-whittaker/",
       "published": "2026-09-10T18:55:57Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "DATE SET FOR REDCAR FA CUP CLASH",
-      "url": "https://macclesfieldfc.com/latest-news/date-set-for-redcar-fa-cup-clash/",
-      "published": "2026-09-10T18:00:15Z"
     }
   ]
 }
