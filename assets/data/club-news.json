@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-12T23:27:19Z",
+  "generatedAt": "2026-09-13T01:28:01Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "SSLError: HTTPSConnectionPool(host='worksoptownfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1016)')))"
     },
     {
       "club": "AFC Totton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Highlights: Dorking Wanderers (H)",
+      "url": "https://torquayunited.com/highlights-dorking-wanderers-h-3/",
+      "published": "2026-09-13T00:12:25Z"
+    },
     {
       "club": "Maidstone United",
       "code": "MSU",
@@ -697,6 +706,15 @@
       "title": "Oxford City (H) Post-Match Reaction | Lois Maynard",
       "url": "https://radcliffefc.com/oxford-city-h-post-match-reaction-lois-maynard/",
       "published": "2026-09-12T19:37:04Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "26/27 Match Report: Weston-super-Mare (A)",
+      "url": "https://daggers.co.uk/26-27-match-report-weston-super-mare-a/",
+      "published": "2026-09-12T19:36:46Z"
     },
     {
       "club": "Radcliffe",
@@ -1131,6 +1149,15 @@
       "published": "2026-09-12T12:30:24Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Jet Dyer joins Braintree on Loan",
+      "url": "https://daggers.co.uk/jet-dyer-joins-braintree-on-loan/",
+      "published": "2026-09-12T12:30:00Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1156,6 +1183,15 @@
       "title": "Meet Today’s Community Champion!",
       "url": "https://torquayunited.com/meet-todays-community-champion/",
       "published": "2026-09-12T11:03:05Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Freddie Ingram is a Dagger",
+      "url": "https://daggers.co.uk/freddie-ingram-is-a-dagger/",
+      "published": "2026-09-12T11:00:00Z"
     },
     {
       "club": "Eastleigh",
@@ -1444,42 +1480,6 @@
       "title": "PREVIEW | Hereford FC vs South Shields",
       "url": "https://herefordfc.co.uk/2026/09/preview-hereford-fc-vs-south-shields-2/",
       "published": "2026-09-11T15:58:38Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "WATCH: Hartlepool post-match",
-      "url": "https://harriers.co.uk/news/2026/09/11/watch-hartlepool-post-match",
-      "published": "2026-09-11T15:52:33Z"
-    },
-    {
-      "club": "King's Lynn Town",
-      "code": "KLT",
-      "short": "King's Lynn",
-      "domain": "kltown.co.uk",
-      "title": "Match Preview - Chorley (H)",
-      "url": "https://kltown.co.uk/news/2026/09/11/match-preview-chorley-h",
-      "published": "2026-09-11T15:49:08Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Match Preview: Eastleigh (A)",
-      "url": "https://www.borehamwoodfootballclub.co.uk/match-preview-eastleigh-a-6/",
-      "published": "2026-09-11T15:47:48Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Ruben Butt joins on loan from Salford City!",
-      "url": "https://chesterfc.com/09/11/ruben-butt-joins-on-loan-from-salford-city/",
-      "published": "2026-09-11T15:30:13Z"
     }
   ]
 }
