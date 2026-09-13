@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-13T19:00:27Z",
+  "generatedAt": "2026-09-13T21:28:35Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "MUFC Women Post Match: Carshalton",
+      "url": "https://maidstoneunited.co.uk/09/13/mufc-women-post-match-carshalton/",
+      "published": "2026-09-13T19:03:55Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Loan Watch: Thompson named Mangotsfield MOTM with first goal, Johnson’s Exmouth rise up table",
+      "url": "https://wsmafc.co.uk/loan-watch-120926/",
+      "published": "2026-09-13T19:00:37Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -634,6 +652,15 @@
       "title": "Gallery | Lancaster City (A)",
       "url": "https://curzon-ashton.co.uk/gallery-lancaster-city-a/",
       "published": "2026-09-13T17:34:23Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "UPDATE FROM THE BOARD",
+      "url": "https://www.horshamfc.co.uk/2026/09/13/update-from-the-board/",
+      "published": "2026-09-13T17:00:31Z"
     },
     {
       "club": "Macclesfield",
@@ -859,6 +886,15 @@
       "title": "1899 CLUB | One Day To Go!",
       "url": "https://torquayunited.com/1899-club-one-week-to-go-3/",
       "published": "2026-09-13T10:00:00Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham 1 Chesham United 4 – Match report",
+      "url": "https://www.horshamfc.co.uk/2026/09/13/horsham-1-chesham-united-4-match-report/",
+      "published": "2026-09-13T09:39:25Z"
     },
     {
       "club": "Bath City",
@@ -1356,15 +1392,6 @@
       "published": "2026-09-12T17:18:51Z"
     },
     {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Hot Take: Braintree (A)",
-      "url": "https://maidstoneunited.co.uk/09/12/hot-take-braintree-a/",
-      "published": "2026-09-12T17:16:21Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1453,33 +1480,6 @@
       "title": "REPORT: UNITED 2 – 2 DORKING",
       "url": "https://torquayunited.com/report-united-2-2-dorking-2/",
       "published": "2026-09-12T16:05:18Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Report: Bath 2-0 Chippenham Town",
-      "url": "https://chippenhamtown.com/09/12/report-bath-2-0-chippenham-town/",
-      "published": "2026-09-12T16:03:06Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Alty's winning streak comes to an end at Woking",
-      "url": "https://altrinchamfc.com/blogs/news/woking-away-2627",
-      "published": "2026-09-12T15:56:31Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Hutchinson: “The second half was a completely different game.” | Barrow AFC Reaction",
-      "url": "https://worthingfc.com/2026/09/hutchinson-the-second-half-was-a-completely-different-game-barrow-afc-reaction/",
-      "published": "2026-09-12T15:00:04Z"
     }
   ]
 }
