@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-13T01:28:01Z",
+  "generatedAt": "2026-09-13T06:50:44Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Post Match | Mark After Defeat At Worksop",
+      "url": "https://southportfc.net/post-match-mark-after-defeat-at-worksop/",
+      "published": "2026-09-13T06:17:25Z"
+    },
     {
       "club": "Torquay United",
       "code": "TOR",
@@ -1032,6 +1041,15 @@
       "published": "2026-09-12T16:58:38Z"
     },
     {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "💬 “It’s painful” MIKE WILLIAMSON POST MATCH HEREFORD (A)",
+      "url": "https://www.southshieldsfc.co.uk/%f0%9f%92%ac-its-painful-mike-williamson-post-match-hereford-a/",
+      "published": "2026-09-12T16:50:38Z"
+    },
+    {
       "club": "Radcliffe",
       "code": "RAD",
       "short": "Radcliffe",
@@ -1462,24 +1480,6 @@
       "title": "Jack Stone Joins Eastbourne Borough On Loan",
       "url": "https://southendunited.co.uk/news/2026/september/11/jack-stone-joins-eastbourne-borough-on-loan/",
       "published": "2026-09-11T15:59:39Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Kemall Wilson joins Leatherhead on season-long loan",
-      "url": "https://wokingfc.co.uk/09/11/kemall-wilson-joins-leatherhead-on-season-long-loan/",
-      "published": "2026-09-11T15:58:52Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "PREVIEW | Hereford FC vs South Shields",
-      "url": "https://herefordfc.co.uk/2026/09/preview-hereford-fc-vs-south-shields-2/",
-      "published": "2026-09-11T15:58:38Z"
     }
   ]
 }
