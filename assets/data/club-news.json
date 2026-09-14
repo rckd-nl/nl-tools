@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-14T19:24:25Z",
+  "generatedAt": "2026-09-14T22:47:46Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -296,7 +296,7 @@
       "domain": "leamingtonfc.co.uk",
       "feed": "https://leamingtonfc.co.uk/feed",
       "ok": true,
-      "count": 34,
+      "count": 33,
       "error": ""
     },
     {
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -589,6 +589,15 @@
       "title": "Match Preview | Carlisle (A)",
       "url": "https://www.fgr.co.uk/news/match-preview-carlisle-a-2627/",
       "published": "2026-09-15T09:00:00Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "U18 Fixtures Confirmed for 2026/2027 season",
+      "url": "https://wsmafc.co.uk/u18-fixtures-confirmed-for-2026-2027-season/",
+      "published": "2026-09-14T19:00:50Z"
     },
     {
       "club": "Bath City",
@@ -777,6 +786,15 @@
       "domain": "afcfylde.co.uk",
       "title": "Match Preview: Harrogate Town (A)",
       "url": "https://afcfylde.co.uk/news/2026/september/14/match-preview--harrogate-town-a-/",
+      "published": "2026-09-14T15:00:00Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Daggers Open Day 2026!",
+      "url": "https://daggers.co.uk/daggers-open-day-2026/",
       "published": "2026-09-14T15:00:00Z"
     },
     {
@@ -996,6 +1014,15 @@
       "published": "2026-09-14T11:32:24Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Putting Supporters at the Heart of Our Future",
+      "url": "https://daggers.co.uk/putting-supporters-at-the-heart-of-our-future/",
+      "published": "2026-09-14T11:30:00Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1021,6 +1048,15 @@
       "title": "VACANCIES: CLUB SHOP STAFF",
       "url": "https://afcfylde.co.uk/news/2026/september/14/vacancies--club-shop-staff/",
       "published": "2026-09-14T11:00:00Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Waltham Abbey FA Cup Ticket Information",
+      "url": "https://daggers.co.uk/waltham-abbey-fa-cup-ticket-information/",
+      "published": "2026-09-14T10:44:45Z"
     },
     {
       "club": "Southend United",
@@ -1158,6 +1194,15 @@
       "published": "2026-09-14T07:43:00Z"
     },
     {
+      "club": "Leamington",
+      "code": "LEA",
+      "short": "Leamington",
+      "domain": "leamingtonfc.co.uk",
+      "title": "Match Arrangements: Gainsborough Trinity",
+      "url": "https://leamingtonfc.co.uk/news/2026/09/14/match-arrangements-gainsborough-trinity",
+      "published": "2026-09-14T06:50:00Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -1293,6 +1338,15 @@
       "published": "2026-09-13T17:34:23Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "UPDATE FROM THE BOARD",
+      "url": "https://www.horshamfc.co.uk/2026/09/13/update-from-the-board/",
+      "published": "2026-09-13T17:00:31Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1426,60 +1480,6 @@
       "title": "GALLERY | Hereford FC 6-0 South Shields",
       "url": "https://herefordfc.co.uk/2026/09/gallery-hereford-fc-6-0-south-shields/",
       "published": "2026-09-13T12:45:17Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "Up Next: FA Cup – Dover Athletic vs Folkestone Invicta",
-      "url": "https://doverathletic.com/news/up-next-fa-cup-dover-athletic-vs-folkestone-invicta/",
-      "published": "2026-09-13T12:40:28Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Highlights: Worthing 2-2 Barrow AFC",
-      "url": "https://worthingfc.com/2026/09/highlights-worthing-fc-2-2-barrow-afc/",
-      "published": "2026-09-13T12:26:41Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City vs Walton & Hersham – Match Action",
-      "url": "https://trurocity.co.uk/2026/09/truro-city-vs-walton-hersham-match-action/",
-      "published": "2026-09-13T12:02:32Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City vs Walton & Hersham – Mascot Gallery",
-      "url": "https://trurocity.co.uk/2026/09/truro-city-vs-walton-hersham-mascot-gallery/",
-      "published": "2026-09-13T11:33:58Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Truro City Women’s Parade Gallery",
-      "url": "https://trurocity.co.uk/2026/09/truro-city-womens-parade-gallery/",
-      "published": "2026-09-13T11:25:41Z"
-    },
-    {
-      "club": "Wealdstone",
-      "code": "WEA",
-      "short": "Wealdstone",
-      "domain": "wealdstone-fc.com",
-      "title": "VIDEO REACTION: “We Had To Make Up For Last Weekend” – Baptiste On Boston",
-      "url": "https://www.wealdstonefc.com/on-the-match-dante-baptiste-boston-utd-vs-wealdstone/",
-      "published": "2026-09-13T11:22:52Z"
     }
   ]
 }
