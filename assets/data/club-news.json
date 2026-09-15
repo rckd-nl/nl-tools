@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-15T01:00:38Z",
+  "generatedAt": "2026-09-15T06:11:53Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -1311,15 +1311,6 @@
       "published": "2026-09-13T17:34:23Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "UPDATE FROM THE BOARD",
-      "url": "https://www.horshamfc.co.uk/2026/09/13/update-from-the-board/",
-      "published": "2026-09-13T17:00:31Z"
-    },
-    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -1480,6 +1471,15 @@
       "title": "Truro City vs Walton & Hersham – Match Action",
       "url": "https://trurocity.co.uk/2026/09/truro-city-vs-walton-hersham-match-action/",
       "published": "2026-09-13T12:02:32Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City vs Walton & Hersham – Mascot Gallery",
+      "url": "https://trurocity.co.uk/2026/09/truro-city-vs-walton-hersham-mascot-gallery/",
+      "published": "2026-09-13T11:33:58Z"
     }
   ]
 }
