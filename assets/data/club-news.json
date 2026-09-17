@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-16T22:11:57Z",
+  "generatedAt": "2026-09-17T00:33:46Z",
   "maxItems": 100,
   "sources": [
     {
@@ -366,10 +366,10 @@
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "SSLError: HTTPSConnectionPool(host='southportfc.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))"
     },
     {
       "club": "Spennymoor Town",
@@ -582,6 +582,60 @@
   ],
   "items": [
     {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "U18s Progress in FA Youth Cup After Penalty Shootout",
+      "url": "https://herefordfc.co.uk/2026/09/u18s-report-hereford-fc-2-2-afc-wolverhampton-city/",
+      "published": "2026-09-16T23:26:24Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Gallery | York City 1-3 Newcastle United U21",
+      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/september/16/gallery--york-city-1-3-newcastle-united-u21/",
+      "published": "2026-09-16T23:10:00Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Alty TV Post-Match | Hartlepool Utd",
+      "url": "https://altrinchamfc.com/blogs/news/alty-tv-post-match-hartlepool-utd",
+      "published": "2026-09-16T22:30:34Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "MATCH REPORT | Pools suffer defeat on the road",
+      "url": "https://www.hartlepoolunited.co.uk/match-report-pools-suffer-defeat-on-the-road/",
+      "published": "2026-09-16T22:18:20Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Crawford cracker seals the points as resolute Robins bounce back",
+      "url": "https://altrinchamfc.com/blogs/news/hartlepool-home-2627",
+      "published": "2026-09-16T22:16:39Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Report: Hartpury 1-1 Chippenham Town (1-4p)",
+      "url": "https://chippenhamtown.com/09/16/report-hartpury-1-1-chippenham-town-1-4p/",
+      "published": "2026-09-16T22:00:53Z"
+    },
+    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -600,15 +654,6 @@
       "published": "2026-09-16T21:06:16Z"
     },
     {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Crawford cracker seals the points as resolute Robins bounce back",
-      "url": "https://altrinchamfc.com/blogs/news/hartlepool-home-2627",
-      "published": "2026-09-16T21:01:10Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -616,15 +661,6 @@
       "title": "FA Youth Cup Report: Radcliffe 0-3 Chester",
       "url": "https://chesterfc.com/09/16/fa-youth-cup-report-radcliffe-0-3-chester/",
       "published": "2026-09-16T20:44:24Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "FA Youth Cup Win",
-      "url": "https://southportfc.net/fa-youth-cup-win/",
-      "published": "2026-09-16T20:36:02Z"
     },
     {
       "club": "Bath City",
@@ -1444,42 +1480,6 @@
       "title": "Preview: Sutton United vs Eastleigh",
       "url": "https://eastleighfc.com/2026/09/preview-sutton-united-vs-eastleigh-2/",
       "published": "2026-09-15T11:30:42Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "BDR Group stay connected with the Stones",
-      "url": "https://maidstoneunited.co.uk/09/15/bdr-group-stay-connected-with-the-stones/",
-      "published": "2026-09-15T11:00:34Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Sunday Roasts At Plainmoor",
-      "url": "https://torquayunited.com/sunday-roasts-at-plainmoor/",
-      "published": "2026-09-15T10:56:58Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Technical shirts now available in the club shop",
-      "url": "https://www.southshieldsfc.co.uk/technical-shirts-now-available-in-the-club-shop/",
-      "published": "2026-09-15T09:47:24Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "FA Youth Cup Tonight!",
-      "url": "https://torquayunited.com/fa-youth-cup-details/",
-      "published": "2026-09-15T09:38:59Z"
     }
   ]
 }
