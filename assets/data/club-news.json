@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-17T00:33:46Z",
+  "generatedAt": "2026-09-17T05:27:52Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -681,15 +681,6 @@
       "published": "2026-09-16T19:53:45Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Youth round-up – 4 wins out of 4",
-      "url": "https://www.horshamfc.co.uk/2026/09/16/youth-round-up-4-wins-out-of-4/",
-      "published": "2026-09-16T19:00:58Z"
-    },
-    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -751,15 +742,6 @@
       "title": "Truro City vs Salisbury – Mascot Gallery",
       "url": "https://trurocity.co.uk/2026/09/truro-city-vs-salisbury-mascot-gallery/",
       "published": "2026-09-16T16:00:27Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham U18 2 Met Police U18 2 (Horsham win 5-4 on penalties)",
-      "url": "https://www.horshamfc.co.uk/2026/09/16/horsham-u18-2-met-police-u18-2-horsham-win-5-4-on-penalties/",
-      "published": "2026-09-16T15:58:18Z"
     },
     {
       "club": "Truro City",
@@ -924,6 +906,15 @@
       "published": "2026-09-16T12:56:26Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "CLUB STATEMENT",
+      "url": "https://daggers.co.uk/club-statement-17/",
+      "published": "2026-09-16T12:14:09Z"
+    },
+    {
       "club": "Wealdstone",
       "code": "WEA",
       "short": "Wealdstone",
@@ -985,6 +976,15 @@
       "title": "Rest In Peace, Alan Porter",
       "url": "https://spennymoortownfc.co.uk/2026/09/16/rest-in-peace-alan-porter/",
       "published": "2026-09-16T11:12:57Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "FaST Supporters Coach to Uxbridge",
+      "url": "https://farnboroughfc.co.uk/2026/09/fast-supporters-coach-to-uxbridge/",
+      "published": "2026-09-16T11:00:43Z"
     },
     {
       "club": "Torquay United",
