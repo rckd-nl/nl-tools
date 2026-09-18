@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-17T22:28:29Z",
+  "generatedAt": "2026-09-18T00:49:14Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -598,6 +598,15 @@
       "title": "Preview: Weston v Wimborne Town",
       "url": "https://wsmafc.co.uk/preview-wimborne-town-2627/",
       "published": "2026-09-17T21:05:03Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Walton & Hersham v Horsham – Match preview",
+      "url": "https://www.horshamfc.co.uk/2026/09/17/walton-hersham-v-horsham-match-preview/",
+      "published": "2026-09-17T20:35:20Z"
     },
     {
       "club": "Chippenham Town",
@@ -1095,6 +1104,15 @@
       "published": "2026-09-16T19:53:45Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Youth round-up – 4 wins out of 4",
+      "url": "https://www.horshamfc.co.uk/2026/09/16/youth-round-up-4-wins-out-of-4/",
+      "published": "2026-09-16T19:00:58Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1156,6 +1174,15 @@
       "title": "Truro City vs Salisbury – Mascot Gallery",
       "url": "https://trurocity.co.uk/2026/09/truro-city-vs-salisbury-mascot-gallery/",
       "published": "2026-09-16T16:00:27Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham U18 2 Met Police U18 2 (Horsham win 5-4 on penalties)",
+      "url": "https://www.horshamfc.co.uk/2026/09/16/horsham-u18-2-met-police-u18-2-horsham-win-5-4-on-penalties/",
+      "published": "2026-09-16T15:58:18Z"
     },
     {
       "club": "Truro City",
@@ -1453,33 +1480,6 @@
       "title": "Match Report: Aldershot Town 1-1 Yeovil Town",
       "url": "https://ytfc.net/2026/09/match-report-aldershot-town-1-1-yeovil-town/",
       "published": "2026-09-16T09:47:36Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Chester FC fan Jon honoured with his Own Dedicated Seat for the 2026/27 season",
-      "url": "https://chesterfc.com/09/16/chester-fc-fan-jon-honoured-with-his-own-dedicated-seat-for-the-2026-27-season/",
-      "published": "2026-09-16T09:36:23Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "MATCH REPORT: HARROGATE TOWN 1-2 AFC FYLDE",
-      "url": "https://afcfylde.co.uk/news/2026/september/16/match-report--harrogate-town-1-2-afc-fylde/",
-      "published": "2026-09-16T09:30:00Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Sean Windeatt | The Bryn Consortium",
-      "url": "https://torquayunited.com/sean-windeatt-the-bryn-consortium/",
-      "published": "2026-09-16T09:01:34Z"
     }
   ]
 }
