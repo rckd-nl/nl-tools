@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-18T21:18:56Z",
+  "generatedAt": "2026-09-18T23:23:11Z",
   "maxItems": 100,
   "sources": [
     {
@@ -208,7 +208,7 @@
       "domain": "telfordunited.com",
       "feed": "https://telfordunited.com/feed",
       "ok": true,
-      "count": 50,
+      "count": 26,
       "error": ""
     },
     {
@@ -302,10 +302,10 @@
     {
       "club": "Macclesfield",
       "domain": "macclesfieldfc.com",
-      "feed": "https://macclesfieldfc.com/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "club": "Marine",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Report: Yate Town 0-0 Chippenham Town",
+      "url": "https://chippenhamtown.com/09/18/report-yate-town-0-0-chippenham-town/",
+      "published": "2026-09-18T22:14:49Z"
+    },
+    {
       "club": "Tonbridge Angels",
       "code": "TON",
       "short": "Tonbridge",
@@ -681,6 +690,15 @@
       "published": "2026-09-18T18:00:09Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Wiktor Makowski is a Dagger",
+      "url": "https://daggers.co.uk/wiktor-makowski-is-a-dagger/",
+      "published": "2026-09-18T18:00:00Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -753,6 +771,15 @@
       "published": "2026-09-18T17:00:00Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Remaye Campbell is a Dagger",
+      "url": "https://daggers.co.uk/remaye-campbell-is-a-dagger/",
+      "published": "2026-09-18T17:00:00Z"
+    },
+    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -798,15 +825,6 @@
       "published": "2026-09-18T16:20:18Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "EMERGING TALENT UPDATE",
-      "url": "https://macclesfieldfc.com/latest-news/emerging-talent-update/",
-      "published": "2026-09-18T16:00:29Z"
-    },
-    {
       "club": "Southport",
       "code": "SPT",
       "short": "Southport",
@@ -814,6 +832,15 @@
       "title": "Bradley Roscoe",
       "url": "https://southportfc.net/bradley-roscoe/",
       "published": "2026-09-18T16:00:06Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Stan Leech joins Maidstone on loan",
+      "url": "https://daggers.co.uk/stan-leech-joins-maidstone-on-loan/",
+      "published": "2026-09-18T16:00:00Z"
     },
     {
       "club": "Maidstone United",
@@ -868,15 +895,6 @@
       "title": "“𝗪𝗶𝗺𝗯𝗼𝗿𝗻𝗲 𝗮𝗿𝗲 𝗼𝗻 𝗮 𝗿𝗲𝗮𝗹𝗹𝘆 𝗴𝗼𝗼𝗱 𝗿𝘂𝗻” | Scott Rogers pre – Wimborne Town (H)",
       "url": "https://wsmafc.co.uk/%f0%9d%97%aa%f0%9d%97%b6%f0%9d%97%ba%f0%9d%97%af%f0%9d%97%bc%f0%9d%97%bf%f0%9d%97%bb%f0%9d%97%b2-%f0%9d%97%ae%f0%9d%97%bf%f0%9d%97%b2-%f0%9d%97%bc%f0%9d%97%bb-%f0%9d%97%ae-%f0%9d%97%bf%f0%9d%97%b2/",
       "published": "2026-09-18T15:15:30Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "FLASHBACK: MACCLESFIELD FC 3-0 ATHERTON LR",
-      "url": "https://macclesfieldfc.com/latest-news/flashback-macclesfield-fc-3-0-atherton-lr/",
-      "published": "2026-09-18T15:00:10Z"
     },
     {
       "club": "Maidstone United",
@@ -949,15 +967,6 @@
       "title": "Welcome to Farnborough: Tate Xavier-Jones",
       "url": "https://farnboroughfc.co.uk/2026/09/welcome-to-farnborough-tate-xavier-jones/",
       "published": "2026-09-18T14:00:45Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "John Rooney ahead Redcar Athletic FA Cup clash",
-      "url": "https://macclesfieldfc.com/latest-news/john-rooney-ahead-redcar-athletic-fa-cup-clash/",
-      "published": "2026-09-18T14:00:36Z"
     },
     {
       "club": "AFC Fylde",
@@ -1068,15 +1077,6 @@
       "published": "2026-09-18T13:00:34Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MATCH PREVIEW: REDCAR ATHLETIC (A)",
-      "url": "https://macclesfieldfc.com/latest-news/match-preview-redcar-athletic-a/",
-      "published": "2026-09-18T13:00:10Z"
-    },
-    {
       "club": "Forest Green Rovers",
       "code": "FGR",
       "short": "Forest Green",
@@ -1185,15 +1185,6 @@
       "published": "2026-09-18T12:00:00Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "VACANCY: BAR OPERATIONS SUPERVISOR",
-      "url": "https://macclesfieldfc.com/latest-news/vacancy-bar-operations-supervisor/",
-      "published": "2026-09-18T11:28:42Z"
-    },
-    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -1300,15 +1291,6 @@
       "title": "INFO | Ticket Guide For Stafford Rangers Trip",
       "url": "https://herefordfc.co.uk/2026/09/info-ticket-guide-for-stafford-rangers-trip/",
       "published": "2026-09-18T09:59:03Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "AWAY WE GO: REDCAR ATHLETIC",
-      "url": "https://macclesfieldfc.com/latest-news/away-we-go-redcar-athletic/",
-      "published": "2026-09-18T09:57:11Z"
     },
     {
       "club": "Altrincham",
@@ -1480,6 +1462,24 @@
       "title": "Ticket Information: Harrogate Town (H)",
       "url": "https://www.borehamwoodfootballclub.co.uk/ticket-information-harrogate-town-h/",
       "published": "2026-09-17T17:54:35Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Travel Guide: Hartlepool United (A)",
+      "url": "https://worthingfc.com/2026/09/supporter-information-hartlepool-united/",
+      "published": "2026-09-17T17:35:21Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Bath City Women Bend it Like Beckham as part of Bath Film Festival",
+      "url": "https://www.bathcityfc.com/bath-city-women-bend-it-like-beckham-as-part-of-film-bath-festival/",
+      "published": "2026-09-17T17:32:32Z"
     }
   ]
 }
