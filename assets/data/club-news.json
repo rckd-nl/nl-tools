@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-19T11:35:17Z",
+  "generatedAt": "2026-09-19T14:51:18Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -288,7 +288,7 @@
       "domain": "kltown.co.uk",
       "feed": "https://kltown.co.uk/feed",
       "ok": true,
-      "count": 46,
+      "count": 47,
       "error": ""
     },
     {
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,42 @@
     }
   ],
   "items": [
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Club Statement | Lee Clark",
+      "url": "https://www.hartlepoolunited.co.uk/club-statement-lee-clark/",
+      "published": "2026-09-19T14:29:16Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "MATCH REPORT | Defeat against Worthing",
+      "url": "https://www.hartlepoolunited.co.uk/match-report-defeat-against-worthing/",
+      "published": "2026-09-19T14:11:52Z"
+    },
+    {
+      "club": "King's Lynn Town",
+      "code": "KLT",
+      "short": "King's Lynn",
+      "domain": "kltown.co.uk",
+      "title": "LOAN SIGNING- Jamal Mohammed",
+      "url": "https://kltown.co.uk/news/2026/09/19/loan-signing-jamal-mohammed",
+      "published": "2026-09-19T12:58:36Z"
+    },
+    {
+      "club": "Radcliffe",
+      "code": "RAD",
+      "short": "Radcliffe",
+      "domain": "radcliffefc.com",
+      "title": "Shot-Stopper Signs One-Month Loan With The Boro",
+      "url": "https://radcliffefc.com/shot-stopper-signs-one-month-loan-with-the-boro/",
+      "published": "2026-09-19T12:20:21Z"
+    },
     {
       "club": "Chippenham Town",
       "code": "CHI",
@@ -832,6 +868,15 @@
       "title": "Gates Geely Join as Media Partners",
       "url": "https://etfc.london/gates-geely-join-as-media-partners/",
       "published": "2026-09-18T17:23:09Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Double loan signing ahead of FA Cup tie",
+      "url": "https://www.horshamfc.co.uk/2026/09/18/double-loan-signing-ahead-of-fa-cup-tie/",
+      "published": "2026-09-18T17:13:07Z"
     },
     {
       "club": "Eastleigh",
@@ -1435,51 +1480,6 @@
       "title": "📊 Stat Attack: FA Cup Second Round Qualifying",
       "url": "https://chippenhamtown.com/09/18/%f0%9f%93%8a-stat-attack-fa-cup-second-round-qualifying/",
       "published": "2026-09-18T10:00:54Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "INFO | Ticket Guide For Stafford Rangers Trip",
-      "url": "https://herefordfc.co.uk/2026/09/info-ticket-guide-for-stafford-rangers-trip/",
-      "published": "2026-09-18T09:59:03Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "AWAY WE GO: REDCAR ATHLETIC",
-      "url": "https://macclesfieldfc.com/latest-news/away-we-go-redcar-athletic/",
-      "published": "2026-09-18T09:57:11Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "A tribute to Barry Whitbread",
-      "url": "https://altrinchamfc.com/blogs/news/a-tribute-to-barry-whitbread",
-      "published": "2026-09-18T09:43:19Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Pre-Match: Darren Oldaker Previews Gateshead Fixture",
-      "url": "https://southendunited.co.uk/news/2026/september/18/pre-match--darren-oldaker-previews-gateshead-fixture/",
-      "published": "2026-09-18T09:25:35Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Ash Boatswain called up to Montserrat national team",
-      "url": "https://gateshead-fc.com/ash-boatswain-called-up-to-montserrat-national-team/",
-      "published": "2026-09-18T09:00:33Z"
     }
   ]
 }
