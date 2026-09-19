@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-19T01:40:18Z",
+  "generatedAt": "2026-09-19T06:41:04Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -166,10 +166,10 @@
     {
       "club": "Wealdstone",
       "domain": "wealdstone-fc.com",
-      "feed": "https://www.wealdstonefc.com/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Woking",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "https://www.southshieldsfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -690,6 +690,15 @@
       "published": "2026-09-18T18:00:09Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Wiktor Makowski is a Dagger",
+      "url": "https://daggers.co.uk/wiktor-makowski-is-a-dagger/",
+      "published": "2026-09-18T18:00:00Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -735,15 +744,6 @@
       "published": "2026-09-18T17:05:09Z"
     },
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Mid-September Injury Update",
-      "url": "https://www.southshieldsfc.co.uk/mid-september-injury-update/",
-      "published": "2026-09-18T17:00:45Z"
-    },
-    {
       "club": "King's Lynn Town",
       "code": "KLT",
       "short": "King's Lynn",
@@ -759,6 +759,15 @@
       "domain": "fgr.co.uk",
       "title": "Rijks signs on loan",
       "url": "https://www.fgr.co.uk/news/rijks-signs-on-loan/",
+      "published": "2026-09-18T17:00:00Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Remaye Campbell is a Dagger",
+      "url": "https://daggers.co.uk/remaye-campbell-is-a-dagger/",
       "published": "2026-09-18T17:00:00Z"
     },
     {
@@ -816,13 +825,13 @@
       "published": "2026-09-18T16:00:29Z"
     },
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Bradley Roscoe",
-      "url": "https://southportfc.net/bradley-roscoe/",
-      "published": "2026-09-18T16:00:06Z"
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Stan Leech joins Maidstone on loan",
+      "url": "https://daggers.co.uk/stan-leech-joins-maidstone-on-loan/",
+      "published": "2026-09-18T16:00:00Z"
     },
     {
       "club": "Maidstone United",
@@ -897,15 +906,6 @@
       "published": "2026-09-18T14:50:20Z"
     },
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "SSFC Women host Hebburn Town in first Women’s FA Cup tie",
-      "url": "https://www.southshieldsfc.co.uk/ssfc-women-host-hebburn-town-in-first-womens-fa-cup-tie/",
-      "published": "2026-09-18T14:40:15Z"
-    },
-    {
       "club": "Enfield Town",
       "code": "ENF",
       "short": "Enfield",
@@ -940,15 +940,6 @@
       "title": "Match Preview | Chesterfield (A) | Saturday 5th September",
       "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/september/18/match-preview---chesterfield--a----saturday-5th-september/",
       "published": "2026-09-18T14:05:40Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Fans Forum",
-      "url": "https://southportfc.net/fans-forum/",
-      "published": "2026-09-18T14:04:12Z"
     },
     {
       "club": "Farnborough",
@@ -1014,15 +1005,6 @@
       "published": "2026-09-18T13:36:03Z"
     },
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Home Draw In FA Youth Cup",
-      "url": "https://southportfc.net/home-draw-in-fa-youth-cup/",
-      "published": "2026-09-18T13:35:47Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1066,15 +1048,6 @@
       "title": "Match Preview: Hartlepool United vs Worthing FC",
       "url": "https://worthingfc.com/2026/09/match-preview-hartlepool-united-vs-worthing-fc/",
       "published": "2026-09-18T13:03:46Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Shields enter the FA Cup against Witton Albion",
-      "url": "https://www.southshieldsfc.co.uk/shields-enter-the-fa-cup-against-witton-albion/",
-      "published": "2026-09-18T13:00:34Z"
     },
     {
       "club": "Macclesfield",
@@ -1338,15 +1311,6 @@
       "published": "2026-09-18T09:25:35Z"
     },
     {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Ash Boatswain called up to Montserrat national team",
-      "url": "https://gateshead-fc.com/ash-boatswain-called-up-to-montserrat-national-team/",
-      "published": "2026-09-18T09:00:33Z"
-    },
-    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1399,15 +1363,6 @@
       "title": "Worksop Town (H): Match Preview",
       "url": "https://telfordunited.com/news/2026/09/18/worksop-town-h-match-preview",
       "published": "2026-09-18T07:23:06Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Double Signing Day For Southport",
-      "url": "https://southportfc.net/double-signing-day-for-southport/",
-      "published": "2026-09-18T06:52:40Z"
     },
     {
       "club": "Radcliffe",
@@ -1480,6 +1435,51 @@
       "title": "Avgoustidis Named V&S Player of the Month",
       "url": "https://etfc.london/avgoustidis-named-vs-player-of-the-month/",
       "published": "2026-09-17T18:12:40Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Ticket Information: Harrogate Town (H)",
+      "url": "https://www.borehamwoodfootballclub.co.uk/ticket-information-harrogate-town-h/",
+      "published": "2026-09-17T17:54:35Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Travel Guide: Hartlepool United (A)",
+      "url": "https://worthingfc.com/2026/09/supporter-information-hartlepool-united/",
+      "published": "2026-09-17T17:35:21Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Bath City Women Bend it Like Beckham as part of Bath Film Festival",
+      "url": "https://www.bathcityfc.com/bath-city-women-bend-it-like-beckham-as-part-of-film-bath-festival/",
+      "published": "2026-09-17T17:32:32Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "Ben Jackson departs on loan to Lancaster City",
+      "url": "https://afcfylde.co.uk/news/2026/september/17/ben-jackson-departs-on-loan-to-lancaster-city/",
+      "published": "2026-09-17T17:00:00Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Angels v Rams: FA Cup Preview",
+      "url": "https://tonbridgeangels.co.uk/angels-v-rams-fa-cup-preview/",
+      "published": "2026-09-17T16:55:01Z"
     }
   ]
 }
