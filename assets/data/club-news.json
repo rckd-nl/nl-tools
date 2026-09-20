@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-20T19:46:28Z",
+  "generatedAt": "2026-09-20T21:56:00Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Match at Mendip Broadwalk to be rearranged",
+      "url": "https://wsmafc.co.uk/match-at-mendip-broadwalk-to-be-rearranged/",
+      "published": "2026-09-20T21:20:41Z"
+    },
     {
       "club": "Truro City",
       "code": "TRU",
@@ -679,15 +688,6 @@
       "title": "MUFC Women: Stones suffer FA Cup frustration at Tooting Bec",
       "url": "https://maidstoneunited.co.uk/09/20/mufc-women-stones-suffer-fa-cup-frustration-at-tooting-bec/",
       "published": "2026-09-20T16:11:52Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Newhaven Sussex Senior Cup tie date confirmed",
-      "url": "https://www.horshamfc.co.uk/2026/09/20/newhaven-sussex-senior-cup-tie-date-confirmed/",
-      "published": "2026-09-20T16:09:22Z"
     },
     {
       "club": "Truro City",
@@ -895,15 +895,6 @@
       "title": "FA Youth Cup fixture announcement",
       "url": "https://www.borehamwoodfootballclub.co.uk/fa-youth-cup-fixture-announcement/",
       "published": "2026-09-20T09:00:04Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Walton & Hersham 0 Horsham 3 – Match report",
-      "url": "https://www.horshamfc.co.uk/2026/09/20/walton-hersham-0-horsham-3-match-report/",
-      "published": "2026-09-20T08:50:25Z"
     },
     {
       "club": "Torquay United",
@@ -1480,6 +1471,15 @@
       "title": "Hinshelwood: “There is definitely momentum building amongst the group.” | Hartlepool United Reaction",
       "url": "https://worthingfc.com/2026/09/hinshelwood-there-is-definitely-momentum-building-amongst-the-group-hartlepool-united-reaction/",
       "published": "2026-09-19T14:28:03Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "MATCH REPORT | Defeat against Worthing",
+      "url": "https://www.hartlepoolunited.co.uk/match-report-defeat-against-worthing/",
+      "published": "2026-09-19T14:11:52Z"
     }
   ]
 }
