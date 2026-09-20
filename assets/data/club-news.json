@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-20T14:15:32Z",
+  "generatedAt": "2026-09-20T17:32:22Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -166,10 +166,10 @@
     {
       "club": "Wealdstone",
       "domain": "wealdstone-fc.com",
-      "feed": "https://www.wealdstonefc.com/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Woking",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "https://www.southshieldsfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,132 @@
   ],
   "items": [
     {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Gallery: Hartlepool United 1-3 Worthing FC",
+      "url": "https://worthingfc.com/2026/09/gallery-hartlepool-united-1-3-worthing-fc/",
+      "published": "2026-09-20T17:20:12Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Match Highlights: WsM AFC 1 – 1 Wimborne Town",
+      "url": "https://wsmafc.co.uk/match-highlights-wsm-afc-1-1-wimborne-town/",
+      "published": "2026-09-20T17:15:16Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "REACTION | Richardson Reflects on Stafford Reverse",
+      "url": "https://herefordfc.co.uk/2026/09/reaction-richardson-reflects-on-stafford-reverse/",
+      "published": "2026-09-20T17:11:37Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "FAN CAM: REDCAR ATHLETIC (A)",
+      "url": "https://macclesfieldfc.com/galleries/fan-cam-redcar-athletic-a/",
+      "published": "2026-09-20T17:00:50Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Match Report | Southall FC 2-2 Dorking Wanderers – 20/08/26",
+      "url": "https://dwfc.co.uk/2026/09/match-report-southall-fc-2-2-dorking-wanderers-20-08-26/",
+      "published": "2026-09-20T16:19:52Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "MUFC Women: Stones suffer FA Cup frustration at Tooting Bec",
+      "url": "https://maidstoneunited.co.uk/09/20/mufc-women-stones-suffer-fa-cup-frustration-at-tooting-bec/",
+      "published": "2026-09-20T16:11:52Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Newhaven Sussex Senior Cup tie date confirmed",
+      "url": "https://www.horshamfc.co.uk/2026/09/20/newhaven-sussex-senior-cup-tie-date-confirmed/",
+      "published": "2026-09-20T16:09:22Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "St Buryan 1 Truro City Women 19 – Match Report",
+      "url": "https://trurocity.co.uk/2026/09/st-buryan-1-truro-city-women-19-match-report/",
+      "published": "2026-09-20T16:00:29Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Loan Watch: Johnson assists last-gasp Exmouth equaliser, Taylor keeps FA Cup clean sheet",
+      "url": "https://wsmafc.co.uk/loan-watch-18th-19th-sept26/",
+      "published": "2026-09-20T15:50:23Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Gallery | Chesterfield 2-0 York City",
+      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/september/20/gallery---chesterfield-2-0-york-city/",
+      "published": "2026-09-20T15:34:35Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "City exit Women’s FA Cup with defeat to Bishops Cleeve",
+      "url": "https://www.bathcityfc.com/city-exit-womens-fa-cup-with-defeat-to-bishops-cleeve/",
+      "published": "2026-09-20T15:19:55Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "REPORT: UNITED WOMEN 2 – 3 MAIDENHEAD",
+      "url": "https://torquayunited.com/report-united-women-2-3-maidenhead/",
+      "published": "2026-09-20T15:12:56Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Cray Wanderers replay",
+      "url": "https://maidstoneunited.co.uk/09/20/key-info-cray-wanderers-replay/",
+      "published": "2026-09-20T15:00:13Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "REPORT: REDCAR ATHLETIC 1-2 MACCLESFIELD FC",
+      "url": "https://macclesfieldfc.com/latest-news/report-redcar-athletic-1-2-macclesfield-fc/",
+      "published": "2026-09-20T15:00:12Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -633,7 +759,16 @@
       "domain": "maidstoneunited.co.uk",
       "title": "/Alt Angle: Cray Wanderers",
       "url": "https://maidstoneunited.co.uk/09/20/alt-angle-cray-wanderers/",
-      "published": "2026-09-20T12:46:28Z"
+      "published": "2026-09-20T12:45:28Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Gallery: Cray Wanderers",
+      "url": "https://maidstoneunited.co.uk/09/20/gallery-cray-wanderers/",
+      "published": "2026-09-20T12:00:44Z"
     },
     {
       "club": "Hereford",
@@ -789,15 +924,6 @@
       "published": "2026-09-19T20:51:32Z"
     },
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Next Match | Away Lancashire Challenge Trophy At Garstang Wednesday 7.45",
-      "url": "https://southportfc.net/next-match-away-lancashire-challenge-trophy-at-garstang-wednesday-7-45/",
-      "published": "2026-09-19T20:49:40Z"
-    },
-    {
       "club": "Farnborough",
       "code": "FAB",
       "short": "Farnborough",
@@ -805,24 +931,6 @@
       "title": "Spencer Day Post Uxbridge (A)",
       "url": "https://farnboroughfc.co.uk/2026/09/spencer-day-post-uxbridge-a/",
       "published": "2026-09-19T20:30:33Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "HIGHLIGHTS | South Shields FC 7-0 Witton Albion FC | Emirates FA Cup",
-      "url": "https://www.southshieldsfc.co.uk/highlights-south-shields-fc-7-0-witton-albion-fc-emirates-fa-cup/",
-      "published": "2026-09-19T20:25:04Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "GOALS | South Shields FC 7-0 Witton Albion FC | Emirates FA Cup",
-      "url": "https://www.southshieldsfc.co.uk/goals-south-shields-fc-7-0-witton-albion-fc-emirates-fa-cup/",
-      "published": "2026-09-19T20:25:00Z"
     },
     {
       "club": "Southend United",
@@ -834,24 +942,6 @@
       "published": "2026-09-19T20:23:52Z"
     },
     {
-      "club": "Wealdstone",
-      "code": "WEA",
-      "short": "Wealdstone",
-      "domain": "wealdstone-fc.com",
-      "title": "VIDEO REACTION: “So Frustrating” – Chesters Reflects On Tamworth Defeat",
-      "url": "https://www.wealdstonefc.com/video-reaction-so-frustrating-chesters-reflects-on-tamworth-defeat/",
-      "published": "2026-09-19T20:14:51Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Shields put seven past Witton Albion in FA Cup blitz",
-      "url": "https://www.southshieldsfc.co.uk/shields-put-seven-past-witton-albion-in-fa-cup-blitz/",
-      "published": "2026-09-19T20:14:17Z"
-    },
-    {
       "club": "Enfield Town",
       "code": "ENF",
       "short": "Enfield",
@@ -859,15 +949,6 @@
       "title": "Depleted Town In Cup Dreamland",
       "url": "https://etfc.london/depleted-town-in-cup-dreamland/",
       "published": "2026-09-19T20:05:40Z"
-    },
-    {
-      "club": "Wealdstone",
-      "code": "WEA",
-      "short": "Wealdstone",
-      "domain": "wealdstone-fc.com",
-      "title": "VIDEO REACTION: “Really Difficult To Take” – Waddock Feels For Players & Fans After Late Lambs’ Loss",
-      "url": "https://www.wealdstonefc.com/reaction-really-difficult-to-take-waddock-feels-for-players-fans-after-late-lambs-loss/",
-      "published": "2026-09-19T19:47:37Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -915,15 +996,6 @@
       "published": "2026-09-19T19:00:00Z"
     },
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Post Match With Mark After The FA Cup Exit At Morecambe",
-      "url": "https://southportfc.net/post-match-with-mark-after-the-fa-cup-exit-at-morecambe/",
-      "published": "2026-09-19T18:52:37Z"
-    },
-    {
       "club": "Kidderminster Harriers",
       "code": "KID",
       "short": "Kidderminster",
@@ -940,15 +1012,6 @@
       "title": "Interview: Matt Gray Post-Carlisle Win",
       "url": "https://eastleighfc.com/2026/09/interview-matt-gray-post-carlisle-win/",
       "published": "2026-09-19T18:46:03Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Latest Match | Morecambe 2 Southport 0",
-      "url": "https://southportfc.net/latest-match-morecambe-2-southport-0/",
-      "published": "2026-09-19T18:34:55Z"
     },
     {
       "club": "Forest Green Rovers",
@@ -1131,15 +1194,6 @@
       "published": "2026-09-19T17:15:40Z"
     },
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "💬 “A clinical performance” MIKE WILLIAMSON POST MATCH WITTON ALBION (H)",
-      "url": "https://www.southshieldsfc.co.uk/%f0%9f%92%ac-a-clinical-performance-mike-williamson-post-match-witton-albion-h/",
-      "published": "2026-09-19T17:14:52Z"
-    },
-    {
       "club": "York City",
       "code": "YOR",
       "short": "York",
@@ -1221,15 +1275,6 @@
       "published": "2026-09-19T16:13:46Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Ticket Information – Emirates FA Cup Replay vs Waltham Abbey",
-      "url": "https://daggers.co.uk/ticket-information-emirates-fa-cup-replay-vs-waltham-abbey/",
-      "published": "2026-09-19T16:09:45Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1255,15 +1300,6 @@
       "title": "NEWS | Kandola Nominated for Asian Football Award",
       "url": "https://herefordfc.co.uk/2026/09/news-kandola-nominated-for-asian-football-award/",
       "published": "2026-09-19T15:56:03Z"
-    },
-    {
-      "club": "Wealdstone",
-      "code": "WEA",
-      "short": "Wealdstone",
-      "domain": "wealdstone-fc.com",
-      "title": "MATCH REPORT: Tamworth 2-1 Wealdstone",
-      "url": "https://www.wealdstonefc.com/report-tamworth-2-1-wealdstone/",
-      "published": "2026-09-19T15:30:13Z"
     },
     {
       "club": "Worthing",
@@ -1401,15 +1437,6 @@
       "published": "2026-09-19T07:47:45Z"
     },
     {
-      "club": "Wealdstone",
-      "code": "WEA",
-      "short": "Wealdstone",
-      "domain": "wealdstone-fc.com",
-      "title": "MATCH PREVIEW: Tamworth v Wealdstone",
-      "url": "https://www.wealdstonefc.com/preview-tamworth-v-wealdstone/",
-      "published": "2026-09-19T07:03:22Z"
-    },
-    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -1437,24 +1464,6 @@
       "published": "2026-09-19T07:00:29Z"
     },
     {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Matchday | Away At Morecambe",
-      "url": "https://southportfc.net/matchday-away-at-morecambe/",
-      "published": "2026-09-19T06:45:59Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Supporter Behaviour",
-      "url": "https://southportfc.net/supporter-behaviour/",
-      "published": "2026-09-19T06:37:27Z"
-    },
-    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -1471,15 +1480,6 @@
       "title": "Steve Churcher: Always An Angel",
       "url": "https://tonbridgeangels.co.uk/steve-churcher-always-an-angel/",
       "published": "2026-09-18T21:16:01Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "Downes: “Attitude, Mindset and Mentality Must be Right”",
-      "url": "https://herefordfc.co.uk/2026/09/downes-attitude-mindset-and-mentality-must-be-right/",
-      "published": "2026-09-18T21:15:39Z"
     }
   ]
 }
