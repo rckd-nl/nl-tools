@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-21T20:39:36Z",
+  "generatedAt": "2026-09-21T23:40:50Z",
   "maxItems": 100,
   "sources": [
     {
@@ -70,10 +70,10 @@
     {
       "club": "FC Halifax Town",
       "domain": "fchalifaxtown.com",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 500"
+      "feed": "https://fchalifaxtown.com/feed/",
+      "ok": true,
+      "count": 1,
+      "error": ""
     },
     {
       "club": "Forest Green Rovers",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -897,6 +897,15 @@
       "published": "2026-09-21T12:19:20Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "FA Cup 3rd qualifying round draw – Plymouth Parkway away!",
+      "url": "https://www.horshamfc.co.uk/2026/09/21/fa-cup-3rd-qualifying-round-draw-plymouth-parkway-away/",
+      "published": "2026-09-21T12:18:22Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -985,6 +994,15 @@
       "title": "Gallery: Gateshead (A)",
       "url": "https://southendunited.co.uk/news/2026/september/21/gallery--gateshead--a-/",
       "published": "2026-09-21T11:44:37Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Chelmsford City (A) ticket details",
+      "url": "https://www.horshamfc.co.uk/2026/09/21/chelmsford-city-a-ticket-details/",
+      "published": "2026-09-21T11:33:14Z"
     },
     {
       "club": "Torquay United",
@@ -1329,6 +1347,15 @@
       "published": "2026-09-20T16:11:52Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Newhaven Sussex Senior Cup tie date confirmed",
+      "url": "https://www.horshamfc.co.uk/2026/09/20/newhaven-sussex-senior-cup-tie-date-confirmed/",
+      "published": "2026-09-20T16:09:22Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1453,33 +1480,6 @@
       "title": "Gallery: Cray Wanderers",
       "url": "https://maidstoneunited.co.uk/09/20/gallery-cray-wanderers/",
       "published": "2026-09-20T12:00:44Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Gallery: Kidderminster Harriers (H)",
-      "url": "https://wokingfc.co.uk/09/20/gallery-kidderminster-harriers-h/",
-      "published": "2026-09-20T11:05:42Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "GALLERY | Stafford Rangers 3-2 Hereford FC",
-      "url": "https://herefordfc.co.uk/2026/09/gallery-stafford-rangers-3-2-hereford-fc/",
-      "published": "2026-09-20T10:57:35Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Marine (A) Post-Match Reaction | Finley McAllister",
-      "url": "https://radcliffefc.com/marine-a-post-match-reaction-finley-mcallister/",
-      "published": "2026-09-20T10:40:43Z"
     }
   ]
 }
