@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-23T13:04:15Z",
+  "generatedAt": "2026-09-23T17:54:05Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
+      "feed": "https://daggers.co.uk/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,96 @@
   ],
   "items": [
     {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Havant 0 – 6 United U19s",
+      "url": "https://torquayunited.com/havant-0-6-united-u19s/",
+      "published": "2026-09-23T17:46:52Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Match Report: Worthing FC Women 3-1 Leatherhead",
+      "url": "https://worthingfc.com/2026/09/match-report-worthing-fc-women-3-1-leatherhead/",
+      "published": "2026-09-23T17:03:59Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "TICKET NEWS: SCARBOROUGH ATHLETIC (H)",
+      "url": "https://macclesfieldfc.com/latest-news/ticket-news-scarborough-athletic-h/",
+      "published": "2026-09-23T16:00:24Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Ticket Info: Southport (A)",
+      "url": "https://spennymoortownfc.co.uk/2026/09/23/ticket-info-southport-a/",
+      "published": "2026-09-23T15:37:40Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "FORMER SILKMEN PLAYERS TO PLAY INTERNATIONALLY",
+      "url": "https://macclesfieldfc.com/latest-news/former-silkmen-players-to-play-internationally/",
+      "published": "2026-09-23T15:00:44Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "York City drawn away to Fishburn Park in North Riding Senior Cup Second Round",
+      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/september/23/york-city-drawn-away-to-fishburn-park-in-north-riding-senior-cup-second-round/",
+      "published": "2026-09-23T14:55:00Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Pools half-time penalties are back at the Vic!",
+      "url": "https://www.hartlepoolunited.co.uk/pools-half-time-penalties-are-back-at-the-vic/",
+      "published": "2026-09-23T14:29:37Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Medical Update | 23/09/26",
+      "url": "https://dwfc.co.uk/2026/09/medical-update-23-09-26/",
+      "published": "2026-09-23T14:19:18Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Finley Woodham Joins On Two-Week Loan",
+      "url": "https://southendunited.co.uk/news/2026/september/23/finley-/",
+      "published": "2026-09-23T14:00:00Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Les Phillips Cup Final to take place at Huish Park",
+      "url": "https://ytfc.net/2026/09/les-phillips-cup-final-to-take-place-at-huish-park/",
+      "published": "2026-09-23T13:57:45Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -589,6 +679,15 @@
       "title": "Become a Woodside Flag Bearer",
       "url": "https://worthingfc.com/2026/09/become-a-woodside-flag-bearer/",
       "published": "2026-09-23T13:00:16Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Gallery | York City 1-1 Rotherham United",
+      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/september/23/gallery---york-city-1-1-rotherham-united/",
+      "published": "2026-09-23T12:25:12Z"
     },
     {
       "club": "Truro City",
@@ -690,6 +789,15 @@
       "published": "2026-09-23T09:49:04Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "26/27 Match Report: Waltham Abbey (H)",
+      "url": "https://daggers.co.uk/26-27-match-report-waltham-abbey-h/",
+      "published": "2026-09-23T08:46:51Z"
+    },
+    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -733,15 +841,6 @@
       "title": "Key info: Truro City",
       "url": "https://maidstoneunited.co.uk/09/23/key-info-truro-city/",
       "published": "2026-09-23T07:30:33Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham Women 3 Hassocks Ladies 3 – match report",
-      "url": "https://www.horshamfc.co.uk/2026/09/23/horsham-women-3-hassocks-ladies-3-match-report/",
-      "published": "2026-09-23T07:07:35Z"
     },
     {
       "club": "Chippenham Town",
@@ -967,15 +1066,6 @@
       "title": "Dates confirmed for cup ties in October",
       "url": "https://altrinchamfc.com/blogs/news/dates-confirmed-for-cup-ties-in-october",
       "published": "2026-09-22T14:01:53Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Youth round-up, Sunday 20 September",
-      "url": "https://www.horshamfc.co.uk/2026/09/22/youth-round-up-sunday-20-september/",
-      "published": "2026-09-22T14:00:23Z"
     },
     {
       "club": "Truro City",
@@ -1390,96 +1480,6 @@
       "title": "Supporters Group Coach Travel: Boston United",
       "url": "https://afcfylde.co.uk/news/2026/september/21/supporters-group-coach-travel--boston-united/",
       "published": "2026-09-21T14:30:00Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "HOSPITALITY PACKAGES AVAILABLE FOR CARLISLE UNITED HOME FIXTURE",
-      "url": "https://afcfylde.co.uk/news/2026/september/21/hospitality-packages-available-for-carlisle-united-home-fixture/",
-      "published": "2026-09-21T14:26:23Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "REACTION | Mark Cooper, reacts to advancing to the third round qualifying of the FA Cup.",
-      "url": "https://chelmsfordcityfc.com/news/reaction-mark-cooper-reacts-to-advancing-to-the-third-round-of-the-fa-cup-on-a-draw-with-hampton-richmond/",
-      "published": "2026-09-21T14:24:40Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "The Emirates FA Cup – Third Round Qualifying",
-      "url": "https://farnboroughfc.co.uk/2026/09/the-emirates-fa-cup-third-round-qualifying-4/",
-      "published": "2026-09-21T14:00:58Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SPONSORSHIP AVAILABLE FOR SCARBOROUGH CUP GAME",
-      "url": "https://macclesfieldfc.com/latest-news/sponsorship-available-for-scarborough-cup-game/",
-      "published": "2026-09-21T14:00:55Z"
-    },
-    {
-      "club": "Dover Athletic",
-      "code": "DOV",
-      "short": "Dover",
-      "domain": "doverathletic.com",
-      "title": "FA Cup Third Qualifying Round: Hanwell Town Away",
-      "url": "https://doverathletic.com/news/fa-cup-third-qualifying-round-hanwell-town-away/",
-      "published": "2026-09-21T13:47:27Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Chairman’s notes: Everton U21 (H)",
-      "url": "https://www.borehamwoodfootballclub.co.uk/chairmans-notes-everton-u21-h/",
-      "published": "2026-09-21T13:40:15Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Womens FA Cup | United Away To Keynsham",
-      "url": "https://torquayunited.com/womens-fa-cup-united-away-to-keynsham/",
-      "published": "2026-09-21T13:32:21Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Tickets and Travel | Sutton United (A)",
-      "url": "https://www.fgr.co.uk/news/tickets-and-travel-or-sutton-united-a/",
-      "published": "2026-09-21T13:10:00Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Highlights: Scunthorpe United (H)",
-      "url": "https://hornchurchfc.com/highlights-scunthorpe-united-h/",
-      "published": "2026-09-21T13:06:00Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "TUFC ANNOUNCES CONTINUED PARTNERSHIP WITH WOLLENS",
-      "url": "https://torquayunited.com/torquay-united-fc-announces-continued-partnership-with-wollens-solicitors/",
-      "published": "2026-09-21T13:03:09Z"
     }
   ]
 }
