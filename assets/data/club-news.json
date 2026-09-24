@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-24T04:50:20Z",
+  "generatedAt": "2026-09-24T10:02:56Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,87 @@
     }
   ],
   "items": [
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Club Shop Open this Afternoon",
+      "url": "https://daggers.co.uk/club-shop-open-this-afternoon-51/",
+      "published": "2026-09-24T09:46:41Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Fixture switch: MUFC Women at HOME this Sunday",
+      "url": "https://maidstoneunited.co.uk/09/24/fixture-switch-mufc-women-at-home-this-sunday/",
+      "published": "2026-09-24T09:34:15Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "AHEAD OF THE GAME: CARLISLE UNITED (A)",
+      "url": "https://wokingfc.co.uk/09/24/ahead-of-the-game-carlisle-united-a-2/",
+      "published": "2026-09-24T09:31:20Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "TICKET INFO | Wealdstone (A)",
+      "url": "https://gateshead-fc.com/ticket-info-wealdstone-a/",
+      "published": "2026-09-24T09:24:55Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Young Robins rocked as Halifax mount stunning second-half fightback",
+      "url": "https://altrinchamfc.com/blogs/news/young-robins-rocked-as-halifax-mount-stunning-second-half-fightback",
+      "published": "2026-09-24T09:07:53Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Tom Kelly Joins Retro Gulls Today At 2pm!",
+      "url": "https://torquayunited.com/tom-kelly-joins-retro-gulls-today-at-2pm/",
+      "published": "2026-09-24T09:06:40Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Flexi Tickets available to purchase!",
+      "url": "https://www.southshieldsfc.co.uk/flexi-tickets-available-to-purchase/",
+      "published": "2026-09-24T08:58:19Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "3Active continue partnership.",
+      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/september/24/3active-/",
+      "published": "2026-09-24T08:41:31Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "NEXT MATCH | Home v Spennymoor Saturday 3pm",
+      "url": "https://southportfc.net/next-match-home-v-spennymoor-saturday-3pm/",
+      "published": "2026-09-24T07:53:43Z"
+    },
     {
       "club": "Chippenham Town",
       "code": "CHI",
@@ -933,6 +1014,15 @@
       "published": "2026-09-23T07:30:33Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham Women 3 Hassocks Ladies 3 – match report",
+      "url": "https://www.horshamfc.co.uk/2026/09/23/horsham-women-3-hassocks-ladies-3-match-report/",
+      "published": "2026-09-23T07:07:35Z"
+    },
+    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -1167,6 +1257,15 @@
       "published": "2026-09-22T14:01:53Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Youth round-up, Sunday 20 September",
+      "url": "https://www.horshamfc.co.uk/2026/09/22/youth-round-up-sunday-20-september/",
+      "published": "2026-09-22T14:00:23Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1381,105 +1480,6 @@
       "title": "Torquay ‘An Exciting Draw’ says Dunne",
       "url": "https://tonbridgeangels.co.uk/torquay-an-exciting-draw-says-dunne/",
       "published": "2026-09-21T20:37:29Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Statistical Review: Yeovil Town 4-1 Solihull Moors",
-      "url": "https://ytfc.net/2026/09/statistical-review-yeovil-town-4-1-solihull-moors/",
-      "published": "2026-09-21T19:59:53Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Inside Weston S2 EP6: Vs Wimborne Town (H)",
-      "url": "https://wsmafc.co.uk/inside-weston-s2-ep6-vs-wimborne-town-h/",
-      "published": "2026-09-21T19:45:21Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "FA Cup Third Qualifying Round Draw",
-      "url": "https://trurocity.co.uk/2026/09/fa-cup-third-qualifying-round-draw/",
-      "published": "2026-09-21T19:06:33Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Match Day Guide: Uxbridge (H)",
-      "url": "https://farnboroughfc.co.uk/2026/09/match-day-guide-uxbridge-h/",
-      "published": "2026-09-21T18:00:02Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Cray Wanderers replay",
-      "url": "https://maidstoneunited.co.uk/09/21/key-info-cray-wanderers-replay/",
-      "published": "2026-09-21T17:55:13Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Highlights | Marine 3-2 Radcliffe",
-      "url": "https://radcliffefc.com/highlights-marine-3-2-radcliffe/",
-      "published": "2026-09-21T17:54:38Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Clayton and Liddle to lead first team on interim basis",
-      "url": "https://www.hartlepoolunited.co.uk/clayton-and-liddle-to-lead-first-team-on-interim-basis/",
-      "published": "2026-09-21T16:59:40Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Lewis Richardson signs new contract",
-      "url": "https://www.borehamwoodfootballclub.co.uk/lewis-richardson-signs-new-contract/",
-      "published": "2026-09-21T16:58:12Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Have Your Say: Join the new Altrincham FC Supporters Representative Group (SRG)",
-      "url": "https://altrinchamfc.com/blogs/news/have-your-say-join-the-new-altrincham-fc-supporters-representative-group-srg",
-      "published": "2026-09-21T16:47:00Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MASCOT PACKAGES AVAILABLE FOR HARBOROUGH TOWN GAME",
-      "url": "https://macclesfieldfc.com/latest-news/mascot-packages-available-for-harborough-town-game/",
-      "published": "2026-09-21T16:00:49Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Preview: Wimborne Town v Weston",
-      "url": "https://wsmafc.co.uk/preview-wimborne-town-away-2627/",
-      "published": "2026-09-21T15:45:34Z"
     }
   ]
 }
