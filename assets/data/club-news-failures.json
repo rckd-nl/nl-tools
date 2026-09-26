@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-26T16:48:52Z",
+  "generatedAt": "2026-09-26T20:07:37Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -112,7 +112,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Darlington",
@@ -152,7 +152,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='psfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='psfc.co.uk', port=443) at 0x7f6865e52790>, 'Connection to psfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Scarborough Athletic",
@@ -209,6 +209,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
