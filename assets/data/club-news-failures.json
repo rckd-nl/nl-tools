@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-26T20:07:37Z",
+  "generatedAt": "2026-09-26T22:50:39Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -41,6 +41,14 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 202"
+    },
+    {
+      "club": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Morecambe",
@@ -89,6 +97,14 @@
       "ok": false,
       "count": 0,
       "error": "SSLError: HTTPSConnectionPool(host='tamworthfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'tamworthfc.co.uk'. (_ssl.c:1016)\")))"
+    },
+    {
+      "club": "Wealdstone",
+      "domain": "wealdstone-fc.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Bedford Town",
@@ -152,7 +168,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='psfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='psfc.co.uk', port=443) at 0x7f6865e52790>, 'Connection to psfc.co.uk timed out. (connect timeout=25)'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Scarborough Athletic",
@@ -161,6 +177,22 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
+    },
+    {
+      "club": "Southport",
+      "domain": "southportfc.net",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Worksop Town",
