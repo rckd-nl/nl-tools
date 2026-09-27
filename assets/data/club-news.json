@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-27T01:27:59Z",
+  "generatedAt": "2026-09-27T07:09:41Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Wealdstone",
+      "code": "WEA",
+      "short": "Wealdstone",
+      "domain": "wealdstone-fc.com",
+      "title": "VIDEO REACTION: “That’s Much Better” – Home Win Key, Says Waddock",
+      "url": "https://www.wealdstonefc.com/video-reaction-thats-much-better-home-win-key-for-waddock/",
+      "published": "2026-09-27T06:55:26Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -613,7 +622,7 @@
       "code": "WEA",
       "short": "Wealdstone",
       "domain": "wealdstone-fc.com",
-      "title": "Report: Wealdstone 4-0 Gateshead",
+      "title": "MATCH REPORT: Wealdstone 4-0 Gateshead",
       "url": "https://www.wealdstonefc.com/report-wealdstone-4-0-gateshead/",
       "published": "2026-09-26T22:27:39Z"
     },
@@ -762,6 +771,15 @@
       "published": "2026-09-26T18:56:46Z"
     },
     {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "HIGHLIGHTS | South Shields FC 4-0 Buxton FC | Enterprise National League North",
+      "url": "https://www.southshieldsfc.co.uk/highlights-south-shields-fc-4-0-buxton-fc-enterprise-national-league-north/",
+      "published": "2026-09-26T18:55:50Z"
+    },
+    {
       "club": "Curzon Ashton",
       "code": "CUR",
       "short": "Curzon Ashton",
@@ -769,6 +787,15 @@
       "title": "Harvey Hayhurst Post Match Interview | Stalybridge Celtic (H)",
       "url": "https://curzon-ashton.co.uk/harvey-hayhurst-post-match-interview-stalybridge-celtic-h/",
       "published": "2026-09-26T18:50:14Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "GOALS | South Shields FC 4-0 Buxton FC | Enterprise National League North",
+      "url": "https://www.southshieldsfc.co.uk/goals-south-shields-fc-4-0-buxton-fc-enterprise-national-league-north/",
+      "published": "2026-09-26T18:48:39Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -931,6 +958,15 @@
       "title": "Tate Campbell reflects on Sutton draw",
       "url": "https://www.fgr.co.uk/news/tate-campbell-reflects-sutton-draw/",
       "published": "2026-09-26T17:30:00Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "💬 “Lads were outstanding” MIKE WILLIAMSON POST MATCH BUXTON (H)",
+      "url": "https://www.southshieldsfc.co.uk/%f0%9f%92%ac-lads-were-outstanding-mike-williamson-post-match-buxton-h/",
+      "published": "2026-09-26T17:24:56Z"
     },
     {
       "club": "Hartlepool United",
@@ -1144,7 +1180,7 @@
       "code": "WEA",
       "short": "Wealdstone",
       "domain": "wealdstone-fc.com",
-      "title": "Signed: Carmicheal Uchenna is a Stone!",
+      "title": "SIGNED: Carmicheal Uchenna is a Stone!",
       "url": "https://www.wealdstonefc.com/3435-2/",
       "published": "2026-09-26T12:46:06Z"
     },
@@ -1444,42 +1480,6 @@
       "title": "Matchday Guide: FC Halifax Town (H)",
       "url": "https://worthingfc.com/2026/09/matchday-guide-fc-halifax-town-h/",
       "published": "2026-09-25T15:48:56Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Matchday Guide: Worksop Town (H)",
-      "url": "https://chesterfc.com/09/25/matchday-guide-worksop-town-h-3/",
-      "published": "2026-09-25T15:15:28Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Scunthorpe Fixture Postponed",
-      "url": "https://www.fgr.co.uk/news/scunthorpe-fixture-postponed/",
-      "published": "2026-09-25T15:00:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Ogayi joins Welling on dual registration as Speroni arrives on loan",
-      "url": "https://daggers.co.uk/ogayi-joins-welling-on-dual-registration-as-speroni-arrives-on-loan/",
-      "published": "2026-09-25T15:00:00Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "The Friday Interview",
-      "url": "https://maidstoneunited.co.uk/09/25/the-friday-interview-8/",
-      "published": "2026-09-25T14:52:59Z"
     }
   ]
 }
