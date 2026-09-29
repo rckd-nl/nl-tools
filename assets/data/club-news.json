@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-29T02:21:37Z",
+  "generatedAt": "2026-09-29T09:05:43Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,7 +430,7 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
+      "feed": "https://daggers.co.uk/news/feed/",
       "ok": true,
       "count": 12,
       "error": ""
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,13 +582,49 @@
   ],
   "items": [
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham v Newhaven – match preview",
-      "url": "https://www.horshamfc.co.uk/2026/09/28/horsham-v-newhaven-match-preview-2/",
-      "published": "2026-09-28T21:08:48Z"
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Friendly: Round to The Robins",
+      "url": "https://farnboroughfc.co.uk/2026/09/friendly-boro-to-play-robins/",
+      "published": "2026-09-29T09:00:34Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Hamways to sponsor tonight’s match against Kidderminster Harriers",
+      "url": "https://www.borehamwoodfootballclub.co.uk/hamways-to-sponsor-tonights-match-against-kidderminster-harriers/",
+      "published": "2026-09-29T08:00:15Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "MUFC Women – Highlight: Sport London Benfica",
+      "url": "https://maidstoneunited.co.uk/09/29/mufc-women-highlight-sport-london-benfica/",
+      "published": "2026-09-29T07:25:55Z"
+    },
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Up Next: Hanwell Town vs Dover Athletic",
+      "url": "https://doverathletic.com/news/up-next-hanwell-town-vs-dover-athletic/",
+      "published": "2026-09-29T07:06:46Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Match Report: Worthing FC Women 2-1 Hammersmith",
+      "url": "https://worthingfc.com/2026/09/match-report-worthing-fc-women-2-1-hammersmith/",
+      "published": "2026-09-29T06:27:54Z"
     },
     {
       "club": "Wealdstone",
@@ -742,15 +778,6 @@
       "title": "Braintree Town (H) | Marc White’s Post Match Interview",
       "url": "https://dwfc.co.uk/2026/09/braintree-town-h-marc-whites-post-match-interview/",
       "published": "2026-09-28T15:48:05Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham Women 1 TD Shipley Ladies 2 – match report",
-      "url": "https://www.horshamfc.co.uk/2026/09/28/horsham-women-1-td-shipley-ladies-2-match-report/",
-      "published": "2026-09-28T15:31:15Z"
     },
     {
       "club": "Maidstone United",
@@ -1297,7 +1324,7 @@
       "code": "SPT",
       "short": "Southport",
       "domain": "southportfc.net",
-      "title": "Youth Cup Action On Wednesday",
+      "title": "Youth Cup Action On Wednesday-Tickets Now On Sale Online",
       "url": "https://southportfc.net/youth-cup-action-on-wednesday/",
       "published": "2026-09-27T14:21:16Z"
     },
@@ -1446,15 +1473,6 @@
       "published": "2026-09-27T09:50:10Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Chelmsford City v Horsham – Match report",
-      "url": "https://www.horshamfc.co.uk/2026/09/27/chelmsford-city-v-horsham-match-report/",
-      "published": "2026-09-27T09:03:25Z"
-    },
-    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -1462,24 +1480,6 @@
       "title": "Post-Worksop Town: Phil Parkinson",
       "url": "https://chesterfc.com/09/27/post-worksop-town-phil-parkinson/",
       "published": "2026-09-27T08:49:50Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Memory Cafe Starts Tuesday 12 Noon",
-      "url": "https://southportfc.net/memory-cafe-starts-tuesday-12-noon/",
-      "published": "2026-09-27T08:30:23Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Sport London E Benfica",
-      "url": "https://maidstoneunited.co.uk/09/27/key-info-sport-london-e-benfica/",
-      "published": "2026-09-27T08:00:54Z"
     }
   ]
 }
