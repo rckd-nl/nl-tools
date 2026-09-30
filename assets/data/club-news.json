@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-09-29T20:49:03Z",
+  "generatedAt": "2026-09-30T00:29:01Z",
   "maxItems": 100,
   "sources": [
     {
@@ -80,7 +80,7 @@
       "domain": "fgr.co.uk",
       "feed": "https://www.fgr.co.uk/news-rss.xml",
       "ok": true,
-      "count": 3927,
+      "count": 3928,
       "error": ""
     },
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -296,7 +296,7 @@
       "domain": "leamingtonfc.co.uk",
       "feed": "https://leamingtonfc.co.uk/feed",
       "ok": true,
-      "count": 33,
+      "count": 34,
       "error": ""
     },
     {
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,114 @@
     }
   ],
   "items": [
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Pools narrowly beaten despite dominant performance",
+      "url": "https://www.hartlepoolunited.co.uk/pools-narrowly-beaten-despite-dominant-performance/",
+      "published": "2026-09-29T22:57:49Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Bartlett sees red as City come out on top in eventful Malvern game",
+      "url": "https://www.bathcityfc.com/bartlett-sees-red-but-city-come-out-on-top-in-eventful-malvern-game/",
+      "published": "2026-09-29T22:17:01Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Jake Hyde on defeat against Solihull Moors",
+      "url": "https://wokingfc.co.uk/09/29/jake-hyde-on-defeat-against-solihull-moors/",
+      "published": "2026-09-29T22:11:09Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Watch: Paul Wotton after Boreham Wood",
+      "url": "https://harriers.co.uk/news/2026/09/29/watch-paul-wotton-after-boreham-wood",
+      "published": "2026-09-29T21:58:00Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Match Report: Yeovil Town 1-1 Worthing",
+      "url": "https://ytfc.net/2026/09/match-report-yeovil-town-1-1-worthing/",
+      "published": "2026-09-29T21:51:33Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Match Report: Yeovil Town 1-1 Worthing FC",
+      "url": "https://worthingfc.com/2026/09/match-report-yeovil-town-1-1-worthing-fc/",
+      "published": "2026-09-29T21:46:12Z"
+    },
+    {
+      "club": "Forest Green Rovers",
+      "code": "FGR",
+      "short": "Forest Green",
+      "domain": "fgr.co.uk",
+      "title": "Jonathan Gould Post Wealdstone",
+      "url": "https://www.fgr.co.uk/news/jonathan-gould-post-wealdstone/",
+      "published": "2026-09-29T21:30:00Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Hinshelwood: “We want to keep on building and improving” | Yeovil Town Reaction",
+      "url": "https://worthingfc.com/2026/09/hinshelwood-we-want-to-keep-on-building-and-improving-yeovil-town-reaction/",
+      "published": "2026-09-29T21:19:40Z"
+    },
+    {
+      "club": "Leamington",
+      "code": "LEA",
+      "short": "Leamington",
+      "domain": "leamingtonfc.co.uk",
+      "title": "Battling Brakes halt Rouslers winning streak",
+      "url": "https://leamingtonfc.co.uk/news/2026/09/29/battling-brakes-halt-rouslers-winning-streak",
+      "published": "2026-09-29T21:15:44Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Jimmy's gem seals it as in-form Alty make it seven wins out of eight and climb into top three!",
+      "url": "https://altrinchamfc.com/blogs/news/gateshead-away-2026-27",
+      "published": "2026-09-29T21:09:42Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Recap: Boreham Wood 3-1 Harriers",
+      "url": "https://harriers.co.uk/news/2026/09/29/recap-boreham-wood-3-1-harriers",
+      "published": "2026-09-29T21:07:00Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Report: Evesham 2-0 Chippenham Town",
+      "url": "https://chippenhamtown.com/09/29/report-evesham-2-0-chippenham-town/",
+      "published": "2026-09-29T21:00:12Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -679,6 +787,15 @@
       "title": "Pre-Match: Lewys Twamley Discusses Eastleigh Trip",
       "url": "https://southendunited.co.uk/news/2026/september/29/pre-match--lewys-twamley-/",
       "published": "2026-09-29T16:38:10Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Tonbridge U18 3 Horsham U18 3 (Tonbridge win 4-1 on penalties)",
+      "url": "https://www.horshamfc.co.uk/2026/09/29/tonbridge-u18-3-horsham-u18-3-tonbridge-win-4-1-on-penalties/",
+      "published": "2026-09-29T16:05:27Z"
     },
     {
       "club": "Southend United",
@@ -825,15 +942,6 @@
       "published": "2026-09-29T12:08:00Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Vote for your September ‘Inner London Cleaning’ GOTM",
-      "url": "https://daggers.co.uk/vote-for-your-september-inner-london-cleaning-gotm/",
-      "published": "2026-09-29T11:41:57Z"
-    },
-    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -850,15 +958,6 @@
       "title": "MATCH PREVIEW | Hartlepool United vs Harrogate Town",
       "url": "https://www.hartlepoolunited.co.uk/match-preview-hartlepool-united-vs-harrogate-town/",
       "published": "2026-09-29T11:26:30Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Vote for your September Player of the Month!",
-      "url": "https://daggers.co.uk/vote-for-your-september-player-of-the-month-2/",
-      "published": "2026-09-29T11:06:52Z"
     },
     {
       "club": "Chippenham Town",
@@ -987,15 +1086,6 @@
       "published": "2026-09-29T08:25:02Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "LIVE GAMES AT VICTORIA ROAD",
-      "url": "https://daggers.co.uk/live-games-at-victoria-road/",
-      "published": "2026-09-29T08:22:23Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1039,6 +1129,15 @@
       "title": "Match Report: Worthing FC Women 2-1 Hammersmith",
       "url": "https://worthingfc.com/2026/09/match-report-worthing-fc-women-2-1-hammersmith/",
       "published": "2026-09-29T06:27:54Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham v Newhaven – match preview",
+      "url": "https://www.horshamfc.co.uk/2026/09/28/horsham-v-newhaven-match-preview-2/",
+      "published": "2026-09-28T21:08:48Z"
     },
     {
       "club": "Wealdstone",
@@ -1192,6 +1291,15 @@
       "title": "Braintree Town (H) | Marc White’s Post Match Interview",
       "url": "https://dwfc.co.uk/2026/09/braintree-town-h-marc-whites-post-match-interview/",
       "published": "2026-09-28T15:48:05Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham Women 1 TD Shipley Ladies 2 – match report",
+      "url": "https://www.horshamfc.co.uk/2026/09/28/horsham-women-1-td-shipley-ladies-2-match-report/",
+      "published": "2026-09-28T15:31:15Z"
     },
     {
       "club": "Maidstone United",
@@ -1372,114 +1480,6 @@
       "title": "ACTION REPLAY: HARBOROUGH TOWN",
       "url": "https://macclesfieldfc.com/galleries/action-replay-harborough-town/",
       "published": "2026-09-28T11:00:53Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Week Three Review – Bluebirds Pontoon",
-      "url": "https://chippenhamtown.com/09/28/week-three-review-bluebirds-pontoon/",
-      "published": "2026-09-28T11:00:50Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Club Statement: Seeking Sale or Investment",
-      "url": "https://farnboroughfc.co.uk/2026/09/club-statement-seeking-sale-or-investment/",
-      "published": "2026-09-28T11:00:46Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Supporter Information: Torquay United",
-      "url": "https://tonbridgeangels.co.uk/supporter-information-torquay-united/",
-      "published": "2026-09-28T10:41:54Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Academy Bulletin: ’26/27 Season: Week Eight",
-      "url": "https://wokingfc.co.uk/09/28/academy-bulletin-26-27-season-week-eight/",
-      "published": "2026-09-28T10:33:18Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Report: Altrincham (A)",
-      "url": "https://hornchurchfc.com/report-altrincham-a/",
-      "published": "2026-09-28T10:32:35Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Have your say: Fan Survey",
-      "url": "https://southendunited.co.uk/news/2026/september/28/have-your-say--fan-temperature-check/",
-      "published": "2026-09-28T10:17:19Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Match-Worn Yellow Shirts Auction Now Live",
-      "url": "https://daggers.co.uk/match-worn-yellow-shirts-auction-now-live/",
-      "published": "2026-09-28T09:47:16Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Gallery | York City 3-0 Gillingham",
-      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/september/28/gallery---york-city-3-0-gillingham/",
-      "published": "2026-09-28T09:36:00Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Monday: Aggborough hosts U18s",
-      "url": "https://harriers.co.uk/news/2026/09/28/monday-aggborough-hosts-u18s",
-      "published": "2026-09-28T09:20:35Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Brentwood Town Ticket Information",
-      "url": "https://daggers.co.uk/brentwood-town-ticket-information/",
-      "published": "2026-09-28T09:17:15Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "MATCH REPORT: CHORLEY WOMEN 0-4 AFC FYLDE WOMEN",
-      "url": "https://afcfylde.co.uk/news/2026/september/28/match-report--/",
-      "published": "2026-09-28T09:00:00Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "MATCH GALLERY: BOSTON UNITED (A)",
-      "url": "https://afcfylde.co.uk/news/2026/september/28/match-gallery--Boston-United--h-/",
-      "published": "2026-09-28T09:00:00Z"
     }
   ]
 }
