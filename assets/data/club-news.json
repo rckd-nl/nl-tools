@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-01T07:54:07Z",
+  "generatedAt": "2026-10-01T15:29:12Z",
   "maxItems": 100,
   "sources": [
     {
@@ -129,7 +129,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "club": "Southend United",
@@ -208,7 +208,7 @@
       "domain": "telfordunited.com",
       "feed": "https://telfordunited.com/feed",
       "ok": true,
-      "count": 28,
+      "count": 29,
       "error": ""
     },
     {
@@ -296,7 +296,7 @@
       "domain": "leamingtonfc.co.uk",
       "feed": "https://leamingtonfc.co.uk/feed",
       "ok": true,
-      "count": 33,
+      "count": 31,
       "error": ""
     },
     {
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/news/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,312 @@
     }
   ],
   "items": [
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Jimmy Ball | Tonbridge Angels (A) | FA Cup | Press Call",
+      "url": "https://torquayunited.com/jimmy-ball-tonbridge-angels-a-fa-cup-press-call/",
+      "published": "2026-10-01T15:20:44Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Alan Taylor",
+      "url": "https://farnboroughfc.co.uk/2026/10/alan-taylor/",
+      "published": "2026-10-01T15:00:29Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "LIVE IN BAR TWENTY SEVEN THIS WEEKEND",
+      "url": "https://macclesfieldfc.com/latest-news/live-in-bar-twenty-seven-this-weekend-2/",
+      "published": "2026-10-01T15:00:06Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Match Preview | Chatham Town (H) FA CUP| 03/10/26",
+      "url": "https://dwfc.co.uk/2026/10/match-preview-chatham-town-h-fa-cup-03-10-26/",
+      "published": "2026-10-01T14:54:19Z"
+    },
+    {
+      "club": "AFC Telford United",
+      "code": "TEL",
+      "short": "Telford",
+      "domain": "telfordunited.com",
+      "title": "Fans Forum - Tuesday 6th October",
+      "url": "https://telfordunited.com/news/2026/10/01/fans-forum-tuesday-6th-october",
+      "published": "2026-10-01T14:52:29Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Ticket Information: Altrincham (H)",
+      "url": "https://www.borehamwoodfootballclub.co.uk/ticket-information-altrincham-h/",
+      "published": "2026-10-01T14:23:26Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Watch: Wotton's Sutton pre-match",
+      "url": "https://harriers.co.uk/news/2026/10/01/watch-wotton-s-sutton-pre-match",
+      "published": "2026-10-01T14:12:49Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "200 Club results",
+      "url": "https://www.horshamfc.co.uk/2026/10/01/200-club-results/",
+      "published": "2026-10-01T14:07:09Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Worthing Football Club Granted Freedom of the Borough",
+      "url": "https://worthingfc.com/2026/10/worthing-football-club-granted-freedom-of-the-borough/",
+      "published": "2026-10-01T13:58:43Z"
+    },
+    {
+      "club": "Dover Athletic",
+      "code": "DOV",
+      "short": "Dover",
+      "domain": "doverathletic.com",
+      "title": "Free Canterbury shuttle to Dover Athletic home matches",
+      "url": "https://doverathletic.com/news/free-canterbury-shuttle-to-dover-athletic-home-matches/",
+      "published": "2026-10-01T13:43:22Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "James Walker",
+      "url": "https://southendunited.co.uk/news/2026/october/01/james-walker/",
+      "published": "2026-10-01T13:22:29Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Vote for Bath City FC Player of the Month sponsored by Flan O’Briens",
+      "url": "https://www.bathcityfc.com/vote-for-bath-city-fc-player-of-the-month-sponsored-by-flan-obriens/",
+      "published": "2026-10-01T12:59:39Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City Podcast – Episode 9",
+      "url": "https://trurocity.co.uk/2026/10/truro-city-podcast-episode-9/",
+      "published": "2026-10-01T12:44:38Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "U18s REPORT | Hereford FC 4-2 Stourport Swifts",
+      "url": "https://herefordfc.co.uk/2026/10/u18s-report-hereford-fc-4-2-stourport-swifts/",
+      "published": "2026-10-01T12:14:32Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Lucas Rock-rigues!",
+      "url": "https://www.horshamfc.co.uk/2026/10/01/rock-rigues/",
+      "published": "2026-10-01T12:12:06Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "FLASHBACK – MACCLESFIELD FC 6-1 WITTON ALBION",
+      "url": "https://macclesfieldfc.com/latest-news/flashback-macclesfield-fc-6-1-witton-albion/",
+      "published": "2026-10-01T12:00:54Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Report: Chippenham 3-2 Bath City FA Youth Cup",
+      "url": "https://chippenhamtown.com/10/01/report-chippenham-3-2-bath-city-fa-youth-cup/",
+      "published": "2026-10-01T12:00:46Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Highlights: Aldershot Town (H)",
+      "url": "https://hornchurchfc.com/highlights-aldershot-town-h/",
+      "published": "2026-10-01T11:56:48Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Match Preview: Jason Brookes ahead of Dorchester (A)",
+      "url": "https://eastleighfc.com/2026/10/match-preview-jason-brookes-ahead-of-dorchester-a/",
+      "published": "2026-10-01T11:33:27Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "The Cup Games Keep Coming for United Women",
+      "url": "https://torquayunited.com/the-cup-games-keep-coming-for-united-women/",
+      "published": "2026-10-01T11:30:54Z"
+    },
+    {
+      "club": "Wealdstone",
+      "code": "WEA",
+      "short": "Wealdstone",
+      "domain": "wealdstone-fc.com",
+      "title": "FOUNDATION: Help Our ‘Maths In Schools’ Project Reach A Tidy Sum!",
+      "url": "https://www.wealdstonefc.com/foundation-help-our-maths-in-schools-project-reach-a-tidy-sum/",
+      "published": "2026-10-01T11:22:35Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Dulwich Hamlet Women Reserves",
+      "url": "https://maidstoneunited.co.uk/10/01/key-info-dulwich-hamlet-women-reserves/",
+      "published": "2026-10-01T10:30:22Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Young Gulls In FA Youth Cup Action Tonight",
+      "url": "https://torquayunited.com/young-gulls-in-fa-youth-cup-action-tonight/",
+      "published": "2026-10-01T10:12:37Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Update from Executive Chair Andrew Stalbow",
+      "url": "https://www.bathcityfc.com/update-from-executive-chair-andrew-stalbow/",
+      "published": "2026-10-01T10:07:49Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Home Tie In Lancashire Challenge Trophy Second Round",
+      "url": "https://southportfc.net/home-tie-in-lancashire-challenge-trophy-second-round/",
+      "published": "2026-10-01T10:00:32Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Bracknell Town Friendly cancelled",
+      "url": "https://farnboroughfc.co.uk/2026/10/bracknell-town-friendly-cancelled/",
+      "published": "2026-10-01T10:00:18Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "FA CUP TICKETS | Tonbridge Angels (A)",
+      "url": "https://torquayunited.com/fa-cup-tickets-tonbridge-angels-a/",
+      "published": "2026-10-01T09:56:51Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "CLUB SHOP OPENING HOURS",
+      "url": "https://macclesfieldfc.com/latest-news/club-shop-opening-hours-2/",
+      "published": "2026-10-01T09:12:52Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Stones Soccer School",
+      "url": "https://maidstoneunited.co.uk/10/01/stones-soccer-school-2/",
+      "published": "2026-10-01T09:00:59Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "MATCH GALLERY: CARLISLE UNITED (H)",
+      "url": "https://afcfylde.co.uk/news/2026/october/01/match-gallery--Carlisle-United--h-/",
+      "published": "2026-10-01T09:00:00Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Post-Match Danny Heath Reviews Billericay Win",
+      "url": "https://southendunited.co.uk/news/2026/october/01/post-match-danny-heath-reviews-billericay-win/",
+      "published": "2026-10-01T08:39:34Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Optima Stadium Clubhouse closed next Monday",
+      "url": "https://wsmafc.co.uk/optima-stadium-clubhouse-closed-next-monday/",
+      "published": "2026-10-01T08:30:13Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Moors Lounge Guest For Chester Revealed",
+      "url": "https://spennymoortownfc.co.uk/2026/10/01/moors-lounge-guest-for-chester-revealed/",
+      "published": "2026-10-01T08:28:28Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Highlights: Eastleigh 1-1 Southend United",
+      "url": "https://eastleighfc.com/2026/10/highlights-eastleigh-1-1-southend-united/",
+      "published": "2026-10-01T08:26:01Z"
+    },
     {
       "club": "Hornchurch",
       "code": "HOR",
@@ -744,6 +1050,15 @@
       "published": "2026-09-30T16:00:14Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "250 Club September 2026 Prize Draw",
+      "url": "https://daggers.co.uk/250-club-september-2026-prize-draw/",
+      "published": "2026-09-30T15:38:59Z"
+    },
+    {
       "club": "Horsham",
       "code": "HRS",
       "short": "Horsham",
@@ -757,7 +1072,7 @@
       "code": "HER",
       "short": "Hereford",
       "domain": "herefordfc.co.uk",
-      "title": "Hereford FC U18s Return to FA Youth Cup Action Tonight",
+      "title": "U18s | Young Bulls Back in Action for Youth Cup Clash",
       "url": "https://herefordfc.co.uk/2026/09/hereford-fc-u18s-return-to-fa-youth-cup-action/",
       "published": "2026-09-30T15:11:59Z"
     },
@@ -877,6 +1192,15 @@
       "title": "Match Highlights: Yeovil Town 1-1 Worthing FC",
       "url": "https://worthingfc.com/2026/09/match-highlights-yeovil-town-1-1-worthing-fc/",
       "published": "2026-09-30T11:24:34Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Gallery: Solihull Moors (H)",
+      "url": "https://wokingfc.co.uk/09/30/gallery-solihull-moors-h/",
+      "published": "2026-09-30T11:23:47Z"
     },
     {
       "club": "York City",
@@ -1156,330 +1480,6 @@
       "title": "Jake Hyde on defeat against Solihull Moors",
       "url": "https://wokingfc.co.uk/09/29/jake-hyde-on-defeat-against-solihull-moors/",
       "published": "2026-09-29T22:11:09Z"
-    },
-    {
-      "club": "Wealdstone",
-      "code": "WEA",
-      "short": "Wealdstone",
-      "domain": "wealdstone-fc.com",
-      "title": "MATCH REPORT: Forest Green Rovers 1-1 Wealdstone",
-      "url": "https://www.wealdstonefc.com/report-forest-green-rovers-1-1-wealdstone/",
-      "published": "2026-09-29T22:05:18Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Watch: Paul Wotton after Boreham Wood",
-      "url": "https://harriers.co.uk/news/2026/09/29/watch-paul-wotton-after-boreham-wood",
-      "published": "2026-09-29T21:58:00Z"
-    },
-    {
-      "club": "Yeovil Town",
-      "code": "YEO",
-      "short": "Yeovil",
-      "domain": "ytfc.net",
-      "title": "Match Report: Yeovil Town 1-1 Worthing",
-      "url": "https://ytfc.net/2026/09/match-report-yeovil-town-1-1-worthing/",
-      "published": "2026-09-29T21:51:33Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Match Report: Yeovil Town 1-1 Worthing FC",
-      "url": "https://worthingfc.com/2026/09/match-report-yeovil-town-1-1-worthing-fc/",
-      "published": "2026-09-29T21:46:12Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Jonathan Gould Post Wealdstone",
-      "url": "https://www.fgr.co.uk/news/jonathan-gould-post-wealdstone/",
-      "published": "2026-09-29T21:30:00Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Hinshelwood: “We want to keep on building and improving” | Yeovil Town Reaction",
-      "url": "https://worthingfc.com/2026/09/hinshelwood-we-want-to-keep-on-building-and-improving-yeovil-town-reaction/",
-      "published": "2026-09-29T21:19:40Z"
-    },
-    {
-      "club": "Leamington",
-      "code": "LEA",
-      "short": "Leamington",
-      "domain": "leamingtonfc.co.uk",
-      "title": "Battling Brakes halt Rouslers winning streak",
-      "url": "https://leamingtonfc.co.uk/news/2026/09/29/battling-brakes-halt-rouslers-winning-streak",
-      "published": "2026-09-29T21:15:44Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Jimmy's gem seals it as in-form Alty make it seven wins out of eight and climb into top three!",
-      "url": "https://altrinchamfc.com/blogs/news/gateshead-away-2026-27",
-      "published": "2026-09-29T21:09:42Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Recap: Boreham Wood 3-1 Harriers",
-      "url": "https://harriers.co.uk/news/2026/09/29/recap-boreham-wood-3-1-harriers",
-      "published": "2026-09-29T21:07:00Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Report: Evesham 2-0 Chippenham Town",
-      "url": "https://chippenhamtown.com/09/29/report-evesham-2-0-chippenham-town/",
-      "published": "2026-09-29T21:00:12Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "“𝗜𝘁’𝘀 𝗮 𝗿𝗲𝗮𝗹𝗹𝘆 𝗴𝗼𝗼𝗱 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲” | Ethan Reed post – Portishead Town U18s (H)",
-      "url": "https://wsmafc.co.uk/%f0%9d%97%9c%f0%9d%98%81%f0%9d%98%80-%f0%9d%97%ae-%f0%9d%97%bf%f0%9d%97%b2%f0%9d%97%ae%f0%9d%97%b9%f0%9d%97%b9%f0%9d%98%86-%f0%9d%97%b4%f0%9d%97%bc%f0%9d%97%bc%f0%9d%97%b1-%f0%9d%97%bd%f0%9d%97%b2/",
-      "published": "2026-09-29T20:20:11Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Saltash United 2 Truro City 5 – Match Report",
-      "url": "https://trurocity.co.uk/2026/09/saltash-united-2-truro-city-5-match-report/",
-      "published": "2026-09-29T19:30:36Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Camerons Brewery return as third kit front-of-shirt sponsor",
-      "url": "https://www.hartlepoolunited.co.uk/camerons-brewery-return-as-third-kit-front-of-shirt-sponsor/",
-      "published": "2026-09-29T18:36:50Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Harry Flowers Returns To Southport",
-      "url": "https://southportfc.net/harry-flowers-returns-to-southport/",
-      "published": "2026-09-29T18:30:14Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Peter Hartley Appointed As First Team Manager",
-      "url": "https://spennymoortownfc.co.uk/2026/09/29/peter-hartley-appointed-as-first-team-manager/",
-      "published": "2026-09-29T17:58:19Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "TEAM NEWS | Hartlepool United vs Harrogate Town",
-      "url": "https://www.hartlepoolunited.co.uk/team-news-hartlepool-united-vs-harrogate-town/",
-      "published": "2026-09-29T17:44:53Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Pools sign goalkeeper Max Thompson",
-      "url": "https://www.hartlepoolunited.co.uk/pools-sign-goalkeeper-max-thompson/",
-      "published": "2026-09-29T17:01:24Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "VACANCIES: ACADEMY COACHES",
-      "url": "https://macclesfieldfc.com/latest-news/vacancies-academy-coaches/",
-      "published": "2026-09-29T17:00:56Z"
-    },
-    {
-      "club": "Wealdstone",
-      "code": "WEA",
-      "short": "Wealdstone",
-      "domain": "wealdstone-fc.com",
-      "title": "MATCH PREVIEW: Forest Green Rovers vs Wealdstone",
-      "url": "https://www.wealdstonefc.com/preview-forest-green-rovers-vs-wealdstone/",
-      "published": "2026-09-29T16:51:05Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Matchday Information: Southend United (H)",
-      "url": "https://eastleighfc.com/2026/09/matchday-information-southend-united-h-5/",
-      "published": "2026-09-29T16:47:58Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Pre-Match: Lewys Twamley Discusses Eastleigh Trip",
-      "url": "https://southendunited.co.uk/news/2026/september/29/pre-match--lewys-twamley-/",
-      "published": "2026-09-29T16:38:10Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Tonbridge U18 3 Horsham U18 3 (Tonbridge win 4-1 on penalties)",
-      "url": "https://www.horshamfc.co.uk/2026/09/29/tonbridge-u18-3-horsham-u18-3-tonbridge-win-4-1-on-penalties/",
-      "published": "2026-09-29T16:05:27Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Pre-Match: Kieron Dyer Previews Eastleigh",
-      "url": "https://southendunited.co.uk/news/2026/september/29/pre-match--kieron-dyer-previews-eastleigh-trip/",
-      "published": "2026-09-29T15:54:25Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Club Statement | Robbie Savage",
-      "url": "https://www.fgr.co.uk/news/club-statement-robbie-savage/",
-      "published": "2026-09-29T15:30:00Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Match Preview: Matt Gray looks ahead to Southend (H)",
-      "url": "https://eastleighfc.com/2026/09/match-preview-matt-gray-looks-ahead-to-southend-h/",
-      "published": "2026-09-29T15:06:20Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Maidstone United vs Truro City – Match Gallery",
-      "url": "https://trurocity.co.uk/2026/09/maidstone-united-vs-truro-city-match-gallery/",
-      "published": "2026-09-29T15:03:43Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Mark Nellist resigns from Gateshead Football Club’s Board of Directors",
-      "url": "https://gateshead-fc.com/mark-nellist-resigns-from-gateshead-football-clubs-board-of-directors/",
-      "published": "2026-09-29T15:00:49Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Will Wright joins The Wood",
-      "url": "https://www.borehamwoodfootballclub.co.uk/will-wright-joins-the-wood/",
-      "published": "2026-09-29T14:59:48Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "A Women’s First Team and Emerging Talent update with Jonathan Bull",
-      "url": "https://macclesfieldfc.com/latest-news/a-womens-first-team-and-emerging-talent-update-with-jonathan-bull/",
-      "published": "2026-09-29T14:40:44Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Volunteer Membership Co-Ordinator",
-      "url": "https://chesterfc.com/09/29/volunteer-membership-co-ordinator/",
-      "published": "2026-09-29T14:40:41Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Match Highlights | Curzon 3-1 Stalybridge Celtic",
-      "url": "https://curzon-ashton.co.uk/match-highlights-curzon-3-1-stalybridge-celtic/",
-      "published": "2026-09-29T14:14:19Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Metlab Supplies become Bronze Partner in Deva Community Stadium scheme!",
-      "url": "https://chesterfc.com/09/29/metlab/",
-      "published": "2026-09-29T13:59:17Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "City and NHS Talking Therapies team up to get people talking about mental health",
-      "url": "https://www.bathcityfc.com/city-and-nhs-talking-therapies-team-up-to-get-people-talking-about-mental-health/",
-      "published": "2026-09-29T13:06:06Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "£2,928 Raised For Roxy Thomas From National League Cup Fixture",
-      "url": "https://torquayunited.com/2928-raised-for-roxy-thomas-from-national-league-cup-fixture/",
-      "published": "2026-09-29T13:02:26Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Leighton Green joins Bovey Tracey on dual-registration",
-      "url": "https://wsmafc.co.uk/leighton-green-joins-bovey-tracey-on-dual-registration/",
-      "published": "2026-09-29T13:00:40Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Match Preview: Yeovil Town vs Worthing FC",
-      "url": "https://worthingfc.com/2026/09/match-preview-yeovil-town-vs-worthing-fc/",
-      "published": "2026-09-29T12:46:23Z"
     }
   ]
 }
