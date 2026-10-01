@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-01T01:21:57Z",
+  "generatedAt": "2026-10-01T07:54:07Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,24 @@
     }
   ],
   "items": [
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Tickets: Harrogate Town (A)",
+      "url": "https://hornchurchfc.com/tickets-harrogate-town-a/",
+      "published": "2026-10-01T07:14:40Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Gallery: Aldershot Town (H)",
+      "url": "https://hornchurchfc.com/gallery-aldershot-town-h/",
+      "published": "2026-10-01T07:13:23Z"
+    },
     {
       "club": "Eastleigh",
       "code": "EAS",
@@ -667,6 +685,15 @@
       "code": "SSH",
       "short": "South Shields",
       "domain": "southshieldsfc.co.uk",
+      "title": "HIGHLIGHTS | Brackley Town FC 3-2 South Shields FC | Enterprise National League North",
+      "url": "https://www.southshieldsfc.co.uk/highlights-brackley-town-fc-3-2-south-shields-fc-enterprise-national-league-north/",
+      "published": "2026-09-30T19:04:08Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
       "title": "South Shields beaten in rearranged Brackley Town match",
       "url": "https://www.southshieldsfc.co.uk/south-shields-beaten-in-rearranged-brackley-town-match/",
       "published": "2026-09-30T18:54:28Z"
@@ -690,6 +717,15 @@
       "published": "2026-09-30T18:00:11Z"
     },
     {
+      "club": "Wealdstone",
+      "code": "WEA",
+      "short": "Wealdstone",
+      "domain": "wealdstone-fc.com",
+      "title": "EXTENDED HIGHLIGHTS: Forest Green Rovers v Wealdstone",
+      "url": "https://www.wealdstonefc.com/extended-highlights-forest-green-rovers-v-wealdstone/",
+      "published": "2026-09-30T16:43:05Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -708,13 +744,13 @@
       "published": "2026-09-30T16:00:14Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "250 Club September 2026 Prize Draw",
-      "url": "https://daggers.co.uk/250-club-september-2026-prize-draw/",
-      "published": "2026-09-30T15:38:59Z"
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Strangey moves on",
+      "url": "https://www.horshamfc.co.uk/2026/09/30/strangey-moves-on/",
+      "published": "2026-09-30T15:36:30Z"
     },
     {
       "club": "Hereford",
@@ -1041,6 +1077,15 @@
       "published": "2026-09-30T08:00:00Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham 10 Newhaven 0 – match report",
+      "url": "https://www.horshamfc.co.uk/2026/09/30/horsham-10-newhaven-0-match-report/",
+      "published": "2026-09-30T07:01:03Z"
+    },
+    {
       "club": "Altrincham",
       "code": "ALT",
       "short": "Altrincham",
@@ -1057,6 +1102,15 @@
       "title": "Youth Cup Matchday Tonight",
       "url": "https://southportfc.net/youth-cup-matchday-tonight/",
       "published": "2026-09-30T06:45:33Z"
+    },
+    {
+      "club": "Wealdstone",
+      "code": "WEA",
+      "short": "Wealdstone",
+      "domain": "wealdstone-fc.com",
+      "title": "VIDEO REACTION: “I Enjoyed The Battle” – Norris on Nailsworth Point",
+      "url": "https://www.wealdstonefc.com/video-reaction-i-enjoyed-the-battle-norris-on-nailsworth-point/",
+      "published": "2026-09-30T06:42:07Z"
     },
     {
       "club": "Hartlepool United",
@@ -1293,6 +1347,15 @@
       "published": "2026-09-29T16:38:10Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Tonbridge U18 3 Horsham U18 3 (Tonbridge win 4-1 on penalties)",
+      "url": "https://www.horshamfc.co.uk/2026/09/29/tonbridge-u18-3-horsham-u18-3-tonbridge-win-4-1-on-penalties/",
+      "published": "2026-09-29T16:05:27Z"
+    },
+    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1417,69 +1480,6 @@
       "title": "Match Preview: Yeovil Town vs Worthing FC",
       "url": "https://worthingfc.com/2026/09/match-preview-yeovil-town-vs-worthing-fc/",
       "published": "2026-09-29T12:46:23Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Brackley Town FA Cup Third Round Qualifying Tickets | 03/10/26",
-      "url": "https://chelmsfordcityfc.com/news/brackley-town-fa-cup-third-round-qualifying-tickets-03-10-26/",
-      "published": "2026-09-29T12:43:53Z"
-    },
-    {
-      "club": "AFC Telford United",
-      "code": "TEL",
-      "short": "Telford",
-      "domain": "telfordunited.com",
-      "title": "In Memoriam: Courtney Meppen-Walter",
-      "url": "https://telfordunited.com/news/2026/09/29/in-memoriam-courtney-meppen-walter",
-      "published": "2026-09-29T12:08:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Vote for your September ‘Inner London Cleaning’ GOTM",
-      "url": "https://daggers.co.uk/vote-for-your-september-inner-london-cleaning-gotm/",
-      "published": "2026-09-29T11:41:57Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Harry Isted signs for the Robins",
-      "url": "https://altrinchamfc.com/blogs/news/harry-isted-signs-for-the-robins",
-      "published": "2026-09-29T11:28:22Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "MATCH PREVIEW | Hartlepool United vs Harrogate Town",
-      "url": "https://www.hartlepoolunited.co.uk/match-preview-hartlepool-united-vs-harrogate-town/",
-      "published": "2026-09-29T11:26:30Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Vote for your September Player of the Month!",
-      "url": "https://daggers.co.uk/vote-for-your-september-player-of-the-month-2/",
-      "published": "2026-09-29T11:06:52Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Preview: Evesham vs Chippenham Town",
-      "url": "https://chippenhamtown.com/09/29/preview-evesham-vs-chippenham-town/",
-      "published": "2026-09-29T11:00:47Z"
     }
   ]
 }
