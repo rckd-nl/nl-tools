@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-03T05:50:33Z",
+  "generatedAt": "2026-10-03T11:40:52Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -296,7 +296,7 @@
       "domain": "leamingtonfc.co.uk",
       "feed": "https://leamingtonfc.co.uk/feed",
       "ok": true,
-      "count": 31,
+      "count": 30,
       "error": ""
     },
     {
@@ -462,10 +462,10 @@
     {
       "club": "Ebbsfleet United",
       "domain": "ebbsfleetunited.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "feed": "https://ebbsfleetunited.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Enfield Town",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,69 @@
   ],
   "items": [
     {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Preview: Eastleigh vs Woking",
+      "url": "https://eastleighfc.com/2026/10/preview-eastleigh-vs-woking/",
+      "published": "2026-10-03T09:49:10Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "The Wood bow out of the FA Youth Cup",
+      "url": "https://www.borehamwoodfootballclub.co.uk/the-wood-bow-out-of-the-fa-youth-cup/",
+      "published": "2026-10-03T09:47:12Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Ticket Resale Live For AFC Fylde",
+      "url": "https://southendunited.co.uk/news/2026/october/03/ticket-resale-live-for-afc-fylde/",
+      "published": "2026-10-03T09:45:17Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Mensah hits treble as Alty beat Hyde",
+      "url": "https://altrinchamfc.com/blogs/news/mensah-hits-treble-as-alty-beat-hyde",
+      "published": "2026-10-03T09:32:45Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "The Supporters September Player Of The Month Voting Now Open",
+      "url": "https://southportfc.net/the-supporters-september-player-of-the-month-voting-now-open/",
+      "published": "2026-10-03T09:14:29Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "FA Cup Preview: Spennymoor Town (A)",
+      "url": "https://chesterfc.com/10/03/fa-cup-preview-spennymoor-town-a/",
+      "published": "2026-10-03T09:00:47Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "SOUTHPORT FC FIREWORKS NIGHT – TICKETS ON SALE NOW!",
+      "url": "https://southportfc.net/southport-fc-fireworks-night-tickets-on-sale-now/",
+      "published": "2026-10-03T08:03:40Z"
+    },
+    {
       "club": "Wealdstone",
       "code": "WEA",
       "short": "Wealdstone",
@@ -598,15 +661,6 @@
       "title": "Matchday Information: Woking (H)",
       "url": "https://eastleighfc.com/2026/10/matchday-information-woking-h-5/",
       "published": "2026-10-02T21:03:42Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Mensah hits treble as Alty beat Hyde",
-      "url": "https://altrinchamfc.com/blogs/news/mensah-hits-treble-as-alty-beat-hyde",
-      "published": "2026-10-02T20:55:52Z"
     },
     {
       "club": "Chelmsford City",
@@ -672,15 +726,6 @@
       "published": "2026-10-02T19:00:00Z"
     },
     {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Plymouth Parkway vs Horsham – match preview",
-      "url": "https://www.horshamfc.co.uk/2026/10/02/plymouth-parkway-vs-horsham-match-preview/",
-      "published": "2026-10-02T18:51:18Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -703,7 +748,7 @@
       "code": "SPT",
       "short": "Southport",
       "domain": "southportfc.net",
-      "title": "Behind SFC Episode 8 A | Summer Recap",
+      "title": "Behind SFC Episode 8 | A Summer Recap",
       "url": "https://southportfc.net/behind-sfc-episode-8-a-summer-recap/",
       "published": "2026-10-02T17:41:37Z"
     },
@@ -859,15 +904,6 @@
       "title": "August’s Squad Builder Draw Winners",
       "url": "https://www.bathcityfc.com/augusts-squad-builder-draw-winners/",
       "published": "2026-10-02T14:00:51Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Youth round-up, 27 September",
-      "url": "https://www.horshamfc.co.uk/2026/10/02/youth-round-up-27-september/",
-      "published": "2026-10-02T13:51:01Z"
     },
     {
       "club": "York City",
@@ -1257,6 +1293,15 @@
       "published": "2026-10-02T06:26:21Z"
     },
     {
+      "club": "Ebbsfleet United",
+      "code": "EBB",
+      "short": "Ebbsfleet",
+      "domain": "ebbsfleetunited.co.uk",
+      "title": "Look ahead: Sholing (H)",
+      "url": "https://ebbsfleetunited.co.uk/look-ahead-sholing-h/",
+      "published": "2026-10-02T01:24:58Z"
+    },
+    {
       "club": "Hornchurch",
       "code": "HOR",
       "short": "Hornchurch",
@@ -1435,51 +1480,6 @@
       "title": "Club SUPERFAN with Marc White TATTOO – Legally Changes His Name To ‘Keith Dorking Wanderers FC Thripp’",
       "url": "https://dwfc.co.uk/2026/10/club-superfan-with-marc-white-tattoo-legally-changes-his-name-to-keith-dorking-wanderers-fc-thripp/",
       "published": "2026-10-01T16:27:20Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "WIN TWO HOSPITALITY PACKAGES COURTESY OF THE SILKMEN SUPPORTERS TRUST",
-      "url": "https://macclesfieldfc.com/latest-news/win-two-hospitality-packages-courtesy-of-the-silkmen-supporters-trust/",
-      "published": "2026-10-01T16:00:29Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Design Our Match Day Programme Cover Competition",
-      "url": "https://curzon-ashton.co.uk/design-our-match-day-programme-cover-competition/",
-      "published": "2026-10-01T16:00:03Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "General Manager Update: October 2026",
-      "url": "https://southendunited.co.uk/news/2026/october/01/general-manager-update--october-2026/",
-      "published": "2026-10-01T16:00:00Z"
-    },
-    {
-      "club": "Tonbridge Angels",
-      "code": "TON",
-      "short": "Tonbridge",
-      "domain": "tonbridgeangels.co.uk",
-      "title": "Minute’s Applause for Chris",
-      "url": "https://tonbridgeangels.co.uk/minutes-applause-for-chris/",
-      "published": "2026-10-01T15:33:36Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "New official podcast launched",
-      "url": "https://harriers.co.uk/news/2026/10/01/new-official-podcast-launched",
-      "published": "2026-10-01T15:32:35Z"
     }
   ]
 }
