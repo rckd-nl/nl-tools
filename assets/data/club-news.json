@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-05T02:26:56Z",
+  "generatedAt": "2026-10-05T09:40:56Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -296,7 +296,7 @@
       "domain": "leamingtonfc.co.uk",
       "feed": "https://leamingtonfc.co.uk/feed",
       "ok": true,
-      "count": 30,
+      "count": 29,
       "error": ""
     },
     {
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/news/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,78 @@
   ],
   "items": [
     {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "FA Cup Fourth Qualifying Round Draw",
+      "url": "https://southendunited.co.uk/news/2026/october/05/fa-cup-fourth-qualifying-round-draw/",
+      "published": "2026-10-05T09:28:18Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Postponement: Spennymoor Town (A)",
+      "url": "https://chesterfc.com/10/05/postponement-spennymoor-town-a/",
+      "published": "2026-10-05T09:18:58Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Week Four Review – Bluebirds Pontoon",
+      "url": "https://chippenhamtown.com/10/05/week-four-review-bluebirds-pontoon/",
+      "published": "2026-10-05T09:00:23Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Coach Travel: Brackley Town (A)",
+      "url": "https://spennymoortownfc.co.uk/2026/10/05/coach-travel-brackley-town-a/",
+      "published": "2026-10-05T08:55:39Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Tickets on sale now for our trip to Wealdstone",
+      "url": "https://ytfc.net/2026/10/tickets-on-sale-now-for-our-trip-to-wealdstone/",
+      "published": "2026-10-05T08:18:08Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City vs Cirencester Town – Highlights",
+      "url": "https://trurocity.co.uk/2026/10/truro-city-vs-cirencester-town-highlights/",
+      "published": "2026-10-05T08:01:27Z"
+    },
+    {
+      "club": "Wealdstone",
+      "code": "WEA",
+      "short": "Wealdstone",
+      "domain": "wealdstone-fc.com",
+      "title": "LIVE AT THE VALE: Wealdstone U18s & England On Tuesday",
+      "url": "https://www.wealdstonefc.com/live-at-the-vale-wealdstone-u18s-england-on-tuesday/",
+      "published": "2026-10-05T07:49:21Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "MATCH GALLERY: SOUTHEND UNITED (A)",
+      "url": "https://afcfylde.co.uk/news/2026/october/05/match-gallery--Southend-United--a-/",
+      "published": "2026-10-05T07:30:00Z"
+    },
+    {
       "club": "South Shields",
       "code": "SSH",
       "short": "South Shields",
@@ -595,7 +667,7 @@
       "code": "CHI",
       "short": "Chippenham",
       "domain": "chippenhamtown.com",
-      "title": "Cray Wanderers FA Cup Third Round Qualifying 3rd October 2026",
+      "title": "Gallery: Cray",
       "url": "https://chippenhamtown.com/10/04/cray-wanderers-fa-cup-third-round-qualifying-3rd-october-2026/",
       "published": "2026-10-04T22:06:21Z"
     },
@@ -631,7 +703,7 @@
       "code": "SPE",
       "short": "Spennymoor",
       "domain": "spennymoortownfc.co.uk",
-      "title": "League Fixture Vs Chester Postponed",
+      "title": "Chester Fixture To Be Rearranged",
       "url": "https://spennymoortownfc.co.uk/2026/10/04/league-fixture-vs-chester-postponed/",
       "published": "2026-10-04T19:26:21Z"
     },
@@ -843,6 +915,15 @@
       "published": "2026-10-04T10:50:11Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "26/27 Match Report: Brentwood Town (A)",
+      "url": "https://daggers.co.uk/26-27-match-report-brentwood-town-a/",
+      "published": "2026-10-04T10:14:52Z"
+    },
+    {
       "club": "Maidstone United",
       "code": "MSU",
       "short": "Maidstone",
@@ -850,6 +931,15 @@
       "title": "Key info: Dulwich Hamlet Women Reserves",
       "url": "https://maidstoneunited.co.uk/10/04/key-info-dulwich-hamlet-women-reserves/",
       "published": "2026-10-04T09:30:22Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Post-Spennymoor Town: Phil Parkinson",
+      "url": "https://chesterfc.com/10/04/post-spennymoor-town-phil-parkinson/",
+      "published": "2026-10-04T09:07:51Z"
     },
     {
       "club": "AFC Telford United",
@@ -888,6 +978,15 @@
       "published": "2026-10-04T08:16:37Z"
     },
     {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Post-Match: Kieron Dyer Reviews AFC Fylde",
+      "url": "https://southendunited.co.uk/news/2026/october/04/post-match--kieron-dyer-reflects-on-afc-fylde/",
+      "published": "2026-10-04T07:00:00Z"
+    },
+    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -904,15 +1003,6 @@
       "title": "This week at the Gallagher Stadium (w/c 4/10/2026)",
       "url": "https://maidstoneunited.co.uk/10/04/this-week-at-the-gallagher-stadium-w-c-4-10-2026/",
       "published": "2026-10-03T23:01:27Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Plymouth Parkway 2 Horsham 1",
-      "url": "https://www.horshamfc.co.uk/2026/10/03/plymouth-parkway-2-horsham-1/",
-      "published": "2026-10-03T20:45:23Z"
     },
     {
       "club": "Bath City",
@@ -1390,96 +1480,6 @@
       "title": "Mensah hits treble as Alty beat Hyde",
       "url": "https://altrinchamfc.com/blogs/news/mensah-hits-treble-as-alty-beat-hyde",
       "published": "2026-10-03T09:32:45Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "The Supporters September Player Of The Month Voting Now Open",
-      "url": "https://southportfc.net/the-supporters-september-player-of-the-month-voting-now-open/",
-      "published": "2026-10-03T09:14:29Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "FA Cup Preview: Spennymoor Town (A)",
-      "url": "https://chesterfc.com/10/03/fa-cup-preview-spennymoor-town-a/",
-      "published": "2026-10-03T09:00:47Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "SOUTHPORT FC FIREWORKS NIGHT – TICKETS ON SALE NOW!",
-      "url": "https://southportfc.net/southport-fc-fireworks-night-tickets-on-sale-now/",
-      "published": "2026-10-03T08:03:40Z"
-    },
-    {
-      "club": "Wealdstone",
-      "code": "WEA",
-      "short": "Wealdstone",
-      "domain": "wealdstone-fc.com",
-      "title": "WATCH WITH US: Barrow v Wealdstone – Live At The Vale",
-      "url": "https://www.wealdstonefc.com/watch-with-us-barrow-v-wealdstone-live-at-the-vale/",
-      "published": "2026-10-02T22:54:39Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Matchday Information: Woking (H)",
-      "url": "https://eastleighfc.com/2026/10/matchday-information-woking-h-5/",
-      "published": "2026-10-02T21:03:42Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "FA Youth Cup: Chelmsford City 6-0 Hornchurch",
-      "url": "https://chelmsfordcityfc.com/news/fa-youth-cup-chelmsford-city-6-0-hornchurch/",
-      "published": "2026-10-02T20:47:49Z"
-    },
-    {
-      "club": "Wealdstone",
-      "code": "WEA",
-      "short": "Wealdstone",
-      "domain": "wealdstone-fc.com",
-      "title": "PREVIEW: Barrow vs Wealdstone",
-      "url": "https://www.wealdstonefc.com/preview-barrow-vs-wealdstone/",
-      "published": "2026-10-02T20:43:09Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "MATCH PREVIEW | Pools welcome Tamworth to Victoria Park",
-      "url": "https://www.hartlepoolunited.co.uk/match-preview-pools-welcome-tamworth-to-victoria-park/",
-      "published": "2026-10-02T20:25:03Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Pre-Spennymoor Town: Neil Sorvel",
-      "url": "https://chesterfc.com/10/02/pre-spennymoor-town-neil-sorvel/",
-      "published": "2026-10-02T19:36:39Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Match Preview: Gateshead vs Worthing FC",
-      "url": "https://worthingfc.com/2026/10/match-preview-gateshead-vs-worthing-fc/",
-      "published": "2026-10-02T19:32:06Z"
     }
   ]
 }
