@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-04T23:39:35Z",
+  "generatedAt": "2026-10-05T02:26:56Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -904,6 +904,15 @@
       "title": "This week at the Gallagher Stadium (w/c 4/10/2026)",
       "url": "https://maidstoneunited.co.uk/10/04/this-week-at-the-gallagher-stadium-w-c-4-10-2026/",
       "published": "2026-10-03T23:01:27Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Plymouth Parkway 2 Horsham 1",
+      "url": "https://www.horshamfc.co.uk/2026/10/03/plymouth-parkway-2-horsham-1/",
+      "published": "2026-10-03T20:45:23Z"
     },
     {
       "club": "Bath City",
@@ -1471,15 +1480,6 @@
       "title": "Match Preview: Gateshead vs Worthing FC",
       "url": "https://worthingfc.com/2026/10/match-preview-gateshead-vs-worthing-fc/",
       "published": "2026-10-02T19:32:06Z"
-    },
-    {
-      "club": "Chesham United",
-      "code": "CHU",
-      "short": "Chesham",
-      "domain": "cheshamunited.co.uk",
-      "title": "Notes from the Chair – 2nd October 2027",
-      "url": "https://cheshamunited.co.uk/2026/10/notes-from-the-chair-2nd-october-2027/",
-      "published": "2026-10-02T19:05:45Z"
     }
   ]
 }
