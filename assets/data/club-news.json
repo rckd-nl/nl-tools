@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-05T18:53:18Z",
+  "generatedAt": "2026-10-06T00:50:52Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,60 @@
   ],
   "items": [
     {
+      "club": "Ebbsfleet United",
+      "code": "EBB",
+      "short": "Ebbsfleet",
+      "domain": "ebbsfleetunited.co.uk",
+      "title": "Look ahead: Folkestone Invicta (H)",
+      "url": "https://ebbsfleetunited.co.uk/look-ahead-folkestone-invicta-h/",
+      "published": "2026-10-05T22:51:18Z"
+    },
+    {
+      "club": "Wealdstone",
+      "code": "WEA",
+      "short": "Wealdstone",
+      "domain": "wealdstone-fc.com",
+      "title": "HIGHLIGHTS: Barrow 2-1 Wealdstone",
+      "url": "https://www.wealdstonefc.com/extended-highlights-barrow-2-1-wealdstone/",
+      "published": "2026-10-05T21:55:29Z"
+    },
+    {
+      "club": "Wealdstone",
+      "code": "WEA",
+      "short": "Wealdstone",
+      "domain": "wealdstone-fc.com",
+      "title": "FA CUP 4QR DRAW: Wealdstone Handed Home Tie Versus Worthing",
+      "url": "https://www.wealdstonefc.com/fa-cup-4qr-draw-wealdstone-handed-home-tie-versus-worthing/",
+      "published": "2026-10-05T20:35:20Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "First Words – Will Dean",
+      "url": "https://trurocity.co.uk/2026/10/first-words-will-dean/",
+      "published": "2026-10-05T20:02:03Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Preview: Weston v Mendip Broadwalk",
+      "url": "https://wsmafc.co.uk/preview-mendip-broadwalk-away-2627/",
+      "published": "2026-10-05T20:00:28Z"
+    },
+    {
+      "club": "Alfreton Town",
+      "code": "ALF",
+      "short": "Alfreton",
+      "domain": "alfretontownfootballclub.com",
+      "title": "Match Preview: Alfreton Town v FC United of Manchester",
+      "url": "https://alfretontownfootballclub.com/2026/10/05/match-preview-alfreton-town-v-fc-united-of-manchester/",
+      "published": "2026-10-05T18:58:38Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -609,6 +663,15 @@
       "published": "2026-10-05T18:01:06Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Kymani Thomas joins Aveley on Loan",
+      "url": "https://daggers.co.uk/kymani-thomas-joins-aveley-on-loan/",
+      "published": "2026-10-05T18:00:00Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -634,6 +697,15 @@
       "title": "Gallery: AFC Fylde (H)",
       "url": "https://southendunited.co.uk/news/2026/october/05/gallery--afc-fylde--h-/",
       "published": "2026-10-05T16:35:25Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Ticket Information: Great Wakering Rovers",
+      "url": "https://daggers.co.uk/ticket-information-great-wakering-rovers/",
+      "published": "2026-10-05T16:35:05Z"
     },
     {
       "club": "Woking",
@@ -1408,78 +1480,6 @@
       "title": "Highlights: Macclesfield FC 2-2 Scarborough Athletic",
       "url": "https://macclesfieldfc.com/latest-news/highlights-macclesfield-fc-2-2-scarborough-athletic/",
       "published": "2026-10-04T13:00:59Z"
-    },
-    {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "Town dealt harsh lesson in the city of scholars",
-      "url": "https://etfc.london/town-dealt-harsh-lesson-in-the-city-of-scholars/",
-      "published": "2026-10-04T12:34:02Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Match Highlights: Gateshead FC 1-2 Worthing FC",
-      "url": "https://worthingfc.com/2026/10/match-highlights-gateshead-fc-1-2-worthing-fc/",
-      "published": "2026-10-04T12:06:09Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Survey Results 2026",
-      "url": "https://torquayunited.com/survey-results-2026/",
-      "published": "2026-10-04T11:00:00Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "💬 “It’s the proudest I’ve been” MIKE WILLIAMSON POST MATCH BUXTON (A)",
-      "url": "https://www.southshieldsfc.co.uk/%f0%9f%92%ac-its-the-proudest-ive-been-mike-williamson-post-match-buxton-a/",
-      "published": "2026-10-04T10:50:11Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: Dulwich Hamlet Women Reserves",
-      "url": "https://maidstoneunited.co.uk/10/04/key-info-dulwich-hamlet-women-reserves/",
-      "published": "2026-10-04T09:30:22Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Post-Spennymoor Town: Phil Parkinson",
-      "url": "https://chesterfc.com/10/04/post-spennymoor-town-phil-parkinson/",
-      "published": "2026-10-04T09:07:51Z"
-    },
-    {
-      "club": "AFC Telford United",
-      "code": "TEL",
-      "short": "Telford",
-      "domain": "telfordunited.com",
-      "title": "Chorley FC (A): Supporter Information",
-      "url": "https://telfordunited.com/news/2026/10/04/chorley-fc-a-supporter-information",
-      "published": "2026-10-04T09:01:44Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "TICKET NEWS: SCARBOROUGH ATHLETIC (A) FA CUP REPLAY",
-      "url": "https://macclesfieldfc.com/latest-news/ticket-news-scarborough-athletic-a-fa-cup-replay/",
-      "published": "2026-10-04T09:00:29Z"
     }
   ]
 }
