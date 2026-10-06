@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-06T14:31:11Z",
+  "generatedAt": "2026-10-06T19:53:39Z",
   "maxItems": 100,
   "sources": [
     {
@@ -129,7 +129,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Southend United",
@@ -208,7 +208,7 @@
       "domain": "telfordunited.com",
       "feed": "https://telfordunited.com/feed",
       "ok": true,
-      "count": 31,
+      "count": 30,
       "error": ""
     },
     {
@@ -288,7 +288,7 @@
       "domain": "kltown.co.uk",
       "feed": "https://kltown.co.uk/feed",
       "ok": true,
-      "count": 42,
+      "count": 40,
       "error": ""
     },
     {
@@ -329,7 +329,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Peterborough Sports",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,105 @@
     }
   ],
   "items": [
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Fixture News – New Date for Hanwell Town away game confirmed",
+      "url": "https://www.bathcityfc.com/fixture-news-new-date-for-hanwell-town-away-game-confirmed/",
+      "published": "2026-10-06T18:59:09Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "PAN Disability team makes its debut",
+      "url": "https://tonbridgeangels.co.uk/pan-disability-team-makes-its-debut/",
+      "published": "2026-10-06T18:24:02Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Bobby Kelman joins Folkestone Invicta on Loan",
+      "url": "https://hornchurchfc.com/bobby-kelman-joins-folkestone-invicta-on-loan/",
+      "published": "2026-10-06T18:00:18Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Woking sign Vicente Reyes",
+      "url": "https://wokingfc.co.uk/10/06/woking-sign-vicente-reyes/",
+      "published": "2026-10-06T18:00:09Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "VOTE | Pick Your Player and Goal of Month for September",
+      "url": "https://herefordfc.co.uk/2026/10/vote-pick-your-player-and-goal-of-month-for-september/",
+      "published": "2026-10-06T17:00:29Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Alex Protsenko Signs First Deal With The Clarets!",
+      "url": "https://chelmsfordcityfc.com/news/alex-protsenko-signs-first-deal-with-the-clarets/",
+      "published": "2026-10-06T16:55:00Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "2be Consultancy Goal of the Month: September 2026",
+      "url": "https://southendunited.co.uk/news/2026/october/06/2be-consultancy-goal-of-the-month--september-2026/",
+      "published": "2026-10-06T16:43:20Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Get In Early for a ‘Nutty’ Halloween",
+      "url": "https://tonbridgeangels.co.uk/get-in-early-for-a-nutty-halloween/",
+      "published": "2026-10-06T16:37:12Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Standard Motor Transport Ltd Goal of the Month - September 2026",
+      "url": "https://harriers.co.uk/news/2026/10/06/standard-motor-transport-ltd-goal-of-the-month-september-2026",
+      "published": "2026-10-06T16:32:20Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Welcome to the Urchins, Ryan Loft!",
+      "url": "https://hornchurchfc.com/welcome-to-the-urchins-ryan-loft/",
+      "published": "2026-10-06T16:28:30Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Tickets: FA Youth Cup Third Qualifying Round",
+      "url": "https://southendunited.co.uk/news/2026/october/06/tickets--fa-youth-cup-third-qualifying-round/",
+      "published": "2026-10-06T16:00:00Z"
+    },
     {
       "club": "Worthing",
       "code": "WOR",
@@ -969,15 +1068,6 @@
       "published": "2026-10-05T18:01:06Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Kymani Thomas joins Aveley on Loan",
-      "url": "https://daggers.co.uk/kymani-thomas-joins-aveley-on-loan/",
-      "published": "2026-10-05T18:00:00Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1003,15 +1093,6 @@
       "title": "Gallery: AFC Fylde (H)",
       "url": "https://southendunited.co.uk/news/2026/october/05/gallery--afc-fylde--h-/",
       "published": "2026-10-05T16:35:25Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Ticket Information: Great Wakering Rovers",
-      "url": "https://daggers.co.uk/ticket-information-great-wakering-rovers/",
-      "published": "2026-10-05T16:35:05Z"
     },
     {
       "club": "Woking",
@@ -1399,87 +1480,6 @@
       "title": "On the Road: Carlisle United",
       "url": "https://harriers.co.uk/news/2026/10/05/on-the-road-carlisle-united",
       "published": "2026-10-05T10:31:08Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SILKMEN ACADEMY TO HOST FIRST TEAM MASTERCLASS",
-      "url": "https://macclesfieldfc.com/latest-news/silkmen-academy-to-host-first-team-masterclass/",
-      "published": "2026-10-05T10:00:28Z"
-    },
-    {
-      "club": "Woking",
-      "code": "WOK",
-      "short": "Woking",
-      "domain": "wokingfc.co.uk",
-      "title": "Details of the upcoming Emirates FA Cup draw",
-      "url": "https://wokingfc.co.uk/10/05/details-of-the-upcoming-emirates-fa-cup-draw/",
-      "published": "2026-10-05T09:50:43Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Emirates FA Cup draw details",
-      "url": "https://altrinchamfc.com/blogs/news/emirates-fa-cup-draw-details",
-      "published": "2026-10-05T09:39:09Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "FA Cup Fourth Qualifying Round Draw",
-      "url": "https://southendunited.co.uk/news/2026/october/05/fa-cup-fourth-qualifying-round-draw/",
-      "published": "2026-10-05T09:28:18Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Postponement: Spennymoor Town (A)",
-      "url": "https://chesterfc.com/10/05/postponement-spennymoor-town-a/",
-      "published": "2026-10-05T09:18:58Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Away Travel: Horsham",
-      "url": "https://maidstoneunited.co.uk/10/05/away-travel-cray-wanderers/",
-      "published": "2026-10-05T09:00:58Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "COACH TRAVEL: SCARBOROUGH ATHLETIC (FA CUP)",
-      "url": "https://macclesfieldfc.com/latest-news/coach-travel-scarborough-athletic-fa-cup/",
-      "published": "2026-10-05T09:00:41Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Week Four Review – Bluebirds Pontoon",
-      "url": "https://chippenhamtown.com/10/05/week-four-review-bluebirds-pontoon/",
-      "published": "2026-10-05T09:00:23Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Coach Travel: Brackley Town (A)",
-      "url": "https://spennymoortownfc.co.uk/2026/10/05/coach-travel-brackley-town-a/",
-      "published": "2026-10-05T08:55:39Z"
     }
   ]
 }
