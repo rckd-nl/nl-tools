@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-07T19:35:32Z",
+  "generatedAt": "2026-10-07T23:52:55Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Ebbsfleet United away tickets available to buy online now",
+      "url": "https://wsmafc.co.uk/ebbsfleet-united-away-tickets-available-to-buy-online-now/",
+      "published": "2026-10-07T20:30:28Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -1471,15 +1480,6 @@
       "title": "TICKET DETAILS: BOREHAM WOOD (A)",
       "url": "https://afcfylde.co.uk/news/2026/october/06/ticket-details--boreham-wood--a-/",
       "published": "2026-10-06T09:00:00Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Next FREE Networking Event",
-      "url": "https://chelmsfordcityfc.com/news/next-free-networking-event-5/",
-      "published": "2026-10-06T08:47:33Z"
     }
   ]
 }
