@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-07T23:52:55Z",
+  "generatedAt": "2026-10-08T06:04:07Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Youth round-up, Sunday 4th October",
+      "url": "https://www.horshamfc.co.uk/2026/10/07/youth-round-up-sunday-4th-october/",
+      "published": "2026-10-07T21:42:06Z"
+    },
     {
       "club": "Weston-super-Mare",
       "code": "WSM",
@@ -789,6 +798,15 @@
       "published": "2026-10-07T13:56:43Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Queen Mary University Research Study",
+      "url": "https://daggers.co.uk/queen-mary-university-research-study/",
+      "published": "2026-10-07T13:36:50Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -967,6 +985,15 @@
       "title": "FA Youth Cup 3rd Qualifying Round",
       "url": "https://www.fgr.co.uk/news/fa-youth-cup-3rd-qualifying-round-up/",
       "published": "2026-10-07T10:00:00Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Match-Worn Yellow Shirts Auction Now Live",
+      "url": "https://daggers.co.uk/match-worn-yellow-shirts-auction-now-live/",
+      "published": "2026-10-07T09:47:16Z"
     },
     {
       "club": "Torquay United",
@@ -1212,6 +1239,15 @@
       "published": "2026-10-06T16:00:00Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Pathway Academy Trial 2027/28 – October Half Term",
+      "url": "https://daggers.co.uk/pathway-academy-trial-2027-28-october-half-term/",
+      "published": "2026-10-06T15:49:03Z"
+    },
+    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1444,42 +1480,6 @@
       "title": "Your Matchday Guide: Fulham PL2",
       "url": "https://hornchurchfc.com/your-matchday-guide-fulham-pl2/",
       "published": "2026-10-06T09:17:52Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Preview: Fulham PL2",
-      "url": "https://hornchurchfc.com/preview-fulham-pl2/",
-      "published": "2026-10-06T09:11:54Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "MARC WHITE LAUNCHES NEW SHOW | Marc White Fixes Football",
-      "url": "https://dwfc.co.uk/2026/10/marc-white-launches-new-show-marc-white-fixes-football/",
-      "published": "2026-10-06T09:03:21Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Farnborough Football Club Fireworks & Fun Fair 2026",
-      "url": "https://farnboroughfc.co.uk/2026/10/farnborough-football-club-fireworks-fun-fair-2026/",
-      "published": "2026-10-06T09:00:30Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "TICKET DETAILS: BOREHAM WOOD (A)",
-      "url": "https://afcfylde.co.uk/news/2026/october/06/ticket-details--boreham-wood--a-/",
-      "published": "2026-10-06T09:00:00Z"
     }
   ]
 }
