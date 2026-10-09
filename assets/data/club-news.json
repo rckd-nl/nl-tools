@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-09T00:00:18Z",
+  "generatedAt": "2026-10-09T06:08:51Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -679,6 +679,15 @@
       "title": "Match Preview: Sutton United (A)",
       "url": "https://www.borehamwoodfootballclub.co.uk/match-preview-sutton-united-a-3/",
       "published": "2026-10-08T17:30:45Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham v Maidstone United – match preview",
+      "url": "https://www.horshamfc.co.uk/2026/10/08/horsham-v-maidstone-united-match-preview-2/",
+      "published": "2026-10-08T17:07:06Z"
     },
     {
       "club": "Macclesfield",
@@ -1048,6 +1057,15 @@
       "title": "Farnham vs Truro City – Match Highlights",
       "url": "https://trurocity.co.uk/2026/10/farnham-vs-truro-city-match-highlights/",
       "published": "2026-10-08T07:20:17Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Youth round-up, Sunday 4th October",
+      "url": "https://www.horshamfc.co.uk/2026/10/07/youth-round-up-sunday-4th-october/",
+      "published": "2026-10-07T21:42:06Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1462,24 +1480,6 @@
       "title": "Under-23s: Southend 2-4 Swindon Town",
       "url": "https://southendunited.co.uk/news/2026/october/07/under-23s--southend-2-4-swindon-town/",
       "published": "2026-10-07T09:09:18Z"
-    },
-    {
-      "club": "Wealdstone",
-      "code": "WEA",
-      "short": "Wealdstone",
-      "domain": "wealdstone-fc.com",
-      "title": "MATCHDAY VIEW: All Welcome This Saturday As Yeovil Visit The Vale",
-      "url": "https://www.wealdstonefc.com/matchday-view-all-welcome-at-the-vale-as-yeovil-come-to-town/",
-      "published": "2026-10-07T08:44:50Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "“𝗜𝘁 𝘄𝗮𝘀 𝗶𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁 𝗳𝗼𝗿 𝘂𝘀” | Luke Coulson post – Mendip Broadwalk (H)",
-      "url": "https://wsmafc.co.uk/%f0%9d%97%9c%f0%9d%98%81-%f0%9d%98%84%f0%9d%97%ae%f0%9d%98%80-%f0%9d%97%b6%f0%9d%97%ba%f0%9d%97%bd%f0%9d%97%bc%f0%9d%97%bf%f0%9d%98%81%f0%9d%97%ae%f0%9d%97%bb%f0%9d%98%81-%f0%9d%97%b3%f0%9d%97%bc/",
-      "published": "2026-10-07T08:30:09Z"
     }
   ]
 }
