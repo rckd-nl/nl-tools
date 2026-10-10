@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-10T02:26:39Z",
+  "generatedAt": "2026-10-10T09:03:28Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/news/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -942,6 +942,15 @@
       "published": "2026-10-09T14:55:41Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Beigel Bar Brick Lane joins our matchday food offering",
+      "url": "https://daggers.co.uk/beigel-bar-brick-lane-joins-our-matchday-food-offering/",
+      "published": "2026-10-09T14:55:13Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -1048,6 +1057,15 @@
       "title": "Tickets: Worthing (A)",
       "url": "https://southendunited.co.uk/news/2026/october/09/tickets--worthing--a-/",
       "published": "2026-10-09T13:15:00Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Young Daggers Fans Go Behind the Scenes at Victoria Road",
+      "url": "https://daggers.co.uk/young-daggers-fans-go-behind-the-scenes-at-victoria-road/",
+      "published": "2026-10-09T13:14:49Z"
     },
     {
       "club": "Macclesfield",
@@ -1462,24 +1480,6 @@
       "title": "Match Preview: Sutton United (A)",
       "url": "https://www.borehamwoodfootballclub.co.uk/match-preview-sutton-united-a-3/",
       "published": "2026-10-08T17:30:45Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham v Maidstone United – match preview",
-      "url": "https://www.horshamfc.co.uk/2026/10/08/horsham-v-maidstone-united-match-preview-2/",
-      "published": "2026-10-08T17:07:06Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SECURE YOUR SOUTH SHIELDS TICKETS FOR SATURDAY",
-      "url": "https://macclesfieldfc.com/latest-news/secure-your-south-shields-tickets-for-saturday/",
-      "published": "2026-10-08T17:00:51Z"
     }
   ]
 }
