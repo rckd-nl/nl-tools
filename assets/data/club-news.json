@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-10T22:59:33Z",
+  "generatedAt": "2026-10-11T01:54:03Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Highlights: Slough Town (H)",
+      "url": "https://torquayunited.com/highlights-slough-town-h-3/",
+      "published": "2026-10-11T00:36:14Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -609,6 +618,24 @@
       "published": "2026-10-10T22:01:45Z"
     },
     {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Match Report | York City 1-1 Northampton Town",
+      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/october/10/match-report---york-city-1-1-northampton-town/",
+      "published": "2026-10-10T21:23:00Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "26/27 Match Report: Hemel Hempstead (H)",
+      "url": "https://daggers.co.uk/26-27-match-report-hemel-hempstead-h/",
+      "published": "2026-10-10T21:12:55Z"
+    },
+    {
       "club": "Curzon Ashton",
       "code": "CUR",
       "short": "Curzon Ashton",
@@ -625,6 +652,15 @@
       "title": "Alty TV Highlights | Alty 3 Aldershot 1",
       "url": "https://altrinchamfc.com/blogs/news/alty-tv-highlights-alty-3-aldershot-town-1",
       "published": "2026-10-10T20:31:02Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "U18 Match Report | Stockport County 1-0 York City",
+      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/october/10/u18-match-report---stockport-county-1-0-york-city/",
+      "published": "2026-10-10T20:30:00Z"
     },
     {
       "club": "Ebbsfleet United",
@@ -852,15 +888,6 @@
       "published": "2026-10-10T17:30:00Z"
     },
     {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Match Report | York City 1-1 Northampton Town",
-      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/october/10/match-report---york-city-1-1-northampton-town/",
-      "published": "2026-10-10T17:23:15Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1086,6 +1113,15 @@
       "published": "2026-10-10T10:50:50Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Kane Crichlow Wins ‘Inner London Cleaning’ September GOTM",
+      "url": "https://daggers.co.uk/kane-crichlow-wins-inner-london-cleaning-september-gotm/",
+      "published": "2026-10-10T10:24:50Z"
+    },
+    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -1120,6 +1156,15 @@
       "title": "Preview: Bedford Town (H)",
       "url": "https://chesterfc.com/10/10/preview-bedford-town-h-2/",
       "published": "2026-10-10T09:25:20Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Nathan Ashmore voted the September Player of the Month!",
+      "url": "https://daggers.co.uk/nathan-ashmore-voted-the-september-player-of-the-month/",
+      "published": "2026-10-10T09:00:00Z"
     },
     {
       "club": "Forest Green Rovers",
@@ -1435,51 +1480,6 @@
       "title": "SILKMEN WOMEN WELCOME LIV CASEMORE TO THE CLUB",
       "url": "https://macclesfieldfc.com/latest-news/silkmen-women-welcome-liv-casemore-to-the-club/",
       "published": "2026-10-09T15:15:26Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "UNPACKED: SLOUGH TOWN",
-      "url": "https://torquayunited.com/unpacked-slough-town/",
-      "published": "2026-10-09T15:10:09Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Match Day At Plainmoor | Slough Town",
-      "url": "https://torquayunited.com/match-day-at-plainmoor-slough-town/",
-      "published": "2026-10-09T15:08:09Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Matchday Guide: Solihull Moors (H)",
-      "url": "https://worthingfc.com/2026/10/matchday-guide-solihull-moors-h/",
-      "published": "2026-10-09T15:07:33Z"
-    },
-    {
-      "club": "Hartlepool United",
-      "code": "HAR",
-      "short": "Hartlepool",
-      "domain": "hartlepoolunited.co.uk",
-      "title": "Pools complete signing of defender Max Clark",
-      "url": "https://www.hartlepoolunited.co.uk/pools-complete-signing-of-defender-max-clark/",
-      "published": "2026-10-09T14:59:13Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Match Preview: Matt Gray ahead of Hornchurch (A)",
-      "url": "https://eastleighfc.com/2026/10/match-preview-matt-gray-ahead-of-hornchurch-a/",
-      "published": "2026-10-09T14:55:41Z"
     }
   ]
 }
