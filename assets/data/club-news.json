@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-11T23:13:42Z",
+  "generatedAt": "2026-10-12T02:27:28Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -760,6 +760,15 @@
       "title": "City in Action – Gosport Borough – Southern League Premier South",
       "url": "https://www.bathcityfc.com/city-in-action-gosport-borough-southern-league-premier-south/",
       "published": "2026-10-11T13:08:02Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham v Maidstone United – match report",
+      "url": "https://www.horshamfc.co.uk/2026/10/11/horsham-v-maidstone-united-match-report/",
+      "published": "2026-10-11T13:02:51Z"
     },
     {
       "club": "Macclesfield",
@@ -1471,15 +1480,6 @@
       "title": "Report: Hornchurch 2-0 Eastleigh",
       "url": "https://eastleighfc.com/2026/10/report-hornchurch-2-0-eastleigh/",
       "published": "2026-10-10T15:59:11Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Recap: Carlisle United 0-0 Harriers",
-      "url": "https://harriers.co.uk/news/2026/10/10/recap-carlisle-united-0-0-harriers",
-      "published": "2026-10-10T15:53:00Z"
     }
   ]
 }
