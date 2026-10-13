@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-13T16:30:07Z",
+  "generatedAt": "2026-10-13T21:36:32Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -288,7 +288,7 @@
       "domain": "kltown.co.uk",
       "feed": "https://kltown.co.uk/feed",
       "ok": true,
-      "count": 39,
+      "count": 38,
       "error": ""
     },
     {
@@ -302,10 +302,10 @@
     {
       "club": "Macclesfield",
       "domain": "macclesfieldfc.com",
-      "feed": "https://macclesfieldfc.com/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Marine",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/news/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,13 +582,130 @@
   ],
   "items": [
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "VACANCIES: PART-TIME ACADEMY COACHES",
-      "url": "https://macclesfieldfc.com/latest-news/vacancies-part-time-academy-coaches/",
-      "published": "2026-10-13T15:00:23Z"
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Match Report | Dorking Wanderers 1-0 Ashford Town – 13/10/26",
+      "url": "https://dwfc.co.uk/2026/10/match-report-dorking-wanderers-1-0-ashford-town-13-10-26/",
+      "published": "2026-10-13T21:31:26Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Vicente Reyes on tonight’s draw against Leicester City in the National League Cup",
+      "url": "https://wokingfc.co.uk/10/13/vicente-reyes-on-tonights-draw-against-leicester-city-in-the-national-league-cup/",
+      "published": "2026-10-13T21:28:00Z"
+    },
+    {
+      "club": "Woking",
+      "code": "WOK",
+      "short": "Woking",
+      "domain": "wokingfc.co.uk",
+      "title": "Craig Ross on our draw tonight against Leicester City in the National League Cup",
+      "url": "https://wokingfc.co.uk/10/13/craig-ross-on-our-draw-tonight-against-leicester-city-in-the-national-league-cup/",
+      "published": "2026-10-13T21:26:02Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Match Report: Wivenhoe Town 2-0 Chelmsford City",
+      "url": "https://chelmsfordcityfc.com/news/match-report-wivenhoe-town-2-0-chelmsford-city/",
+      "published": "2026-10-13T20:50:49Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Flight Club Brings Football and Business Together at Plainmoor",
+      "url": "https://torquayunited.com/flight-club-brings-football-and-business-together-at-plainmoor/",
+      "published": "2026-10-13T20:40:08Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Ashford Town (H) | Marc White’s Pre-Match Interview",
+      "url": "https://dwfc.co.uk/2026/10/ashford-town-h-marc-whites-pre-match-interview/",
+      "published": "2026-10-13T18:37:03Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "TEAM NEWS | Hartlepool United vs Newcastle United Under 21",
+      "url": "https://www.hartlepoolunited.co.uk/team-news-hartlepool-united-vs-newcastle-united-under-21/",
+      "published": "2026-10-13T17:05:20Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Hewlett loan at BMF extended until December",
+      "url": "https://wsmafc.co.uk/hewlett-loan-at-bmf-extended-until-december/",
+      "published": "2026-10-13T17:00:39Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "SIGNING: KYRELL ARRIVES FROM AMMIES",
+      "url": "https://afcfylde.co.uk/news/2026/october/13/kyrell-arrives-from-ammies/",
+      "published": "2026-10-13T17:00:00Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Joe Emery loan extended",
+      "url": "https://www.southshieldsfc.co.uk/joe-emery-loan-extended/",
+      "published": "2026-10-13T16:59:41Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "Hartlepool United confirm signing of defender Sam Lavelle",
+      "url": "https://www.hartlepoolunited.co.uk/hartlepool-united-confirm-signing-of-defender-sam-lavelle/",
+      "published": "2026-10-13T16:44:09Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "💬 “It’s the next pieces of the jigsaw puzzle,” co-chairman Michael Westcott on Youth Appointments",
+      "url": "https://torquayunited.com/%f0%9f%92%ac-its-the-next-pieces-of-the-jigsaw-puzzle-co-chairman-michael-westcott-on-youth-appointments/",
+      "published": "2026-10-13T16:43:53Z"
+    },
+    {
+      "club": "Gateshead",
+      "code": "GAT",
+      "short": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "title": "UPDATE | September 2026 Wages",
+      "url": "https://gateshead-fc.com/update-september-2026-wages/",
+      "published": "2026-10-13T16:28:28Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "U18 Match Report | Burton Albion 0-3 York City",
+      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/october/13/u18-match-report---burton-albion-0-3-york-city/",
+      "published": "2026-10-13T15:46:32Z"
     },
     {
       "club": "Maidstone United",
@@ -753,15 +870,6 @@
       "published": "2026-10-13T11:05:28Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "DATE CONFIRMED: STALYBRIDGE CELTIC (A)",
-      "url": "https://macclesfieldfc.com/commercial/date-confirmed-stalybridge-celtic-a/",
-      "published": "2026-10-13T11:00:21Z"
-    },
-    {
       "club": "Wealdstone",
       "code": "WEA",
       "short": "Wealdstone",
@@ -778,15 +886,6 @@
       "title": "£15 hospitality available for Hyde United fixture!",
       "url": "https://chesterfc.com/10/13/hydehospitality/",
       "published": "2026-10-13T10:33:57Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "EMIRATES FA CUP HOSPITALITY PACKAGES REMAIN AVAILABLE.",
-      "url": "https://macclesfieldfc.com/latest-news/emirates-fa-cup-hospitality-packages-remain-available/",
-      "published": "2026-10-13T10:00:37Z"
     },
     {
       "club": "AFC Fylde",
@@ -814,15 +913,6 @@
       "title": "A first chat with Paul Tait",
       "url": "https://chesterfc.com/10/13/a-first-chat-with-paul-tait/",
       "published": "2026-10-13T09:03:39Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "DATE CONFIRMED: OXFORD CITY (A)",
-      "url": "https://macclesfieldfc.com/commercial/date-confirmed-oxford-city-a/",
-      "published": "2026-10-13T09:00:50Z"
     },
     {
       "club": "Chippenham Town",
@@ -1095,15 +1185,6 @@
       "published": "2026-10-12T14:00:40Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MACCLESFIELD WOMEN – MATCH REPORT",
-      "url": "https://macclesfieldfc.com/womens-team/macclesfield-women-match-report/",
-      "published": "2026-10-12T14:00:09Z"
-    },
-    {
       "club": "Boreham Wood",
       "code": "BHW",
       "short": "Boreham Wood",
@@ -1111,15 +1192,6 @@
       "title": "Chairman’s Notes: Woking (H)",
       "url": "https://www.borehamwoodfootballclub.co.uk/chairmans-notes-woking-h/",
       "published": "2026-10-12T13:20:37Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "ROONEY’S SOUTH SHIELDS REACTION QUOTES",
-      "url": "https://macclesfieldfc.com/latest-news/rooneys-south-shields-reaction-quotes/",
-      "published": "2026-10-12T13:00:15Z"
     },
     {
       "club": "York City",
@@ -1147,6 +1219,15 @@
       "title": "Match Preview | Warrington Rylands (A)",
       "url": "https://curzon-ashton.co.uk/match-preview-warrington-rylands-a/",
       "published": "2026-10-12T12:42:12Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "GALLERY | Hereford FC 0-1 Hednesford Town",
+      "url": "https://herefordfc.co.uk/2026/10/gallery-hereford-fc-0-1-hednesford-town/",
+      "published": "2026-10-12T12:30:27Z"
     },
     {
       "club": "Maidstone United",
@@ -1257,15 +1338,6 @@
       "published": "2026-10-12T10:48:50Z"
     },
     {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Live Football in the Daggers Bar",
-      "url": "https://daggers.co.uk/live-football-in-the-daggers-bar/",
-      "published": "2026-10-12T10:45:21Z"
-    },
-    {
       "club": "Torquay United",
       "code": "TOR",
       "short": "Torquay",
@@ -1311,24 +1383,6 @@
       "published": "2026-10-12T10:11:04Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "EMIRATES FA CUP HOSPITALITY PACKAGES AVAILABLE",
-      "url": "https://macclesfieldfc.com/commercial/emirates-fa-cup-hospitality-packages-available/",
-      "published": "2026-10-12T10:05:36Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "A MESSAGE FROM FRANCIS JEFFERS",
-      "url": "https://macclesfieldfc.com/latest-news/a-message-from-francis-jeffers/",
-      "published": "2026-10-12T10:00:52Z"
-    },
-    {
       "club": "Forest Green Rovers",
       "code": "FGR",
       "short": "Forest Green",
@@ -1336,15 +1390,6 @@
       "title": "FA Youth Cup 3rd Qualifying Round",
       "url": "https://www.fgr.co.uk/news/fa-youth-cup-3rd-qualifying-round-up/",
       "published": "2026-10-12T10:00:00Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Supporters’ Club Coach Travel – Farnborough, Braintree and Maidenhead",
-      "url": "https://daggers.co.uk/supporters-club-coach-travel-farnborough-braintree-and-maidenhead/",
-      "published": "2026-10-12T09:57:21Z"
     },
     {
       "club": "Maidstone United",
@@ -1372,15 +1417,6 @@
       "title": "Up Next: Dover Athletic vs Dorking Wanderers – Emirates FA Cup",
       "url": "https://doverathletic.com/news/up-next-dover-athletic-vs-dorking-wanderers-emirates-fa-cup/",
       "published": "2026-10-12T09:32:15Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "ACTION REPLAY: SOUTH SHIELDS (H)",
-      "url": "https://macclesfieldfc.com/latest-news/action-replay-south-shields-h-2/",
-      "published": "2026-10-12T09:00:15Z"
     },
     {
       "club": "Tonbridge Angels",
@@ -1444,42 +1480,6 @@
       "title": "Highlights: Eastleigh (H)",
       "url": "https://hornchurchfc.com/highlights-eastleigh-h/",
       "published": "2026-10-12T07:46:43Z"
-    },
-    {
-      "club": "Hornchurch",
-      "code": "HOR",
-      "short": "Hornchurch",
-      "domain": "hornchurchfc.com",
-      "title": "Report: Eastleigh (H)",
-      "url": "https://hornchurchfc.com/report-eastleigh-h/",
-      "published": "2026-10-12T07:43:17Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "MATCH REPORT: BLACKBURN ROVERS WOMEN 0-2 AFC FYLDE WOMEN",
-      "url": "https://afcfylde.co.uk/news/2026/october/12/match-report--blackburn-rovers-0-2-afc-fylde/",
-      "published": "2026-10-12T07:30:00Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "This week at the Gallagher Stadium (w/c 11/10/2026)",
-      "url": "https://maidstoneunited.co.uk/10/12/this-week-at-the-gallagher-stadium-w-c-11-10-2026/",
-      "published": "2026-10-11T23:01:41Z"
-    },
-    {
-      "club": "Wealdstone",
-      "code": "WEA",
-      "short": "Wealdstone",
-      "domain": "wealdstone-fc.com",
-      "title": "VIDEO REACTION: “Red Cards Are Killing Us” – Waddock’s Yeovil Verdict",
-      "url": "https://www.wealdstonefc.com/video-reaction-red-cards-are-killing-us-waddocks-yeovil-verdict/",
-      "published": "2026-10-11T21:25:57Z"
     }
   ]
 }
