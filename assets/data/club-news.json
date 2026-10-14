@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-14T00:39:28Z",
+  "generatedAt": "2026-10-14T05:26:58Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Ebbsfleet United",
+      "code": "EBB",
+      "short": "Ebbsfleet",
+      "domain": "ebbsfleetunited.co.uk",
+      "title": "Fleet 5-0 AFC Totton",
+      "url": "https://ebbsfleetunited.co.uk/fleet-5-0-afc-totton/",
+      "published": "2026-10-14T02:19:01Z"
+    },
     {
       "club": "Bath City",
       "code": "BAT",
@@ -1471,15 +1480,6 @@
       "title": "Tickets: Forest Green Rovers (A)",
       "url": "https://southendunited.co.uk/news/2026/october/12/tickets--forest-green-rovers--a-/",
       "published": "2026-10-12T10:24:27Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Highlights | Chesham United 0-5 Chelmsford City |",
-      "url": "https://chelmsfordcityfc.com/news/highlights-chesham-united-0-5-chelmsford-city/",
-      "published": "2026-10-12T10:15:40Z"
     }
   ]
 }
