@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-14T19:44:48Z",
+  "generatedAt": "2026-10-14T22:41:42Z",
   "maxItems": 100,
   "sources": [
     {
@@ -86,10 +86,10 @@
     {
       "club": "Gateshead",
       "domain": "gateshead-fc.com",
-      "feed": "https://gateshead-fc.com/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Hartlepool United",
@@ -166,10 +166,10 @@
     {
       "club": "Wealdstone",
       "domain": "wealdstone-fc.com",
-      "feed": "https://www.wealdstonefc.com/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Woking",
@@ -358,18 +358,18 @@
     {
       "club": "South Shields",
       "domain": "southshieldsfc.co.uk",
-      "feed": "https://www.southshieldsfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Southport",
       "domain": "southportfc.net",
-      "feed": "https://southportfc.net/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Spennymoor Town",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "🏆 INTO ROUND ONE! | FA Youth Cup Highlights vs Thatcham Town",
+      "url": "https://chippenhamtown.com/10/14/%f0%9f%8f%86-into-round-one-fa-youth-cup-highlights-vs-thatcham-town/",
+      "published": "2026-10-14T20:00:18Z"
+    },
+    {
       "club": "Macclesfield",
       "code": "MAC",
       "short": "Macclesfield",
@@ -661,15 +670,6 @@
       "title": "Neil wins manager of the month!",
       "url": "https://altrinchamfc.com/blogs/news/neil-wins-manager-of-the-month",
       "published": "2026-10-14T13:59:01Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Ticket Information: Farnborough (A)",
-      "url": "https://daggers.co.uk/ticket-information-farnborough-a-2/",
-      "published": "2026-10-14T13:49:36Z"
     },
     {
       "club": "Chippenham Town",
@@ -987,6 +987,15 @@
       "published": "2026-10-13T21:26:02Z"
     },
     {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Gallery: Frome Town",
+      "url": "https://chippenhamtown.com/10/13/frome-town-13th-october-2026/",
+      "published": "2026-10-13T21:00:22Z"
+    },
+    {
       "club": "Chelmsford City",
       "code": "CHC",
       "short": "Chelmsford",
@@ -1050,15 +1059,6 @@
       "published": "2026-10-13T17:00:00Z"
     },
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Joe Emery loan extended",
-      "url": "https://www.southshieldsfc.co.uk/joe-emery-loan-extended/",
-      "published": "2026-10-13T16:59:41Z"
-    },
-    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -1075,15 +1075,6 @@
       "title": "💬 “It’s the next pieces of the jigsaw puzzle,” co-chairman Michael Westcott on Youth Appointments",
       "url": "https://torquayunited.com/%f0%9f%92%ac-its-the-next-pieces-of-the-jigsaw-puzzle-co-chairman-michael-westcott-on-youth-appointments/",
       "published": "2026-10-13T16:43:53Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "UPDATE | September 2026 Wages",
-      "url": "https://gateshead-fc.com/update-september-2026-wages/",
-      "published": "2026-10-13T16:28:28Z"
     },
     {
       "club": "York City",
@@ -1185,15 +1176,6 @@
       "published": "2026-10-13T14:06:17Z"
     },
     {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Darlington fixture rescheduled",
-      "url": "https://www.southshieldsfc.co.uk/darlington-fixture-rescheduled/",
-      "published": "2026-10-13T13:59:14Z"
-    },
-    {
       "club": "Chippenham Town",
       "code": "CHI",
       "short": "Chippenham",
@@ -1228,15 +1210,6 @@
       "title": "Town Clip Robins’ Wings to Extend Lead",
       "url": "https://etfc.london/town-clip-robins-wings-to-extend-lead/",
       "published": "2026-10-13T12:42:25Z"
-    },
-    {
-      "club": "Dagenham & Redbridge",
-      "code": "DAG",
-      "short": "Dag & Red",
-      "domain": "daggers.co.uk",
-      "title": "Matchday information: Great Wakering Rovers",
-      "url": "https://daggers.co.uk/matchday-information-great-wakering-rovers/",
-      "published": "2026-10-13T11:57:34Z"
     },
     {
       "club": "Hartlepool United",
@@ -1282,15 +1255,6 @@
       "title": "DATE CONFIRMED: STALYBRIDGE CELTIC (A)",
       "url": "https://macclesfieldfc.com/commercial/date-confirmed-stalybridge-celtic-a/",
       "published": "2026-10-13T11:00:21Z"
-    },
-    {
-      "club": "Wealdstone",
-      "code": "WEA",
-      "short": "Wealdstone",
-      "domain": "wealdstone-fc.com",
-      "title": "WOMEN’S LATEST: “Building Game By Game” – Boss Vigneswaran Positive After Promotion",
-      "url": "https://www.wealdstonefc.com/womens-latest-building-game-by-game-boss-vigneswaran-positive-after-promotion/",
-      "published": "2026-10-13T10:34:24Z"
     },
     {
       "club": "Chester",
@@ -1480,6 +1444,42 @@
       "title": "ACCESS ALL AREAS | Worthing FC 5-0 Solihull Moors",
       "url": "https://worthingfc.com/2026/10/access-all-areas-worthing-fc-5-0-solihull-moors/",
       "published": "2026-10-12T19:00:13Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Match Report: Ashford Town Women 6-1 Worthing FC Women",
+      "url": "https://worthingfc.com/2026/10/match-report-ashford-town-women-6-1-worthing-fc-women/",
+      "published": "2026-10-12T18:16:58Z"
+    },
+    {
+      "club": "Alfreton Town",
+      "code": "ALF",
+      "short": "Alfreton",
+      "domain": "alfretontownfootballclub.com",
+      "title": "Match Preview: Ashton United v Alfreton Town",
+      "url": "https://alfretontownfootballclub.com/2026/10/12/match-preview-ashton-united-v-alfreton-town/",
+      "published": "2026-10-12T18:08:20Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Gallery: Worthing 5-0 Solihull Moors",
+      "url": "https://worthingfc.com/2026/10/gallery-worthing-5-0-solihull-moors/",
+      "published": "2026-10-12T18:06:18Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "MUFC Women Highlights: Greenwich Borough",
+      "url": "https://maidstoneunited.co.uk/10/12/mufc-women-highlights-greenwich-borough/",
+      "published": "2026-10-12T17:00:36Z"
     }
   ]
 }
