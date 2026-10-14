@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-14T15:33:36Z",
+  "generatedAt": "2026-10-14T19:44:48Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -296,7 +296,7 @@
       "domain": "leamingtonfc.co.uk",
       "feed": "https://leamingtonfc.co.uk/feed",
       "ok": true,
-      "count": 31,
+      "count": 30,
       "error": ""
     },
     {
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,42 @@
   ],
   "items": [
     {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "FA CUP MEMORIES AT THE LEASING.COM STADIUM",
+      "url": "https://macclesfieldfc.com/latest-news/fa-cup-memories-at-the-leasing-com-stadium/",
+      "published": "2026-10-14T17:00:58Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "Fixture News – County Cup tie replaces Malvern Town away date",
+      "url": "https://www.bathcityfc.com/fixture-news-county-cup-tie-replaces-malvern-town-away-date/",
+      "published": "2026-10-14T17:00:07Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Loan Watch: Hewlett and Green both in action",
+      "url": "https://wsmafc.co.uk/loan-watch-131026/",
+      "published": "2026-10-14T16:45:43Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Medical Update | 14/10/2026",
+      "url": "https://dwfc.co.uk/2026/10/medical-update-14-10-2026/",
+      "published": "2026-10-14T15:58:16Z"
+    },
+    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -625,6 +661,15 @@
       "title": "Neil wins manager of the month!",
       "url": "https://altrinchamfc.com/blogs/news/neil-wins-manager-of-the-month",
       "published": "2026-10-14T13:59:01Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Ticket Information: Farnborough (A)",
+      "url": "https://daggers.co.uk/ticket-information-farnborough-a-2/",
+      "published": "2026-10-14T13:49:36Z"
     },
     {
       "club": "Chippenham Town",
@@ -883,7 +928,7 @@
       "code": "BAT",
       "short": "Bath",
       "domain": "bathcityfc.com",
-      "title": "Second goals secure hard-fought win for Romans at Evesham",
+      "title": "Second half goals secure hard-fought win for Romans at Evesham",
       "url": "https://www.bathcityfc.com/second-goals-secure-hard-fought-win-for-romans-at-evesham/",
       "published": "2026-10-13T23:08:31Z"
     },
@@ -1185,6 +1230,15 @@
       "published": "2026-10-13T12:42:25Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Matchday information: Great Wakering Rovers",
+      "url": "https://daggers.co.uk/matchday-information-great-wakering-rovers/",
+      "published": "2026-10-13T11:57:34Z"
+    },
+    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -1426,60 +1480,6 @@
       "title": "ACCESS ALL AREAS | Worthing FC 5-0 Solihull Moors",
       "url": "https://worthingfc.com/2026/10/access-all-areas-worthing-fc-5-0-solihull-moors/",
       "published": "2026-10-12T19:00:13Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Match Report: Ashford Town Women 6-1 Worthing FC Women",
-      "url": "https://worthingfc.com/2026/10/match-report-ashford-town-women-6-1-worthing-fc-women/",
-      "published": "2026-10-12T18:16:58Z"
-    },
-    {
-      "club": "Alfreton Town",
-      "code": "ALF",
-      "short": "Alfreton",
-      "domain": "alfretontownfootballclub.com",
-      "title": "Match Preview: Ashton United v Alfreton Town",
-      "url": "https://alfretontownfootballclub.com/2026/10/12/match-preview-ashton-united-v-alfreton-town/",
-      "published": "2026-10-12T18:08:20Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Gallery: Worthing 5-0 Solihull Moors",
-      "url": "https://worthingfc.com/2026/10/gallery-worthing-5-0-solihull-moors/",
-      "published": "2026-10-12T18:06:18Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "MUFC Women Highlights: Greenwich Borough",
-      "url": "https://maidstoneunited.co.uk/10/12/mufc-women-highlights-greenwich-borough/",
-      "published": "2026-10-12T17:00:36Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Paul Tait Appointed Youth Team Manager",
-      "url": "https://chesterfc.com/10/12/paul-tait-appointed-youth-team-manager/",
-      "published": "2026-10-12T16:00:06Z"
-    },
-    {
-      "club": "Wealdstone",
-      "code": "WEA",
-      "short": "Wealdstone",
-      "domain": "wealdstone-fc.com",
-      "title": "VACANCY: Head of Stadium Operations",
-      "url": "https://www.wealdstonefc.com/vacancy-head-of-stadium-operations/",
-      "published": "2026-10-12T16:00:01Z"
     }
   ]
 }
