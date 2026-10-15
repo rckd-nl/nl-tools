@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-15T00:55:59Z",
+  "generatedAt": "2026-10-15T05:57:01Z",
   "maxItems": 100,
   "sources": [
     {
@@ -121,7 +121,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 503"
     },
     {
       "club": "Solihull Moors",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 429"
+      "feed": "https://daggers.co.uk/feed/",
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "club": "Dorking Wanderers",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -589,15 +589,6 @@
       "title": "🏆 INTO ROUND ONE! | FA Youth Cup Highlights vs Thatcham Town",
       "url": "https://chippenhamtown.com/10/14/%f0%9f%8f%86-into-round-one-fa-youth-cup-highlights-vs-thatcham-town/",
       "published": "2026-10-14T20:00:18Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "George Cox signs!",
-      "url": "https://www.horshamfc.co.uk/2026/10/14/george-cox-signs/",
-      "published": "2026-10-14T17:47:00Z"
     },
     {
       "club": "Macclesfield",
@@ -679,6 +670,15 @@
       "title": "Neil wins manager of the month!",
       "url": "https://altrinchamfc.com/blogs/news/neil-wins-manager-of-the-month",
       "published": "2026-10-14T13:59:01Z"
+    },
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Ticket Information: Farnborough (A)",
+      "url": "https://daggers.co.uk/ticket-information-farnborough-a-2/",
+      "published": "2026-10-14T13:49:36Z"
     },
     {
       "club": "Chippenham Town",
@@ -1248,6 +1248,15 @@
       "published": "2026-10-13T12:42:25Z"
     },
     {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Matchday information: Great Wakering Rovers",
+      "url": "https://daggers.co.uk/matchday-information-great-wakering-rovers/",
+      "published": "2026-10-13T11:57:34Z"
+    },
+    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -1471,15 +1480,6 @@
       "title": "Interview: Jason Brookes Post-Sholing Win",
       "url": "https://eastleighfc.com/2026/10/interview-jason-brookes-post-sholing-win/",
       "published": "2026-10-12T21:16:32Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "FA Youth Cup Report: Sholing 4-7 Eastleigh",
-      "url": "https://eastleighfc.com/2026/10/fa-youth-cup-report-sholing-4-7-eastleigh/",
-      "published": "2026-10-12T20:50:54Z"
     }
   ]
 }
