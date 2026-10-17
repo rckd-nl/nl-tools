@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-17T05:03:13Z",
+  "generatedAt": "2026-10-17T09:22:52Z",
   "maxItems": 100,
   "sources": [
     {
@@ -129,7 +129,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 403"
     },
     {
       "club": "Southend United",
@@ -329,7 +329,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Peterborough Sports",
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Matchday! Home v Radcliffe 3pm",
+      "url": "https://southportfc.net/matchday-home-v-radcliffe-3pm/",
+      "published": "2026-10-17T08:57:05Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SILKMEN ACADEMY ANNOUNCE TWO EXCITING FIRST TEAM MASTERCLASSES",
+      "url": "https://macclesfieldfc.com/mens-first-team/silkmen-academy-announce-two-exciting-first-team-masterclasses/",
+      "published": "2026-10-17T08:16:26Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "MATCH PREVIEW: AFC FYLDE WOMEN VS LEEDS UNITED WOMEN",
+      "url": "https://afcfylde.co.uk/news/2026/october/17/match-preview--afc-fylde-vs-leeds-united/",
+      "published": "2026-10-17T07:00:00Z"
+    },
     {
       "club": "Chelmsford City",
       "code": "CHC",
@@ -1453,33 +1480,6 @@
       "title": "Bluebirds Pontoon – THE DRAW",
       "url": "https://chippenhamtown.com/10/15/bluebirds-pontoon-the-draw/",
       "published": "2026-10-15T14:00:00Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "U18s REPORT | Easington Sports 1-4 Hereford FC",
-      "url": "https://herefordfc.co.uk/2026/10/u18s-report-easington-sports-1-4-hereford-fc/",
-      "published": "2026-10-15T13:59:39Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Ticket Information: Kidderminster Harriers (A)",
-      "url": "https://worthingfc.com/2026/10/ticket-information-kidderminster-harriers-a/",
-      "published": "2026-10-15T13:10:16Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "CFC Academy to host Race Night at the Deva Community Stadium!",
-      "url": "https://chesterfc.com/10/15/racenight/",
-      "published": "2026-10-15T13:02:40Z"
     }
   ]
 }
