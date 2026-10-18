@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-17T23:28:26Z",
+  "generatedAt": "2026-10-18T01:34:48Z",
   "maxItems": 100,
   "sources": [
     {
@@ -430,10 +430,10 @@
     {
       "club": "Dagenham & Redbridge",
       "domain": "daggers.co.uk",
-      "feed": "https://daggers.co.uk/feed/",
-      "ok": true,
-      "count": 12,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "club": "Dorking Wanderers",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Highlights: Oxford City (H) | Emirates FA Cup",
+      "url": "https://torquayunited.com/highlights-oxford-city-h-emirates-fa-cup/",
+      "published": "2026-10-18T00:29:41Z"
+    },
     {
       "club": "Maidstone United",
       "code": "MSU",
@@ -1471,15 +1480,6 @@
       "title": "SSFC Women take on Alnwick Town in the league",
       "url": "https://www.southshieldsfc.co.uk/ssfc-women-take-on-alnwick-town-in-the-league/",
       "published": "2026-10-16T15:56:14Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "VACANCY | Hereford FC in the Community CIC Director",
-      "url": "https://herefordfc.co.uk/2026/10/vacancy-hereford-fc-in-the-community-cic-director/",
-      "published": "2026-10-16T15:50:53Z"
     }
   ]
 }
