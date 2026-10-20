@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-20T01:19:35Z",
+  "generatedAt": "2026-10-20T06:56:16Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='chorleyfc.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='chorleyfc.com', port=443) at 0x7f3d3785fa90>, 'Connection to chorleyfc.com timed out. (connect timeout=25)'))"
     },
     {
       "club": "Curzon Ashton",
@@ -302,10 +302,10 @@
     {
       "club": "Macclesfield",
       "domain": "macclesfieldfc.com",
-      "feed": "https://macclesfieldfc.com/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 522"
     },
     {
       "club": "Marine",
@@ -513,7 +513,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='horshamfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='horshamfc.co.uk', port=443) at 0x7f3d3785e090>, 'Connection to horshamfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "Maidenhead United",
@@ -625,15 +625,6 @@
       "title": "Yeovil Town or Leatherhead to Face Chesterfield in FA Cup",
       "url": "https://ytfc.net/2026/10/yeovil-town-or-leatherhead-to-face-chesterfield-in-fa-cup/",
       "published": "2026-10-19T18:22:10Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "Emirates FA Cup First Round Proper Draw Confirmed",
-      "url": "https://macclesfieldfc.com/latest-news/emirates-fa-cup-first-round-proper-draw-confirmed/",
-      "published": "2026-10-19T18:16:07Z"
     },
     {
       "club": "Wealdstone",
@@ -942,15 +933,6 @@
       "published": "2026-10-19T11:15:50Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "ROONEY’S ANSTEY NOMADS REACTION QUOTES",
-      "url": "https://macclesfieldfc.com/latest-news/rooneys-anstey-nomads-reaction-quotes/",
-      "published": "2026-10-19T11:00:07Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -967,24 +949,6 @@
       "title": "Live Screening: Kidderminster Harriers vs Worthing FC",
       "url": "https://worthingfc.com/2026/10/live-screening-kidderminster-harriers-vs-worthing-fc/",
       "published": "2026-10-19T10:55:40Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "EXTENDED MATCH HIGHLIGHTS | MACCLESFIELD FC vs ANSTEY NOMADS",
-      "url": "https://macclesfieldfc.com/silkmen-tv/extended-match-highlights-macclesfield-fc-vs-anstey-nomads/",
-      "published": "2026-10-19T10:27:25Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "POST-MATCH REACTION | FIN SHRIMPTON",
-      "url": "https://macclesfieldfc.com/silkmen-tv/post-match-reaction-fin-shrimpton/",
-      "published": "2026-10-19T10:22:52Z"
     },
     {
       "club": "Torquay United",
@@ -1066,15 +1030,6 @@
       "title": "Extended Highlights: Boreham Wood 3-2 Woking",
       "url": "https://wokingfc.co.uk/10/19/extended-highlights-boreham-wood-3-2-woking/",
       "published": "2026-10-19T09:33:55Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "SILKMEN REMEMBER ANNA LEDGAR",
-      "url": "https://macclesfieldfc.com/latest-news/silkmen-remember-anna-ledgar/",
-      "published": "2026-10-19T09:12:09Z"
     },
     {
       "club": "Dagenham & Redbridge",
@@ -1302,15 +1257,6 @@
       "published": "2026-10-18T12:30:00Z"
     },
     {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "BACK MACC ON OUR LATEST EMIRATES FA CUP QUEST THIS TUESDAY EVENING",
-      "url": "https://macclesfieldfc.com/latest-news/back-macc-on-our-latest-emirates-fa-cup-quest-this-tuesday-evening/",
-      "published": "2026-10-18T11:52:08Z"
-    },
-    {
       "club": "Yeovil Town",
       "code": "YEO",
       "short": "Yeovil",
@@ -1327,15 +1273,6 @@
       "title": "Sutton United vs Truro City – Match Highlights",
       "url": "https://trurocity.co.uk/2026/10/sutton-united-vs-truro-city-match-highlights/",
       "published": "2026-10-18T11:00:14Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MATCH REPORT | FA CUP FOURTH QUALIFYING ROUND",
-      "url": "https://macclesfieldfc.com/latest-news/match-report-fa-cup-fourth-qualifying-round/",
-      "published": "2026-10-18T11:00:00Z"
     },
     {
       "club": "Truro City",
@@ -1480,6 +1417,69 @@
       "title": "Highlights: Oxford City (H) | Emirates FA Cup",
       "url": "https://torquayunited.com/highlights-oxford-city-h-emirates-fa-cup/",
       "published": "2026-10-18T00:29:41Z"
+    },
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Match Report: Leatherhead 3-3 Yeovil Town",
+      "url": "https://ytfc.net/2026/10/match-report-leatherhead-3-3-yeovil-town/",
+      "published": "2026-10-17T23:00:19Z"
+    },
+    {
+      "club": "Wealdstone",
+      "code": "WEA",
+      "short": "Wealdstone",
+      "domain": "wealdstone-fc.com",
+      "title": "REPORT: Wealdstone 3-0 Worthing (FA Cup 4QR)",
+      "url": "https://www.wealdstonefc.com/report-wealdstone-3-0-worthing/",
+      "published": "2026-10-17T22:51:46Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "South Shields exit FA Cup against FC Halifax Town",
+      "url": "https://www.southshieldsfc.co.uk/south-shields-exit-fa-cup-against-fc-halifax-town/",
+      "published": "2026-10-17T22:08:09Z"
+    },
+    {
+      "club": "Ebbsfleet United",
+      "code": "EBB",
+      "short": "Ebbsfleet",
+      "domain": "ebbsfleetunited.co.uk",
+      "title": "Fleet 6-1 Weston-super-Mare",
+      "url": "https://ebbsfleetunited.co.uk/fleet-6-1-weston-super-mare/",
+      "published": "2026-10-17T21:58:23Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "HIGHLIGHTS | FC Halifax Town 3-2 South Shields FC | Emirates FA Cup",
+      "url": "https://www.southshieldsfc.co.uk/highlights-fc-halifax-town-3-2-south-shields-fc-emirates-fa-cup/",
+      "published": "2026-10-17T21:46:50Z"
+    },
+    {
+      "club": "Wealdstone",
+      "code": "WEA",
+      "short": "Wealdstone",
+      "domain": "wealdstone-fc.com",
+      "title": "VIDEO REACTION: “Happy With That One!” – Maher On Magic Cup Moment",
+      "url": "https://www.wealdstonefc.com/video-reaction-happy-with-that-one-maher-on-magic-cup-moment/",
+      "published": "2026-10-17T21:39:30Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "GOALS | FC Halifax Town 3-2 South Shields FC | Emirates FA Cup",
+      "url": "https://www.southshieldsfc.co.uk/goals-fc-halifax-town-3-2-south-shields-fc-emirates-fa-cup/",
+      "published": "2026-10-17T21:39:21Z"
     }
   ]
 }
