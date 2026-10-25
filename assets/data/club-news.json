@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-25T18:26:43Z",
+  "generatedAt": "2026-10-25T21:18:46Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,87 @@
     }
   ],
   "items": [
+    {
+      "club": "Dagenham & Redbridge",
+      "code": "DAG",
+      "short": "Dag & Red",
+      "domain": "daggers.co.uk",
+      "title": "Braintree Town (A) | Ticket Information",
+      "url": "https://daggers.co.uk/braintree-town-a-ticket-information/",
+      "published": "2026-10-25T21:05:56Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "REACTION |Manny Egbo shares his thoughts on our 3-3 draw against Tonbridge.",
+      "url": "https://chelmsfordcityfc.com/news/reaction-manny-egbo-shares-his-thoughts-on-our-3-3-draw-against-tonbridge/",
+      "published": "2026-10-25T20:19:57Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "FA Trophy Second Round draw details confirmed",
+      "url": "https://wsmafc.co.uk/fa-trophy-second-round-draw-details-confirmed/",
+      "published": "2026-10-25T20:15:58Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Match Report | Bridlington Town (A)",
+      "url": "https://curzon-ashton.co.uk/match-report-bridlington-town-a/",
+      "published": "2026-10-25T20:08:15Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "REACTION | Mark Cooper reflects on the Clarets’ 3-3 draw against the Angels.",
+      "url": "https://chelmsfordcityfc.com/news/reaction-mark-cooper-reflects-on-the-clarets-3-3-draw-against-the-angels/",
+      "published": "2026-10-25T20:03:30Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham v Walton & Hersham – match report",
+      "url": "https://www.horshamfc.co.uk/2026/10/25/horsham-v-walton-hersham-match-report/",
+      "published": "2026-10-25T19:10:29Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Worsfold: “The game was there, we just let it get away from us” | Ashford Town Reaction",
+      "url": "https://worthingfc.com/2026/10/worsfold-the-game-was-there-we-just-let-it-get-away-from-us-ashford-town-reaction/",
+      "published": "2026-10-25T19:07:24Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Angels Youth Membership Scheme",
+      "url": "https://tonbridgeangels.co.uk/angels-youth-membership-scheme-2/",
+      "published": "2026-10-25T19:00:00Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Farnborough Tickets on sale now",
+      "url": "https://wsmafc.co.uk/farnborough-tickets-on-sale-now/",
+      "published": "2026-10-25T18:50:13Z"
+    },
     {
       "club": "Worthing",
       "code": "WOR",
@@ -670,6 +751,15 @@
       "title": "Town Cruise Into Second Round",
       "url": "https://etfc.london/town-cruise-into-second-round/",
       "published": "2026-10-25T12:38:44Z"
+    },
+    {
+      "club": "Slough Town",
+      "code": "SLO",
+      "short": "Slough",
+      "domain": "sloughtownfc.net",
+      "title": "Preview: Truro City",
+      "url": "https://www.sloughtownfc.com/news/preview-truro-city-2",
+      "published": "2026-10-25T12:00:00Z"
     },
     {
       "club": "AFC Telford United",
@@ -1390,96 +1480,6 @@
       "title": "SIGNING: COASTERS COMPLETE PICKFORD COUP",
       "url": "https://afcfylde.co.uk/news/2026/october/24/signing--coasters-complete-pickford-coup/",
       "published": "2026-10-24T10:00:00Z"
-    },
-    {
-      "club": "Boreham Wood",
-      "code": "BHW",
-      "short": "Boreham Wood",
-      "domain": "borehamwoodfootballclub.co.uk",
-      "title": "Enterprise to sponsor today’s match against AFC Fylde",
-      "url": "https://www.borehamwoodfootballclub.co.uk/enterprise-to-sponsor-todays-match-against-afc-fylde/",
-      "published": "2026-10-24T09:19:15Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Preview: Eastleigh vs Boston United",
-      "url": "https://eastleighfc.com/2026/10/preview-eastleigh-vs-boston-united/",
-      "published": "2026-10-24T09:15:52Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Preview: South Shields (A)",
-      "url": "https://chesterfc.com/10/24/preview-south-shields-a/",
-      "published": "2026-10-24T09:00:05Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Season Ticket Holders: Shrewsbury Town FA Cup Tickets Now On Sale",
-      "url": "https://eastleighfc.com/2026/10/season-ticket-holders-shrewsbury-town-fa-cup-tickets-now-on-sale/",
-      "published": "2026-10-24T08:00:07Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Matchday Today | Away At King’s Lynn",
-      "url": "https://southportfc.net/next-match-away-at-kings-lynn-saturday-october-24th/",
-      "published": "2026-10-24T07:24:22Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Inside Weston S2 EP7: Vs Ebbsfleet United (A)",
-      "url": "https://wsmafc.co.uk/inside-weston-s2-ep7-vs-ebbsfleet-united-a/",
-      "published": "2026-10-23T22:25:11Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "“𝗪𝗲 𝗼𝘄𝗲 𝗼𝘂𝗿 𝘀𝘂𝗽𝗽𝗼𝗿𝘁𝗲𝗿𝘀 𝗮 𝗯𝗶𝗴 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲” | Scott Rogers pre – Billericay Town",
-      "url": "https://wsmafc.co.uk/%f0%9d%97%aa%f0%9d%97%b2-%f0%9d%97%bc%f0%9d%98%84%f0%9d%97%b2-%f0%9d%97%bc%f0%9d%98%82%f0%9d%97%bf-%f0%9d%98%80%f0%9d%98%82%f0%9d%97%bd%f0%9d%97%bd%f0%9d%97%bc%f0%9d%97%bf%f0%9d%98%81%f0%9d%97%b2/",
-      "published": "2026-10-23T21:25:26Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Lucas De Bolle rejoins The Mariners!",
-      "url": "https://www.southshieldsfc.co.uk/lucas-de-bolle-rejoins-the-mariners/",
-      "published": "2026-10-23T20:03:53Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Matt Jay: “It’s up for grabs” as United look to build a run",
-      "url": "https://torquayunited.com/matt-jay-its-up-for-grabs-as-united-look-to-build-a-run/",
-      "published": "2026-10-23T18:39:53Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Pre-South Shields: Neil Sorvel",
-      "url": "https://chesterfc.com/10/23/pre-south-shields-neil-sorvel/",
-      "published": "2026-10-23T18:05:53Z"
     }
   ]
 }
