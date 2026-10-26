@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-25T23:21:24Z",
+  "generatedAt": "2026-10-26T01:46:06Z",
   "maxItems": 100,
   "sources": [
     {
@@ -129,7 +129,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 403"
     },
     {
       "club": "Southend United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Curzon Ashton",
@@ -329,7 +329,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": "HTTP 404"
     },
     {
       "club": "Peterborough Sports",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "https://www.horshamfc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Maidenhead United",
@@ -634,15 +634,6 @@
       "title": "REACTION | Mark Cooper reflects on the Clarets’ 3-3 draw against the Angels.",
       "url": "https://chelmsfordcityfc.com/news/reaction-mark-cooper-reflects-on-the-clarets-3-3-draw-against-the-angels/",
       "published": "2026-10-25T20:03:30Z"
-    },
-    {
-      "club": "Horsham",
-      "code": "HRS",
-      "short": "Horsham",
-      "domain": "horshamfc.co.uk",
-      "title": "Horsham v Walton & Hersham – match report",
-      "url": "https://www.horshamfc.co.uk/2026/10/25/horsham-v-walton-hersham-match-report/",
-      "published": "2026-10-25T19:10:29Z"
     },
     {
       "club": "Worthing",
@@ -1084,6 +1075,15 @@
       "title": "City in Action – Frome Town (H) – FA Trophy 1st Round",
       "url": "https://www.bathcityfc.com/city-in-action-frome-town-h-fa-trophy-1st-round/",
       "published": "2026-10-24T21:14:26Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Gallery | York City 2-0 Port Vale",
+      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/october/24/gallery---york-city-2-0-port-vale/",
+      "published": "2026-10-24T21:00:00Z"
     },
     {
       "club": "Worthing",
