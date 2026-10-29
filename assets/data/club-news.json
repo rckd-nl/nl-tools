@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-29T01:50:39Z",
+  "generatedAt": "2026-10-29T08:35:50Z",
   "maxItems": 100,
   "sources": [
     {
@@ -208,7 +208,7 @@
       "domain": "telfordunited.com",
       "feed": "https://telfordunited.com/feed",
       "ok": true,
-      "count": 35,
+      "count": 36,
       "error": ""
     },
     {
@@ -542,10 +542,10 @@
     {
       "club": "Slough Town",
       "domain": "sloughtownfc.net",
-      "feed": "https://www.sloughtownfc.com/rss.xml",
-      "ok": true,
-      "count": 50,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='sloughtownfc.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='sloughtownfc.net', port=443) at 0x776b344a9510>, 'Connection to sloughtownfc.net timed out. (connect timeout=25)'))"
     },
     {
       "club": "Tonbridge Angels",
@@ -581,6 +581,33 @@
     }
   ],
   "items": [
+    {
+      "club": "AFC Telford United",
+      "code": "TEL",
+      "short": "Telford",
+      "domain": "telfordunited.com",
+      "title": "Southport FC (A): Supporter Information",
+      "url": "https://telfordunited.com/news/2026/10/29/southport-fc-a-supporter-information",
+      "published": "2026-10-29T08:12:53Z"
+    },
+    {
+      "club": "Wealdstone",
+      "code": "WEA",
+      "short": "Wealdstone",
+      "domain": "wealdstone-fc.com",
+      "title": "SATURDAY CRACKER IN STORE: All Welcome For Stones v Southend",
+      "url": "https://www.wealdstonefc.com/saturday-cracker-in-store-all-welcome-for-stones-v-southend/",
+      "published": "2026-10-29T08:01:39Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Highlights: Forest Green 2-0 Eastleigh",
+      "url": "https://eastleighfc.com/2026/10/highlights-forest-green-2-0-eastleigh/",
+      "published": "2026-10-29T03:29:33Z"
+    },
     {
       "club": "Forest Green Rovers",
       "code": "FGR",
@@ -1068,24 +1095,6 @@
       "published": "2026-10-28T12:00:11Z"
     },
     {
-      "club": "Slough Town",
-      "code": "SLO",
-      "short": "Slough",
-      "domain": "sloughtownfc.net",
-      "title": "Young Rebels face Gillingham in FA Youth Cup",
-      "url": "https://www.sloughtownfc.com/news/young-rebels-face-gillingham-in-fa-youth-cup",
-      "published": "2026-10-28T12:00:00Z"
-    },
-    {
-      "club": "Slough Town",
-      "code": "SLO",
-      "short": "Slough",
-      "domain": "sloughtownfc.net",
-      "title": "Interview: McKimm on defeat at Truro",
-      "url": "https://www.sloughtownfc.com/news/interview-mckimm-on-defeat-at-truro",
-      "published": "2026-10-28T12:00:00Z"
-    },
-    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -1471,15 +1480,6 @@
       "title": "Jody Brown provides an update on the squad.",
       "url": "https://wokingfc.co.uk/10/27/jody-brown-provides-an-update-on-the-squad/",
       "published": "2026-10-27T22:35:03Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Hinshelwood: “It shows the spirit and character the squad has got” | Southend United Reaction",
-      "url": "https://worthingfc.com/2026/10/hinshelwood-it-shows-the-spirit-and-character-the-squad-has-got-southend-united-reaction/",
-      "published": "2026-10-27T22:23:44Z"
     }
   ]
 }
