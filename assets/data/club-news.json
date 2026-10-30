@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-29T20:45:52Z",
+  "generatedAt": "2026-10-30T00:33:00Z",
   "maxItems": 100,
   "sources": [
     {
@@ -129,7 +129,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Southend United",
@@ -208,7 +208,7 @@
       "domain": "telfordunited.com",
       "feed": "https://telfordunited.com/feed",
       "ok": true,
-      "count": 35,
+      "count": 36,
       "error": ""
     },
     {
@@ -329,7 +329,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "club": "Peterborough Sports",
@@ -545,7 +545,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='sloughtownfc.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='sloughtownfc.net', port=443) at 0x76359014c8d0>, 'Connection to sloughtownfc.net timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='sloughtownfc.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='sloughtownfc.net', port=443) at 0x72748a941810>, 'Connection to sloughtownfc.net timed out. (connect timeout=25)'))"
     },
     {
       "club": "Tonbridge Angels",
@@ -581,6 +581,60 @@
     }
   ],
   "items": [
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Ryan Perks | Marine Academy Plymouth (H) | Post-Match",
+      "url": "https://torquayunited.com/ryan-perks-marine-academy-plymouth-h-post-match/",
+      "published": "2026-10-30T00:07:05Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Cordon: “We have to play quicker, we have to defend better” | Dorking Wanderers Reaction",
+      "url": "https://worthingfc.com/2026/10/cordon-we-have-to-play-quicker-we-have-to-defend-better-dorking-wanderers-reaction/",
+      "published": "2026-10-29T22:53:35Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "REPORT: UNITED WOMEN 1 – 1 MARINE ACADEMY PLYMOUTH",
+      "url": "https://torquayunited.com/report-united-women-1-1-marine-academy-plymouth/",
+      "published": "2026-10-29T22:41:50Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Highlights: Farnborough 2 Weston-super-Mare 1",
+      "url": "https://farnboroughfc.co.uk/2026/10/highlights-farnborough-2-weston-super-mare-1-2/",
+      "published": "2026-10-29T22:00:55Z"
+    },
+    {
+      "club": "Hornchurch",
+      "code": "HOR",
+      "short": "Hornchurch",
+      "domain": "hornchurchfc.com",
+      "title": "Preview: AFC Fylde (A)",
+      "url": "https://hornchurchfc.com/preview-afc-fylde-a/",
+      "published": "2026-10-29T22:00:47Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Loan Watch: Watts-Barciela makes Exmouth debut, Murray scores Somerset Cup treble",
+      "url": "https://wsmafc.co.uk/loan-watch-27281026/",
+      "published": "2026-10-29T20:45:41Z"
+    },
     {
       "club": "Alfreton Town",
       "code": "ALF",
@@ -850,6 +904,15 @@
       "title": "LIVE SPORT IN BAR TWENTY SEVEN THIS WEEKEND",
       "url": "https://macclesfieldfc.com/latest-news/live-sport-in-bar-twenty-seven-this-weekend-4/",
       "published": "2026-10-29T14:00:35Z"
+    },
+    {
+      "club": "AFC Telford United",
+      "code": "TEL",
+      "short": "Telford",
+      "domain": "telfordunited.com",
+      "title": "Southport FC (A): Match Preview",
+      "url": "https://telfordunited.com/news/2026/10/29/southport-fc-a-match-preview",
+      "published": "2026-10-29T13:47:16Z"
     },
     {
       "club": "Maidstone United",
@@ -1417,69 +1480,6 @@
       "title": "Gallery | Barnet 3-1 York City",
       "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/october/28/gallery---barnet-3-1-york-city/",
       "published": "2026-10-28T13:38:18Z"
-    },
-    {
-      "club": "Wealdstone",
-      "code": "WEA",
-      "short": "Wealdstone",
-      "domain": "wealdstone-fc.com",
-      "title": "REPORT: Wealdstone 2-3 Solihull Moors",
-      "url": "https://www.wealdstonefc.com/report-wealdstone-2-3-solihull-moors/",
-      "published": "2026-10-28T13:20:42Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "John Askey Post Slough Town (h)",
-      "url": "https://trurocity.co.uk/2026/10/john-askey-post-slough-town-h/",
-      "published": "2026-10-28T13:14:36Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "Blackett winner secures three points for Shields in Spennymoor",
-      "url": "https://www.southshieldsfc.co.uk/blackett-winner-secures-three-points-for-shields-in-spennymoor/",
-      "published": "2026-10-28T13:06:18Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "MATCH REPORT: NORTON & STOCKTON WOMEN 2-0 AFC FYLDE WOMEN",
-      "url": "https://afcfylde.co.uk/news/2026/october/28/match-report--norton---stockton-2-0-afc-fylde-/",
-      "published": "2026-10-28T13:00:00Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "AWAY TICKETS | Walton & Hersham",
-      "url": "https://torquayunited.com/away-tickets-walton-hersham/",
-      "published": "2026-10-28T13:00:00Z"
-    },
-    {
-      "club": "Enfield Town",
-      "code": "ENF",
-      "short": "Enfield",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "title": "Awesome Town Blow Chats Away",
-      "url": "https://etfc.london/awesome-town-blow-chats-away/",
-      "published": "2026-10-28T12:49:26Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Chorley (H) Post-Match Reaction | Callum McFadzean",
-      "url": "https://radcliffefc.com/chorley-h-post-match-reaction-callum-mcfadzean/",
-      "published": "2026-10-28T12:43:19Z"
     }
   ]
 }
