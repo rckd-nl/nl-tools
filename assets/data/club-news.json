@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-30T19:02:42Z",
+  "generatedAt": "2026-10-30T23:07:11Z",
   "maxItems": 100,
   "sources": [
     {
@@ -545,7 +545,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='sloughtownfc.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='sloughtownfc.net', port=443) at 0x7c48f92eab90>, 'Connection to sloughtownfc.net timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='sloughtownfc.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='sloughtownfc.net', port=443) at 0x7a8a37281890>, 'Connection to sloughtownfc.net timed out. (connect timeout=25)'))"
     },
     {
       "club": "Tonbridge Angels",
@@ -582,6 +582,51 @@
   ],
   "items": [
     {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Pre-Hednesford Town: Neil Sorvel",
+      "url": "https://chesterfc.com/10/30/pre-hednesford-town-neil-sorvel/",
+      "published": "2026-10-30T22:25:20Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "PROGRAMME | Hereford FC vs King’s Lynn Town",
+      "url": "https://herefordfc.co.uk/2026/10/programme-hereford-fc-vs-kings-lynn-town/",
+      "published": "2026-10-30T20:45:58Z"
+    },
+    {
+      "club": "Southport",
+      "code": "SPT",
+      "short": "Southport",
+      "domain": "southportfc.net",
+      "title": "Macclesfield Game Rearranged",
+      "url": "https://southportfc.net/macclesfield-game-rearranged-2/",
+      "published": "2026-10-30T20:00:22Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Highlights: MAP Women (H) Women’s National League",
+      "url": "https://torquayunited.com/highlights-map-women-h-womens-national-league/",
+      "published": "2026-10-30T19:38:45Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Ben Beals Departs Spennymoor Town",
+      "url": "https://spennymoortownfc.co.uk/2026/10/30/ben-beals-departs-spennymoor-town/",
+      "published": "2026-10-30T19:27:26Z"
+    },
+    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -616,6 +661,15 @@
       "title": "NEWS | Fleetwood Recall Roberts From Loan Spell",
       "url": "https://herefordfc.co.uk/2026/10/news-fleetwood-recall-roberts-from-loan-spell/",
       "published": "2026-10-30T18:00:23Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Meeney: “Everything we do, we do together.” | Sutton United Preview",
+      "url": "https://worthingfc.com/2026/10/meeney-everything-we-do-we-do-together-sutton-united-preview/",
+      "published": "2026-10-30T17:22:37Z"
     },
     {
       "club": "Hereford",
@@ -1426,60 +1480,6 @@
       "title": "Preview: Dorking Wanderers v Weston",
       "url": "https://wsmafc.co.uk/preview-dorking-away-2627/",
       "published": "2026-10-29T17:45:18Z"
-    },
-    {
-      "club": "Truro City",
-      "code": "TRU",
-      "short": "Truro",
-      "domain": "trurocity.co.uk",
-      "title": "Celebrating Our Local Heroes",
-      "url": "https://trurocity.co.uk/2026/10/celebrating-our-local-heroes/",
-      "published": "2026-10-29T17:41:33Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Roxy Thomas Fundraising Update",
-      "url": "https://torquayunited.com/roxy-thomas-fundraising-update-2/",
-      "published": "2026-10-29T17:25:00Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "MANSFIELD FA CUP TICKETS NOW ON SALE",
-      "url": "https://macclesfieldfc.com/latest-news/mansfield-fa-cup-tickets-now-on-sale/",
-      "published": "2026-10-29T17:00:51Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Rescheduled Games",
-      "url": "https://www.fgr.co.uk/news/rescheduled-games-barrow-scunthorpe/",
-      "published": "2026-10-29T16:55:00Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "An Evening With Dean Holdsworth: Friday 29 January 2027",
-      "url": "https://harriers.co.uk/news/2026/10/29/an-evening-with-dean-holdsworth-friday-29-january-2027",
-      "published": "2026-10-29T16:49:41Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "U18s REPORT | Hereford FC 9-1 Stratford Town",
-      "url": "https://herefordfc.co.uk/2026/10/u18s-report-hereford-fc-9-1-stratford-town/",
-      "published": "2026-10-29T16:30:15Z"
     }
   ]
 }
