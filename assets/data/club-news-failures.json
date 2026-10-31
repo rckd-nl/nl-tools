@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-31T15:28:04Z",
+  "generatedAt": "2026-10-31T19:42:39Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -112,7 +112,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 202"
     },
     {
       "club": "Darlington",
@@ -203,6 +203,14 @@
       "error": "HTTP 404"
     },
     {
+      "club": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
+    },
+    {
       "club": "Maidenhead United",
       "domain": "maidenheadunitedfc.org",
       "feed": "",
@@ -224,7 +232,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='sloughtownfc.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='sloughtownfc.net', port=443) at 0x70a49836c710>, 'Connection to sloughtownfc.net timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='sloughtownfc.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='sloughtownfc.net', port=443) at 0x7165bc177b50>, 'Connection to sloughtownfc.net timed out. (connect timeout=25)'))"
     }
   ]
 }
