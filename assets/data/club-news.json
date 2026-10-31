@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-30T23:07:11Z",
+  "generatedAt": "2026-10-31T02:29:59Z",
   "maxItems": 100,
   "sources": [
     {
@@ -545,7 +545,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='sloughtownfc.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='sloughtownfc.net', port=443) at 0x7a8a37281890>, 'Connection to sloughtownfc.net timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='sloughtownfc.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='sloughtownfc.net', port=443) at 0x7594af309d50>, 'Connection to sloughtownfc.net timed out. (connect timeout=25)'))"
     },
     {
       "club": "Tonbridge Angels",
@@ -582,6 +582,15 @@
   ],
   "items": [
     {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "MATCH REPORT: AFC FYLDE 3-1 HORNCHURCH FC",
+      "url": "https://afcfylde.co.uk/news/2026/october/31/match-report--afc-fylde-3-1-hornchurch-fc/",
+      "published": "2026-10-31T00:00:00Z"
+    },
+    {
       "club": "Chester",
       "code": "CHE",
       "short": "Chester",
@@ -589,15 +598,6 @@
       "title": "Pre-Hednesford Town: Neil Sorvel",
       "url": "https://chesterfc.com/10/30/pre-hednesford-town-neil-sorvel/",
       "published": "2026-10-30T22:25:20Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "PROGRAMME | Hereford FC vs King’s Lynn Town",
-      "url": "https://herefordfc.co.uk/2026/10/programme-hereford-fc-vs-kings-lynn-town/",
-      "published": "2026-10-30T20:45:58Z"
     },
     {
       "club": "Southport",
@@ -625,6 +625,15 @@
       "title": "Ben Beals Departs Spennymoor Town",
       "url": "https://spennymoortownfc.co.uk/2026/10/30/ben-beals-departs-spennymoor-town/",
       "published": "2026-10-30T19:27:26Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "PROGRAMME | Hereford FC vs King’s Lynn Town",
+      "url": "https://herefordfc.co.uk/2026/10/programme-hereford-fc-vs-kings-lynn-town/",
+      "published": "2026-10-30T19:00:58Z"
     },
     {
       "club": "Worthing",
@@ -1471,15 +1480,6 @@
       "title": "Chairman’s Notes: Hartlepool United (H)",
       "url": "https://www.borehamwoodfootballclub.co.uk/chairmans-notes-hartlepool-united-h/",
       "published": "2026-10-29T17:55:22Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Preview: Dorking Wanderers v Weston",
-      "url": "https://wsmafc.co.uk/preview-dorking-away-2627/",
-      "published": "2026-10-29T17:45:18Z"
     }
   ]
 }
