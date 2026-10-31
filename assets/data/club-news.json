@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-31T19:42:39Z",
+  "generatedAt": "2026-10-31T22:59:02Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -545,7 +545,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='sloughtownfc.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='sloughtownfc.net', port=443) at 0x7165bc177b50>, 'Connection to sloughtownfc.net timed out. (connect timeout=25)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='sloughtownfc.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='sloughtownfc.net', port=443) at 0x70ae2f49b810>, 'Connection to sloughtownfc.net timed out. (connect timeout=25)'))"
     },
     {
       "club": "Tonbridge Angels",
@@ -581,6 +581,132 @@
     }
   ],
   "items": [
+    {
+      "club": "Yeovil Town",
+      "code": "YEO",
+      "short": "Yeovil",
+      "domain": "ytfc.net",
+      "title": "Match Report: FC Halifax Town 2-0 Yeovil Town",
+      "url": "https://ytfc.net/2026/10/match-report-fc-halifax-town-2-0-yeovil-town/",
+      "published": "2026-10-31T22:27:41Z"
+    },
+    {
+      "club": "Ebbsfleet United",
+      "code": "EBB",
+      "short": "Ebbsfleet",
+      "domain": "ebbsfleetunited.co.uk",
+      "title": "Truro City 3-0 Fleet",
+      "url": "https://ebbsfleetunited.co.uk/truro-city-3-0-fleet/",
+      "published": "2026-10-31T21:33:31Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "🎤 𝗣𝗼𝘀𝘁-𝗠𝗮𝘁𝗰𝗵 | Gary Horgan on our match with Wimborne",
+      "url": "https://chippenhamtown.com/10/31/%f0%9f%8e%a4-%f0%9d%97%a3%f0%9d%97%bc%f0%9d%98%80%f0%9d%98%81-%f0%9d%97%a0%f0%9d%97%ae%f0%9d%98%81%f0%9d%97%b0%f0%9d%97%b5-gary-horgan-on-our-match-with-wimborne/",
+      "published": "2026-10-31T21:00:59Z"
+    },
+    {
+      "club": "Bath City",
+      "code": "BAT",
+      "short": "Bath",
+      "domain": "bathcityfc.com",
+      "title": "City in Action – Poole Town (H) – Southern League Premier South",
+      "url": "https://www.bathcityfc.com/city-in-action-poole-town-h-southern-league-premier-south/",
+      "published": "2026-10-31T20:55:04Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Match Report | Leek Town (H)",
+      "url": "https://curzon-ashton.co.uk/match-report-leek-town-h/",
+      "published": "2026-10-31T20:48:16Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "“𝗪𝗲’𝗹𝗹 𝘁𝘂𝗿𝗻 𝗶𝘁 𝗿𝗼𝘂𝗻𝗱, 𝗮𝗹𝗹 𝘁𝗼𝗴𝗲𝘁𝗵𝗲𝗿” | Luke Coulson post – Dorking Wanderers (A)",
+      "url": "https://wsmafc.co.uk/%f0%9d%97%aa%f0%9d%97%b2%f0%9d%97%b9%f0%9d%97%b9-%f0%9d%98%81%f0%9d%98%82%f0%9d%97%bf%f0%9d%97%bb-%f0%9d%97%b6%f0%9d%98%81-%f0%9d%97%bf%f0%9d%97%bc%f0%9d%98%82%f0%9d%97%bb%f0%9d%97%b1/",
+      "published": "2026-10-31T20:45:00Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Salisbury Edge Past Angels",
+      "url": "https://tonbridgeangels.co.uk/salisbury-edge-past-angels/",
+      "published": "2026-10-31T20:44:40Z"
+    },
+    {
+      "club": "Hartlepool United",
+      "code": "HAR",
+      "short": "Hartlepool",
+      "domain": "hartlepoolunited.co.uk",
+      "title": "MATCH REPORT | Pools defeated in seven goal thriller",
+      "url": "https://www.hartlepoolunited.co.uk/match-report-pools-defeated-in-seven-goal-thriller/",
+      "published": "2026-10-31T20:19:18Z"
+    },
+    {
+      "club": "Curzon Ashton",
+      "code": "CUR",
+      "short": "Curzon Ashton",
+      "domain": "curzon-ashton.co.uk",
+      "title": "Adam Barton Post Match Interview | Leek Town (H)",
+      "url": "https://curzon-ashton.co.uk/adam-barton-post-match-interview-leek-town-h/",
+      "published": "2026-10-31T20:11:10Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "REACTION | Downes on Home Loss to King’s Lynn",
+      "url": "https://herefordfc.co.uk/2026/10/reaction-downes-on-home-loss-to-kings-lynn/",
+      "published": "2026-10-31T19:55:03Z"
+    },
+    {
+      "club": "Dorking Wanderers",
+      "code": "DOR",
+      "short": "Dorking",
+      "domain": "dorkingwanderers.com",
+      "title": "Match Report | Dorking Wanderers 2-0 Weston Super Mare – 31/10/26",
+      "url": "https://dwfc.co.uk/2026/10/match-report-dorking-wanderers-2-0-weston-super-mare-31-10-26/",
+      "published": "2026-10-31T19:48:25Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Post Match: Slough Town",
+      "url": "https://maidstoneunited.co.uk/10/31/post-match-slough-town-4/",
+      "published": "2026-10-31T19:41:15Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Alty TV Post-Match | Alty 2 Carlisle United 4",
+      "url": "https://altrinchamfc.com/blogs/news/alty-tv-post-match-alty-2-carlisle-united-4",
+      "published": "2026-10-31T19:37:46Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Recap: Solihull Moors 2-1 Harriers",
+      "url": "https://harriers.co.uk/news/2026/10/31/recap-solihull-moors-2-1-harriers",
+      "published": "2026-10-31T19:30:20Z"
+    },
     {
       "club": "Macclesfield",
       "code": "MAC",
@@ -868,15 +994,6 @@
       "title": "Key info: Tooting Bec Women",
       "url": "https://maidstoneunited.co.uk/10/31/key-info-tooting-bec-women/",
       "published": "2026-10-31T15:15:49Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "📻 Match Commentary – Wimborne Town vs Chippenham Town",
-      "url": "https://chippenhamtown.com/10/31/%f0%9f%93%bb-match-commentary-wimborne-town-vs-chippenham-town/",
-      "published": "2026-10-31T14:30:08Z"
     },
     {
       "club": "Hartlepool United",
@@ -1363,123 +1480,6 @@
       "title": "The Mariners make the trip to Oxford",
       "url": "https://www.southshieldsfc.co.uk/the-mariners-make-the-trip-to-oxford/",
       "published": "2026-10-30T14:21:23Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Match Preview | Leek Town (H)",
-      "url": "https://curzon-ashton.co.uk/match-preview-leek-town-h/",
-      "published": "2026-10-30T14:04:07Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Inside Weston S2 EP8: Vs Farnborough (A)",
-      "url": "https://wsmafc.co.uk/inside-weston-s2-ep8-vs-farnborough-a/",
-      "published": "2026-10-30T14:00:45Z"
-    },
-    {
-      "club": "Farnborough",
-      "code": "FAB",
-      "short": "Farnborough",
-      "domain": "farnboroughfc.co.uk",
-      "title": "Zac Whitelock recalled",
-      "url": "https://farnboroughfc.co.uk/2026/10/zac-whitelock-recalled/",
-      "published": "2026-10-30T14:00:04Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Preview | Harrogate Town (H)",
-      "url": "https://www.fgr.co.uk/news/match-preview-harrogate-town-h-2627/",
-      "published": "2026-10-30T14:00:00Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "Match Preview: Bedford Town (A)",
-      "url": "https://macclesfieldfc.com/latest-news/match-preview-bedford-town-a-2/",
-      "published": "2026-10-30T13:59:41Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Match Preview vs Merthyr Town (H) | Finley McAllister",
-      "url": "https://radcliffefc.com/match-preview-vs-merthyr-town-h-finley-mcallister/",
-      "published": "2026-10-30T13:47:30Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Headsets In Use At The J.Davidson Stadium",
-      "url": "https://altrinchamfc.com/blogs/news/headsets-in-use-at-the-j-davidson-stadium",
-      "published": "2026-10-30T13:28:22Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Moss Lane Calling For Another Big Game",
-      "url": "https://altrinchamfc.com/blogs/news/moss-lane-calling-once-again",
-      "published": "2026-10-30T13:26:47Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Town to host Kingstonian in FA Youth Cup",
-      "url": "https://chippenhamtown.com/10/30/town-to-host-kingstonian-in-fa-youth-cup/",
-      "published": "2026-10-30T13:26:44Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Injury Update: October 2026",
-      "url": "https://worthingfc.com/2026/10/injury-update-october-2026/",
-      "published": "2026-10-30T13:21:50Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "A statement from the players of Gateshead Football Club",
-      "url": "https://gateshead-fc.com/a-statement-from-the-players-of-gateshead-football-club/",
-      "published": "2026-10-30T13:12:47Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Under-10 Yellows Lift Cardiff Pro Cup Silver Trophy",
-      "url": "https://torquayunited.com/under-10-yellows-lift-cardiff-pro-cup-silver-trophy/",
-      "published": "2026-10-30T12:40:06Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Match Preview vs Merthyr Town (H) | Grant Shenton",
-      "url": "https://radcliffefc.com/match-preview-vs-merthyr-town-h-grant-shenton/",
-      "published": "2026-10-30T12:39:19Z"
     }
   ]
 }
