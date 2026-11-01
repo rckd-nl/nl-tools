@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-10-31T22:59:02Z",
+  "generatedAt": "2026-11-01T02:16:01Z",
   "maxItems": 100,
   "sources": [
     {
@@ -296,7 +296,7 @@
       "domain": "leamingtonfc.co.uk",
       "feed": "https://leamingtonfc.co.uk/feed",
       "ok": true,
-      "count": 24,
+      "count": 23,
       "error": ""
     },
     {
@@ -545,7 +545,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='sloughtownfc.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='sloughtownfc.net', port=443) at 0x70ae2f49b810>, 'Connection to sloughtownfc.net timed out. (connect timeout=25)'))"
+      "error": "SSLError: HTTPSConnectionPool(host='sloughtownfc.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'sloughtownfc.net'. (_ssl.c:1016)\")))"
     },
     {
       "club": "Tonbridge Angels",
@@ -581,6 +581,51 @@
     }
   ],
   "items": [
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Highlights: Barrow 1-1 Eastleigh",
+      "url": "https://eastleighfc.com/2026/11/highlights-barrow-1-1-eastleigh/",
+      "published": "2026-11-01T01:50:17Z"
+    },
+    {
+      "club": "Torquay United",
+      "code": "TOR",
+      "short": "Torquay",
+      "domain": "torquayunited.com",
+      "title": "Highlights: Walton & Hersham (A) | 2026-27 National League South",
+      "url": "https://torquayunited.com/highlights-walton-hersham-a-2026-27-national-league-south/",
+      "published": "2026-11-01T00:27:32Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "This week at the Gallagher Stadium (w/c 1/11/2026)",
+      "url": "https://maidstoneunited.co.uk/11/01/this-week-at-the-gallagher-stadium-w-c-1-11-2026/",
+      "published": "2026-11-01T00:01:30Z"
+    },
+    {
+      "club": "Leamington",
+      "code": "LEA",
+      "short": "Leamington",
+      "domain": "leamingtonfc.co.uk",
+      "title": "Banbury (A) Details",
+      "url": "https://leamingtonfc.co.uk/news/2026/10/31/banbury-a-details",
+      "published": "2026-10-31T23:42:00Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Highlights: Farnborough 0 Horsham 5",
+      "url": "https://farnboroughfc.co.uk/2026/10/highlights-farnborough-0-horsham-5/",
+      "published": "2026-10-31T23:00:40Z"
+    },
     {
       "club": "Yeovil Town",
       "code": "YEO",
@@ -895,6 +940,15 @@
       "title": "Marc White’s Pre-Match Interview | Weston Super Mare (H)",
       "url": "https://dwfc.co.uk/2026/10/marc-whites-pre-match-interview-weston-super-mare-h/",
       "published": "2026-10-31T18:04:13Z"
+    },
+    {
+      "club": "AFC Fylde",
+      "code": "FYL",
+      "short": "Fylde",
+      "domain": "afcfylde.co.uk",
+      "title": "MATCH GALLERY: HORNCHURCH (H)",
+      "url": "https://afcfylde.co.uk/news/2026/october/31/match-gallery--hornchurch--h-/",
+      "published": "2026-10-31T18:00:00Z"
     },
     {
       "club": "Southend United",
@@ -1426,60 +1480,6 @@
       "title": "Preview: Wimborne vs Chippenham",
       "url": "https://chippenhamtown.com/10/30/preview-wimborne-vs-chippenham/",
       "published": "2026-10-30T15:00:07Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "BULLSCAST | Pell’s Super Sopper & Paul’s Return EP.33",
-      "url": "https://herefordfc.co.uk/2026/10/bullscast-pells-super-sopper-pauls-return-ep-33/",
-      "published": "2026-10-30T14:55:47Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "Match Preview | Grimsby Town (A) | Saturday 31st October",
-      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/october/30/match-preview---grimsby-town--a----saturday-31st-october/",
-      "published": "2026-10-30T14:50:25Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "Match Info | Harrogate Town (H)",
-      "url": "https://www.fgr.co.uk/news/match-info-harrogate-town-h-2627/",
-      "published": "2026-10-30T14:45:00Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Preview: Wealdstone (A)",
-      "url": "https://southendunited.co.uk/news/2026/october/30/preview--wealdstone--a-/",
-      "published": "2026-10-30T14:40:55Z"
-    },
-    {
-      "club": "Chester",
-      "code": "CHE",
-      "short": "Chester",
-      "domain": "chesterfc.com",
-      "title": "Matchday Guide: Hednesford Town (H)",
-      "url": "https://chesterfc.com/10/30/matchday-guide-hednesford-town-h/",
-      "published": "2026-10-30T14:30:37Z"
-    },
-    {
-      "club": "South Shields",
-      "code": "SSH",
-      "short": "South Shields",
-      "domain": "southshieldsfc.co.uk",
-      "title": "The Mariners make the trip to Oxford",
-      "url": "https://www.southshieldsfc.co.uk/the-mariners-make-the-trip-to-oxford/",
-      "published": "2026-10-30T14:21:23Z"
     }
   ]
 }
