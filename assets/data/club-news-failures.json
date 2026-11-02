@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-11-02T06:54:56Z",
+  "generatedAt": "2026-11-02T17:05:48Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -224,7 +224,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "SSLError: HTTPSConnectionPool(host='sloughtownfc.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'sloughtownfc.net'. (_ssl.c:1016)\")))"
+      "error": "SSLError: HTTPSConnectionPool(host='sloughtownfc.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1016)')))"
     }
   ]
 }
