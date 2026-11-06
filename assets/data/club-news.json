@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-11-05T23:40:56Z",
+  "generatedAt": "2026-11-06T03:42:57Z",
   "maxItems": 100,
   "sources": [
     {
@@ -153,7 +153,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "SSLError: HTTPSConnectionPool(host='tamworthfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'tamworthfc.co.uk'. (_ssl.c:1016)\")))"
+      "error": "SSLError: HTTPSConnectionPool(host='tamworthfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'tamworthfc.co.uk'. (_ssl.c:1018)\")))"
     },
     {
       "club": "Truro City",
@@ -225,7 +225,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "SSLError: HTTPSConnectionPool(host='bedfordtownfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1016)')))"
+      "error": "SSLError: HTTPSConnectionPool(host='bedfordtownfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018)')))"
     },
     {
       "club": "Buxton",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -545,7 +545,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "SSLError: HTTPSConnectionPool(host='sloughtownfc.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1016)')))"
+      "error": "SSLError: HTTPSConnectionPool(host='sloughtownfc.net', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)')))"
     },
     {
       "club": "Tonbridge Angels",
@@ -598,6 +598,15 @@
       "title": "Preview: Weston v Braintree Town",
       "url": "https://wsmafc.co.uk/preview-braintree-home-2627/",
       "published": "2026-11-05T21:30:49Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham v AFC Totton – match preview",
+      "url": "https://www.horshamfc.co.uk/2026/11/05/horsham-v-afc-totton-match-preview-3/",
+      "published": "2026-11-05T20:50:49Z"
     },
     {
       "club": "Worthing",
@@ -1374,6 +1383,15 @@
       "published": "2026-11-04T12:00:28Z"
     },
     {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Pagham v Horsham – match report",
+      "url": "https://www.horshamfc.co.uk/2026/11/04/pagham-v-horsham-match-report/",
+      "published": "2026-11-04T11:50:36Z"
+    },
+    {
       "club": "Woking",
       "code": "WOK",
       "short": "Woking",
@@ -1462,24 +1480,6 @@
       "title": "An update from the Board of Directors",
       "url": "https://maidstoneunited.co.uk/11/04/an-update-from-the-board-of-directors/",
       "published": "2026-11-04T09:58:21Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "“𝗜𝘁 𝘄𝗮𝘀 𝗮 𝗿𝗲𝗮𝗹𝗹𝘆 𝗰𝗼𝗻𝘃𝗶𝗻𝗰𝗶𝗻𝗴 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲” | Mason Osborne post – Wellington (H)",
-      "url": "https://wsmafc.co.uk/%f0%9d%97%9c%f0%9d%98%81-%f0%9d%98%84%f0%9d%97%ae%f0%9d%98%80-%f0%9d%97%ae-%f0%9d%97%bf%f0%9d%97%b2%f0%9d%97%ae%f0%9d%97%b9%f0%9d%97%b9%f0%9d%98%86-%f0%9d%97%b0%f0%9d%97%bc%f0%9d%97%bb%f0%9d%98%83/",
-      "published": "2026-11-04T09:45:35Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Report: Gr-eight night for Young Seagulls as they progress in Francis Hillier Premier Cup",
-      "url": "https://wsmafc.co.uk/report-wellington-home-2627/",
-      "published": "2026-11-04T09:15:04Z"
     }
   ]
 }
