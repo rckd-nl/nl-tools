@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-11-07T10:16:31Z",
+  "generatedAt": "2026-11-07T16:30:35Z",
   "maxItems": 100,
   "sources": [
     {
@@ -208,7 +208,7 @@
       "domain": "telfordunited.com",
       "feed": "https://telfordunited.com/feed",
       "ok": true,
-      "count": 33,
+      "count": 32,
       "error": ""
     },
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,105 @@
     }
   ],
   "items": [
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Welcome to Farnborough: Josh Bayliss",
+      "url": "https://farnboroughfc.co.uk/2026/11/welcome-to-farnborough-josh-bayliss/",
+      "published": "2026-11-07T14:00:17Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Cam Green Joins the Clarets!",
+      "url": "https://chelmsfordcityfc.com/news/cam-green-joins-the-clarets/",
+      "published": "2026-11-07T13:57:00Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Live Screening: Scunthorpe United vs Worthing FC",
+      "url": "https://worthingfc.com/2026/11/live-screening-scunthorpe-united-vs-worthing-fc/",
+      "published": "2026-11-07T13:24:01Z"
+    },
+    {
+      "club": "Spennymoor Town",
+      "code": "SPE",
+      "short": "Spennymoor",
+      "domain": "spennymoortownfc.co.uk",
+      "title": "Musa Ceesay Signs For Moors",
+      "url": "https://spennymoortownfc.co.uk/2026/11/07/musa-ceesay-signs-for-moors/",
+      "published": "2026-11-07T13:09:57Z"
+    },
+    {
+      "club": "Chelmsford City",
+      "code": "CHC",
+      "short": "Chelmsford",
+      "domain": "chelmsfordcityfc.com",
+      "title": "Jamie Odegah Returns to the Clarets!",
+      "url": "https://chelmsfordcityfc.com/news/jamie-odegah-returns-to-the-clarets/",
+      "published": "2026-11-07T12:00:00Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Pele Signs For Angels!",
+      "url": "https://tonbridgeangels.co.uk/pele-signs-for-angels/",
+      "published": "2026-11-07T12:00:00Z"
+    },
+    {
+      "club": "Wealdstone",
+      "code": "WEA",
+      "short": "Wealdstone",
+      "domain": "wealdstone-fc.com",
+      "title": "LOAN NEWS: Cook Makes Month-Long Borough Move",
+      "url": "https://www.wealdstonefc.com/loan-news-cook-makes-month-long-borough-move/",
+      "published": "2026-11-07T11:58:49Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Seagulls Radio live for Braintree Town match this afternoon",
+      "url": "https://wsmafc.co.uk/seagulls-radio-live-for-braintree-town-match-this-afternoon/",
+      "published": "2026-11-07T11:30:28Z"
+    },
+    {
+      "club": "Boreham Wood",
+      "code": "BHW",
+      "short": "Boreham Wood",
+      "domain": "borehamwoodfootballclub.co.uk",
+      "title": "Brend Collection to sponsor this afternoon’s FA Cup tie against Wigan Atheltic",
+      "url": "https://www.borehamwoodfootballclub.co.uk/brend-collection-to-sponsor-this-afternoons-fa-cup-tie-against-wigan-atheltic/",
+      "published": "2026-11-07T10:45:20Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Preview: Eastleigh vs Shrewsbury Town",
+      "url": "https://eastleighfc.com/2026/11/preview-eastleigh-vs-shrewsbury-town/",
+      "published": "2026-11-07T10:21:23Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Preview: Brackley Town (A)",
+      "url": "https://chesterfc.com/11/07/preview-brackley-town-a/",
+      "published": "2026-11-07T10:20:27Z"
+    },
     {
       "club": "Maidstone United",
       "code": "MSU",
@@ -1167,13 +1266,13 @@
       "published": "2026-11-05T22:15:54Z"
     },
     {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Preview: Weston v Braintree Town",
-      "url": "https://wsmafc.co.uk/preview-braintree-home-2627/",
-      "published": "2026-11-05T21:30:49Z"
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham v AFC Totton – match preview",
+      "url": "https://www.horshamfc.co.uk/2026/11/05/horsham-v-afc-totton-match-preview-3/",
+      "published": "2026-11-05T20:50:49Z"
     },
     {
       "club": "Worthing",
@@ -1381,105 +1480,6 @@
       "title": "Gallery: West Ham United PL2 (H)",
       "url": "https://hornchurchfc.com/gallery-west-ham-united-pl2/",
       "published": "2026-11-05T15:46:16Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Something special announced!",
-      "url": "https://harriers.co.uk/news/2026/11/05/something-special-announced",
-      "published": "2026-11-05T15:16:03Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Next Match – Chichester City (A) – Southern League Premier South",
-      "url": "https://www.bathcityfc.com/next-match-chichester-city-a-southern-league-premier-south/",
-      "published": "2026-11-05T15:00:14Z"
-    },
-    {
-      "club": "Eastleigh",
-      "code": "EAS",
-      "short": "Eastleigh",
-      "domain": "eastleighfc.com",
-      "title": "Official: Laqeretabua joins the Spitfires on loan",
-      "url": "https://eastleighfc.com/2026/11/official-laqeretabua-joins-the-spitfires-on-loan/",
-      "published": "2026-11-05T14:59:57Z"
-    },
-    {
-      "club": "Wealdstone",
-      "code": "WEA",
-      "short": "Wealdstone",
-      "domain": "wealdstone-fc.com",
-      "title": "EXTENDED HIGHLIGHTS: Wealdstone 2(3)-2(2) Derby County",
-      "url": "https://www.wealdstonefc.com/extended-highlights-wealdstone-23-22-derby-county/",
-      "published": "2026-11-05T14:51:44Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Match Highlights | Curzon Ashton 1-0 FC United of Manchester",
-      "url": "https://curzon-ashton.co.uk/match-highlights-curzon-ashton-1-0-fc-united-of-manchester/",
-      "published": "2026-11-05T14:32:54Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Adam Moseley Loan Extended",
-      "url": "https://southportfc.net/adam-moseley-loan-extended/",
-      "published": "2026-11-05T14:11:09Z"
-    },
-    {
-      "club": "Forest Green Rovers",
-      "code": "FGR",
-      "short": "Forest Green",
-      "domain": "fgr.co.uk",
-      "title": "McAllister previews Luton Town trip",
-      "url": "https://www.fgr.co.uk/news/mcallister-previews-luton-town-trip/",
-      "published": "2026-11-05T14:00:00Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "We Have a Winner in Our ‘Guess the Name of the Bear’ Competition!",
-      "url": "https://torquayunited.com/we-have-a-winner-in-our-guess-the-name-of-the-bear-competition/",
-      "published": "2026-11-05T14:00:00Z"
-    },
-    {
-      "club": "Kidderminster Harriers",
-      "code": "KID",
-      "short": "Kidderminster",
-      "domain": "harriers.co.uk",
-      "title": "Striker boosts Harriers ranks",
-      "url": "https://harriers.co.uk/news/2026/11/05/striker-boosts-harriers-ranks",
-      "published": "2026-11-05T13:59:00Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Local FA Cup tour ahead of Saturday",
-      "url": "https://altrinchamfc.com/blogs/news/local-fa-cup-tour-ahead-of-saturday",
-      "published": "2026-11-05T13:56:11Z"
-    },
-    {
-      "club": "Altrincham",
-      "code": "ALT",
-      "short": "Altrincham",
-      "domain": "altrinchamfc.com",
-      "title": "Forward Pharrell Brown added to Alty squad",
-      "url": "https://altrinchamfc.com/blogs/news/pharrell-brown-added-to-alty-squad",
-      "published": "2026-11-05T13:22:38Z"
     }
   ]
 }
