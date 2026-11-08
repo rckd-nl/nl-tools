@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-11-08T18:38:22Z",
+  "generatedAt": "2026-11-08T22:32:39Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -185,14 +185,6 @@
       "ok": false,
       "count": 0,
       "error": "ConnectionError: HTTPSConnectionPool(host='eastbourneborough.com', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='eastbourneborough.com', port=443): Failed to resolve 'eastbourneborough.com' ([Errno -2] Name or service not known)\"))"
-    },
-    {
-      "club": "Enfield Town",
-      "domain": "enfieldtownfootballclub.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='etfc.london', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Hampton & Richmond Borough",
