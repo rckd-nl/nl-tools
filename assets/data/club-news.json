@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-11-12T01:02:16Z",
+  "generatedAt": "2026-11-12T08:21:05Z",
   "maxItems": 100,
   "sources": [
     {
@@ -110,10 +110,10 @@
     {
       "club": "Rochdale",
       "domain": "rochdaleafc.co.uk",
-      "feed": "https://rochdaleafc.co.uk/feed/",
-      "ok": true,
-      "count": 10,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "club": "Scunthorpe United",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,24 @@
   ],
   "items": [
     {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Charity matches at the Gallagher this November",
+      "url": "https://maidstoneunited.co.uk/11/12/charity-matches-at-the-gallagher-this-november/",
+      "published": "2026-11-12T07:30:43Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Oliver Gage Answers Shrimpers Trust Supporter Questions",
+      "url": "https://southendunited.co.uk/news/2026/november/12/oliver-gage-answers-shrimpers-trust-supporter-questions/",
+      "published": "2026-11-12T07:00:00Z"
+    },
+    {
       "club": "Hartlepool United",
       "code": "HAR",
       "short": "Hartlepool",
@@ -634,6 +652,15 @@
       "title": "REACTION | Cam Green on his welcome to the club and our draw against Ebbsfleet United.",
       "url": "https://chelmsfordcityfc.com/news/reaction-cam-green-on-his-welcome-to-the-club-and-our-draw-against-ebbsfleet-united/",
       "published": "2026-11-11T19:17:58Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Youth round-up, Sunday 8 November",
+      "url": "https://www.horshamfc.co.uk/2026/11/11/youth-round-up-sunday-8-november/",
+      "published": "2026-11-11T19:16:27Z"
     },
     {
       "club": "Weston-super-Mare",
@@ -1104,15 +1131,6 @@
       "published": "2026-11-11T09:50:41Z"
     },
     {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Dale Welcome York City On Saturday",
-      "url": "https://rochdaleafc.co.uk/dale-welcome-york-city-next-saturday/",
-      "published": "2026-11-11T09:21:09Z"
-    },
-    {
       "club": "Dorking Wanderers",
       "code": "DOR",
       "short": "Dorking",
@@ -1401,15 +1419,6 @@
       "published": "2026-11-10T13:13:39Z"
     },
     {
-      "club": "Rochdale",
-      "code": "ROC",
-      "short": "Rochdale",
-      "domain": "rochdaleafc.co.uk",
-      "title": "Will Jenkins’ ACL Recovery",
-      "url": "https://rochdaleafc.co.uk/will-jenkins-acl-recovery/",
-      "published": "2026-11-10T12:50:32Z"
-    },
-    {
       "club": "Spennymoor Town",
       "code": "SPE",
       "short": "Spennymoor",
@@ -1471,15 +1480,6 @@
       "title": "VACANCY | First Team Manager",
       "url": "https://gateshead-fc.com/vacancy-first-team-manager/",
       "published": "2026-11-10T12:00:10Z"
-    },
-    {
-      "club": "AFC Fylde",
-      "code": "FYL",
-      "short": "Fylde",
-      "domain": "afcfylde.co.uk",
-      "title": "EMIRATES FA CUP SECOND ROUND PROPER DRAW UPDATE",
-      "url": "https://afcfylde.co.uk/news/2026/november/10/fa-cup-second-round-draw-update/",
-      "published": "2026-11-10T11:30:00Z"
     }
   ]
 }
