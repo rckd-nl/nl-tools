@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-11-15T17:09:37Z",
+  "generatedAt": "2026-11-15T21:52:56Z",
   "maxItems": 100,
   "sources": [
     {
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -582,6 +582,114 @@
   ],
   "items": [
     {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Bath City vs Truro City – Match Highlights",
+      "url": "https://trurocity.co.uk/2026/11/bath-city-vs-truro-city-match-highlights/",
+      "published": "2026-11-15T21:14:25Z"
+    },
+    {
+      "club": "Truro City",
+      "code": "TRU",
+      "short": "Truro",
+      "domain": "trurocity.co.uk",
+      "title": "Truro City 8 Kilkhampton 2 – Match Report",
+      "url": "https://trurocity.co.uk/2026/11/truro-city-8-kilkhampton-2-match-report/",
+      "published": "2026-11-15T20:57:49Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Recap: Harriers 1-5 Chester Le Street",
+      "url": "https://harriers.co.uk/news/2026/11/15/recap-harriers-1-5-chester-le-street",
+      "published": "2026-11-15T20:49:13Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "SSFC Women beaten in league trip to Spennymoor Town",
+      "url": "https://www.southshieldsfc.co.uk/ssfc-women-beaten-in-league-trip-to-spennymoor-town/",
+      "published": "2026-11-15T20:10:03Z"
+    },
+    {
+      "club": "South Shields",
+      "code": "SSH",
+      "short": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "title": "Campbell winner sends Shields through in FA Trophy",
+      "url": "https://www.southshieldsfc.co.uk/campbell-winner-sends-shields-through-in-fa-trophy/",
+      "published": "2026-11-15T19:37:28Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Match Highlights: WsM AFC 0 – 0 Farnborough (3 – 2 on Penalties)",
+      "url": "https://wsmafc.co.uk/match-highlights-wsm-afc-0-0-farnborough-3-2-on-penalties/",
+      "published": "2026-11-15T19:00:36Z"
+    },
+    {
+      "club": "Altrincham",
+      "code": "ALT",
+      "short": "Altrincham",
+      "domain": "altrinchamfc.com",
+      "title": "Robins Women Lose Out Despite Debut Wong Worldie",
+      "url": "https://altrinchamfc.com/blogs/news/alty-women-vs-wigan-athletic-ladies",
+      "published": "2026-11-15T18:23:57Z"
+    },
+    {
+      "club": "Worthing",
+      "code": "WOR",
+      "short": "Worthing",
+      "domain": "worthingfc.com",
+      "title": "Gallery: Scunthorpe United 1-1 Worthing FC",
+      "url": "https://worthingfc.com/2026/11/gallery-scunthorpe-united-x-x-worthing-fc/",
+      "published": "2026-11-15T18:14:52Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Angels Are Still Everywhere – 2027 Competition Details",
+      "url": "https://tonbridgeangels.co.uk/angels-are-still-everywhere-2027-competition-details/",
+      "published": "2026-11-15T18:06:33Z"
+    },
+    {
+      "club": "Macclesfield",
+      "code": "MAC",
+      "short": "Macclesfield",
+      "domain": "macclesfieldfc.com",
+      "title": "SILKMEN FAN CAM: BRIDLINGTON TOWN (A)",
+      "url": "https://macclesfieldfc.com/latest-news/silkmen-fan-cam-bridlington-town-a/",
+      "published": "2026-11-15T18:00:26Z"
+    },
+    {
+      "club": "Enfield Town",
+      "code": "ENF",
+      "short": "Enfield",
+      "domain": "enfieldtownfootballclub.co.uk",
+      "title": "Town Cruelly Denied Trophy Upset",
+      "url": "https://etfc.london/town-cruelly-denied-trophy-upset/",
+      "published": "2026-11-15T17:47:08Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "FA Trophy Third Round draw details confirmed",
+      "url": "https://wsmafc.co.uk/fa-trophy-third-round-draw-details-confirmed/",
+      "published": "2026-11-15T17:30:36Z"
+    },
+    {
       "club": "Dover Athletic",
       "code": "DOV",
       "short": "Dover",
@@ -625,6 +733,15 @@
       "title": "Bath City Women First and Development games postponed",
       "url": "https://www.bathcityfc.com/bath-city-women-first-and-development-games-postponed/",
       "published": "2026-11-15T15:55:52Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Sold Out | Walsall (H)",
+      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/november/15/sold-out---walsall--h-/",
+      "published": "2026-11-15T15:31:00Z"
     },
     {
       "club": "Macclesfield",
@@ -742,6 +859,15 @@
       "title": "Alty TV Away Shorts | Harrogate 4 Alty 0",
       "url": "https://altrinchamfc.com/blogs/news/alty-tv-away-shorts-highlights-harrogate-own-4-alty-0",
       "published": "2026-11-15T11:13:56Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham 1 Torquay United 0 – match report",
+      "url": "https://www.horshamfc.co.uk/2026/11/15/horsham-1-torquay-united-0-match-report/",
+      "published": "2026-11-15T10:39:45Z"
     },
     {
       "club": "Dagenham & Redbridge",
@@ -1354,132 +1480,6 @@
       "title": "Alex Brown joins Atherton Laburnum Rovers on loan",
       "url": "https://chesterfc.com/11/14/alex-brown-joins-atherton-laburnum-rovers-on-loan/",
       "published": "2026-11-14T11:00:30Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Match Preview | Marine (H)",
-      "url": "https://radcliffefc.com/match-preview-marine-h-3/",
-      "published": "2026-11-14T10:50:31Z"
-    },
-    {
-      "club": "Chelmsford City",
-      "code": "CHC",
-      "short": "Chelmsford",
-      "domain": "chelmsfordcityfc.com",
-      "title": "Welcome to City Ben Worman!",
-      "url": "https://chelmsfordcityfc.com/news/welcome-to-city-ben-worman/",
-      "published": "2026-11-14T10:30:00Z"
-    },
-    {
-      "club": "Curzon Ashton",
-      "code": "CUR",
-      "short": "Curzon Ashton",
-      "domain": "curzon-ashton.co.uk",
-      "title": "Match Postponed | Quorn FC (H)",
-      "url": "https://curzon-ashton.co.uk/match-postponed-quorn-fc-h/",
-      "published": "2026-11-14T09:33:48Z"
-    },
-    {
-      "club": "AFC Telford United",
-      "code": "TEL",
-      "short": "Telford",
-      "domain": "telfordunited.com",
-      "title": "Bucks vs Clarets.. Vintage 1970!",
-      "url": "https://telfordunited.com/news/2026/11/14/bucks-vs-clarets-vintage-1970",
-      "published": "2026-11-14T08:05:25Z"
-    },
-    {
-      "club": "Maidstone United",
-      "code": "MSU",
-      "short": "Maidstone",
-      "domain": "maidstoneunited.co.uk",
-      "title": "Key info: FA Trophy Second Round",
-      "url": "https://maidstoneunited.co.uk/11/14/key-info-fa-trophy-second-round/",
-      "published": "2026-11-14T07:00:43Z"
-    },
-    {
-      "club": "York City",
-      "code": "YOR",
-      "short": "York",
-      "domain": "yorkcityfootballclub.co.uk",
-      "title": "York City Ladies Target Record Attendance Against Bradford City AFC Women",
-      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/november/14/york-city-ladies-target-record-attendance-against-bradford-city-afc-women/",
-      "published": "2026-11-14T01:01:33Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Matchday Guide: Chester (H)",
-      "url": "https://spennymoortownfc.co.uk/2026/11/14/matchday-guide-chester-h-4/",
-      "published": "2026-11-14T00:30:00Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Joel Odei-Larbi departs",
-      "url": "https://chippenhamtown.com/11/13/joel-odei-larbi-departs/",
-      "published": "2026-11-13T20:45:55Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "First Interview | Sam Clucas",
-      "url": "https://worthingfc.com/2026/11/first-interview-sam-clucas/",
-      "published": "2026-11-13T20:30:18Z"
-    },
-    {
-      "club": "Worthing",
-      "code": "WOR",
-      "short": "Worthing",
-      "domain": "worthingfc.com",
-      "title": "Sam Clucas Signs for Worthing FC",
-      "url": "https://worthingfc.com/2026/11/sam-clucas-signs-for-worthing-fc/",
-      "published": "2026-11-13T20:03:45Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "FA Youth Cup Third Round draw confirmed",
-      "url": "https://chippenhamtown.com/11/13/fa-youth-cup-third-round-draw-confirmed/",
-      "published": "2026-11-13T20:01:44Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "FA Trophy Action Away At Alfreton Town Saturday",
-      "url": "https://southportfc.net/fa-trophy-action-away-at-alfreton-town-saturday/",
-      "published": "2026-11-13T20:00:53Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "Max Thompson joins Gateshead FC",
-      "url": "https://gateshead-fc.com/max-thompson-joins-gateshead-fc/",
-      "published": "2026-11-13T20:00:35Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "PREVIEW | Hereford FC vs Brackley Town",
-      "url": "https://herefordfc.co.uk/2026/11/preview-hereford-fc-vs-brackley-town/",
-      "published": "2026-11-13T20:00:26Z"
     }
   ]
 }
