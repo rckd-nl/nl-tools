@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-11-19T09:33:42Z",
+  "generatedAt": "2026-11-19T18:42:53Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -33,6 +33,22 @@
       "ok": false,
       "count": 0,
       "error": "ConnectionError: HTTPSConnectionPool(host='braintreetownfc.org', port=443): Max retries exceeded with url: /news/feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='braintreetownfc.org', port=443): Failed to resolve 'braintreetownfc.org' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "club": "Carlisle United",
+      "domain": "carlisleunited.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
+    },
+    {
+      "club": "Gateshead",
+      "domain": "gateshead-fc.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Morecambe",
@@ -83,6 +99,14 @@
       "error": "SSLError: HTTPSConnectionPool(host='tamworthfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'tamworthfc.co.uk'. (_ssl.c:1018)\")))"
     },
     {
+      "club": "Wealdstone",
+      "domain": "wealdstone-fc.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
+    },
+    {
       "club": "Bedford Town",
       "domain": "bedfordtownfc.co.uk",
       "feed": "",
@@ -115,6 +139,14 @@
       "error": "HTTP 404"
     },
     {
+      "club": "Marine",
+      "domain": "marinefc.com",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
+    },
+    {
       "club": "Merthyr Town",
       "domain": "merthyrtownfc.co.uk",
       "feed": "https://www.merthyrtownfc.co.uk/news/feed",
@@ -145,6 +177,22 @@
       "ok": false,
       "count": 0,
       "error": "HTTP 404"
+    },
+    {
+      "club": "South Shields",
+      "domain": "southshieldsfc.co.uk",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
+    },
+    {
+      "club": "Southport",
+      "domain": "southportfc.net",
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 415"
     },
     {
       "club": "Worksop Town",
