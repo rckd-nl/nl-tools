@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-11-21T04:21:28Z",
+  "generatedAt": "2026-11-21T13:03:39Z",
   "maxItems": 100,
   "sources": [
     {
@@ -225,7 +225,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='bedfordtownfc.co.uk', port=443): Read timed out. (read timeout=25)"
+      "error": "SSLError: HTTPSConnectionPool(host='bedfordtownfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018)')))"
     },
     {
       "club": "Buxton",
@@ -582,6 +582,87 @@
   ],
   "items": [
     {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Will Dawes live on co-commentary this afternoon",
+      "url": "https://wsmafc.co.uk/will-dawes-live-on-co-commentary-this-afternoon/",
+      "published": "2026-11-21T13:00:53Z"
+    },
+    {
+      "club": "Chippenham Town",
+      "code": "CHI",
+      "short": "Chippenham",
+      "domain": "chippenhamtown.com",
+      "title": "Preview: Chippenham vs Bracknell",
+      "url": "https://chippenhamtown.com/11/21/preview-chippenham-vs-bracknell/",
+      "published": "2026-11-21T11:30:33Z"
+    },
+    {
+      "club": "Eastleigh",
+      "code": "EAS",
+      "short": "Eastleigh",
+      "domain": "eastleighfc.com",
+      "title": "Official: Akinyemi joins the Spitfires on loan",
+      "url": "https://eastleighfc.com/2026/11/official-akinyemi-joins-the-spitfires-on-loan/",
+      "published": "2026-11-21T11:30:12Z"
+    },
+    {
+      "club": "York City",
+      "code": "YOR",
+      "short": "York",
+      "domain": "yorkcityfootballclub.co.uk",
+      "title": "Dipo Akinyemi joins Eastleigh on short-term loan deal",
+      "url": "https://www.yorkcityfootballclub.co.uk/undefined/news/2026/november/21/dipo-akinyemi-joins-eastleigh-on-short-term-loan-deal/",
+      "published": "2026-11-21T11:12:47Z"
+    },
+    {
+      "club": "Tonbridge Angels",
+      "code": "TON",
+      "short": "Tonbridge",
+      "domain": "tonbridgeangels.co.uk",
+      "title": "Josh Joins From Watford",
+      "url": "https://tonbridgeangels.co.uk/josh-joins-from-watford/",
+      "published": "2026-11-21T11:00:00Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Post-Match: Rico Richards Discusses Shrimpers Debut",
+      "url": "https://southendunited.co.uk/news/2026/november/21/post-match--rico-richards-discusses-shrimpers-debut/",
+      "published": "2026-11-21T10:21:00Z"
+    },
+    {
+      "club": "Chester",
+      "code": "CHE",
+      "short": "Chester",
+      "domain": "chesterfc.com",
+      "title": "Preview: Macclesfield (H)",
+      "url": "https://chesterfc.com/11/21/preview-macclesfield-h-2/",
+      "published": "2026-11-21T10:14:05Z"
+    },
+    {
+      "club": "Southend United",
+      "code": "SOU",
+      "short": "Southend",
+      "domain": "southendunited.co.uk",
+      "title": "Post-Match: Kieron Dyer Reflects On Boreham Wood Defeat",
+      "url": "https://southendunited.co.uk/news/2026/november/21/post-match--kieron-dyer-reflects-on-boreham-wood-defeat/",
+      "published": "2026-11-21T10:03:19Z"
+    },
+    {
+      "club": "Maidstone United",
+      "code": "MSU",
+      "short": "Maidstone",
+      "domain": "maidstoneunited.co.uk",
+      "title": "Key info: Farnham Town",
+      "url": "https://maidstoneunited.co.uk/11/21/key-info-farnham-town/",
+      "published": "2026-11-21T07:00:03Z"
+    },
+    {
       "club": "Hereford",
       "code": "HER",
       "short": "Hereford",
@@ -784,7 +865,7 @@
       "code": "MSU",
       "short": "Maidstone",
       "domain": "maidstoneunited.co.uk",
-      "title": "Friday Interview",
+      "title": "The Friday Interview",
       "url": "https://maidstoneunited.co.uk/11/20/friday-interview-8/",
       "published": "2026-11-20T16:01:16Z"
     },
@@ -1399,87 +1480,6 @@
       "title": "Live Screening: Woking FC vs Worthing FC",
       "url": "https://worthingfc.com/2026/11/live-screening-woking-fc-vs-worthing-fc/",
       "published": "2026-11-19T16:46:28Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Half-Season Tickets Now Available!",
-      "url": "https://torquayunited.com/half-season-tickets-now-available-2/",
-      "published": "2026-11-19T16:45:11Z"
-    },
-    {
-      "club": "Torquay United",
-      "code": "TOR",
-      "short": "Torquay",
-      "domain": "torquayunited.com",
-      "title": "Jimmy Ball | Braintree Town (A) | Press Call",
-      "url": "https://torquayunited.com/jimmy-ball-braintree-town-a-press-call/",
-      "published": "2026-11-19T16:32:07Z"
-    },
-    {
-      "club": "Weston-super-Mare",
-      "code": "WSM",
-      "short": "Weston-s-Mare",
-      "domain": "wsmafc.co.uk",
-      "title": "Supporters’ Minibus seats to Tonbridge Angels available",
-      "url": "https://wsmafc.co.uk/supporters-minibus-seats-to-tonbridge-angels-available/",
-      "published": "2026-11-19T16:30:59Z"
-    },
-    {
-      "club": "Dorking Wanderers",
-      "code": "DOR",
-      "short": "Dorking",
-      "domain": "dorkingwanderers.com",
-      "title": "Hart Is A Wanderer!",
-      "url": "https://dwfc.co.uk/2026/11/hart-is-a-wanderer/",
-      "published": "2026-11-19T16:30:53Z"
-    },
-    {
-      "club": "Southend United",
-      "code": "SOU",
-      "short": "Southend",
-      "domain": "southendunited.co.uk",
-      "title": "Pre-Match: Leon Chambers-Parillon Looks Ahead To Boreham Wood",
-      "url": "https://southendunited.co.uk/news/2026/november/19/pre-match--leon-chambers-parillon-looks-ahead-to-boreham-wood-clash/",
-      "published": "2026-11-19T16:30:12Z"
-    },
-    {
-      "club": "Ebbsfleet United",
-      "code": "EBB",
-      "short": "Ebbsfleet",
-      "domain": "ebbsfleetunited.co.uk",
-      "title": "Boxing Day kick-off brought forward",
-      "url": "https://ebbsfleetunited.co.uk/boxing-day-kick-off-brought-forward/",
-      "published": "2026-11-19T16:30:00Z"
-    },
-    {
-      "club": "Macclesfield",
-      "code": "MAC",
-      "short": "Macclesfield",
-      "domain": "macclesfieldfc.com",
-      "title": "LIVE SPORT IN BAR TWENTY SEVEN THIS WEEKEND",
-      "url": "https://macclesfieldfc.com/latest-news/live-sport-in-bar-twenty-seven-this-weekend-6/",
-      "published": "2026-11-19T16:00:51Z"
-    },
-    {
-      "club": "Chippenham Town",
-      "code": "CHI",
-      "short": "Chippenham",
-      "domain": "chippenhamtown.com",
-      "title": "Lewis Royston loaned to Royal Wootton Bassett",
-      "url": "https://chippenhamtown.com/11/19/lewis-royston-loaned-to-royal-wootton-bassett/",
-      "published": "2026-11-19T16:00:38Z"
-    },
-    {
-      "club": "Southport",
-      "code": "SPT",
-      "short": "Southport",
-      "domain": "southportfc.net",
-      "title": "Christy Edwards Joins FC United Of Manchester On Loan",
-      "url": "https://southportfc.net/christy-edwards-joins-fc-united-of-manchester-on-loan/",
-      "published": "2026-11-19T16:00:29Z"
     }
   ]
 }

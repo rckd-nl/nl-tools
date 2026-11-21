@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-11-21T04:21:28Z",
+  "generatedAt": "2026-11-21T13:03:39Z",
   "failures": [
     {
       "club": "Aldershot Town",
@@ -96,7 +96,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='bedfordtownfc.co.uk', port=443): Read timed out. (read timeout=25)"
+      "error": "SSLError: HTTPSConnectionPool(host='bedfordtownfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018)')))"
     },
     {
       "club": "Buxton",
