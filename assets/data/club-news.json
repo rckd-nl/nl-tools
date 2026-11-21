@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-11-20T23:23:24Z",
+  "generatedAt": "2026-11-21T04:21:28Z",
   "maxItems": 100,
   "sources": [
     {
@@ -54,10 +54,10 @@
     {
       "club": "Carlisle United",
       "domain": "carlisleunited.co.uk",
-      "feed": "https://www.carlisleunited.co.uk/rss.xml",
-      "ok": true,
-      "count": 50,
-      "error": ""
+      "feed": "",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "club": "Eastleigh",
@@ -225,7 +225,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "SSLError: HTTPSConnectionPool(host='bedfordtownfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018)')))"
+      "error": "ReadTimeout: HTTPSConnectionPool(host='bedfordtownfc.co.uk', port=443): Read timed out. (read timeout=25)"
     },
     {
       "club": "Buxton",
@@ -249,7 +249,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 202"
+      "error": "HTTP 404"
     },
     {
       "club": "Curzon Ashton",
@@ -510,10 +510,10 @@
     {
       "club": "Horsham",
       "domain": "horshamfc.co.uk",
-      "feed": "",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 202"
+      "feed": "https://www.horshamfc.co.uk/feed/",
+      "ok": true,
+      "count": 10,
+      "error": ""
     },
     {
       "club": "Maidenhead United",
@@ -581,6 +581,15 @@
     }
   ],
   "items": [
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "BACK IN BLACK | Bulls Add Third Kit to 2026/27 Lineup",
+      "url": "https://herefordfc.co.uk/2026/11/back-in-black-bulls-add-third-kit-to-2026-27-lineup/",
+      "published": "2026-11-21T00:00:44Z"
+    },
     {
       "club": "Southend United",
       "code": "SOU",
@@ -753,15 +762,6 @@
       "published": "2026-11-20T17:03:07Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "CALLUM WHELAN: \"WE'RE JUST GOING FROM STRENGTH TO STRENGTH.\"",
-      "url": "https://www.carlisleunited.co.uk/news/callum-whelan-were-just-going-strength-strength",
-      "published": "2026-11-20T16:43:12Z"
-    },
-    {
       "club": "Worthing",
       "code": "WOR",
       "short": "Worthing",
@@ -787,15 +787,6 @@
       "title": "Friday Interview",
       "url": "https://maidstoneunited.co.uk/11/20/friday-interview-8/",
       "published": "2026-11-20T16:01:16Z"
-    },
-    {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "ROB ELLIOT: \"MANAGE THE OCCASION, BUT YOU STILL HAVE TO PLAY FOOTBALL.\"",
-      "url": "https://www.carlisleunited.co.uk/news/rob-elliot-manage-occasion-you-still-have-play-football",
-      "published": "2026-11-20T16:00:00Z"
     },
     {
       "club": "Torquay United",
@@ -967,6 +958,15 @@
       "title": "Match Preview | Yeovil (A)",
       "url": "https://www.fgr.co.uk/news/match-preview-yeovil-a-2627/",
       "published": "2026-11-20T14:00:00Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Player updates",
+      "url": "https://www.horshamfc.co.uk/2026/11/20/player-updates/",
+      "published": "2026-11-20T13:41:13Z"
     },
     {
       "club": "Hornchurch",
@@ -1149,15 +1149,6 @@
       "published": "2026-11-20T11:26:33Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "VACANCY: YOUTH DEVELOPMENT PHASE COACH",
-      "url": "https://www.carlisleunited.co.uk/news/vacancy-youth-development-phase-coach",
-      "published": "2026-11-20T11:26:11Z"
-    },
-    {
       "club": "Southend United",
       "code": "SOU",
       "short": "Southend",
@@ -1275,15 +1266,6 @@
       "published": "2026-11-20T09:40:26Z"
     },
     {
-      "club": "Carlisle United",
-      "code": "CAR",
-      "short": "Carlisle",
-      "domain": "carlisleunited.co.uk",
-      "title": "MATCHDAY GUIDE: BARROW AFC (A)",
-      "url": "https://www.carlisleunited.co.uk/news/matchday-guide-barrow-afc",
-      "published": "2026-11-20T09:30:00Z"
-    },
-    {
       "club": "Truro City",
       "code": "TRU",
       "short": "Truro",
@@ -1336,6 +1318,24 @@
       "title": "Hartlepool United partners with Pool Together initiative to spread a message of kindness across the community",
       "url": "https://www.hartlepoolunited.co.uk/hartlepool-united-partners-with-pool-together-initiative-to-spread-a-message-of-kindness-across-the-community/",
       "published": "2026-11-19T21:41:01Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Horsham U18 2 Hastings United U18 0 – match report",
+      "url": "https://www.horshamfc.co.uk/2026/11/19/horsham-u18-2-hastings-united-u18-0-match-report/",
+      "published": "2026-11-19T21:27:17Z"
+    },
+    {
+      "club": "Horsham",
+      "code": "HRS",
+      "short": "Horsham",
+      "domain": "horshamfc.co.uk",
+      "title": "Dover Athletic v Horsham – match preview",
+      "url": "https://www.horshamfc.co.uk/2026/11/19/dover-athletic-v-horsham-match-preview-3/",
+      "published": "2026-11-19T21:10:55Z"
     },
     {
       "club": "Truro City",
