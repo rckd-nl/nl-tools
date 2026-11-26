@@ -1,6 +1,6 @@
 {
   "version": "v1.34",
-  "generatedAt": "2026-11-25T20:14:08Z",
+  "generatedAt": "2026-11-26T03:00:24Z",
   "maxItems": 100,
   "sources": [
     {
@@ -385,7 +385,7 @@
       "feed": "",
       "ok": false,
       "count": 0,
-      "error": "HTTP 403"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='worksoptownfc.co.uk', port=443): Max retries exceeded with url: /news/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='worksoptownfc.co.uk', port=443) at 0x74223875e190>, 'Connection to worksoptownfc.co.uk timed out. (connect timeout=25)'))"
     },
     {
       "club": "AFC Totton",
@@ -582,6 +582,42 @@
   ],
   "items": [
     {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Watch: Harrogate Town reaction",
+      "url": "https://harriers.co.uk/news/2026/11/25/watch-harrogate-town-reaction",
+      "published": "2026-11-25T22:49:37Z"
+    },
+    {
+      "club": "Weston-super-Mare",
+      "code": "WSM",
+      "short": "Weston-s-Mare",
+      "domain": "wsmafc.co.uk",
+      "title": "Owen Johnson joins Mangotsfield United on dual-registration",
+      "url": "https://wsmafc.co.uk/owen-johnson-joins-mangotsfield-united-on-dual-registration/",
+      "published": "2026-11-25T20:30:54Z"
+    },
+    {
+      "club": "Hereford",
+      "code": "HER",
+      "short": "Hereford",
+      "domain": "herefordfc.co.uk",
+      "title": "NEWS | 2025/26 Financial Year Results Update",
+      "url": "https://herefordfc.co.uk/2026/11/news-2025-26-financial-year-results-update/",
+      "published": "2026-11-25T20:30:11Z"
+    },
+    {
+      "club": "Kidderminster Harriers",
+      "code": "KID",
+      "short": "Kidderminster",
+      "domain": "harriers.co.uk",
+      "title": "Recap: Harrogate 3-1 Harriers",
+      "url": "https://harriers.co.uk/news/2026/11/25/recap-harrogate-3-1-harriers",
+      "published": "2026-11-25T19:23:41Z"
+    },
+    {
       "club": "Weston-super-Mare",
       "code": "WSM",
       "short": "Weston-s-Mare",
@@ -661,6 +697,15 @@
       "title": "SILKMEN FAN CAM: MORECAMBE (H)",
       "url": "https://macclesfieldfc.com/latest-news/silkmen-fan-cam-morecambe-h/",
       "published": "2026-11-25T18:00:32Z"
+    },
+    {
+      "club": "Farnborough",
+      "code": "FAB",
+      "short": "Farnborough",
+      "domain": "farnboroughfc.co.uk",
+      "title": "Quiz Night – Thursday 3rd December",
+      "url": "https://farnboroughfc.co.uk/2026/11/quiz-night-thursday-3rd-december/",
+      "published": "2026-11-25T18:00:21Z"
     },
     {
       "club": "Chester",
@@ -1435,51 +1480,6 @@
       "title": "Popside to be renamed in honour of Robin Stubbs",
       "url": "https://torquayunited.com/popside-to-be-renamed-in-honour-of-robin-stubbs/",
       "published": "2026-11-24T19:45:00Z"
-    },
-    {
-      "club": "Bath City",
-      "code": "BAT",
-      "short": "Bath",
-      "domain": "bathcityfc.com",
-      "title": "Watch Scott Bartlett’s Wimborne Town post-match interview",
-      "url": "https://www.bathcityfc.com/watch-scott-bartletts-wimborne-town-post-match-interview/",
-      "published": "2026-11-24T19:38:06Z"
-    },
-    {
-      "club": "Radcliffe",
-      "code": "RAD",
-      "short": "Radcliffe",
-      "domain": "radcliffefc.com",
-      "title": "Tom Carr Joins The Boro",
-      "url": "https://radcliffefc.com/tom-carr-joins-the-boro/",
-      "published": "2026-11-24T19:19:49Z"
-    },
-    {
-      "club": "Hereford",
-      "code": "HER",
-      "short": "Hereford",
-      "domain": "herefordfc.co.uk",
-      "title": "PREVIEW | Brackley Town vs Hereford FC",
-      "url": "https://herefordfc.co.uk/2026/11/preview-brackley-town-vs-hereford-fc/",
-      "published": "2026-11-24T18:34:45Z"
-    },
-    {
-      "club": "Gateshead",
-      "code": "GAT",
-      "short": "Gateshead",
-      "domain": "gateshead-fc.com",
-      "title": "David Eguaibor joins Spennymoor Town on loan",
-      "url": "https://gateshead-fc.com/david-eguaibor-joins-spennymoor-town-on-loan/",
-      "published": "2026-11-24T18:30:08Z"
-    },
-    {
-      "club": "Spennymoor Town",
-      "code": "SPE",
-      "short": "Spennymoor",
-      "domain": "spennymoortownfc.co.uk",
-      "title": "Moors Sign Attacking Duo On Loan",
-      "url": "https://spennymoortownfc.co.uk/2026/11/24/moors-sign-attacking-duo-on-loan/",
-      "published": "2026-11-24T18:28:37Z"
     }
   ]
 }
